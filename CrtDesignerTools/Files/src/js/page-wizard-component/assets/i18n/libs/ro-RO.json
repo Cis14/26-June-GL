@@ -1,0 +1,717 @@
+{
+  "CrtIconSelectorComponent": {
+    "Tooltip": "Selectaţi icon-ul"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "Regula de business este dezactivată"
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "Valoare constantă",
+    "SourceCaption": "Constanta",
+    "ValuePickerComponent": {
+      "Placeholder": "Specificați valoarea"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "Selecteaza valoare",
+      "Label": "Valoare",
+      "Actions": {
+        "OkButtonCaption": "Ok",
+        "CancelButtonCaption": "Anulati"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Incarcare..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copiat"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nimic de afișat încă ",
+      "Subhead": "Vă rugăm să adăugați mai întâi date"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat început: {0} de",
+        "EndDate": "Chat completat: {0} de"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Canalul nu poate fi șters, există chat-uri active sau chat-uri la distribuție. Vă rugăm să finalizați mai întâi conversațiile și să încercați din nou."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Încărcare"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Eroare",
+      "Default": "Tooltip"
+    }
+  },
+  "Input": {
+    "Readonly": "Camp non-editabil",
+    "ShowPassword": "Afișare parolă",
+    "HidePassword": "Ascunde parola"
+  },
+  "Carousel": {
+    "NoData": "Fara date",
+    "PrevButtonCaption": "Element anterior",
+    "NextButtonCaption": "Pas următor"
+  },
+  "ComboBox": {
+    "Readonly": "Camp non-editabil",
+    "InvalidValueSyntax": "Vă rugăm să selectați valoarea din listă",
+    "NoData": "Fara date",
+    "EmptyDisplayValue": "Nicio valoare afișată",
+    "AddNewRecord": "Adauga nou",
+    "IsGoToSourceAllowedTooltip": "Mergeți la lista de înregistrări",
+    "CheckAll": "Verifică tot",
+    "ClearAll": "Șterge tot",
+    "SelectValue": "Selectați valoarea",
+    "ClearValue": "Șterge valoarea",
+    "OpenSection": "Deschide secțiunea"
+  },
+  "DataGrid": {
+    "AddColumns": "Adaugă coloane",
+    "ColumnToolbar": {
+      "Hide": "Ascunde",
+      "Freeze": "Îngheață",
+      "Unfreeze": "Dezgheață",
+      "Rename": "Redenumeste",
+      "Title": "Acțiuni coloană",
+      "Edit": "Propietati",
+      "SortAscending": "Sortare ascendentă",
+      "SortDescending": "Sortare descrescătoare",
+      "ClearSorting": "Șterge sortarea",
+      "AriaLabel": "Acțiuni pentru coloane"
+    },
+    "RowToolbar": {
+      "Open": "Deschideti",
+      "Copy": "Copiati",
+      "Delete": "Stergere",
+      "RunBusinessProcess": "Rulează procesul de afaceri",
+      "Title": "Acțiuni rând"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Acțiuni listă pentru",
+      "Title": "Acțiuni listă",
+      "DataGridSettingsLabel": "Setări generale de listă",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "Noile setări implicite pentru liste vor fi salvate pentru toți utilizatorii. Continuați?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "Noile setări implicite pentru liste vor fi salvate și vor înlocui setările curente pentru toți utilizatorii. Continuați?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Refacere setari implicite",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Setările listei implicite au fost restaurate cu succes"
+      }
+    },
+    "AddColumnsTo": "Adaugă coloane la",
+    "Title": "Listă {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Coloana a fost adăugată cu succes",
+      "ColumnsAddedSuccessfully": "Coloanele au fost adăugate cu succes",
+      "ColumnHiddenSuccessfully": "Coloană ascunsă cu succes",
+      "ColumnFrozenSuccessfully": "Coloana a fost îngheţată cu succes",
+      "ColumnUnfrozenSuccessfully": "Coloana dezînghețată cu succes",
+      "ColumnChangedSuccessfully": "Coloana a fost modificată cu succes"
+    }
+  },
+  "DataTable": {
+    "NoData": "Fara date",
+    "NoColumns": "Nicio coloană adăugată",
+    "Hints": {
+      "Sort": "Sortează",
+      "StartEditing": "Editare",
+      "ReadonlyCell": "Camp non-editabil",
+      "CancelChanges": "Renunțați",
+      "AddItem": "Adauga inregistrare noua",
+      "SortWithCaption": "Sortează {0}",
+      "NotSorted": "în prezent nu este sortat",
+      "SortedAscending": "în prezent sortat ascendent",
+      "SortedDescending": "în prezent sortate descrescător",
+      "SortAscending": "Sortare ascendentă",
+      "SortDescending": "Sortare descrescătoare",
+      "RowControls": "Controale pentru rânduri"
+    },
+    "SaveItemsChanges": "Salvează tot",
+    "CancelItemsChanges": "Renunțați",
+    "AddItem": "Nou",
+    "BulkActions": {
+      "MoreActions": "Mai multe acțiuni",
+      "AriaLabel": "Acțiuni bulk pentru {0}"
+    },
+    "RowsSelection": {
+      "Selected": "selectat",
+      "SelectAll": "Selectați tot",
+      "ClearSelection": "Ștergeți selecția",
+      "SelectRow": "Selectați rândul",
+      "RowsSelected": "Rânduri selectate: {0}"
+    },
+    "NotFoundColumn": "Coloana nu a fost găsită",
+    "ColumnSticky": "Coloană înghețată",
+    "StatusBar": {
+      "AriaLabel": "Editează acțiunile pentru {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Schimbă lățimea",
+      "ChangeWidthOf": "Schimbă lăţimea {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "Fara date",
+    "MenuActions": "Acțiuni",
+    "DateAdded": "Data adăugată",
+    "SelectItem": "Selectați elementul",
+    "Item": {
+      "ActionsButtonCaption": "Acțiuni item"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Da",
+      "False": "Nu"
+    }
+  },
+  "FileInput": {
+    "Delete": "Stergere",
+    "Cancel": "Anulati",
+    "Attach": "Atașează",
+    "FileIcon": "Icon fișier",
+    "EmptyFileName": "Nume fișier gol",
+    "MaxFileSizeLimitReached": "Limita maximă de mărime a fișierului este atinsa ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Salveaza",
+    "CancelButton": "Anulati",
+    "ColumnProperties": "Proprietățile coloanei",
+    "Title": "Titlu",
+    "FilterHeader": "Cum sa se filtreze inregistrarile",
+    "SortingHeader": "Sortați înregistrările",
+    "SortColumn": "Sortati in functie de",
+    "WhatToDisplay": "Ce sa afisezi",
+    "AggregationColumn": "Coloana",
+    "SortOrder": "Ordinea sortării",
+    "SetupFilters": "Setare filtre",
+    "EditFilters": "Editează filtrele"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Trage fişierele aici",
+      "Description": "sau utilizați",
+      "Upload": "Încarcă"
+    },
+    "RowToolbar": {
+      "Download": "Descărcare"
+    }
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Nicio valoare afișată"
+  },
+  "SmartDateTimeFormat": {
+    "At": "la",
+    "TodayAt": "Azi la {0}",
+    "YesterdayAt": "Ieri la {0}",
+    "DayBeforeYesterdayAt": "Alaltaieri la {0}"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Deschide link-ul"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Trimiteti email-ul"
+  },
+  "ImageInput": {
+    "Alt": "Imagine câmp",
+    "Upload": "Încarcă",
+    "Clear": "Sterge",
+    "Change": "Modificați",
+    "AltAbbreviation": "Imagine abreviere",
+    "AltIcon": "Placeholder pentru câmp gol"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mth",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Închide fila"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Ruleaza proces",
+      "SuccessMessage": "Procesul a fost rulat cu succes",
+      "NotConfiguredQuickProcessesMessage": "Procesele rapide executate nu sunt încă configurate",
+      "OtherProcessesCaption": "Alte procese"
+    },
+    "Settings": {
+      "Title": "Setari"
+    },
+    "UserProfile": {
+      "Title": "Profilul tau",
+      "MenuItems": {
+        "Profile": "Profilul tau",
+        "Logout": "Iesire",
+        "OrganizationProfile": "Profilul organizației"
+      }
+    },
+    "New": {
+      "Title": "Nou",
+      "NoItemTitle": "Crearea rapidă de înregistrări nu este încă configurată"
+    },
+    "Help": {
+      "Title": "Nevoie de ajutor",
+      "SupportSubject": "Intrebare despre",
+      "MenuItems": {
+        "OnlineHelp": "Ajutor online",
+        "NeedHelp": "Nevoie de ajutor",
+        "ExternalAccess": "Acordă acces la asistență",
+        "ReleaseNotes": "Note de lansare"
+      },
+      "AccessGrantedMessage": "Acces acordat",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite:  {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion:  {3}%0D%0ALocalization: {4}%0D%0APage: {5}",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication  panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications  panel"
+    },
+    "Logo": {
+      "Title": "Mergi pe desktop"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Configurare"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Setări adiționale"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Eroare de compilare",
+      "WorkspaceExplorerTemplate": "Pentru a vizualiza o listă de erori de compilare şi a le rezolva, vizitaţi secţiunea <a href ='{0}' target='_blank'>Configurare</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Panou de navigare"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Detalii eroare:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Mod de configurare limitat",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Cautati..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Restrânge panoul de navigare",
+      "ExpandCaption": "Extinde panoul de navigare"
+    },
+    "SearchResultsCaption": "Rezultate cautare",
+    "EmptySearchResult": {
+      "Title": "Nu există înregistrări care să se potrivească cu criteriile de căutare.",
+      "Subhead": "Ștergeți sau modificați criteriile de căutare."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Citeste mai mult"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} a trecut",
+    "timeBeforeCountStartTpl": "{0} înainte de a începe numărătoarea inversă",
+    "overdueTpl": "{0} a expirat",
+    "timeLeftTpl": "{0} a rămas",
+    "timeIsUpTpl": "Timpul a expirat",
+    "waitingForStartDateTpl": "Asteapta data de start",
+    "dateNotSet": "0ore 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Toate",
+      "SelectMenuLabel": "Căutare după coloana",
+      "Title": "Selectați coloana filtrului"
+    },
+    "ClearIconTitle": "Golire căutare"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Da",
+    "No": "Nu",
+    "Save": "Salvează",
+    "DoNotSave": "Nu salvați",
+    "Cancel": "Anulează",
+    "Delete": "Șterge",
+    "Close": "Închide",
+    "Notification": "Notificare",
+    "Overwrite": "Suprascrie",
+    "Clear": "Sterge",
+    "Restore": "Restabileste",
+    "ProcessSchemaSavedWithValidationError": "Schema de proces a fost salvată cu succes, dar erorile de validare o împiedică să ruleze."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Salvat cu succes",
+      "ErrorOnSave": "Eroare la încercarea de aplicare a modificărilor"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Sunteți sigur că doriți să ștergeți \"{0}\" desktop?",
+        "Error": {
+          "Deletion": "Eroare la ștergerea desktop-ului",
+          "Configuration": "Eroare în timpul configurării"
+        },
+        "Success": "Desktop \"{0}\" a fost șters cu succes"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Căutați..."
+  },
+  "AllowedResults": {
+    "Caption": "Rezultate permise",
+    "TaskCompleted": "Sarcina a fost finalizată."
+  },
+  "LicenseIndicator": {
+    "Title": "Licență necesară"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Adaugă tag",
+    "CreateNewTagButtonCaption": "Creați un tag nou"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Aveți modificări nesalvate care vor fi pierdute. Continuați?"
+    },
+    "List": {
+      "Message": "Această listă conține modificări nesalvate. Acestea vor fi pierdute dacă continuați. Salvează modificările?"
+    },
+    "Page": {
+      "Message": "Această pagină conține modificări nesalvate. Acestea vor fi pierdute dacă continuați. Salvați modificările?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Editare înregistrare",
+    "DeleteItemActionButtonCaption": "Ștergeți înregistrarea",
+    "NoData": "Fara date"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Nu există date",
+      "CloseButtonTitle": "Închide"
+    },
+    "AriaLabel": "Elemente selectate",
+    "Chip": {
+      "RemoveButtonCaption": "Indepărtare"
+    },
+    "AriaLabelFor": "Articolele selectate pentru"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "Componenta afișează indicații și instrucțiuni pentru ca utilizatorii să acceseze informații din baza de cunoștințe pentru anumite etape dinamice ale cazului",
+    "Placeholder": {
+      "Title": "Nu sunt găsite articole relevante din playbook",
+      "Description": "Vă rugăm să creați un articol relevant pentru etapa actuală a cazului dinamic în secțiunea Playbooks"
+    },
+    "Actions": {
+      "Back": "Înapoi",
+      "OpenInDialog": "Deschide în fereastră modală"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Închide",
+        "OpenPage": "Deschide într-un tab nou"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Autorizarea a fost refuzată. Încercați din nou mai târziu sau cereți ajutor administratorului.",
+      "FormatError": "Format invalid în cerere. Asigurați-vă că inputul este structurat corect și verificați parametrii de ieșire ai acțiunilor dumneavoastră.",
+      "LimitError": "Limita de token a fost atinsă, continuarea lucrului cu Creatio AI este blocată. Contactați administratorul pentru a reînnoi token-urile Creatio AI.",
+      "ServiceAvailabilityError": "Serviciul este temporar indisponibil. Încercați din nou mai târziu.",
+      "ExecutionError": "A apărut o eroare la procesarea cererii dvs. Încercați din nou sau cereți ajutorul administratorului.",
+      "ConfigurationError": "Problema de configurare detectată. Verificați setările sistemului sau cereți ajutorul administratorului.",
+      "UnknownError": "A apărut o eroare necunoscută. Încercați din nou mai târziu sau cereți ajutor administratorului.",
+      "CharacterLimitExceededError": "Limita de caractere în interogarea utilizatorului a fost atinsă. Verificați setările sistemului sau cereți ajutorul administratorului.",
+      "ToolCallsInvokesLimitExceeded": "Limită de apeluri de funcție depășită: prea multe apeluri automate consecutive fără input de la utilizator sau executarea repetată a aceleași funcții.",
+      "InsufficientPermissions": "Nu aveți permisiunea de a utiliza acest agent sau abilitate. Vă rugăm să contactați administratorul pentru a configura accesul.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Nu există date",
+    "Boolean": {
+      "Yes": "Da",
+      "No": "Nu"
+    },
+    "String": {
+      "Placeholder": "Introduceţi textul"
+    },
+    "Numeric": {
+      "Placeholder": "Introduceți numărul",
+      "To": "până la",
+      "MaxValueError": "Valoarea este peste valoarea maximă",
+      "MinValueError": "Valoarea este sub valoarea minimă"
+    }
+  },
+  "Conversation": {
+    "Caption": "Conversatie",
+    "Copilot": {
+      "TypingMessage": "Generarea răspunsului",
+      "Action": {
+        "Replace": "Înlocuiește selecția",
+        "InsertAbove": "Introduceți deasupra",
+        "InsertBelow": "Introduceți mai jos"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "Șterge",
+    "Export": "Exportă în Excel",
+    "AddTag": "Adaugă tag",
+    "RemoveTag": "Șterge tag",
+    "RowsSelection": {
+      "Selected": "selectat",
+      "SelectAll": "Selectați tot",
+      "ClearSelection": "Ștergeți selecția"
+    },
+    "Merge": "Unire"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumb-uri"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "cu notificări"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Număr"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Restrânge",
+    "Expand": "Extinde"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Bară de progres"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Statusul conversației",
+    "CtiStatesMenuCaption": "Starea telefoniei"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "Nu există înregistrări care să corespundă criteriilor de filtrare",
+    "NoDataBySearchFilterSubtitle": "Curăță filtrul sau schimbă condițiile "
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} just updated {1}. Please refresh the page to see changes.",
+    "Connections": "{0} connections",
+    "Reload": "Reload"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} started editing current {1}",
+    "ModeEditing": "Editing",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Viewing",
+    "ModeSaved": "Saved",
+    "ModeSavedTime": "Saved ({0} ago)",
+    "ModeSavedRecently": "Saved recently",
+    "ShowAllUsers": "Show all users",
+    "AllUsersDialog": {
+      "Title": "Utilizatori activi",
+      "Close": "Închideți",
+      "Columns": {
+        "ContactName": "Contact",
+        "Email": "E-mail",
+        "SchemaName": "Editing area",
+        "Mode": "Mod"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "pagină",
+    "Entity": "entitate",
+    "Addon": "addon"
+  },
+  "Components": {
+    "ColorPicker": {
+      "SelectedColor": "Culoarea selectată",
+      "Readonly": "Câmp ne-editabil"
+    }
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Selector culoare",
+        "AppearanceGroup": "Aspect",
+        "PickerModeRadioButtonCaption": "Paletă",
+        "PickerMode": {
+          "Basic": "Paletă de bază",
+          "Extended": "Paletă extinsă"
+        }
+      }
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Luna urmatoare",
+    "AriaPrevMonthLabel": "Luna anterioară",
+    "AriaNextYearLabel": "Anul următor",
+    "AriaPrevYearLabel": "Anul anterior",
+    "Readonly": "Câmp ne-editabil",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Calendar",
+    "TimePickerIconTitle": "Timp"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Mod afișare bară de instrumente",
+        "Inline": "Inline",
+        "Classic": "Clasic",
+        "AlwaysShowToolbar": "Întotdeauna arată opțiunile de formatare"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Opțiunile de formatare (Alt+F10)",
+    "UploadAttachments": "Selectați atașamentele",
+    "SelectTemplate": "Inserare template",
+    "SelectionActions": {
+      "AskCopilot": "Întreabă Creatio.ai",
+      "Friendly": "Prietenos",
+      "Formal": "Formal",
+      "Shorten": "Scurtează",
+      "Extend": "Extinde",
+      "Rephrase": "Reformulează textul",
+      "RewriteCaption": "Rescriere text"
+    },
+    "TableOfContents": {
+      "Title": "Tabelul conținutului",
+      "Placeholder": "O tabelă de conținut bazată pe titlurile de pe această pagină va apărea aici odată ce a fost publicată."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Salvează",
+    "OpenLinkButtonCaption": "Deschide într-un tab nou",
+    "CloseLinkButtonCaption": "Închideți",
+    "UnlinkLinkButtonCaption": "Deconectare",
+    "LinkLabelCaption": "Adresa link-ului",
+    "TextLabelCaption": "Text de afișat"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Introduce video",
+    "PasteUrlTab": "Lipire URL",
+    "UploadFileTab": "Încărcați fișierul",
+    "EmbedCodeTab": "Cod încorporat",
+    "DialogDescription": "Acest videoclip va fi încorporat la 640 de pixeli lățime.<br>Acest videoclip încorporat va include un link.",
+    "SaveButton": "Inserare video",
+    "CancelButton": "Anulare",
+    "UploadButton": "Încărcați fișierul",
+    "InputPlaceholder": "Lipiţi aici",
+    "DragAndDropPlaceholder": "Fişier Drag-and-drop aici sau",
+    "NotVideoFile": "Fișierul inserat nu este un videoclip, vă rugăm să selectați un fișier de tip videoclip.",
+    "ConfirmMessage": "Această pagină conține modificări nesalvate. Acestea vor fi pierdute dacă închideți pagina. Salvați modificările?"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nu există nicio pagină pentru înregistrarea nouă sau existentă. Administratorul de sistem trebuie să verifice setările butonului din Freedom UI",
+    "GoToEntityDesignerMessage": "Pentru configurarea paginilor mergeți la URL: {0}"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Vă rugăm să selectați valoarea din listă",
+      "SelectionWindowMessage": "Vă rugăm să selectaţi valoarea din listă sau să căutaţi folosind fereastra lookup-ului"
+    },
+    "Required": {
+      "Message": "Introdu o valoare"
+    },
+    "MaxLength": {
+      "Message": "Lungimea maximă a textului a fost depășită ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Lungimea minimă a textului nu a fost atinsă ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format dată și oră invalid"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format dată invalid"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format orar invalid"
+    },
+    "RegExp": {
+      "Message": "Format valoare invalid"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Codul trebuie să înceapă cu {{schemaNamePrefix}}  prefix.",
+      "OnlySchemaNamePrefixMessage": "Introduceți cel puțin încă un simbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Folosiți simbolurile: a-z, A-Z, 0-9, underscore sau dash. Doar litere pot fi primul."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Valoarea '{{controlValue}}' există deja în coloana 'Cod'."
+    },
+    "PhoneNumber": {
+      "Message": "Număr de telefon invalid"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Coloană eliminată",
+    "ValidationErrorMessageSingleErrorField": "Câmp: {0}. Eroare: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Câmpuri: {0}. Eroare: {1}",
+    "RefreshModelDataConflict": "Creatio are date noi pentru pagina curentă. Pentru a o vizualiza, salvați sau anulați modificările și reîmprospătați pagina.",
+    "WarningModelsWithCircularDependencies": "Unele modele au dependențe circulare și nu au fost încărcate",
+    "LoadingModelErrorMessage": "A apărut o eroare în timpul executării interogării",
+    "ErrorMessageOnEmptyRelationColumn": "Nu se poate salva pagina. Completați câmpul {{caption}} sau goliți datele din câmpurile asociate pentru a salva pagina."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Datele au fost actualizate"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Descrie clar și concis obiectivul utilizatorului. Detaliază pașii necesari pentru a atinge obiectivul utilizatorului. Schițează rezultatul așteptat de la LLM. Aceasta ar trebui să includă orice context sau informație necesară pe care LLM-ul trebuie să o cunoască.\n\n## Reguli Generale\n1. Nu poți crea obiecte noi fără să confirmi explicit cu utilizatorul.\n2. Regula 2: ...\n3. ...\n\n## Restricții Generale\n1. Evită să faci presupuneri despre intenția utilizatorului; clarifică cererile atunci când este necesar.\n2. Restricția 2: ...\n3. ...\n\n## Cerințe pentru Ieșire\n1. Ieșirea trebuie să fie mai mică de 300 de simboluri și nu mai mult de 2-3 propoziții.\n2. Cerința 2: ...\n3. ...\n\n## Fluxul Procesului\n1. Folosește contextul paginii curente pentru a citi datele și câmpurile paginii. Pe baza acelor informații ...\n2. Pasul 2: ...\n3. ..."
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Apelați"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Arată originalul",
+      "Original": "Tradu",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  }
+}

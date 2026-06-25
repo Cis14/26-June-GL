@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Ładowanie..."
+  },
+  "CopyClipboard": {
+    "Copied": "Skopiowano"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nie ma jeszcze nic do wyświetlenia ",
+      "Subhead": "Proszę najpierw dodać dane"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Rozpoczęto czat: {0} przez",
+        "EndDate": "Czat zakończony: {0} przez"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Ładowanie"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Błąd",
+      "Default": "Podpowiedź"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nie ma strony dla nowego lub istniejącego wpisu. Administrator systemu musi sprawdzić ustawienia przycisków w interfejsie Freedom UI",
+    "GoToEntityDesignerMessage": "Aby skonfigurować strony, przejdź do adresu URL: {0}"
+  }
+}

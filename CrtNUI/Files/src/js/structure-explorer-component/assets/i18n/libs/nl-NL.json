@@ -1,0 +1,35 @@
+{
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "There is no page for new or existing record. System administrator must check the button settings in the Freedom UI",
+    "GoToEntityDesignerMessage": "To set up pages go to URL: {0}"
+  },
+  "SkeletonLoader": {
+    "Loading": "Laden..."
+  },
+  "CopyClipboard": {
+    "Copied": "Gekopieerd"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nog niets te tonen",
+      "Subhead": "Voeg alsjeblieft eerst gegevens toe"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat gestart: {0} door",
+        "EndDate": "Chat voltooid: {0} door"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Aan het laden"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Fout",
+      "Default": "Tooltip"
+    }
+  }
+}

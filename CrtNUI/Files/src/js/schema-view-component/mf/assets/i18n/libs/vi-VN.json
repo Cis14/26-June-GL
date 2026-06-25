@@ -1,0 +1,2252 @@
+{
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Select desktop",
+    "EditDesktop": "Edit desktop",
+    "UseHotkeys": "Use Ctrl+Shift+E to edit desktop"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Not valid parameters",
+    "ServiceResult": {
+      "ErrorMessage": "An error occurred. Please contact the system administrator"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "Tagged {{ count }} item(s)",
+      "RemoveTagsMessage": "Untagged {{ count }} item(s)",
+      "AddTagsSuccessfulRunProcess": "Bulk tagging process started for the chosen item(s). This might take some time",
+      "RemoveTagsSuccessfulRunProcess": "Bulk remove tags process started for the chosen item(s). This might take some time"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "Added {{ count }} record(s) in the folder(s)",
+      "RemoveRecordsMessage": "Removed {{ count }} record(s) from the folder(s)"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "The action has successfully started",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "This action needs at least one record to run. Please select the records you want to apply it to and try again"
+    },
+    "ProcessStarted": "Process started",
+    "StartingProcessAnnounceMessage": "Starting a process, please wait..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Bạn có muốn xóa bản ghi đã chọn?",
+    "DeleteRecordsConfirmation": "Bạn có chắc chắn muốn xóa các bản ghi đã chọn?",
+    "SaveSummariesForAll": "Save summary settings for all users?",
+    "ResetSummaries": "Restore default summary settings?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "Insufficient rights to delete records in the '{0}' object",
+    "UnableToDeleteSelectedRecord": "Unable to delete selected record",
+    "SelectRecordsToDelete": "Select records to delete",
+    "SettingsErrorMessage": "Unable to execute the action.\n\rSystem administrator must check the button settings in the Freedom UI Designer.",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "You do not have permission to perform this operation.\nPlease contact your system administrator. Check access to the export object and permission to perform the system operation.",
+      "FileGenerationMessage": "Generating export file"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Insufficient permissions to access the change log. Contact your system administrator.",
+      "SourceIsNotSpecifiedMessage": "Object or data source is not specified for the action \"Open change log\". Contact your system administrator.",
+      "RecordIsNotSelectedMessage": "Select a record to open its change log.",
+      "ChangeLogIsNotTurnedOnTitle": "Turn on logging",
+      "ChangeLogIsNotTurnedOnMessage": "Logging is currently off for {0}. Do you want to turn logging on?",
+      "ChangeLogIsTurnedOffMessage": "Logging is currently off for {0}. Contact your system administrator.",
+      "RecordIsNotSavedMessage": "Save a record first to open its change log."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "{0} MB maximum file size limit exceeded.\n\r\n\r Files:\n- {1}",
+      "NoConnectedFileList": "The file upload destination is not set.\n\rPlease choose the destination in the button settings.",
+      "InvalidRequestParams": "Unable to upload the file(s) as the page component has not been set up yet. The system administrator can finish the setup in the Freedom UI designer.",
+      "ChangeFileSizeInfoMessage": "You can increase the maximum file size in the \"Attachment max size\" system setting.",
+      "FileListHeader": "Files",
+      "MaxFileSizeExceededExceptionMessage": "{0} MB maximum file size limit exceeded.",
+      "UnknownServerError": "Something went wrong.\n\rPlease try uploading the file again.",
+      "AttachedToUnsavedRecord": "Unable to attach the files to the record that has not been created yet. Please create the record before uploading the files",
+      "InvalidExtension": {
+        "Deny": "The [{0}] file extension is forbidden by security settings. If you need to work with such files, please contact your system administrator to remove the extension from the [File extensions DenyList] (FileExtensionsDenyList) system setting",
+        "Allow": "The [{0}] file extension is forbidden by security settings. If you need to work with such files, please contact your system administrator to add the extension to the [File extensions AllowList] (FileExtensionsAllowList) system setting"
+      },
+      "EmptyFileMessage": "You are trying to upload empty files.\n\rPlease choose files with content.",
+      "SingleUploadInProgress": "The file {0} is still uploading. Please wait until the upload is complete.",
+      "MultipleUploadsInProgress": "Some files are still uploading. Please wait until the uploads are complete ({0} and {1} more)."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "{0} MB maximum file size limit exceeded.",
+      "UnknownUploadError": "Unknown upload error. Please contact the system administrator.",
+      "Announcement": {
+        "Uploaded": "Image uploaded",
+        "Deleted": "Image deleted"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Action error.\nContact your system administrator. Check the action settings in System Designer."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Action error.\nContact your system administrator. Check the action settings in System Designer."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Select records to add tags",
+      "SelectRecordsToRemoveRecordsMessage": "Select records to remove tags"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Select records to add to the static folder",
+      "SelectRecordsToRemoveRecordsMessage": "Select records to remove from the static folder"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} file uploaded",
+      "Deleted": "{0} file deleted"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "File '{0}' is not fully uploaded",
+      "FileDownloadErrorMessage": "File '{0}' could not be downloaded. It may have been deleted, is corrupted, or you do not have permission to access it."
+    },
+    "OK": "OK"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Add tag",
+    "RemoveTagCaption": "Remove tag"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "The report can not be printed for unsaved record.",
+    "InvalidRequestCaption": "Action is not valid. Please check print settings.",
+    "SelectRecord": "Select record for printing report"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "It is not possible to move all selected records by this action, please select as many records as needed one by one"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Changes discarded successfully"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Record deleted successfully"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "Records deleted successfully"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "There are no available reports",
+    "GoToPrintablesSetupCaption": "Go to report setup"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Loading, please wait...",
+    "AfterSchemaChangeAnnounceMessage": "Loading is completed"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Saving, please wait..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "The record has not been created",
+    "MergeStartedMessage": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete. Please reload the record afterward to retrieve the updated data."
+  },
+  "MarketingCampaignContent": {
+    "ValidateCampaignRequest": {
+      "StartDateRequiredMessage": "Specify campaign start date and time",
+      "StartDateLessThenNowMessage": "Campaign scheduled start date and time has already passed. Please set correct value",
+      "StopDateRequiredMessage": "Specify campaign end date and time",
+      "StopDateLessThenNowMessage": "Campaign scheduled end date and time has already passed. Please set correct value",
+      "StopDateLessThenStartDateMessage": "Campaign scheduled end date is before its scheduled start date. Please set correct values",
+      "StopDateLessThenNextFireTimeMessage": "Campaign scheduled end date is before next scheduled campaign run. Please set correct value"
+    },
+    "StopCampaignRequest": {
+      "StopConfirmationMessage": "Are you sure you want to stop the campaign?",
+      "SuccessMessage": "Campaign successfully stopped",
+      "ErrorMessage": "Error occured during campaign stop operation"
+    },
+    "StartCampaignRequest": {
+      "ScheduleConfirmationMessage": "Are you sure you want to schedule the campaign?",
+      "LaunchConfirmationMessage": "Are you sure you want to start the campaign?",
+      "SuccessMessage": "Campaign successfully launched",
+      "ErrorMessage": "Error occured during campaign start operation"
+    },
+    "DeleteCampaignRequest": {
+      "HasAudienceMessage": "Unable to delete the campaign as it includes participants",
+      "InStatusActiveMessage": "Campaign in Active status cannot be deleted. Please stop the campaign before deleting",
+      "InStatusStoppingMessage": "Campaign in Stopping status cannot be deleted. Please wait a while for the campaign to stop before deleting it",
+      "InStatusScheduledMessage": "Campaign in Scheduled status cannot be deleted. Please stop the campaign before deleting",
+      "MultipleHasAudienceMessage": "Unable to delete the selected campaigns as they contain participants",
+      "MultipleIncorrectStateMessage": "Unable to delete the selected campaigns as some of them are in the incorrect status"
+    }
+  },
+  "Input": {
+    "Readonly": "Trường không thể chỉnh sửa",
+    "ShowPassword": "Show password",
+    "HidePassword": "Hide password"
+  },
+  "Carousel": {
+    "NoData": "Không có dữ liệu",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "Trường không thể chỉnh sửa",
+    "InvalidValueSyntax": "Vui lòng chọn giá trị từ danh sách",
+    "NoData": "Không có dữ liệu",
+    "EmptyDisplayValue": "No display value",
+    "AddNewRecord": "Thêm mới",
+    "IsGoToSourceAllowedTooltip": "Go to record list",
+    "CheckAll": "Check all",
+    "ClearAll": "Clear all",
+    "SelectValue": "Select value",
+    "ClearValue": "Xóa giá trị",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "Add columns",
+    "ColumnToolbar": {
+      "Hide": "Ẩn",
+      "Freeze": "Freeze",
+      "Unfreeze": "Unfreeze",
+      "Rename": "Đổi tên",
+      "Title": "Column actions",
+      "Edit": "Các đặc tính",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "RowToolbar": {
+      "Open": "Mở",
+      "Copy": "Sao chép",
+      "Delete": "Xóa",
+      "RunBusinessProcess": "Run business process",
+      "Title": "Row actions"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "List actions",
+      "DataGridSettingsLabel": "General list settings",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Restore default settings",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "Không có dữ liệu",
+    "NoColumns": "No columns added",
+    "Hints": {
+      "Sort": "Sort",
+      "StartEditing": "Chỉnh sửa",
+      "ReadonlyCell": "Trường không thể chỉnh sửa",
+      "CancelChanges": "Discard",
+      "AddItem": "Thêm bản ghi mới",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "SaveItemsChanges": "Save all",
+    "CancelItemsChanges": "Discard",
+    "AddItem": "Mới",
+    "BulkActions": {
+      "MoreActions": "More actions",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "Select all",
+      "ClearSelection": "Clear selection",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "Column not found",
+    "ColumnSticky": "Frozen column",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Change width",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "Không có dữ liệu",
+    "MenuActions": "Các hành động",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Đồng ý",
+      "False": "Không"
+    }
+  },
+  "FileInput": {
+    "Delete": "Xóa",
+    "Cancel": "Hủy",
+    "Attach": "Attach",
+    "FileIcon": "File icon",
+    "EmptyFileName": "Empty file name",
+    "MaxFileSizeLimitReached": "Max file size limit is reached ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Drop files here",
+      "Description": "or use",
+      "Upload": "Upload"
+    },
+    "RowToolbar": {
+      "Download": "Download"
+    }
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Lưu",
+    "CancelButton": "Hủy",
+    "ColumnProperties": "Thuộc tính cột",
+    "Title": "Chức danh",
+    "FilterHeader": "How to filter records",
+    "SortingHeader": "Sort records",
+    "SortColumn": "Sắp xếp theo",
+    "WhatToDisplay": "Hiển thị cái gì",
+    "AggregationColumn": "Cột",
+    "SortOrder": "Sort order",
+    "SetupFilters": "Setup filters",
+    "EditFilters": "Edit filters"
+  },
+  "SmartDateTimeFormat": {
+    "At": "vào",
+    "TodayAt": "Today at {0}",
+    "YesterdayAt": "Hôm qua lúc {0}",
+    "DayBeforeYesterdayAt": "Ngày trước ngày hôm qua tại{0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Open link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Bạn có muốn gửi email"
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "Upload",
+    "Clear": "Dọn",
+    "Change": "Thay đổi",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mth",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "phút"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Close tab"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Chạy quy trình",
+      "SuccessMessage": "The process has been successfully run",
+      "NotConfiguredQuickProcessesMessage": "Quick processes run is not yet configured",
+      "OtherProcessesCaption": "Other processes"
+    },
+    "Settings": {
+      "Title": "Cài đặt"
+    },
+    "UserProfile": {
+      "Title": "Hồ sơ của bạn",
+      "MenuItems": {
+        "Profile": "Hồ sơ của bạn",
+        "Logout": "Thoát",
+        "OrganizationProfile": "Organization profile"
+      }
+    },
+    "New": {
+      "Title": "Mới",
+      "NoItemTitle": "Quick records creation is not yet configured"
+    },
+    "Help": {
+      "Title": "Cần hỗ trợ",
+      "SupportSubject": "Câu hỏi về",
+      "MenuItems": {
+        "OnlineHelp": "Online help",
+        "NeedHelp": "Need help",
+        "ExternalAccess": "Grant access to support",
+        "ReleaseNotes": "Release notes"
+      },
+      "AccessGrantedMessage": "Access granted",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication  panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications  panel"
+    },
+    "Logo": {
+      "Title": "Go to desktop"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Cấu hình"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions panel"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Compilation error",
+      "WorkspaceExplorerTemplate": "To view a list of compilation errors and fix them, visit <a href ='{0}' target='_blank'>Configuration section</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigation panel"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Tìm kiếm..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Collapse navigation panel",
+      "ExpandCaption": "Expand navigation panel"
+    },
+    "SearchResultsCaption": "Search results",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Đọc thêm"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passed",
+    "timeBeforeCountStartTpl": "{0} before countdown begins",
+    "overdueTpl": "{0} overdue",
+    "timeLeftTpl": "{0} left",
+    "timeIsUpTpl": "Time is up",
+    "waitingForStartDateTpl": "Waiting for start date",
+    "dateNotSet": "0hr 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Tất cả",
+      "SelectMenuLabel": "Search by column",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Đồng ý",
+    "No": "KHÔNG",
+    "Save": "Lưu",
+    "DoNotSave": "Don't save",
+    "Cancel": "Hủy",
+    "Delete": "Xóa",
+    "Close": "Đóng",
+    "Notification": "Thông báo",
+    "Clear": "Clear",
+    "Restore": "Restore",
+    "Overwrite": "Overwrite",
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running.",
+    "ProcessElementCompletedNotification": "Another user has completed this task"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Successfully saved",
+      "ErrorOnSave": "Error when trying to apply changes"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" desktop?",
+        "Error": {
+          "Deletion": "Error during desktop deletion",
+          "Configuration": "Error during configuration build"
+        },
+        "Success": "Desktop \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Search..."
+  },
+  "AllowedResults": {
+    "Caption": "Allowed results",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "License required"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Add tag",
+    "CreateNewTagButtonCaption": "Create a new tag"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "You have unsaved changes that will be lost. Continue?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Edit record",
+    "DeleteItemActionButtonCaption": "Delete record",
+    "NoData": "Không có dữ liệu"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "No data",
+      "CloseButtonTitle": "Đóng"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "Remove"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "The component displays hints and instructions for users to access information from the knowledge base for specific dynamic case stages",
+    "Placeholder": {
+      "Title": "No relevant playbook articles are found",
+      "Description": "Please set up a relevant article for the current dynamic case stage in the Playbooks section"
+    },
+    "Actions": {
+      "Back": "Trờ lại",
+      "OpenInDialog": "Open in modal window"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Đóng",
+        "OpenPage": "Open in new tab"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    },
+    "InputPlaceholder": "Type a message",
+    "SendButtonHint": "Send Message (Enter)",
+    "Caption": "Message editor",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Chat completed",
+      "ChatTransferred": "Chat transferred"
+    },
+    "MaxFilesExceeded": "Maximum number of files you can add in one iteration: {{maxCount}}",
+    "SendMessageError": "Failed to send message. Please try again"
+  },
+  "ChatSettings": {
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "The channel cannot be deleted, there are active chats or chats on distribution. Please complete the chats first and try again."
+    },
+    "History": {
+      "Captions": {
+        "StartDate": "Chat started: {0} by",
+        "EndDate": "Chat completed: {0} by"
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "No data",
+    "Boolean": {
+      "Yes": "Đồng ý",
+      "No": "KHÔNG"
+    },
+    "String": {
+      "Placeholder": "Enter text"
+    },
+    "Numeric": {
+      "Placeholder": "Enter number",
+      "To": "up to",
+      "MaxValueError": "Value is above max value",
+      "MinValueError": "Value is below min value"
+    }
+  },
+  "Conversation": {
+    "Caption": "Conversation",
+    "Copilot": {
+      "TypingMessage": "Generating response",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    },
+    "LoadPreviousChat": "Load previous chat",
+    "ChatIsCompleted": "Chat completed: {datePart}",
+    "ChatIsTransferred": "Chat transferred: {datePart} from {operatorPart} to {targetOperatorPart}",
+    "ChatTransferredToQueue": "Chat transferred: {datePart} from {operatorPart} to queue {queuePart}",
+    "ChatCompletedByAgent": "Chat completed: {datePart} by {operatorPart}"
+  },
+  "BulkActions": {
+    "Delete": "Xóa",
+    "Export": "Xuất ra Excel",
+    "AddTag": "Add tag",
+    "RemoveTag": "Remove tag",
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "Select all",
+      "ClearSelection": "Clear selection"
+    },
+    "Merge": "Merge"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Số"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Collapse",
+    "Expand": "Mở rộng"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progress bar"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Chat status",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "There are no records matching the filter criteria",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "MarketingEngagementToolsContent": {
+    "ConnectFacebookForm": {
+      "IntegrationSetupError": "Facebook lead generation is currently inactive. The system administrator can enable the Facebook integration",
+      "IntegrationWindowError": "Pop-up windows are currently blocked in your browser settings. Please enable pop-ups to proceed",
+      "DefaultSubscriptionError": "Something went wrong. Please try connecting the form again"
+    }
+  },
+  "MarketingEmailContent": {
+    "AddBulkEmailAudienceRequest": {
+      "LookupPageCaption": "Add contacts to bulk email",
+      "ImportStartedMessage": "The audience import started. The process may take some time. We'll let you know in the Notifications panel once it's done.",
+      "ErrorMessage": "Error occured during audience import",
+      "EmptyFilterMessage": "Can not add audience without filter. Please select some folder or specific records"
+    },
+    "RemoveBulkEmailAudienceRequest": {
+      "DeleteAllRecordsConfirmation": "Are you sure that you want to delete all audience from email?",
+      "RemoveStartedMessage": "Audience remove started",
+      "UnableToRemoveRecords": "Error occured during audience remove",
+      "EmptyFilterMessage": "Can not remove audience without filter. Please select specific records"
+    },
+    "OpenEmailPageRequest": {
+      "RedirectQuestionMessage": "The selected bulk email was created in Email section of the Classic UI. Do you want to be redirected to it?",
+      "RedirectCaption": "Redirect"
+    },
+    "ScheduleSendingTab": {
+      "ScheduleInfoMessage": "This email is scheduled to be sent at {0}, adjusted to your",
+      "SendRateOverlimitMessage": "The selected daily limit and delay don’t fit within 24 hours. Please reduce the delay or the daily limit."
+    },
+    "SendTestEmailPage": {
+      "DefaultLabel": "mặc định"
+    },
+    "ContactSubscribeToBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is subscribed."
+    },
+    "ContactUnsubscribeFromBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is unsubscribed."
+    },
+    "BulkEmailDelete": {
+      "WrongStatus": "Unable to delete the bulk email because its status is neither \"Draft\" nor \"Planned\"",
+      "UsedInCampaign": "Unable to delete selected record, bulk email is used in a campaign"
+    },
+    "SenderDomain": {
+      "ValidateDomainGenericErrorMessage": "Unable to validate the sender domain due to an unexpected error. Please try again or contact support if the issue persists.",
+      "Add": {
+        "SuccessMessage": "The sender domain has been added successfully.",
+        "ErrorMessage": "Unable to save the sender domain due to an unexpected error. Please try again or contact support if the issue persists."
+      },
+      "Share": {
+        "SuccessMessage": "The authorization key has been generated.",
+        "CopyToClipboardSuccessMessage": "The authorization key has been copied to clipboard.",
+        "ErrorMessage": "Unable to share the sender domain due to an unexpected error. Please try again or contact support if the issue persists."
+      },
+      "Authorize": {
+        "SuccessMessage": "The sender domain has been authorized successfully.",
+        "ErrorMessage": "Unable to authorize the sender domain due to an unexpected error. Please try again or contact support if the issue persists.",
+        "InvalidTokenMessage": "Authorization key is invalid or does not match the requesting site.",
+        "KeyIsMissing": "The authorization key is missing. Please provide a valid key and try again."
+      },
+      "CopyToClipboardSuccessMessage": "Data has been copied to clipboard.",
+      "Delete": {
+        "ConfirmationMessage": "Bạn có muốn xóa bản ghi đã chọn?",
+        "WrongStatus": "Unable to delete the sender domain because its status is neither \"Unvalidated\" nor \"Requested\"",
+        "ErrorMessage": "Unable to delete the domain. Please try again later or contact support."
+      }
+    }
+  },
+  "MarketingEventContent": {
+    "AddEventAudienceRequest": {
+      "LookupPageCaption": "Add contacts to event",
+      "ImportStartedMessage": "The audience import started. The process may take some time. We'll let you know in the Notifications panel once it's done.",
+      "ErrorMessage": "Error occured during audience import",
+      "EventNotSavedMessage": "Event must be saved first",
+      "EmptyFilterMessage": "Can not add audience without filter. Please select some folder or specific records"
+    },
+    "RemoveEventAudienceRequest": {
+      "RemoveStartedMessage": "Audience remove started",
+      "UnableToRemoveRecords": "Error occured during audience remove",
+      "EmptyFilterMessage": "Can not remove audience without filter. Please select specific records",
+      "DeleteAllRecordsConfirmation": "Are you sure that you want to delete all audience from event?"
+    }
+  },
+  "ObjectAccessRights": {
+    "OperationTypeGroup": {
+      "Read": "Permissions to read",
+      "Write": "Permissions to write",
+      "Delete": "Permissions to delete",
+      "Execute": "Permissions to execute"
+    },
+    "OperationType": {
+      "Read": "Đang đọc",
+      "ReadWithDelegate": "Read with delegate",
+      "Write": "Write",
+      "WriteWithDelegate": "Write with delegate",
+      "Delete": "Xóa",
+      "DeleteWithDelegate": "Delete with delegate",
+      "Execute": "Execute",
+      "ExecuteWithDelegate": "Execute with delegate"
+    }
+  },
+  "ResendWebhooks": {
+    "SuccessMessage": "Undelivered webhook processing has started successfully. This may take some time depending on the number of undelivered webhooks in the system.",
+    "ErrorMessage": "Failed to start undelivered webhook receiving process."
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element.",
+    "NotClickableAriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}."
+  },
+  "ChartLegend": {
+    "Title": "Legend for {{chartTitle}} chart: use arrow keys to navigate and Enter key to open context menu."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} chart for \"{{chartTitle}}\" with {{groupsCount}} groups. The chart showing \"{{groupsNames}}\". X is \"{{xLabel}}\" from {{xMin}} to {{xMax}}. Y is \"{{yLabel}}\" from {{yMin}} to {{yMax}}. Use arrow keys to navigate.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Use Enter key to open context menu."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. The chart type is Gauge. Data ranges from {{ariaMin}} to {{ariaMax}}. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Expand fullscreen for \"{{title}}\" chart.",
+      "CollapseLabel": "Collapse fullscreen for \"{{title}}\" chart."
+    },
+    "Menu": {
+      "Caption": "Menu for \"{{title}}\" chart.",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "There is no page for new or existing record. System administrator must check the button settings in the Freedom UI",
+    "GoToEntityDesignerMessage": "To set up pages go to URL: {0}"
+  },
+  "Copilot": {
+    "RewriteActionsPrompt": {
+      "AskCopilot": "You will assist with rewriting the following text, further instructions will be provided in the dialog",
+      "Friendly": "Rewrite the following text and make it more friendly",
+      "Formal": "Rewrite the following text and make it more formal",
+      "Shorten": "Rewrite the following text and shorten it",
+      "Extend": "Rewrite the following text and extend it",
+      "Rephrase": "Rewrite the following text and rephrase it"
+    },
+    "DebugInfo": {
+      "NoDebugInfo": "No debug information available"
+    },
+    "NewChatCaption": "New chat",
+    "DeleteRecordConfirmation": "Bạn có muốn xóa bản ghi đã chọn?",
+    "FileMessages": {
+      "IntentMaxSizeException": "{0} MB maximum file size limit exceeded. You can increase the maximum file size by changing the {1} system setting.",
+      "ChatMaxSizeException": "{0} MB maximum file size limit exceeded. You can increase the maximum file size by changing the {1} system setting.",
+      "IntentMissingTypeException": "File type is not specified. Please upload a file in one of the following standard text formats: {0}",
+      "ChatMissingTypeException": "File type is not specified. Please upload a file in one of the following standard text formats: {0}",
+      "IntentTypeNotSupportedException": "{0} file type is not supported. Please upload a file in one of the following standard text formats: {1}",
+      "ChatTypeNotSupportedException": "{0} file type is not supported. Please upload a file in one of the following standard text formats: {1}"
+    },
+    "MessageSent": "The message was sent.",
+    "ViewElementMessage": {
+      "SetupDetailsCaption": "Setup details"
+    },
+    "LiveAnnouncement": {
+      "ChatRenamed": "Chat renamed to {0}",
+      "MessageReceivedInCurrentChat": "{0}: {1}",
+      "MessageReceivedInAnotherChat": "New message from {0} in {1} chat",
+      "SessionCreated": "New {0} chat created",
+      "Typing": "{0} is working on it"
+    },
+    "LlmModelPage": {
+      "PleaseTypeRequiredField": "Please type connection string required field",
+      "NoLicenseToCreateLlmModel": "Unable to add model. Adding the custom model requires a separate license. For assistance, please contact support."
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Vui lòng chọn giá trị từ danh sách",
+      "SelectionWindowMessage": "Please select value from the list or search using the lookup window"
+    },
+    "Required": {
+      "Message": "Nhập một giá trị"
+    },
+    "MaxLength": {
+      "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Invalid date and time format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Invalid date format"
+    },
+    "TimePickerSyntax": {
+      "Message": "Invalid time format"
+    },
+    "RegExp": {
+      "Message": "Invalid value format"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}",
+    "RefreshModelDataConflict": "Creatio has new data for the current page. To view it, save or cancel your changes and refresh the page.",
+    "WarningModelsWithCircularDependencies": "Some models have circular dependencies and have not been loaded",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Đang tải..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nothing to show yet ",
+      "Subhead": "Please add data first"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Loading"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Lỗi",
+      "Default": "Tooltip"
+    }
+  },
+  "GoogleAnalytics": {
+    "LoginRequestTitle": "Connect google analytics",
+    "NotEnoughPermissionsMessage": "Sorry, unable to connect your google analytics account. Please grant maximum permissions to Creatio and try again.",
+    "PlatformUndefinedMessage": "Platform undefined, make sure to configure platform foe the button",
+    "ApplicationUndefinedMessage": "Application undefined, make sure to configure platform foe the button",
+    "RefreshStreamSuccessMessage": "Google Analytics streams refreshed successfully",
+    "RefreshStreamErrorMessage": "Failed to refresh Google Analytics streams. Please try again later.",
+    "RefreshStreamConfirmationTitle": "Refresh data stream list?",
+    "RefreshStreamConfirmationMessage": "Refreshing may take a moment — the system will be unavailable while updating the list",
+    "RefreshStreamConfirmationCancel": "Hủy",
+    "RefreshStreamConfirmationOk": "Làm mới",
+    "PlatformCaption": "Platform",
+    "ApplicationCaption": "Áp dụng"
+  },
+  "DigitalAdsContent": {
+    "AdPlatformLoginRequestTitle": "Connect ad platform",
+    "NotEnoughPermissionsMessage": "Sorry, unable to connect your ad account. Please grant maximum permissions to Creatio and try again.",
+    "PlatformUndefinedMessage": "Platform undefined, make sure to configure platform foe the button",
+    "ApplicationUndefinedMessage": "Application undefined, make sure to configure platform foe the button",
+    "ImportFromAdPlatformStartedMessage": "Data import from ad accounts has been started",
+    "NoConnectedAdAccountsFoundMessage": "There are no connected ad accounts for import",
+    "NoActiveAdAccountsFoundMessage": "Sorry, but we couldn’t find any ad accounts available to you. Make sure that you have access to the required accounts on the platform. Only active accounts can be connected.",
+    "PlatformInputCaption": "Platform",
+    "AppInputCaption": "Áp dụng"
+  },
+  "PageTools": {
+    "DesignButtonHint": "Edit page",
+    "ExpandButtonTitle": "Mở rộng",
+    "CollapseButtonTitle": "Collapse"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "General",
+        "SourceSchemaLabel": "Folder storage location",
+        "RootSchemaLabel": "What will folders filter?",
+        "HeaderLabel": "Folder settings",
+        "AppearanceGroup": "Appearance",
+        "BorderRadiusLabel": "Border radius",
+        "Sizes": {
+          "None": "None",
+          "Small": "Small",
+          "Medium": "Medium",
+          "Large": "Large"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Settings of the folder management menu",
+        "FolderTreeLabel": "Folder tree selection",
+        "GeneralCaption": "General"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Quick filter settings",
+        "GeneralCaption": "General",
+        "AppearanceCaption": "Appearance",
+        "ChooseFilterTypeLabel": "Choose a filter type",
+        "CaptionLabel": "Chức danh",
+        "HintLabel": "Gợi ý",
+        "CustomType": "Custom",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Tra cứu"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Toolbar display mode",
+        "Inline": "Inline",
+        "Classic": "Classic",
+        "AlwaysShowToolbar": "Always show formatting options"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Feed settings",
+        "GeneralCaption": "General",
+        "FeedTypeCaption": "How to filter records",
+        "FeedChannel": "Tin tức ESN",
+        "FeedTypeGeneral": "General",
+        "FeedTypeChannel": "Tin tức ESN",
+        "FeedTypeRecord": "Related to record",
+        "FeedDataSourceCaption": "Nguồn dữ liệu",
+        "FeedTypeUser": "Related to user",
+        "FeedTypeRecordTooltipCaption": "Feed messages will be displayed based on specific record communication.",
+        "FeedTypeGeneralTooltipCaption": "All notifications and mentions related to current user. In this mode the feed will display the posts and comments where current user was tagged or the threads he is following. For example, the feed in this mode can be added to the home page not to miss important information.",
+        "ExternalUsersGroupCaption": "Portal users",
+        "AllowExternalPostCaption": "Allow publishing for external users",
+        "ShowBlankSlateCaption": "Show blank slate"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "Chỉnh sửa",
+          "Delete": "Xóa"
+        },
+        "ChannelsCaption": "Channels",
+        "AddNewItem": "Add channel",
+        "PageCaption": "Message composer",
+        "DefaultChannelCaption": "Default channel"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "Email composer",
+        "GeneralCaption": "General",
+        "DefaultSenderType": "Default sender",
+        "DefaultMailbox": "Use default mailbox",
+        "CaseMailbox": "Use case source mailbox"
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Chat settings",
+        "GeneralCaption": "General",
+        "TooltipCaption": "You can set up this element in page source code",
+        "OpenSourceCodeButtonCaption": "Open source code"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Conversation settings",
+        "GeneralCaption": "General"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Message editor settings",
+        "GeneralCaption": "General"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Summaries settings",
+        "GeneralGroup": {
+          "Caption": "General",
+          "SelectDataSource": "Nguồn dữ liệu"
+        }
+      },
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Encrypted string"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Merge data"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Which data to merge?"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Timeline settings",
+        "ObjectsCaption": "Objects",
+        "AddObject": "Add object",
+        "ContextMenu": {
+          "Edit": "Chỉnh sửa",
+          "Delete": "Xóa"
+        },
+        "GeneralGroup": "General",
+        "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "BindToDataSourceCaption": "Nguồn dữ liệu",
+        "FiltrationCaption": "Filtration options",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "By record type",
+          "TimelineFilter_Owner": "By owner",
+          "TimelineFilter_Date": "By date",
+          "TimelineFilter_SystemMessages": "By system messages"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "General",
+        "CaptionLabel": "Chức danh",
+        "AppearanceGroup": "Appearance",
+        "LinkedColumn": "Linked column",
+        "SortedByColumn": "Sắp xếp theo",
+        "IconPosition": {
+          "OnlyIcon": "Only icon"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "Portal users",
+          "AllowExternalPostCaption": "Allow publishing for external users"
+        },
+        "FiltrationGroup": "Filtration options",
+        "OwnerColumn": "Column for owner filtering"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "Communication options settings",
+        "GeneralGroup": "General",
+        "MasterRecordCaption": "Record to bind communication options",
+        "DataSourceEntityColumn": "Nguồn dữ liệu",
+        "Editability": "Editability",
+        "EditabilityControls": {
+          "Readonly": "Read-only"
+        },
+        "LabelPositionCaption": "Title position",
+        "LabelPosition": {
+          "Auto": "Tự động",
+          "Left": "Trái",
+          "Above": "Above",
+          "Hidden": "Hidden"
+        },
+        "ShowNoDataPlaceholder": "Display placeholder when no data",
+        "AppearanceGroup": "Appearance",
+        "ColumnsCountLabel": "Number of columns",
+        "ContactEntitySchemaName": "Contact communication options",
+        "AccountEntitySchemaName": "Account communication options",
+        "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Account compact profile settings",
+        "GeneralGroup": "General",
+        "AttributeForReferenceColumn": "Nguồn dữ liệu",
+        "Editability": "Editability",
+        "EmptyAccountDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "EditabilityControls": {
+          "Readonly": "Read-only"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Contact compact profile settings",
+        "GeneralGroup": "General",
+        "AttributeForReferenceColumn": "Nguồn dữ liệu",
+        "Editability": "Editability",
+        "EmptyContactDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "EditabilityControls": {
+          "Readonly": "Read-only"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "User profile settings",
+        "GeneralGroup": "General",
+        "AttributeForReferenceColumn": "Nguồn dữ liệu",
+        "Editability": "Editability",
+        "EmptyUserProfileDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "EditabilityControls": {
+          "Readonly": "Read-only"
+        }
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Next steps settings"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini page for preview",
+        "TitleColumn": "Primary display field",
+        "StartDateColumn": "Start date column",
+        "EndDateColumn": "End date column",
+        "NotesColumn": "Field with online meeting information",
+        "PageCaption": "Calendar settings",
+        "RequiredFieldError": "This field is required",
+        "SecondaryTileFields": "Secondary tile fields",
+        "AddSecondaryFieldCaption": "Add secondary field",
+        "DisabledAddSecondaryFieldCaption": "You can add maximum 4 secondary fields",
+        "AutoScrollToCurrentTime": "Scroll to current time automatically",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Xóa"
+        },
+        "ColorizationType": {
+          "Default": "mặc định",
+          "ByField": "Automatic",
+          "ByOwner": "By User"
+        },
+        "ColorizationTypeCaption": "Tile colorization mode",
+        "ColorizationColumnCaption": "Tra cứu"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Next Best Offers settings",
+        "GeneralCaption": "General",
+        "DataSourceCaption": "Đối tượng",
+        "CaptionColumnField": "Hoãn",
+        "DescriptionColumnField": "Mô tả",
+        "InfoLabelColumnField": "Info lookup",
+        "ImageColumnField": "Ảnh",
+        "NumberTagColumnField": "Label",
+        "SortingFieldTooltip": "The items will be sorted by value from this field in descending order.",
+        "AdditionalCaption": "Additional",
+        "SpecificPageLookupField": "Which page to open?",
+        "UseSpecificPageField": "Open specific page by clicking on the caption",
+        "SpecificPageRecordIdField": "Định danh bản ghi",
+        "ViewModeCaption": "Display mode",
+        "CarouselViewMode": "Carousel",
+        "GalleryViewMode": "Gallery"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Multiselect lookup settings",
+        "GeneralGroup": {
+          "General": "General",
+          "SelectLookup": "Select lookup",
+          "MultiselectValueStorage": "Multiselect value storage",
+          "SelectColumn": "Column to display",
+          "Required": "Required",
+          "RequirementTypeItems": {
+            "No": "KHÔNG",
+            "Yes": "Đồng ý"
+          }
+        },
+        "AppearanceCaption": "Appearance",
+        "LabelPositionVariants": {
+          "Auto": "Tự động",
+          "Left": "Trái",
+          "Above": "Above",
+          "Hidden": "Hidden"
+        },
+        "TitleOnPage": "Title on page",
+        "Placeholder": "Placeholder",
+        "Tooltip": "Tooltip",
+        "LabelPosition": "Title position",
+        "EnableAddRecordCaption": "Enable adding new values",
+        "WrapCaption": "Wrapping items to the next line",
+        "Editability": "Editability",
+        "EditabilityControls": {
+          "Readonly": "Read-only"
+        },
+        "LookupStaticFilterLabel": "Apply static filter for lookup"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Approvals settings",
+        "SchemaNameLabel": "Which records to approve?",
+        "GeneralGroup": "General",
+        "AppearanceGroup": "Appearance",
+        "HiddenWhenNoData": "Hidden when no data"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Approvals list settings",
+        "GeneralGroup": "General",
+        "SchemaNameLabel": "Đối tượng"
+      }
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Add",
+    "AddFilterHint": "Add new folder",
+    "BlankslateMessage": "No folders",
+    "CloseFolderTree": "Hide folders",
+    "SetUpFilter": "Set up filter",
+    "DefaultFolderName": "New folder",
+    "CopyFolderSuffix": "Sao chép",
+    "DeleteConfirmation": "Are you sure that you want to delete the selected folder?",
+    "MenuActions": {
+      "AddFolder": "Add folder",
+      "RenameFolder": "Rename",
+      "CopyFolder": "Sao chép",
+      "DeleteFolder": "Xóa",
+      "AddToFavorite": "Add to favorites",
+      "RemoveFromFavorite": "Remove from favorites",
+      "ChangeFolderRights": "Thiết lập các quyền truy cập",
+      "AddStaticFolder": "Add static folder",
+      "ConvertToStaticFolder": "Convert to static folder",
+      "MoveFolder": "Move"
+    },
+    "FavoritesNodeCaption": "Favorites",
+    "ShowMenuActions": "Show actions",
+    "RootNodeCaption": "Tất cả",
+    "CopyRightsQuestion": "Copy access permissions of the \"{0}\" folder?",
+    "HasNotPermission": "You don't have access permission for this operation."
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Lưu",
+    "CancelButton": "Hủy",
+    "DialogTitle": "Setup filters"
+  },
+  "Components": {
+    "FolderTree": {
+      "Caption": "Folders",
+      "Hint": "Lets you configure the folder structure to organize records by specified filters. To ensure the component operates as intended, connect it in the page List or Data source settings."
+    },
+    "FolderTreeActions": {
+      "Caption": "Folder management menu",
+      "Hint": "Requires the Folders component. Lets you unhide page folders."
+    },
+    "QuickFilter": {
+      "Caption": "Quick filter",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Yesterday",
+          "Today": "Today",
+          "Tomorrow": "Tomorrow",
+          "PreviousWeek": "Previous week",
+          "CurrentWeek": "Current week",
+          "NextWeek": "Next week",
+          "PreviousMonth": "Previous month",
+          "CurrentMonth": "Current month",
+          "NextMonth": "Next month",
+          "PreviousQuarter": "Previous quarter",
+          "CurrentQuarter": "Current quarter",
+          "NextQuarter": "Next quarter",
+          "PreviousFiscalWeek": "Previous fiscal week",
+          "CurrentFiscalWeek": "Current fiscal week",
+          "NextFiscalWeek": "Next fiscal week",
+          "FiscalQuarter1": "Q1",
+          "FiscalQuarter2": "Q2",
+          "FiscalQuarter3": "Q3",
+          "FiscalQuarter4": "Q4",
+          "FiscalHalfYear1": "First half year",
+          "FiscalHalfYear2": "Second half year",
+          "PreviousFiscalYear": "Previous year",
+          "CurrentFiscalYear": "Current year",
+          "NextFiscalYear": "Next year"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "Message composer",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "Email"
+        },
+        "Feed": {
+          "Caption": "Tin tức"
+        },
+        "SelectChannelsCaption": "Select channels"
+      }
+    },
+    "EncryptedInput": {
+      "Caption": "Encrypted string",
+      "EyeButtonShowValueCaption": "Show value",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Something went wrong. Please, try again or contact your system administrator."
+      },
+      "EyeButtonHideValueCaption": "Hide value",
+      "EyeButtonDisabledCaption": "Can’t show/hide value",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "This type of attribute is not supported for this operation. Please check the field configuration or try a different data type.",
+        "CurrentRecordIdNotFoundError": "Unable to find the current record ID. This may happen if the current record has not been saved yet. Please make sure the record is saved before performing this action.",
+        "ReferenceRecordIdNotFoundError": "The referenced record ID is missing. This can occur if the reference points to a newly created record that hasn't been saved to the database yet. Please save the referenced record first.",
+        "ReferenceColumnSchemaNameNotFoundError": "The name of the referenced column schema is not found. Please check the configuration of the reference field."
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Selected color",
+      "Readonly": "Trường không thể chỉnh sửa"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Next Best Offers"
+    },
+    "NextBestOffer": {
+      "Caption": "Next best offers",
+      "EmptyValue": "N/A",
+      "Next": "Next",
+      "Previous": "Previous"
+    },
+    "MultiSelect": {
+      "Caption": "Multiselect lookup",
+      "Label": "Multi-select",
+      "CreateRecordButtonCaption": "Create record",
+      "ExpanderIcon": "Expand dropdown",
+      "OpenModalIcon": "Open modal window",
+      "TooltipInfoIcon": "Information tooltip",
+      "ReadonlyIcon": "Trường không thể chỉnh sửa"
+    },
+    "Approval": {
+      "Caption": "Approvals"
+    },
+    "ApprovalList": {
+      "Caption": "Approvals list",
+      "RefreshCaption": "Làm mới",
+      "ProvideDataSource": "Provide data source before using approvals"
+    }
+  },
+  "FolderTreeActions": {
+    "MenuButton": "Folders",
+    "FavoriteItemsMenuButtonAriaLabel": "Favorites folders menu",
+    "ClearButtonCaption": "Clear selection",
+    "FolderButtonAriaLabel": "Open/Close folder tree"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "We will notify you when the convertation is completed."
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "Hủy",
+    "SelectFolderButtonCaption": "Chọn",
+    "SelectFolderCaption": "Select folder"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "List settings for folder",
+      "CreateDataGridSettingsForFolder": {
+        "Label": "Create custom settings for \"{0}\"",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Save as new default settings for \"{0}\"",
+        "Confirmation": "New default list settings for the \"{0}\" folder will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Overwrite current settings for all users for \"{0}\"",
+        "Confirmation": "New default list settings will be saved for the \"{0}\" folder and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Restore default settings for \"{0}\"",
+        "Confirmation": "Default list settings will be restored for the \"{0}\" folder. Continue?",
+        "SuccessStatus": "Default list settings for the \"{0}\" folder restored successfully"
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Clear custom settings for \"{0}\"",
+        "Confirmation": "Custom list settings for the \"{0}\" folder will be cleared for all users and general list setting will be applied. Continue?",
+        "SuccessStatus": "List settings for the \"{0}\" folder cleared successfully"
+      }
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Add components",
+    "Tooltip": "Please, add components"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Default value",
+    "FilterColumnLabel": "Filter column",
+    "ViewAttributeLabel": "Component to filter"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Edit filter",
+    "SetupFilterCaption": "Setup filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "DefaultCheckBoxState": {
+      "Label": "Default checkbox state",
+      "CheckedCaption": "Checked",
+      "UncheckedCaption": "Unchecked"
+    },
+    "FilteringApproachState": {
+      "Label": "Filtering approach",
+      "OnCheckedCaption": "Apply filter condition when checkbox is checked",
+      "OnUncheckedCaption": "Apply filter condition when checkbox is unchecked"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Default period",
+    "ChooseFilteringMethodCaption": "Choose a filtering method",
+    "ChooseFilteringMethodTooltip": "The filter can display data relevant to the specified period.\r\nUse the \"Set up filter by one date\" condition to display records that were created or modified on the specified day. For example, you can set up this filter to display leads by creation date, opportunities by closure date, or cases by solution date.\r\n\r\nUse the \"Set up filter by date range\" condition to display records for which a date range is particularly relevant. For example, you can set up this filter for contracts whose start and end dates are within the specified date range.",
+    "SetUpByOneColumnTitle": "Set up filter by one date",
+    "SetUpByTwoColumnsTitle": "Set up filter by date range",
+    "FilterColumnStartCaption": "Filter column From",
+    "FilterColumnEndCaption": "Filter column To",
+    "ShowTimeLabel": "Enable time",
+    "ShowFiscalPeriodsLabel": "Show fiscal periods"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "Current user contact",
+    "CurrentUserAccountName": "Current user account",
+    "EditFilterCaption": "Edit filter",
+    "SetupFilterCaption": "Setup filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "TagVirtualColumnCaption": "ngày"
+  },
+  "QuickFilter": {
+    "MainTitle": "Quick filter",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Yesterday",
+        "Today": "Today",
+        "Tomorrow": "Tomorrow",
+        "PreviousWeek": "Previous week",
+        "CurrentWeek": "Current week",
+        "NextWeek": "Next week",
+        "PreviousMonth": "Previous month",
+        "CurrentMonth": "Current month",
+        "NextMonth": "Next month",
+        "PreviousQuarter": "Previous quarter",
+        "CurrentQuarter": "Current quarter",
+        "NextQuarter": "Next quarter",
+        "PreviousFiscalWeek": "Previous week",
+        "CurrentFiscalWeek": "Current week",
+        "NextFiscalWeek": "Next week",
+        "FiscalQuarter1": "Q1",
+        "FiscalQuarter2": "Q2",
+        "FiscalQuarter3": "Q3",
+        "FiscalQuarter4": "Q4",
+        "FiscalHalfYear1": "First half year",
+        "FiscalHalfYear2": "Second half year",
+        "PreviousFiscalYear": "Previous year",
+        "CurrentFiscalYear": "Current year",
+        "NextFiscalYear": "Next year"
+      },
+      "RangeSeparator": "cho đến khi",
+      "SelectDatePlaceholder": "Select date",
+      "EmptyDateRangeStartLabel": "<Start date>",
+      "EmptyDateRangeEndLabel": "<Due date>",
+      "Header": {
+        "ArrowRight": "Next month",
+        "ArrowLeft": "Previous month"
+      },
+      "RangeSelectedFrom": "Selected from",
+      "ClearIcon": "Clear selected range",
+      "ClearStartDatePlaceholder": "Clear selected start date",
+      "ClearEndDatePlaceholder": "Clear selected end date",
+      "EmptyDateRangeStartAriaLabel": "[No start date selected]",
+      "EmptyDateRangeEndAriaLabel": "[No end date selected]",
+      "CalendarMode": "Lịch",
+      "FiscalMode": "Fiscal",
+      "Fiscal": {
+        "PeriodNotFound": "We couldn’t load the fiscal period date ranges. Please check that fiscal periods are set up, or contact your administrator for assistance.",
+        "LoadError": "Error loading fiscal period data, contact your administrator for assistance"
+      },
+      "SelectTimePlaceholder": "Select time"
+    },
+    "Lookup": {
+      "NoData": "No data"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Next month",
+    "AriaPrevMonthLabel": "Previous month",
+    "AriaNextYearLabel": "Next year",
+    "AriaPrevYearLabel": "Previous year",
+    "Readonly": "Trường không thể chỉnh sửa",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Lịch",
+    "TimePickerIconTitle": "Thời gian"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Formatting options (Alt+F10)",
+    "UploadAttachments": "Select attachments",
+    "SelectTemplate": "Insert template",
+    "SelectionActions": {
+      "AskCopilot": "Ask Creatio.ai",
+      "Friendly": "Friendly",
+      "Formal": "Formal",
+      "Shorten": "Shorten",
+      "Extend": "Extend",
+      "Rephrase": "Rephrase",
+      "RewriteCaption": "Rewrite text"
+    },
+    "TableOfContents": {
+      "Title": "Table of contents",
+      "Placeholder": "A table of contents based on the headings on this page will appear here once it has been published."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Lưu",
+    "OpenLinkButtonCaption": "Open in new tab",
+    "CloseLinkButtonCaption": "Đóng",
+    "UnlinkLinkButtonCaption": "Unlink",
+    "LinkLabelCaption": "Link address",
+    "TextLabelCaption": "Text to display"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Insert video",
+    "PasteUrlTab": "Paste url",
+    "UploadFileTab": "Upload file",
+    "EmbedCodeTab": "Embed code",
+    "DialogDescription": "This video will be embedded at 640 pixels wide.<br>This embedded video will include a text link.",
+    "SaveButton": "Insert video",
+    "CancelButton": "Hủy",
+    "UploadButton": "Upload file",
+    "InputPlaceholder": "Paste here",
+    "DragAndDropPlaceholder": "Drag-and-drop file here or",
+    "NotVideoFile": "The inserted file is not a video, please select a file with a video type.",
+    "ConfirmMessage": "This page contains unsaved changes. They will be lost if you close the page. Save the changes?"
+  },
+  "Feed": {
+    "Caption": "Tin tức",
+    "SortByCreatedOn": "Sort by message date",
+    "SortByLastAction": "Sort by date of last activity",
+    "ShowMoreThanOneNewSocialMessages": "Show {0} new messages",
+    "ShowNewSocialMessage": "Show 1 new message",
+    "Publisher": {
+      "DefaultInputPlaceholder": "Post a message…",
+      "DisabledInputPlaceholder": "You cannot create new posts on new record page.",
+      "CommentInputPlaceholder": "Write a comment…",
+      "ShareWithPortal": "Share with portal user",
+      "PostingErrorMsg": "Error while saving feed post",
+      "UserFeedInputPlaceholder": "Feed is in the user mode. You cannot create new posts in this mode.",
+      "SendButtonHint": "Send Message (Ctrl + Enter)",
+      "CancelButtonHint": "Hủy",
+      "PostingEmptyMsg": "Please type a message to continue.",
+      "ExternalMessagesDisabled": "Please note, the external user will not be able to read the message, because this option is disabled in the component design time.",
+      "ConfirmMessageAccessLevelChange": "Please confirm that you want to change the post visibility level. Please note: the post, related comments and attachments will become visible to external users.",
+      "ConfirmCommentAccessLevelChange": "Please confirm that you want to change the comment visibility level. Please note, the comment and related attachments will become visible to external users."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Add comment",
+      "CommentsButtonCaption": "Các bình luận",
+      "CommentsButtonHint": "Show comments",
+      "ExpandedCommentsButtonHint": "Hide comments",
+      "PostedInLabel": "posted in"
+    },
+    "Reactions": {
+      "Like": "Like",
+      "ExtraReactionsTemplate": "and {0} more...",
+      "PostLiked": "The feed post was liked.",
+      "LikeRemoved": "Like was removed from the feed post."
+    },
+    "Item": {
+      "Edit": "Chỉnh sửa",
+      "Delete": "Xóa",
+      "DeletionConfirmation": "Are sure you want to delete the record? This action cannot be undone.",
+      "DeletionErrorMsg": "The record was not deleted. Please try again later.",
+      "DownloadFile": "Download"
+    },
+    "NoDataContainerLabel": "So quiet!",
+    "ExternalUserTagCaption": "External",
+    "ExternalUserTagTooltip": "Post for external users",
+    "DraftItemTagCaption": "Draft",
+    "SortButtonCaption": "Sort feed",
+    "ActionsButtonCaption": "Các hành động",
+    "FollowButtonCaption": "Follow feed",
+    "UnfollowButtonCaption": "Unfollow feed",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Follow feed",
+        "Unfollow": "Unfollow feed"
+      },
+      "NotificationTemplate": {
+        "Follow": "You are following updates of the feed: {0}",
+        "Unfollow": "You have unfollowed updates of the feed: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}"
+  },
+  "MessageComposer": {
+    "CancelButtonHint": "Discard",
+    "CancelButtonText": "Discard",
+    "SendButtonHint": "Send Message (Ctrl + Enter)",
+    "SendButtonText": "Send",
+    "RemoveAttachmentHint": "Remove attachment",
+    "Caption": "Message composer",
+    "Email": {
+      "Caption": "Email composer",
+      "From": "từ",
+      "To": "đến",
+      "CC": "CC",
+      "BCC": "BCC",
+      "Subject": "Tiêu đề",
+      "PublishError": "Failed to send a message. The following error was received: {0}",
+      "AttachmentsSizeLimitReached": "Total attachments size is more than allowed {0} MB. Please remove some attachments.",
+      "FromValidationErrorMessage": "“From” field cannot be blank. Please select a mailbox.",
+      "ToValidationErrorMessage": "“To” field cannot be blank. Please enter at least one recipient.",
+      "SubjectValidationErrorMessage": "“Subject” field cannot be blank. Please enter the email subject.",
+      "BodyPlaceholder": "Type a message",
+      "SaveDraftError": "Unable to save the draft. Please try again later",
+      "TemplateInsertError": "Unable to add the template. Please try again later.",
+      "Draft": "Draft",
+      "Reply": "Reply",
+      "ReplyAll": "Reply all",
+      "Forward": "Forward",
+      "SentOn": "Đã gửi vào",
+      "SubjectToggleCaption": "Subj",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "BCC",
+      "NotContainsEmail": "does not contain email in it",
+      "ChangeReplyAction": "Change reply action",
+      "ShowTrimmedEmailTitle": "Show trimmed email",
+      "EmailTemplatesLookupCaption": "Select a template",
+      "EmailTemplatesDisplayColumnCaption": "Template name",
+      "ContinueEditing": "Continue editing",
+      "SaveDraft": "Save draft",
+      "DraftSaved": "Draft saved",
+      "EmailSent": "Email sent",
+      "RemoveRecipientLabel": "Remove recipient"
+    },
+    "SaveDraftButtonText": "Save draft",
+    "MessageSent": "Message sent",
+    "Feed": {
+      "Caption": "Feed composer"
+    },
+    "Selector": {
+      "Caption": "Message composer"
+    },
+    "ComposerAreaLabel": "Message composer input area",
+    "AttachmentPreview": "Attachment preview",
+    "Attachment": {
+      "Added": "The attachment was added.",
+      "Removed": "The attachment was removed."
+    },
+    "SendEmailErrorMessage": "An unexpected error occurred while sending the email. Please try again later."
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Agree"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Download file"
+    },
+    "System": {
+      "ChatStartedMessage": "Chat started: {chatStartedAt} by {chatStartedBy}"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "There are no recent chats yet",
+    "CreateChatButton": "Start new chat",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "You: ",
+    "RenameChat": {
+      "LabelTitle": "Rename chat",
+      "InputTitle": "Chức danh",
+      "SaveButton": "Lưu",
+      "CancelButton": "Hủy"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "Các hành động"
+    },
+    "NoDataBySearchFilter": "There are no records matching the filter criteria",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions ",
+    "ARIA": {
+      "Label": "Trò chuyện",
+      "ChatItem": "Chat: {0}. Last message: {1}",
+      "LoadMoreTrigger": "Load more"
+    },
+    "AlreadyAssignedChat": "Chat was assigned to another agent"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Transfer chat",
+    "AgentTab": "Agent",
+    "QueueTab": "Queue",
+    "NoOperatorsAvailable": "No agents available",
+    "NoData": "No data",
+    "OperatorStatus": {
+      "0": "Inactive",
+      "1": "Là đang hoạt động",
+      "2": "Chats exceeded"
+    },
+    "InputPlaceholder": "Chat transferred",
+    "NoQueuesAvailable": "No queues available",
+    "ActiveAgentsCount": "{{count}} active agent(s)"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Attached file: {{fileName}}",
+    "DeleteFile": "Delete {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Run action",
+    "NoActionsTemplate": "No actions available. Please add chat actions on the ${link}.",
+    "ChatSettingsPage": "Chat setting page",
+    "ProcessExecutedSuccessfully": "Process executed successfully",
+    "ProcessExecutionFailed": "Process execution failed. Please try again."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Open templates (click or type //)",
+    "NotFound": "No templates found",
+    "NoAvailable": "No templates available",
+    "Group": {
+      "RecentlyUsed": "Recently used",
+      "Others": "Others"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Add emoji",
+    "ButtonAriaLabel": "Open emoji picker",
+    "PickerAriaLabel": "Emoji picker"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "Select: Contact",
+    "ConfirmLinkMessage": "All chats of the current contact will be linked to the selected contact, and the current contact will then be deleted. Do you want to proceed?"
+  },
+  "Translations": {
+    "TargetLanguage": "target language",
+    "TranslatingTo": "Translating to {{language}}...",
+    "TranslatedTo": "Translated to {{language}}",
+    "TranslationFailedDialog": "Translation failed. Please try again."
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Translate",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Unsupported file type. This file can’t be previewed."
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Summary",
+    "Title": "Chức danh",
+    "Column": "Cột",
+    "Function": "Function",
+    "CustomSummaryLabelTooltip": "The element contains preconfigured data display logic. If you need to implement alternative logic, then remove the element value."
+  },
+  "Summaries": {
+    "Caption": "Summaries",
+    "Actions": {
+      "CreateCount": "Display number of records",
+      "Title": "Summaries actions"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Quick setup",
+      "Count": "Count",
+      "Minimum": "Minimum",
+      "Maximum": "Maximum",
+      "Sum": "Sum",
+      "Average": "Average"
+    },
+    "Hints": {
+      "NoDataSource": "No data source selected",
+      "Collapse": "Collapse summaries",
+      "Expand": "Expand summaries"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Save setting for all users",
+      "ResetToDefault": "Reset to default settings",
+      "SaveForAllSuccessfully": "Summary settings saved for all users successfully",
+      "ResetToDefaultSuccessfully": "Default summary settings restored successfully"
+    },
+    "AdvancedSetup": {
+      "Title": "Advanced setup",
+      "Actions": {
+        "AddCustomSummary": "Add new summary"
+      }
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "Xóa",
+      "Edit": "Chỉnh sửa"
+    },
+    "AriaLabel": "Summary item",
+    "Statuses": {
+      "Added": "Summary item added successfully",
+      "Deleted": "Summary item deleted successfully",
+      "Edited": "Summary item changed successfully",
+      "Error": "Lỗi"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Call up"
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "Merge duplicates ({0})",
+      "Actions": {
+        "Merge": "Merge"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Unable to merge selected records",
+        "NoRights": "Insufficient permissions to merge data",
+        "MinSelectedRecordsViolation": "Select at least two records to merge",
+        "SelectionAllModeUsingViolation": "Merging is not available when using \"Select all\". Select the records you want to merge manually."
+      },
+      "SuccessfulCompletionStatus": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete."
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Called",
+        "Sec": "sec",
+        "DetailsLinkCaption": "Call details"
+      },
+      "Email": {
+        "MailedTo": "Mailed to",
+        "From": "từ:",
+        "To": "đến:",
+        "CC": "CC:",
+        "Details": "Details",
+        "Hide": "Hide"
+      },
+      "File": {
+        "AddedFile": "Added a file"
+      },
+      "Chat": {
+        "ChatWith": "chatted with",
+        "Show": "Hiện trò chuyện",
+        "Hide": "Ẩn trò chuyện",
+        "DetailsLinkCaption": "Chat details"
+      }
+    },
+    "NoDataMessage": "The past does not exist",
+    "FillActionMessage": "There are no associated records to display in the timeline",
+    "NoDataByFilterMessage": "There are no records matching the filter criteria",
+    "FillActionByFilterMessage": "Clear the filter or change its conditions",
+    "EntityFilterCaption": "Tất cả",
+    "OwnerFilterCaption": "Người phụ trách",
+    "DateFilterCaption": "Select period",
+    "HideSystemMessagesCaption": "Hide system messages",
+    "EntityFilterHint": "Select record type",
+    "OwnerFilterHint": "Select record owner",
+    "DateFilterHint": "Select record period",
+    "HideSystemMessagesHint": "Hide automated emails",
+    "DateSort": "Ngày",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "Email"
+      },
+      "Feed": {
+        "Caption": "Tin tức"
+      },
+      "Task": {
+        "Caption": "Task"
+      },
+      "SysFile": {
+        "Caption": "Tập tin"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Sort by date button, currently sorted {0}",
+        "Descending": "descending",
+        "Ascending": "ascending"
+      }
+    }
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "Phone number",
+    "DesignerEmailLabel": "Email address",
+    "DesignerWebLabel": "Web link",
+    "Caption": "Communication options",
+    "DeleteOption": "Xóa",
+    "Primary": "primary",
+    "Invalid": "invalid",
+    "MarkAsPrimary": "Set as primary",
+    "MarkAsValid": "Mark as valid",
+    "MarkAsInvalid": "Mark as invalid",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} already exists",
+      "ReadOnlyStateMessage": "The communication option cannot be added as the component is in read-only mode",
+      "IncorrectSetupComponentMessage": "Unable to add the communication option as the page component has not been set up yet. The system administrator can finish the setup in the Freedom UI designer",
+      "EmptyMasterRecordColumnNameInRequestMessage": "The communication option cannot be added to an empty record. Please add the record value first"
+    },
+    "NoDataPlaceholderText": "No data",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} added",
+        "Deleted": "{0} {1} deleted",
+        "SetAsPrimary": "{0} {1}  set as primary",
+        "MarkedAsValid": "{0} {1} marked as valid",
+        "MarkedAsInvalid": "{0} {1} marked as invalid"
+      }
+    },
+    "ToolsAriaLabel": "Các hành động"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "Account name",
+    "AlternativeNamePlaceholder": "Tên khác",
+    "CountryPlaceholder": "Đất nước"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "Contact name",
+    "DesignerBirthDatePlaceholder": "Ngày sinh",
+    "CountryPlaceholder": "Đất nước"
+  },
+  "IFrame": {
+    "PropertiesPanel": {
+      "Caption": "iFrame settings",
+      "GeneralSettings": {
+        "Caption": "General",
+        "ContentTypeLabel": "Content type",
+        "ContentValueLabel": "Content to display",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "To ensure the content is displayed correctly, make sure the following is true: <ul><li>Source allows embedding in an iframe</li><li>Link uses the HTTPS protocol</li><li>Source domain is included in the trusted sources list of your Content Security Policy. We recommend adding at least two allowed directives to it: connect-src and frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Allowed features",
+        "AllowTooltip": "Specifies which browser features the embedded content is allowed to use, for example, camera, microphone, fullscreen. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information.",
+        "SandboxLabel": "Sandbox permissions",
+        "SandboxTooltip": "Specifies which sandbox restrictions are removed for the embedded content. Grant only the permissions that are required. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information."
+      }
+    },
+    "Caption": "iFrame",
+    "Hint": "iFrame component allows to embed and display content in either HTML or URL format",
+    "Placeholder": {
+      "NothingToShow": "Nothing to show yet",
+      "NoContent": "No content available in this section"
+    },
+    "ContentUnavailable": {
+      "Title": "Content Unavailable",
+      "SubTitle": "Due to your network settings, browser security policies, or content restrictions",
+      "LinkTitle": "Read more in our Academy"
+    }
+  },
+  "AccountCompactProfile": {
+    "Caption": "Account compact profile",
+    "DialogTitle": "Edit account",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add account name",
+    "AlternativeNameFieldLabel": "Tên khác",
+    "EmptyRecord": {
+      "NamePlaceholder": "Account name",
+      "AlternativeNamePlaceholder": "Tên khác",
+      "CountryPlaceholder": "Đất nước"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Contact compact profile",
+    "DialogTitle": "Edit contact",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add contact name",
+    "BirthDatePlaceholder": "and birth date",
+    "EmptyRecord": {
+      "NamePlaceholder": "Contact name",
+      "BirthDatePlaceholder": "Ngày sinh",
+      "CountryPlaceholder": "Đất nước"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Compact user profile",
+    "DialogTitle": "Edit name",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add user name"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Đóng"
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Dashboards settings",
+    "GeneralGroup": {
+      "Caption": "General",
+      "DataSource": "Nguồn dữ liệu",
+      "DataSourceTooltip": "The data source will be set as primary data source for every dashboard created in this component",
+      "DataSourceDependenciesSettingTooltip": "Filter by page data lets you display connected data in a dashboard",
+      "DataSourceFilterElementsGroupTooltip": "The setting lets you use pre-configured filters from folders or other data filtering elements as page filters"
+    },
+    "DashboardsGroup": {
+      "Caption": "Bảng điều khiển",
+      "AddDashboard": "Add new dashboard",
+      "InfoTooltip": "The list of dashboards displays only those items that are schemas in configuration",
+      "ContextMenu": {
+        "Copy": "Sao chép",
+        "Delete": "Xóa",
+        "Edit": "Chỉnh sửa"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Are you sure you want to delete dashboard \"{{caption}}\"?",
+            "WithUserLevelSchema": "The dashboard you want to delete has a dependent dashboard: \"{{caption}}\" end-user schema. If you continue, both dashboards will be deleted. Continue?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Unable to delete \"{{caption}}\" dashboard because it was either created by third-party publisher or installed from the file",
+            "DependsOnSchema": "Unable to delete \"{{caption}}\" dashboard because it has dependent configuration schema(s)"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "You cannot rename the element because it has bound dashboards"
+    }
+  },
+  "Dashboards": {
+    "SelectDashboard": "Select dashboard",
+    "NoData": "No associated dashboards to display",
+    "NoData2": "Add a dashboard to make it look prettier",
+    "CreateNewDashboardButton": "Add new dashboard",
+    "AccessDenied": "You do not have permission to edit this item",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Are you sure that you want to delete the selected dashboard?",
+        "FailMessage": "Unfortunately, you cannot delete the selected dashboard"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "Các hành động",
+      "Edit": "Chỉnh sửa",
+      "Copy": "Sao chép",
+      "Delete": "Xóa",
+      "Rights": "Thiết lập các quyền truy cập"
+    },
+    "All": "Tất cả",
+    "Favorites": "Favorites",
+    "AddToFavoritesButton": "Add to favorites",
+    "RemoveFromFavoritesButton": "Remove from favorites"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Entity hierarchy filter",
+    "GeneralCaption": "General",
+    "SchemaNameCaption": "Select an object to build a hierarchy",
+    "HierarchySetup": "Hierarchy setup",
+    "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+    "ApplyStaticFilter": "Apply static filter",
+    "EditStaticFilterAction": "Edit filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "SetupStaticFilterAction": "Setup filter",
+    "DisplayModeCaption": "Hierarchy type",
+    "ManualDisplayMode": "Manual",
+    "ByParentDisplayMode": "By parent"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Add new hierarchy column",
+    "ContextMenu": {
+      "AddToSubmenu": "Add sub-hierarchy",
+      "Edit": "Chỉnh sửa",
+      "Delete": "Xóa"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Tất cả",
+    "NotFilledNode": "Not filled",
+    "SpecificationFilterCaption": "Open additional filtering",
+    "BackButtonCaption": "Trờ lại",
+    "ClearAllFiltersButtonCaption": "Clear all",
+    "NoDataCaption": "No data"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Color picker",
+        "AppearanceGroup": "Appearance",
+        "PickerModeRadioButtonCaption": "Palette",
+        "PickerMode": {
+          "Basic": "Basic palette",
+          "Extended": "Extended palette"
+        }
+      }
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Entity schema '{{entitySchemaName}}' not found",
+    "UnselectedColumnsWillBeDeletedMessage": "Unselected columns will be deleted. Proceed?"
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Nothing to show here!",
+    "NoDataDescription": "Currently there are no items in your queue",
+    "AcceptButtonLabel": "Accept"
+  },
+  "AgentInbox": {
+    "NewItems": "New Items ({{number}})",
+    "InProgress": "In Progress ({{number}})",
+    "RealTime": "Real-time",
+    "QueuedTasks": "Queued tasks",
+    "WrappedUpCallTickTpl": "Call wrap-up ({{sec}}s left)",
+    "WrappedUpCallStoppedTpl": "Manual wrap-up",
+    "IncomingCallDescription": "Incoming call:",
+    "OutgoingCallDescription": "Outgoing call:"
+  },
+  "CallConversation": {
+    "Call": "Make call",
+    "Duration": "Thời gian:",
+    "Search": "Tìm kiếm",
+    "JobTitle": "Job Title",
+    "Account": "Tổ chức",
+    "ClearIdentity": "Clear selected record",
+    "Buttons": {
+      "Hints": {
+        "Accept": "Accept call",
+        "CompleteTransfer": "Click to transfer",
+        "Hold": "Put on hold",
+        "Unhold": "Unhold",
+        "StartTransfer": "Transfer call",
+        "Mute": "Mute call",
+        "CancelTransfer": "Cancel transfer",
+        "Drop": "Complete call",
+        "OpenDialPanel": "Open dial panel"
+      },
+      "Captions": {
+        "Accept": "Accept",
+        "Drop": "Từ chối",
+        "Cancel": "Hủy",
+        "CancelTransfer": "Trờ lại",
+        "CompleteTransfer": "Merge",
+        "EndMainCall": "Kết thúc"
+      }
+    },
+    "OnHold": "On hold:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "The call was updated"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Clear selected record",
+    "CallIdentityOptions": "Change/Set contact"
+  },
+  "ListWidget": {
+    "DefaultTitle": "New list widget",
+    "PropertiesPanel": {
+      "HeaderLabel": "Widget settings",
+      "TitleLabel": "Chức danh",
+      "Styles": {
+        "FullyColored": "Fully colored",
+        "PlainWhite": "Plain white",
+        "PartiallyColored": "Partially colored",
+        "Glassmorphism": "Glass effect"
+      }
+    },
+    "Caption": "List widget",
+    "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "Change DCM case. There is a more relevant configuration for this entity.",
+    "ConfirmChangeCaseDialogMessage": "Do you want to replace current version of the case?",
+    "SnackbarActualFilterCaseMessage": "There is more relevant case \"{{caption}}\". Replace?",
+    "SnackbarIgnoreButtonCaption": "Ignore",
+    "SnackbarReplaceButtonCaption": "Replace",
+    "SnackbarEntityProcessChangedMessage": "Case has been successfully changed."
+  },
+  "NextSteps": {
+    "Caption": "Các bước tiếp theo",
+    "CompleteButtonCaption": "Hoàn tất",
+    "AddNewStepMenuCaption": "Add a new step",
+    "CreateActivityButtonCaption": "Create a task",
+    "CreateEmailButtonCaption": "Create an email",
+    "NoDataContainerLabel": "Nothing to show here!",
+    "NoDataContainerDescription": "There are no steps added for this stage",
+    "OwnerHint": "Assigned user",
+    "OwnerRoleHint": "Assigned group",
+    "RequiredStepHint": "Required step",
+    "ApprovalApprovedSnackbarCaption": "Request was approved",
+    "ApprovalRejectedSnackbarCaption": "Request was rejected",
+    "TypeFilterCaption": "Loại",
+    "TypeFilterHint": "Loại"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} records have been loaded. Load more records?",
+    "ConfirmResendMeetingInvitationsQuestion": "When the meeting is saved all participants will receive a meeting update. Do you  want to proceed?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Saving some of this meetings requires you to send a change notification to all participants after saving. Do you want to continue? Meeting list:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. Are you sure you want to send an invitation to the participants?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. All participants will receive a meeting update. Do you  want to proceed?",
+    "CanNotChangeMeetingMessage": "Only the meeting organizer can change the description, date and list of the meeting participants.",
+    "CanNotChangeMultipleMeetingsMessage": "Some of the changed meetings can only be changed by the meeting organizer. Meeting list: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "You can delete meetings only if you select records manually.",
+    "ErrorSendingInvitationMessage": "The invitations were not sent. It may be a temporary issue, please try again later.",
+    "SuccessSendingInvitationMessage": "Invitations were successfully sent.",
+    "JoinBtnCaption": "Join online meeting",
+    "UserAlreadyHasActiveCalendarAccount": "You already have an active calendar",
+    "LackOfLicenseMessage": "Calendar synchronization is not included into your current license. Please contact your system administrator for additional information.",
+    "DateRangeError": "The date range in the filter is too long. Please reduce the range in the filter."
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "At least one value must be selected in: {0}"
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Approvals",
+    "ComponentHeaderInactiveLabel": "No approval required",
+    "RejectDialogHeaderLabel": "Are you sure you want to reject the approval?",
+    "RejectInputLabel": "Approval comment",
+    "RejectButtonLabel": "Từ chối",
+    "CancelButtonLabel": "Hủy",
+    "ApproveDialogHeaderLabel": "Grant the approval?",
+    "ApproveButtonLabel": "Phê duyệt",
+    "PositiveMetricLabel": "Positive",
+    "NegativeMetricLabel": "Negative",
+    "PendingMetricLabel": "Pending",
+    "ComponentHeaderActiveLabel": "Waiting for your approval",
+    "ApprovalPurposeLabel": "Mục đích phê duyệt",
+    "ApprovedPlaceholderLabel": "APPROVED",
+    "DesignTime": {
+      "ApprovalObjective": "Approval required"
+    },
+    "RejectedPlaceholderLabel": "REJECTED",
+    "DelegateButtonLabel": "Delegate"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Từ chối",
+    "ApproveButtonLabel": "Phê duyệt"
+  }
+}

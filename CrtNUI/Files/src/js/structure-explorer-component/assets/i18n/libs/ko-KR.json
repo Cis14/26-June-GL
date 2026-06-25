@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "로드 중..."
+  },
+  "CopyClipboard": {
+    "Copied": "복사됨"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "아직 보여줄 건 없어요 ",
+      "Subhead": "먼저 데이터를 추가하십시오"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "채팅 시작: {0}",
+        "EndDate": "채팅 완료: {0} "
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Loading"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "실수",
+      "Default": "툴팁"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "새 레코드 또는 기존 레코드에 대한 페이지가 없습니다. 시스템 관리자는 Freedom UI에서 버튼 설정을 확인해야 합니다",
+    "GoToEntityDesignerMessage": "페이지를 설정하려면 URL로 이동합니다. {0}"
+  }
+}

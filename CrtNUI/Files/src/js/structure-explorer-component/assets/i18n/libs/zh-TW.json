@@ -1,0 +1,35 @@
+{
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "沒有新記錄或現有記錄的頁面。系統管理員必須檢查 Freedom UI 中的按鈕設定。",
+    "GoToEntityDesignerMessage": "若要設定頁面，請前往 URL：{0}"
+  },
+  "SkeletonLoader": {
+    "Loading": "載入中..."
+  },
+  "CopyClipboard": {
+    "Copied": "複製"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "尚未有任何顯示",
+      "Subhead": "請先新增資料"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "聊天開始：{0}由",
+        "EndDate": "聊天完成：{0}由"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "載入中"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "錯誤",
+      "Default": "工具提示"
+    }
+  }
+}

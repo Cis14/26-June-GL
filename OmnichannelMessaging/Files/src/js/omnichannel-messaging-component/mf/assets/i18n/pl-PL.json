@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Wybierz: {0}",
+        "Selected": "Wybrano:",
+        "SelectButton": "Wybierz",
+        "CancelButton": "Anuluj",
+        "Blankslate": "Brak rekordów dla tego obiektu"
+    },
+    "SearchInput": {
+        "Placeholder": "Szukaj",
+        "Settings": {
+            "Cancel": "Anuluj",
+            "Apply": "Zastosuj",
+            "SearchColumnTemplate": "Szukaj według kolumny \"{0}\"",
+            "StartsWith": "Zaczyna się od",
+            "Contains": "Zawiera",
+            "Equals": "Równa się"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Dodaj",
+        "BlankslateWithFilters": "Brak rekordów spełniających obecne kryteria wyszukiwania. Wyczyść lub zmodyfikuj parametry wyszukiwania"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Zaakceptuj czat",
+            "AlreadyAssignedChat": "Czat został przypisany do innego agenta",
+            "NewMessages": "Nowe wiadomości",
+            "ChatIsCompleted": "Czat zakończony {datePart} w {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Ty:",
+            "DraftMessageCaption": "Wersja robocza:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Kanały czatu nie są skonfigurowane",
+                    "textStart": "Skontaktuj się ze swoim administratorem systemu i poproś o utworzenie kanału. Dowiedz się więcej o pracy z czatami w ",
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Kanały czatu nie są skonfigurowane",
+                    "textStart": "Proszę ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "dodaj"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    },
+                    "textEnd": " nowy kanał. Dowiedz się więcej o pracy z czatami w "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Nowe czaty nie są rozprowadzane do nieaktywnych agentów",
+                    "textStart": "Zmień swój status na \"Aktywny\". Dowiedz się więcej o pracy z czatami w ",
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Brak czatów w kolejce",
+                    "textStart": "Dowiedz się więcej o pracy z czatami w ",
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Nowe czaty nie są rozprowadzane do nieaktywnych agentów",
+                    "textStart": "Zmień swój status na \"Aktywny\". Dowiedz się więcej o pracy z czatami w ",
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Brak czatów w kolejce",
+                    "textStart": "Dowiedz się więcej o pracy z czatami w Akademii ",
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Wygląda na to, że nie uczestniczysz w żadnym czacie. Sprawdź listę nowych czatów"
+                }
+            },
+            "Actions": {
+                "Complete": "Zakończ czat",
+                "ProcessesDivider": "Procesy",
+                "EmptyProcessesList": "Dodaj proces biznesowy w szczegółach \"Akcji Czat\"",
+                "SearchFacebook": "Szukaj na Facebooku",
+                "ContactDuplicates": {
+                    "Show": "Pokaż zduplikowane kontakty",
+                    "NotFound": "Nie znaleziono zduplikowanych kontaktów",
+                    "Find": "Znajdź zduplikowane kontakty"
+                },
+                "Back": "Wróć",
+                "Transfer": "Przełącz rozmowę",
+                "Translation": {
+                    "Show": "Pokaż panel tłumaczeń",
+                    "Hide": "Ukryj panel tłumaczeń"
+                }
+            },
+            "ChatListTitle": "Aktywne rozmowy",
+            "Tips": {
+                "BackToChats": "Powrót do listy"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Wiadomość",
+            "AttachFile": "Plik",
+            "OversizeFiles": "Przekroczono limit maksymalnego rozmiaru pliku wynoszący 25 MB w następujących plikach:\n{0}",
+            "NewChatsTitle": "Nowa rozmowa"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Rozmowa rozpoczęta: {0} przez",
+                "EndDate": "Rozmowa zakończona: {0} przez"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Podsumowanie przed rozmową",
+            "Toggle": {
+                "Opened": "Ukryj",
+                "Closed": "Pokaż więcej"
+            },
+            "Fields": {
+                "Source": "Źródło"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Znaleziono {0} podobnych kontaktów",
+            "DuplicatesNotFound": "Nie znaleziono podobnych kontaktów",
+            "FindDuplication": "Znajdź podobne kontakty"
+        },
+        "Transfer": {
+            "ToOperator": "Agent",
+            "ToQueue": "Kolejka",
+            "TransferWindowCaption": "Przekaż do",
+            "OperatorStatusTips": {
+                "Active": "Aktywny",
+                "Inactive": "Nieaktywny",
+                "ChatsExceeded": "Rozmowa przedłużona"
+            },
+            "NoAvailableAgents": "Obecnie nie ma dostępnych agentów do przekazania rozmowy",
+            "NoAvailableQueues": "Nie ma dostępnych kolejek do transferu"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Propozycje szablonów",
+        "SuggestionHint": "Wprowadź słowo, aby rozpocząć wyszukiwanie",
+        "QuickSearchHint": "Wpisz // aby wyszukać szablon",
+        "TemplateSearchCaption": "Szablony odpowiedzi"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Powiadomienia przeglądarki są wyłączone. Włącz powiadomienia, aby otrzymywać alerty o nowych wiadomościach. Więcej informacji można znaleźć w ",
+        "splitTextLink": {
+            "displayText": "Akademia",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Wybierz język",
+        "SourceCaption": "Docelowy język",
+        "Translate": "Tłumaczenie",
+        "LanguagePlaceholder": "Wybierz język",
+        "LanguageDetectionError": "Nie udało się wykryć języka. Proszę wybrać język.",
+        "TranslationFailedHeader": "Tłumaczenie nie powiodło się. Spróbuj ponownie."
+    }
+}

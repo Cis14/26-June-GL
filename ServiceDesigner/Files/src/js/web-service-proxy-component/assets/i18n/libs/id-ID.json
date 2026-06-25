@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Memuat..."
+  },
+  "CopyClipboard": {
+    "Copied": "Disalin"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Belum ada yang bisa ditampilkan ",
+      "Subhead": "Silakan tambahkan data terlebih dahulu"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Obrolan dimulai: {0} oleh",
+        "EndDate": "Obrolan selesai: {0} oleh"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Memuat"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Error",
+      "Default": "Tooltip"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Silakan pilih nilai dari daftar",
+      "SelectionWindowMessage": "Pilih nilai dari daftar atau cari menggunakan jendela pencarian"
+    },
+    "Required": {
+      "Message": "Masukkan nilai"
+    },
+    "MaxLength": {
+      "Message": "Panjang teks maksimum terlampaui ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Panjang teks minimum tidak tercapai ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format tanggal dan waktu tidak valid"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format tanggal tidak valid"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format waktu tidak valid"
+    },
+    "RegExp": {
+      "Message": "Format nilai tidak valid"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kode harus dimulai dengan awalan {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Masukkan minimal satu simbol lagi."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Gunakan simbol: a-z, A-Z, 0-9, garis bawah atau tanda hubung. Hanya huruf yang bisa menjadi yang pertama."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolom dihapus",
+    "ValidationErrorMessageSingleErrorField": "Bidang {0}. Kesalahan: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Bidang {0}. Kesalahan: {1}",
+    "RefreshModelDataConflict": "Creatio memiliki data baru untuk halaman saat ini. Untuk melihatnya, simpan atau batalkan perubahan Anda dan perbarui halaman.",
+    "WarningModelsWithCircularDependencies": "Beberapa model memiliki referensi melingkar dan belum dimuat",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Tidak ada halaman untuk catatan baru atau yang sudah ada. Administrator sistem harus memeriksa pengaturan tombol di Freedom UI",
+    "GoToEntityDesignerMessage": "Untuk mengatur halaman, buka URL: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Skema proses berhasil disimpan, tetapi kesalahan validasi mencegahnya untuk dijalankan."
+  }
+}

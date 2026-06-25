@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Resources/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Data/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtTechUserCreatioMaintenance/Resources/**" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2252 @@
+{
+  "Input": {
+    "Readonly": "Nem szerkeszthető mező",
+    "ShowPassword": "Mutasd a jelszót",
+    "HidePassword": "Jelszó elrejtése"
+  },
+  "Carousel": {
+    "NoData": "Nincs adat",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "Nem szerkeszthető mező",
+    "NoData": "Nincs adat",
+    "EmptyDisplayValue": "Nincs megjelenített érték",
+    "AddNewRecord": "Új hozzáadása",
+    "InvalidValueSyntax": "Kérjük, válassza ki az értéket a listából",
+    "IsGoToSourceAllowedTooltip": "Ugrás a rekordlistához",
+    "CheckAll": "Összes kiválasztása",
+    "ClearAll": "Összes törlése",
+    "SelectValue": "Válassza ki az értéket",
+    "ClearValue": "Érték ürítése",
+    "OpenSection": "Nyitott szakasz"
+  },
+  "DataGrid": {
+    "AddColumns": "Oszlopok hozzáadása",
+    "ColumnToolbar": {
+      "Hide": "Elrejtés",
+      "Freeze": "Lefagyasztás",
+      "Unfreeze": "Kiolvasztás",
+      "Rename": "Átnevezés",
+      "Edit": "Tulajdonságok",
+      "Title": "Oszlopműveletek",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "Műveletek listája",
+      "DataGridSettingsLabel": "General list settings",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Visszaállítja az alapértelmezett beállításokat",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "RowToolbar": {
+      "Open": "Megnyitás",
+      "Copy": "Másolás",
+      "Delete": "Törlés",
+      "RunBusinessProcess": "Futtassa az üzleti folyamatot",
+      "Title": "Sorműveletek"
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "BulkActions": {
+      "MoreActions": "Több akció",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "NoData": "Nincs adat",
+    "NoColumns": "Nincsenek oszlopok hozzáadva",
+    "Hints": {
+      "Sort": "Rendezés",
+      "StartEditing": "Szerkesztés",
+      "ReadonlyCell": "Nem szerkeszthető mező",
+      "CancelChanges": "Eldobás",
+      "AddItem": "Új rekord hozzáadása",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "AddItem": "Új",
+    "SaveItemsChanges": "Összes mentése",
+    "CancelItemsChanges": "Eldobás",
+    "RowsSelection": {
+      "Selected": "kijelölve",
+      "SelectAll": "Összes kijelölése",
+      "ClearSelection": "Kijelölés törlése",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "Az oszlop nem található",
+    "ColumnSticky": "Fagyott oszlop",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Szélesség megváltoztatása",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Igen",
+    "No": "Nem",
+    "Save": "Mentés",
+    "DoNotSave": "Ne mentse",
+    "Cancel": "Mégsem",
+    "Delete": "Törlés",
+    "Close": "Bezárás",
+    "Notification": "Értesítő",
+    "Overwrite": "Overwrite",
+    "Clear": "Törlés",
+    "Restore": "Visszaállítás",
+    "ProcessElementCompletedNotification": "Egy másik felhasználó elvégezte ezt a feladatot",
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running."
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Vannak nem mentett módosításai, amelyek elvesznek. Folytatja?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "Gallery": {
+    "NoData": "Nincs adat",
+    "MenuActions": "Műveletek",
+    "DateAdded": "Date added",
+    "SelectItem": "Csak 1 elemet választhatsz",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "Link megnyitása"
+  },
+  "EmailInput": {
+    "AddEmailHint": "E-mail elküldése"
+  },
+  "FileInput": {
+    "Delete": "Törlés",
+    "Cancel": "Mégsem",
+    "Attach": "Csatlakoztassa a  címet",
+    "FileIcon": "Fájl ikonra",
+    "EmptyFileName": "Üres fájlnév",
+    "MaxFileSizeLimitReached": "Elérte a maximális fájlméret-korlátot ({0} MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Dobja ide a fájlokat",
+      "Description": "vagy használja",
+      "Upload": "Feltöltés"
+    },
+    "RowToolbar": {
+      "Download": "Download"
+    }
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "Feltöltés",
+    "Change": "Változtatás",
+    "Clear": "Törlés",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Mentés",
+    "CancelButton": "Mégsem",
+    "ColumnProperties": "Oszlop tulajdonságai",
+    "Title": "Cím",
+    "FilterHeader": "A rekordok szűrése",
+    "SortingHeader": "Sort records",
+    "SortColumn": "Rendezés",
+    "WhatToDisplay": "Mit kell megjeleníteni",
+    "AggregationColumn": "Oszlop",
+    "SortOrder": "Rendezési sorrend",
+    "SetupFilters": "Szűrők beállítása",
+    "EditFilters": "Edit filters"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Igen",
+      "False": "Nem"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "ekkor:",
+    "TodayAt": "Ma {0}",
+    "YesterdayAt": "Tegnap, {0}",
+    "DayBeforeYesterdayAt": "Tegnapelőtt, {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Nincs megjelenített érték"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "hónap",
+    "DaysAbbreviation": "nap",
+    "HoursAbbreviation": "óra",
+    "MinutesAbbreviation": "perc"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Lap bezárása"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Ugrás az asztalra"
+    },
+    "QuickRunProcess": {
+      "Title": "Folyamat futtatás",
+      "SuccessMessage": "A folyamat sikeresen lefutott",
+      "NotConfiguredQuickProcessesMessage": "A folyamatok gyors futtatása még nincs konfigurálva",
+      "OtherProcessesCaption": "Egyéb folyamatok"
+    },
+    "Settings": {
+      "Title": "Beállítások"
+    },
+    "UserProfile": {
+      "Title": "Az Ön profilja",
+      "MenuItems": {
+        "Profile": "Az Ön profilja",
+        "Logout": "Kilépés",
+        "OrganizationProfile": "Szervezeti profil"
+      }
+    },
+    "New": {
+      "Title": "Új",
+      "NoItemTitle": "A gyors rekordok létrehozása még nincs konfigurálva"
+    },
+    "Help": {
+      "Title": "Segítség",
+      "MenuItems": {
+        "OnlineHelp": "Online segítség",
+        "NeedHelp": "Kell segítség",
+        "ExternalAccess": "Biztosítson hozzáférést a támogatáshoz",
+        "ReleaseNotes": "Kiadási megjegyzések"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "SupportSubject": "Kérdés kb",
+      "AccessGrantedMessage": "Hozzáférés engedélyezése",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Kommunikációs panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Értesítési panel"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfiguráció"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions panel"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Compilation error",
+      "WorkspaceExplorerTemplate": "To view a list of compilation errors and fix them, visit <a href ='{0}' target='_blank'>Configuration section</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigációs panel"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Alkalmazás keresése..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Collapse navigation panel",
+      "ExpandCaption": "Expand navigation panel"
+    },
+    "SearchResultsCaption": "Keresési eredmények",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Bővebben"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} sikeres",
+    "timeBeforeCountStartTpl": "{0} a visszaszámlálás megkezdése előtt",
+    "overdueTpl": "{0} lejárt",
+    "timeLeftTpl": "{0} maradt",
+    "timeIsUpTpl": "Lejárt az idő",
+    "waitingForStartDateTpl": "Várakozás a kezdési dátumra",
+    "dateNotSet": "0 óra 0 perc"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Keresés oszlop szerint",
+      "AllOption": "Összes",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Sikeresen mentve",
+      "ErrorOnSave": "Hiba történt a módosítások alkalmazásakor"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Biztosan törölni szeretné a(z) \"{0}\" asztalt?",
+        "Error": {
+          "Deletion": "Hiba az asztal törlése közben",
+          "Configuration": "Hiba a konfiguráció összeállítása során"
+        },
+        "Success": "A(z) \"{0}\" asztal sikeresen törölve"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Keresés..."
+  },
+  "AllowedResults": {
+    "Caption": "Engedélyezett eredmények",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "Engedély szükséges"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Címke hozzáadása",
+    "CreateNewTagButtonCaption": "Hozzon létre egy új címkét"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Rekord szerkesztése",
+    "DeleteItemActionButtonCaption": "Rekord törlése",
+    "NoData": "Nincs adat"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Nincs adat",
+      "CloseButtonTitle": "Bezárás"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "Eltávolítás"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "Példatár",
+    "Hint": "The component displays hints and instructions for users to access information from the knowledge base for specific dynamic case stages",
+    "Placeholder": {
+      "Title": "No relevant playbook articles are found",
+      "Description": "Please set up a relevant article for the current dynamic case stage in the Playbooks section"
+    },
+    "Actions": {
+      "Back": "Vissza",
+      "OpenInDialog": "Megnyitás felugró ablakban"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Bezárás",
+        "OpenPage": "Megnyitás új lapon"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    },
+    "InputPlaceholder": "Írjon be egy üzenetet",
+    "SendButtonHint": "Send Message (Enter)",
+    "Caption": "Message editor",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Chat completed",
+      "ChatTransferred": "Chat transferred"
+    },
+    "MaxFilesExceeded": "Maximum number of files you can add in one iteration: {{maxCount}}",
+    "SendMessageError": "Failed to send message. Please try again"
+  },
+  "ChatSettings": {
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "The channel cannot be deleted, there are active chats or chats on distribution. Please complete the chats first and try again."
+    },
+    "History": {
+      "Captions": {
+        "StartDate": "A csevegés kezdete: {0}",
+        "EndDate": "A csevegés befejeződött: {0}"
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Nincs adat",
+    "Boolean": {
+      "Yes": "Igen",
+      "No": "Nem"
+    },
+    "String": {
+      "Placeholder": "Enter text"
+    },
+    "Numeric": {
+      "Placeholder": "Enter number",
+      "To": "up to",
+      "MaxValueError": "Value is above max value",
+      "MinValueError": "Value is below min value"
+    }
+  },
+  "Conversation": {
+    "Caption": "Beszélgetés",
+    "Copilot": {
+      "TypingMessage": "Generating response",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    },
+    "LoadPreviousChat": "Load previous chat",
+    "ChatIsCompleted": "Chat completed: {datePart}",
+    "ChatIsTransferred": "Chat transferred: {datePart} from {operatorPart} to {targetOperatorPart}",
+    "ChatTransferredToQueue": "Chat transferred: {datePart} from {operatorPart} to queue {queuePart}",
+    "ChatCompletedByAgent": "Chat completed: {datePart} by {operatorPart}"
+  },
+  "BulkActions": {
+    "Delete": "Törlés",
+    "Export": "Exportálás Excelbe",
+    "AddTag": "Címke hozzáadása",
+    "RemoveTag": "Címke eltávolítása",
+    "RowsSelection": {
+      "Selected": "kijelölve",
+      "SelectAll": "Összes kijelölése",
+      "ClearSelection": "Kijelölés törlése"
+    },
+    "Merge": "Egyesít"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Szám"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Összezár",
+    "Expand": "Kibontás"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Folyamatjelző sáv"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Csevegés állapota",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "Nincsenek a szűrési feltételeknek megfelelő rekordok",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Válassza ki az asztalt",
+    "EditDesktop": "Asztal szerkesztése",
+    "UseHotkeys": "Use Ctrl+Shift+E to edit desktop"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Nem érvényes paraméterek",
+    "ServiceResult": {
+      "ErrorMessage": "Hiba történt. Kérjük, lépjen kapcsolatba a rendszergazdával"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "Megjelölt {{ count }} elem(ek)",
+      "RemoveTagsMessage": "Megjelölés nélküli {{ count }} elem(ek)",
+      "AddTagsSuccessfulRunProcess": "A kiválasztott tétel(ek) tömeges címkézési folyamata elindult. Ez eltarthat egy ideig",
+      "RemoveTagsSuccessfulRunProcess": "A címkék tömeges eltávolítása elindult a kiválasztott elem(ek) esetében. Ez eltarthat egy ideig"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "Hozzáadott {{ count }} rekord(ok) a mappában (mappákban)",
+      "RemoveRecordsMessage": "Eltávolított {{ count }} rekord(ok) a mappából (mappákból)"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "The action has successfully started",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "This action needs at least one record to run. Please select the records you want to apply it to and try again"
+    },
+    "ProcessStarted": "Elindult a folyamat",
+    "StartingProcessAnnounceMessage": "Starting a process, please wait..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Biztos benne, hogy törölni kívánja a kiválasztott rekordot?",
+    "DeleteRecordsConfirmation": "Biztos benne, hogy törölni szeretné a kiválasztott rekordokat?",
+    "SaveSummariesForAll": "Save summary settings for all users?",
+    "ResetSummaries": "Restore default summary settings?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "Nincs elegendő jogosultság a '{0}' objektum rekordjainak törléséhez",
+    "UnableToDeleteSelectedRecord": "A kiválasztott rekord nem törölhető",
+    "SelectRecordsToDelete": "Select records to delete",
+    "SettingsErrorMessage": "Unable to execute the action.\n\rSystem administrator must check the button settings in the Freedom UI Designer.",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "You do not have permission to perform this operation.\nPlease contact your system administrator. Check access to the export object and permission to perform the system operation.",
+      "FileGenerationMessage": "Generating export file"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Insufficient permissions to access the change log. Contact your system administrator.",
+      "SourceIsNotSpecifiedMessage": "Object or data source is not specified for the action \"Open change log\". Contact your system administrator.",
+      "RecordIsNotSelectedMessage": "Select a record to open its change log.",
+      "ChangeLogIsNotTurnedOnTitle": "Turn on logging",
+      "ChangeLogIsNotTurnedOnMessage": "Logging is currently off for {0}. Do you want to turn logging on?",
+      "ChangeLogIsTurnedOffMessage": "Logging is currently off for {0}. Contact your system administrator.",
+      "RecordIsNotSavedMessage": "Save a record first to open its change log."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "{0} MB maximum file size limit exceeded.\n\r\n\r Files:\n- {1}",
+      "NoConnectedFileList": "The file upload destination is not set.\n\rPlease choose the destination in the button settings.",
+      "InvalidRequestParams": "Unable to upload the file(s) as the page component has not been set up yet. The system administrator can finish the setup in the Freedom UI designer.",
+      "ChangeFileSizeInfoMessage": "You can increase the maximum file size in the \"Attachment max size\" system setting.",
+      "FileListHeader": "Fájlok",
+      "MaxFileSizeExceededExceptionMessage": "{0} MB maximális fájlméretkorlátját túllépte.",
+      "UnknownServerError": "Something went wrong.\n\rPlease try uploading the file again.",
+      "AttachedToUnsavedRecord": "Unable to attach the files to the record that has not been created yet. Please create the record before uploading the files",
+      "InvalidExtension": {
+        "Deny": "A [{0}] fájlkiterjesztést a biztonsági beállítások tiltják. Ha ilyen fájlokkal kell dolgoznia, forduljon a rendszergazdához, hogy távolítsa el a kiterjesztést a [File extensions DenyList] (FileExtensionsDenyList) rendszerbeállításból.",
+        "Allow": "A [{0}] fájlkiterjesztést a biztonsági beállítások tiltják. Ha ilyen fájlokkal kell dolgoznia, forduljon a rendszergazdához, hogy adja hozzá a kiterjesztést a [File extensions AllowList] (FileExtensionsAllowList) rendszerbeállításhoz."
+      },
+      "EmptyFileMessage": "You are trying to upload empty files.\n\rPlease choose files with content.",
+      "SingleUploadInProgress": "The file {0} is still uploading. Please wait until the upload is complete.",
+      "MultipleUploadsInProgress": "Some files are still uploading. Please wait until the uploads are complete ({0} and {1} more)."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "{0} MB maximális fájlméretkorlátját túllépte.",
+      "UnknownUploadError": "Unknown upload error. Please contact the system administrator.",
+      "Announcement": {
+        "Uploaded": "Image uploaded",
+        "Deleted": "Image deleted"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Action error.\nContact your system administrator. Check the action settings in System Designer."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Action error.\nContact your system administrator. Check the action settings in System Designer."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Select records to add tags",
+      "SelectRecordsToRemoveRecordsMessage": "Select records to remove tags"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Select records to add to the static folder",
+      "SelectRecordsToRemoveRecordsMessage": "Select records to remove from the static folder"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} file uploaded",
+      "Deleted": "{0} file deleted"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "File '{0}' is not fully uploaded",
+      "FileDownloadErrorMessage": "File '{0}' could not be downloaded. It may have been deleted, is corrupted, or you do not have permission to access it."
+    },
+    "OK": "OK"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Címke hozzáadása",
+    "RemoveTagCaption": "Címke eltávolítása"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "The report can not be printed for unsaved record.",
+    "InvalidRequestCaption": "Action is not valid. Please check print settings.",
+    "SelectRecord": "Select record for printing report"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "It is not possible to move all selected records by this action, please select as many records as needed one by one"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Changes discarded successfully"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Record deleted successfully"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "A rekordok sikeresen törölve"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "Nincsenek elérhető jelentések",
+    "GoToPrintablesSetupCaption": "Lépjen a jelentés beállításához"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Loading, please wait...",
+    "AfterSchemaChangeAnnounceMessage": "Loading is completed"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Saving, please wait..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "The record has not been created",
+    "MergeStartedMessage": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete. Please reload the record afterward to retrieve the updated data."
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element.",
+    "NotClickableAriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}."
+  },
+  "ChartLegend": {
+    "Title": "Legend for {{chartTitle}} chart: use arrow keys to navigate and Enter key to open context menu."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} chart for \"{{chartTitle}}\" with {{groupsCount}} groups. The chart showing \"{{groupsNames}}\". X is \"{{xLabel}}\" from {{xMin}} to {{xMax}}. Y is \"{{yLabel}}\" from {{yMin}} to {{yMax}}. Use arrow keys to navigate.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Use Enter key to open context menu."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. The chart type is Gauge. Data ranges from {{ariaMin}} to {{ariaMax}}. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Expand fullscreen for \"{{title}}\" chart.",
+      "CollapseLabel": "Collapse fullscreen for \"{{title}}\" chart."
+    },
+    "Menu": {
+      "Caption": "Menu for \"{{title}}\" chart.",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "MarketingCampaignContent": {
+    "ValidateCampaignRequest": {
+      "StartDateRequiredMessage": "Adja meg a kampány kezdő dátumát és időpontját",
+      "StartDateLessThenNowMessage": "A kampány ütemezett kezdési dátuma és időpontja már lejárt. Kérjük, állítsa be a helyes értéket",
+      "StopDateRequiredMessage": "Adja meg a kampány befejezési dátumát és időpontját",
+      "StopDateLessThenNowMessage": "A kampány ütemezett befejezési dátuma és időpontja már lejárt. Kérjük, állítsa be a megfelelő értéket",
+      "StopDateLessThenStartDateMessage": "A kampány ütemezett befejezési dátuma az ütemezett kezdő dátum előtt van. Kérjük, állítsa be a helyes értékeket",
+      "StopDateLessThenNextFireTimeMessage": "A kampány ütemezett befejezési dátuma a következő ütemezett kampányfuttatás előtt van. Kérjük, állítsa be a megfelelő értéket"
+    },
+    "StopCampaignRequest": {
+      "StopConfirmationMessage": "Biztosan leállítja a kampányt?",
+      "SuccessMessage": "A kampány sikeresen leállt",
+      "ErrorMessage": "Hiba történt a kampányleállítási művelet során"
+    },
+    "StartCampaignRequest": {
+      "ScheduleConfirmationMessage": "Biztosan ütemezi a kampányt?",
+      "LaunchConfirmationMessage": "Biztosan elindítja a kampányt?",
+      "SuccessMessage": "A kampány sikeresen elindult",
+      "ErrorMessage": "Hiba történt a kampányindítási művelet során"
+    },
+    "DeleteCampaignRequest": {
+      "HasAudienceMessage": "Unable to delete the campaign as it includes participants",
+      "InStatusActiveMessage": "Campaign in Active status cannot be deleted. Please stop the campaign before deleting",
+      "InStatusStoppingMessage": "Campaign in Stopping status cannot be deleted. Please wait a while for the campaign to stop before deleting it",
+      "InStatusScheduledMessage": "Campaign in Scheduled status cannot be deleted. Please stop the campaign before deleting",
+      "MultipleHasAudienceMessage": "Unable to delete the selected campaigns as they contain participants",
+      "MultipleIncorrectStateMessage": "Unable to delete the selected campaigns as some of them are in the incorrect status"
+    }
+  },
+  "MarketingEmailContent": {
+    "AddBulkEmailAudienceRequest": {
+      "LookupPageCaption": "Névjegyek hozzáadása tömeges e-mailekhez",
+      "ImportStartedMessage": "Megkezdődött a közönség importálása. A folyamat eltarthat egy ideig. Amint elkészült, értesítjük az Értesítések panelen.",
+      "ErrorMessage": "Hiba történt a közönség importálása során",
+      "EmptyFilterMessage": "Szűrő nélkül nem lehet közönséget hozzáadni. Kérjük, válasszon néhány mappát vagy adott rekordot"
+    },
+    "RemoveBulkEmailAudienceRequest": {
+      "DeleteAllRecordsConfirmation": "Biztos benne, hogy törölni szeretné az összes közönséget az e-mailekből?",
+      "RemoveStartedMessage": "A közönség eltávolítása megkezdődött",
+      "UnableToRemoveRecords": "Hiba történt a közönség eltávolítása közben",
+      "EmptyFilterMessage": "Szűrő nélkül nem távolítható el a közönség. Kérjük, válasszon konkrét rekordokat"
+    },
+    "OpenEmailPageRequest": {
+      "RedirectQuestionMessage": "The selected bulk email was created in Email section of the Classic UI. Do you want to be redirected to it?",
+      "RedirectCaption": "Redirect"
+    },
+    "ScheduleSendingTab": {
+      "ScheduleInfoMessage": "This email is scheduled to be sent at {0}, adjusted to your",
+      "SendRateOverlimitMessage": "The selected daily limit and delay don’t fit within 24 hours. Please reduce the delay or the daily limit."
+    },
+    "SendTestEmailPage": {
+      "DefaultLabel": "Alapértelmezett"
+    },
+    "ContactSubscribeToBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is subscribed."
+    },
+    "ContactUnsubscribeFromBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is unsubscribed."
+    },
+    "BulkEmailDelete": {
+      "WrongStatus": "Unable to delete the bulk email because its status is neither \"Draft\" nor \"Planned\"",
+      "UsedInCampaign": "Unable to delete selected record, bulk email is used in a campaign"
+    },
+    "SenderDomain": {
+      "ValidateDomainGenericErrorMessage": "Unable to validate the sender domain due to an unexpected error. Please try again or contact support if the issue persists.",
+      "Add": {
+        "SuccessMessage": "The sender domain has been added successfully.",
+        "ErrorMessage": "Unable to save the sender domain due to an unexpected error. Please try again or contact support if the issue persists."
+      },
+      "Share": {
+        "SuccessMessage": "The authorization key has been generated.",
+        "CopyToClipboardSuccessMessage": "The authorization key has been copied to clipboard.",
+        "ErrorMessage": "Unable to share the sender domain due to an unexpected error. Please try again or contact support if the issue persists."
+      },
+      "Authorize": {
+        "SuccessMessage": "The sender domain has been authorized successfully.",
+        "ErrorMessage": "Unable to authorize the sender domain due to an unexpected error. Please try again or contact support if the issue persists.",
+        "InvalidTokenMessage": "Authorization key is invalid or does not match the requesting site.",
+        "KeyIsMissing": "The authorization key is missing. Please provide a valid key and try again."
+      },
+      "CopyToClipboardSuccessMessage": "Data has been copied to clipboard.",
+      "Delete": {
+        "ConfirmationMessage": "Biztos benne, hogy törölni kívánja a kiválasztott rekordot?",
+        "WrongStatus": "Unable to delete the sender domain because its status is neither \"Unvalidated\" nor \"Requested\"",
+        "ErrorMessage": "Unable to delete the domain. Please try again later or contact support."
+      }
+    }
+  },
+  "MarketingEngagementToolsContent": {
+    "ConnectFacebookForm": {
+      "IntegrationSetupError": "A Facebook lead generálása jelenleg inaktív. A rendszergazda engedélyezheti a Facebook integrációt",
+      "IntegrationWindowError": "Az előugró ablakok jelenleg le vannak tiltva a böngésző beállításaiban. A folytatáshoz engedélyezze az előugró ablakokat",
+      "DefaultSubscriptionError": "Valami elromlott. Kérjük, próbálja meg újra csatlakoztatni az űrlapot"
+    }
+  },
+  "MarketingEventContent": {
+    "AddEventAudienceRequest": {
+      "LookupPageCaption": "Névjegyek hozzáadása az eseményhez",
+      "ImportStartedMessage": "Megkezdődött a közönség importálása. A folyamat eltarthat egy ideig. Amint elkészült, értesítjük az Értesítések panelen.",
+      "ErrorMessage": "Hiba történt a közönség importálása során",
+      "EventNotSavedMessage": "Először el kell menteni az eseményt",
+      "EmptyFilterMessage": "Szűrő nélkül nem lehet közönséget hozzáadni. Kérjük, válasszon néhány mappát vagy adott rekordot"
+    },
+    "RemoveEventAudienceRequest": {
+      "RemoveStartedMessage": "A közönség eltávolítása megkezdődött",
+      "UnableToRemoveRecords": "Hiba történt a közönség eltávolítása közben",
+      "EmptyFilterMessage": "Szűrő nélkül nem távolítható el a közönség. Kérjük, válasszon konkrét rekordokat",
+      "DeleteAllRecordsConfirmation": "Biztos benne, hogy törölni szeretné az összes közönséget az eseményből?"
+    }
+  },
+  "ObjectAccessRights": {
+    "OperationTypeGroup": {
+      "Read": "Permissions to read",
+      "Write": "Permissions to write",
+      "Delete": "Permissions to delete",
+      "Execute": "Permissions to execute"
+    },
+    "OperationType": {
+      "Read": "Olvasás",
+      "ReadWithDelegate": "Read with delegate",
+      "Write": "Write",
+      "WriteWithDelegate": "Write with delegate",
+      "Delete": "Törlés",
+      "DeleteWithDelegate": "Delete with delegate",
+      "Execute": "Végrehajtás",
+      "ExecuteWithDelegate": "Execute with delegate"
+    }
+  },
+  "ResendWebhooks": {
+    "SuccessMessage": "Undelivered webhook processing has started successfully. This may take some time depending on the number of undelivered webhooks in the system.",
+    "ErrorMessage": "Failed to start undelivered webhook receiving process."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Kérjük, válassza ki az értéket a listából",
+      "SelectionWindowMessage": "Kérjük, válasszon értéket a listából, vagy keressen a keresőablak segítségével"
+    },
+    "Required": {
+      "Message": "Adj meg egy értéket"
+    },
+    "MaxLength": {
+      "Message": "A maximális szöveghossz túllépve ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Nem érte el a minimális szöveghosszt ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Érvénytelen dátum- és időformátum"
+    },
+    "DatePickerSyntax": {
+      "Message": "Érvénytelen dátumformátum"
+    },
+    "TimePickerSyntax": {
+      "Message": "Érvénytelen időformátum"
+    },
+    "RegExp": {
+      "Message": "Érvénytelen értékformátum"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Oszlop eltávolítva",
+    "ValidationErrorMessageSingleErrorField": "Mező: {0}. Hiba: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Mezők: {0}. Hiba: {1}",
+    "RefreshModelDataConflict": "A Creatio új adatokkal rendelkezik az aktuális oldalhoz. A megtekintéséhez mentse vagy vonja vissza a módosításokat, és frissítse az oldalt.",
+    "WarningModelsWithCircularDependencies": "Egyes modellek körkörös függőséggel rendelkeznek, és nincsenek betöltve",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nincs oldal új vagy meglévő rekordhoz. A rendszergazdának ellenőriznie kell a gombbeállításokat a Freedom UI-ban",
+    "GoToEntityDesignerMessage": "Az oldalak beállításához lépjen a következő URL-re: {0}"
+  },
+  "Copilot": {
+    "RewriteActionsPrompt": {
+      "AskCopilot": "You will assist with rewriting the following text, further instructions will be provided in the dialog",
+      "Friendly": "Rewrite the following text and make it more friendly",
+      "Formal": "Rewrite the following text and make it more formal",
+      "Shorten": "Rewrite the following text and shorten it",
+      "Extend": "Rewrite the following text and extend it",
+      "Rephrase": "Rewrite the following text and rephrase it"
+    },
+    "DebugInfo": {
+      "NoDebugInfo": "No debug information available"
+    },
+    "NewChatCaption": "New chat",
+    "DeleteRecordConfirmation": "Biztos benne, hogy törölni kívánja a kiválasztott rekordot?",
+    "FileMessages": {
+      "IntentMaxSizeException": "{0} MB maximum file size limit exceeded. You can increase the maximum file size by changing the {1} system setting.",
+      "ChatMaxSizeException": "{0} MB maximum file size limit exceeded. You can increase the maximum file size by changing the {1} system setting.",
+      "IntentMissingTypeException": "File type is not specified. Please upload a file in one of the following standard text formats: {0}",
+      "ChatMissingTypeException": "File type is not specified. Please upload a file in one of the following standard text formats: {0}",
+      "IntentTypeNotSupportedException": "{0} file type is not supported. Please upload a file in one of the following standard text formats: {1}",
+      "ChatTypeNotSupportedException": "{0} file type is not supported. Please upload a file in one of the following standard text formats: {1}"
+    },
+    "MessageSent": "The message was sent.",
+    "ViewElementMessage": {
+      "SetupDetailsCaption": "Setup details"
+    },
+    "LiveAnnouncement": {
+      "ChatRenamed": "Chat renamed to {0}",
+      "MessageReceivedInCurrentChat": "{0}: {1}",
+      "MessageReceivedInAnotherChat": "New message from {0} in {1} chat",
+      "SessionCreated": "New {0} chat created",
+      "Typing": "{0} is working on it"
+    },
+    "LlmModelPage": {
+      "PleaseTypeRequiredField": "Please type connection string required field",
+      "NoLicenseToCreateLlmModel": "Unable to add model. Adding the custom model requires a separate license. For assistance, please contact support."
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Betöltés..."
+  },
+  "CopyClipboard": {
+    "Copied": "Másolva"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Még nincs mit mutatni",
+      "Subhead": "Kérjük, először adja meg az adatokat"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Betöltés"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Hiba",
+      "Default": "Elemleírás"
+    }
+  },
+  "GoogleAnalytics": {
+    "PlatformCaption": "Platform",
+    "ApplicationCaption": "Alkalmazás",
+    "LoginRequestTitle": "Connect google analytics",
+    "NotEnoughPermissionsMessage": "Sorry, unable to connect your google analytics account. Please grant maximum permissions to Creatio and try again.",
+    "PlatformUndefinedMessage": "Platform undefined, győződjön meg róla, hogy konfigurálja a platform ellenséget a gombbal",
+    "ApplicationUndefinedMessage": "Az alkalmazás nincs definiálva, ügyeljen arra, hogy konfigurálja a platform ellenséget a gombbal",
+    "RefreshStreamSuccessMessage": "Google Analytics streams refreshed successfully",
+    "RefreshStreamErrorMessage": "Failed to refresh Google Analytics streams. Please try again later.",
+    "RefreshStreamConfirmationTitle": "Refresh data stream list?",
+    "RefreshStreamConfirmationMessage": "Refreshing may take a moment — the system will be unavailable while updating the list",
+    "RefreshStreamConfirmationCancel": "Mégsem",
+    "RefreshStreamConfirmationOk": "Frissítés"
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Platform",
+    "AppInputCaption": "Alkalmazás",
+    "AdPlatformLoginRequestTitle": "Csatlakoztassa a hirdetési platformot",
+    "NotEnoughPermissionsMessage": "Sajnáljuk, nem sikerült összekapcsolni hirdetési fiókját. Kérjük, adjon meg maximális engedélyt a Creatiónak, és próbálja újra.",
+    "PlatformUndefinedMessage": "Platform undefined, győződjön meg róla, hogy konfigurálja a platform ellenséget a gombbal",
+    "ApplicationUndefinedMessage": "Az alkalmazás nincs definiálva, ügyeljen arra, hogy konfigurálja a platform ellenséget a gombbal",
+    "ImportFromAdPlatformStartedMessage": "Data import from ad accounts has been started",
+    "NoConnectedAdAccountsFoundMessage": "There are no connected ad accounts for import",
+    "NoActiveAdAccountsFoundMessage": "Sorry, but we couldn’t find any ad accounts available to you. Make sure that you have access to the required accounts on the platform. Only active accounts can be connected."
+  },
+  "PageTools": {
+    "DesignButtonHint": "Oldal szerkesztése",
+    "ExpandButtonTitle": "Kibontás",
+    "CollapseButtonTitle": "Összezár"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "FolderTreePropertiesPage": {
+        "AppearanceGroup": "Megjelenés",
+        "BorderRadiusLabel": "Szegély rádiusz",
+        "GeneralLabel": "Általános",
+        "HeaderLabel": "Mappabeállítások",
+        "Sizes": {
+          "None": "Nincs",
+          "Small": "Kicsi",
+          "Medium": "Közepes",
+          "Large": "Nagy"
+        },
+        "SourceSchemaLabel": "Mappa tárolási helye",
+        "RootSchemaLabel": "Mi lesz a mappák szűrése?"
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "A mappakezelő menü beállításai",
+        "FolderTreeLabel": "Mappafa kiválasztása",
+        "GeneralCaption": "Általános"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Eszköztár megjelenítési mód",
+        "Inline": "Egysorban",
+        "Classic": "Klasszikus",
+        "AlwaysShowToolbar": "Always show formatting options"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Hírcsatorna beállításai",
+        "GeneralCaption": "Általános",
+        "FeedTypeCaption": "A rekordok szűrése",
+        "FeedChannel": "Csatorna",
+        "FeedTypeGeneral": "Általános",
+        "FeedTypeUser": "Felhasználóhoz kapcsolódik",
+        "FeedTypeChannel": "Csatorna",
+        "FeedTypeRecord": "A felvételhez kapcsolódik",
+        "FeedDataSourceCaption": "Adatforrás",
+        "FeedTypeRecordTooltipCaption": "A hírfolyam üzenetek az adott rekordkommunikáció alapján jelennek meg.",
+        "FeedTypeGeneralTooltipCaption": "Az aktuális felhasználóhoz kapcsolódó összes értesítés és említés. Ebben a módban a hírfolyam azokat a bejegyzéseket és megjegyzéseket jeleníti meg, ahol az aktuális felhasználó meg lett címkézve, vagy az általa követett szálak. Például ebben a módban a hírcsatorna hozzáadható a kezdőlaphoz, hogy ne maradjon le fontos információkról.",
+        "ExternalUsersGroupCaption": "Külső felhasználók",
+        "AllowExternalPostCaption": "Közzététel engedélyezése külső felhasználók számára",
+        "ShowBlankSlateCaption": "Üres lap megjelenítése"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Gyors szűrőbeállítások",
+        "GeneralCaption": "Általános",
+        "AppearanceCaption": "Megjelenés",
+        "ChooseFilterTypeLabel": "Válasszon szűrőtípust",
+        "CaptionLabel": "Cím",
+        "HintLabel": "Tipp",
+        "CustomType": "Egyedi",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Kereső"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "Szerkesztés",
+          "Delete": "Törlés"
+        },
+        "ChannelsCaption": "Csatornák",
+        "AddNewItem": "Csatorna hozzáadása",
+        "PageCaption": "Üzenetkészítő",
+        "DefaultChannelCaption": "Alapértelmezett csatorna"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "E-mail zeneszerző",
+        "GeneralCaption": "Általános",
+        "DefaultSenderType": "Alapértelmezett feladó",
+        "DefaultMailbox": "Az alapértelmezett postafiók használata",
+        "CaseMailbox": "Esetforrás-postafiók használata"
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Chat Beállítások",
+        "GeneralCaption": "Általános",
+        "TooltipCaption": "Ezt az elemet az oldal forráskódjában állíthatja be",
+        "OpenSourceCodeButtonCaption": "Nyílt forráskód"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Conversation settings",
+        "GeneralCaption": "Általános"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Message editor settings",
+        "GeneralCaption": "Általános"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Összefoglalók beállításai",
+        "GeneralGroup": {
+          "Caption": "Általános",
+          "SelectDataSource": "Adatforrás"
+        }
+      },
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Titkosított karakterlánc"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Merge data"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Which data to merge?"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Idővonal beállításai",
+        "GeneralGroup": "Általános",
+        "ObjectsCaption": "Objektum",
+        "AddObject": "Objektum hozzáadása",
+        "EmptyDataSourceHint": "Az adatforrás nincs hozzáadva az oldalhoz. Kérjük, adjon hozzá meglévő adatforrást az összetevő beállításához",
+        "BindToDataSourceCaption": "Adatforrás",
+        "FiltrationCaption": "Szűrési lehetőségek",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "Rekordtípus szerint",
+          "TimelineFilter_Owner": "A tulajdonos által",
+          "TimelineFilter_Date": "Dátum szerint",
+          "TimelineFilter_SystemMessages": "Rendszerüzenetekkel"
+        },
+        "ContextMenu": {
+          "Edit": "Szerkesztés",
+          "Delete": "Törlés"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Általános",
+        "FiltrationGroup": "Szűrési lehetőségek",
+        "CaptionLabel": "Cím",
+        "AppearanceGroup": "Megjelenés",
+        "LinkedColumn": "Kapcsolt oszlop",
+        "SortedByColumn": "Rendezés",
+        "OwnerColumn": "Oszlop a tulajdonos szűréséhez",
+        "IconPosition": {
+          "OnlyIcon": "Csak ikon"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "Külső felhasználók",
+          "AllowExternalPostCaption": "Közzététel engedélyezése külső felhasználók számára"
+        }
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "Kommunikációs beállítások beállításai",
+        "GeneralGroup": "Általános",
+        "MasterRecordCaption": "Rögzítés a kommunikációs lehetőségek összekapcsolásához",
+        "DataSourceEntityColumn": "Adatforrás",
+        "Editability": "Szerkeszthetőség",
+        "EditabilityControls": {
+          "Readonly": "Csak olvasható"
+        },
+        "LabelPositionCaption": "Cím pozíciója",
+        "LabelPosition": {
+          "Auto": "Automatikus",
+          "Left": "Bal",
+          "Above": "Felül",
+          "Hidden": "Rejtett"
+        },
+        "ShowNoDataPlaceholder": "Helyőrző megjelenítése, ha nincs adat",
+        "AppearanceGroup": "Megjelenés",
+        "ColumnsCountLabel": "Oszlopok száma",
+        "ContactEntitySchemaName": "Kapcsolattartási lehetőségek",
+        "AccountEntitySchemaName": "Partner kommunikációs lehetőségek",
+        "EmptyDataSourceHint": "Az adatforrás nincs hozzáadva az oldalhoz. Kérjük, adjon hozzá meglévő adatforrást az összetevő beállításához"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Fiókkompakt profilbeállítások",
+        "GeneralGroup": "Általános",
+        "AttributeForReferenceColumn": "Adatforrás",
+        "Editability": "Szerkeszthetőség",
+        "EmptyAccountDataSourceHint": "Az adatforrás nincs hozzáadva az oldalhoz. Kérjük, adjon hozzá meglévő adatforrást az összetevő beállításához",
+        "EditabilityControls": {
+          "Readonly": "Csak olvasható"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Vegye fel a kapcsolatot a kompakt profilbeállításokkal",
+        "GeneralGroup": "Általános",
+        "AttributeForReferenceColumn": "Adatforrás",
+        "Editability": "Szerkeszthetőség",
+        "EmptyContactDataSourceHint": "Az adatforrás nincs hozzáadva az oldalhoz. Kérjük, adjon hozzá meglévő adatforrást az összetevő beállításához",
+        "EditabilityControls": {
+          "Readonly": "Csak olvasható"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "Felhasználói profil beállításai",
+        "GeneralGroup": "Általános",
+        "AttributeForReferenceColumn": "Adatforrás",
+        "Editability": "Szerkeszthetőség",
+        "EmptyUserProfileDataSourceHint": "Az adatforrás nincs hozzáadva az oldalhoz. Kérjük, adjon hozzá meglévő adatforrást az összetevő beállításához",
+        "EditabilityControls": {
+          "Readonly": "Csak olvasható"
+        }
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Következő lépések beállítások"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini oldal az előnézethez",
+        "TitleColumn": "Elsődleges megjelenítési mező",
+        "StartDateColumn": "Kezdő dátum oszlop",
+        "EndDateColumn": "Befejezés dátuma oszlop",
+        "NotesColumn": "Mező online értekezlet-információkkal",
+        "PageCaption": "Naptár beállítások",
+        "RequiredFieldError": "A mező kitöltése kötelező",
+        "SecondaryTileFields": "Másodlagos csempe mezők",
+        "AddSecondaryFieldCaption": "Add secondary field",
+        "DisabledAddSecondaryFieldCaption": "Legfeljebb 4 másodlagos mezőt adhat hozzá",
+        "AutoScrollToCurrentTime": "Görgessen automatikusan az aktuális időre",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Törlés"
+        },
+        "ColorizationType": {
+          "Default": "Alapértelmezett",
+          "ByField": "Automatikus",
+          "ByOwner": "Felhasználó által"
+        },
+        "ColorizationTypeCaption": "Csempe színezési mód",
+        "ColorizationColumnCaption": "Kereső"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Next Best Offers settings",
+        "GeneralCaption": "Általános",
+        "DataSourceCaption": "Objektum",
+        "CaptionColumnField": "Felirat",
+        "DescriptionColumnField": "Leírás",
+        "InfoLabelColumnField": "Info lookup",
+        "ImageColumnField": "Kép",
+        "NumberTagColumnField": "Címke",
+        "SortingFieldTooltip": "The items will be sorted by value from this field in descending order.",
+        "AdditionalCaption": "További",
+        "SpecificPageLookupField": "Melyik oldalt kell megnyitni?",
+        "UseSpecificPageField": "Open specific page by clicking on the caption",
+        "SpecificPageRecordIdField": "Rekordazonosító",
+        "ViewModeCaption": "Megjelenítési mód",
+        "CarouselViewMode": "Carousel",
+        "GalleryViewMode": "Galéria"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Multiselect lookup settings",
+        "GeneralGroup": {
+          "General": "Általános",
+          "SelectLookup": "Válassza ki a keresést",
+          "MultiselectValueStorage": "Multiselect value storage",
+          "SelectColumn": "Column to display",
+          "Required": "Kötelező",
+          "RequirementTypeItems": {
+            "No": "Nem",
+            "Yes": "Igen"
+          }
+        },
+        "AppearanceCaption": "Megjelenés",
+        "LabelPositionVariants": {
+          "Auto": "Automatikus",
+          "Left": "Bal",
+          "Above": "Felül",
+          "Hidden": "Rejtett"
+        },
+        "TitleOnPage": "Cím az oldalon",
+        "Placeholder": "Megjelenő helyettesítő szöveg",
+        "Tooltip": "Elemleírás",
+        "LabelPosition": "Cím pozíciója",
+        "EnableAddRecordCaption": "Új értékek hozzáadásának engedélyezése",
+        "WrapCaption": "Wrapping items to the next line",
+        "Editability": "Szerkeszthetőség",
+        "EditabilityControls": {
+          "Readonly": "Csak olvasható"
+        },
+        "LookupStaticFilterLabel": "Apply static filter for lookup"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Jóváhagyási beállítások",
+        "GeneralGroup": "Általános",
+        "SchemaNameLabel": "Mely rekordokat kell jóváhagyni?",
+        "AppearanceGroup": "Megjelenés",
+        "HiddenWhenNoData": "Rejtett, ha nincs adat"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Jóváhagyási lista beállításai",
+        "GeneralGroup": "Általános",
+        "SchemaNameLabel": "Objektum"
+      }
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Hozzáadás",
+    "AddFilterHint": "Új mappa hozzáadása",
+    "BlankslateMessage": "Nincsenek mappák",
+    "CloseFolderTree": "Mappák elrejtése",
+    "SetUpFilter": "Állítsa be a szűrőt",
+    "DefaultFolderName": "Új mappa",
+    "CopyFolderSuffix": "Másolás",
+    "DeleteConfirmation": "Biztos benne, hogy törölni szeretné a kiválasztott mappát?",
+    "MenuActions": {
+      "AddFolder": "Könyvtár hozzáadása",
+      "AddStaticFolder": "Statikus mappa hozzáadása",
+      "RenameFolder": "Átnevezés",
+      "CopyFolder": "Másolás",
+      "DeleteFolder": "Törlés",
+      "AddToFavorite": "Kedvencekhez",
+      "RemoveFromFavorite": "Eltávolítás a kedvencek közül",
+      "ChangeFolderRights": "Hozzáférési jogok beállítása",
+      "ConvertToStaticFolder": "Átalakítás statikus mappává",
+      "MoveFolder": "Mozgatás"
+    },
+    "ShowMenuActions": "Műveletek megjelenítése",
+    "FavoritesNodeCaption": "Kedvencek",
+    "RootNodeCaption": "Összes",
+    "CopyRightsQuestion": "Másolja a(z) \"{0}\" mappa hozzáférési engedélyeit?",
+    "HasNotPermission": "Nincs hozzáférési jogosultsága ehhez a művelethez."
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Mentés",
+    "CancelButton": "Mégsem",
+    "DialogTitle": "Szűrők beállítása"
+  },
+  "Components": {
+    "FolderTree": {
+      "Caption": "Mappák",
+      "Hint": "Lehetővé teszi a mappastruktúra konfigurálását a rekordok meghatározott szűrők szerinti rendszerezéséhez. Az összetevő rendeltetésszerű működésének biztosításához csatlakoztassa a Lista vagy az Adatforrás beállításai oldalon."
+    },
+    "FolderTreeActions": {
+      "Caption": "Mappakezelő menü",
+      "Hint": "Szükséges a Mappa összetevő. Lehetővé teszi az oldalmappák elrejtésének felfedését."
+    },
+    "QuickFilter": {
+      "Caption": "Gyors szűrő",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Tegnap",
+          "Today": "Ma",
+          "Tomorrow": "Holnap",
+          "PreviousWeek": "Előző hét",
+          "CurrentWeek": "Jelenlegi hét",
+          "NextWeek": "Következő héten",
+          "PreviousMonth": "Előző hónap",
+          "CurrentMonth": "Aktuális hónap",
+          "NextMonth": "Következő hónap",
+          "PreviousQuarter": "Előző negyedév",
+          "CurrentQuarter": "Aktuális negyedév",
+          "NextQuarter": "Következő negyedév",
+          "PreviousFiscalWeek": "Previous fiscal week",
+          "CurrentFiscalWeek": "Current fiscal week",
+          "NextFiscalWeek": "Next fiscal week",
+          "FiscalQuarter1": "Q1",
+          "FiscalQuarter2": "Q2",
+          "FiscalQuarter3": "Q3",
+          "FiscalQuarter4": "Q4",
+          "FiscalHalfYear1": "First half year",
+          "FiscalHalfYear2": "Second half year",
+          "PreviousFiscalYear": "Előző év",
+          "CurrentFiscalYear": "Jelen év",
+          "NextFiscalYear": "Következő év"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "Üzenetkészítő",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "E-mail"
+        },
+        "Feed": {
+          "Caption": "Hírfolyam"
+        },
+        "SelectChannelsCaption": "Válasszon csatornákat"
+      }
+    },
+    "EncryptedInput": {
+      "Caption": "Titkosított karakterlánc",
+      "EyeButtonShowValueCaption": "Show value",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Something went wrong. Please, try again or contact your system administrator."
+      },
+      "EyeButtonHideValueCaption": "Hide value",
+      "EyeButtonDisabledCaption": "Can’t show/hide value",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "This type of attribute is not supported for this operation. Please check the field configuration or try a different data type.",
+        "CurrentRecordIdNotFoundError": "Unable to find the current record ID. This may happen if the current record has not been saved yet. Please make sure the record is saved before performing this action.",
+        "ReferenceRecordIdNotFoundError": "The referenced record ID is missing. This can occur if the reference points to a newly created record that hasn't been saved to the database yet. Please save the referenced record first.",
+        "ReferenceColumnSchemaNameNotFoundError": "The name of the referenced column schema is not found. Please check the configuration of the reference field."
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Selected color",
+      "Readonly": "Nem szerkeszthető mező"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Next Best Offers"
+    },
+    "NextBestOffer": {
+      "Caption": "Next best offers",
+      "EmptyValue": "N/A",
+      "Next": "Következő",
+      "Previous": "Előző"
+    },
+    "MultiSelect": {
+      "Caption": "Multiselect lookup",
+      "Label": "Multi-select",
+      "CreateRecordButtonCaption": "Create record",
+      "ExpanderIcon": "Expand dropdown",
+      "OpenModalIcon": "Open modal window",
+      "TooltipInfoIcon": "Information tooltip",
+      "ReadonlyIcon": "Nem szerkeszthető mező"
+    },
+    "Approval": {
+      "Caption": "Engedélyek"
+    },
+    "ApprovalList": {
+      "Caption": "Jóváhagyások listája",
+      "RefreshCaption": "Frissítés",
+      "ProvideDataSource": "A jóváhagyások használata előtt adja meg az adatforrást"
+    }
+  },
+  "FolderTreeActions": {
+    "ClearButtonCaption": "Kijelölés törlése",
+    "FavoriteItemsMenuButtonAriaLabel": "Kedvenc mappák menü",
+    "FolderButtonAriaLabel": "Open/Close folder tree",
+    "MenuButton": "Mappák"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "Értesítjük Önt, ha az átalakítás befejeződött."
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "Elvetés",
+    "SelectFolderButtonCaption": "Kiválasztás",
+    "SelectFolderCaption": "Mappa kiválasztása"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "List settings for folder",
+      "CreateDataGridSettingsForFolder": {
+        "Label": "Create custom settings for \"{0}\"",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Save as new default settings for \"{0}\"",
+        "Confirmation": "New default list settings for the \"{0}\" folder will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Overwrite current settings for all users for \"{0}\"",
+        "Confirmation": "New default list settings will be saved for the \"{0}\" folder and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Restore default settings for \"{0}\"",
+        "Confirmation": "Default list settings will be restored for the \"{0}\" folder. Continue?",
+        "SuccessStatus": "Default list settings for the \"{0}\" folder restored successfully"
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Clear custom settings for \"{0}\"",
+        "Confirmation": "Custom list settings for the \"{0}\" folder will be cleared for all users and general list setting will be applied. Continue?",
+        "SuccessStatus": "List settings for the \"{0}\" folder cleared successfully"
+      }
+    }
+  },
+  "QuickFilter": {
+    "MainTitle": "Gyors szűrő",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Tegnap",
+        "Today": "Ma",
+        "Tomorrow": "Holnap",
+        "PreviousWeek": "Előző hét",
+        "CurrentWeek": "Jelenlegi hét",
+        "NextWeek": "Következő héten",
+        "PreviousMonth": "Előző hónap",
+        "CurrentMonth": "Aktuális hónap",
+        "NextMonth": "Következő hónap",
+        "PreviousQuarter": "Előző negyedév",
+        "CurrentQuarter": "Aktuális negyedév",
+        "NextQuarter": "Következő negyedév",
+        "PreviousFiscalWeek": "Előző hét",
+        "CurrentFiscalWeek": "Jelenlegi hét",
+        "NextFiscalWeek": "Következő héten",
+        "FiscalQuarter1": "Q1",
+        "FiscalQuarter2": "Q2",
+        "FiscalQuarter3": "Q3",
+        "FiscalQuarter4": "Q4",
+        "FiscalHalfYear1": "First half year",
+        "FiscalHalfYear2": "Second half year",
+        "PreviousFiscalYear": "Előző év",
+        "CurrentFiscalYear": "Jelen év",
+        "NextFiscalYear": "Következő év"
+      },
+      "RangeSeparator": "ig",
+      "SelectDatePlaceholder": "Dátumválasztás",
+      "EmptyDateRangeStartLabel": "<Start date>",
+      "EmptyDateRangeEndLabel": "<Due date>",
+      "Header": {
+        "ArrowRight": "Következő hónap",
+        "ArrowLeft": "Előző hónap"
+      },
+      "RangeSelectedFrom": "Selected from",
+      "ClearIcon": "Clear selected range",
+      "ClearStartDatePlaceholder": "Clear selected start date",
+      "ClearEndDatePlaceholder": "Clear selected end date",
+      "EmptyDateRangeStartAriaLabel": "[No start date selected]",
+      "EmptyDateRangeEndAriaLabel": "[No end date selected]",
+      "CalendarMode": "Naptár",
+      "FiscalMode": "Fiscal",
+      "Fiscal": {
+        "PeriodNotFound": "We couldn’t load the fiscal period date ranges. Please check that fiscal periods are set up, or contact your administrator for assistance.",
+        "LoadError": "Error loading fiscal period data, contact your administrator for assistance"
+      },
+      "SelectTimePlaceholder": "Kérlek, válassz időt"
+    },
+    "Lookup": {
+      "NoData": "Nincs adat"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Következő hónap",
+    "AriaPrevMonthLabel": "Előző hónap",
+    "AriaNextYearLabel": "Következő év",
+    "AriaPrevYearLabel": "Előző év",
+    "Readonly": "Nem szerkeszthető mező",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Naptár",
+    "TimePickerIconTitle": "Idő"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Formatting options (Alt+F10)",
+    "UploadAttachments": "Válassza ki a mellékleteket",
+    "SelectTemplate": "Sablon beszúrása",
+    "SelectionActions": {
+      "AskCopilot": "Ask Creatio.ai",
+      "Friendly": "Friendly",
+      "Formal": "Hivatalos",
+      "Shorten": "Shorten",
+      "Extend": "Extend",
+      "Rephrase": "Rephrase",
+      "RewriteCaption": "Rewrite text"
+    },
+    "TableOfContents": {
+      "Title": "Table of contents",
+      "Placeholder": "A table of contents based on the headings on this page will appear here once it has been published."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Mentés",
+    "OpenLinkButtonCaption": "Megnyitás új lapon",
+    "CloseLinkButtonCaption": "Bezárás",
+    "UnlinkLinkButtonCaption": "Link Törlése",
+    "LinkLabelCaption": "Link címe",
+    "TextLabelCaption": "Megjelenítendő szöveg"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Insert video",
+    "PasteUrlTab": "Paste url",
+    "UploadFileTab": "Fájl feltöltése",
+    "EmbedCodeTab": "Embed code",
+    "DialogDescription": "This video will be embedded at 640 pixels wide.<br>This embedded video will include a text link.",
+    "SaveButton": "Insert video",
+    "CancelButton": "Elvetés",
+    "UploadButton": "Fájl feltöltése",
+    "InputPlaceholder": "Paste here",
+    "DragAndDropPlaceholder": "Drag-and-drop file here or",
+    "NotVideoFile": "The inserted file is not a video, please select a file with a video type.",
+    "ConfirmMessage": "Ez az oldal nem mentett módosításokat tartalmaz. Elvesznek, ha bezárod az oldalt. Menti a változtatásokat?"
+  },
+  "Feed": {
+    "Caption": "Hírfolyam",
+    "SortByCreatedOn": "Rendezés üzenet dátuma szerint",
+    "SortByLastAction": "Rendezés az utolsó tevékenység dátuma szerint",
+    "ShowMoreThanOneNewSocialMessages": "{0} új üzenet megjelenítése",
+    "ShowNewSocialMessage": "1 új üzenet megjelenítése",
+    "ExternalUserTagCaption": "Külső",
+    "DraftItemTagCaption": "Vázlat",
+    "ExternalUserTagTooltip": "Hozzászólás külső felhasználók számára",
+    "Item": {
+      "Edit": "Szerkesztés",
+      "Delete": "Törlés",
+      "DeletionConfirmation": "Biztosan törli a rekordot? Ez a művelet nem visszavonható.",
+      "DeletionErrorMsg": "A rekordot nem törölték. Kérlek, próbáld újra később.",
+      "DownloadFile": "Download"
+    },
+    "Publisher": {
+      "DefaultInputPlaceholder": "Üzenet küldése…",
+      "DisabledInputPlaceholder": "Az új rekordoldalon nem hozhat létre új bejegyzéseket.",
+      "UserFeedInputPlaceholder": "A hírcsatorna felhasználói módban van. Ebben a módban nem hozhat létre új bejegyzéseket.",
+      "CommentInputPlaceholder": "Írj hozzászólást…",
+      "ShareWithPortal": "Ossza meg a portál felhasználójával",
+      "PostingErrorMsg": "Hiba a hírcsatorna bejegyzésének mentésekor",
+      "PostingEmptyMsg": "A folytatáshoz írjon be egy üzenetet.",
+      "SendButtonHint": "Üzenet küldése (Ctrl + Enter)",
+      "CancelButtonHint": "Elvetés",
+      "ExternalMessagesDisabled": "Kérjük, vegye figyelembe, hogy a külső felhasználó nem tudja elolvasni az üzenetet, mert ez az opció le van tiltva a komponens tervezési idején.",
+      "ConfirmMessageAccessLevelChange": "Kérjük, erősítse meg, hogy módosítani szeretné a bejegyzés láthatósági szintjét. Figyelem: a bejegyzés, a kapcsolódó megjegyzések és mellékletek láthatóvá válnak a külső felhasználók számára.",
+      "ConfirmCommentAccessLevelChange": "Kérjük, erősítse meg, hogy módosítani szeretné a megjegyzések láthatósági szintjét. Felhívjuk figyelmét, hogy a megjegyzés és a kapcsolódó mellékletek láthatóvá válnak a külső felhasználók számára."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Hozzászólás hozzáadása",
+      "CommentsButtonCaption": "Hozzászólások",
+      "CommentsButtonHint": "Mutassa a hozzászólásokat",
+      "ExpandedCommentsButtonHint": "Megjegyzések elrejtése",
+      "PostedInLabel": "közzétett itt:"
+    },
+    "Reactions": {
+      "Like": "Tetszik",
+      "ExtraReactionsTemplate": "és további {0}...",
+      "PostLiked": "The feed post was liked.",
+      "LikeRemoved": "Like was removed from the feed post."
+    },
+    "NoDataContainerLabel": "Olyan csendes!",
+    "SortButtonCaption": "Sort feed",
+    "ActionsButtonCaption": "Műveletek",
+    "FollowButtonCaption": "Follow feed",
+    "UnfollowButtonCaption": "Unfollow feed",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Follow feed",
+        "Unfollow": "Unfollow feed"
+      },
+      "NotificationTemplate": {
+        "Follow": "You are following updates of the feed: {0}",
+        "Unfollow": "You have unfollowed updates of the feed: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}"
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Adjon hozzá összetevőket",
+    "Tooltip": "Kérjük, adjon hozzá összetevőket"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Alapértelmezett érték",
+    "FilterColumnLabel": "Szűrőoszlop",
+    "ViewAttributeLabel": "Szűrő komponens"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Szűrő szerkesztése",
+    "SetupFilterCaption": "Szűrő beállítása",
+    "FiltersDialogCaption": "Kézzel definiált szűrő",
+    "DefaultCheckBoxState": {
+      "Label": "Alapértelmezett jelölőnégyzet állapota",
+      "CheckedCaption": "Ellenőrizve",
+      "UncheckedCaption": "Nem ellenőrzött"
+    },
+    "FilteringApproachState": {
+      "Label": "Szűrési megközelítés",
+      "OnCheckedCaption": "Szűrőfeltétel alkalmazása, ha a jelölőnégyzet be van jelölve",
+      "OnUncheckedCaption": "Szűrőfeltétel alkalmazása, ha a jelölőnégyzet nincs bejelölve"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Alapértelmezett időszak",
+    "ChooseFilteringMethodCaption": "Válasszon szűrési módot",
+    "ChooseFilteringMethodTooltip": "A szűrő képes megjeleníteni a megadott időszakra vonatkozó adatokat.\nHasználja a \"Szűrő beállítása egy dátum szerint\" feltételt a megadott napon létrehozott vagy módosított rekordok megjelenítéséhez. Beállíthatja például ezt a szűrőt úgy, hogy a potenciális ügyfeleket a létrehozás dátuma szerint, a lehetőségeket a bezárási dátum szerint vagy az eseteket a megoldás dátuma szerint jelenítse meg.\n\nHasználja a „Szűrő beállítása dátumtartomány szerint” feltételt azon rekordok megjelenítéséhez, amelyeknél egy dátumtartomány különösen releváns. Például beállíthatja ezt a szűrőt azokra a szerződésekre, amelyek kezdő és befejező dátuma a megadott dátumtartományon belül van.",
+    "SetUpByOneColumnTitle": "Szűrő beállítása egy dátum szerint",
+    "SetUpByTwoColumnsTitle": "Szűrő beállítása dátumtartomány szerint",
+    "FilterColumnStartCaption": "Oszlop szűrése Kezdő",
+    "FilterColumnEndCaption": "Oszlop szűrése ide",
+    "ShowTimeLabel": "Enable time",
+    "ShowFiscalPeriodsLabel": "Show fiscal periods"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "Jelenlegi felhasználói kapcsolat",
+    "CurrentUserAccountName": "Jelenlegi felhasználói fiók",
+    "EditFilterCaption": "Szűrő szerkesztése",
+    "SetupFilterCaption": "Szűrő beállítása",
+    "FiltersDialogCaption": "Kézzel definiált szűrő",
+    "TagVirtualColumnCaption": "Címke"
+  },
+  "MessageComposer": {
+    "CancelButtonHint": "Eldobás",
+    "CancelButtonText": "Eldobás",
+    "SaveDraftButtonText": "Piszkozat mentése",
+    "SendButtonHint": "Üzenet küldése (Ctrl + Enter)",
+    "MessageSent": "Üzenet elküldve",
+    "SendButtonText": "Küldés",
+    "RemoveAttachmentHint": "Távolítsa el a mellékletet",
+    "Caption": "Üzenetkészítő",
+    "Email": {
+      "Caption": "E-mail zeneszerző",
+      "From": "Ettől",
+      "To": "Címzett",
+      "CC": "CC",
+      "BCC": "Titkos másolat",
+      "Subject": "Tárgy",
+      "PublishError": "Nem sikerült üzenetet küldeni. A következő hibaüzenet érkezett: {0}",
+      "SaveDraftError": "Nem sikerült menteni a piszkozatot. Kérlek, próbáld újra később",
+      "TemplateInsertError": "Nem sikerült hozzáadni a sablont. Kérlek, próbáld újra később.",
+      "AttachmentsSizeLimitReached": "A mellékletek teljes mérete meghaladja a megengedett {0} MB-ot. Kérjük, távolítson el néhány mellékletet.",
+      "FromValidationErrorMessage": "A „Feladó” mező nem lehet üres. Kérjük, válasszon egy postafiókot.",
+      "ToValidationErrorMessage": "A „Címzett” mező nem lehet üres. Kérjük, adjon meg legalább egy címzettet.",
+      "SubjectValidationErrorMessage": "A „Tárgy” mező nem lehet üres. Kérjük, adja meg az e-mail tárgyát.",
+      "Draft": "Vázlat",
+      "BodyPlaceholder": "Írjon be egy üzenetet",
+      "Reply": "Válasz",
+      "ReplyAll": "Válasz mindenkinek",
+      "Forward": "Előre",
+      "SentOn": "Elküldve",
+      "SubjectToggleCaption": "Tárgy",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "Titkos másolat",
+      "NotContainsEmail": "nem tartalmaz e-mailt",
+      "ChangeReplyAction": "Válaszművelet módosítása",
+      "ShowTrimmedEmailTitle": "Vágott e-mail megjelenítése",
+      "EmailTemplatesLookupCaption": "Válassz egy sablont",
+      "EmailTemplatesDisplayColumnCaption": "Sablon neve",
+      "ContinueEditing": "Szerkesztés folytatása",
+      "SaveDraft": "Piszkozat mentése",
+      "DraftSaved": "Piszkozat mentve",
+      "EmailSent": "Az e-mail elküldve",
+      "RemoveRecipientLabel": "Remove recipient"
+    },
+    "Feed": {
+      "Caption": "Hírfolyam készítő"
+    },
+    "Selector": {
+      "Caption": "Üzenetkészítő"
+    },
+    "ComposerAreaLabel": "Message composer input area",
+    "AttachmentPreview": "Attachment preview",
+    "Attachment": {
+      "Added": "The attachment was added.",
+      "Removed": "The attachment was removed."
+    },
+    "SendEmailErrorMessage": "An unexpected error occurred while sending the email. Please try again later."
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Agree"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Fájl letöltése"
+    },
+    "System": {
+      "ChatStartedMessage": "Chat started: {chatStartedAt} by {chatStartedBy}"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "There are no recent chats yet",
+    "CreateChatButton": "Start new chat",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "Te: ",
+    "RenameChat": {
+      "LabelTitle": "Rename chat",
+      "InputTitle": "Cím",
+      "SaveButton": "Mentés",
+      "CancelButton": "Elvetés"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "Műveletek"
+    },
+    "NoDataBySearchFilter": "Nincsenek a szűrési feltételeknek megfelelő rekordok",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions ",
+    "ARIA": {
+      "Label": "Csevegés",
+      "ChatItem": "Chat: {0}. Last message: {1}",
+      "LoadMoreTrigger": "Továbbiak betöltése"
+    },
+    "AlreadyAssignedChat": "A csevegés egy másik ügynökhöz lett rendelve"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Csevegés átvitele",
+    "AgentTab": "Ügynök",
+    "QueueTab": "Feldolgozási sor",
+    "NoOperatorsAvailable": "No agents available",
+    "NoData": "Nincs adat",
+    "OperatorStatus": {
+      "0": "Inaktív",
+      "1": "Aktív",
+      "2": "A csevegések száma túllépve"
+    },
+    "InputPlaceholder": "Chat transferred",
+    "NoQueuesAvailable": "No queues available",
+    "ActiveAgentsCount": "{{count}} active agent(s)"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Attached file: {{fileName}}",
+    "DeleteFile": "Delete {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Run action",
+    "NoActionsTemplate": "No actions available. Please add chat actions on the ${link}.",
+    "ChatSettingsPage": "Chat setting page",
+    "ProcessExecutedSuccessfully": "A folyamat sikeresen végrehajtva",
+    "ProcessExecutionFailed": "Process execution failed. Please try again."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Open templates (click or type //)",
+    "NotFound": "No templates found",
+    "NoAvailable": "No templates available",
+    "Group": {
+      "RecentlyUsed": "Recently used",
+      "Others": "Others"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Add emoji",
+    "ButtonAriaLabel": "Open emoji picker",
+    "PickerAriaLabel": "Emoji picker"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "Válassza ki: Kapcsolat",
+    "ConfirmLinkMessage": "All chats of the current contact will be linked to the selected contact, and the current contact will then be deleted. Do you want to proceed?"
+  },
+  "Translations": {
+    "TargetLanguage": "target language",
+    "TranslatingTo": "Translating to {{language}}...",
+    "TranslatedTo": "Translated to {{language}}",
+    "TranslationFailedDialog": "Translation failed. Please try again."
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Fordítás",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Unsupported file type. This file can’t be previewed."
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Összefoglaló",
+    "Title": "Cím",
+    "Column": "Oszlop",
+    "Function": "Funkció",
+    "CustomSummaryLabelTooltip": "Az elem előre konfigurált adatmegjelenítési logikát tartalmaz. Ha alternatív logikát kell megvalósítania, távolítsa el az elem értékét."
+  },
+  "Summaries": {
+    "Caption": "Összefoglalók",
+    "Actions": {
+      "CreateCount": "A rekordok számának megjelenítése",
+      "Title": "Summaries actions"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Gyors beállítás",
+      "Count": "Számláló",
+      "Minimum": "Minimális",
+      "Maximum": "Maximum",
+      "Sum": "Összeg",
+      "Average": "Átlagos"
+    },
+    "Hints": {
+      "NoDataSource": "Nincs kiválasztva adatforrás",
+      "Collapse": "Collapse summaries",
+      "Expand": "Expand summaries"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Save setting for all users",
+      "ResetToDefault": "Reset to default settings",
+      "SaveForAllSuccessfully": "Summary settings saved for all users successfully",
+      "ResetToDefaultSuccessfully": "Default summary settings restored successfully"
+    },
+    "AdvancedSetup": {
+      "Title": "Speciális beállítások",
+      "Actions": {
+        "AddCustomSummary": "Új összefoglaló hozzáadása"
+      }
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "Törlés",
+      "Edit": "Szerkesztés"
+    },
+    "AriaLabel": "Summary item",
+    "Statuses": {
+      "Added": "Summary item added successfully",
+      "Deleted": "Summary item deleted successfully",
+      "Edited": "Summary item changed successfully",
+      "Error": "Hiba"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Felhív"
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "Ismétlődések egyesítése ({0})",
+      "Actions": {
+        "Merge": "Egyesít"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Unable to merge selected records",
+        "NoRights": "Insufficient permissions to merge data",
+        "MinSelectedRecordsViolation": "Select at least two records to merge",
+        "SelectionAllModeUsingViolation": "Merging is not available when using \"Select all\". Select the records you want to merge manually."
+      },
+      "SuccessfulCompletionStatus": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete."
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Hívott",
+        "Sec": "másodperc",
+        "DetailsLinkCaption": "Call details"
+      },
+      "Chat": {
+        "ChatWith": "vele csevegett",
+        "Show": "Chat megjelenítése",
+        "Hide": "Csevegés elrejtése",
+        "DetailsLinkCaption": "Chat details"
+      },
+      "Email": {
+        "MailedTo": "Postázva a címre",
+        "From": "Ettől:",
+        "To": "Nak nek:",
+        "CC": "CC:",
+        "Details": "Részletek",
+        "Hide": "Elrejtés"
+      },
+      "File": {
+        "AddedFile": "Fájl hozzáadva"
+      }
+    },
+    "NoDataMessage": "A múlt nem létezik",
+    "FillActionMessage": "Az idővonalon nincsenek megjeleníthető kapcsolódó rekordok",
+    "NoDataByFilterMessage": "Nincsenek a szűrési feltételeknek megfelelő rekordok",
+    "FillActionByFilterMessage": "Törölje ki a szűrőt, vagy módosítsa annak állapotát",
+    "EntityFilterCaption": "Összes",
+    "OwnerFilterCaption": "Tulajdonos",
+    "DateFilterCaption": "Válassza ki az időszakot",
+    "HideSystemMessagesCaption": "Rendszerüzenetek elrejtése",
+    "EntityFilterHint": "Válassza ki a rekord típusát",
+    "OwnerFilterHint": "Válassza ki a rekord tulajdonosát",
+    "DateFilterHint": "Válassza ki a rögzítési időszakot",
+    "HideSystemMessagesHint": "Automatizált e-mailek elrejtése",
+    "DateSort": "Dátum",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "E-mail"
+      },
+      "Feed": {
+        "Caption": "Hírfolyam"
+      },
+      "Task": {
+        "Caption": "Feladat"
+      },
+      "SysFile": {
+        "Caption": "Fájl"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Sort by date button, currently sorted {0}",
+        "Descending": "csökkenő",
+        "Ascending": "növekvő"
+      }
+    }
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "Telefonszám",
+    "DesignerEmailLabel": "Email cím",
+    "DesignerWebLabel": "Web link",
+    "Caption": "Kommunikációs lehetőségek",
+    "DeleteOption": "Törlés",
+    "Primary": "elsődleges",
+    "Invalid": "érvénytelen",
+    "MarkAsPrimary": "Beállítás elsődlegesként",
+    "MarkAsValid": "Jelölje meg érvényesnek",
+    "MarkAsInvalid": "Jelölje meg érvénytelenként",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} már létezik",
+      "ReadOnlyStateMessage": "A kommunikációs opció nem adható hozzá, mivel az összetevő írásvédett módban van",
+      "IncorrectSetupComponentMessage": "Nem sikerült hozzáadni a kommunikációs opciót, mivel az oldalösszetevő még nincs beállítva. A rendszergazda befejezheti a beállítást a Freedom UI tervezőben",
+      "EmptyMasterRecordColumnNameInRequestMessage": "A kommunikációs beállítás nem adható hozzá egy üres rekordhoz. Kérjük, először adja meg a rekord értékét"
+    },
+    "NoDataPlaceholderText": "Nincs adat",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} added",
+        "Deleted": "{0} {1} deleted",
+        "SetAsPrimary": "{0} {1}  set as primary",
+        "MarkedAsValid": "{0} {1} marked as valid",
+        "MarkedAsInvalid": "{0} {1} marked as invalid"
+      }
+    },
+    "ToolsAriaLabel": "Műveletek"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "Partner neve",
+    "AlternativeNamePlaceholder": "Más néven",
+    "CountryPlaceholder": "Ország"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "Kapcsolattartó neve",
+    "DesignerBirthDatePlaceholder": "Születési dátum",
+    "CountryPlaceholder": "Ország"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Fiókkompakt profil",
+    "DialogTitle": "Fiók szerkesztése",
+    "AlternativeNameFieldLabel": "Más néven",
+    "EmptyDisplayValue": "Nincs megjelenített érték",
+    "NamePlaceholder": "Adja hozzá a fiók nevét",
+    "EmptyRecord": {
+      "NamePlaceholder": "Partner neve",
+      "AlternativeNamePlaceholder": "Más néven",
+      "CountryPlaceholder": "Ország"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Kapcsolat kompakt profil",
+    "DialogTitle": "Kapcsolat szerkesztése",
+    "EmptyDisplayValue": "Nincs megjelenített érték",
+    "NamePlaceholder": "Adja hozzá a névjegy nevét",
+    "BirthDatePlaceholder": "és születési dátum",
+    "EmptyRecord": {
+      "NamePlaceholder": "Kapcsolattartó neve",
+      "BirthDatePlaceholder": "Születési dátum",
+      "CountryPlaceholder": "Ország"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Kompakt felhasználói profil",
+    "DialogTitle": "Név szerkesztése",
+    "EmptyDisplayValue": "Nincs megjelenített érték",
+    "NamePlaceholder": "Felhasználónév hozzáadása"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Bezárás"
+  },
+  "IFrame": {
+    "PropertiesPanel": {
+      "Caption": "iFrame settings",
+      "GeneralSettings": {
+        "Caption": "Általános",
+        "ContentTypeLabel": "Tartalom típus",
+        "ContentValueLabel": "Content to display",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "To ensure the content is displayed correctly, make sure the following is true: <ul><li>Source allows embedding in an iframe</li><li>Link uses the HTTPS protocol</li><li>Source domain is included in the trusted sources list of your Content Security Policy. We recommend adding at least two allowed directives to it: connect-src and frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Allowed features",
+        "AllowTooltip": "Specifies which browser features the embedded content is allowed to use, for example, camera, microphone, fullscreen. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information.",
+        "SandboxLabel": "Sandbox permissions",
+        "SandboxTooltip": "Specifies which sandbox restrictions are removed for the embedded content. Grant only the permissions that are required. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information."
+      }
+    },
+    "Caption": "iFrame",
+    "Hint": "iFrame component allows to embed and display content in either HTML or URL format",
+    "Placeholder": {
+      "NothingToShow": "Nothing to show yet",
+      "NoContent": "No content available in this section"
+    },
+    "ContentUnavailable": {
+      "Title": "Content Unavailable",
+      "SubTitle": "Due to your network settings, browser security policies, or content restrictions",
+      "LinkTitle": "Read more in our Academy"
+    }
+  },
+  "Dashboards": {
+    "SelectDashboard": "Select dashboard",
+    "NoData": "No associated dashboards to display",
+    "NoData2": "Add a dashboard to make it look prettier",
+    "CreateNewDashboardButton": "Add new dashboard",
+    "AccessDenied": "You do not have permission to edit this item",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Are you sure that you want to delete the selected dashboard?",
+        "FailMessage": "Unfortunately, you cannot delete the selected dashboard"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "Műveletek",
+      "Edit": "Szerkesztés",
+      "Copy": "Másolás",
+      "Delete": "Törlés",
+      "Rights": "Hozzáférési jogok beállítása"
+    },
+    "All": "Összes",
+    "Favorites": "Kedvencek",
+    "AddToFavoritesButton": "Kedvencekhez",
+    "RemoveFromFavoritesButton": "Eltávolítás a kedvencek közül"
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Dashboards settings",
+    "GeneralGroup": {
+      "Caption": "Általános",
+      "DataSource": "Adatforrás",
+      "DataSourceTooltip": "The data source will be set as primary data source for every dashboard created in this component",
+      "DataSourceDependenciesSettingTooltip": "Filter by page data lets you display connected data in a dashboard",
+      "DataSourceFilterElementsGroupTooltip": "A beállítás lehetővé teszi a mappákból vagy más adatszűrő elemekből előre konfigurált szűrők használatát oldalszűrőként"
+    },
+    "DashboardsGroup": {
+      "Caption": "Irányítópultok",
+      "AddDashboard": "Add new dashboard",
+      "InfoTooltip": "The list of dashboards displays only those items that are schemas in configuration",
+      "ContextMenu": {
+        "Copy": "Másolás",
+        "Delete": "Törlés",
+        "Edit": "Szerkesztés"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Are you sure you want to delete dashboard \"{{caption}}\"?",
+            "WithUserLevelSchema": "The dashboard you want to delete has a dependent dashboard: \"{{caption}}\" end-user schema. If you continue, both dashboards will be deleted. Continue?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Unable to delete \"{{caption}}\" dashboard because it was either created by third-party publisher or installed from the file",
+            "DependsOnSchema": "Unable to delete \"{{caption}}\" dashboard because it has dependent configuration schema(s)"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "You cannot rename the element because it has bound dashboards"
+    }
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Entity hierarchy filter",
+    "GeneralCaption": "Általános",
+    "SchemaNameCaption": "Select an object to build a hierarchy",
+    "HierarchySetup": "Hierarchy setup",
+    "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+    "ApplyStaticFilter": "Alkalmazzon statikus szűrőt",
+    "EditStaticFilterAction": "Szűrő szerkesztése",
+    "FiltersDialogCaption": "Kézzel definiált szűrő",
+    "SetupStaticFilterAction": "Szűrő beállítása",
+    "DisplayModeCaption": "Hierarchy type",
+    "ManualDisplayMode": "Manual",
+    "ByParentDisplayMode": "By parent"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Add new hierarchy column",
+    "ContextMenu": {
+      "AddToSubmenu": "Add sub-hierarchy",
+      "Edit": "Szerkesztés",
+      "Delete": "Törlés"
+    }
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Színválasztó",
+        "AppearanceGroup": "Megjelenés",
+        "PickerModeRadioButtonCaption": "Palette",
+        "PickerMode": {
+          "Basic": "Basic palette",
+          "Extended": "Extended palette"
+        }
+      }
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Összes",
+    "NotFilledNode": "Not filled",
+    "SpecificationFilterCaption": "Open additional filtering",
+    "BackButtonCaption": "Vissza",
+    "ClearAllFiltersButtonCaption": "Összes törlése",
+    "NoDataCaption": "Nincs adat"
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Entity schema '{{entitySchemaName}}' not found",
+    "UnselectedColumnsWillBeDeletedMessage": "Unselected columns will be deleted. Proceed?"
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Itt nincs mit mutatni!",
+    "NoDataDescription": "Currently there are no items in your queue",
+    "AcceptButtonLabel": "Accept"
+  },
+  "AgentInbox": {
+    "NewItems": "New Items ({{number}})",
+    "InProgress": "In Progress ({{number}})",
+    "RealTime": "Real-time",
+    "QueuedTasks": "Queued tasks",
+    "WrappedUpCallTickTpl": "Call wrap-up ({{sec}}s left)",
+    "WrappedUpCallStoppedTpl": "Manual wrap-up",
+    "IncomingCallDescription": "Bejövő hívás:",
+    "OutgoingCallDescription": "Kimenő hívás:"
+  },
+  "CallConversation": {
+    "Call": "Make call",
+    "Duration": "Időtartam:",
+    "Search": "Keresés",
+    "JobTitle": "Job Title",
+    "Account": "Fiók",
+    "ClearIdentity": "Clear selected record",
+    "Buttons": {
+      "Hints": {
+        "Accept": "Accept call",
+        "CompleteTransfer": "Kattintson az átvitelhez",
+        "Hold": "Félretesz",
+        "Unhold": "Tartsa vissza",
+        "StartTransfer": "Transfer call",
+        "Mute": "Mute call",
+        "CancelTransfer": "Törölje az átvitelt",
+        "Drop": "Complete call",
+        "OpenDialPanel": "Open dial panel"
+      },
+      "Captions": {
+        "Accept": "Accept",
+        "Drop": "Elutasítás",
+        "Cancel": "Mégsem",
+        "CancelTransfer": "Vissza",
+        "CompleteTransfer": "Egyesít",
+        "EndMainCall": "Vége"
+      }
+    },
+    "OnHold": "Fizetésre vár:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "The call was updated"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Clear selected record",
+    "CallIdentityOptions": "Change/Set contact"
+  },
+  "ListWidget": {
+    "DefaultTitle": "New list widget",
+    "PropertiesPanel": {
+      "HeaderLabel": "Widget settings",
+      "TitleLabel": "Cím",
+      "Styles": {
+        "FullyColored": "Teljesen színes",
+        "PlainWhite": "Sima fehér",
+        "PartiallyColored": "Részben színes",
+        "Glassmorphism": "Üveg hatás"
+      }
+    },
+    "Caption": "List widget",
+    "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "Cserélje ki a DCM esetet. Ehhez az entitáshoz van egy relevánsabb konfiguráció.",
+    "ConfirmChangeCaseDialogMessage": "Le szeretné cserélni a tok jelenlegi verzióját?",
+    "SnackbarActualFilterCaseMessage": "Van relevánsabb eset is: \"{{caption}}\". Cserélni?",
+    "SnackbarIgnoreButtonCaption": "Kihagy",
+    "SnackbarReplaceButtonCaption": "Cserél",
+    "SnackbarEntityProcessChangedMessage": "Az esetet sikeresen megváltoztattuk."
+  },
+  "NextSteps": {
+    "Caption": "Következő lépések",
+    "CompleteButtonCaption": "Kész",
+    "AddNewStepMenuCaption": "Új lépés hozzáadása",
+    "CreateActivityButtonCaption": "Hozzon létre egy feladatot",
+    "CreateEmailButtonCaption": "Email létrehozása",
+    "NoDataContainerLabel": "Itt nincs mit mutatni!",
+    "NoDataContainerDescription": "Ehhez a szakaszhoz nincsenek hozzáadva lépések",
+    "OwnerHint": "Hozzárendelt felhasználó",
+    "OwnerRoleHint": "Hozzárendelt csoport",
+    "RequiredStepHint": "Kötelező lépés",
+    "ApprovalApprovedSnackbarCaption": "A kérést jóváhagyták",
+    "ApprovalRejectedSnackbarCaption": "A kérést elutasították",
+    "TypeFilterCaption": "Típus",
+    "TypeFilterHint": "Típus"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} records have been loaded. Load more records?",
+    "ConfirmResendMeetingInvitationsQuestion": "Az értekezlet mentése után minden résztvevő értekezlet-frissítést kap. Akarod folytatni?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Az értekezletek némelyikének mentéséhez a mentés után változási értesítést kell küldenie minden résztvevőnek. Akarod folytatni? Találkozók listája:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "A találkozás a múltban történik. Biztos, hogy meghívót küld a résztvevőknek?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "A találkozás a múltban történik. Az értekezlet minden résztvevője frissítést kap. Akarod folytatni?",
+    "CanNotChangeMeetingMessage": "Csak az értekezlet szervezője módosíthatja az értekezlet résztvevőinek leírását, dátumát és listáját.",
+    "CanNotChangeMultipleMeetingsMessage": "A megváltozott értekezletek egy részét csak az értekezlet szervezője módosíthatja. Találkozók listája:",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "Az értekezleteket csak akkor törölheti, ha manuálisan választja ki a rekordokat.",
+    "ErrorSendingInvitationMessage": "A meghívókat nem küldték el. Lehet, hogy ez átmeneti probléma, kérjük, próbálja újra később.",
+    "SuccessSendingInvitationMessage": "A meghívók sikeresen elküldve.",
+    "JoinBtnCaption": "Csatlakozzon online találkozóhoz",
+    "UserAlreadyHasActiveCalendarAccount": "Már van egy aktív naptárad",
+    "LackOfLicenseMessage": "Calendar synchronization is not included into your current license. Please contact your system administrator for additional information.",
+    "DateRangeError": "The date range in the filter is too long. Please reduce the range in the filter."
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "At least one value must be selected in: {0}"
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Engedélyek",
+    "ComponentHeaderInactiveLabel": "Nincs szükség jóváhagyásra",
+    "RejectDialogHeaderLabel": "Biztosan elutasítja a jóváhagyást?",
+    "ApproveDialogHeaderLabel": "Megadja a jóváhagyást?",
+    "RejectInputLabel": "Jóváhagyó megjegyzés",
+    "RejectButtonLabel": "Elutasítás",
+    "DelegateButtonLabel": "Delegálás",
+    "ApproveButtonLabel": "Jóváhagyás",
+    "CancelButtonLabel": "Mégsem",
+    "PositiveMetricLabel": "Pozitív",
+    "NegativeMetricLabel": "Negatív",
+    "PendingMetricLabel": "Függőben",
+    "ComponentHeaderActiveLabel": "Várja jóváhagyását",
+    "ApprovalPurposeLabel": "Jóváhagyás célja",
+    "ApprovedPlaceholderLabel": "JÓVÁHAGYOTT",
+    "DesignTime": {
+      "ApprovalObjective": "Jóváhagyás szükséges"
+    },
+    "RejectedPlaceholderLabel": "ELUTASÍTVA"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Elutasítás",
+    "ApproveButtonLabel": "Jóváhagyás"
+  }
+}

@@ -1,0 +1,2252 @@
+{
+  "Input": {
+    "Readonly": "Neupravitelné pole",
+    "ShowPassword": "Show password",
+    "HidePassword": "Hide password"
+  },
+  "Carousel": {
+    "NoData": "Žádná data",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "Neupravitelné pole",
+    "InvalidValueSyntax": "Vyberte prosím hodnotu ze seznamu",
+    "NoData": "Žádná data",
+    "EmptyDisplayValue": "No display value",
+    "AddNewRecord": "Přidat nový",
+    "IsGoToSourceAllowedTooltip": "Go to record list",
+    "CheckAll": "Check all",
+    "ClearAll": "Zrušit vše",
+    "SelectValue": "Select value",
+    "ClearValue": "Vyčistit hodnotu",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "Přidejte sloupce",
+    "ColumnToolbar": {
+      "Hide": "Skrýt",
+      "Freeze": "Zmrazit",
+      "Unfreeze": "Uvolnit",
+      "Rename": "Přejmenovat",
+      "Title": "Column actions",
+      "Edit": "Vlastnosti",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "RowToolbar": {
+      "Open": "Otevřít",
+      "Copy": "Kopírovat",
+      "Delete": "Smazat",
+      "RunBusinessProcess": "Spusťte obchodní proces",
+      "Title": "Row actions"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "List actions",
+      "DataGridSettingsLabel": "General list settings",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Obnovit výchozí hodnoty",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "Žádná data",
+    "NoColumns": "No columns added",
+    "Hints": {
+      "Sort": "Sort",
+      "StartEditing": "Upravit",
+      "ReadonlyCell": "Needitovatelné pole",
+      "CancelChanges": "Discard",
+      "AddItem": "Nový záznam",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "SaveItemsChanges": "Save all",
+    "CancelItemsChanges": "Discard",
+    "AddItem": "Nový",
+    "BulkActions": {
+      "MoreActions": "More actions",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "Zvolit vše",
+      "ClearSelection": "Zrušit volbu",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "Sloupec nenalezen",
+    "ColumnSticky": "Frozen column",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Změnit šířku",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "Žádná data",
+    "MenuActions": "Akce",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Ano",
+      "False": "Ne"
+    }
+  },
+  "FileInput": {
+    "Delete": "Odstranit",
+    "Cancel": "Zrušit",
+    "Attach": "Attach",
+    "FileIcon": "File icon",
+    "EmptyFileName": "Empty file name",
+    "MaxFileSizeLimitReached": "Max file size limit is reached ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Uložit",
+    "CancelButton": "Zrušit",
+    "ColumnProperties": "Vlastnosti sloupce",
+    "Title": "Popisek",
+    "FilterHeader": "How to filter records",
+    "SortingHeader": "Sort records",
+    "SortColumn": "Řazení",
+    "WhatToDisplay": "Data k zobrazení",
+    "AggregationColumn": "Sloupec",
+    "SortOrder": "Sort order",
+    "SetupFilters": "Setup filters",
+    "EditFilters": "Edit filters"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Drop files here",
+      "Description": "or use",
+      "Upload": "Nahrát"
+    },
+    "RowToolbar": {
+      "Download": "Download"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "v",
+    "TodayAt": "Today at {0}",
+    "YesterdayAt": "Včera v {0}",
+    "DayBeforeYesterdayAt": "Předevčírem v {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Open link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Odeslat email"
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "Nahrát",
+    "Clear": "Vymazat",
+    "Change": "Upravit",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mth",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hod",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Close tab"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Spustit proces",
+      "SuccessMessage": "The process has been successfully run",
+      "NotConfiguredQuickProcessesMessage": "Quick processes run is not yet configured",
+      "OtherProcessesCaption": "Other processes"
+    },
+    "Settings": {
+      "Title": "Nastavení"
+    },
+    "UserProfile": {
+      "Title": "Váš profil",
+      "MenuItems": {
+        "Profile": "Váš profil",
+        "Logout": "Odhlášení",
+        "OrganizationProfile": "Organization profile"
+      }
+    },
+    "New": {
+      "Title": "Nový",
+      "NoItemTitle": "Quick records creation is not yet configured"
+    },
+    "Help": {
+      "Title": "Návod",
+      "SupportSubject": "Otázka o",
+      "MenuItems": {
+        "OnlineHelp": "Nápověda online",
+        "NeedHelp": "Potřebujete pomoc",
+        "ExternalAccess": "Udělit přístup podpoře",
+        "ReleaseNotes": "Release notes"
+      },
+      "AccessGrantedMessage": "Přístup udělen",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications panel"
+    },
+    "Logo": {
+      "Title": "Go to desktop"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfigurace"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions panel"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Compilation error",
+      "WorkspaceExplorerTemplate": "To view a list of compilation errors and fix them, visit <a href ='{0}' target='_blank'>Configuration section</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigation panel"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Hledat aplikaci..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Collapse navigation panel",
+      "ExpandCaption": "Expand navigation panel"
+    },
+    "SearchResultsCaption": "Výsledky vyhledávání",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Více"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passed",
+    "timeBeforeCountStartTpl": "{0} before countdown begins",
+    "overdueTpl": "{0} overdue",
+    "timeLeftTpl": "{0} left",
+    "timeIsUpTpl": "Time is up",
+    "waitingForStartDateTpl": "Waiting for start date",
+    "dateNotSet": "0hr 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Vše",
+      "SelectMenuLabel": "Search by column",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Ano",
+    "No": "Ne",
+    "Save": "Uložit",
+    "DoNotSave": "Don't save",
+    "Cancel": "Zrušit",
+    "Delete": "Vymazat",
+    "Close": "Zavřít",
+    "Notification": "Oznámení",
+    "Overwrite": "Overwrite",
+    "Clear": "Vyčistit",
+    "Restore": "Obnovit",
+    "ProcessElementCompletedNotification": "Tento úkol dokončil jiný uživatel",
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Uloženo úspěšně",
+      "ErrorOnSave": "Error when trying to apply changes"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" desktop?",
+        "Error": {
+          "Deletion": "Error during desktop deletion",
+          "Configuration": "Error during configuration build"
+        },
+        "Success": "Desktop \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Hledat..."
+  },
+  "AllowedResults": {
+    "Caption": "Allowed results",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "License required"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Nový štítek",
+    "CreateNewTagButtonCaption": "Create a new tag"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Máte neuložené změny, které budou ztraceny. Pokračovat?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Upravit záznam",
+    "DeleteItemActionButtonCaption": "Smazat záznam",
+    "NoData": "Žádná data"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Žádná data",
+      "CloseButtonTitle": "Zavřít"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "Odstranit"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "The component displays hints and instructions for users to access information from the knowledge base for specific dynamic case stages",
+    "Placeholder": {
+      "Title": "No relevant playbook articles are found",
+      "Description": "Please set up a relevant article for the current dynamic case stage in the Playbooks section"
+    },
+    "Actions": {
+      "Back": "Zpět",
+      "OpenInDialog": "Open in modal window"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Zavřít",
+        "OpenPage": "Open in new tab"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    },
+    "InputPlaceholder": "Type a message",
+    "SendButtonHint": "Send Message (Enter)",
+    "Caption": "Message editor",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Chat completed",
+      "ChatTransferred": "Chat transferred"
+    },
+    "MaxFilesExceeded": "Maximum number of files you can add in one iteration: {{maxCount}}",
+    "SendMessageError": "Failed to send message. Please try again"
+  },
+  "ChatSettings": {
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "The channel cannot be deleted, there are active chats or chats on distribution. Please complete the chats first and try again."
+    },
+    "History": {
+      "Captions": {
+        "StartDate": "Chat started: {0} by",
+        "EndDate": "Chat completed: {0} by"
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Žádná data",
+    "Boolean": {
+      "Yes": "Ano",
+      "No": "Ne"
+    },
+    "String": {
+      "Placeholder": "Enter text"
+    },
+    "Numeric": {
+      "Placeholder": "Enter number",
+      "To": "up to",
+      "MaxValueError": "Value is above max value",
+      "MinValueError": "Value is below min value"
+    }
+  },
+  "Conversation": {
+    "Caption": "Konverzace",
+    "Copilot": {
+      "TypingMessage": "Generating response",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    },
+    "LoadPreviousChat": "Load previous chat",
+    "ChatIsCompleted": "Chat completed: {datePart}",
+    "ChatIsTransferred": "Chat transferred: {datePart} from {operatorPart} to {targetOperatorPart}",
+    "ChatTransferredToQueue": "Chat transferred: {datePart} from {operatorPart} to queue {queuePart}",
+    "ChatCompletedByAgent": "Chat completed: {datePart} by {operatorPart}"
+  },
+  "BulkActions": {
+    "Delete": "Odstranit",
+    "Export": "Export do Excelu",
+    "AddTag": "Nový štítek",
+    "RemoveTag": "Remove tag",
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "Zvolit vše",
+      "ClearSelection": "Zrušit volbu"
+    },
+    "Merge": "Sloučit"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Číslo"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Sbalit",
+    "Expand": "Rozšířit"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progress bar"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Stav chatu",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "Žádné záznamy neodpovídají aktuálnímu filtru",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Select desktop",
+    "EditDesktop": "Edit desktop",
+    "UseHotkeys": "Use Ctrl+Shift+E to edit desktop"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Not valid parameters",
+    "ServiceResult": {
+      "ErrorMessage": "An error occurred. Please contact the system administrator"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "Tagged {{ count }} item(s)",
+      "RemoveTagsMessage": "Untagged {{ count }} item(s)",
+      "AddTagsSuccessfulRunProcess": "Bulk tagging process started for the chosen item(s). This might take some time",
+      "RemoveTagsSuccessfulRunProcess": "Bulk remove tags process started for the chosen item(s). This might take some time"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "Added {{ count }} record(s) in the folder(s)",
+      "RemoveRecordsMessage": "Removed {{ count }} record(s) from the folder(s)"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "The action has successfully started",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "This action needs at least one record to run. Please select the records you want to apply it to and try again"
+    },
+    "ProcessStarted": "Process started",
+    "StartingProcessAnnounceMessage": "Starting a process, please wait..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Are you sure that you want to delete the selected record?",
+    "DeleteRecordsConfirmation": "Opravdu chcete odstranit zvolené záznamy?",
+    "SaveSummariesForAll": "Save summary settings for all users?",
+    "ResetSummaries": "Restore default summary settings?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "Nemáte dostatečná oprávnění k odstranění záznamů v objektu '{0}'",
+    "UnableToDeleteSelectedRecord": "Unable to delete selected record",
+    "SelectRecordsToDelete": "Select records to delete",
+    "SettingsErrorMessage": "Unable to execute the action.\n\rSystem administrator must check the button settings in the Freedom UI Designer.",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "You do not have permission to perform this operation.\nPlease contact your system administrator. Check access to the export object and permission to perform the system operation.",
+      "FileGenerationMessage": "Generating export file"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Insufficient permissions to access the change log. Contact your system administrator.",
+      "SourceIsNotSpecifiedMessage": "Object or data source is not specified for the action \"Open change log\". Contact your system administrator.",
+      "RecordIsNotSelectedMessage": "Select a record to open its change log.",
+      "ChangeLogIsNotTurnedOnTitle": "Turn on logging",
+      "ChangeLogIsNotTurnedOnMessage": "Logging is currently off for {0}. Do you want to turn logging on?",
+      "ChangeLogIsTurnedOffMessage": "Logging is currently off for {0}. Contact your system administrator.",
+      "RecordIsNotSavedMessage": "Save a record first to open its change log."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "{0} MB maximum file size limit exceeded.\n\r\n\r Files:\n- {1}",
+      "NoConnectedFileList": "The file upload destination is not set.\n\rPlease choose the destination in the button settings.",
+      "InvalidRequestParams": "Unable to upload the file(s) as the page component has not been set up yet. The system administrator can finish the setup in the Freedom UI designer.",
+      "ChangeFileSizeInfoMessage": "You can increase the maximum file size in the \"Attachment max size\" system setting.",
+      "FileListHeader": "Soubory",
+      "MaxFileSizeExceededExceptionMessage": "Byl překročen limit maximální velikosti souboru {0} MB.",
+      "UnknownServerError": "Something went wrong.\n\rPlease try uploading the file again.",
+      "AttachedToUnsavedRecord": "Unable to attach the files to the record that has not been created yet. Please create the record before uploading the files",
+      "InvalidExtension": {
+        "Deny": "The [{0}] file extension is forbidden by security settings. If you need to work with such files, please contact your system administrator to remove the extension from the [File extensions DenyList] (FileExtensionsDenyList) system setting",
+        "Allow": "The [{0}] file extension is forbidden by security settings. If you need to work with such files, please contact your system administrator to add the extension to the [File extensions AllowList] (FileExtensionsAllowList) system setting"
+      },
+      "EmptyFileMessage": "You are trying to upload empty files.\n\rPlease choose files with content.",
+      "SingleUploadInProgress": "The file {0} is still uploading. Please wait until the upload is complete.",
+      "MultipleUploadsInProgress": "Some files are still uploading. Please wait until the uploads are complete ({0} and {1} more)."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "Byl překročen limit maximální velikosti souboru {0} MB.",
+      "UnknownUploadError": "Unknown upload error. Please contact the system administrator.",
+      "Announcement": {
+        "Uploaded": "Image uploaded",
+        "Deleted": "Image deleted"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Action error.\nContact your system administrator. Check the action settings in System Designer."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Action error.\nContact your system administrator. Check the action settings in System Designer."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Select records to add tags",
+      "SelectRecordsToRemoveRecordsMessage": "Select records to remove tags"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Select records to add to the static folder",
+      "SelectRecordsToRemoveRecordsMessage": "Select records to remove from the static folder"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} file uploaded",
+      "Deleted": "{0} file deleted"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "File '{0}' is not fully uploaded",
+      "FileDownloadErrorMessage": "File '{0}' could not be downloaded. It may have been deleted, is corrupted, or you do not have permission to access it."
+    },
+    "OK": "OK"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Nový štítek",
+    "RemoveTagCaption": "Remove tag"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "The report can not be printed for unsaved record.",
+    "InvalidRequestCaption": "Action is not valid. Please check print settings.",
+    "SelectRecord": "Select record for printing report"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "It is not possible to move all selected records by this action, please select as many records as needed one by one"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Changes discarded successfully"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Record deleted successfully"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "Záznamy byly smazány uspěšně"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "There are no available reports",
+    "GoToPrintablesSetupCaption": "Go to report setup"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Loading, please wait...",
+    "AfterSchemaChangeAnnounceMessage": "Loading is completed"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Saving, please wait..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "The record has not been created",
+    "MergeStartedMessage": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete. Please reload the record afterward to retrieve the updated data."
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element.",
+    "NotClickableAriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}."
+  },
+  "ChartLegend": {
+    "Title": "Legend for {{chartTitle}} chart: use arrow keys to navigate and Enter key to open context menu."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} chart for \"{{chartTitle}}\" with {{groupsCount}} groups. The chart showing \"{{groupsNames}}\". X is \"{{xLabel}}\" from {{xMin}} to {{xMax}}. Y is \"{{yLabel}}\" from {{yMin}} to {{yMax}}. Use arrow keys to navigate.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Use Enter key to open context menu."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. The chart type is Gauge. Data ranges from {{ariaMin}} to {{ariaMax}}. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Expand fullscreen for \"{{title}}\" chart.",
+      "CollapseLabel": "Collapse fullscreen for \"{{title}}\" chart."
+    },
+    "Menu": {
+      "Caption": "Menu for \"{{title}}\" chart.",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "MarketingCampaignContent": {
+    "ValidateCampaignRequest": {
+      "StartDateRequiredMessage": "Uveďte datum a čas zahájení kampaně",
+      "StartDateLessThenNowMessage": "Campaign scheduled start date and time has already passed. Please set correct value",
+      "StopDateRequiredMessage": "Specify campaign end date and time",
+      "StopDateLessThenNowMessage": "Campaign scheduled end date and time has already passed. Please set correct value",
+      "StopDateLessThenStartDateMessage": "Campaign scheduled end date is before its scheduled start date. Please set correct values",
+      "StopDateLessThenNextFireTimeMessage": "Campaign scheduled end date is before next scheduled campaign run. Please set correct value"
+    },
+    "StopCampaignRequest": {
+      "StopConfirmationMessage": "Jste si jistý, že chcete kampaň zastavit?",
+      "SuccessMessage": "Campaign successfully stopped",
+      "ErrorMessage": "Error occured during campaign stop operation"
+    },
+    "StartCampaignRequest": {
+      "ScheduleConfirmationMessage": "Opravdu chcete naplánovat kampaň?",
+      "LaunchConfirmationMessage": "Opravdu chcete zahájit kampaň?",
+      "SuccessMessage": "Campaign successfully launched",
+      "ErrorMessage": "Error occured during campaign start operation"
+    },
+    "DeleteCampaignRequest": {
+      "HasAudienceMessage": "Unable to delete the campaign as it includes participants",
+      "InStatusActiveMessage": "Campaign in Active status cannot be deleted. Please stop the campaign before deleting",
+      "InStatusStoppingMessage": "Campaign in Stopping status cannot be deleted. Please wait a while for the campaign to stop before deleting it",
+      "InStatusScheduledMessage": "Campaign in Scheduled status cannot be deleted. Please stop the campaign before deleting",
+      "MultipleHasAudienceMessage": "Unable to delete the selected campaigns as they contain participants",
+      "MultipleIncorrectStateMessage": "Unable to delete the selected campaigns as some of them are in the incorrect status"
+    }
+  },
+  "MarketingEmailContent": {
+    "AddBulkEmailAudienceRequest": {
+      "LookupPageCaption": "Add contacts to bulk email",
+      "ImportStartedMessage": "The audience import started. The process may take some time. We'll let you know in the Notifications panel once it's done.",
+      "ErrorMessage": "Error occured during audience import",
+      "EmptyFilterMessage": "Can not add audience without filter. Please select some folder or specific records"
+    },
+    "RemoveBulkEmailAudienceRequest": {
+      "DeleteAllRecordsConfirmation": "Are you sure that you want to delete all audience from email?",
+      "RemoveStartedMessage": "Audience remove started",
+      "UnableToRemoveRecords": "Error occured during audience remove",
+      "EmptyFilterMessage": "Can not remove audience without filter. Please select specific records"
+    },
+    "OpenEmailPageRequest": {
+      "RedirectQuestionMessage": "The selected bulk email was created in Email section of the Classic UI. Do you want to be redirected to it?",
+      "RedirectCaption": "Redirect"
+    },
+    "ScheduleSendingTab": {
+      "ScheduleInfoMessage": "This email is scheduled to be sent at {0}, adjusted to your",
+      "SendRateOverlimitMessage": "The selected daily limit and delay don’t fit within 24 hours. Please reduce the delay or the daily limit."
+    },
+    "SendTestEmailPage": {
+      "DefaultLabel": "Výchozí"
+    },
+    "ContactSubscribeToBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is subscribed."
+    },
+    "ContactUnsubscribeFromBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is unsubscribed."
+    },
+    "BulkEmailDelete": {
+      "WrongStatus": "Unable to delete the bulk email because its status is neither \"Draft\" nor \"Planned\"",
+      "UsedInCampaign": "Unable to delete selected record, bulk email is used in a campaign"
+    },
+    "SenderDomain": {
+      "ValidateDomainGenericErrorMessage": "Unable to validate the sender domain due to an unexpected error. Please try again or contact support if the issue persists.",
+      "Add": {
+        "SuccessMessage": "The sender domain has been added successfully.",
+        "ErrorMessage": "Unable to save the sender domain due to an unexpected error. Please try again or contact support if the issue persists."
+      },
+      "Share": {
+        "SuccessMessage": "The authorization key has been generated.",
+        "CopyToClipboardSuccessMessage": "The authorization key has been copied to clipboard.",
+        "ErrorMessage": "Unable to share the sender domain due to an unexpected error. Please try again or contact support if the issue persists."
+      },
+      "Authorize": {
+        "SuccessMessage": "The sender domain has been authorized successfully.",
+        "ErrorMessage": "Unable to authorize the sender domain due to an unexpected error. Please try again or contact support if the issue persists.",
+        "InvalidTokenMessage": "Authorization key is invalid or does not match the requesting site.",
+        "KeyIsMissing": "The authorization key is missing. Please provide a valid key and try again."
+      },
+      "CopyToClipboardSuccessMessage": "Data has been copied to clipboard.",
+      "Delete": {
+        "ConfirmationMessage": "Are you sure that you want to delete the selected record?",
+        "WrongStatus": "Unable to delete the sender domain because its status is neither \"Unvalidated\" nor \"Requested\"",
+        "ErrorMessage": "Unable to delete the domain. Please try again later or contact support."
+      }
+    }
+  },
+  "MarketingEngagementToolsContent": {
+    "ConnectFacebookForm": {
+      "IntegrationSetupError": "Facebook lead generation is currently inactive. The system administrator can enable the Facebook integration",
+      "IntegrationWindowError": "Pop-up windows are currently blocked in your browser settings. Please enable pop-ups to proceed",
+      "DefaultSubscriptionError": "Something went wrong. Please try connecting the form again"
+    }
+  },
+  "MarketingEventContent": {
+    "AddEventAudienceRequest": {
+      "LookupPageCaption": "Add contacts to event",
+      "ImportStartedMessage": "The audience import started. The process may take some time. We'll let you know in the Notifications panel once it's done.",
+      "ErrorMessage": "Error occured during audience import",
+      "EventNotSavedMessage": "Event must be saved first",
+      "EmptyFilterMessage": "Can not add audience without filter. Please select some folder or specific records"
+    },
+    "RemoveEventAudienceRequest": {
+      "RemoveStartedMessage": "Audience remove started",
+      "UnableToRemoveRecords": "Error occured during audience remove",
+      "EmptyFilterMessage": "Can not remove audience without filter. Please select specific records",
+      "DeleteAllRecordsConfirmation": "Are you sure that you want to delete all audience from event?"
+    }
+  },
+  "ObjectAccessRights": {
+    "OperationTypeGroup": {
+      "Read": "Permissions to read",
+      "Write": "Permissions to write",
+      "Delete": "Permissions to delete",
+      "Execute": "Permissions to execute"
+    },
+    "OperationType": {
+      "Read": "Čtení",
+      "ReadWithDelegate": "Read with delegate",
+      "Write": "Write",
+      "WriteWithDelegate": "Write with delegate",
+      "Delete": "Vymazat",
+      "DeleteWithDelegate": "Delete with delegate",
+      "Execute": "Provést",
+      "ExecuteWithDelegate": "Execute with delegate"
+    }
+  },
+  "ResendWebhooks": {
+    "SuccessMessage": "Undelivered webhook processing has started successfully. This may take some time depending on the number of undelivered webhooks in the system.",
+    "ErrorMessage": "Failed to start undelivered webhook receiving process."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Vyberte prosím hodnotu ze seznamu",
+      "SelectionWindowMessage": "Please select value from the list or search using the lookup window"
+    },
+    "Required": {
+      "Message": "Zadejte hodnotu"
+    },
+    "MaxLength": {
+      "Message": "Byla překročena maximální délka textu ({{AktuálníDélka}}/{{MaximálníDélka}})"
+    },
+    "MinLength": {
+      "Message": "Nebyla dosažena minimální délka textu ({{AktuálníDélka}}/{{MinimálníDélka}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Neplatný formát data a času"
+    },
+    "DatePickerSyntax": {
+      "Message": "Neplatný formát data"
+    },
+    "TimePickerSyntax": {
+      "Message": "Neplatný formát času"
+    },
+    "RegExp": {
+      "Message": "Invalid value format"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}",
+    "RefreshModelDataConflict": "Creatio has new data for the current page. To view it, save or cancel your changes and refresh the page.",
+    "WarningModelsWithCircularDependencies": "Some models have circular dependencies and have not been loaded",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "There is no page for new or existing record. System administrator must check the button settings in the Freedom UI",
+    "GoToEntityDesignerMessage": "To set up pages go to URL: {0}"
+  },
+  "Copilot": {
+    "RewriteActionsPrompt": {
+      "AskCopilot": "You will assist with rewriting the following text, further instructions will be provided in the dialog",
+      "Friendly": "Rewrite the following text and make it more friendly",
+      "Formal": "Rewrite the following text and make it more formal",
+      "Shorten": "Rewrite the following text and shorten it",
+      "Extend": "Rewrite the following text and extend it",
+      "Rephrase": "Rewrite the following text and rephrase it"
+    },
+    "DebugInfo": {
+      "NoDebugInfo": "No debug information available"
+    },
+    "NewChatCaption": "New chat",
+    "DeleteRecordConfirmation": "Are you sure that you want to delete the selected record?",
+    "FileMessages": {
+      "IntentMaxSizeException": "{0} MB maximum file size limit exceeded. You can increase the maximum file size by changing the {1} system setting.",
+      "ChatMaxSizeException": "{0} MB maximum file size limit exceeded. You can increase the maximum file size by changing the {1} system setting.",
+      "IntentMissingTypeException": "File type is not specified. Please upload a file in one of the following standard text formats: {0}",
+      "ChatMissingTypeException": "File type is not specified. Please upload a file in one of the following standard text formats: {0}",
+      "IntentTypeNotSupportedException": "{0} file type is not supported. Please upload a file in one of the following standard text formats: {1}",
+      "ChatTypeNotSupportedException": "{0} file type is not supported. Please upload a file in one of the following standard text formats: {1}"
+    },
+    "MessageSent": "The message was sent.",
+    "ViewElementMessage": {
+      "SetupDetailsCaption": "Setup details"
+    },
+    "LiveAnnouncement": {
+      "ChatRenamed": "Chat renamed to {0}",
+      "MessageReceivedInCurrentChat": "{0}: {1}",
+      "MessageReceivedInAnotherChat": "New message from {0} in {1} chat",
+      "SessionCreated": "New {0} chat created",
+      "Typing": "{0} is working on it"
+    },
+    "LlmModelPage": {
+      "PleaseTypeRequiredField": "Please type connection string required field",
+      "NoLicenseToCreateLlmModel": "Unable to add model. Adding the custom model requires a separate license. For assistance, please contact support."
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Načítání..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nothing to show yet ",
+      "Subhead": "Please add data first"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Načítání"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Chyba",
+      "Default": "Tooltip"
+    }
+  },
+  "GoogleAnalytics": {
+    "PlatformCaption": "Platforma",
+    "ApplicationCaption": "Aplikace",
+    "LoginRequestTitle": "Connect google analytics",
+    "NotEnoughPermissionsMessage": "Sorry, unable to connect your google analytics account. Please grant maximum permissions to Creatio and try again.",
+    "PlatformUndefinedMessage": "Platform undefined, make sure to configure platform foe the button",
+    "ApplicationUndefinedMessage": "Application undefined, make sure to configure platform foe the button",
+    "RefreshStreamSuccessMessage": "Google Analytics streams refreshed successfully",
+    "RefreshStreamErrorMessage": "Failed to refresh Google Analytics streams. Please try again later.",
+    "RefreshStreamConfirmationTitle": "Refresh data stream list?",
+    "RefreshStreamConfirmationMessage": "Refreshing may take a moment — the system will be unavailable while updating the list",
+    "RefreshStreamConfirmationCancel": "Zrušit",
+    "RefreshStreamConfirmationOk": "Aktualizovat"
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Platforma",
+    "AppInputCaption": "Aplikace",
+    "AdPlatformLoginRequestTitle": "Connect ad platform",
+    "NotEnoughPermissionsMessage": "Sorry, unable to connect your ad account. Please grant maximum permissions to Creatio and try again.",
+    "PlatformUndefinedMessage": "Platform undefined, make sure to configure platform foe the button",
+    "ApplicationUndefinedMessage": "Application undefined, make sure to configure platform foe the button",
+    "ImportFromAdPlatformStartedMessage": "Data import from ad accounts has been started",
+    "NoConnectedAdAccountsFoundMessage": "There are no connected ad accounts for import",
+    "NoActiveAdAccountsFoundMessage": "Sorry, but we couldn’t find any ad accounts available to you. Make sure that you have access to the required accounts on the platform. Only active accounts can be connected."
+  },
+  "PageTools": {
+    "DesignButtonHint": "Upravit stránku",
+    "ExpandButtonTitle": "Rozšířit",
+    "CollapseButtonTitle": "Sbalit"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "Základní",
+        "SourceSchemaLabel": "Folder storage location",
+        "RootSchemaLabel": "What will folders filter?",
+        "HeaderLabel": "Folder settings",
+        "AppearanceGroup": "Appearance",
+        "BorderRadiusLabel": "Border radius",
+        "Sizes": {
+          "None": "Žádný",
+          "Small": "Small",
+          "Medium": "Medium",
+          "Large": "Velký"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Settings of the folder management menu",
+        "FolderTreeLabel": "Folder tree selection",
+        "GeneralCaption": "Obecné"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Quick filter settings",
+        "GeneralCaption": "Základní",
+        "AppearanceCaption": "Appearance",
+        "ChooseFilterTypeLabel": "Choose a filter type",
+        "CaptionLabel": "Popisek",
+        "HintLabel": "Tip",
+        "CustomType": "Vlastní",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Číselník"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Toolbar display mode",
+        "Inline": "Inline",
+        "Classic": "Classic",
+        "AlwaysShowToolbar": "Always show formatting options"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Feed settings",
+        "GeneralCaption": "Obecné",
+        "FeedTypeCaption": "How to filter records",
+        "FeedChannel": "Kanál",
+        "FeedTypeGeneral": "Základní",
+        "FeedTypeChannel": "Kanál",
+        "FeedTypeRecord": "Related to record",
+        "FeedDataSourceCaption": "Datový zdroj",
+        "FeedTypeUser": "Related to user",
+        "FeedTypeRecordTooltipCaption": "Feed messages will be displayed based on specific record communication.",
+        "FeedTypeGeneralTooltipCaption": "All notifications and mentions related to current user. In this mode the feed will display the posts and comments where current user was tagged or the threads he is following. For example, the feed in this mode can be added to the home page not to miss important information.",
+        "ExternalUsersGroupCaption": "Uživatelé portálu",
+        "AllowExternalPostCaption": "Allow publishing for external users",
+        "ShowBlankSlateCaption": "Show blank slate"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "Upravit",
+          "Delete": "Vymazat"
+        },
+        "ChannelsCaption": "Kanály",
+        "AddNewItem": "Add channel",
+        "PageCaption": "Message composer",
+        "DefaultChannelCaption": "Default channel"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "Email composer",
+        "GeneralCaption": "Základní",
+        "DefaultSenderType": "Default sender",
+        "DefaultMailbox": "Use default mailbox",
+        "CaseMailbox": "Use case source mailbox"
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Nastavení chatu",
+        "GeneralCaption": "Základní",
+        "TooltipCaption": "You can set up this element in page source code",
+        "OpenSourceCodeButtonCaption": "Open source code"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Conversation settings",
+        "GeneralCaption": "Základní"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Message editor settings",
+        "GeneralCaption": "Základní"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Summaries settings",
+        "GeneralGroup": {
+          "Caption": "Obecné",
+          "SelectDataSource": "Datový zdroj"
+        }
+      },
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Šifrovaný řetězec"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Merge data"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Which data to merge?"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Timeline settings",
+        "ObjectsCaption": "Objects",
+        "AddObject": "Add object",
+        "ContextMenu": {
+          "Edit": "Upravit",
+          "Delete": "Vymazat"
+        },
+        "GeneralGroup": "Základní",
+        "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "BindToDataSourceCaption": "Datový zdroj",
+        "FiltrationCaption": "Filtration options",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "By record type",
+          "TimelineFilter_Owner": "By owner",
+          "TimelineFilter_Date": "By date",
+          "TimelineFilter_SystemMessages": "By system messages"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Základní",
+        "CaptionLabel": "Popisek",
+        "AppearanceGroup": "Appearance",
+        "LinkedColumn": "Propojený sloupec",
+        "SortedByColumn": "Řazení",
+        "IconPosition": {
+          "OnlyIcon": "Only icon"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "Uživatelé portálu",
+          "AllowExternalPostCaption": "Allow publishing for external users"
+        },
+        "FiltrationGroup": "Filtration options",
+        "OwnerColumn": "Column for owner filtering"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "Communication options settings",
+        "GeneralGroup": "Základní",
+        "MasterRecordCaption": "Record to bind communication options",
+        "DataSourceEntityColumn": "Datový zdroj",
+        "Editability": "Možnost úprav",
+        "EditabilityControls": {
+          "Readonly": "Pouze pro čtení"
+        },
+        "LabelPositionCaption": "Title position",
+        "LabelPosition": {
+          "Auto": "Auto",
+          "Left": "Vlevo",
+          "Above": "Above",
+          "Hidden": "Hidden"
+        },
+        "ShowNoDataPlaceholder": "Display placeholder when no data",
+        "AppearanceGroup": "Appearance",
+        "ColumnsCountLabel": "Number of columns",
+        "ContactEntitySchemaName": "Komunikace kontaktu",
+        "AccountEntitySchemaName": "Komunikace firmy",
+        "EmptyDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Account compact profile settings",
+        "GeneralGroup": "Základní",
+        "AttributeForReferenceColumn": "Datový zdroj",
+        "Editability": "Možnost úprav",
+        "EmptyAccountDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "EditabilityControls": {
+          "Readonly": "Pouze pro čtení"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Contact compact profile settings",
+        "GeneralGroup": "Základní",
+        "AttributeForReferenceColumn": "Datový zdroj",
+        "Editability": "Možnost úprav",
+        "EmptyContactDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "EditabilityControls": {
+          "Readonly": "Pouze pro čtení"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "User profile settings",
+        "GeneralGroup": "Základní",
+        "AttributeForReferenceColumn": "Datový zdroj",
+        "Editability": "Možnost úprav",
+        "EmptyUserProfileDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "EditabilityControls": {
+          "Readonly": "Pouze pro čtení"
+        }
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Next steps settings"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini page for preview",
+        "TitleColumn": "Primary display field",
+        "StartDateColumn": "Start date column",
+        "EndDateColumn": "End date column",
+        "NotesColumn": "Field with online meeting information",
+        "PageCaption": "Calendar settings",
+        "RequiredFieldError": "This field is required",
+        "SecondaryTileFields": "Secondary tile fields",
+        "AddSecondaryFieldCaption": "Add secondary field",
+        "DisabledAddSecondaryFieldCaption": "You can add maximum 4 secondary fields",
+        "AutoScrollToCurrentTime": "Scroll to current time automatically",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Vymazat"
+        },
+        "ColorizationType": {
+          "Default": "Výchozí",
+          "ByField": "Automatic",
+          "ByOwner": "By User"
+        },
+        "ColorizationTypeCaption": "Tile colorization mode",
+        "ColorizationColumnCaption": "Číselník"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Next Best Offers settings",
+        "GeneralCaption": "Obecné",
+        "DataSourceCaption": "Objekt",
+        "CaptionColumnField": "Titulek",
+        "DescriptionColumnField": "Popis",
+        "InfoLabelColumnField": "Info lookup",
+        "ImageColumnField": "Obrázek",
+        "NumberTagColumnField": "Label",
+        "SortingFieldTooltip": "The items will be sorted by value from this field in descending order.",
+        "AdditionalCaption": "Dodatečné",
+        "SpecificPageLookupField": "Which page to open?",
+        "UseSpecificPageField": "Open specific page by clicking on the caption",
+        "SpecificPageRecordIdField": "Identifikátor záznamu",
+        "ViewModeCaption": "Display mode",
+        "CarouselViewMode": "Carousel",
+        "GalleryViewMode": "Gallery"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Multiselect lookup settings",
+        "GeneralGroup": {
+          "General": "Obecné",
+          "SelectLookup": "Select lookup",
+          "MultiselectValueStorage": "Multiselect value storage",
+          "SelectColumn": "Column to display",
+          "Required": "Povinné",
+          "RequirementTypeItems": {
+            "No": "Ne",
+            "Yes": "Ano"
+          }
+        },
+        "AppearanceCaption": "Appearance",
+        "LabelPositionVariants": {
+          "Auto": "Auto",
+          "Left": "Vlevo",
+          "Above": "Above",
+          "Hidden": "Hidden"
+        },
+        "TitleOnPage": "Nadpis na stránce",
+        "Placeholder": "Placeholder",
+        "Tooltip": "Tooltip",
+        "LabelPosition": "Title position",
+        "EnableAddRecordCaption": "Enable adding new values",
+        "WrapCaption": "Wrapping items to the next line",
+        "Editability": "Možnost úprav",
+        "EditabilityControls": {
+          "Readonly": "Pouze pro čtení"
+        },
+        "LookupStaticFilterLabel": "Apply static filter for lookup"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Approvals settings",
+        "SchemaNameLabel": "Which records to approve?",
+        "GeneralGroup": "Základní",
+        "AppearanceGroup": "Appearance",
+        "HiddenWhenNoData": "Hidden when no data"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Approvals list settings",
+        "GeneralGroup": "Základní",
+        "SchemaNameLabel": "Objekt"
+      }
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Přidat",
+    "AddFilterHint": "Add new folder",
+    "BlankslateMessage": "No folders",
+    "CloseFolderTree": "Hide folders",
+    "SetUpFilter": "Nastavit filtr",
+    "DefaultFolderName": "Nová složka",
+    "CopyFolderSuffix": "Kopie",
+    "DeleteConfirmation": "Are you sure that you want to delete the selected folder?",
+    "MenuActions": {
+      "AddFolder": "Add folder",
+      "RenameFolder": "Přejmenovat",
+      "CopyFolder": "Kopie",
+      "DeleteFolder": "Odstranit",
+      "AddToFavorite": "Přidat k oblíbeným",
+      "RemoveFromFavorite": "Odebrat z oblíbených",
+      "ChangeFolderRights": "Nastavit oprávnění",
+      "AddStaticFolder": "Add static folder",
+      "ConvertToStaticFolder": "Convert to static folder",
+      "MoveFolder": "Posunout"
+    },
+    "FavoritesNodeCaption": "Oblíbené",
+    "ShowMenuActions": "Show actions",
+    "CopyRightsQuestion": "Copy access permissions of the \"{0}\" folder?",
+    "RootNodeCaption": "Vše",
+    "HasNotPermission": "You don't have access permission for this operation."
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Uložit",
+    "CancelButton": "Zrušit",
+    "DialogTitle": "Setup filters"
+  },
+  "Components": {
+    "FolderTree": {
+      "Caption": "Složky",
+      "Hint": "Lets you configure the folder structure to organize records by specified filters. To ensure the component operates as intended, connect it in the page List or Data source settings."
+    },
+    "FolderTreeActions": {
+      "Caption": "Folder management menu",
+      "Hint": "Requires the Folders component. Lets you unhide page folders."
+    },
+    "QuickFilter": {
+      "Caption": "Rychlý filtr",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Včera",
+          "Today": "Dnes",
+          "Tomorrow": "Zítra",
+          "PreviousWeek": "Minulý týden",
+          "CurrentWeek": "Aktuální týden",
+          "NextWeek": "Příští týden",
+          "PreviousMonth": "Minulý měsíc",
+          "CurrentMonth": "Aktuální měsíc",
+          "NextMonth": "Příští měsíc",
+          "PreviousQuarter": "Předchozí čtvrtletí",
+          "CurrentQuarter": "Aktuální čtvrtletí",
+          "NextQuarter": "Další čtvrtletí",
+          "PreviousFiscalWeek": "Previous fiscal week",
+          "CurrentFiscalWeek": "Current fiscal week",
+          "NextFiscalWeek": "Next fiscal week",
+          "FiscalQuarter1": "Q1",
+          "FiscalQuarter2": "Q2",
+          "FiscalQuarter3": "Q3",
+          "FiscalQuarter4": "Q4",
+          "FiscalHalfYear1": "First half year",
+          "FiscalHalfYear2": "Second half year",
+          "PreviousFiscalYear": "Previous year",
+          "CurrentFiscalYear": "Current year",
+          "NextFiscalYear": "Next year"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "Message composer",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "E-mail"
+        },
+        "Feed": {
+          "Caption": "Kanál"
+        },
+        "SelectChannelsCaption": "Select channels"
+      }
+    },
+    "EncryptedInput": {
+      "Caption": "Šifrovaný řetězec",
+      "EyeButtonShowValueCaption": "Show value",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Something went wrong. Please, try again or contact your system administrator."
+      },
+      "EyeButtonHideValueCaption": "Hide value",
+      "EyeButtonDisabledCaption": "Can’t show/hide value",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "This type of attribute is not supported for this operation. Please check the field configuration or try a different data type.",
+        "CurrentRecordIdNotFoundError": "Unable to find the current record ID. This may happen if the current record has not been saved yet. Please make sure the record is saved before performing this action.",
+        "ReferenceRecordIdNotFoundError": "The referenced record ID is missing. This can occur if the reference points to a newly created record that hasn't been saved to the database yet. Please save the referenced record first.",
+        "ReferenceColumnSchemaNameNotFoundError": "The name of the referenced column schema is not found. Please check the configuration of the reference field."
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Selected color",
+      "Readonly": "Needitovatelné pole"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Next Best Offers"
+    },
+    "NextBestOffer": {
+      "Caption": "Next best offers",
+      "EmptyValue": "N/A",
+      "Next": "Další",
+      "Previous": "Předchozí"
+    },
+    "MultiSelect": {
+      "Caption": "Multiselect lookup",
+      "Label": "Multi-select",
+      "CreateRecordButtonCaption": "Create record",
+      "ExpanderIcon": "Expand dropdown",
+      "OpenModalIcon": "Open modal window",
+      "TooltipInfoIcon": "Information tooltip",
+      "ReadonlyIcon": "Needitovatelné pole"
+    },
+    "Approval": {
+      "Caption": "Schválení"
+    },
+    "ApprovalList": {
+      "Caption": "Approvals list",
+      "RefreshCaption": "Obnovit",
+      "ProvideDataSource": "Provide data source before using approvals"
+    }
+  },
+  "FolderTreeActions": {
+    "MenuButton": "Složky",
+    "FavoriteItemsMenuButtonAriaLabel": "Favorites folders menu",
+    "ClearButtonCaption": "Zrušit volbu",
+    "FolderButtonAriaLabel": "Open/Close folder tree"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "We will notify you when the convertation is completed."
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "Zrušit",
+    "SelectFolderButtonCaption": "Zvolit",
+    "SelectFolderCaption": "Zvolit složku"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "List settings for folder",
+      "CreateDataGridSettingsForFolder": {
+        "Label": "Create custom settings for \"{0}\"",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Save as new default settings for \"{0}\"",
+        "Confirmation": "New default list settings for the \"{0}\" folder will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Overwrite current settings for all users for \"{0}\"",
+        "Confirmation": "New default list settings will be saved for the \"{0}\" folder and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Restore default settings for \"{0}\"",
+        "Confirmation": "Default list settings will be restored for the \"{0}\" folder. Continue?",
+        "SuccessStatus": "Default list settings for the \"{0}\" folder restored successfully"
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Clear custom settings for \"{0}\"",
+        "Confirmation": "Custom list settings for the \"{0}\" folder will be cleared for all users and general list setting will be applied. Continue?",
+        "SuccessStatus": "List settings for the \"{0}\" folder cleared successfully"
+      }
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Add components",
+    "Tooltip": "Please, add components"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Výchozí hodnota",
+    "FilterColumnLabel": "Filtrovat sloupec",
+    "ViewAttributeLabel": "Component to filter"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Edit filter",
+    "SetupFilterCaption": "Setup filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "DefaultCheckBoxState": {
+      "Label": "Default checkbox state",
+      "CheckedCaption": "Ověřeno",
+      "UncheckedCaption": "Unchecked"
+    },
+    "FilteringApproachState": {
+      "Label": "Filtering approach",
+      "OnCheckedCaption": "Apply filter condition when checkbox is checked",
+      "OnUncheckedCaption": "Apply filter condition when checkbox is unchecked"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Default period",
+    "ChooseFilteringMethodCaption": "Choose a filtering method",
+    "ChooseFilteringMethodTooltip": "The filter can display data relevant to the specified period.\r\nUse the \"Set up filter by one date\" condition to display records that were created or modified on the specified day. For example, you can set up this filter to display leads by creation date, opportunities by closure date, or cases by solution date.\r\n\r\nUse the \"Set up filter by date range\" condition to display records for which a date range is particularly relevant. For example, you can set up this filter for contracts whose start and end dates are within the specified date range.",
+    "SetUpByOneColumnTitle": "Set up filter by one date",
+    "SetUpByTwoColumnsTitle": "Set up filter by date range",
+    "FilterColumnStartCaption": "Filter column From",
+    "FilterColumnEndCaption": "Filter column To",
+    "ShowTimeLabel": "Enable time",
+    "ShowFiscalPeriodsLabel": "Show fiscal periods"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "Current user contact",
+    "CurrentUserAccountName": "Current user account",
+    "EditFilterCaption": "Edit filter",
+    "SetupFilterCaption": "Setup filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "TagVirtualColumnCaption": "Štítek"
+  },
+  "QuickFilter": {
+    "MainTitle": "Rychlý filtr",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Včera",
+        "Today": "Dnes",
+        "Tomorrow": "Zítra",
+        "PreviousWeek": "Minulý týden",
+        "CurrentWeek": "Aktuální týden",
+        "NextWeek": "Příští týden",
+        "PreviousMonth": "Minulý měsíc",
+        "CurrentMonth": "Aktuální měsíc",
+        "NextMonth": "Příští měsíc",
+        "PreviousQuarter": "Předchozí čtvrtletí",
+        "CurrentQuarter": "Aktuální čtvrtletí",
+        "NextQuarter": "Další čtvrtletí",
+        "PreviousFiscalWeek": "Minulý týden",
+        "CurrentFiscalWeek": "Aktuální týden",
+        "NextFiscalWeek": "Příští týden",
+        "FiscalQuarter1": "Q1",
+        "FiscalQuarter2": "Q2",
+        "FiscalQuarter3": "Q3",
+        "FiscalQuarter4": "Q4",
+        "FiscalHalfYear1": "First half year",
+        "FiscalHalfYear2": "Second half year",
+        "PreviousFiscalYear": "Previous year",
+        "CurrentFiscalYear": "Current year",
+        "NextFiscalYear": "Next year"
+      },
+      "RangeSeparator": "-",
+      "SelectDatePlaceholder": "Select date",
+      "EmptyDateRangeStartLabel": "<Start date>",
+      "EmptyDateRangeEndLabel": "<Due date>",
+      "Header": {
+        "ArrowRight": "Příští měsíc",
+        "ArrowLeft": "Minulý měsíc"
+      },
+      "RangeSelectedFrom": "Selected from",
+      "ClearIcon": "Clear selected range",
+      "ClearStartDatePlaceholder": "Clear selected start date",
+      "ClearEndDatePlaceholder": "Clear selected end date",
+      "EmptyDateRangeStartAriaLabel": "[No start date selected]",
+      "EmptyDateRangeEndAriaLabel": "[No end date selected]",
+      "CalendarMode": "Kalendář",
+      "FiscalMode": "Fiscal",
+      "Fiscal": {
+        "PeriodNotFound": "We couldn’t load the fiscal period date ranges. Please check that fiscal periods are set up, or contact your administrator for assistance.",
+        "LoadError": "Error loading fiscal period data, contact your administrator for assistance"
+      },
+      "SelectTimePlaceholder": "Zvolte čas"
+    },
+    "Lookup": {
+      "NoData": "Žádná data"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Příští měsíc",
+    "AriaPrevMonthLabel": "Minulý měsíc",
+    "AriaNextYearLabel": "Next year",
+    "AriaPrevYearLabel": "Previous year",
+    "Readonly": "Needitovatelné pole",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Kalendář",
+    "TimePickerIconTitle": "Čas"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Formatting options (Alt+F10)",
+    "UploadAttachments": "Select attachments",
+    "SelectTemplate": "Insert template",
+    "SelectionActions": {
+      "AskCopilot": "Ask Creatio.ai",
+      "Friendly": "Friendly",
+      "Formal": "Formal",
+      "Shorten": "Shorten",
+      "Extend": "Extend",
+      "Rephrase": "Rephrase",
+      "RewriteCaption": "Rewrite text"
+    },
+    "TableOfContents": {
+      "Title": "Table of contents",
+      "Placeholder": "A table of contents based on the headings on this page will appear here once it has been published."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Uložit",
+    "OpenLinkButtonCaption": "Open in new tab",
+    "CloseLinkButtonCaption": "Zavřít",
+    "UnlinkLinkButtonCaption": "Unlink",
+    "LinkLabelCaption": "Link address",
+    "TextLabelCaption": "Text to display"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Insert video",
+    "PasteUrlTab": "Paste url",
+    "UploadFileTab": "Nahrát soubor",
+    "EmbedCodeTab": "Embed code",
+    "DialogDescription": "This video will be embedded at 640 pixels wide.<br>This embedded video will include a text link.",
+    "SaveButton": "Insert video",
+    "CancelButton": "Zrušit",
+    "UploadButton": "Nahrát soubor",
+    "InputPlaceholder": "Paste here",
+    "DragAndDropPlaceholder": "Drag-and-drop file here or",
+    "NotVideoFile": "The inserted file is not a video, please select a file with a video type.",
+    "ConfirmMessage": "This page contains unsaved changes. They will be lost if you close the page. Save the changes?"
+  },
+  "Feed": {
+    "Caption": "Kanál",
+    "SortByCreatedOn": "Sort by message date",
+    "SortByLastAction": "Sort by date of last activity",
+    "ShowMoreThanOneNewSocialMessages": "Zobrazit {0} další zprávy",
+    "ShowNewSocialMessage": "Zobrazit 1 další zprávu",
+    "Publisher": {
+      "DefaultInputPlaceholder": "Post a message…",
+      "DisabledInputPlaceholder": "You cannot create new posts on new record page.",
+      "CommentInputPlaceholder": "Write a comment…",
+      "ShareWithPortal": "Share with portal user",
+      "PostingErrorMsg": "Error while saving feed post",
+      "UserFeedInputPlaceholder": "Feed is in the user mode. You cannot create new posts in this mode.",
+      "SendButtonHint": "Send Message (Ctrl + Enter)",
+      "CancelButtonHint": "Zrušit",
+      "PostingEmptyMsg": "Please type a message to continue.",
+      "ExternalMessagesDisabled": "Please note, the external user will not be able to read the message, because this option is disabled in the component design time.",
+      "ConfirmMessageAccessLevelChange": "Please confirm that you want to change the post visibility level. Please note: the post, related comments and attachments will become visible to external users.",
+      "ConfirmCommentAccessLevelChange": "Please confirm that you want to change the comment visibility level. Please note, the comment and related attachments will become visible to external users."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Nový komentář",
+      "CommentsButtonCaption": "Poznámky",
+      "CommentsButtonHint": "Show comments",
+      "ExpandedCommentsButtonHint": "Hide comments",
+      "PostedInLabel": "posted in"
+    },
+    "Reactions": {
+      "Like": "To se mi líbí",
+      "ExtraReactionsTemplate": "and {0} more...",
+      "PostLiked": "The feed post was liked.",
+      "LikeRemoved": "Like was removed from the feed post."
+    },
+    "Item": {
+      "Edit": "Upravit",
+      "Delete": "Vymazat",
+      "DeletionConfirmation": "Are sure you want to delete the record? This action cannot be undone.",
+      "DeletionErrorMsg": "The record was not deleted. Please try again later.",
+      "DownloadFile": "Download"
+    },
+    "NoDataContainerLabel": "So quiet!",
+    "ExternalUserTagCaption": "External",
+    "ExternalUserTagTooltip": "Post for external users",
+    "DraftItemTagCaption": "Koncept",
+    "SortButtonCaption": "Sort feed",
+    "ActionsButtonCaption": "Akce",
+    "FollowButtonCaption": "Follow feed",
+    "UnfollowButtonCaption": "Unfollow feed",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Follow feed",
+        "Unfollow": "Unfollow feed"
+      },
+      "NotificationTemplate": {
+        "Follow": "You are following updates of the feed: {0}",
+        "Unfollow": "You have unfollowed updates of the feed: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}"
+  },
+  "MessageComposer": {
+    "CancelButtonHint": "Discard",
+    "CancelButtonText": "Discard",
+    "SendButtonHint": "Send Message (Ctrl + Enter)",
+    "SendButtonText": "Odeslat",
+    "RemoveAttachmentHint": "Remove attachment",
+    "Caption": "Message composer",
+    "Email": {
+      "Caption": "Email composer",
+      "From": "Od",
+      "To": "Komu",
+      "CC": "CC",
+      "BCC": "BCC",
+      "Subject": "Předmět",
+      "PublishError": "Failed to send a message. The following error was received: {0}",
+      "AttachmentsSizeLimitReached": "Total attachments size is more than allowed {0} MB. Please remove some attachments.",
+      "FromValidationErrorMessage": "“From” field cannot be blank. Please select a mailbox.",
+      "ToValidationErrorMessage": "“To” field cannot be blank. Please enter at least one recipient.",
+      "SubjectValidationErrorMessage": "“Subject” field cannot be blank. Please enter the email subject.",
+      "BodyPlaceholder": "Type a message",
+      "SaveDraftError": "Unable to save the draft. Please try again later",
+      "TemplateInsertError": "Unable to add the template. Please try again later.",
+      "Draft": "Koncept",
+      "Reply": "Odpovědět",
+      "ReplyAll": "Odpovědět všem",
+      "Forward": "Přeposlat",
+      "SentOn": "Odesláno",
+      "SubjectToggleCaption": "Subj",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "BCC",
+      "NotContainsEmail": "does not contain email in it",
+      "ChangeReplyAction": "Change reply action",
+      "ShowTrimmedEmailTitle": "Show trimmed email",
+      "EmailTemplatesLookupCaption": "Select a template",
+      "EmailTemplatesDisplayColumnCaption": "Jméno šablony",
+      "ContinueEditing": "Continue editing",
+      "SaveDraft": "Save draft",
+      "DraftSaved": "Draft saved",
+      "EmailSent": "Email sent",
+      "RemoveRecipientLabel": "Remove recipient"
+    },
+    "SaveDraftButtonText": "Save draft",
+    "MessageSent": "Zpráva byla odeslána",
+    "Feed": {
+      "Caption": "Feed composer"
+    },
+    "Selector": {
+      "Caption": "Message composer"
+    },
+    "ComposerAreaLabel": "Message composer input area",
+    "AttachmentPreview": "Attachment preview",
+    "Attachment": {
+      "Added": "The attachment was added.",
+      "Removed": "The attachment was removed."
+    },
+    "SendEmailErrorMessage": "An unexpected error occurred while sending the email. Please try again later."
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Agree"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Stáhnout soubor"
+    },
+    "System": {
+      "ChatStartedMessage": "Chat started: {chatStartedAt} by {chatStartedBy}"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "There are no recent chats yet",
+    "CreateChatButton": "Start new chat",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "You: ",
+    "RenameChat": {
+      "LabelTitle": "Rename chat",
+      "InputTitle": "Název",
+      "SaveButton": "Uložit",
+      "CancelButton": "Zrušit"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "Akce"
+    },
+    "NoDataBySearchFilter": "Žádné záznamy neodpovídají aktuálnímu filtru",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions ",
+    "ARIA": {
+      "Label": "Chat",
+      "ChatItem": "Chat: {0}. Last message: {1}",
+      "LoadMoreTrigger": "Načíst více"
+    },
+    "AlreadyAssignedChat": "Chat was assigned to another agent"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Transfer chat",
+    "AgentTab": "Agent",
+    "QueueTab": "Fronta",
+    "NoOperatorsAvailable": "No agents available",
+    "NoData": "Žádná data",
+    "OperatorStatus": {
+      "0": "Neaktivní",
+      "1": "Aktivní",
+      "2": "Chats exceeded"
+    },
+    "InputPlaceholder": "Chat transferred",
+    "NoQueuesAvailable": "No queues available",
+    "ActiveAgentsCount": "{{count}} active agent(s)"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Attached file: {{fileName}}",
+    "DeleteFile": "Delete {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Run action",
+    "NoActionsTemplate": "No actions available. Please add chat actions on the ${link}.",
+    "ChatSettingsPage": "Chat setting page",
+    "ProcessExecutedSuccessfully": "Process executed successfully",
+    "ProcessExecutionFailed": "Process execution failed. Please try again."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Open templates (click or type //)",
+    "NotFound": "No templates found",
+    "NoAvailable": "No templates available",
+    "Group": {
+      "RecentlyUsed": "Recently used",
+      "Others": "Others"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Add emoji",
+    "ButtonAriaLabel": "Open emoji picker",
+    "PickerAriaLabel": "Emoji picker"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "Vyberte: Kontakt",
+    "ConfirmLinkMessage": "All chats of the current contact will be linked to the selected contact, and the current contact will then be deleted. Do you want to proceed?"
+  },
+  "Translations": {
+    "TargetLanguage": "target language",
+    "TranslatingTo": "Translating to {{language}}...",
+    "TranslatedTo": "Translated to {{language}}",
+    "TranslationFailedDialog": "Translation failed. Please try again."
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Překlad",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Unsupported file type. This file can’t be previewed."
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Rekapitulace",
+    "Title": "Název",
+    "Column": "Sloupec",
+    "Function": "Funkce",
+    "CustomSummaryLabelTooltip": "The element contains preconfigured data display logic. If you need to implement alternative logic, then remove the element value."
+  },
+  "Summaries": {
+    "Caption": "Summaries",
+    "Actions": {
+      "CreateCount": "Zobrazit počet záznamů",
+      "Title": "Summaries actions"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Rychlé nastavení",
+      "Count": "Počet",
+      "Minimum": "Minimum",
+      "Maximum": "Maximum",
+      "Sum": "Sum",
+      "Average": "Průměr"
+    },
+    "Hints": {
+      "NoDataSource": "No data source selected",
+      "Collapse": "Collapse summaries",
+      "Expand": "Expand summaries"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Save setting for all users",
+      "ResetToDefault": "Reset to default settings",
+      "SaveForAllSuccessfully": "Summary settings saved for all users successfully",
+      "ResetToDefaultSuccessfully": "Default summary settings restored successfully"
+    },
+    "AdvancedSetup": {
+      "Title": "Advanced setup",
+      "Actions": {
+        "AddCustomSummary": "Add new summary"
+      }
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "Vymazat",
+      "Edit": "Upravit"
+    },
+    "AriaLabel": "Summary item",
+    "Statuses": {
+      "Added": "Summary item added successfully",
+      "Deleted": "Summary item deleted successfully",
+      "Edited": "Summary item changed successfully",
+      "Error": "Chyba"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Call up"
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "Merge duplicates ({0})",
+      "Actions": {
+        "Merge": "Sloučit"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Unable to merge selected records",
+        "NoRights": "Insufficient permissions to merge data",
+        "MinSelectedRecordsViolation": "Select at least two records to merge",
+        "SelectionAllModeUsingViolation": "Merging is not available when using \"Select all\". Select the records you want to merge manually."
+      },
+      "SuccessfulCompletionStatus": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete."
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Called",
+        "Sec": "sec",
+        "DetailsLinkCaption": "Call details"
+      },
+      "Email": {
+        "MailedTo": "Mailed to",
+        "From": "Od:",
+        "To": "Do:",
+        "CC": "CC:",
+        "Details": "Podrobnosti",
+        "Hide": "Skryt"
+      },
+      "File": {
+        "AddedFile": "Added a file"
+      },
+      "Chat": {
+        "ChatWith": "chatted with",
+        "Show": "Zobrazit chat",
+        "Hide": "Skrýt chat",
+        "DetailsLinkCaption": "Chat details"
+      }
+    },
+    "NoDataMessage": "The past does not exist",
+    "FillActionMessage": "There are no associated records to display in the timeline",
+    "NoDataByFilterMessage": "Žádné záznamy neodpovídají aktuálnímu filtru",
+    "FillActionByFilterMessage": "Zrušte filtr nebo upravte podmínky",
+    "EntityFilterCaption": "Vše",
+    "OwnerFilterCaption": "Vlastník",
+    "DateFilterCaption": "Zvolit období",
+    "HideSystemMessagesCaption": "Skrýt systémové zprávy",
+    "EntityFilterHint": "Select record type",
+    "OwnerFilterHint": "Select record owner",
+    "DateFilterHint": "Select record period",
+    "HideSystemMessagesHint": "Hide automated emails",
+    "DateSort": "Datum",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "E-mail"
+      },
+      "Feed": {
+        "Caption": "Kanál"
+      },
+      "Task": {
+        "Caption": "Úkol"
+      },
+      "SysFile": {
+        "Caption": "Soubor"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Sort by date button, currently sorted {0}",
+        "Descending": "sestupné",
+        "Ascending": "vzestupné"
+      }
+    }
+  },
+  "CommunicationOptions": {
+    "Caption": "Možnosti komunikace",
+    "DeleteOption": "Odstranit",
+    "Primary": "primární",
+    "Invalid": "neplatné",
+    "MarkAsPrimary": "Set as primary",
+    "MarkAsValid": "Mark as valid",
+    "MarkAsInvalid": "Mark as invalid",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} already exists",
+      "ReadOnlyStateMessage": "The communication option cannot be added as the component is in read-only mode",
+      "IncorrectSetupComponentMessage": "Unable to add the communication option as the page component has not been set up yet. The system administrator can finish the setup in the Freedom UI designer",
+      "EmptyMasterRecordColumnNameInRequestMessage": "The communication option cannot be added to an empty record. Please add the record value first"
+    },
+    "NoDataPlaceholderText": "Žádná data",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} added",
+        "Deleted": "{0} {1} deleted",
+        "SetAsPrimary": "{0} {1}  set as primary",
+        "MarkedAsValid": "{0} {1} marked as valid",
+        "MarkedAsInvalid": "{0} {1} marked as invalid"
+      }
+    },
+    "ToolsAriaLabel": "Akce",
+    "DesignerPhoneLabel": "Telefon",
+    "DesignerEmailLabel": "E-mailová adresa",
+    "DesignerWebLabel": "Web link"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "Název účtu",
+    "AlternativeNamePlaceholder": "Also known as",
+    "CountryPlaceholder": "Stát"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "Kontaktní jméno",
+    "DesignerBirthDatePlaceholder": "Datum narození",
+    "CountryPlaceholder": "Stát"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Account compact profile",
+    "DialogTitle": "Edit account",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add account name",
+    "AlternativeNameFieldLabel": "Also known as",
+    "EmptyRecord": {
+      "NamePlaceholder": "Název účtu",
+      "AlternativeNamePlaceholder": "Also known as",
+      "CountryPlaceholder": "Stát"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Contact compact profile",
+    "DialogTitle": "Edit contact",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Přidat jméno kontaktu",
+    "BirthDatePlaceholder": "a datum narození",
+    "EmptyRecord": {
+      "NamePlaceholder": "Kontaktní jméno",
+      "BirthDatePlaceholder": "Datum narození",
+      "CountryPlaceholder": "Stát"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Compact user profile",
+    "DialogTitle": "Edit name",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add user name"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Zavřít"
+  },
+  "IFrame": {
+    "PropertiesPanel": {
+      "Caption": "iFrame settings",
+      "GeneralSettings": {
+        "Caption": "Základní",
+        "ContentTypeLabel": "Typ obsahu",
+        "ContentValueLabel": "Content to display",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "To ensure the content is displayed correctly, make sure the following is true: <ul><li>Source allows embedding in an iframe</li><li>Link uses the HTTPS protocol</li><li>Source domain is included in the trusted sources list of your Content Security Policy. We recommend adding at least two allowed directives to it: connect-src and frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Allowed features",
+        "AllowTooltip": "Specifies which browser features the embedded content is allowed to use, for example, camera, microphone, fullscreen. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information.",
+        "SandboxLabel": "Sandbox permissions",
+        "SandboxTooltip": "Specifies which sandbox restrictions are removed for the embedded content. Grant only the permissions that are required. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information."
+      }
+    },
+    "Caption": "iFrame",
+    "Hint": "iFrame component allows to embed and display content in either HTML or URL format",
+    "Placeholder": {
+      "NothingToShow": "Nothing to show yet",
+      "NoContent": "No content available in this section"
+    },
+    "ContentUnavailable": {
+      "Title": "Content Unavailable",
+      "SubTitle": "Due to your network settings, browser security policies, or content restrictions",
+      "LinkTitle": "Read more in our Academy"
+    }
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Dashboards settings",
+    "GeneralGroup": {
+      "Caption": "Základní",
+      "DataSource": "Datový zdroj",
+      "DataSourceTooltip": "The data source will be set as primary data source for every dashboard created in this component",
+      "DataSourceDependenciesSettingTooltip": "Filter by page data lets you display connected data in a dashboard",
+      "DataSourceFilterElementsGroupTooltip": "The setting lets you use pre-configured filters from folders or other data filtering elements as page filters"
+    },
+    "DashboardsGroup": {
+      "Caption": "Dashboardy",
+      "AddDashboard": "Add new dashboard",
+      "InfoTooltip": "The list of dashboards displays only those items that are schemas in configuration",
+      "ContextMenu": {
+        "Copy": "Kopie",
+        "Delete": "Vymazat",
+        "Edit": "Upravit"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Are you sure you want to delete dashboard \"{{caption}}\"?",
+            "WithUserLevelSchema": "The dashboard you want to delete has a dependent dashboard: \"{{caption}}\" end-user schema. If you continue, both dashboards will be deleted. Continue?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Unable to delete \"{{caption}}\" dashboard because it was either created by third-party publisher or installed from the file",
+            "DependsOnSchema": "Unable to delete \"{{caption}}\" dashboard because it has dependent configuration schema(s)"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "You cannot rename the element because it has bound dashboards"
+    }
+  },
+  "Dashboards": {
+    "SelectDashboard": "Select dashboard",
+    "NoData": "No associated dashboards to display",
+    "NoData2": "Add a dashboard to make it look prettier",
+    "CreateNewDashboardButton": "Add new dashboard",
+    "AccessDenied": "You do not have permission to edit this item",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Are you sure that you want to delete the selected dashboard?",
+        "FailMessage": "Unfortunately, you cannot delete the selected dashboard"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "Akce",
+      "Edit": "Upravit",
+      "Copy": "Kopie",
+      "Delete": "Odstranit",
+      "Rights": "Nastavit oprávnění"
+    },
+    "All": "Vše",
+    "Favorites": "Oblíbené",
+    "AddToFavoritesButton": "Přidat k oblíbeným",
+    "RemoveFromFavoritesButton": "Odebrat z oblíbených"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Entity hierarchy filter",
+    "GeneralCaption": "Základní",
+    "SchemaNameCaption": "Select an object to build a hierarchy",
+    "HierarchySetup": "Hierarchy setup",
+    "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+    "ApplyStaticFilter": "Apply static filter",
+    "EditStaticFilterAction": "Edit filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "SetupStaticFilterAction": "Setup filter",
+    "DisplayModeCaption": "Hierarchy type",
+    "ManualDisplayMode": "Manual",
+    "ByParentDisplayMode": "By parent"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Add new hierarchy column",
+    "ContextMenu": {
+      "AddToSubmenu": "Add sub-hierarchy",
+      "Edit": "Upravit",
+      "Delete": "Odstranit"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Vše",
+    "NotFilledNode": "Not filled",
+    "SpecificationFilterCaption": "Open additional filtering",
+    "BackButtonCaption": "Zpět",
+    "ClearAllFiltersButtonCaption": "Zrušit vše",
+    "NoDataCaption": "Žádná data"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Color picker",
+        "AppearanceGroup": "Appearance",
+        "PickerModeRadioButtonCaption": "Palette",
+        "PickerMode": {
+          "Basic": "Basic palette",
+          "Extended": "Extended palette"
+        }
+      }
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Entity schema '{{entitySchemaName}}' not found",
+    "UnselectedColumnsWillBeDeletedMessage": "Unselected columns will be deleted. Proceed?"
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Nic zde není k zobrazení!",
+    "NoDataDescription": "Currently there are no items in your queue",
+    "AcceptButtonLabel": "Accept"
+  },
+  "AgentInbox": {
+    "NewItems": "New Items ({{number}})",
+    "InProgress": "In Progress ({{number}})",
+    "RealTime": "Real-time",
+    "QueuedTasks": "Queued tasks",
+    "WrappedUpCallTickTpl": "Call wrap-up ({{sec}}s left)",
+    "WrappedUpCallStoppedTpl": "Manual wrap-up",
+    "IncomingCallDescription": "Přichozí hovor:",
+    "OutgoingCallDescription": "Odchozí hovor:"
+  },
+  "CallConversation": {
+    "Call": "Make call",
+    "Duration": "Doba trvání:",
+    "Search": "Vyhledávání",
+    "JobTitle": "Job Title",
+    "Account": "Firma",
+    "ClearIdentity": "Clear selected record",
+    "Buttons": {
+      "Hints": {
+        "Accept": "Accept call",
+        "CompleteTransfer": "Kliknete pro převod hovoru",
+        "Hold": "Put on hold",
+        "Unhold": "Unhold",
+        "StartTransfer": "Transfer call",
+        "Mute": "Mute call",
+        "CancelTransfer": "Zrušit přepojení",
+        "Drop": "Complete call",
+        "OpenDialPanel": "Open dial panel"
+      },
+      "Captions": {
+        "Accept": "Accept",
+        "Drop": "Zamítnout",
+        "Cancel": "Zrušit",
+        "CancelTransfer": "Zpět",
+        "CompleteTransfer": "Sloučit",
+        "EndMainCall": "Konec"
+      }
+    },
+    "OnHold": "On hold:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "The call was updated"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Clear selected record",
+    "CallIdentityOptions": "Change/Set contact"
+  },
+  "ListWidget": {
+    "DefaultTitle": "New list widget",
+    "PropertiesPanel": {
+      "HeaderLabel": "Widget settings",
+      "TitleLabel": "Popisek",
+      "Styles": {
+        "FullyColored": "Zcela barevné",
+        "PlainWhite": "Obyčejná bílá",
+        "PartiallyColored": "Částečně barevné",
+        "Glassmorphism": "Glass effect"
+      }
+    },
+    "Caption": "List widget",
+    "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "Change DCM case. There is a more relevant configuration for this entity.",
+    "ConfirmChangeCaseDialogMessage": "Do you want to replace current version of the case?",
+    "SnackbarActualFilterCaseMessage": "There is more relevant case \"{{caption}}\". Replace?",
+    "SnackbarIgnoreButtonCaption": "Ignore",
+    "SnackbarReplaceButtonCaption": "Replace",
+    "SnackbarEntityProcessChangedMessage": "Case has been successfully changed."
+  },
+  "NextSteps": {
+    "Caption": "Další kroky",
+    "CompleteButtonCaption": "Ukončit",
+    "AddNewStepMenuCaption": "Přidejte nový krok",
+    "CreateActivityButtonCaption": "Create a task",
+    "CreateEmailButtonCaption": "Create an email",
+    "NoDataContainerLabel": "Nic zde není k zobrazení!",
+    "NoDataContainerDescription": "Pro tuto fázi nebyly přidány žádné kroky",
+    "OwnerHint": "Assigned user",
+    "OwnerRoleHint": "Assigned group",
+    "RequiredStepHint": "Povinný krok",
+    "ApprovalApprovedSnackbarCaption": "Request was approved",
+    "ApprovalRejectedSnackbarCaption": "Request was rejected",
+    "TypeFilterCaption": "Typ",
+    "TypeFilterHint": "Typ"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} records have been loaded. Load more records?",
+    "ConfirmResendMeetingInvitationsQuestion": "When the meeting is saved all participants will receive a meeting update. Do you  want to proceed?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Saving some of this meetings requires you to send a change notification to all participants after saving. Do you want to continue? Meeting list:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Setkání se odehrává v minulosti. Opravdu chcete účastníkům poslat pozvánku?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. All participants will receive a meeting update. Do you  want to proceed?",
+    "CanNotChangeMeetingMessage": "Only the meeting organizer can change the description, date and list of the meeting participants.",
+    "CanNotChangeMultipleMeetingsMessage": "Some of the changed meetings can only be changed by the meeting organizer. Meeting list: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "You can delete meetings only if you select records manually.",
+    "ErrorSendingInvitationMessage": "Pozvánky nebyly odeslány. Může se jednat o dočasný problém, zkuste to prosím později.",
+    "SuccessSendingInvitationMessage": "Pozvánky byly úspěšně odeslány.",
+    "JoinBtnCaption": "Join online meeting",
+    "UserAlreadyHasActiveCalendarAccount": "Již máte aktivní kalendář",
+    "LackOfLicenseMessage": "Calendar synchronization is not included into your current license. Please contact your system administrator for additional information.",
+    "DateRangeError": "The date range in the filter is too long. Please reduce the range in the filter."
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "At least one value must be selected in: {0}"
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Schválení",
+    "ComponentHeaderInactiveLabel": "No approval required",
+    "RejectDialogHeaderLabel": "Opravdu chcete zamítnout schválení?",
+    "RejectInputLabel": "Poznámka k schválení",
+    "RejectButtonLabel": "Zamítnout",
+    "CancelButtonLabel": "Zrušit",
+    "ApproveDialogHeaderLabel": "Udělit schválení?",
+    "ApproveButtonLabel": "Schválit",
+    "PositiveMetricLabel": "Pozitivní",
+    "NegativeMetricLabel": "Negativní",
+    "PendingMetricLabel": "Čekající",
+    "ComponentHeaderActiveLabel": "Waiting for your approval",
+    "ApprovalPurposeLabel": "Cíl schválení",
+    "ApprovedPlaceholderLabel": "APPROVED",
+    "DesignTime": {
+      "ApprovalObjective": "Potřebuje se schválení"
+    },
+    "RejectedPlaceholderLabel": "REJECTED",
+    "DelegateButtonLabel": "Delegate"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Zamítnout",
+    "ApproveButtonLabel": "Schválit"
+  }
+}

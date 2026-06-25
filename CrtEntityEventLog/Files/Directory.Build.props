@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtEntityEventLog/Schemas/SysEntityDeleteEventLog/SysEntityDeleteEventLog.cs" Condition="Exists('$(PkgPath)/CrtEntityEventLog/Schemas/SysEntityDeleteEventLog/SysEntityDeleteEventLog.cs')" />
+		<Compile Include="$(PkgPath)/CrtEntityEventLog/Schemas/SysEntityDeleteEventLogConfig/SysEntityDeleteEventLogConfig.cs" Condition="Exists('$(PkgPath)/CrtEntityEventLog/Schemas/SysEntityDeleteEventLogConfig/SysEntityDeleteEventLogConfig.cs')" />
+	</ItemGroup>
+</Project>

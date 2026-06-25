@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "En cours de chargement..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copié"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Rien à afficher pour l'instant ",
+      "Subhead": "Veuillez d'abord ajouter des données"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat démarré: {0} par",
+        "EndDate": "Chat terminé: {0} par"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "En cours de chargement"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Erreur",
+      "Default": "Info-bulle"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Il n'y a pas de page pour les enregistrements nouveaux ou existants. L'administrateur du système doit vérifier les paramètres du bouton dans l'interface Freedom UI",
+    "GoToEntityDesignerMessage": "Pour configurer les pages, allez à l'URL : {0}"
+  }
+}

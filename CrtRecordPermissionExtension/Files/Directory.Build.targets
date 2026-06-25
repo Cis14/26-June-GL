@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtRecordPermissionExtension/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtRecordPermissionExtension/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtRecordPermissionExtension/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtRecordPermissionExtension/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtRecordPermissionExtension/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtRecordPermissionExtension/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtRecordPermissionExtension/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtRecordPermissionExtension/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtRecordPermissionExtension/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtRecordPermissionExtension/Resources/**" />
+		<None Remove="$(PkgPath)/CrtRecordPermissionExtension/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtRecordPermissionExtension/Data/**" />
+		<None Remove="$(PkgPath)/CrtRecordPermissionExtension/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtRecordPermissionExtension/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtRecordPermissionExtension/Resources/**" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Incarcare..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copiat"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nimic de afișat încă ",
+      "Subhead": "Vă rugăm să adăugați mai întâi date"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat început: {0} de",
+        "EndDate": "Chat completat: {0} de"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Încărcare"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Eroare",
+      "Default": "Tooltip"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Vă rugăm să selectați valoarea din listă",
+      "SelectionWindowMessage": "Vă rugăm să selectaţi valoarea din listă sau să căutaţi folosind fereastra lookup-ului"
+    },
+    "Required": {
+      "Message": "Introdu o valoare"
+    },
+    "MaxLength": {
+      "Message": "Lungimea maximă a textului a fost depășită ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Lungimea minimă a textului nu a fost atinsă ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format dată și oră invalid"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format dată invalid"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format orar invalid"
+    },
+    "RegExp": {
+      "Message": "Format valoare invalid"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Codul trebuie să înceapă cu {{schemaNamePrefix}}  prefix.",
+      "OnlySchemaNamePrefixMessage": "Introduceți cel puțin încă un simbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Folosiți simbolurile: a-z, A-Z, 0-9, underscore sau dash. Doar litere pot fi primul."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Valoarea '{{controlValue}}' există deja în coloana 'Cod'."
+    },
+    "PhoneNumber": {
+      "Message": "Număr de telefon invalid"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Coloană eliminată",
+    "ValidationErrorMessageSingleErrorField": "Câmp: {0}. Eroare: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Câmpuri: {0}. Eroare: {1}",
+    "RefreshModelDataConflict": "Creatio are date noi pentru pagina curentă. Pentru a o vizualiza, salvați sau anulați modificările și reîmprospătați pagina.",
+    "WarningModelsWithCircularDependencies": "Unele modele au dependențe circulare și nu au fost încărcate",
+    "LoadingModelErrorMessage": "A apărut o eroare în timpul executării interogării",
+    "ErrorMessageOnEmptyRelationColumn": "Nu se poate salva pagina. Completați câmpul {{caption}} sau goliți datele din câmpurile asociate pentru a salva pagina."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Datele au fost actualizate"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Descrie clar și concis obiectivul utilizatorului. Detaliază pașii necesari pentru a atinge obiectivul utilizatorului. Schițează rezultatul așteptat de la LLM. Aceasta ar trebui să includă orice context sau informație necesară pe care LLM-ul trebuie să o cunoască.\n\n## Reguli Generale\n1. Nu poți crea obiecte noi fără să confirmi explicit cu utilizatorul.\n2. Regula 2: ...\n3. ...\n\n## Restricții Generale\n1. Evită să faci presupuneri despre intenția utilizatorului; clarifică cererile atunci când este necesar.\n2. Restricția 2: ...\n3. ...\n\n## Cerințe pentru Ieșire\n1. Ieșirea trebuie să fie mai mică de 300 de simboluri și nu mai mult de 2-3 propoziții.\n2. Cerința 2: ...\n3. ...\n\n## Fluxul Procesului\n1. Folosește contextul paginii curente pentru a citi datele și câmpurile paginii. Pe baza acelor informații ...\n2. Pasul 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nu există nicio pagină pentru înregistrarea nouă sau existentă. Administratorul de sistem trebuie să verifice setările butonului din Freedom UI",
+    "GoToEntityDesignerMessage": "Pentru configurarea paginilor mergeți la URL: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Schema de proces a fost salvată cu succes, dar erorile de validare o împiedică să ruleze."
+  }
+}

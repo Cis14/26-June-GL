@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtCloudIntegration/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtCloudIntegration/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtCloudIntegration/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtCloudIntegration/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtCloudIntegration/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCloudIntegration/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCloudIntegration/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCloudIntegration/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCloudIntegration/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtCloudIntegration/Resources/**" />
+		<None Remove="$(PkgPath)/CrtCloudIntegration/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtCloudIntegration/Data/**" />
+		<None Remove="$(PkgPath)/CrtCloudIntegration/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtCloudIntegration/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtCloudIntegration/Resources/**" />
+  </ItemGroup>
+</Project>

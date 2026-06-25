@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Завантаження..."
+  },
+  "CopyClipboard": {
+    "Copied": "Скопійовано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Немає що показувати ",
+      "Subhead": "Будь ласка, спочатку додайте дані"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чат розпочато: {0} ",
+        "EndDate": "Чат завершено: {0} "
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Завантаження"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Помилка",
+      "Default": "Підказка"
+    }
+  },
+  "BaseViewModel": {
+    "RefreshModelDataConflict": "Creatio має нові дані для поточної сторінки. Щоб переглянути її, збережіть або скасуйте ваші зміни і оновіть сторінку.",
+    "WarningModelsWithCircularDependencies": "Деякі моделі мають циклічні залежності і не були завантажені",
+    "DataSourceAttributeRemoved": "Колонку видалено",
+    "ValidationErrorMessageSingleErrorField": "Поле: {0}. Помилка: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Поля: {0}. Помилка: {1}",
+    "LoadingModelErrorMessage": "Сталася помилка під час виконання запиту",
+    "ErrorMessageOnEmptyRelationColumn": "Неможливо зберегти сторінку. Заповніть поле {{caption}} або очистіть дані у пов'язаних полях, щоб зберегти на сторінку."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Будь ласка, оберіть значення зі списку",
+      "SelectionWindowMessage": "Будь ласка, виберіть значення зі списку або скористайтеся пошуком за допомогою вікна довідника"
+    },
+    "Required": {
+      "Message": "Введіть значення"
+    },
+    "MaxLength": {
+      "Message": "Перевищено допустиму довжину тексту ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Не досягнуто допустимої довжини тексту ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Неправильний формат дати і часу"
+    },
+    "DatePickerSyntax": {
+      "Message": "Неправильний формат дати"
+    },
+    "TimePickerSyntax": {
+      "Message": "Неправильний формат часу"
+    },
+    "RegExp": {
+      "Message": "Неправильний формат значення"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Код має починатися з префіксу {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Введіть принаймні один символ."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Використовуйте символи: a-z, A-Z, 0-9, підкреслення або тире. Спочатку можуть бути лише літери."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Значення '{{controlValue}}'' вже існує в колонці 'Code'."
+    },
+    "PhoneNumber": {
+      "Message": "Вказано некоректний номер телефону"
+    }
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Дані були оновлені"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Чітко та стисло опишіть ціль користувача. Деталізуйте кроки, необхідні для досягнення цілі користувача. Окресліть очікуваний результат від LLM. Це повинно включати будь-який необхідний контекст або інформацію, яку LLM повинно знати.\n\n## Загальні правила\n1. Ви не можете створювати нові об'єкти без явного підтвердження від користувача.\n2. Правило 2: ...\n3. ...\n\n## Загальні обмеження\n1. Уникайте припущень щодо наміру користувача; уточнюйте запити, коли це необхідно.\n2. Обмеження 2: ...\n3. ...\n\n## Вимоги до виходу\n1. Вихід повинен бути менше 300 символів і не більше ніж 2-3 речення.\n2. Вимога 2: ...\n3. ...\n\n## Процес\n1. Використовуйте контекст поточної сторінки для зчитування даних та полів. На основі цієї інформації ...\n2. Крок 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Немає сторінки для нового або існуючого запису. Системний адміністратор має перевірити налаштування кнопок у Freedom UI",
+    "GoToEntityDesignerMessage": "Для налаштування сторінок перейдіть до URL: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Схема процесу збережена успішно, але помилки валідації перешкоджають її виконанню."
+  }
+}

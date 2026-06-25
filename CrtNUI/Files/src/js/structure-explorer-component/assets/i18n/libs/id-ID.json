@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Memuat..."
+  },
+  "CopyClipboard": {
+    "Copied": "Disalin"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Belum ada yang bisa ditampilkan ",
+      "Subhead": "Silakan tambahkan data terlebih dahulu"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Obrolan dimulai: {0} oleh",
+        "EndDate": "Obrolan selesai: {0} oleh"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Memuat"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Error",
+      "Default": "Tooltip"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Tidak ada halaman untuk catatan baru atau yang sudah ada. Administrator sistem harus memeriksa pengaturan tombol di Freedom UI",
+    "GoToEntityDesignerMessage": "Untuk mengatur halaman, buka URL: {0}"
+  }
+}

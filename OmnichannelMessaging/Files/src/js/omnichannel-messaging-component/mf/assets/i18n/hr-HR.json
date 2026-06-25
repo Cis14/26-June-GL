@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Odaberite: {0}",
+        "Selected": "Odabrano:",
+        "SelectButton": "Odaberite",
+        "CancelButton": "Odustani",
+        "Blankslate": "Nema zapisa za ovaj objekt"
+    },
+    "SearchInput": {
+        "Placeholder": "Pretraži",
+        "Settings": {
+            "Cancel": "Odustani",
+            "Apply": "Primijeni",
+            "SearchColumnTemplate": "Pretraži po stupcu \"{0}\"",
+            "StartsWith": "Počinje s",
+            "Contains": "Sadrži",
+            "Equals": "Jednako"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Dodaj",
+        "BlankslateWithFilters": "Nema zapisa koji odgovaraju trenutnim kriterijima pretrage. Očistite ili promijenite parametre pretrage"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Prihvati razgovor",
+            "AlreadyAssignedChat": "Razgovor je dodijeljen drugom agentu",
+            "NewMessages": "Nove poruke",
+            "ChatIsCompleted": "Razgovor završen {datePart} u {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Vi:",
+            "DraftMessageCaption": "Skica:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Kanali razgovora nisu podešeni",
+                    "textStart": "Molimo kontaktirajte svog administratora sustava i zatražite postavljanje kanala. Saznajte više o radu s razgovorima u ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Kanali razgovora nisu podešeni",
+                    "textStart": "Molim ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "dodaj"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    },
+                    "textEnd": " novi kanal. Saznajte više o radu s razgovorima u "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Novi razgovori nisu dodijeljeni neaktivnim agentima",
+                    "textStart": "Molimo postavite svoj status u \"Aktivan\". Saznajte više o radu s razgovorima u ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Nema razgovora u redu čekanja",
+                    "textStart": "Saznajte više o radu s razgovorima u ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Novi razgovori nisu dodijeljeni neaktivnim agentima",
+                    "textStart": "Molimo postavite svoj status u \"Aktivan\". Saznajte više o radu s razgovorima u ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Nema razgovora u redu čekanja",
+                    "textStart": "Saznajte više o radu s razgovorima u Creatio Academy ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Nemate aktivnih razgovora. Provjerite listu novih razgovora"
+                }
+            },
+            "Actions": {
+                "Complete": "Završite razgovor",
+                "ProcessesDivider": "Procesi",
+                "EmptyProcessesList": "Dodaj poslovni proces na detalje \"Radnje razgovora\"",
+                "SearchFacebook": "Pretraži na Facebooku",
+                "ContactDuplicates": {
+                    "Show": "Prikaži duplicirane kontakte",
+                    "NotFound": "Nisu pronađeni duplicirani kontakti",
+                    "Find": "Pronađi duplicirane kontakte"
+                },
+                "Back": "Natrag",
+                "Transfer": "Prenesi razgovor",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "Aktivni razgovori",
+            "Tips": {
+                "BackToChats": "Natrag na popis"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Poruka",
+            "AttachFile": "Datoteka",
+            "OversizeFiles": "Prekoračen je maksimalni limit veličine datoteke od 25 MB u sljedećim datotekama: {0}",
+            "NewChatsTitle": "Novi razgovor"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Započet je razgovor: {0} od strane",
+                "EndDate": "Razgovor završen: {0} od strane"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Sažetak prije razgovora",
+            "Toggle": {
+                "Opened": "Sakrij",
+                "Closed": "Prikaži više"
+            },
+            "Fields": {
+                "Source": "Izvor"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Pronađeno {0} sličnih kontakata",
+            "DuplicatesNotFound": "Nisu pronađeni slični kontakti",
+            "FindDuplication": "Pronađi slične kontakte"
+        },
+        "Transfer": {
+            "ToOperator": "Agent",
+            "ToQueue": "Red čekanja",
+            "TransferWindowCaption": "Prenesi na",
+            "OperatorStatusTips": {
+                "Active": "Aktivan",
+                "Inactive": "Neaktivan",
+                "ChatsExceeded": "Prekoračen broj razgovora"
+            },
+            "NoAvailableAgents": "Nema dostupnih agenata za prijenos",
+            "NoAvailableQueues": "Nema dostupnih redova za prijenos"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Prijedlozi predložaka",
+        "SuggestionHint": "Pokušajte upisati riječ za početak pretraživanja",
+        "QuickSearchHint": "Upišite // za pretraživanje predloška",
+        "TemplateSearchCaption": "Predlošci odgovora"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Obavijesti u pregledniku su onemogućene. Omogućite obavijesti kako biste primili upozorenja o novim porukama. Više pročitajte na ",
+        "splitTextLink": {
+            "href": "https://academy.creatio.com/documents?id=1011",
+            "displayText": "Akademija"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "Prevedi",
+        "LanguagePlaceholder": "Izaberi jezik",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/OpenIdAuth/Schemas/OpenIdFieldNameMap/OpenIdFieldNameMap.cs" Condition="Exists('$(PkgPath)/OpenIdAuth/Schemas/OpenIdFieldNameMap/OpenIdFieldNameMap.cs')" />
+		<Compile Include="$(PkgPath)/OpenIdAuth/Schemas/SysAlmRole/SysAlmRole.cs" Condition="Exists('$(PkgPath)/OpenIdAuth/Schemas/SysAlmRole/SysAlmRole.cs')" />
+	</ItemGroup>
+</Project>

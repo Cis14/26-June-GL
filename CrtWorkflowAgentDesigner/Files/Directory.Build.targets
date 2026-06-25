@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtWorkflowAgentDesigner/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWorkflowAgentDesigner/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Resources/**" />
+		<None Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Data/**" />
+		<None Remove="$(PkgPath)/CrtWorkflowAgentDesigner/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtWorkflowAgentDesigner/Resources/**" />
+  </ItemGroup>
+</Project>

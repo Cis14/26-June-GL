@@ -1,0 +1,717 @@
+{
+  "CrtIconSelectorComponent": {
+    "Tooltip": "アイコンの選択"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "ビジネス ルールは無効になっています"
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "固定値",
+    "SourceCaption": "定数",
+    "ValuePickerComponent": {
+      "Placeholder": "値の指定"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "値を選択",
+      "Label": "値",
+      "Actions": {
+        "OkButtonCaption": "Ok",
+        "CancelButtonCaption": "キャンセル"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "読み込み中.."
+  },
+  "CopyClipboard": {
+    "Copied": "コピーしました"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "表示するものがありません ",
+      "Subhead": "データを追加してください"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "チャット開始: {0}",
+        "EndDate": "チャット完了: {0}"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.AI"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "このチャンネルは削除できません。アクティブなチャットまたは配信中のチャットがあります。まずチャットを完了してから再試行してください。"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "読み込み中"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "エラー",
+      "Default": "ツールチップ"
+    }
+  },
+  "Input": {
+    "Readonly": "編集不可能なフィールド",
+    "ShowPassword": "パスワードを表示",
+    "HidePassword": "パスワードを非表示"
+  },
+  "Carousel": {
+    "NoData": "データがありません",
+    "PrevButtonCaption": "前のアイテム",
+    "NextButtonCaption": "次のアイテム"
+  },
+  "ComboBox": {
+    "Readonly": "編集不可能なフィールド",
+    "NoData": "データがありません",
+    "EmptyDisplayValue": "表示できる値がありません",
+    "AddNewRecord": "新規追加",
+    "InvalidValueSyntax": "リストから項目を選択してください",
+    "IsGoToSourceAllowedTooltip": "レコード一覧へ移動",
+    "CheckAll": "すべてチェックする",
+    "ClearAll": "すべてをクリア",
+    "SelectValue": "値を選択",
+    "ClearValue": "値をクリア",
+    "OpenSection": "セクションを開く"
+  },
+  "DataGrid": {
+    "AddColumns": "カラムを追加",
+    "ColumnToolbar": {
+      "Hide": "非表示",
+      "Freeze": "固定",
+      "Unfreeze": "固定の解除",
+      "Rename": "名前を変更",
+      "Title": "列の操作",
+      "Edit": "プロパティ",
+      "SortAscending": "昇順にソート",
+      "SortDescending": "昇順にソート",
+      "ClearSorting": "並べ替えをクリア",
+      "AriaLabel": "列の操作"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "アクションの一覧",
+      "Title": "動作の一覧",
+      "DataGridSettingsLabel": "一般的なリストの設定",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "すべてのユーザーのために新しいデフォルトのリスト設定が保存されます。続けますか？",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "すべてのユーザーのために新しいデフォルトのリスト設定が保存されます。続けますか？",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "デフォルト設定に戻す",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "デフォルトのリスト設定が正常に復元されました"
+      }
+    },
+    "RowToolbar": {
+      "Open": "開く",
+      "Copy": "コピー",
+      "Delete": "削除",
+      "RunBusinessProcess": "ビジネス プロセスを実行",
+      "Title": "行の操作"
+    },
+    "AddColumnsTo": "カラムを追加",
+    "Title": "リスト: {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "列が追加されました",
+      "ColumnsAddedSuccessfully": "列が追加されました",
+      "ColumnHiddenSuccessfully": "列が非表示になりました",
+      "ColumnFrozenSuccessfully": "列が固定されました",
+      "ColumnUnfrozenSuccessfully": "列が解除されました",
+      "ColumnChangedSuccessfully": "列が変更されました"
+    }
+  },
+  "DataTable": {
+    "NoData": "データがありません",
+    "NoColumns": "列が追加されていません",
+    "Hints": {
+      "Sort": "並び替え",
+      "StartEditing": "編集",
+      "ReadonlyCell": "編集不可能なフィールド",
+      "CancelChanges": "破棄",
+      "AddItem": "新規レコードを追加",
+      "SortWithCaption": "{0}をソート",
+      "NotSorted": "現在ソートされていません",
+      "SortedAscending": "現在ソートされている昇順",
+      "SortedDescending": "現在、降順にソートされています",
+      "SortAscending": "昇順にソート",
+      "SortDescending": "昇順にソート",
+      "RowControls": "行管理"
+    },
+    "SaveItemsChanges": "すべて保存",
+    "CancelItemsChanges": "破棄",
+    "AddItem": "新規",
+    "BulkActions": {
+      "MoreActions": "その他の操作",
+      "AriaLabel": "{0}の一括操作"
+    },
+    "RowsSelection": {
+      "Selected": "選択済み",
+      "SelectAll": "すべて選択",
+      "ClearSelection": "選択をクリア",
+      "SelectRow": "行を選択",
+      "RowsSelected": "選択した行: {0}"
+    },
+    "NotFoundColumn": "列が見つかりません",
+    "ColumnSticky": "固定された列",
+    "StatusBar": {
+      "AriaLabel": "{0}のアクションを編集"
+    },
+    "Columns": {
+      "ChangeWidth": "幅を変更",
+      "ChangeWidthOf": "{0}の幅を変更"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "データがありません",
+    "MenuActions": "アクション",
+    "DateAdded": "追加された日付",
+    "SelectItem": "アイテムを選択",
+    "Item": {
+      "ActionsButtonCaption": "アイテムアクション"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "はい",
+      "False": "いいえ"
+    }
+  },
+  "FileInput": {
+    "Delete": "削除",
+    "Cancel": "キャンセル",
+    "Attach": "添付",
+    "FileIcon": "ファイルアイコン",
+    "EmptyFileName": "空のファイル名",
+    "MaxFileSizeLimitReached": "最大ファイルサイズ制限に達しています({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "保存",
+    "CancelButton": "キャンセル",
+    "ColumnProperties": "列のプロパティ",
+    "Title": "タイトル",
+    "FilterHeader": "レコードをフィルタリングする方法",
+    "SortingHeader": "レコードを並び替え",
+    "SortColumn": "ソート",
+    "WhatToDisplay": "表示する項目",
+    "AggregationColumn": "列",
+    "SortOrder": "並べ替え",
+    "SetupFilters": "フィルターの設定",
+    "EditFilters": "フィルターを編集"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "ここにファイルをドロップ",
+      "Description": "または",
+      "Upload": "アップロード"
+    },
+    "RowToolbar": {
+      "Download": "ダウンロード"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "at",
+    "TodayAt": "今日 {0}",
+    "YesterdayAt": "昨日 {0}",
+    "DayBeforeYesterdayAt": "一昨日 {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "表示できる値がありません"
+  },
+  "WebInput": {
+    "LinkButtonHint": "リンクを開く"
+  },
+  "EmailInput": {
+    "AddEmailHint": "メール送信"
+  },
+  "ImageInput": {
+    "Alt": "フィールド画像",
+    "Upload": "アップロード",
+    "Clear": "削除",
+    "Change": "変更",
+    "AltAbbreviation": "略語イメージ",
+    "AltIcon": "フィールドは空です"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "ヶ月",
+    "DaysAbbreviation": "日",
+    "HoursAbbreviation": "時間",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "タブを閉じる"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "実行プロセス",
+      "SuccessMessage": "プロセスが正常に実行されました",
+      "NotConfiguredQuickProcessesMessage": "クイックプロセスの実行はまだ設定されていません",
+      "OtherProcessesCaption": "その他のプロセス"
+    },
+    "Settings": {
+      "Title": "設定"
+    },
+    "UserProfile": {
+      "Title": "あなたのプロフィール",
+      "MenuItems": {
+        "Profile": "あなたのプロフィール",
+        "Logout": "終了",
+        "OrganizationProfile": "組織のプロフィール"
+      }
+    },
+    "New": {
+      "Title": "新規",
+      "NoItemTitle": "クイックレコードの作成はまだ設定されていません"
+    },
+    "Help": {
+      "Title": "Need help",
+      "SupportSubject": "質問",
+      "MenuItems": {
+        "OnlineHelp": "オンラインヘルプ",
+        "NeedHelp": "ヘルプ",
+        "ExternalAccess": "サポートへのアクセスを許可",
+        "ReleaseNotes": "リリースノート"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "AccessGrantedMessage": "アクセスを許可",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "コミュニケーションパネル"
+    },
+    "NotificationsPanelButton": {
+      "Title": "通知パネル"
+    },
+    "Logo": {
+      "Title": "デスクトップへ移動"
+    },
+    "WorkspaceExplorer": {
+      "Title": "構成"
+    },
+    "LegacySidePanelButton": {
+      "Title": "追加パネル"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "コンパイルエラー",
+      "WorkspaceExplorerTemplate": "コンパイルエラーのリストを表示し、修正するには、<a href ='{0}' target='_blank'>設定セクション</a>にアクセスしてください。"
+    },
+    "NavigationPanelButton": {
+      "Title": "ナビゲーションパネル"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "ナビゲーションパネルを閉じる",
+      "ExpandCaption": "ナビゲーションパネルを展開"
+    },
+    "SearchResultsCaption": "検索結果",
+    "EmptySearchResult": {
+      "Title": "検索条件に一致するアイテムはありません。",
+      "Subhead": "検索条件をクリアまたは変更する"
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "続きを読む"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} が合格しました",
+    "timeBeforeCountStartTpl": "カウントダウン開始 {0} 前です",
+    "overdueTpl": "{0} 期日超過しました",
+    "timeLeftTpl": "{0} 期日残存しています",
+    "timeIsUpTpl": "時間切れ",
+    "waitingForStartDateTpl": "開始日時を待機中",
+    "dateNotSet": "0時間 0分"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "すべて",
+      "SelectMenuLabel": "列で検索",
+      "Title": "フィルター列を選択"
+    },
+    "ClearIconTitle": "検索をクリア"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "はい",
+    "No": "いいえ",
+    "Save": "保存",
+    "DoNotSave": "保存しない",
+    "Cancel": "キャンセル",
+    "Delete": "削除",
+    "Close": "閉じる",
+    "Notification": "通知",
+    "Overwrite": "上書き",
+    "Clear": "消去",
+    "Restore": "復元",
+    "ProcessSchemaSavedWithValidationError": "プロセス スキーマは正常に保存されましたが、検証エラーにより実行が妨げられます。"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "保存が完了しました",
+      "ErrorOnSave": "変更を適用しようとした際にエラーが発生しました"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "\"{0}\" デスクトップを削除してもよろしいですか？",
+        "Error": {
+          "Deletion": "デスクトップ削除中にエラーが発生しました",
+          "Configuration": "設定ビルド中にエラーが発生しました"
+        },
+        "Success": "デスクトップ \"{0}\" は正常に削除されました"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Search..."
+  },
+  "AllowedResults": {
+    "Caption": "許可された結果",
+    "TaskCompleted": "タスクが完了しました"
+  },
+  "LicenseIndicator": {
+    "Title": "ライセンスが必要です"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "タグの追加",
+    "CreateNewTagButtonCaption": "新しいタグの作成"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "保存されていない変更は失われます。続行しますか？"
+    },
+    "List": {
+      "Message": "このリストには保存されていない変更が含まれています。続行すると変更は失われます。変更を保存しますか？"
+    },
+    "Page": {
+      "Message": "このページには保存されていない変更が含まれています。ページを閉じると変更が失われます。変更を保存しますか？"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "レコードの編集",
+    "DeleteItemActionButtonCaption": "レコードの削除",
+    "NoData": "データがありません"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "データがありません",
+      "CloseButtonTitle": "閉じる"
+    },
+    "AriaLabel": "選択されたアイテム",
+    "Chip": {
+      "RemoveButtonCaption": "消去"
+    },
+    "AriaLabelFor": "選択されたアイテム"
+  },
+  "Playbook": {
+    "Caption": "プレイブック",
+    "Hint": "コンポーネントは、特定のダイナミックケースステージからナレッジベースの情報にアクセスするためのヒントと指示をユーザーに表示します。プレイブックのセクションで関連記事を設定できます。詳細については、",
+    "Placeholder": {
+      "Title": "関連するプレイブックが見つかりません",
+      "Description": "現在のダイナミックケースステージに関連する記事をプレイブックセクションに設定してください"
+    },
+    "Actions": {
+      "Back": "戻る",
+      "OpenInDialog": "モーダルウィンドウで開く"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "閉じる",
+        "OpenPage": "新しいタブで開く"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "認証に失敗しました。後でもう一度試すか、管理者にヘルプを依頼してください。",
+      "FormatError": "リクエストに無効な形式があります。入力が正しく構造化されていることを確認し、アクションの出力パラメーターをチェックしてください。",
+      "LimitError": "トークン制限に達しました。Creatio.AIとのさらなる作業がロックされています。Creatio.AIトークンを補充するには、管理者に連絡してください。",
+      "ServiceAvailabilityError": "サービスは一時利用できません。後で再試行してください。",
+      "ExecutionError": "リクエストの処理中にエラーが発生しました。もう一度やり直すか、管理者にヘルプを依頼してください。",
+      "ConfigurationError": "構成の問題が検出されました。システム設定を確認するか、管理者にサポートを依頼してください。",
+      "UnknownError": "不明なエラーが発生しました。後でもう一度試すか、管理者に問い合わせてください。",
+      "CharacterLimitExceededError": "ユーザーのクエリの文字数制限に達しました。システム設定を確認するか、管理者に助けを求めてください。",
+      "ToolCallsInvokesLimitExceeded": "関数の呼び出し回数が上限を超えました：\nユーザー入力なしでの連続実行、または同一関数の繰り返し実行が原因です。",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "データがありません",
+    "Boolean": {
+      "Yes": "はい",
+      "No": "いいえ"
+    },
+    "String": {
+      "Placeholder": "テキストを入力"
+    },
+    "Numeric": {
+      "Placeholder": "数値を入力",
+      "To": "最大",
+      "MaxValueError": "値が最大値を超えています",
+      "MinValueError": "値が最小値を下回っています"
+    }
+  },
+  "Conversation": {
+    "Caption": "会話",
+    "Copilot": {
+      "TypingMessage": "応答を生成中",
+      "Action": {
+        "Replace": "選択を置き換える",
+        "InsertAbove": "上部に挿入",
+        "InsertBelow": "以下に挿入"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "削除",
+    "Export": "Excel出力",
+    "AddTag": "タグの追加",
+    "RemoveTag": "タグの削除",
+    "RowsSelection": {
+      "Selected": "選択済み",
+      "SelectAll": "全ての項目を選択",
+      "ClearSelection": "選択をクリア"
+    },
+    "Merge": "マージ"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "パンくずリスト"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "フィード通知"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "ナンバー"
+  },
+  "ExpansionPanel": {
+    "Collapse": "折りたたむ",
+    "Expand": "展開する"
+  },
+  "ProgressBar": {
+    "AriaLabel": "進捗バー"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "チャットステータス",
+    "CtiStatesMenuCaption": "電話のステータス"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "フィルター条件に一致するレコードがありません。",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} just updated {1}. Please refresh the page to see changes.",
+    "Connections": "{0} connections",
+    "Reload": "Reload"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} started editing current {1}",
+    "ModeEditing": "編集",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Viewing",
+    "ModeSaved": "Saved",
+    "ModeSavedTime": "Saved ({0} ago)",
+    "ModeSavedRecently": "Saved recently",
+    "ShowAllUsers": "Show all users",
+    "AllUsersDialog": {
+      "Title": "Active users",
+      "Close": "閉じる",
+      "Columns": {
+        "ContactName": "連絡先",
+        "Email": "メール",
+        "SchemaName": "Editing area",
+        "Mode": "モード"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "ページ",
+    "Entity": "エンティティ",
+    "Addon": "addon"
+  },
+  "Components": {
+    "ColorPicker": {
+      "SelectedColor": "選択した色",
+      "Readonly": "編集できないフィールド"
+    }
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "カラー選択",
+        "AppearanceGroup": "表示",
+        "PickerModeRadioButtonCaption": "パレット",
+        "PickerMode": {
+          "Basic": "基本パレット",
+          "Extended": "拡張パレット"
+        }
+      }
+    }
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "ツールバーの表示モード",
+        "Inline": "インライン",
+        "Classic": "クラシック",
+        "AlwaysShowToolbar": "書式設定を常に表示"
+      }
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "次の月",
+    "AriaPrevMonthLabel": "前の月",
+    "AriaNextYearLabel": "翌年",
+    "AriaPrevYearLabel": "前年",
+    "Readonly": "編集できないフィールド",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "カレンダー",
+    "TimePickerIconTitle": "時刻"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "書式設定オプション (Alt+F10)",
+    "UploadAttachments": "添付ファイルの選択",
+    "SelectTemplate": "テンプレートの挿入",
+    "SelectionActions": {
+      "AskCopilot": "Creatio.AIを呼び出す",
+      "Friendly": "友好的",
+      "Formal": "正式",
+      "Shorten": "短縮",
+      "Extend": "拡張",
+      "Rephrase": "言い換え",
+      "RewriteCaption": "テキストを書き換え"
+    },
+    "TableOfContents": {
+      "Title": "目次",
+      "Placeholder": "このページの見出しに基づく目次は、公開後に表示されます。"
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "保存",
+    "OpenLinkButtonCaption": "新しいタブで開く",
+    "CloseLinkButtonCaption": "閉じる",
+    "UnlinkLinkButtonCaption": "リンクの解除",
+    "LinkLabelCaption": "リンクのアドレス",
+    "TextLabelCaption": "表示するテキスト"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "動画を挿入",
+    "PasteUrlTab": "URLを貼り付け",
+    "UploadFileTab": "ファイルをアップロード",
+    "EmbedCodeTab": "組み込みコード",
+    "DialogDescription": "このビデオは幅640ピクセルで埋め込まれます。<br>この埋め込まれたビデオにはテキストリンクが含まれます。",
+    "SaveButton": "動画を挿入",
+    "CancelButton": "キャンセル",
+    "UploadButton": "ファイルをアップロード",
+    "InputPlaceholder": "ここに貼り付け",
+    "DragAndDropPlaceholder": "ここにドラッグ＆ドロップしたファイルまたは",
+    "NotVideoFile": "挿入されたファイルは動画ではありません。動画の種類のファイルを選択してください。",
+    "ConfirmMessage": "このページには保存されていない変更が含まれています。ページを閉じると変更が失われます。変更を保存しますか？"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "新規または既存のレコードのページはありません。システム管理者はFreedom UIのボタン設定を確認する必要があります。",
+    "GoToEntityDesignerMessage": "ページをセットアップするにはURL： {0} に遷移してください。"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "リストから項目を選択してください",
+      "SelectionWindowMessage": "リストから値を選択するか、検索窓より検索してください"
+    },
+    "Required": {
+      "Message": "入力してください"
+    },
+    "MaxLength": {
+      "Message": "最大文字数を超えました ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "最小文字数に達していません ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "日付と時刻の形式が正しくありません"
+    },
+    "DatePickerSyntax": {
+      "Message": "無効な日付フォーマット"
+    },
+    "TimePickerSyntax": {
+      "Message": "無効な時間形式です"
+    },
+    "RegExp": {
+      "Message": "値の形式が無効です"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "コードは \"{{schemaNamePrefix}}\" プレフィックスで始める必要があります.",
+      "OnlySchemaNamePrefixMessage": "少なくとも 1 つ以上のシンボルを入力してください。"
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "記号を使用：a-z、A-Z、0-9、アンダースコアまたはダッシュ。最初は文字のみです。"
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "'コード' 列に '{{controlValue}}' の値はすでに存在します。"
+    },
+    "PhoneNumber": {
+      "Message": "無効な電話番号"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "列が削除されました",
+    "ValidationErrorMessageSingleErrorField": "フィールド: {0}. エラー: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "フィールド: {0}. エラー: {1}",
+    "RefreshModelDataConflict": "Creatioには現在のページに新しいデータがあります。 変更を表示するには、保存またはキャンセルしてページを更新してください。",
+    "WarningModelsWithCircularDependencies": "一部のモデルには循環依存関係があり、読み込まれていません",
+    "LoadingModelErrorMessage": "クエリ実行中にエラーが発生しました",
+    "ErrorMessageOnEmptyRelationColumn": "ページを保存できません。{{caption}}フィールドに情報を入力するか、関連フィールドのデータをクリアしてページに保存してください。"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "データが更新されました"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "ユーザーの目標を明確かつ簡潔に説明してください。ユーザーの目標を達成するために必要な手順を詳述してください。LLMから期待される結果の概要を示してください。これには、LLMが知っておくべき必要な文脈や情報が含まれるべきです。\n\n## 一般ルール\n1. ユーザーの確認がない限り、新しいオブジェクトを作成することはできません。\n2. ルール2: ...\n3. ...\n\n## 一般的な制限\n1. ユーザーの意図について仮定を立てることは避けてください。必要に応じてリクエストを明確にしてください。\n2. 制限2: ...\n3. ...\n\n## 出力の要件\n1. 出力は300符号未満、かつ2～3文以内でなければなりません。\n2. 要件2: ...\n3. ...\n\n## プロセスフロー\n1. 現在のページの文脈を使用してページデータとフィールドを読み取ります。それに基づいて ...\n2. ステップ2: ...\n3. ..."
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "発信"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "翻訳",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  }
+}

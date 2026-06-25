@@ -1,0 +1,2252 @@
+{
+  "Input": {
+    "Readonly": "Niet-wijzigbaar veld",
+    "ShowPassword": "Toon wachtwoord",
+    "HidePassword": "Verberg wachtwoord"
+  },
+  "Carousel": {
+    "NoData": "Geen gegevens",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "Niet-wijzigbaar veld",
+    "InvalidValueSyntax": "Selecteer een waarde uit de lijst",
+    "NoData": "Geen gegevens",
+    "EmptyDisplayValue": "No display value",
+    "AddNewRecord": "Nieuwe toevoegen",
+    "IsGoToSourceAllowedTooltip": "Go to record list",
+    "CheckAll": "Check all",
+    "ClearAll": "Wis alles",
+    "SelectValue": "Kies waarde",
+    "ClearValue": "Waarde wissen",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "Add columns",
+    "ColumnToolbar": {
+      "Hide": "Verberg",
+      "Freeze": "Freeze",
+      "Unfreeze": "Unfreeze",
+      "Rename": "Hernoemen",
+      "Title": "Column actions",
+      "Edit": "Eigenschappen",
+      "SortAscending": "Oplopend sorteren",
+      "SortDescending": "Aflopend sorteren",
+      "ClearSorting": "Sorteer wissen",
+      "AriaLabel": "Acties voor kolom"
+    },
+    "RowToolbar": {
+      "Open": "Openen",
+      "Copy": "Kopieer",
+      "Delete": "Verwijderen",
+      "RunBusinessProcess": "Run business process",
+      "Title": "Row actions"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Acties voor lijst",
+      "Title": "List actions",
+      "DataGridSettingsLabel": "Algemene lijstinstellingen",
+      "SaveDataGridSettings": {
+        "Label": "Opslaan als nieuwe standaardinstellingen",
+        "Confirmation": "De nieuwe standaardlijstinstellingen worden opgeslagen voor alle gebruikers. Doorgaan?",
+        "SuccessStatus": "Lijstinstelling succesvol opgeslagen"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Huidige instellingen voor alle gebruikers overschrijven",
+        "Confirmation": "De nieuwe standaardlijstinstellingen worden opgeslagen en vervangen de huidige instellingen voor alle gebruikers. Doorgaan?",
+        "SuccessStatus": "Lijstinstelling succesvol opgeslagen"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Standaardinstellingen herstellen",
+        "Confirmation": "Standaardlijstinstellingen worden hersteld. Doorgaan?",
+        "SuccessStatus": "Standaardlijstinstellingen succesvol hersteld"
+      }
+    },
+    "AddColumnsTo": "Kolommen toevoegen aan",
+    "Title": "Lijst {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "Geen gegevens",
+    "NoColumns": "No columns added",
+    "Hints": {
+      "Sort": "Sorteren",
+      "StartEditing": "Wijzig",
+      "ReadonlyCell": "Niet-wijzigbaar veld",
+      "CancelChanges": "Afwijzen.",
+      "AddItem": "Toevoegen nieuw record",
+      "SortWithCaption": "Sorteren {0}",
+      "NotSorted": "momenteel niet gesorteerd",
+      "SortedAscending": "momenteel gesorteerd oplopend",
+      "SortedDescending": "momenteel gesorteerd aflopend",
+      "SortAscending": "Oplopend sorteren",
+      "SortDescending": "Aflopend sorteren",
+      "RowControls": "Rijbediening"
+    },
+    "SaveItemsChanges": "Save all",
+    "CancelItemsChanges": "Afwijzen.",
+    "AddItem": "Nieuw",
+    "BulkActions": {
+      "MoreActions": "Meer acties",
+      "AriaLabel": "Groepacties voor {0}"
+    },
+    "RowsSelection": {
+      "Selected": "geselecteerd",
+      "SelectAll": "Selecteer alle",
+      "ClearSelection": "Duidelijke selectie",
+      "SelectRow": "Rij selecteren",
+      "RowsSelected": "Geselecteerde rijen: {0}"
+    },
+    "NotFoundColumn": "Column not found",
+    "ColumnSticky": "Frozen column",
+    "StatusBar": {
+      "AriaLabel": "Acties bewerken voor {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Wijzig breedte",
+      "ChangeWidthOf": "Breedte van {0} wijzigen"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "Geen gegevens",
+    "MenuActions": "Acties",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Ja",
+      "False": "Nee"
+    }
+  },
+  "FileInput": {
+    "Delete": "Verwijderen",
+    "Cancel": "Annuleer",
+    "Attach": "Attach",
+    "FileIcon": "File icon",
+    "EmptyFileName": "Empty file name",
+    "MaxFileSizeLimitReached": "Max file size limit is reached ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Opslaan",
+    "CancelButton": "Annuleer",
+    "ColumnProperties": "Kolomeigenschappen",
+    "Title": "Titel",
+    "FilterHeader": "Hoe records filteren",
+    "SortingHeader": "Sorteer records.",
+    "SortColumn": "Sorteer op",
+    "WhatToDisplay": "Wat te tonen",
+    "AggregationColumn": "Kolom",
+    "SortOrder": "Sort order",
+    "SetupFilters": "Filters instellen.",
+    "EditFilters": "Filters bewerken."
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Drop files here",
+      "Description": "or use",
+      "Upload": "Uploaden"
+    },
+    "RowToolbar": {
+      "Download": "Downloaden"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "bij",
+    "TodayAt": "Today at {0}",
+    "YesterdayAt": "Gisteren om {0}",
+    "DayBeforeYesterdayAt": "Eergisteren om {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Open link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Verstuur e-mail"
+  },
+  "ImageInput": {
+    "Alt": "Veldafbeelding",
+    "Upload": "Uploaden",
+    "Clear": "Verwijderen",
+    "Change": "Wijzigen",
+    "AltAbbreviation": "Afbeelding van afkorting",
+    "AltIcon": "Field empty placeholder"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mth",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Close tab"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Start proces",
+      "SuccessMessage": "The process has been successfully run",
+      "NotConfiguredQuickProcessesMessage": "Quick processes run is not yet configured",
+      "OtherProcessesCaption": "Other processes"
+    },
+    "Settings": {
+      "Title": "Instellingen"
+    },
+    "UserProfile": {
+      "Title": "Jouw profiel",
+      "MenuItems": {
+        "Profile": "Jouw profiel",
+        "Logout": "Afsluiten",
+        "OrganizationProfile": "Organization profile"
+      }
+    },
+    "New": {
+      "Title": "Nieuw",
+      "NoItemTitle": "Quick records creation is not yet configured"
+    },
+    "Help": {
+      "Title": "Help",
+      "SupportSubject": "Vraag over",
+      "MenuItems": {
+        "OnlineHelp": "Online hulp",
+        "NeedHelp": "Hulp nodig",
+        "ExternalAccess": "Toegang verlenen aan support",
+        "ReleaseNotes": "Release notities"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "AccessGrantedMessage": "Toegang verleend",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communicatiepaneel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notificaties paneel"
+    },
+    "Logo": {
+      "Title": "Go to desktop"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Configuratie"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions panel"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Compilatiefout",
+      "WorkspaceExplorerTemplate": "Om een lijst met compilatiefouten te bekijken en deze op te lossen, ga naar de <a href ='{0}' target='_blank'>Configuratie sectie</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigatiepaneel"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Het systeem heeft u doorgestuurd naar een standaard applicatieknooppunt. Aanpassingen maken in deze modus wordt afgeraden omdat wijzigingen mogelijk niet op andere knooppunten worden doorgevoerd. Het ontwerp-knooppunt kan om verschillende redenen niet beschikbaar zijn. Zie de Creatio- en/of orchestratorlogboeken voor meer informatie. Normaal gebruik kan worden voortgezet."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search app..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Navigatiepaneel inklappen",
+      "ExpandCaption": "Navigatiepaneel uitbreiden"
+    },
+    "SearchResultsCaption": "Zoekresultaten",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Lees verder"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passed",
+    "timeBeforeCountStartTpl": "{0} before countdown begins",
+    "overdueTpl": "{0} overdue",
+    "timeLeftTpl": "{0} left",
+    "timeIsUpTpl": "Time is up",
+    "waitingForStartDateTpl": "Waiting for start date",
+    "dateNotSet": "0hr 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Alle",
+      "SelectMenuLabel": "Search by column",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Zoekveld wissen"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Ja",
+    "No": "Nee",
+    "Save": "Opslaan",
+    "DoNotSave": "Niet opslaan",
+    "Cancel": "Annuleer",
+    "Delete": "Verwijderen",
+    "Close": "Sluiten",
+    "Notification": "Notificatie",
+    "Overwrite": "Overschrijven",
+    "Clear": "Wissen",
+    "Restore": "Herstellen",
+    "ProcessElementCompletedNotification": "Een andere gebruiker heeft deze taak voltooid",
+    "ProcessSchemaSavedWithValidationError": "Het proceschema is succesvol opgeslagen, maar validatiefouten voorkomen dat het wordt uitgevoerd."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Succesvol opgeslagen",
+      "ErrorOnSave": "Error when trying to apply changes"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" desktop?",
+        "Error": {
+          "Deletion": "Error during desktop deletion",
+          "Configuration": "Error during configuration build"
+        },
+        "Success": "Desktop \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Zoeken..."
+  },
+  "AllowedResults": {
+    "Caption": "Allowed results",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "License required"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Tag toevoegen",
+    "CreateNewTagButtonCaption": "Create a new tag"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "U heeft ongewenste wijzigingen die verloren gaan. Doorgaan?"
+    },
+    "List": {
+      "Message": "De lijst bevat ongewenste wijzigingen. Ze gaan verloren als je doorgaat. Wijzigingen opslaan?"
+    },
+    "Page": {
+      "Message": "De pagina bevat ongewenste wijzigingen. Ze gaan verloren als je doorgaat. Wijzigingen opslaan?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Bewerk record",
+    "DeleteItemActionButtonCaption": "Verwijder record",
+    "NoData": "Geen gegevens"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Geen gegevens",
+      "CloseButtonTitle": "Sluiten"
+    },
+    "AriaLabel": "Geselecteerde elementen",
+    "Chip": {
+      "RemoveButtonCaption": "Verwijderen"
+    },
+    "AriaLabelFor": "Geselecteerde items voor"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "De component toont tips en instructies voor gebruikers over hoe ze toegang krijgen tot informatie uit de kennisbank voor specifieke dynamische casestadia.",
+    "Placeholder": {
+      "Title": "Geen relevante playbook-artikelen gevonden",
+      "Description": "Stel alstublieft een relevant artikel in voor de huidige dynamische casestadium in de sectie Playbooks"
+    },
+    "Actions": {
+      "Back": "Terug",
+      "OpenInDialog": "Open in een modaal venster"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Sluiten",
+        "OpenPage": "Open in nieuwe tab"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Tokenlimiet bereikt, verdere samenwerking met Creatio.ai is vergrendeld. Neem contact op met uw beheerder om Creatio.ai tokens aan te vullen.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Actielimiet bereikt, verder werken met Creatio.ai is geblokkeerd. Neem contact op met uw beheerder om het limiet voor Creatio.ai-acties aan te vullen."
+    },
+    "InputPlaceholder": "Type a message",
+    "SendButtonHint": "Send Message (Enter)",
+    "Caption": "Message editor",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Chat completed",
+      "ChatTransferred": "Chat overgedragen"
+    },
+    "MaxFilesExceeded": "Maximum number of files you can add in one iteration: {{maxCount}}",
+    "SendMessageError": "Failed to send message. Please try again"
+  },
+  "ChatSettings": {
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Het kanaal kan niet worden verwijderd, er zijn actieve chats of chats in distributie. Voltooi de chats eerst en probeer het opnieuw."
+    },
+    "History": {
+      "Captions": {
+        "StartDate": "Chat gestart: {0} door",
+        "EndDate": "Chat voltooid: {0} door"
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Geen gegevens",
+    "Boolean": {
+      "Yes": "Ja",
+      "No": "Nee"
+    },
+    "String": {
+      "Placeholder": "Voer tekst in"
+    },
+    "Numeric": {
+      "Placeholder": "Voer nummer in",
+      "To": "tot en met",
+      "MaxValueError": "Waarde is boven maximale waarde",
+      "MinValueError": "Waarde ligt onder minimum waarde"
+    }
+  },
+  "Conversation": {
+    "Caption": "Gesprek",
+    "Copilot": {
+      "TypingMessage": "Antwoord genereren",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    },
+    "LoadPreviousChat": "Load previous chat",
+    "ChatIsCompleted": "Chat voltooid: {datePart}",
+    "ChatIsTransferred": "Chat overgedragen: {datePart} van {operatorPart} naar {targetOperatorPart}",
+    "ChatTransferredToQueue": "Chat transferred: {datePart} from {operatorPart} to queue {queuePart}",
+    "ChatCompletedByAgent": "Chat voltooid: {datePart} door {operatorPart}"
+  },
+  "BulkActions": {
+    "Delete": "Verwijderen",
+    "Export": "Export naar Excel",
+    "AddTag": "Tag toevoegen",
+    "RemoveTag": "Tag verwijderen",
+    "RowsSelection": {
+      "Selected": "geselecteerd",
+      "SelectAll": "Selecteer alle",
+      "ClearSelection": "Duidelijke selectie"
+    },
+    "Merge": "Samenvoegen"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Kruimelpad"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Nummer"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Verkleinen",
+    "Expand": "Uitvouwen"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progress bar"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Chat status",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "Er zijn nog geen recente items",
+    "NoDataBySearchFilter": "Er zijn geen overeenkomende records gevonden voor het filter",
+    "NoDataBySearchFilterSubtitle": "Wis het filter of wijzig de voorwaarden "
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Select desktop",
+    "EditDesktop": "Edit desktop",
+    "UseHotkeys": "Use Ctrl+Shift+E to edit desktop"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Not valid parameters",
+    "ServiceResult": {
+      "ErrorMessage": "Er is een fout opgetreden. Neem contact op met de systeembeheerder"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "Tagged {{ count }} item(s)",
+      "RemoveTagsMessage": "Untagged {{ count }} item(s)",
+      "AddTagsSuccessfulRunProcess": "Bulk tagging process started for the chosen item(s). This might take some time",
+      "RemoveTagsSuccessfulRunProcess": "Bulk remove tags process started for the chosen item(s). This might take some time"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "Added {{ count }} record(s) in the folder(s)",
+      "RemoveRecordsMessage": "Removed {{ count }} record(s) from the folder(s)"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "De actie is succesvol gestart",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "Deze actie heeft ten minste één record nodig om uit te voeren. Selecteer alstublieft de records waaraan u deze wilt toepassen en probeer het opnieuw."
+    },
+    "ProcessStarted": "Proces gestart",
+    "StartingProcessAnnounceMessage": "Proces wordt gestart, even geduld..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Weet u zeker dat u het geselecteerde record wil verwijderen?",
+    "DeleteRecordsConfirmation": "Weet u zeker dat u de geselecteerde records wilt verwijderen?",
+    "SaveSummariesForAll": "Samenvattingsinstellingen opslaan voor alle gebruikers?",
+    "ResetSummaries": "Herstel standaard samenvattingsinstellingen?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "Onvoldoende rechten om records in het '{0}' object verwijderen",
+    "UnableToDeleteSelectedRecord": "Kan het geselecteerde record niet verwijderen",
+    "SelectRecordsToDelete": "Selecteer de te verwijderen records",
+    "SettingsErrorMessage": "Kan deze actie niet uitvoeren.\n\nSysteembeheerder moet de knop instellingen controleren in de Freedom UI ontwerper.",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "U heeft geen toestemming om deze handeling uit te voeren.\nNeem contact op met uw systeembeheerder. Controleer de toegang tot het exportobject en de machtiging om de systeembewerking uit te voeren.",
+      "FileGenerationMessage": "Generating export file"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Onvoldoende rechten om het wijzigingslogboek te openen. Neem contact op met uw systeembeheerder.",
+      "SourceIsNotSpecifiedMessage": "Object of gegevensbron is niet gespecificeerd voor de actie \"Open wijzigingslogboek\". Neem contact op met uw systeembeheerder.",
+      "RecordIsNotSelectedMessage": "Selecteer een record om de wijzigingshistorie te openen.",
+      "ChangeLogIsNotTurnedOnTitle": "Logging inschakelen",
+      "ChangeLogIsNotTurnedOnMessage": "Logging is momenteel uitgeschakeld voor {0}. Wilt u logging inschakelen?",
+      "ChangeLogIsTurnedOffMessage": "Logging is momenteel uitgeschakeld voor {0}. Neem contact op met uw systeembeheerder.",
+      "RecordIsNotSavedMessage": "Sla eerst een record op om de wijzigingshistorie te openen."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "{0} MB maximale bestandsgrootte overschreden.\n\n\n Bestanden:\n- {1}",
+      "NoConnectedFileList": "De bestemming van de bestandsupload is niet ingesteld.\n\nKies de bestemming in de knop-instellingen.",
+      "InvalidRequestParams": "Kan de bestand(en) niet uploaden omdat het pagina-component nog niet is ingesteld. De systeembeheerder kan de setup voltooien in de Freedom UI-ontwerper.",
+      "ChangeFileSizeInfoMessage": "U kunt de maximale bestandsgrootte vergroten in de systeeminstelling \"Maximale grootte bijlagen\".",
+      "FileListHeader": "Bestanden",
+      "MaxFileSizeExceededExceptionMessage": "{0} MB maximale bestandsgrootte overschreden.",
+      "UnknownServerError": "Er is iets fout gegaan.\n\nProbeer het bestand opnieuw te uploaden.",
+      "AttachedToUnsavedRecord": "Niet in staat om bestanden toe te voegen aan het record dat nog niet is aangemaakt. Maak het record aan voordat u de bestanden uploadt.",
+      "InvalidExtension": {
+        "Deny": "De [{0}] bestandsextensie is verboden door beveiligingsinstellingen. Als u met dergelijke bestanden wilt werken, neem dan contact op met uw systeembeheerder om de extensie te verwijderen van de [Bestandsextensies DenyList] (FileExtensionsDenyList) systeeminstelling",
+        "Allow": "De [{0}] bestandsextensie is verboden door beveiligingsinstellingen. Als u met dergelijke bestanden wilt werken, neem dan contact op met uw systeembeheerder om de extensie te verwijderen van de [Bestandsextensies DenyList] (FileExtensionsDenyList) systeeminstelling"
+      },
+      "EmptyFileMessage": "U probeert lege bestanden te uploaden.\n\nKies alstublieft bestanden met inhoud.",
+      "SingleUploadInProgress": "The file {0} is still uploading. Please wait until the upload is complete.",
+      "MultipleUploadsInProgress": "Some files are still uploading. Please wait until the uploads are complete ({0} and {1} more)."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "{0} MB maximale bestandsgrootte overschreden.",
+      "UnknownUploadError": "Onbekende upload fout. Neem contact op met de systeembeheerder.",
+      "Announcement": {
+        "Uploaded": "Image uploaded",
+        "Deleted": "Image deleted"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Actiefout.\nNeem contact op met uw systeembeheerder. Controleer de actie instellingen in Systeem Ontwerper."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Actiefout.\nNeem contact op met uw systeembeheerder. Controleer de actie instellingen in Systeem Ontwerper."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Selecteer records om tags toe te voegen",
+      "SelectRecordsToRemoveRecordsMessage": "Selecteer records om tags te verwijderen"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Kies records om toe te voegen aan de statische map",
+      "SelectRecordsToRemoveRecordsMessage": "Selecteer records om te verwijderen uit de statische map"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} file uploaded",
+      "Deleted": "{0} file deleted"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "File '{0}' is not fully uploaded",
+      "FileDownloadErrorMessage": "File '{0}' could not be downloaded. It may have been deleted, is corrupted, or you do not have permission to access it."
+    },
+    "OK": "OK"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Tag toevoegen",
+    "RemoveTagCaption": "Tag verwijderen"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "Het rapport kan niet worden afgedrukt voor niet-opgeslagen record.",
+    "InvalidRequestCaption": "Actie is niet geldig. Controleer de printinstellingen.",
+    "SelectRecord": "Selecteer record voor afdrukken rapport"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "Het is niet mogelijk om alle geselecteerde records te verplaatsen door deze actie, selecteer alstublieft zo veel records als nodig één voor één"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Changes discarded successfully"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Record deleted successfully"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "Record succesvol verwijderd"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "There are no available reports",
+    "GoToPrintablesSetupCaption": "Go to report setup"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Laden, even geduld...",
+    "AfterSchemaChangeAnnounceMessage": "Laden voltooid"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Bezig met opslaan, even geduld..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "Het record is niet aangemaakt",
+    "MergeStartedMessage": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete. Please reload the record afterward to retrieve the updated data."
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. Het diagramtype is Metrisch. De huidige waarde is {{ariaValue}}. Gebruik de toets Enter of spatiebalk om in te zoomen op het element.",
+    "NotClickableAriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}."
+  },
+  "ChartLegend": {
+    "Title": "Legend for {{chartTitle}} chart: use arrow keys to navigate and Enter key to open context menu."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}}-diagram voor \"{{chartTitle}}\" met {{groupsCount}} groepen. Het diagram toont \"{{groupsNames}}\". X is \"{{xLabel}}\" van {{xMin}} tot {{xMax}}. Y is \"{{yLabel}}\" van {{yMin}} tot {{yMax}}. Gebruik de pijltoetsen om te navigeren.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Gebruik de enter-toets om het contextmenu te openen."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. Het diagramtype is Meterschaal. Gegevens variëren van {{ariaMin}} tot {{ariaMax}}. De huidige waarde is {{ariaValue}}. Gebruik de toets Enter of spatiebalk om in te zoomen op het element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Vergroot \"{{title}}\"-diagram naar volledig scherm.",
+      "CollapseLabel": "Minimaliseer volledig scherm voor \"{{title}}\"-diagram."
+    },
+    "Menu": {
+      "Caption": "Menu voor \"{{title}}\"-diagram.",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "MarketingCampaignContent": {
+    "ValidateCampaignRequest": {
+      "StartDateRequiredMessage": "Geef de startdatum en -tijd van de campagne op",
+      "StartDateLessThenNowMessage": "Campaign scheduled start date and time has already passed. Please set correct value",
+      "StopDateRequiredMessage": "Specify campaign end date and time",
+      "StopDateLessThenNowMessage": "Campaign scheduled end date and time has already passed. Please set correct value",
+      "StopDateLessThenStartDateMessage": "Campaign scheduled end date is before its scheduled start date. Please set correct values",
+      "StopDateLessThenNextFireTimeMessage": "Campaign scheduled end date is before next scheduled campaign run. Please set correct value"
+    },
+    "StopCampaignRequest": {
+      "StopConfirmationMessage": "Weet u zeker dat u de campagne wilt stoppen?",
+      "SuccessMessage": "Campaign successfully stopped",
+      "ErrorMessage": "Error occured during campaign stop operation"
+    },
+    "StartCampaignRequest": {
+      "ScheduleConfirmationMessage": "Weet u zeker dat u de campagne wilt plannen?",
+      "LaunchConfirmationMessage": "Weet u zeker dat u de campagne wilt starten?",
+      "SuccessMessage": "Campaign successfully launched",
+      "ErrorMessage": "Error occured during campaign start operation"
+    },
+    "DeleteCampaignRequest": {
+      "HasAudienceMessage": "Kan de campagne niet verwijderen omdat deze deelnemers bevat.",
+      "InStatusActiveMessage": "Campagne in actieve status kan niet worden verwijderd. Stop de campagne voordat u deze verwijdert.",
+      "InStatusStoppingMessage": "Campagne in stopstatus kan niet worden verwijderd. Wacht een tijdje zodat de campagne kan stoppen voordat u deze verwijdert.",
+      "InStatusScheduledMessage": "Campagne in geplande status kan niet worden verwijderd. Stop de campagne voordat u deze verwijdert.",
+      "MultipleHasAudienceMessage": "Kan de geselecteerde campagnes niet verwijderen omdat ze deelnemers bevatten.",
+      "MultipleIncorrectStateMessage": "Kan de geselecteerde campagnes niet verwijderen omdat sommige zich in de verkeerde status bevinden."
+    }
+  },
+  "MarketingEmailContent": {
+    "AddBulkEmailAudienceRequest": {
+      "LookupPageCaption": "Add contacts to bulk email",
+      "ImportStartedMessage": "The audience import started. The process may take some time. We'll let you know in the Notifications panel once it's done.",
+      "ErrorMessage": "Error occured during audience import",
+      "EmptyFilterMessage": "Can not add audience without filter. Please select some folder or specific records"
+    },
+    "RemoveBulkEmailAudienceRequest": {
+      "DeleteAllRecordsConfirmation": "Are you sure that you want to delete all audience from email?",
+      "RemoveStartedMessage": "Audience remove started",
+      "UnableToRemoveRecords": "Error occured during audience remove",
+      "EmptyFilterMessage": "Can not remove audience without filter. Please select specific records"
+    },
+    "OpenEmailPageRequest": {
+      "RedirectQuestionMessage": "De geselecteerde bulk e-mail is aangemaakt in de Email-sectie van de Classic UI. Wilt u er naartoe worden doorgestuurd?",
+      "RedirectCaption": "Omleiden"
+    },
+    "ScheduleSendingTab": {
+      "ScheduleInfoMessage": "Deze e-mail is gepland om te verzenden om {0}, aangepast aan uw",
+      "SendRateOverlimitMessage": "The selected daily limit and delay don’t fit within 24 hours. Please reduce the delay or the daily limit."
+    },
+    "SendTestEmailPage": {
+      "DefaultLabel": "Standaard"
+    },
+    "ContactSubscribeToBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is subscribed."
+    },
+    "ContactUnsubscribeFromBulkEmailsRequest": {
+      "AnnounceMessage": "{0} is unsubscribed."
+    },
+    "BulkEmailDelete": {
+      "WrongStatus": "Unable to delete the bulk email because its status is neither \"Draft\" nor \"Planned\"",
+      "UsedInCampaign": "Unable to delete selected record, bulk email is used in a campaign"
+    },
+    "SenderDomain": {
+      "ValidateDomainGenericErrorMessage": "Unable to validate the sender domain due to an unexpected error. Please try again or contact support if the issue persists.",
+      "Add": {
+        "SuccessMessage": "Het afzenderdomein is succesvol toegevoegd.",
+        "ErrorMessage": "Het afzenderdomein kan niet worden opgeslagen vanwege een onverwachte fout. Probeer het opnieuw of neem contact op met support als het probleem zich blijft voordoen."
+      },
+      "Share": {
+        "SuccessMessage": "De autorisatiesleutel is gegenereerd.",
+        "CopyToClipboardSuccessMessage": "De autorisatiesleutel is gekopieerd naar het klembord.",
+        "ErrorMessage": "Kan het afzenderdomein niet delen vanwege een onverwachte fout. Probeer het opnieuw of neem contact op met support als het probleem blijft bestaan."
+      },
+      "Authorize": {
+        "SuccessMessage": "Het afzenderdomein is succesvol geautoriseerd.",
+        "ErrorMessage": "Kan het afzenderdomein niet autoriseren vanwege een onverwachte fout. Probeer het opnieuw of neem contact op met support als dit probleem aanhoudt.",
+        "InvalidTokenMessage": "De autorisatiesleutel is ongeldig of komt niet overeen met de aanvragende site.",
+        "KeyIsMissing": "De autorisatiesleutel ontbreekt. Geef een geldige sleutel op en probeer het opnieuw."
+      },
+      "CopyToClipboardSuccessMessage": "Gegevens zijn gekopieerd naar het klembord.",
+      "Delete": {
+        "ConfirmationMessage": "Weet u zeker dat u het geselecteerde record wil verwijderen?",
+        "WrongStatus": "Unable to delete the sender domain because its status is neither \"Unvalidated\" nor \"Requested\"",
+        "ErrorMessage": "Unable to delete the domain. Please try again later or contact support."
+      }
+    }
+  },
+  "MarketingEngagementToolsContent": {
+    "ConnectFacebookForm": {
+      "IntegrationSetupError": "Facebook lead generation is currently inactive. The system administrator can enable the Facebook integration",
+      "IntegrationWindowError": "Pop-up windows are currently blocked in your browser settings. Please enable pop-ups to proceed",
+      "DefaultSubscriptionError": "Something went wrong. Please try connecting the form again"
+    }
+  },
+  "MarketingEventContent": {
+    "AddEventAudienceRequest": {
+      "LookupPageCaption": "Add contacts to event",
+      "ImportStartedMessage": "The audience import started. The process may take some time. We'll let you know in the Notifications panel once it's done.",
+      "ErrorMessage": "Error occured during audience import",
+      "EventNotSavedMessage": "Event must be saved first",
+      "EmptyFilterMessage": "Can not add audience without filter. Please select some folder or specific records"
+    },
+    "RemoveEventAudienceRequest": {
+      "RemoveStartedMessage": "Audience remove started",
+      "UnableToRemoveRecords": "Error occured during audience remove",
+      "EmptyFilterMessage": "Can not remove audience without filter. Please select specific records",
+      "DeleteAllRecordsConfirmation": "Are you sure that you want to delete all audience from event?"
+    }
+  },
+  "ObjectAccessRights": {
+    "OperationTypeGroup": {
+      "Read": "Permissions to read",
+      "Write": "Permissions to write",
+      "Delete": "Permissions to delete",
+      "Execute": "Machtigingen om uit te voeren"
+    },
+    "OperationType": {
+      "Read": "Lezen",
+      "ReadWithDelegate": "Read with delegate",
+      "Write": "Write",
+      "WriteWithDelegate": "Write with delegate",
+      "Delete": "Verwijderen",
+      "DeleteWithDelegate": "Delete with delegate",
+      "Execute": "Execute",
+      "ExecuteWithDelegate": "Execute with delegate"
+    }
+  },
+  "ResendWebhooks": {
+    "SuccessMessage": "Undelivered webhook processing has started successfully. This may take some time depending on the number of undelivered webhooks in the system.",
+    "ErrorMessage": "Failed to start undelivered webhook receiving process."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Selecteer een waarde uit de lijst",
+      "SelectionWindowMessage": "Please select value from the list or search using the lookup window"
+    },
+    "Required": {
+      "Message": "Voer een waarde in"
+    },
+    "MaxLength": {
+      "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Invalid date and time format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Invalid date format"
+    },
+    "TimePickerSyntax": {
+      "Message": "Invalid time format"
+    },
+    "RegExp": {
+      "Message": "Invalid value format"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "De code moet beginnen met het prefix {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Voer minstens nog één symbool in."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Gebruik symbolen: a-z, A-Z, 0-9, underscore of dash. Alleen letters kunnen eerst komen."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolom verwijderd",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}",
+    "RefreshModelDataConflict": "Creatio has new data for the current page. To view it, save or cancel your changes and refresh the page.",
+    "WarningModelsWithCircularDependencies": "Some models have circular dependencies and have not been loaded",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "There is no page for new or existing record. System administrator must check the button settings in the Freedom UI",
+    "GoToEntityDesignerMessage": "To set up pages go to URL: {0}"
+  },
+  "Copilot": {
+    "RewriteActionsPrompt": {
+      "AskCopilot": "U zult helpen met het herschrijven van de volgende tekst, verdere instructies zullen in de dialoog worden gegeven",
+      "Friendly": "Herschrijf de volgende tekst en maak het vriendelijker",
+      "Formal": "Herschrijf de volgende tekst en maak deze formeler",
+      "Shorten": "Herschrijf de volgende tekst en verkort deze",
+      "Extend": "Herschrijf de volgende tekst en breid deze uit",
+      "Rephrase": "Herschrijf de volgende tekst en herformuleer deze"
+    },
+    "DebugInfo": {
+      "NoDebugInfo": "No debug information available"
+    },
+    "NewChatCaption": "Nieuwe chat",
+    "DeleteRecordConfirmation": "Weet u zeker dat u het geselecteerde record wil verwijderen?",
+    "FileMessages": {
+      "IntentMaxSizeException": "{0} MB maximum file size limit exceeded. You can increase the maximum file size by changing the {1} system setting.",
+      "ChatMaxSizeException": "{0} MB maximum file size limit exceeded. You can increase the maximum file size by changing the {1} system setting.",
+      "IntentMissingTypeException": "File type is not specified. Please upload a file in one of the following standard text formats: {0}",
+      "ChatMissingTypeException": "File type is not specified. Please upload a file in one of the following standard text formats: {0}",
+      "IntentTypeNotSupportedException": "{0} file type is not supported. Please upload a file in one of the following standard text formats: {1}",
+      "ChatTypeNotSupportedException": "{0} file type is not supported. Please upload a file in one of the following standard text formats: {1}"
+    },
+    "MessageSent": "The message was sent.",
+    "ViewElementMessage": {
+      "SetupDetailsCaption": "Setup details"
+    },
+    "LiveAnnouncement": {
+      "ChatRenamed": "Chat renamed to {0}",
+      "MessageReceivedInCurrentChat": "{0}: {1}",
+      "MessageReceivedInAnotherChat": "New message from {0} in {1} chat",
+      "SessionCreated": "New {0} chat created",
+      "Typing": "{0} is working on it"
+    },
+    "LlmModelPage": {
+      "PleaseTypeRequiredField": "Please type connection string required field",
+      "NoLicenseToCreateLlmModel": "Kan model niet toevoegen. Voor het toevoegen van een aangepast model is een aparte licentie vereist. Neem contact op met support voor hulp."
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Laden..."
+  },
+  "CopyClipboard": {
+    "Copied": "Gekopieerd"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nog niets te tonen",
+      "Subhead": "Voeg alsjeblieft eerst gegevens toe"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Aan het laden"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Fout",
+      "Default": "Tooltip"
+    }
+  },
+  "GoogleAnalytics": {
+    "LoginRequestTitle": "Connect google analytics",
+    "NotEnoughPermissionsMessage": "Sorry, unable to connect your google analytics account. Please grant maximum permissions to Creatio and try again.",
+    "PlatformUndefinedMessage": "Platform undefined, make sure to configure platform foe the button",
+    "ApplicationUndefinedMessage": "Application undefined, make sure to configure platform foe the button",
+    "RefreshStreamSuccessMessage": "Google Analytics streams refreshed successfully",
+    "RefreshStreamErrorMessage": "Failed to refresh Google Analytics streams. Please try again later.",
+    "RefreshStreamConfirmationTitle": "Refresh data stream list?",
+    "RefreshStreamConfirmationMessage": "Refreshing may take a moment — the system will be unavailable while updating the list",
+    "RefreshStreamConfirmationCancel": "Annuleren.",
+    "RefreshStreamConfirmationOk": "Verversen",
+    "PlatformCaption": "Platform",
+    "ApplicationCaption": "Applicatie"
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Platform",
+    "AppInputCaption": "Applicatie",
+    "AdPlatformLoginRequestTitle": "Connect ad platform",
+    "NotEnoughPermissionsMessage": "Sorry, unable to connect your ad account. Please grant maximum permissions to Creatio and try again.",
+    "PlatformUndefinedMessage": "Platform undefined, make sure to configure platform foe the button",
+    "ApplicationUndefinedMessage": "Application undefined, make sure to configure platform foe the button",
+    "ImportFromAdPlatformStartedMessage": "Data import from ad accounts has been started",
+    "NoConnectedAdAccountsFoundMessage": "There are no connected ad accounts for import",
+    "NoActiveAdAccountsFoundMessage": "Sorry, but we couldn’t find any ad accounts available to you. Make sure that you have access to the required accounts on the platform. Only active accounts can be connected."
+  },
+  "PageTools": {
+    "DesignButtonHint": "Pagina bewerken",
+    "ExpandButtonTitle": "Uitvouwen",
+    "CollapseButtonTitle": "Verkleinen"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "Algemeen",
+        "SourceSchemaLabel": "Folder storage location",
+        "RootSchemaLabel": "What will folders filter?",
+        "HeaderLabel": "Folder settings",
+        "AppearanceGroup": "Weergave",
+        "BorderRadiusLabel": "Border radius",
+        "Sizes": {
+          "None": "Geen",
+          "Small": "Small",
+          "Medium": "Gemiddeld.",
+          "Large": "Groot"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Settings of the folder management menu",
+        "FolderTreeLabel": "Folder tree selection",
+        "GeneralCaption": "Algemeen"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Quick filter settings",
+        "GeneralCaption": "Algemeen",
+        "AppearanceCaption": "Weergave",
+        "ChooseFilterTypeLabel": "Choose a filter type",
+        "CaptionLabel": "Titel",
+        "HintLabel": "Hint",
+        "CustomType": "Aangepast",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Keuzelijst"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Toolbar weergavemodus",
+        "Inline": "Inline",
+        "Classic": "Klassiek",
+        "AlwaysShowToolbar": "Opmaakopties altijd tonen"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Feed settings",
+        "GeneralCaption": "Algemeen",
+        "FeedTypeCaption": "Hoe records filteren",
+        "FeedChannel": "Kanaal",
+        "FeedTypeGeneral": "Algemeen",
+        "FeedTypeChannel": "Kanaal",
+        "FeedTypeRecord": "Related to record",
+        "FeedDataSourceCaption": "Gegevensbron",
+        "FeedTypeUser": "Related to user",
+        "FeedTypeRecordTooltipCaption": "Feed messages will be displayed based on specific record communication.",
+        "FeedTypeGeneralTooltipCaption": "All notifications and mentions related to current user. In this mode the feed will display the posts and comments where current user was tagged or the threads he is following. For example, the feed in this mode can be added to the home page not to miss important information.",
+        "ExternalUsersGroupCaption": "Portal gebruikers",
+        "AllowExternalPostCaption": "Allow publishing for external users",
+        "ShowBlankSlateCaption": "Show blank slate"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "Wijzig",
+          "Delete": "Verwijderen"
+        },
+        "ChannelsCaption": "Kanalen",
+        "AddNewItem": "Add channel",
+        "PageCaption": "Message composer",
+        "DefaultChannelCaption": "Default channel"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "Email composer",
+        "GeneralCaption": "Algemeen",
+        "DefaultSenderType": "Default sender",
+        "DefaultMailbox": "Use default mailbox",
+        "CaseMailbox": "Use case source mailbox"
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Chat instellingen",
+        "GeneralCaption": "Algemeen",
+        "TooltipCaption": "You can set up this element in page source code",
+        "OpenSourceCodeButtonCaption": "Open de brontekst"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Conversation settings",
+        "GeneralCaption": "Algemeen"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Message editor settings",
+        "GeneralCaption": "Algemeen"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Instellingen samenvattingen",
+        "GeneralGroup": {
+          "Caption": "Algemeen",
+          "SelectDataSource": "Gegevensbron"
+        }
+      },
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Encrypted strinVersleutelde stringg"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Merge data"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Which data to merge?"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Timeline settings",
+        "ObjectsCaption": "Objects",
+        "AddObject": "Add object",
+        "ContextMenu": {
+          "Edit": "Wijzig",
+          "Delete": "Verwijderen"
+        },
+        "GeneralGroup": "Algemeen",
+        "EmptyDataSourceHint": "De gegevensbron is niet aan de pagina toegevoegd. Voeg een bestaande gegevensbron toe om de component in te stellen",
+        "BindToDataSourceCaption": "Gegevensbron",
+        "FiltrationCaption": "Filtration options",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "By record type",
+          "TimelineFilter_Owner": "By owner",
+          "TimelineFilter_Date": "By date",
+          "TimelineFilter_SystemMessages": "By system messages"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Algemeen",
+        "CaptionLabel": "Titel",
+        "AppearanceGroup": "Weergave",
+        "LinkedColumn": "Linked column",
+        "SortedByColumn": "Sorteer op",
+        "IconPosition": {
+          "OnlyIcon": "Only icon"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "Portal gebruikers",
+          "AllowExternalPostCaption": "Allow publishing for external users"
+        },
+        "FiltrationGroup": "Filtration options",
+        "OwnerColumn": "Column for owner filtering"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "Instellingen voor communicatie-opties",
+        "GeneralGroup": "Algemeen",
+        "MasterRecordCaption": "Record om communicatiemogelijkheden te binden",
+        "DataSourceEntityColumn": "Gegevensbron",
+        "Editability": "Bewerkbaarheid",
+        "EditabilityControls": {
+          "Readonly": "Alleen lezen"
+        },
+        "LabelPositionCaption": "Titel positie",
+        "LabelPosition": {
+          "Auto": "Auto",
+          "Left": "Links",
+          "Above": "Bovenaan",
+          "Hidden": "Verborgen"
+        },
+        "ShowNoDataPlaceholder": "Toon tijdelijke aanduiding wanneer er geen gegevens zijn",
+        "AppearanceGroup": "Weergave",
+        "ColumnsCountLabel": "Aantal kolommen",
+        "ContactEntitySchemaName": "Contact communicatieopties",
+        "AccountEntitySchemaName": "Account communicatie-opties",
+        "EmptyDataSourceHint": "De gegevensbron is niet aan de pagina toegevoegd. Voeg een bestaande gegevensbron toe om de component in te stellen"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Account compact profile settings",
+        "GeneralGroup": "Algemeen",
+        "AttributeForReferenceColumn": "Gegevensbron",
+        "Editability": "Bewerkbaarheid",
+        "EmptyAccountDataSourceHint": "De gegevensbron is niet aan de pagina toegevoegd. Voeg een bestaande gegevensbron toe om de component in te stellen",
+        "EditabilityControls": {
+          "Readonly": "Alleen lezen"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Contact compact profile settings",
+        "GeneralGroup": "Algemeen",
+        "AttributeForReferenceColumn": "Gegevensbron",
+        "Editability": "Bewerkbaarheid",
+        "EmptyContactDataSourceHint": "De gegevensbron is niet aan de pagina toegevoegd. Voeg een bestaande gegevensbron toe om de component in te stellen",
+        "EditabilityControls": {
+          "Readonly": "Alleen lezen"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "User profile settings",
+        "GeneralGroup": "Algemeen",
+        "AttributeForReferenceColumn": "Gegevensbron",
+        "Editability": "Bewerkbaarheid",
+        "EmptyUserProfileDataSourceHint": "De gegevensbron is niet aan de pagina toegevoegd. Voeg een bestaande gegevensbron toe om de component in te stellen",
+        "EditabilityControls": {
+          "Readonly": "Alleen lezen"
+        }
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Next steps settings"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini page for preview",
+        "TitleColumn": "Primary display field",
+        "StartDateColumn": "Start date column",
+        "EndDateColumn": "End date column",
+        "NotesColumn": "Field with online meeting information",
+        "PageCaption": "Calendar settings",
+        "RequiredFieldError": "Dit veld is verplicht",
+        "SecondaryTileFields": "Secondary tile fields",
+        "AddSecondaryFieldCaption": "Add secondary field",
+        "DisabledAddSecondaryFieldCaption": "You can add maximum 4 secondary fields",
+        "AutoScrollToCurrentTime": "Scroll to current time automatically",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Verwijderen"
+        },
+        "ColorizationType": {
+          "Default": "Standaard",
+          "ByField": "Automatic",
+          "ByOwner": "By User"
+        },
+        "ColorizationTypeCaption": "Tile colorization mode",
+        "ColorizationColumnCaption": "Keuzelijst"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Next Best Offers settings",
+        "GeneralCaption": "Algemeen",
+        "DataSourceCaption": "Object",
+        "CaptionColumnField": "Onderschrift",
+        "DescriptionColumnField": "Omschrijving",
+        "InfoLabelColumnField": "Info lookup",
+        "ImageColumnField": "Afbeelding",
+        "NumberTagColumnField": "Label",
+        "SortingFieldTooltip": "The items will be sorted by value from this field in descending order.",
+        "AdditionalCaption": "Additioneel",
+        "SpecificPageLookupField": "Which page to open?",
+        "UseSpecificPageField": "Open specific page by clicking on the caption",
+        "SpecificPageRecordIdField": "Record-ID",
+        "ViewModeCaption": "Weergavemodus",
+        "CarouselViewMode": "Carrousel",
+        "GalleryViewMode": "Galerij"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Multiselect lookup settings",
+        "GeneralGroup": {
+          "General": "Algemeen",
+          "SelectLookup": "Select lookup",
+          "MultiselectValueStorage": "Multiselect value storage",
+          "SelectColumn": "Column to display",
+          "Required": "Verplicht",
+          "RequirementTypeItems": {
+            "No": "Nee",
+            "Yes": "Lees ingediende formulieren"
+          }
+        },
+        "AppearanceCaption": "Weergave",
+        "LabelPositionVariants": {
+          "Auto": "Auto",
+          "Left": "Links",
+          "Above": "Bovenaan",
+          "Hidden": "Verborgen"
+        },
+        "TitleOnPage": "Titel op pagina",
+        "Placeholder": "Placeholder",
+        "Tooltip": "Tooltip",
+        "LabelPosition": "Titel positie",
+        "EnableAddRecordCaption": "Waarden toevoegen inschakelen",
+        "WrapCaption": "Elementen naar de volgende regel wrappen",
+        "Editability": "Bewerkbaarheid",
+        "EditabilityControls": {
+          "Readonly": "Alleen lezen"
+        },
+        "LookupStaticFilterLabel": "Apply static filter for lookup"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Approvals settings",
+        "SchemaNameLabel": "Which records to approve?",
+        "GeneralGroup": "Algemeen",
+        "AppearanceGroup": "Weergave",
+        "HiddenWhenNoData": "Hidden when no data"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Approvals list settings",
+        "GeneralGroup": "Algemeen",
+        "SchemaNameLabel": "Object"
+      }
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Toevoegen",
+    "AddFilterHint": "Add new folder",
+    "BlankslateMessage": "No folders",
+    "CloseFolderTree": "Hide folders",
+    "SetUpFilter": "Filter instellen",
+    "DefaultFolderName": "Nieuwe folder",
+    "CopyFolderSuffix": "Kopiëren",
+    "DeleteConfirmation": "Are you sure that you want to delete the selected folder?",
+    "MenuActions": {
+      "AddFolder": "Add folder",
+      "RenameFolder": "Hernoemen",
+      "CopyFolder": "Kopiëren",
+      "DeleteFolder": "Verwijderen",
+      "AddToFavorite": "Toevoegen aan favorieten",
+      "RemoveFromFavorite": "Verwijderen uit favorieten",
+      "ChangeFolderRights": "Stel toegangsrechten in",
+      "AddStaticFolder": "Add static folder",
+      "ConvertToStaticFolder": "Convert to static folder",
+      "MoveFolder": "Verplaatsen"
+    },
+    "FavoritesNodeCaption": "Favorieten",
+    "ShowMenuActions": "Show actions",
+    "CopyRightsQuestion": "Copy access permissions of the \"{0}\" folder?",
+    "RootNodeCaption": "Alle",
+    "HasNotPermission": "You don't have access permission for this operation."
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Opslaan",
+    "CancelButton": "Annuleer",
+    "DialogTitle": "Filters instellen."
+  },
+  "Components": {
+    "FolderTree": {
+      "Caption": "Mappen",
+      "Hint": "Lets you configure the folder structure to organize records by specified filters. To ensure the component operates as intended, connect it in the page List or Data source settings."
+    },
+    "FolderTreeActions": {
+      "Caption": "Menu voor mapbeheer",
+      "Hint": "Requires the Folders component. Lets you unhide page folders."
+    },
+    "QuickFilter": {
+      "Caption": "Snel filter",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Gisteren",
+          "Today": "Vandaag",
+          "Tomorrow": "Morgen",
+          "PreviousWeek": "Vorige week",
+          "CurrentWeek": "Huidige week",
+          "NextWeek": "Volgende week",
+          "PreviousMonth": "Vorige maand",
+          "CurrentMonth": "Huidige maand",
+          "NextMonth": "Volgende maand",
+          "PreviousQuarter": "Vorig kwartaal",
+          "CurrentQuarter": "Huidig kwartaal",
+          "NextQuarter": "Volgend kwartaal",
+          "PreviousFiscalWeek": "Previous fiscal week",
+          "CurrentFiscalWeek": "Current fiscal week",
+          "NextFiscalWeek": "Next fiscal week",
+          "FiscalQuarter1": "Q1",
+          "FiscalQuarter2": "Q2",
+          "FiscalQuarter3": "Q3",
+          "FiscalQuarter4": "Q4",
+          "FiscalHalfYear1": "First half year",
+          "FiscalHalfYear2": "Second half year",
+          "PreviousFiscalYear": "Vorig jaar",
+          "CurrentFiscalYear": "Current year",
+          "NextFiscalYear": "Volgend jaar"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "Message composer",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "E-mail"
+        },
+        "Feed": {
+          "Caption": "Feed"
+        },
+        "SelectChannelsCaption": "Select channels"
+      }
+    },
+    "EncryptedInput": {
+      "Caption": "Encrypted strinVersleutelde stringg",
+      "EyeButtonShowValueCaption": "Show value",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Er is iets misgegaan. Probeer het opnieuw of neem contact op met uw systeembeheerder."
+      },
+      "EyeButtonHideValueCaption": "Hide value",
+      "EyeButtonDisabledCaption": "Can’t show/hide value",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "This type of attribute is not supported for this operation. Please check the field configuration or try a different data type.",
+        "CurrentRecordIdNotFoundError": "Unable to find the current record ID. This may happen if the current record has not been saved yet. Please make sure the record is saved before performing this action.",
+        "ReferenceRecordIdNotFoundError": "The referenced record ID is missing. This can occur if the reference points to a newly created record that hasn't been saved to the database yet. Please save the referenced record first.",
+        "ReferenceColumnSchemaNameNotFoundError": "The name of the referenced column schema is not found. Please check the configuration of the reference field."
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Geselecteerde kleur",
+      "Readonly": "Niet-wijzigbaar veld"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Next Best Offers"
+    },
+    "NextBestOffer": {
+      "Caption": "Next best offers",
+      "EmptyValue": "N/A",
+      "Next": "Volgende",
+      "Previous": "Vorige"
+    },
+    "MultiSelect": {
+      "Caption": "Multiselect lookup",
+      "Label": "Meerdere selecties",
+      "CreateRecordButtonCaption": "Record aanmaken",
+      "ExpanderIcon": "Dropdown uitklappen",
+      "OpenModalIcon": "Modaal venster openen",
+      "TooltipInfoIcon": "Informatie-tooltip",
+      "ReadonlyIcon": "Niet-wijzigbaar veld"
+    },
+    "Approval": {
+      "Caption": "Goedkeuringen"
+    },
+    "ApprovalList": {
+      "Caption": "Lijst van goedkeuringen",
+      "RefreshCaption": "Verversen",
+      "ProvideDataSource": "Provide data source before using approvals"
+    }
+  },
+  "FolderTreeActions": {
+    "MenuButton": "Mappen",
+    "FavoriteItemsMenuButtonAriaLabel": "Favorites folders menu",
+    "ClearButtonCaption": "Duidelijke selectie",
+    "FolderButtonAriaLabel": "Open/Sluit mappenboom"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "We zullen u informeren wanneer de conversie is voltooid."
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "Annuleren",
+    "SelectFolderButtonCaption": "Selecteren",
+    "SelectFolderCaption": "Selecteer map"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Aangepaste instellingen wissen voor \"{0}\"",
+        "Confirmation": "Aangepaste lijstinstellingen voor de map \"{0}\" worden gewist voor alle gebruikers. De algemene lijstinstellingen zullen worden toegepast. Doorgaan?",
+        "SuccessStatus": "Lijstinstellingen voor de map \"{0}\" succesvol gewist"
+      },
+      "DataGridSettingsForFolderLabel": "Lijstinstellingen voor map",
+      "CreateDataGridSettingsForFolder": {
+        "Label": "Aangepaste instellingen maken voor \"{0}\"",
+        "SuccessStatus": "Lijstinstelling is succesvol opgeslagen. Geldt alleen wanneer de map \"{0}\" actief is"
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Opslaan als nieuwe standaardinstellingen voor \"{0}\"",
+        "Confirmation": "Nieuwe standaardlijstinstellingen voor de map \"{0}\" worden opgeslagen voor alle gebruikers. Doorgaan?",
+        "SuccessStatus": "Lijstinstelling is succesvol opgeslagen. Geldt alleen wanneer de map \"{0}\" actief is"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Huidige instellingen voor alle gebruikers overschrijven voor \"{0}\"",
+        "Confirmation": "Nieuwe standaardinstellingen voor de map \"{0}\" worden opgeslagen en vervangen de huidige instellingen voor alle gebruikers. Doorgaan?",
+        "SuccessStatus": "Lijstinstelling is succesvol opgeslagen. Geldt alleen wanneer de map \"{0}\" actief is"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Standaardinstellingen herstellen voor \"{0}\"",
+        "Confirmation": "Standaardlijstinstellingen voor de map \"{0}\" worden hersteld. Doorgaan?",
+        "SuccessStatus": "Standaardlijstinstellingen voor de map \"{0}\" zijn succesvol hersteld"
+      }
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Add components",
+    "Tooltip": "Please, add components"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Standaardwaarde",
+    "FilterColumnLabel": "Filterkolom",
+    "ViewAttributeLabel": "Component to filter"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Edit filter",
+    "SetupFilterCaption": "Setup filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "DefaultCheckBoxState": {
+      "Label": "Default checkbox state",
+      "CheckedCaption": "Gecontroleerd",
+      "UncheckedCaption": "Unchecked"
+    },
+    "FilteringApproachState": {
+      "Label": "Filtering approach",
+      "OnCheckedCaption": "Apply filter condition when checkbox is checked",
+      "OnUncheckedCaption": "Apply filter condition when checkbox is unchecked"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Default period",
+    "ChooseFilteringMethodCaption": "Choose a filtering method",
+    "ChooseFilteringMethodTooltip": "The filter can display data relevant to the specified period.\r\nUse the \"Set up filter by one date\" condition to display records that were created or modified on the specified day. For example, you can set up this filter to display leads by creation date, opportunities by closure date, or cases by solution date.\r\n\r\nUse the \"Set up filter by date range\" condition to display records for which a date range is particularly relevant. For example, you can set up this filter for contracts whose start and end dates are within the specified date range.",
+    "SetUpByOneColumnTitle": "Set up filter by one date",
+    "SetUpByTwoColumnsTitle": "Set up filter by date range",
+    "FilterColumnStartCaption": "Filter column From",
+    "FilterColumnEndCaption": "Filter column To",
+    "ShowTimeLabel": "Enable time",
+    "ShowFiscalPeriodsLabel": "Show fiscal periods"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "Current user contact",
+    "CurrentUserAccountName": "Current user account",
+    "EditFilterCaption": "Edit filter",
+    "SetupFilterCaption": "Setup filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "TagVirtualColumnCaption": "Tag"
+  },
+  "QuickFilter": {
+    "MainTitle": "Snel filter",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Gisteren",
+        "Today": "Vandaag",
+        "Tomorrow": "Morgen",
+        "PreviousWeek": "Vorige week",
+        "CurrentWeek": "Huidige week",
+        "NextWeek": "Volgende week",
+        "PreviousMonth": "Vorige maand",
+        "CurrentMonth": "Huidige maand",
+        "NextMonth": "Volgende maand",
+        "PreviousQuarter": "Vorig kwartaal",
+        "CurrentQuarter": "Huidig kwartaal",
+        "NextQuarter": "Volgend kwartaal",
+        "PreviousFiscalWeek": "Vorige week",
+        "CurrentFiscalWeek": "Huidige week",
+        "NextFiscalWeek": "Volgende week",
+        "FiscalQuarter1": "Q1",
+        "FiscalQuarter2": "Q2",
+        "FiscalQuarter3": "Q3",
+        "FiscalQuarter4": "Q4",
+        "FiscalHalfYear1": "First half year",
+        "FiscalHalfYear2": "Second half year",
+        "PreviousFiscalYear": "Vorig jaar",
+        "CurrentFiscalYear": "Current year",
+        "NextFiscalYear": "Volgend jaar"
+      },
+      "RangeSeparator": "tot",
+      "SelectDatePlaceholder": "Select date",
+      "EmptyDateRangeStartLabel": "<Start date>",
+      "EmptyDateRangeEndLabel": "<Due date>",
+      "Header": {
+        "ArrowRight": "Volgende maand",
+        "ArrowLeft": "Vorige maand"
+      },
+      "RangeSelectedFrom": "Geselecteerd vanaf",
+      "ClearIcon": "Selecteer bereik wissen",
+      "ClearStartDatePlaceholder": "Startdatum wissen",
+      "ClearEndDatePlaceholder": "Einddatum wissen",
+      "EmptyDateRangeStartAriaLabel": "[Geen begindatum geselecteerd]",
+      "EmptyDateRangeEndAriaLabel": "[Geen einddatum geselecteerd]",
+      "CalendarMode": "Kalender",
+      "FiscalMode": "Fiscal",
+      "Fiscal": {
+        "PeriodNotFound": "We couldn’t load the fiscal period date ranges. Please check that fiscal periods are set up, or contact your administrator for assistance.",
+        "LoadError": "Error loading fiscal period data, contact your administrator for assistance"
+      },
+      "SelectTimePlaceholder": "Selecteer tijd"
+    },
+    "Lookup": {
+      "NoData": "Geen gegevens"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Volgende maand",
+    "AriaPrevMonthLabel": "Vorige maand",
+    "AriaNextYearLabel": "Volgend jaar",
+    "AriaPrevYearLabel": "Vorig jaar",
+    "Readonly": "Niet-wijzigbaar veld",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Kalender",
+    "TimePickerIconTitle": "Tijd"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Opmaak opties (Alt+F10)",
+    "UploadAttachments": "Selecteer bijlagen",
+    "SelectTemplate": "Voeg sjabloon in",
+    "SelectionActions": {
+      "AskCopilot": "Vraag Creatio.ai",
+      "Friendly": "Vriendelijk",
+      "Formal": "Formeel",
+      "Shorten": "Verkorten",
+      "Extend": "Uitbreiden",
+      "Rephrase": "Herformuleer tekst",
+      "RewriteCaption": "Herformuleer tekst"
+    },
+    "TableOfContents": {
+      "Title": "Inhoudsopgave",
+      "Placeholder": "Een inhoudsopgave gebaseerd op de koppen op deze pagina verschijnt hier zodra het is gepubliceerd."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Opslaan",
+    "OpenLinkButtonCaption": "Open in nieuwe tab",
+    "CloseLinkButtonCaption": "Sluiten",
+    "UnlinkLinkButtonCaption": "Loskoppelen",
+    "LinkLabelCaption": "Link adres",
+    "TextLabelCaption": "Tekst te tonen"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Video invoegen.",
+    "PasteUrlTab": "Plak url.",
+    "UploadFileTab": "Bestand uploaden.",
+    "EmbedCodeTab": "Invoegen code.",
+    "DialogDescription": "Deze video wordt ingevoegd op 640 pixels breed.<br>Deze ingevoegde video bevat een tekstlink.",
+    "SaveButton": "Video invoegen.",
+    "CancelButton": "Annuleren.",
+    "UploadButton": "Bestand uploaden.",
+    "InputPlaceholder": "Plak hier.",
+    "DragAndDropPlaceholder": "Sleep bestand hierheen of",
+    "NotVideoFile": "Het ingevoegde bestand is geen video, selecteer alstublieft een bestand met een videotype.",
+    "ConfirmMessage": "Deze pagina bevat niet-opgeslagen wijzigingen. Ze gaan verloren als u de pagina sluit. Wijzigingen opslaan?"
+  },
+  "Feed": {
+    "Caption": "Feed",
+    "SortByCreatedOn": "Sorteren op berichtdatum",
+    "SortByLastAction": "Sorteren op datum van laatste activiteit",
+    "ShowMoreThanOneNewSocialMessages": "Toon {0} nieuwe berichten",
+    "ShowNewSocialMessage": "Toon 1 nieuw bericht",
+    "Publisher": {
+      "DefaultInputPlaceholder": "Post a message…",
+      "DisabledInputPlaceholder": "You cannot create new posts on new record page.",
+      "CommentInputPlaceholder": "Write a comment…",
+      "ShareWithPortal": "Share with portal user",
+      "PostingErrorMsg": "Fout bij het opslaan van feedbericht",
+      "UserFeedInputPlaceholder": "Feed is in the user mode. You cannot create new posts in this mode.",
+      "SendButtonHint": "Send Message (Ctrl + Enter)",
+      "CancelButtonHint": "Annuleer",
+      "PostingEmptyMsg": "Please type a message to continue.",
+      "ExternalMessagesDisabled": "Please note, the external user will not be able to read the message, because this option is disabled in the component design time.",
+      "ConfirmMessageAccessLevelChange": "Please confirm that you want to change the post visibility level. Please note: the post, related comments and attachments will become visible to external users.",
+      "ConfirmCommentAccessLevelChange": "Please confirm that you want to change the comment visibility level. Please note, the comment and related attachments will become visible to external users."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Toevoegen opmerking",
+      "CommentsButtonCaption": "Reacties",
+      "CommentsButtonHint": "Show comments",
+      "ExpandedCommentsButtonHint": "Hide comments",
+      "PostedInLabel": "posted in"
+    },
+    "Reactions": {
+      "Like": "Vind leuk",
+      "ExtraReactionsTemplate": "and {0} more...",
+      "PostLiked": "The feed post was liked.",
+      "LikeRemoved": "Like was removed from the feed post."
+    },
+    "Item": {
+      "Edit": "Wijzig",
+      "Delete": "Verwijderen",
+      "DeletionConfirmation": "Are sure you want to delete the record? This action cannot be undone.",
+      "DeletionErrorMsg": "The record was not deleted. Please try again later.",
+      "DownloadFile": "Downloaden"
+    },
+    "NoDataContainerLabel": "So quiet!",
+    "ExternalUserTagCaption": "Extern",
+    "ExternalUserTagTooltip": "Post voor externe gebruikers",
+    "DraftItemTagCaption": "Concept",
+    "SortButtonCaption": "Sort feed",
+    "ActionsButtonCaption": "Acties",
+    "FollowButtonCaption": "Follow feed",
+    "UnfollowButtonCaption": "Unfollow feed",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Follow feed",
+        "Unfollow": "Unfollow feed"
+      },
+      "NotificationTemplate": {
+        "Follow": "You are following updates of the feed: {0}",
+        "Unfollow": "You have unfollowed updates of the feed: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}"
+  },
+  "MessageComposer": {
+    "CancelButtonHint": "Afwijzen.",
+    "CancelButtonText": "Afwijzen.",
+    "SaveDraftButtonText": "Save draft",
+    "SendButtonHint": "Send Message (Ctrl + Enter)",
+    "MessageSent": "Bericht verzonden",
+    "SendButtonText": "Versturen",
+    "RemoveAttachmentHint": "Remove attachment",
+    "Caption": "Message composer",
+    "Email": {
+      "Caption": "Email composer",
+      "From": "Van",
+      "To": "Aan",
+      "CC": "CC",
+      "BCC": "BCC",
+      "Subject": "Onderwerp",
+      "PublishError": "Failed to send a message. The following error was received: {0}",
+      "SaveDraftError": "Unable to save the draft. Please try again later",
+      "TemplateInsertError": "Unable to add the template. Please try again later.",
+      "AttachmentsSizeLimitReached": "Total attachments size is more than allowed {0} MB. Please remove some attachments.",
+      "FromValidationErrorMessage": "“From” field cannot be blank. Please select a mailbox.",
+      "ToValidationErrorMessage": "“To” field cannot be blank. Please enter at least one recipient.",
+      "SubjectValidationErrorMessage": "“Subject” field cannot be blank. Please enter the email subject.",
+      "Draft": "Concept",
+      "BodyPlaceholder": "Type a message",
+      "Reply": "Antwoorden",
+      "ReplyAll": "Allen beantwoorden",
+      "Forward": "doorsturen",
+      "SentOn": "Verstuurd op",
+      "SubjectToggleCaption": "Subj",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "BCC",
+      "NotContainsEmail": "does not contain email in it",
+      "ChangeReplyAction": "Change reply action",
+      "ShowTrimmedEmailTitle": "Show trimmed email",
+      "EmailTemplatesLookupCaption": "Select a template",
+      "EmailTemplatesDisplayColumnCaption": "Template naam",
+      "ContinueEditing": "Continue editing",
+      "SaveDraft": "Save draft",
+      "DraftSaved": "Draft saved",
+      "EmailSent": "Email sent",
+      "RemoveRecipientLabel": "Remove recipient"
+    },
+    "Feed": {
+      "Caption": "Feed composer"
+    },
+    "Selector": {
+      "Caption": "Message composer"
+    },
+    "ComposerAreaLabel": "Message composer input area",
+    "AttachmentPreview": "Bijlagevoorbeeld",
+    "Attachment": {
+      "Added": "The attachment was added.",
+      "Removed": "The attachment was removed."
+    },
+    "SendEmailErrorMessage": "An unexpected error occurred while sending the email. Please try again later."
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Vertaal",
+      "Retry": "Opnieuw proberen"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Akkoord"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Download bestand"
+    },
+    "System": {
+      "ChatStartedMessage": "Chat started: {chatStartedAt} by {chatStartedBy}"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "There are no recent chats yet",
+    "CreateChatButton": "Start new chat",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "You: ",
+    "RenameChat": {
+      "LabelTitle": "Rename chat",
+      "InputTitle": "Titel",
+      "SaveButton": "Opslaan",
+      "CancelButton": "Annuleer"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "Acties"
+    },
+    "NoDataBySearchFilter": "Er zijn geen records die voldoen aan de filtercriteria",
+    "NoDataBySearchFilterSubtitle": "Wis het filter of wijzig de voorwaarden ",
+    "ARIA": {
+      "Label": "Chat",
+      "ChatItem": "Chat: {0}. Last message: {1}",
+      "LoadMoreTrigger": "Load more"
+    },
+    "AlreadyAssignedChat": "Chat is toegewezen aan een andere agent"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Transfer chat",
+    "AgentTab": "Agent",
+    "QueueTab": "Wachtrij",
+    "NoOperatorsAvailable": "No agents available",
+    "NoData": "Geen gegevens",
+    "OperatorStatus": {
+      "0": "Inactief",
+      "1": "Actief",
+      "2": "Chats overschreden"
+    },
+    "InputPlaceholder": "Chat overgedragen",
+    "NoQueuesAvailable": "No queues available",
+    "ActiveAgentsCount": "{{count}} active agent(s)"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Attached file: {{fileName}}",
+    "DeleteFile": "Delete {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Run action",
+    "NoActionsTemplate": "No actions available. Please add chat actions on the ${link}.",
+    "ChatSettingsPage": "Chat setting page",
+    "ProcessExecutedSuccessfully": "Process executed successfully",
+    "ProcessExecutionFailed": "Process execution failed. Please try again."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Open templates (click or type //)",
+    "NotFound": "No templates found",
+    "NoAvailable": "No templates available",
+    "Group": {
+      "RecentlyUsed": "Recently used",
+      "Others": "Others"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Add emoji",
+    "ButtonAriaLabel": "Open emoji picker",
+    "PickerAriaLabel": "Emoji picker"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "Select: Contact",
+    "ConfirmLinkMessage": "All chats of the current contact will be linked to the selected contact, and the current contact will then be deleted. Do you want to proceed?"
+  },
+  "Translations": {
+    "TargetLanguage": "target language",
+    "TranslatingTo": "Translating to {{language}}...",
+    "TranslatedTo": "Translated to {{language}}",
+    "TranslationFailedDialog": "Vertaling mislukt. Probeer het opnieuw."
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Niet-ondersteund bestandstype. Dit bestand kan niet worden weergegeven."
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Samenvatting",
+    "Title": "Titel",
+    "Column": "Kolom",
+    "Function": "Functie",
+    "CustomSummaryLabelTooltip": "Het element bevat vooraf geconfigureerde gegevensweergavelogica. Als je alternatieve logica wilt implementeren, verwijder dan de waarde van het element."
+  },
+  "Summaries": {
+    "Caption": "Samenvattingen",
+    "Actions": {
+      "CreateCount": "Toon aantal records",
+      "Title": "Samenvattingen-acties"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Snelle setup",
+      "Count": "Optellen",
+      "Minimum": "Minimum",
+      "Maximum": "Maximum",
+      "Sum": "Som",
+      "Average": "Gemiddeld"
+    },
+    "Hints": {
+      "NoDataSource": "Geen gegevensbron geselecteerd",
+      "Collapse": "Samenvattingen sluiten",
+      "Expand": "Samenvattingen uitvouwen"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Instellingen opslaan voor alle gebruikers",
+      "ResetToDefault": "Standaard instellingen terugzetten",
+      "SaveForAllSuccessfully": "Samenvattingsinstellingen voor alle gebruikers succesvol opgeslagen",
+      "ResetToDefaultSuccessfully": "Standaard samenvattingsinstellingen succesvol hersteld"
+    },
+    "AdvancedSetup": {
+      "Title": "Geavanceerde setup",
+      "Actions": {
+        "AddCustomSummary": "Voeg nieuwe gegevenssamenvatting toe"
+      }
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "Verwijderen",
+      "Edit": "Wijzig"
+    },
+    "AriaLabel": "Samenvatting item",
+    "Statuses": {
+      "Added": "Samenvattingitem succesvol toegevoegd",
+      "Deleted": "Samenvattingitem succesvol verwijderd",
+      "Edited": "Samenvattingitem succesvol gewijzigd",
+      "Error": "Fout"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Bel op"
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "Merge duplicates ({0})",
+      "Actions": {
+        "Merge": "Samenvoegen"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Unable to merge selected records",
+        "NoRights": "Insufficient permissions to merge data",
+        "MinSelectedRecordsViolation": "Select at least two records to merge",
+        "SelectionAllModeUsingViolation": "Merging is not available when using \"Select all\". Select the records you want to merge manually."
+      },
+      "SuccessfulCompletionStatus": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete."
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Called",
+        "Sec": "sec",
+        "DetailsLinkCaption": "Call details"
+      },
+      "Email": {
+        "MailedTo": "Mailed to",
+        "From": "Van:",
+        "To": "Aan:",
+        "CC": "CC:",
+        "Details": "Details",
+        "Hide": "Verberg"
+      },
+      "File": {
+        "AddedFile": "Added a file"
+      },
+      "Chat": {
+        "ChatWith": "chatted with",
+        "Show": "Chat weergeven",
+        "Hide": "Chat verbergen",
+        "DetailsLinkCaption": "Chat details"
+      }
+    },
+    "NoDataMessage": "The past does not exist",
+    "FillActionMessage": "There are no associated records to display in the timeline",
+    "NoDataByFilterMessage": "Er zijn geen records die overeenkomen met de filtercriteria",
+    "FillActionByFilterMessage": "Schakel het filter uit of wijzig de condities",
+    "EntityFilterCaption": "Alle",
+    "OwnerFilterCaption": "Eigenaar",
+    "DateFilterCaption": "Selecteer periode",
+    "HideSystemMessagesCaption": "Verberg systeem meldingen",
+    "EntityFilterHint": "Select record type",
+    "OwnerFilterHint": "Select record owner",
+    "DateFilterHint": "Select record period",
+    "HideSystemMessagesHint": "Hide automated emails",
+    "DateSort": "Datum",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "E-mail"
+      },
+      "Feed": {
+        "Caption": "Feed"
+      },
+      "Task": {
+        "Caption": "Taak"
+      },
+      "SysFile": {
+        "Caption": "Bestand"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Sort by date button, currently sorted {0}",
+        "Descending": "aflopend",
+        "Ascending": "oplopend"
+      }
+    }
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "Telefoonnummer",
+    "DesignerEmailLabel": "E-mail adres",
+    "DesignerWebLabel": "Weblink",
+    "Caption": "Communicatie opties",
+    "DeleteOption": "Verwijderen",
+    "Primary": "primair",
+    "Invalid": "ongeldig",
+    "MarkAsPrimary": "Stel in als primaire",
+    "MarkAsValid": "Markeren als geldig",
+    "MarkAsInvalid": "Als ongeldig markeren",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} bestaat al",
+      "ReadOnlyStateMessage": "De communicatieoptie kan niet worden toegevoegd omdat de component zich in de alleen-lezenmodus bevindt",
+      "IncorrectSetupComponentMessage": "Kan de communicatiemogelijkheid niet toevoegen omdat het pagina-component nog niet is ingesteld. De systeembeheerder kan de setup voltooien in de Freedom UI-ontwerper",
+      "EmptyMasterRecordColumnNameInRequestMessage": "De communicatieoptie kan niet worden toegevoegd aan een leeg record. Voeg alstublieft eerst de recordwaarde toe"
+    },
+    "NoDataPlaceholderText": "Geen gegevens",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} added",
+        "Deleted": "{0} {1} deleted",
+        "SetAsPrimary": "{0} {1}  set as primary",
+        "MarkedAsValid": "{0} {1} marked as valid",
+        "MarkedAsInvalid": "{0} {1} marked as invalid"
+      }
+    },
+    "ToolsAriaLabel": "Acties"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "Bedrijfsnaam",
+    "AlternativeNamePlaceholder": "Ook bekend als",
+    "CountryPlaceholder": "Land"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "Contact naam",
+    "DesignerBirthDatePlaceholder": "Geboortedatum",
+    "CountryPlaceholder": "Land"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Account compact profile",
+    "DialogTitle": "Edit account",
+    "AlternativeNameFieldLabel": "Ook bekend als",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add account name",
+    "EmptyRecord": {
+      "NamePlaceholder": "Bedrijfsnaam",
+      "AlternativeNamePlaceholder": "Ook bekend als",
+      "CountryPlaceholder": "Land"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Contact compact profile",
+    "DialogTitle": "Edit contact",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Contactnaam toevoegen",
+    "BirthDatePlaceholder": "en geboortedatum",
+    "EmptyRecord": {
+      "NamePlaceholder": "Contact naam",
+      "BirthDatePlaceholder": "Geboortedatum",
+      "CountryPlaceholder": "Land"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Compact user profile",
+    "DialogTitle": "Edit name",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add user name"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Sluiten"
+  },
+  "IFrame": {
+    "PropertiesPanel": {
+      "Caption": "iFrame-instellingen",
+      "GeneralSettings": {
+        "Caption": "Algemeen",
+        "ContentTypeLabel": "Inhoudstype",
+        "ContentValueLabel": "Weer te geven inhoud",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "Om te zorgen dat de inhoud correct wordt weergegeven, controleer het volgende: <ul><li>De bron staat insluiten in een iframe toe</li><li>De link maakt gebruik van het HTTPS-protocol</li><li>Het brondomein is opgenomen in de lijst van vertrouwde bronnen in het Content Security Policy (CSP). We raden aan ten minste de volgende twee toegestane richtlijnen toe te voegen: connect-src en frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Allowed features",
+        "AllowTooltip": "Specifies which browser features the embedded content is allowed to use, for example, camera, microphone, fullscreen. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information.",
+        "SandboxLabel": "Sandbox permissions",
+        "SandboxTooltip": "Specifies which sandbox restrictions are removed for the embedded content. Grant only the permissions that are required. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information."
+      }
+    },
+    "Caption": "iFrame",
+    "Hint": "Met het iFrame-component kunt u inhoud insluiten en weergeven in HTML- of URL-formaat",
+    "Placeholder": {
+      "NothingToShow": "Nog niets om te tonen",
+      "NoContent": "Geen inhoud beschikbaar in deze sectie"
+    },
+    "ContentUnavailable": {
+      "Title": "Inhoud niet beschikbaar",
+      "SubTitle": "Door uw netwerkinstellingen, browserbeveiligingsbeleid of inhoudsbeperkingen",
+      "LinkTitle": "Lees meer in onze Academy"
+    }
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Dashboards settings",
+    "GeneralGroup": {
+      "Caption": "Algemeen",
+      "DataSource": "Gegevensbron",
+      "DataSourceTooltip": "The data source will be set as primary data source for every dashboard created in this component",
+      "DataSourceDependenciesSettingTooltip": "Filter by page data lets you display connected data in a dashboard",
+      "DataSourceFilterElementsGroupTooltip": "The setting lets you use pre-configured filters from folders or other data filtering elements as page filters"
+    },
+    "DashboardsGroup": {
+      "Caption": "Dashboards",
+      "AddDashboard": "Add new dashboard",
+      "InfoTooltip": "The list of dashboards displays only those items that are schemas in configuration",
+      "ContextMenu": {
+        "Copy": "Kopiëren",
+        "Delete": "Verwijderen",
+        "Edit": "Wijzig"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Are you sure you want to delete dashboard \"{{caption}}\"?",
+            "WithUserLevelSchema": "The dashboard you want to delete has a dependent dashboard: \"{{caption}}\" end-user schema. If you continue, both dashboards will be deleted. Continue?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Unable to delete \"{{caption}}\" dashboard because it was either created by third-party publisher or installed from the file",
+            "DependsOnSchema": "Unable to delete \"{{caption}}\" dashboard because it has dependent configuration schema(s)"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "You cannot rename the element because it has bound dashboards"
+    }
+  },
+  "Dashboards": {
+    "SelectDashboard": "Select dashboard",
+    "NoData": "No associated dashboards to display",
+    "NoData2": "Add a dashboard to make it look prettier",
+    "CreateNewDashboardButton": "Add new dashboard",
+    "AccessDenied": "Afhankelijkheid \"{0}\" ({1}) vereist door SQL-script \"{2}\" ({3}) in pakket \"{4}\" is niet gevonden.\n",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Are you sure that you want to delete the selected dashboard?",
+        "FailMessage": "Unfortunately, you cannot delete the selected dashboard"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "Acties",
+      "Edit": "Wijzig",
+      "Copy": "Kopiëren",
+      "Delete": "Verwijderen",
+      "Rights": "Stel toegangsrechten in"
+    },
+    "All": "Alles",
+    "Favorites": "Favorieten",
+    "AddToFavoritesButton": "Toevoegen aan favorieten",
+    "RemoveFromFavoritesButton": "Verwijderen uit favorieten"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Entity hierarchy filter",
+    "GeneralCaption": "Algemeen",
+    "SchemaNameCaption": "Select an object to build a hierarchy",
+    "HierarchySetup": "Hierarchy setup",
+    "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+    "ApplyStaticFilter": "Apply static filter",
+    "EditStaticFilterAction": "Edit filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "SetupStaticFilterAction": "Setup filter",
+    "DisplayModeCaption": "Hierarchy type",
+    "ManualDisplayMode": "Handmatig",
+    "ByParentDisplayMode": "By parent"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Add new hierarchy column",
+    "ContextMenu": {
+      "AddToSubmenu": "Add sub-hierarchy",
+      "Edit": "Wijzig",
+      "Delete": "Verwijderen"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Alle",
+    "NotFilledNode": "Not filled",
+    "SpecificationFilterCaption": "Open additional filtering",
+    "BackButtonCaption": "Terug",
+    "ClearAllFiltersButtonCaption": "Wis alles",
+    "NoDataCaption": "Geen gegevens"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Color picker",
+        "AppearanceGroup": "Weergave",
+        "PickerModeRadioButtonCaption": "Palet",
+        "PickerMode": {
+          "Basic": "Basis palet",
+          "Extended": "Uitgebreide palet"
+        }
+      }
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Entity schema '{{entitySchemaName}}' not found",
+    "UnselectedColumnsWillBeDeletedMessage": "Unselected columns will be deleted. Proceed?"
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Nothing to show here!",
+    "NoDataDescription": "Currently there are no items in your queue",
+    "AcceptButtonLabel": "Accepteren."
+  },
+  "AgentInbox": {
+    "NewItems": "New Items ({{number}})",
+    "InProgress": "In Progress ({{number}})",
+    "RealTime": "Real-time",
+    "QueuedTasks": "Queued tasks",
+    "WrappedUpCallTickTpl": "Gesprek afsluiten (nog {{sec}}s)",
+    "WrappedUpCallStoppedTpl": "Handmatig afsluiten",
+    "IncomingCallDescription": "Inkomend gesprek:",
+    "OutgoingCallDescription": "Uitgaand gesprek:"
+  },
+  "CallConversation": {
+    "Call": "Make call",
+    "Duration": "Lead:",
+    "Search": "Zoeken",
+    "JobTitle": "Functietitel",
+    "Account": "Gebruikers",
+    "ClearIdentity": "Clear selected record",
+    "Buttons": {
+      "Hints": {
+        "Accept": "Accept call",
+        "CompleteTransfer": "Klik voor overdracht",
+        "Hold": "Zet in de wacht",
+        "Unhold": "Unhold",
+        "StartTransfer": "Transfer call",
+        "Mute": "Mute call",
+        "CancelTransfer": "Overdracht annuleren",
+        "Drop": "Complete call",
+        "OpenDialPanel": "Open dial panel"
+      },
+      "Captions": {
+        "Accept": "Accepteren.",
+        "Drop": "Weigeren",
+        "Cancel": "Annuleren.",
+        "CancelTransfer": "Terug",
+        "CompleteTransfer": "Samenvoegen",
+        "EndMainCall": "Einde"
+      }
+    },
+    "OnHold": "On hold:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "Het gesprek is bijgewerkt"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Clear selected record",
+    "CallIdentityOptions": "Change/Set contact"
+  },
+  "ListWidget": {
+    "DefaultTitle": "New list widget",
+    "PropertiesPanel": {
+      "HeaderLabel": "Widget settings",
+      "TitleLabel": "Titel",
+      "Styles": {
+        "FullyColored": "Volledig gekleurd",
+        "PlainWhite": "Wit (standaard)",
+        "PartiallyColored": "Partially colored",
+        "Glassmorphism": "Glass effect"
+      }
+    },
+    "Caption": "List widget",
+    "Hint": "A component that combines a fully functional list with a customizable colored frame, ensuring visual consistency when placed alongside other analytics widgets"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "Change DCM case. There is a more relevant configuration for this entity.",
+    "ConfirmChangeCaseDialogMessage": "Do you want to replace current version of the case?",
+    "SnackbarActualFilterCaseMessage": "There is more relevant case \"{{caption}}\". Replace?",
+    "SnackbarIgnoreButtonCaption": "Ignore",
+    "SnackbarReplaceButtonCaption": "Replace",
+    "SnackbarEntityProcessChangedMessage": "Case has been successfully changed."
+  },
+  "NextSteps": {
+    "Caption": "Volgende stappen",
+    "CompleteButtonCaption": "Klaar",
+    "AddNewStepMenuCaption": "Add a new step",
+    "CreateActivityButtonCaption": "Creëer een taak",
+    "CreateEmailButtonCaption": "Maak een e-mail aan",
+    "NoDataContainerLabel": "Nothing to show here!",
+    "NoDataContainerDescription": "There are no steps added for this stage",
+    "OwnerHint": "Assigned user",
+    "OwnerRoleHint": "Assigned group",
+    "RequiredStepHint": "Required step",
+    "ApprovalApprovedSnackbarCaption": "Request was approved",
+    "ApprovalRejectedSnackbarCaption": "Request was rejected",
+    "TypeFilterCaption": "Type",
+    "TypeFilterHint": "Type"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} records have been loaded. Load more records?",
+    "ConfirmResendMeetingInvitationsQuestion": "When the meeting is saved all participants will receive a meeting update. Do you  want to proceed?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Saving some of this meetings requires you to send a change notification to all participants after saving. Do you want to continue? Meeting list:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. Are you sure you want to send an invitation to the participants?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. All participants will receive a meeting update. Do you  want to proceed?",
+    "CanNotChangeMeetingMessage": "Only the meeting organizer can change the description, date and list of the meeting participants.",
+    "CanNotChangeMultipleMeetingsMessage": "Some of the changed meetings can only be changed by the meeting organizer. Meeting list: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "You can delete meetings only if you select records manually.",
+    "ErrorSendingInvitationMessage": "The invitations were not sent. It may be a temporary issue, please try again later.",
+    "SuccessSendingInvitationMessage": "Invitations were successfully sent.",
+    "JoinBtnCaption": "Join online meeting",
+    "UserAlreadyHasActiveCalendarAccount": "U heeft al een actieve kalender",
+    "LackOfLicenseMessage": "Calendar synchronization is not included into your current license. Please contact your system administrator for additional information.",
+    "DateRangeError": "The date range in the filter is too long. Please reduce the range in the filter."
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "At least one value must be selected in: {0}"
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Goedkeuringen",
+    "ComponentHeaderInactiveLabel": "No approval required",
+    "RejectDialogHeaderLabel": "Weet u zeker dat u de goedkeuring wilt weigeren?",
+    "RejectInputLabel": "Commentaar goedkeuring",
+    "RejectButtonLabel": "Weigeren",
+    "CancelButtonLabel": "Annuleer",
+    "ApproveDialogHeaderLabel": "Verleen de goedkeuring?",
+    "ApproveButtonLabel": "Goedkeuren",
+    "PositiveMetricLabel": "Positief",
+    "NegativeMetricLabel": "Negatief",
+    "PendingMetricLabel": "In behandeling",
+    "ComponentHeaderActiveLabel": "Waiting for your approval",
+    "ApprovalPurposeLabel": "Doel van de goedkeuring",
+    "ApprovedPlaceholderLabel": "APPROVED",
+    "DesignTime": {
+      "ApprovalObjective": "Goedkeuring vereist"
+    },
+    "RejectedPlaceholderLabel": "REJECTED",
+    "DelegateButtonLabel": "Delegate"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Afwijzen",
+    "ApproveButtonLabel": "Goedkeuren"
+  }
+}

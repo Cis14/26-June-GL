@@ -1,0 +1,12 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CSP/Schemas/CSPMode/CSPMode.cs" Condition="Exists('$(PkgPath)/CSP/Schemas/CSPMode/CSPMode.cs')" />
+		<Compile Include="$(PkgPath)/CSP/Schemas/SysCspDefaultSrc/SysCspDefaultSrc.cs" Condition="Exists('$(PkgPath)/CSP/Schemas/SysCspDefaultSrc/SysCspDefaultSrc.cs')" />
+		<Compile Include="$(PkgPath)/CSP/Schemas/SysCspDefSrcInDirectv/SysCspDefSrcInDirectv.cs" Condition="Exists('$(PkgPath)/CSP/Schemas/SysCspDefSrcInDirectv/SysCspDefSrcInDirectv.cs')" />
+		<Compile Include="$(PkgPath)/CSP/Schemas/SysCspDirectiveName/SysCspDirectiveName.cs" Condition="Exists('$(PkgPath)/CSP/Schemas/SysCspDirectiveName/SysCspDirectiveName.cs')" />
+		<Compile Include="$(PkgPath)/CSP/Schemas/SysCspUserTrustedSrc/SysCspUserTrustedSrc.cs" Condition="Exists('$(PkgPath)/CSP/Schemas/SysCspUserTrustedSrc/SysCspUserTrustedSrc.cs')" />
+		<Compile Include="$(PkgPath)/CSP/Schemas/SysCspUsrSrcInDirectv/SysCspUsrSrcInDirectv.cs" Condition="Exists('$(PkgPath)/CSP/Schemas/SysCspUsrSrcInDirectv/SysCspUsrSrcInDirectv.cs')" />
+		<Compile Include="$(PkgPath)/CSP/Schemas/SysCspViolation/SysCspViolation.cs" Condition="Exists('$(PkgPath)/CSP/Schemas/SysCspViolation/SysCspViolation.cs')" />
+		<Compile Include="$(PkgPath)/CSP/Schemas/VwSysCspViolation/VwSysCspViolation.cs" Condition="Exists('$(PkgPath)/CSP/Schemas/VwSysCspViolation/VwSysCspViolation.cs')" />
+	</ItemGroup>
+</Project>

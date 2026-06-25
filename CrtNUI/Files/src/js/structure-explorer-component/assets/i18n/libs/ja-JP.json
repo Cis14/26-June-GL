@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "読み込み中.."
+  },
+  "CopyClipboard": {
+    "Copied": "コピーしました"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "表示するものがありません ",
+      "Subhead": "データを追加してください"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "チャット開始: {0}",
+        "EndDate": "チャット完了: {0}"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "読み込み中"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "エラー",
+      "Default": "ツールチップ"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "新規または既存のレコードのページはありません。システム管理者はFreedom UIのボタン設定を確認する必要があります。",
+    "GoToEntityDesignerMessage": "ページをセットアップするにはURL： {0} に遷移してください。"
+  }
+}

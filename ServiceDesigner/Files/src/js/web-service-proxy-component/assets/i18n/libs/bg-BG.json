@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Зареждане..."
+  },
+  "CopyClipboard": {
+    "Copied": "Копирано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Още няма нищо за показване ",
+      "Subhead": "Моля, първо добави данни"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чатът започна: {0} от",
+        "EndDate": "Чатът е завършен: {0} от"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Зареждане"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Грешка",
+      "Default": "Подсказка"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Няма страница за нов или съществуващ запис. Системният администратор трябва да провери настройките на бутоните в потребителския интерфейс на Freedom",
+    "GoToEntityDesignerMessage": "За да настроиш страници, отиди на URL: {0}"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Моля, избери стойност от списъка",
+      "SelectionWindowMessage": "Моля, избери стойност от списъка или потърси с помощта на прозореца за справка"
+    },
+    "Required": {
+      "Message": "Въведи стойност"
+    },
+    "MaxLength": {
+      "Message": "Превишена е максималната дължина на текста ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Минималната дължина на текста не е достигната ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Невалиден формат за дата и час"
+    },
+    "DatePickerSyntax": {
+      "Message": "Невалиден формат на датата"
+    },
+    "TimePickerSyntax": {
+      "Message": "Невалиден формат на часа"
+    },
+    "RegExp": {
+      "Message": "Невалиден формат на стойността"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Кодът трябва да започва с префикса {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Въведи поне още един символ."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Използвай символи: a-z, A-Z, 0-9, долна черта или тире. Първи могат да бъдат само букви."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Стойността '{{controlValue}}' вече съществува в колоната 'Код'."
+    },
+    "PhoneNumber": {
+      "Message": "Невалиден телефонен номер"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Колоната е премахната",
+    "ValidationErrorMessageSingleErrorField": "Поле: {0}. Грешка: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Полета: {0}. Грешка: {1}",
+    "RefreshModelDataConflict": "Creatio има нови данни за текущата страница. За да го видиш, запази или анулирай промените си и опресни страницата.",
+    "WarningModelsWithCircularDependencies": "Някои модели имат кръгови зависимости и не са заредени",
+    "LoadingModelErrorMessage": "Възникна грешка по време на изпълнение на заявката",
+    "ErrorMessageOnEmptyRelationColumn": "Страницата не може да бъде запазена. Попълни полето {{caption}} или изчисти данните в съответните полета, за да го запазиш на страницата."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Данните бяха опреснени"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Опиши целта на потребителя ясно и сбито. Опиши подробно стъпките, необходими за постигане на целта на потребителя. Очертай очаквания резултат от LLM. Това трябва да включва всеки необходим контекст или информация, която LLM трябва да знае.\n\n## Общи правила\n1. Не може да създаваш нови обекти без изрично потвърждение от потребителя.\n2. Правило 2: ...\n\n3. ...\n\n## Общи ограничения\n1. Избягвай да правиш предположения за намерението на потребителя; изяснявай заявките, когато е необходимо.\n2. Ограничение 2: ...\n\n3. ...\n\n## Изисквания за изхода\n1. Изходът трябва да бъде по-малък от 300 символа и не повече от 2-3 изречения.\n2. Изискване 2: ...\n\n3. ...\n\n## Процес\n1. Използвай контекста на текущата страница за прочит на данни и полета на страницата. Въз основа на тази информация ...\n2. Стъпка 2: ...\n\n3. ..."
+    }
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Схемата на процеса е запазена успешно, но грешки при проверката не позволяват изпълнението й."
+  }
+}

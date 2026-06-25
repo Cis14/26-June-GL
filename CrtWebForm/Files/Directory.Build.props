@@ -1,0 +1,12 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtWebForm/Schemas/GeneratedWebForm/GeneratedWebForm.cs" Condition="Exists('$(PkgPath)/CrtWebForm/Schemas/GeneratedWebForm/GeneratedWebForm.cs')" />
+		<Compile Include="$(PkgPath)/CrtWebForm/Schemas/LandingObjectDefaults/LandingObjectDefaults.cs" Condition="Exists('$(PkgPath)/CrtWebForm/Schemas/LandingObjectDefaults/LandingObjectDefaults.cs')" />
+		<Compile Include="$(PkgPath)/CrtWebForm/Schemas/LandingType/LandingType.cs" Condition="Exists('$(PkgPath)/CrtWebForm/Schemas/LandingType/LandingType.cs')" />
+		<Compile Include="$(PkgPath)/CrtWebForm/Schemas/LendingState/LendingState.cs" Condition="Exists('$(PkgPath)/CrtWebForm/Schemas/LendingState/LendingState.cs')" />
+		<Compile Include="$(PkgPath)/CrtWebForm/Schemas/WebFormContactIdentifier/WebFormContactIdentifier.cs" Condition="Exists('$(PkgPath)/CrtWebForm/Schemas/WebFormContactIdentifier/WebFormContactIdentifier.cs')" />
+		<Compile Include="$(PkgPath)/CrtWebForm/Schemas/WebFormData/WebFormData.cs" Condition="Exists('$(PkgPath)/CrtWebForm/Schemas/WebFormData/WebFormData.cs')" />
+		<Compile Include="$(PkgPath)/CrtWebForm/Schemas/WebFormProcessHandlers/WebFormProcessHandlers.cs" Condition="Exists('$(PkgPath)/CrtWebForm/Schemas/WebFormProcessHandlers/WebFormProcessHandlers.cs')" />
+		<Compile Include="$(PkgPath)/CrtWebForm/Schemas/WebPage/WebPage.cs" Condition="Exists('$(PkgPath)/CrtWebForm/Schemas/WebPage/WebPage.cs')" />
+	</ItemGroup>
+</Project>

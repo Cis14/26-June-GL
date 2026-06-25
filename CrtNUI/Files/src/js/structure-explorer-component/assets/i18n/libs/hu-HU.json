@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Betöltés..."
+  },
+  "CopyClipboard": {
+    "Copied": "Másolva"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Még nincs mit mutatni",
+      "Subhead": "Kérjük, először adja meg az adatokat"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "A csevegés kezdete: {0}",
+        "EndDate": "A csevegés befejeződött: {0}"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Betöltés"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Hiba",
+      "Default": "Elemleírás"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nincs oldal új vagy meglévő rekordhoz. A rendszergazdának ellenőriznie kell a gombbeállításokat a Freedom UI-ban",
+    "GoToEntityDesignerMessage": "Az oldalak beállításához lépjen a következő URL-re: {0}"
+  }
+}

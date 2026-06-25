@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtNextStep/Schemas/NextStep/NextStep.cs" Condition="Exists('$(PkgPath)/CrtNextStep/Schemas/NextStep/NextStep.cs')" />
+		<Compile Include="$(PkgPath)/CrtNextStep/Schemas/NextStepType/NextStepType.cs" Condition="Exists('$(PkgPath)/CrtNextStep/Schemas/NextStepType/NextStepType.cs')" />
+	</ItemGroup>
+</Project>

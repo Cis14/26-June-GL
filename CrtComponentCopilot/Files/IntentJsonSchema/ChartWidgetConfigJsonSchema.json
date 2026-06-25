@@ -1,0 +1,656 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "description": {
+      "description": "A natural language explanation of the generated component.\r\nExample. \"This chart can be used for showing count of something.\"",
+      "type": "string"
+    },
+    "details": {
+      "description": "Markdown formatting rules for analytics component metadata.\r\nThe goal is to generate clean, structured Markdown with bold section headers and proper indentation.\r\n\r\nFormat Rules:\r\n- Each section must start with **<Name>:**\r\n- Do not include empty sections.\r\n- The allowed order of sections is always:\r\n1. Data Source (required)\r\n2. Aggregation\r\n3. Grouping\r\n4. Filters\r\n5. Series (if present, always last)\r\n\r\nExample:\r\n\r\n**Data Source:**\r\n- Opportunity\r\n\r\n**Aggregation:**\r\n- COUNT(Id)\r\n\r\n**Grouping:**\r\n- by CloseReasonId\r\n\r\n**Series:**\r\n- Won\r\n- Lost",
+      "type": "string"
+    },
+    "element": {
+      "$ref": "#/$defs/LLMChartWidgetConfig"
+    }
+  },
+  "required": [
+    "description",
+    "details",
+    "element"
+  ],
+  "type": "object",
+  "$defs": {
+    "BackwardReferenceAggregationType": {
+      "description": "Defines how records in backward reference relation should be aggregated.\r\nIf user didn't mention any counts, use aggregation type EXISTS (or NOT_EXISTS), if applicable.",
+      "enum": [
+        "COUNT",
+        "SUM",
+        "MIN",
+        "MAX",
+        "AVG",
+        "EXISTS",
+        "NOT_EXISTS"
+      ],
+      "type": "string"
+    },
+    "BackwardReferenceComparisonType": {
+      "description": "Defines how records in backward reference relation should be compared.\r\nIf user asks to filter by column with date-related values, or mentions some numeric value you cannot use NULL.\r\nuse EQUAL if aggregationType is EXISTS or NOT_EXISTS.",
+      "enum": [
+        "EQUAL",
+        "NOT_EQUAL",
+        "LESS",
+        "LESS_OR_EQUAL",
+        "GREATER",
+        "GREATER_OR_EQUAL"
+      ],
+      "type": "string"
+    },
+    "BackwardReferenceFilter": {
+      "additionalProperties": false,
+      "description": "Use it when you need to filter entities with backward reference relation.\r\n\r\n**Core Concept:** Column paths define entity relationships and data access routes. Backward reference creates\r\none-to-many relationships where each root record can have multiple related records that must be aggregated.\r\n\r\n**Column Path Pattern:** `[JoinedTable:JoinedTableRelationColumn].JoinedTableColumn`\r\n- Creates one-to-many relationship from root table to related entities\r\n- Can be chained with forward references for multi-step relationships\r\n\r\nExample 1: \"accounts which have at least one contact\".\r\nIn this example:\r\nroot table is `Account`\r\njoined table is `Contact`\r\nlookup column of joined table that refers to root table is `AccountId` (in Contact table)\r\ncolumn of joined table to aggregate is `Id` (in Contact table)\r\nso, the config will be:\r\n{\r\n\"columnPath\": \"[Contact:AccountId].Id\",\r\n\"aggregationType\": \"EXISTS\",\r\n}\r\n\r\nExample 2: \"accounts where contacts average age < 30\".\r\nIn this example:\r\nroot table is `Account`\r\njoined table is `Contact`\r\nlookup column of joined table that refers to root table is `AccountId` (in Contact table)\r\ncolumn of joined table to aggregate is `Age` (in Contact table)\r\nso, the config will be:\r\n{\r\n\"columnPath\": \"[Contact:AccountId].Age\",\r\n\"aggregationType\": \"AVG\",\r\n\"comparisonType\": \"LESS\",\r\n\"aggregationValue\": \"30\"\r\n}\r\n\r\nExample 3 (with subFilters): \"accounts which have at least one contact older than 30\".\r\nIn this example:\r\nroot table is `Account`\r\njoined table is `Contact`\r\nlookup column of joined table that refers to root table is `AccountId` (in Contact table)\r\ncolumn of joined table to aggregate is `Id` (in Contact table)\r\nalso it will have subFilter on `Age` column in joined table `Contact`\r\nso, the config will be:\r\n{\r\n\"columnPath\": \"[Contact:AccountId].Id\",\r\n\"aggregationType\": \"EXISTS\",\r\n\"subFilters\": {\r\n\"logicalOperation\": \"AND\",\r\n\"filters\": [\r\n{ \"columnPath\": \"Age\", \"comparisonType\": \"GREATER\", \"value\": 30 }\r\n]\r\n}\r\nPay attention columnPath in subFilters does not use bracket notation, because you are already inside the context of the related entity.\r\n\r\nExample 4: \"employees who have at least one assigned case\".\r\nIn this example:\r\nroot table is `Employee`\r\njoined table is `Case`\r\n`Employee` and `Case` are not related directly, but they are related through `Contact` table\r\n`Employee` refers to `Contact` through `ContactId` column (forward reference)\r\n`Case` refers to `Contact` through `AssigneeId` column (backward reference)\r\nso, the config will be:\r\n{\r\n\"columnPath\": \"ContactId.[Case:AssigneeId].Id\",\r\n\"aggregationType\": \"EXISTS\"\r\n}\r\nThis creates a mixed reference: forward to Contact, then backward to Cases assigned to that Contact.",
+      "properties": {
+        "aggregationType": {
+          "$ref": "#/$defs/BackwardReferenceAggregationType"
+        },
+        "aggregationValue": {
+          "description": "value to compare with the result of aggregation.\r\nAlways provide a value for aggregation types COUNT, SUM, MIN, MAX, AVG.\r\nExample 1 (COUNT): Show count of accounts which have more than 10 cases - value will be \"10\".\r\nExample 2 (AVG): Show count of accounts which have first created case in 2023 - value will be \"2023-01-01T00:00:00Z\"\r\nExample 3 (EXISTS): show count of accounts which has cases - value is not needed,\r\nbecause user does not specify any value to compare with and asked\r\ncheck if any row satisfies the condition.",
+          "type": "string"
+        },
+        "columnPath": {
+          "description": "Column path that defines the relationship and data access route for backward reference.\r\nUses bracket notation format: \"[JoinedTable:JoinedTableRelationColumn].JoinedTableColumn\".\r\nCan be chained with forward references for multi-step relationships.\r\n\r\n**Pattern Examples:**\r\n- Simple backward reference: \"[Contact:AccountId].Id\" (find Contacts where AccountId equals current Account's ID)\r\n- Mixed reference: \"ContactId.[Case:AssigneeId].Id\" (forward to Contact → backward to Cases assigned to that Contact)\r\n\r\nExample 1: \"accounts which have more than 10 contacts\".\r\nIn this example:\r\nroot table is `Account`\r\njoined table is `Contact`\r\nlookup column of joined table that refers to root table is `AccountId` (in Contact table)\r\ncolumn of joined table to aggregate is `Id` (in Contact table)\r\nso, the columnPath will be \"[Contact:AccountId].Id\".",
+          "type": "string"
+        },
+        "comparisonType": {
+          "$ref": "#/$defs/BackwardReferenceComparisonType"
+        },
+        "subFilters": {
+          "$ref": "#/$defs/FilterGroup"
+        }
+      },
+      "required": [
+        "columnPath",
+        "comparisonType",
+        "aggregationType",
+        "aggregationValue",
+        "subFilters"
+      ],
+      "type": "object"
+    },
+    "BooleanComparisonFilter": {
+      "additionalProperties": false,
+      "properties": {
+        "columnPath": {
+          "description": "name of column to filter by. By default, it is a column name, for example \"Age\"",
+          "type": "string"
+        },
+        "comparisonType": {
+          "const": "EQUAL",
+          "type": "string"
+        },
+        "value": {
+          "description": "Boolean value to compare with. For example, true or false",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "columnPath",
+        "comparisonType",
+        "value"
+      ],
+      "type": "object"
+    },
+    "ChartType": {
+      "enum": [
+        "area",
+        "bar",
+        "doughnut",
+        "horizontal-bar",
+        "line",
+        "pie",
+        "scatter",
+        "spline",
+        "tsfunnel"
+      ],
+      "type": "string"
+    },
+    "DateComparisonFilter": {
+      "additionalProperties": false,
+      "description": "Filter for comparing columns with date.\r\nUse it when you need to compare with absolute date. Do not use it for relative dates",
+      "properties": {
+        "columnPath": {
+          "description": "name of column to filter by. By default, it is a column name, for example \"Age\"",
+          "type": "string"
+        },
+        "comparisonType": {
+          "$ref": "#/$defs/DateComparisonType"
+        },
+        "value": {
+          "description": "Date in ISO format, for example \"2023-10-01T00:00:00Z\"",
+          "type": "string"
+        }
+      },
+      "required": [
+        "columnPath",
+        "comparisonType",
+        "value"
+      ],
+      "type": "object"
+    },
+    "DateComparisonType": {
+      "enum": [
+        "EQUAL",
+        "NOT_EQUAL",
+        "LESS",
+        "LESS_OR_EQUAL",
+        "GREATER",
+        "GREATER_OR_EQUAL"
+      ],
+      "type": "string"
+    },
+    "FilterGroup": {
+      "additionalProperties": false,
+      "description": "Group of filters, which can be combined by logical operation.\r\nFilter group can contain other filter groups.",
+      "properties": {
+        "backwardReferenceFilters": {
+          "description": "if you need to filter by backward reference relation, use this property.",
+          "items": {
+            "$ref": "#/$defs/BackwardReferenceFilter"
+          },
+          "type": "array"
+        },
+        "filters": {
+          "items": {
+            "anyOf": [
+              {
+                "$ref": "#/$defs/BooleanComparisonFilter"
+              },
+              {
+                "$ref": "#/$defs/MathComparisonFilter"
+              },
+              {
+                "$ref": "#/$defs/StringComparisonFilter"
+              },
+              {
+                "$ref": "#/$defs/DateComparisonFilter"
+              },
+              {
+                "$ref": "#/$defs/RelativeDateComparisonFilter"
+              },
+              {
+                "$ref": "#/$defs/LookupComparisonFilter"
+              },
+              {
+                "$ref": "#/$defs/IsNullComparisonFilter"
+              },
+              {
+                "$ref": "#/$defs/IsNotNullComparisonFilter"
+              },
+              {
+                "$ref": "#/$defs/FilterGroup"
+              }
+            ]
+          },
+          "type": "array"
+        },
+        "logicalOperation": {
+          "description": "Logical operation to combine filters in the group. Default is \"AND\"",
+          "enum": [
+            "AND",
+            "OR"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "filters",
+        "backwardReferenceFilters",
+        "logicalOperation"
+      ],
+      "type": "object"
+    },
+    "IsNotNullComparisonFilter": {
+      "additionalProperties": false,
+      "description": "Filter for comparing columns with not null values.\r\nUse it when you need to check if a column is not null.",
+      "properties": {
+        "columnPath": {
+          "description": "name of column to filter by. By default, it is a column name, for example \"Age\"",
+          "type": "string"
+        },
+        "comparisonType": {
+          "const": "IS_NOT_NULL",
+          "type": "string"
+        }
+      },
+      "required": [
+        "columnPath",
+        "comparisonType"
+      ],
+      "type": "object"
+    },
+    "IsNullComparisonFilter": {
+      "additionalProperties": false,
+      "description": "Filter for comparing columns with null values.\r\nUse it when you need to check if a column is null.",
+      "properties": {
+        "columnPath": {
+          "description": "name of column to filter by. By default, it is a column name, for example \"Age\"",
+          "type": "string"
+        },
+        "comparisonType": {
+          "const": "IS_NULL",
+          "type": "string"
+        }
+      },
+      "required": [
+        "columnPath",
+        "comparisonType"
+      ],
+      "type": "object"
+    },
+    "LLMChartWidgetConfig": {
+      "additionalProperties": false,
+      "description": "Configuration for the LLM chart Widget.\nDefines how the widget should be displayed, including title, theme, scales, series data of the widget,\nseriesOrder and layout.",
+      "properties": {
+        "scales": {
+          "additionalProperties": false,
+          "description": "Configuration for the scales used in the chart. all properties are optional,\nand defined only if user modified them in the chart settings, or said to do it explicitly.",
+          "properties": {
+            "stacked": {
+              "default": false,
+              "description": "The type of the scale used in the chart.\nDetermines how the data will be visualized",
+              "type": "boolean"
+            },
+            "xAxis": {
+              "additionalProperties": false,
+              "description": "The axis configuration for the chart.\nDefines how the X axis will be rendered and their properties.\nUse StringFormat if x axis shows dates and times.",
+              "properties": {
+                "formatting": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "type": {
+                      "enum": [
+                        "string",
+                        "number"
+                      ],
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type"
+                  ],
+                  "type": "object"
+                }
+              },
+              "required": [
+                "formatting"
+              ],
+              "type": "object"
+            },
+            "yAxis": {
+              "additionalProperties": false,
+              "description": "The axis configuration for the chart.\nDefines how the Y axis will be rendered and their properties.",
+              "properties": {
+                "formatting": {
+                  "additionalProperties": false,
+                  "properties": {
+                    "type": {
+                      "enum": [
+                        "string",
+                        "number"
+                      ],
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type"
+                  ],
+                  "type": "object"
+                }
+              },
+              "required": [
+                "formatting"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "stacked",
+            "xAxis",
+            "yAxis"
+          ],
+          "type": "object"
+        },
+        "series": {
+          "description": "Configuration for the series displayed in the chart.\nContains an array of series configurations, each defining a specific data series.",
+          "items": {
+            "$ref": "#/$defs/LLMSeriesConfig"
+          },
+          "type": "array"
+        },
+        "seriesOrder": {
+          "default": "BY_GROUPING_VALUE(2)",
+          "description": "Defines how the series in the chart are ordered.\nConsists of the ordering function and the direction.\nPossible ordering functions include BY_GROUPING_VALUE, BY_AGGREGATION_VALUE.\nPossible directions are 1 for ascending and 2 for descending.\nExample: BY_GROUPING_VALUE(1), BY_AGGREGATION_VALUE(2).",
+          "type": "string"
+        },
+        "theme": {
+          "$ref": "#/$defs/WidgetTheme"
+        },
+        "title": {
+          "description": "The title text displayed in the widget header.\nIt should start with a capital letter, and all other words should be in lowercase (except proper nouns).\nDo not include time periods, such as \"(Last 2 Years)\", \"(Monthly)\", or similar phrases.",
+          "type": "string"
+        },
+        "type": {
+          "const": "crt.ChartWidget",
+          "description": "The type of the widget.\nUsed to identify the widget type in the system.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "title",
+        "theme",
+        "scales",
+        "series",
+        "seriesOrder"
+      ],
+      "type": "object"
+    },
+    "LLMSeriesConfig": {
+      "additionalProperties": false,
+      "description": "Configuration for describing the series in any widget, which can contain series.\r\nIt contains information about the data provided for the series, its type, style, and other properties.\r\neach series is can have its own configuration, filtering and aggregation settings.",
+      "properties": {
+        "color": {
+          "$ref": "#/$defs/WidgetColor"
+        },
+        "data": {
+          "additionalProperties": false,
+          "description": "Configuration for series data handling and presentation.\r\nDefines how data is fetched, processed and formatted before being displayed in the series.",
+          "properties": {
+            "filters": {
+              "$ref": "#/$defs/FilterGroup"
+            },
+            "formatting": {
+              "$ref": "#/$defs/NumberFormat"
+            },
+            "from": {
+              "description": "The name of the schema from which to provide data.\r\nExample: \"Account\"",
+              "type": "string"
+            },
+            "grouping": {
+              "description": "Configuration for grouping series data by a specific value from table columns.\r\nConsists of the grouping function and the column to grouping.\r\nIt should be the same for all series.\r\nPossible grouping function: BY_VALUE, BY_DATE_PART.\r\nExample by value: BY_VALUE(Amount).\r\nExample by date part: BY_DATE_PART(CreatedOn|Month).\r\nPossible date parts include: Year, Month, Day, Hour, Week.\r\nPossible date parts combinations: Month|Year, Day|Month|Year, Day|Month.\r\nif used with a reference table, it can be like this: BY_VALUE(Account.Balance).\r\nDo not mix functions together.",
+              "type": "string"
+            },
+            "select": {
+              "description": "Describes aggregation configuration for the widget data.\r\nConsists of the aggregation function and the column to aggregate.\r\nPossible aggregation functions:\r\n- SUM\r\n- COUNT\r\n- AVG\r\n- MIN\r\n- MAX\r\nExample: COUNT(Id), SUM(Amount), AVG(Price). if used with a reference table, it can be like this:\r\nSUM(Account.Balance), COUNT(AnnualRevenue.FromBaseCurrency)",
+              "type": "string"
+            }
+          },
+          "required": [
+            "select",
+            "from",
+            "filters",
+            "formatting",
+            "grouping"
+          ],
+          "type": "object"
+        },
+        "label": {
+          "description": "The label for the series, displayed in the chart legend and popup.",
+          "type": "string"
+        },
+        "type": {
+          "$ref": "#/$defs/ChartType"
+        }
+      },
+      "required": [
+        "type",
+        "color",
+        "label",
+        "data"
+      ],
+      "type": "object"
+    },
+    "LookupComparisonFilter": {
+      "additionalProperties": false,
+      "properties": {
+        "columnPath": {
+          "description": "name of column to filter by. By default, it is a column name, for example \"Age\"",
+          "type": "string"
+        },
+        "comparisonType": {
+          "$ref": "#/$defs/LookupComparisonType"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          ],
+          "description": "Id of the lookup value to compare with or array of ids.\r\nExamples:\r\n- \"59970ea3-1ee6-4b13-af5a-26908a5e3de4\"\r\n- [\"59970ea3-1ee6-4b13-af5a-26908a5e3de4\", \"69111d53-5d21-4133-913f-2d499c642d79\"]"
+        }
+      },
+      "required": [
+        "columnPath",
+        "comparisonType",
+        "value"
+      ],
+      "type": "object"
+    },
+    "LookupComparisonType": {
+      "description": "Allows to compare column with lookup values (single or multiple).\r\nExample of comparing column with multiple lookup values:\r\n1. In case \"from USA or UK\"\r\nfilter should be `{\r\n\"columnPath\": \"CountryId\",\r\n\"comparisonType\": \"EQUAL\" ,\r\n\"value\": [\"f7bf32c8-f36b-1410-fc98-00155d043204\", \"69111d53-5d21-4133-913f-2d499c642d79\"]\r\n}`",
+      "enum": [
+        "EQUAL",
+        "NOT_EQUAL",
+        "EXISTS",
+        "NOT_EXISTS"
+      ],
+      "type": "string"
+    },
+    "MathComparisonFilter": {
+      "additionalProperties": false,
+      "description": "Filter for comparing columns with numbers. Use it when you need to compare numbers.",
+      "properties": {
+        "columnPath": {
+          "description": "name of column to filter by. By default, it is a column name, for example \"Age\"",
+          "type": "string"
+        },
+        "comparisonType": {
+          "$ref": "#/$defs/MathComparisonType"
+        },
+        "value": {
+          "description": "Number value to compare with. For example, 125",
+          "type": "number"
+        }
+      },
+      "required": [
+        "columnPath",
+        "comparisonType",
+        "value"
+      ],
+      "type": "object"
+    },
+    "MathComparisonType": {
+      "enum": [
+        "EQUAL",
+        "NOT_EQUAL",
+        "LESS",
+        "LESS_OR_EQUAL",
+        "GREATER",
+        "GREATER_OR_EQUAL"
+      ],
+      "type": "string"
+    },
+    "NumberFormat": {
+      "additionalProperties": false,
+      "description": "Configuration for number formatting operations.\r\nExtends the base Format interface with number-specific formatting options.\r\nUsed to define how numeric values should be formatted, displayed, and presented in the system.",
+      "properties": {
+        "decimalPrecision": {
+          "default": 0,
+          "description": "Number of decimal places to display.\r\nControls the rounding and display precision of numeric values.",
+          "type": "number"
+        },
+        "decimalSeparator": {
+          "default": ".",
+          "description": "Character used to separate the integer part from the decimal part of a number.\r\nCommon values include \".\" (period) or \",\" (comma) depending on locale.",
+          "type": "string"
+        },
+        "thousandAbbreviation": {
+          "additionalProperties": false,
+          "description": "Configuration for abbreviating large numbers.\r\nWhen enabled, large numbers like 1,000,000 might be displayed as \"1M\".",
+          "properties": {
+            "enabled": {
+              "description": "Whether number abbreviation is enabled.\r\nWhen true, large numbers will be abbreviated using suffixes (K, M, B, etc.).",
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "enabled"
+          ],
+          "type": "object"
+        },
+        "thousandSeparator": {
+          "default": ",",
+          "description": "Character used to group digits in the integer part.\r\nCommon values include ',' (comma) or '.' (period) or ' ' (space) depending on locale.\r\nFor example, with thousandSeparator: ',', the number 1000000 would display as \"1,000,000\".",
+          "type": "string"
+        },
+        "trimTrailingZeros": {
+          "description": "Whether to remove trailing zeros in the decimal part.\r\nWhen true, formats like \"10.00\" would be displayed as \"10\".",
+          "type": "boolean"
+        },
+        "type": {
+          "const": "number",
+          "description": "Identifies this as a number format configuration.\r\nAlways set to 'number' to indicate the format type.",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "decimalPrecision",
+        "decimalSeparator",
+        "thousandAbbreviation",
+        "thousandSeparator",
+        "trimTrailingZeros"
+      ],
+      "type": "object"
+    },
+    "RelativeDateComparisonFilter": {
+      "additionalProperties": false,
+      "description": "Filter for comparing columns with date.\r\nUse it when you need to compare with relative date. Do not use it for absolute dates.",
+      "properties": {
+        "columnPath": {
+          "description": "name of column to filter by. By default, it is a column name, for example \"Age\"",
+          "type": "string"
+        },
+        "comparisonType": {
+          "$ref": "#/$defs/RelativeDateComparisonType"
+        },
+        "value": {
+          "description": "function-calling string, which is composed of relative date parts.\r\nPart 1 can be \"PREVIOUS\", \"CURRENT\" or \"NEXT\",\r\npart 2 can be \"HOUR\", \"DAY\", \"WEEK\", \"MONTH\", \"QUARTER\", \"HALFYEAR\", \"YEAR\".\r\nBetween them is underscore \"_\". part 3 is call of the function with number as argument\r\nFor example, \"PREVIOUS_WEEK()\" or \"NEXT_MONTH()\".\r\nNote, Yesterday, Today, Tomorrow are cast to \"PREVIOUS_DAY()\", \"CURRENT_DAY()\" and \"NEXT_DAY()\"\r\nAlso, allowed functions are:\r\nDAY_OF_WEEK(n) - (example: \"DAY_OF_WEEK(2)\" means \"each Monday\"). n - number of day of week starting from Sunday:\r\n1 - Sunday, 2 - Monday, 3 - Tuesday, 4 - Wednesday, 5 - Thursday, 6 - Friday, 7 - Saturday.\r\nDAY_OF_MONTH(n) - (example: \"DAY_OF_MONTH(14)\" means \"each 14th day of the month\"),\r\nMONTH(n) - (example: \"MONTH(5)\" means \"each May\"),\r\nEXACT_YEAR(n) - (example: \"EXACT_YEAR(1985)\" means \"in 1985\"),\r\nEXACT_TIME(h,m,s) - (example: \"EXACT_TIME(15,20,0)\" means \"at 15:20:00\")\r\nWITHIN_PREV_HOURS(n), WITHIN_NEXT_HOURS(n) - means \"within the last n hours\" and \"within the next n hours\" respectively.\r\nWITHIN_PREV_DAYS(n), WITHIN_NEXT_DAYS(n) - means \"within the last n days\" and \"within the next n days\" respectively.\r\nANNIVERSARY_TODAY() - means \"each year, today\"\r\nANNIVERSARY_EXACTLY_IN_DAYS(n) - means \"each year, exactly in n days after today\"\r\nANNIVERSARY_WITHIN_NEXTDAYS(n) - means \"each year, within the next n days\"\r\nANNIVERSARY_WITHIN_PREVDAYS(n) - means \"each year, within the previous n days\"",
+          "type": "string"
+        }
+      },
+      "required": [
+        "columnPath",
+        "comparisonType",
+        "value"
+      ],
+      "type": "object"
+    },
+    "RelativeDateComparisonType": {
+      "description": "Specifics of working with periods:\r\nIf value is period (PREVIOUS_YEAR(), CURRENT_MONTH(), etc.),\r\nuse comparisonType \"EQUAL\" to check if the date is in that period.\r\nExample:\r\n1. In case \"created in the previous month\"\r\n\tfilter should be `{ \"columnPath\": \"CreatedOn\", \"comparisonType\": \"EQUAL\" , \"value\": \"PREVIOUS_MONTH()\" }`",
+      "enum": [
+        "EQUAL",
+        "NOT_EQUAL",
+        "LESS",
+        "LESS_OR_EQUAL",
+        "GREATER",
+        "GREATER_OR_EQUAL"
+      ],
+      "type": "string"
+    },
+    "StringComparisonFilter": {
+      "additionalProperties": false,
+      "description": "Filter for comparing values.\r\nUse it when you need to compare strings. Do not use for dates.\r\nDo not use it for lookup filters.\r\nBut if lookup Id search fails, use lookup display name columns with format \"LookupEntity.DisplayColumn\".\r\n*Never* use \"CONTAIN\" with lookup column.",
+      "properties": {
+        "columnPath": {
+          "description": "name of column to filter by. By default, it is a column name, for example \"Age\"",
+          "type": "string"
+        },
+        "comparisonType": {
+          "$ref": "#/$defs/StringComparisonType"
+        },
+        "value": {
+          "description": "String value to compare with. For example, \"John Doe\"",
+          "type": "string"
+        }
+      },
+      "required": [
+        "columnPath",
+        "comparisonType",
+        "value"
+      ],
+      "type": "object"
+    },
+    "StringComparisonType": {
+      "enum": [
+        "EQUAL",
+        "NOT_EQUAL",
+        "START_WITH",
+        "NOT_START_WITH",
+        "CONTAIN",
+        "NOT_CONTAIN",
+        "END_WITH",
+        "NOT_END_WITH",
+        "EXISTS",
+        "NOT_EXISTS"
+      ],
+      "type": "string"
+    },
+    "WidgetColor": {
+      "description": "Color options available for widgets in the system.\r\nEach color has a specific semantic use case in dashboards and visualizations.",
+      "enum": [
+        "burnt-coral",
+        "cadmium-red",
+        "forest-green",
+        "steel-blue",
+        "vivid-purple",
+        "rusty-orange",
+        "dark-turquoise",
+        "green",
+        "light-blue",
+        "celestial-blue",
+        "bright-red",
+        "orange-red",
+        "orange",
+        "light-green",
+        "turquoise",
+        "dark-green",
+        "red",
+        "coral",
+        "purple",
+        "violet",
+        "blue",
+        "navy-blue",
+        "dark-blue"
+      ],
+      "type": "string"
+    },
+    "WidgetTheme": {
+      "description": "Defines the visual theme style for widgets.\r\nEach theme affects how the widget is visually presented in the UI. when used in {LLMChartWidgetConfig.theme} use by default {without-fill}.",
+      "enum": [
+        "full-fill",
+        "without-fill",
+        "partial-fill",
+        "glassmorphism",
+        "transparent"
+      ],
+      "type": "string"
+    }
+  }
+}

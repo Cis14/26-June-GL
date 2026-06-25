@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtFiscalPeriods/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtFiscalPeriods/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtFiscalPeriods/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtFiscalPeriods/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtFiscalPeriods/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFiscalPeriods/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFiscalPeriods/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFiscalPeriods/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFiscalPeriods/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFiscalPeriods/Resources/**" />
+		<None Remove="$(PkgPath)/CrtFiscalPeriods/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtFiscalPeriods/Data/**" />
+		<None Remove="$(PkgPath)/CrtFiscalPeriods/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtFiscalPeriods/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtFiscalPeriods/Resources/**" />
+  </ItemGroup>
+</Project>

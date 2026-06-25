@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "تحميل..."
+  },
+  "CopyClipboard": {
+    "Copied": "منسوخ"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "لا يوجد شيء لإظهاره حتى الآن ",
+      "Subhead": "يرجى إضافة البيانات التالية أولًا"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "بدأت الدردشة: {0} بواسطة",
+        "EndDate": "اكتملت الدردشة: {0} بواسطة"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "تحميل"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "خطأ",
+      "Default": "لمحة عن الأدوات"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "لا توجد صفحة لسجلات جديدة أو موجودة. يجب على مسؤول النظام التحقق من زر الإعدادات في واجهة المستخدم الحر",
+    "GoToEntityDesignerMessage": "لإعداد الصفحات، اذهب إلى الرابط: {0}"
+  }
+}

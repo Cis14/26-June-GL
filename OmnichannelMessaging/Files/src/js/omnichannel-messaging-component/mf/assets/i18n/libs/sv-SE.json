@@ -1,0 +1,584 @@
+{
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Översätt",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Laddar..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nothing to show yet ",
+      "Subhead": "Please add data first"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat started: {0} by",
+        "EndDate": "Chat completed: {0} by"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "The channel cannot be deleted, there are active chats or chats on distribution. Please complete the chats first and try again."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Laddar"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Fel",
+      "Default": "Tips"
+    }
+  },
+  "Input": {
+    "Readonly": "Ej redigerbart fält",
+    "ShowPassword": "Show password",
+    "HidePassword": "Hide password"
+  },
+  "Carousel": {
+    "NoData": "Inga data",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "Ej redigerbart fält",
+    "InvalidValueSyntax": "Vänligen välj värde ur listan",
+    "NoData": "Inga data",
+    "EmptyDisplayValue": "No display value",
+    "AddNewRecord": "Lägg till ny",
+    "IsGoToSourceAllowedTooltip": "Go to record list",
+    "CheckAll": "Check all",
+    "ClearAll": "Rensa alla",
+    "SelectValue": "Select value",
+    "ClearValue": "Rensa värde",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "Add columns",
+    "ColumnToolbar": {
+      "Hide": "Dölj",
+      "Freeze": "Freeze",
+      "Unfreeze": "Unfreeze",
+      "Rename": "Byt namn",
+      "Title": "Column actions",
+      "Edit": "Egenskaper",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "RowToolbar": {
+      "Open": "Öppna",
+      "Copy": "Kopiera",
+      "Delete": "Radera",
+      "RunBusinessProcess": "Run business process",
+      "Title": "Row actions"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "List actions",
+      "DataGridSettingsLabel": "General list settings",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Återställ standardinställningar",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "Inga data",
+    "NoColumns": "No columns added",
+    "Hints": {
+      "Sort": "Sort",
+      "StartEditing": "Redigera",
+      "ReadonlyCell": "Ej redigerbart fält",
+      "CancelChanges": "Discard",
+      "AddItem": "Lägg till ny post",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "SaveItemsChanges": "Save all",
+    "CancelItemsChanges": "Discard",
+    "AddItem": "Ny",
+    "BulkActions": {
+      "MoreActions": "More actions",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "Välj alla",
+      "ClearSelection": "Rensa val",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "Column not found",
+    "ColumnSticky": "Frozen column",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Ändra bredd",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "Inga data",
+    "MenuActions": "Åtgärder",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Ja",
+      "False": "Nej"
+    }
+  },
+  "FileInput": {
+    "Delete": "Radera",
+    "Cancel": "Avbryt",
+    "Attach": "Attach",
+    "FileIcon": "File icon",
+    "EmptyFileName": "Empty file name",
+    "MaxFileSizeLimitReached": "Max file size limit is reached ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Spara",
+    "CancelButton": "Avbryt",
+    "ColumnProperties": "Kolumnegenskaper",
+    "Title": "Titel",
+    "FilterHeader": "Hur filtrerar man poster",
+    "SortingHeader": "Sort records",
+    "SortColumn": "Sortera per",
+    "WhatToDisplay": "Vad som visas",
+    "AggregationColumn": "Kolumn",
+    "SortOrder": "Sort order",
+    "SetupFilters": "Setup filters",
+    "EditFilters": "Edit filters"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Drop files here",
+      "Description": "or use",
+      "Upload": "Upload"
+    },
+    "RowToolbar": {
+      "Download": "Download"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "kl",
+    "TodayAt": "Today at {0}",
+    "YesterdayAt": "Igår kl. {0}",
+    "DayBeforeYesterdayAt": "I förrgår kl. {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Open link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Skicka e-post"
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "Upload",
+    "Clear": "Rensa",
+    "Change": "Ändra",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mth",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Close tab"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Kör process",
+      "SuccessMessage": "The process has been successfully run",
+      "NotConfiguredQuickProcessesMessage": "Quick processes run is not yet configured",
+      "OtherProcessesCaption": "Other processes"
+    },
+    "Settings": {
+      "Title": "Inställningar"
+    },
+    "UserProfile": {
+      "Title": "Din profil",
+      "MenuItems": {
+        "Profile": "Din profil",
+        "Logout": "Avsluta",
+        "OrganizationProfile": "Organization profile"
+      }
+    },
+    "New": {
+      "Title": "Ny",
+      "NoItemTitle": "Quick records creation is not yet configured"
+    },
+    "Help": {
+      "Title": "Behöver hjälp",
+      "SupportSubject": "Fråga om",
+      "MenuItems": {
+        "OnlineHelp": "Online-hjälp",
+        "NeedHelp": "Behöver hjälp",
+        "ExternalAccess": "Ge tillgång till support",
+        "ReleaseNotes": "Release notes"
+      },
+      "AccessGrantedMessage": "Tillgång given",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication  panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications  panel"
+    },
+    "Logo": {
+      "Title": "Go to desktop"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfiguration"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions panel"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Compilation error",
+      "WorkspaceExplorerTemplate": "To view a list of compilation errors and fix them, visit <a href ='{0}' target='_blank'>Configuration section</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigation panel"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Sök..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Collapse navigation panel",
+      "ExpandCaption": "Expand navigation panel"
+    },
+    "SearchResultsCaption": "Sökresultat",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Läs mer"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passed",
+    "timeBeforeCountStartTpl": "{0} before countdown begins",
+    "overdueTpl": "{0} overdue",
+    "timeLeftTpl": "{0} left",
+    "timeIsUpTpl": "Time is up",
+    "waitingForStartDateTpl": "Waiting for start date",
+    "dateNotSet": "0hr 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Alla",
+      "SelectMenuLabel": "Search by column",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Ja",
+    "No": "Nej",
+    "Save": "Spara",
+    "DoNotSave": "Don't save",
+    "Cancel": "Avbryt",
+    "Delete": "Ta bort",
+    "Close": "Stäng",
+    "Notification": "Avisering",
+    "Overwrite": "Overwrite",
+    "Clear": "Rensa",
+    "Restore": "Restore",
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Sparades framgångsrikt",
+      "ErrorOnSave": "Error when trying to apply changes"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" desktop?",
+        "Error": {
+          "Deletion": "Error during desktop deletion",
+          "Configuration": "Error during configuration build"
+        },
+        "Success": "Desktop \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Sök..."
+  },
+  "AllowedResults": {
+    "Caption": "Allowed results",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "License required"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Lägg till tagg",
+    "CreateNewTagButtonCaption": "Create a new tag"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "You have unsaved changes that will be lost. Continue?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Edit record",
+    "DeleteItemActionButtonCaption": "Radera post",
+    "NoData": "Inga data"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Inga data",
+      "CloseButtonTitle": "Stäng"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "Ta bort"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "The component displays hints and instructions for users to access information from the knowledge base for specific dynamic case stages",
+    "Placeholder": {
+      "Title": "No relevant playbook articles are found",
+      "Description": "Please set up a relevant article for the current dynamic case stage in the Playbooks section"
+    },
+    "Actions": {
+      "Back": "Tillbaka",
+      "OpenInDialog": "Open in modal window"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Stäng",
+        "OpenPage": "Open in new tab"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Inga data",
+    "Boolean": {
+      "Yes": "Ja",
+      "No": "Nej"
+    },
+    "String": {
+      "Placeholder": "Enter text"
+    },
+    "Numeric": {
+      "Placeholder": "Enter number",
+      "To": "up to",
+      "MaxValueError": "Value is above max value",
+      "MinValueError": "Value is below min value"
+    }
+  },
+  "Conversation": {
+    "Caption": "Konversation",
+    "Copilot": {
+      "TypingMessage": "Generating response",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "Ta bort",
+    "Export": "Expotera till Excel",
+    "AddTag": "Lägg till tagg",
+    "RemoveTag": "Remove tag",
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "Välj alla",
+      "ClearSelection": "Rensa val"
+    },
+    "Merge": "Slå samman"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Nummer"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Kollapsa",
+    "Expand": "Expandera"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progress bar"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Chatt status",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "Det finns inga poster som matchar filterkriterierna",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "There is no page for new or existing record. System administrator must check the button settings in the Freedom UI",
+    "GoToEntityDesignerMessage": "To set up pages go to URL: {0}"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Vänligen välj värde ur listan",
+      "SelectionWindowMessage": "Please select value from the list or search using the lookup window"
+    },
+    "Required": {
+      "Message": "Ange ett värde"
+    },
+    "MaxLength": {
+      "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Invalid date and time format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Invalid date format"
+    },
+    "TimePickerSyntax": {
+      "Message": "Invalid time format"
+    },
+    "RegExp": {
+      "Message": "Invalid value format"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}",
+    "RefreshModelDataConflict": "Creatio has new data for the current page. To view it, save or cancel your changes and refresh the page.",
+    "WarningModelsWithCircularDependencies": "Some models have circular dependencies and have not been loaded",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  }
+}

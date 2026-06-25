@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Përzgjidh: {0}",
+        "Selected": "Përzgjedhur:",
+        "SelectButton": "Përzgjidh",
+        "CancelButton": "Anullo",
+        "Blankslate": "Nuk ka të dhëna për këtë objekt"
+    },
+    "SearchInput": {
+        "Placeholder": "Kërko",
+        "Settings": {
+            "Cancel": "Anullo",
+            "Apply": "Apliko",
+            "SearchColumnTemplate": "Kërko sipas kolonës \"{0}\"",
+            "StartsWith": "Fillon me",
+            "Contains": "Përmban",
+            "Equals": "Të barabartë"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Shto",
+        "BlankslateWithFilters": "Nuk ka të dhëna që përputhen me kriteret aktuale të kërkimit. Pastro ose modifiko parametrat e kërkimit"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Prano bisedën",
+            "AlreadyAssignedChat": "Biseda i është caktuar një agjenti tjetër",
+            "NewMessages": "Mesazhe të reja",
+            "ChatIsCompleted": "Biseda përfundoi {datePart} në {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Ti:",
+            "DraftMessageCaption": "Skica:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Kanalet e bisedës nuk janë konfiguruar",
+                    "textStart": "Të lutem kontakto administratorin e sistemit tënd dhe kërkoni të krijo një kanal. Mëso më shumë rreth të punuarit me biseda në ",
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Kanalet e bisedës nuk janë konfiguruar",
+                    "textStart": "Të lutem ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "shto"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    },
+                    "textEnd": " një kanal të ri. Mësoni më shumë rreth të punuarit me biseda në "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Bisedat e reja nuk u shpërndahen agjentëve joaktivë",
+                    "textStart": "Të lutem ndrysho statusin tënd në \"Aktiv\". Mëso më shumë rreth të punuarit me biseda në ",
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Nuk ka biseda në radhë",
+                    "textStart": "Mëso më shumë rreth të punuarit me biseda në ",
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Bisedat e reja nuk u shpërndahen agjentëve joaktivë",
+                    "textStart": "Të lutem ndrysho statusin tënd në \"Aktiv\". Mëso më shumë rreth të punuarit me biseda në ",
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Nuk ka biseda në radhë",
+                    "textStart": "Mëso më shumë rreth të punuarit me biseda në Akademi ",
+                    "academyLink": {
+                        "displayText": "Akademia"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Duket sikur nuk ke biseda në punë. Kontrollo listën e bisedave të reja"
+                }
+            },
+            "Actions": {
+                "Complete": "Bisedë e plotë",
+                "ProcessesDivider": "Procese",
+                "EmptyProcessesList": "Shto një proces biznesi në detajet \"Veprimet e bisedës\"",
+                "SearchFacebook": "Kërko në Facebook",
+                "ContactDuplicates": {
+                    "Show": "Shfaq kontaktet e dublikuara",
+                    "NotFound": "Kontaktet e dublikuara nuk u gjetën",
+                    "Find": "Shfaq kontaktet e dublikuara"
+                },
+                "Back": "Kthehu",
+                "Transfer": "Transfero bisedën",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "Biseda aktive",
+            "Tips": {
+                "BackToChats": "Kthehu në listë"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Mesazh",
+            "AttachFile": "Skedari",
+            "OversizeFiles": "Kufiri maksimal i madhësisë së skedarit prej 25 MB është tejkaluar në skedarin(et) vijues/e\n{0}",
+            "NewChatsTitle": "Biseda të reja"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Biseda filloi: {0} nga",
+                "EndDate": "Biseda përfundoi {0} nga"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Përmbledhje përpara bisedës",
+            "Toggle": {
+                "Opened": "Fshih",
+                "Closed": "Shfaq më shumë"
+            },
+            "Fields": {
+                "Source": "Burimi"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "U gjetën {0} kontakte të ngjashme",
+            "DuplicatesNotFound": "Nuk u gjetën kontakte të ngjashme",
+            "FindDuplication": "Gjej kontakte të ngjashme"
+        },
+        "Transfer": {
+            "ToOperator": "Agjent",
+            "ToQueue": "Radhë",
+            "TransferWindowCaption": "Transfero tek",
+            "OperatorStatusTips": {
+                "Active": "Aktiv",
+                "Inactive": "Joaktiv",
+                "ChatsExceeded": "Bisedat u tejkaluan"
+            },
+            "NoAvailableAgents": "Nuk ka agjentë në dispozicion për të transferuar",
+            "NoAvailableQueues": "Nuk ka radhë në dispozicion për transferim"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Sugjerime modelesh",
+        "SuggestionHint": "Provo të shkruash një fjalë për të filluar kërkimin",
+        "QuickSearchHint": "Shkruaj // për të kërkuar një model",
+        "TemplateSearchCaption": "Modelet e përgjigjeve"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Njoftimet e shfletuesit janë të çaktivizuara. Aktivizo njoftimet për të marrë sinjalizime të reja mesazhesh. Lexo më shumë në ",
+        "splitTextLink": {
+            "href": "https://academy.creatio.com/documents?id=1011",
+            "displayText": "Akademia"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "Translate",
+        "LanguagePlaceholder": "Select language",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

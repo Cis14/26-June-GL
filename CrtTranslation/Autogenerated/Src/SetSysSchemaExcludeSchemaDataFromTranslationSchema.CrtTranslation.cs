@@ -1,0 +1,57 @@
+﻿namespace Terrasoft.Configuration
+{
+
+	using System;
+	using System.Collections.Generic;
+	using System.Collections.ObjectModel;
+	using System.Globalization;
+	using Terrasoft.Common;
+	using Terrasoft.Core;
+	using Terrasoft.Core.Configuration;
+
+	#region Class: SetSysSchemaExcludeSchemaDataFromTranslationSchema
+
+	/// <exclude/>
+	public class SetSysSchemaExcludeSchemaDataFromTranslationSchema : Terrasoft.Core.SourceCodeSchema
+	{
+
+		#region Constructors: Public
+
+		public SetSysSchemaExcludeSchemaDataFromTranslationSchema(SourceCodeSchemaManager sourceCodeSchemaManager)
+			: base(sourceCodeSchemaManager) {
+		}
+
+		public SetSysSchemaExcludeSchemaDataFromTranslationSchema(SetSysSchemaExcludeSchemaDataFromTranslationSchema source)
+			: base( source) {
+		}
+
+		#endregion
+
+		#region Methods: Protected
+
+		protected override void InitializeProperties() {
+			base.InitializeProperties();
+			UId = new Guid("a7adb56f-138d-4551-832f-349d6242a2b2");
+			Name = "SetSysSchemaExcludeSchemaDataFromTranslation";
+			ParentSchemaUId = new Guid("50e3acc0-26fc-4237-a095-849a1d534bd3");
+			CreatedInPackageId = new Guid("b7a8e702-7654-417d-9370-e065acf8f40a");
+			ZipBody = new byte[] { 31,139,8,0,0,0,0,0,4,0,157,84,193,110,219,48,12,61,187,64,255,129,115,7,84,6,2,97,231,102,41,208,45,233,16,96,91,135,37,219,101,216,65,181,153,84,152,44,123,146,156,181,8,242,239,163,101,37,117,140,6,78,122,49,44,146,34,223,35,31,165,69,142,182,20,41,194,28,141,17,182,88,56,254,177,208,11,185,172,140,112,178,208,231,103,235,243,179,168,178,82,47,97,246,100,29,230,195,206,153,127,150,250,239,179,177,157,199,224,33,59,31,127,120,118,213,6,202,53,67,231,232,104,97,212,13,222,67,196,91,161,117,142,178,186,87,50,133,84,9,107,129,28,181,59,125,192,92,76,30,83,85,101,216,28,198,194,137,91,83,228,115,35,180,85,62,17,92,193,116,170,173,19,74,205,82,35,75,55,121,196,180,114,133,1,162,76,137,163,11,131,203,58,238,11,186,135,34,179,87,240,205,200,149,112,216,120,203,230,0,247,69,161,96,106,191,34,102,167,84,103,63,44,26,34,166,49,245,96,170,189,99,82,99,136,162,104,37,12,88,84,100,132,145,55,68,26,255,17,203,218,194,58,87,26,127,68,221,82,85,174,217,109,165,83,250,175,180,99,141,133,223,208,184,140,180,127,88,146,132,96,94,131,98,49,129,110,33,139,147,161,247,26,116,149,209,161,60,111,154,67,124,132,18,230,189,212,238,154,37,48,26,193,59,31,188,217,239,137,117,166,30,236,39,116,125,109,8,147,60,174,27,1,81,71,47,156,202,252,20,170,194,78,67,6,16,247,85,143,7,1,42,159,228,165,123,74,94,226,18,230,219,151,138,234,58,33,181,221,9,128,133,38,96,207,197,246,168,67,108,214,4,215,155,208,119,59,204,113,86,42,233,24,105,227,215,111,88,195,229,224,18,54,3,152,121,0,222,117,87,214,193,150,127,199,188,88,161,39,59,209,228,70,187,85,66,208,20,213,188,6,203,231,70,230,108,167,146,121,113,67,251,248,196,246,133,209,1,203,183,29,240,122,106,140,241,94,71,47,80,103,205,74,29,218,47,191,202,161,253,205,90,175,10,153,65,208,222,113,34,145,11,96,111,94,177,143,157,108,219,116,129,109,195,124,227,191,71,14,150,166,119,194,2,116,202,15,219,149,86,181,186,135,59,118,65,178,196,177,82,234,206,248,105,178,94,153,237,8,249,108,4,174,53,166,192,14,80,89,132,208,192,211,5,127,58,132,183,241,186,239,210,102,112,0,230,193,241,116,159,7,250,25,227,226,245,47,132,7,187,19,114,20,189,32,101,178,111,254,3,205,179,156,25,75,7,0,0 };
+		}
+
+		#endregion
+
+		#region Methods: Public
+
+		public override void GetParentRealUIds(Collection<Guid> realUIds) {
+			base.GetParentRealUIds(realUIds);
+			realUIds.Add(new Guid("a7adb56f-138d-4551-832f-349d6242a2b2"));
+		}
+
+		#endregion
+
+	}
+
+	#endregion
+
+}
+

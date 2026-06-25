@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Izberi: {0}",
+        "Selected": "Izbrano:",
+        "SelectButton": "Izberi",
+        "CancelButton": "Prekliči",
+        "Blankslate": "Za ta objekt ni zapisov"
+    },
+    "SearchInput": {
+        "Placeholder": "Iskanje",
+        "Settings": {
+            "Cancel": "Prekliči",
+            "Apply": "Uveljavi",
+            "SearchColumnTemplate": "Išči po stolpcu \"{0}\"",
+            "StartsWith": "Začne z",
+            "Contains": "Vsebuje",
+            "Equals": "Enako"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Dodaj",
+        "BlankslateWithFilters": "Ni zapisov, ki bi ustrezali trenutnim iskalnim kriterijem. Potrebno je počistiti ali spremeniti iskalne parametre"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Sprejmi klepet",
+            "AlreadyAssignedChat": "Klepet je bil dodeljen drugemu agentu",
+            "NewMessages": "Nova sporočila",
+            "ChatIsCompleted": "Klepet končan {datePart} ob {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Vi:",
+            "DraftMessageCaption": "Osnutek:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Kanali klepeta niso konfigurirani",
+                    "textStart": "Potrebno je stopiti v stik s sistemskim skrbnikom in zaprositi za nastavitev kanala. Več informacij o delu s pogovori je na voljo v",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Kanali klepeta niso konfigurirani",
+                    "textStart": "Prosim ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "dodaj"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    },
+                    "textEnd": " nov kanal. Več o delu s pogovori v "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Novi pogovori niso dodeljeni neaktivnim agentom",
+                    "textStart": "Potrebno je spremeniti status na »Aktiven«. Več informacij o delu s pogovori je na voljo v",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Trenutno ni povezanih pogovorov",
+                    "textStart": "Več o delu s pogovori v ",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Novi pogovori niso dodeljeni neaktivnim agentom",
+                    "textStart": "Potrebno je spremeniti status na »Aktiven«. Več informacij o delu s pogovori je na voljo v",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Trenutno ni povezanih pogovorov",
+                    "textStart": "Več informacij o delu s pogovori je na voljo v Akademiji",
+                    "academyLink": {
+                        "displayText": "Akademija"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Zdi se, da v delu ni aktivnih pogovorov. Potrebno je preveriti seznam novih pogovorov"
+                }
+            },
+            "Actions": {
+                "Complete": "Končaj klepet",
+                "ProcessesDivider": "Procesi",
+                "EmptyProcessesList": "Dodaj poslovni proces v podrobnostih \"Dejanja klepeta\"",
+                "SearchFacebook": "Išči na Facebook",
+                "ContactDuplicates": {
+                    "Show": "Prikaži podvojene stike",
+                    "NotFound": "Podvojeni stiki niso najdeni",
+                    "Find": "Najdi podvojene stike"
+                },
+                "Back": "Nazaj",
+                "Transfer": "Prenos klepeta",
+                "Translation": {
+                    "Show": "Prikaži prevajalsko ploščo",
+                    "Hide": "Skrij prevajalsko ploščo"
+                }
+            },
+            "ChatListTitle": "Aktivni klepeti",
+            "Tips": {
+                "BackToChats": "Nazaj na seznam"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Sporočilo",
+            "AttachFile": "Datoteka",
+            "OversizeFiles": "Presežen je največji dovoljeni limit velikosti datoteke: 25 MB. Datoteke: {0}",
+            "NewChatsTitle": "Novi klepeti"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Pogovor se je začel: {0} od",
+                "EndDate": "Konec klepeta: {0} od"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Povzetek pred klepetom",
+            "Toggle": {
+                "Opened": "Skrij",
+                "Closed": "Prikaži več"
+            },
+            "Fields": {
+                "Source": "Vir"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Najdenih {0} podobnih stikov",
+            "DuplicatesNotFound": "Podobni stiki niso najdeni",
+            "FindDuplication": "Najdi podobne stike"
+        },
+        "Transfer": {
+            "ToOperator": "Agent",
+            "ToQueue": "Čakalna vrsta",
+            "TransferWindowCaption": "Prenesi na",
+            "OperatorStatusTips": {
+                "Active": "Aktivno",
+                "Inactive": "Neaktivno",
+                "ChatsExceeded": "Doseženo je bilo največje dovoljeno število pogovorov"
+            },
+            "NoAvailableAgents": "Ni razpoložljivih agentov za prenos",
+            "NoAvailableQueues": "Ni razpoložljivih agentov za prenos"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Predlogi predlog",
+        "SuggestionHint": "Za začetek iskanja je potrebno vpisati besedo",
+        "QuickSearchHint": "Vnesi // za iskanje predloge",
+        "TemplateSearchCaption": "Predlogi odgovora"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Obvestila v brskalniku so onemogočena. Potrebno je omogočiti obvestila za prejemanje opozoril o novih sporočilih. Več informacij je na voljo na",
+        "splitTextLink": {
+            "href": "https://academy.creatio.com/documents?id=1011",
+            "displayText": "Akademija"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Zaznan jezik",
+        "SourceCaption": "Ciljni jezik",
+        "Translate": "Prevedi",
+        "LanguagePlaceholder": "Izberite jezik",
+        "LanguageDetectionError": "Jezika ni bilo mogoče zaznati. Prosimo, izberite jezik.",
+        "TranslationFailedHeader": "Prevod ni uspel. Poskusite znova."
+    }
+}

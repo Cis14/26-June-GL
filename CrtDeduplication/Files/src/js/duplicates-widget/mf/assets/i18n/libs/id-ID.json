@@ -1,0 +1,631 @@
+{
+  "DuplicatesWidgetContent": {
+    "Empty": "Tidak ditemukan catatan duplikat",
+    "FoundDuplicates": "Kemungkinan adanya catatan duplikat: {0}",
+    "Caption": "Duplikat",
+    "ProcessingDuplicates": "Memproses duplikat"
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element.",
+    "NotClickableAriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}."
+  },
+  "ChartLegend": {
+    "Title": "Legend for {{chartTitle}} chart: use arrow keys to navigate and Enter key to open context menu."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} chart for \"{{chartTitle}}\" with {{groupsCount}} groups. The chart showing \"{{groupsNames}}\". X is \"{{xLabel}}\" from {{xMin}} to {{xMax}}. Y is \"{{yLabel}}\" from {{yMin}} to {{yMax}}. Use arrow keys to navigate.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Use Enter key to open context menu."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. The chart type is Gauge. Data ranges from {{ariaMin}} to {{ariaMax}}. The current value is {{ariaValue}}. Use the enter or white space keys to drill down the element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Expand fullscreen for \"{{title}}\" chart.",
+      "CollapseLabel": "Collapse fullscreen for \"{{title}}\" chart."
+    },
+    "Menu": {
+      "Caption": "Menu for \"{{title}}\" chart.",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Memuat..."
+  },
+  "CopyClipboard": {
+    "Copied": "Disalin"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Belum ada yang bisa ditampilkan ",
+      "Subhead": "Silakan tambahkan data terlebih dahulu"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Obrolan dimulai: {0} oleh",
+        "EndDate": "Obrolan selesai: {0} oleh"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Saluran tidak dapat dihapus, ada obrolan aktif atau obrolan yang sedang didistribusikan. Silakan selesaikan obrolan terlebih dahulu dan coba lagi."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Memuat"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Error",
+      "Default": "Tooltip"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Silakan pilih nilai dari daftar",
+      "SelectionWindowMessage": "Pilih nilai dari daftar atau cari menggunakan jendela pencarian"
+    },
+    "Required": {
+      "Message": "Masukkan nilai"
+    },
+    "MaxLength": {
+      "Message": "Panjang teks maksimum terlampaui ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Panjang teks minimum tidak tercapai ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format tanggal dan waktu tidak valid"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format tanggal tidak valid"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format waktu tidak valid"
+    },
+    "RegExp": {
+      "Message": "Format nilai tidak valid"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kode harus dimulai dengan awalan {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Masukkan minimal satu simbol lagi."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Gunakan simbol: a-z, A-Z, 0-9, garis bawah atau tanda hubung. Hanya huruf yang bisa menjadi yang pertama."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolom dihapus",
+    "ValidationErrorMessageSingleErrorField": "Bidang {0}. Kesalahan: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Bidang {0}. Kesalahan: {1}",
+    "RefreshModelDataConflict": "Creatio memiliki data baru untuk halaman saat ini. Untuk melihatnya, simpan atau batalkan perubahan Anda dan perbarui halaman.",
+    "WarningModelsWithCircularDependencies": "Beberapa model memiliki referensi melingkar dan belum dimuat",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Tidak ada halaman untuk catatan baru atau yang sudah ada. Administrator sistem harus memeriksa pengaturan tombol di Freedom UI",
+    "GoToEntityDesignerMessage": "Untuk mengatur halaman, buka URL: {0}"
+  },
+  "Input": {
+    "Readonly": "Kolom yang tidak dapat diubah",
+    "ShowPassword": "Tampilkan kata sandi",
+    "HidePassword": "Sembunyikan kata sandi"
+  },
+  "Carousel": {
+    "NoData": "Tidak ada data",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "Kolom yang tidak dapat diubah",
+    "InvalidValueSyntax": "Pilih nilai dari daftar yang tersedia",
+    "NoData": "Tidak ada data",
+    "EmptyDisplayValue": "Tidak ada nilai tampilan",
+    "AddNewRecord": "Tambah baru",
+    "IsGoToSourceAllowedTooltip": "Pergi ke daftar rekaman",
+    "CheckAll": "Periksa semua",
+    "ClearAll": "Hapus semua",
+    "SelectValue": "Select value",
+    "ClearValue": "Nilai yang jelas",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "Tambah kolom",
+    "ColumnToolbar": {
+      "Hide": "Sembunyikan",
+      "Freeze": "Bekukan",
+      "Unfreeze": "Cairkan",
+      "Rename": "Ganti nama",
+      "Title": "Tindakan kolom",
+      "Edit": "Properti",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "RowToolbar": {
+      "Open": "Buka",
+      "Copy": "Salin",
+      "Delete": "Hapus",
+      "RunBusinessProcess": "Menjalankan proses bisnis",
+      "Title": "Tindakan baris"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "Buat daftar tindakan",
+      "DataGridSettingsLabel": "General list settings",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Muat ulang pengaturan default",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "Tidak ada data",
+    "NoColumns": "Tidak ada kolom yang ditambahkan",
+    "Hints": {
+      "Sort": "Urutkan",
+      "StartEditing": "Ubah",
+      "ReadonlyCell": "Kolom yang tidak dapat diubah",
+      "CancelChanges": "Buang",
+      "AddItem": "Tambah record baru",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "SaveItemsChanges": "Simpan semua",
+    "CancelItemsChanges": "Buang",
+    "AddItem": "Baru",
+    "BulkActions": {
+      "MoreActions": "Tindakan lainnya",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "dipilih",
+      "SelectAll": "Pilih semua",
+      "ClearSelection": "Hapus pilihan",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "Kolom tidak ditemukan",
+    "ColumnSticky": "Kolom beku",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Ubah lebar",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "Tidak ada data",
+    "MenuActions": "Aksi",
+    "DateAdded": "Date added",
+    "SelectItem": "Pilih item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Ya",
+      "False": "Tidak"
+    }
+  },
+  "FileInput": {
+    "Delete": "Hapus",
+    "Cancel": "Batal",
+    "Attach": "Lampirkan",
+    "FileIcon": "Ikon file",
+    "EmptyFileName": "Nama file kosong",
+    "MaxFileSizeLimitReached": "Batas ukuran file maksimum tercapai ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Simpan",
+    "CancelButton": "Batal",
+    "ColumnProperties": "Properti kolom",
+    "Title": "Judul",
+    "FilterHeader": "Bagaimana cara memfilter record",
+    "SortingHeader": "Sort records",
+    "SortColumn": "Urutkan berdasarkan",
+    "WhatToDisplay": "Apa yang harus ditampilkan",
+    "AggregationColumn": "Kolom",
+    "SortOrder": "Urutan penyortiran",
+    "SetupFilters": "Mengatur filter",
+    "EditFilters": "Edit filters"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Letakkan file di sini",
+      "Description": "atau gunakan",
+      "Upload": "Unggah"
+    },
+    "RowToolbar": {
+      "Download": "Download"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "di",
+    "TodayAt": "Hari ini di {0}",
+    "YesterdayAt": "Kemarin pada {0}",
+    "DayBeforeYesterdayAt": "Kemarin lusa pada {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Tidak ada nilai tampilan"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Buka tautan"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Kirim email"
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "Unggah",
+    "Clear": "Hapus",
+    "Change": "Ubah",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mth",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Tutup tab"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Jalankan proses",
+      "SuccessMessage": "Proses telah berhasil dijalankan",
+      "NotConfiguredQuickProcessesMessage": "Proses cepat yang dijalankan belum dikonfigurasi",
+      "OtherProcessesCaption": "Proses lainnya"
+    },
+    "Settings": {
+      "Title": "Pengaturan"
+    },
+    "UserProfile": {
+      "Title": "Profil anda",
+      "MenuItems": {
+        "Profile": "Profil anda",
+        "Logout": "Keluar",
+        "OrganizationProfile": "Profil organisasi"
+      }
+    },
+    "New": {
+      "Title": "Baru",
+      "NoItemTitle": "Pembuatan catatan cepat belum dikonfigurasi"
+    },
+    "Help": {
+      "Title": "Butuh bantuan",
+      "SupportSubject": "Pertanyaan tentang",
+      "MenuItems": {
+        "OnlineHelp": "Bantuan online",
+        "NeedHelp": "Butuh bantuan",
+        "ExternalAccess": "Berikan akses ke dukungan",
+        "ReleaseNotes": "Catatan rilis"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "AccessGrantedMessage": "Akses diberikan",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication  panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications  panel"
+    },
+    "Logo": {
+      "Title": "Buka desktop"
+    },
+    "WorkspaceExplorer": {
+      "Title": "column"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Panel tambahan"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Kesalahan kompilasi",
+      "WorkspaceExplorerTemplate": "Untuk melihat daftar kesalahan kompilasi dan memperbaikinya, kunjungi <a href ='{0}' target='_blank'>Bagian konfigurasi</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Panel navigasi"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Cari..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Tutup panel navigasi",
+      "ExpandCaption": "Perluas panel navigasi"
+    },
+    "SearchResultsCaption": "Hasil pencarian",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Baca lebih banyak"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} lulus",
+    "timeBeforeCountStartTpl": "{0} sebelum hitungan mundur dimulai",
+    "overdueTpl": "{0} terlambat",
+    "timeLeftTpl": "{0} kiri",
+    "timeIsUpTpl": "Waktu habis",
+    "waitingForStartDateTpl": "Menunggu tanggal mulai",
+    "dateNotSet": "0 jam 0 menit"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Semua",
+      "SelectMenuLabel": "Cari berdasarkan kolom",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Ya",
+    "No": "Tidak",
+    "Save": "Simpan",
+    "DoNotSave": "Jangan simpan",
+    "Cancel": "Batal",
+    "Delete": "Hapus",
+    "Close": "Tutup",
+    "Notification": "Notifikasi",
+    "Overwrite": "Overwrite",
+    "Clear": "Hapus",
+    "Restore": "Kembalikan",
+    "ProcessSchemaSavedWithValidationError": "Skema proses berhasil disimpan, tetapi kesalahan validasi mencegahnya untuk dijalankan."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Berhasil disimpan",
+      "ErrorOnSave": "Kesalahan saat mencoba menerapkan perubahan"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Apakah Anda yakin ingin menghapus desktop “{0}”?",
+        "Error": {
+          "Deletion": "Kesalahan saat menghapus desktop",
+          "Configuration": "Kesalahan selama pembuatan konfigurasi"
+        },
+        "Success": "Desktop “{0}” berhasil dihapus"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Cari..."
+  },
+  "AllowedResults": {
+    "Caption": "Hasil yang diizinkan",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "Diperlukan lisensi"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Tambahkan tag",
+    "CreateNewTagButtonCaption": "Buat tag baru"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Perubahan yang belum disimpan akan hilang. Lanjutkan?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Edit catatan",
+    "DeleteItemActionButtonCaption": "Hapus catatan",
+    "NoData": "Tidak ada data"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Tidak ada data",
+      "CloseButtonTitle": "Tutup"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "Hapus"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "Komponen ini menampilkan petunjuk dan instruksi bagi pengguna untuk mengakses informasi dari basis pengetahuan untuk tahapan kasus dinamis tertentu",
+    "Placeholder": {
+      "Title": "Tidak ditemukan artikel pedoman yang relevan",
+      "Description": "Silakan siapkan artikel yang relevan untuk tahap kasus dinamis saat ini di bagian Buku Panduan"
+    },
+    "Actions": {
+      "Back": "Kembali",
+      "OpenInDialog": "Buka di jendela modal"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Tutup",
+        "OpenPage": "Buka di tab baru"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Tidak ada data",
+    "Boolean": {
+      "Yes": "Ya",
+      "No": "Tidak"
+    },
+    "String": {
+      "Placeholder": "Masukkan teks"
+    },
+    "Numeric": {
+      "Placeholder": "Masukkan nomor",
+      "To": "sampai",
+      "MaxValueError": "Nilai di atas nilai maksimal",
+      "MinValueError": "Nilai di atas nilai minimal"
+    }
+  },
+  "Conversation": {
+    "Caption": "Percakapan",
+    "Copilot": {
+      "TypingMessage": "Menghasilkan respons",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "Hapus",
+    "Export": "Ekspor ke Excel",
+    "AddTag": "Tambahkan tag",
+    "RemoveTag": "Hapus tag",
+    "RowsSelection": {
+      "Selected": "dipilih",
+      "SelectAll": "Pilih semua",
+      "ClearSelection": "Hapus pilihan"
+    },
+    "Merge": "Gabung"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Nomor"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Kolaps",
+    "Expand": "Perluas"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progress bar"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Status obrolan",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "Tidak ada catatan yang cocok dengan kriteria filter",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Terjemah",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Panggilan"
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Bulan berikutnya",
+    "AriaPrevMonthLabel": "Bulan sebelumnya",
+    "AriaNextYearLabel": "Tahun berikutnya",
+    "AriaPrevYearLabel": "Tahun sebelumnya",
+    "Readonly": "Kolom yang tidak dapat diubah",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Kalender",
+    "TimePickerIconTitle": "Waktu"
+  }
+}

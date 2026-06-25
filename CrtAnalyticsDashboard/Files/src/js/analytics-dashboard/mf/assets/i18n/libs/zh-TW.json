@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "載入中..."
+  },
+  "CopyClipboard": {
+    "Copied": "複製"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "尚未有任何顯示",
+      "Subhead": "請先新增資料"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "聊天開始：{0}由",
+        "EndDate": "聊天完成：{0}由"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "載入中"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "錯誤",
+      "Default": "工具提示"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "請從清單中選擇值",
+      "SelectionWindowMessage": "請從清單中選擇數值或使用查詢視窗進行搜尋"
+    },
+    "Required": {
+      "Message": "輸入一個值"
+    },
+    "MaxLength": {
+      "Message": "超出最大文字長度 ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "未達到最小文字長度 ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "無效的日期和時間格式"
+    },
+    "DatePickerSyntax": {
+      "Message": "無效日期格式"
+    },
+    "TimePickerSyntax": {
+      "Message": "無效的時間格式"
+    },
+    "RegExp": {
+      "Message": "無效值格式"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "程式碼必須以 {{schemaNamePrefix}} 前綴開頭。",
+      "OnlySchemaNamePrefixMessage": "至少再輸入一個符號。"
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "使用符號：a-z、A-Z、0-9、底線或破折號。只能將字母放在第一位。"
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "值 '{{controlValue}}' 已經存在於 'Code' 欄中。"
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "移除欄位",
+    "ValidationErrorMessageSingleErrorField": "欄位：{0}.錯誤：{1}",
+    "ValidationErrorMessageSeveralErrorFields": "欄位：{0}.錯誤：{1}",
+    "RefreshModelDataConflict": "Creatio 有目前頁面的新資料。若要檢視，請儲存或取消變更，然後重新整理頁面。",
+    "WarningModelsWithCircularDependencies": "某些模型具有循環依賴性，且尚未載入",
+    "LoadingModelErrorMessage": "查詢執行時發生錯誤",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "數據已刷新"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "沒有新記錄或現有記錄的頁面。系統管理員必須檢查 Freedom UI 中的按鈕設定。",
+    "GoToEntityDesignerMessage": "若要設定頁面，請前往 URL：{0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "流程模式已成功儲存，但驗證錯誤導致無法執行。"
+  }
+}

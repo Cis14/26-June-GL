@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtFilterAgent/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtFilterAgent/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtFilterAgent/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtFilterAgent/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtFilterAgent/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFilterAgent/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFilterAgent/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFilterAgent/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFilterAgent/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtFilterAgent/Resources/**" />
+		<None Remove="$(PkgPath)/CrtFilterAgent/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtFilterAgent/Data/**" />
+		<None Remove="$(PkgPath)/CrtFilterAgent/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtFilterAgent/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtFilterAgent/Resources/**" />
+  </ItemGroup>
+</Project>

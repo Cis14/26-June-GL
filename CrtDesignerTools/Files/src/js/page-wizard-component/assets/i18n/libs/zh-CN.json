@@ -1,0 +1,717 @@
+{
+  "CrtIconSelectorComponent": {
+    "Tooltip": "Select icon"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "The business rule is deactivated"
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "常量",
+    "SourceCaption": "常量",
+    "ValuePickerComponent": {
+      "Placeholder": "指定值"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "选择值",
+      "Label": "值",
+      "Actions": {
+        "OkButtonCaption": "确定",
+        "CancelButtonCaption": "取消"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "加载中..."
+  },
+  "CopyClipboard": {
+    "Copied": "已复制"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "还没有要显示的内容 ",
+      "Subhead": "请先添加数据"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat started: {0} by",
+        "EndDate": "Chat completed: {0} by"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "The channel cannot be deleted, there are active chats or chats on distribution. Please complete the chats first and try again."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Loading"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "错误",
+      "Default": "Tooltip"
+    }
+  },
+  "Input": {
+    "Readonly": "不可编辑的字段",
+    "ShowPassword": "显示密码",
+    "HidePassword": "隐藏密码"
+  },
+  "Carousel": {
+    "NoData": "无数据",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "不可编辑的字段",
+    "NoData": "无数据",
+    "EmptyDisplayValue": "沒有显示值",
+    "AddNewRecord": "添加新项",
+    "InvalidValueSyntax": "请从列表中选择值",
+    "IsGoToSourceAllowedTooltip": "转至记录列表",
+    "CheckAll": "全选",
+    "ClearAll": "反选",
+    "SelectValue": "Select value",
+    "ClearValue": "清除缓存",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "添加列",
+    "ColumnToolbar": {
+      "Hide": "隐藏",
+      "Freeze": "冻结",
+      "Unfreeze": "解冻",
+      "Rename": "重命名",
+      "Edit": "属性",
+      "Title": "列操作",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "操作列表",
+      "DataGridSettingsLabel": "General list settings",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Restore default settings",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "RowToolbar": {
+      "Open": "打开",
+      "Copy": "复制",
+      "Delete": "删除",
+      "RunBusinessProcess": "运行业务流程",
+      "Title": "行操作"
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "无数据",
+    "NoColumns": "没有添加列",
+    "Hints": {
+      "Sort": "排序",
+      "StartEditing": "编辑",
+      "ReadonlyCell": "不可编辑的字段",
+      "CancelChanges": "放弃",
+      "AddItem": "添加新记录",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "AddItem": "新建",
+    "SaveItemsChanges": "保存所有",
+    "CancelItemsChanges": "放弃",
+    "BulkActions": {
+      "MoreActions": "More actions",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "Select all",
+      "ClearSelection": "清除所选项",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "未找到列",
+    "ColumnSticky": "冻结列",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Change width",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Dialog": {
+    "Ok": "好",
+    "Yes": "是",
+    "No": "否",
+    "Save": "保存",
+    "DoNotSave": "不保存",
+    "Cancel": "取消",
+    "Delete": "删除",
+    "Close": "关闭",
+    "Notification": "新通知",
+    "Overwrite": "Overwrite",
+    "Clear": "Clear",
+    "Restore": "Restore",
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running."
+  },
+  "Gallery": {
+    "NoData": "无数据",
+    "MenuActions": "操作",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "打开链接"
+  },
+  "EmailInput": {
+    "AddEmailHint": "发送邮件"
+  },
+  "FileInput": {
+    "Delete": "删除",
+    "Cancel": "取消",
+    "Attach": "附件",
+    "FileIcon": "文件图标",
+    "EmptyFileName": "空文件名",
+    "MaxFileSizeLimitReached": "文件大小上限已达到({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "将文件拖放到这里",
+      "Description": "或使用",
+      "Upload": "上传"
+    },
+    "RowToolbar": {
+      "Download": "Download"
+    }
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "上传",
+    "Change": "更改",
+    "Clear": "删除",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "保存",
+    "CancelButton": "取消",
+    "ColumnProperties": "列属性",
+    "Title": "标题",
+    "FilterHeader": "如何过滤记录",
+    "SortingHeader": "Sort records",
+    "SortColumn": "排序按",
+    "WhatToDisplay": "显示内容",
+    "AggregationColumn": "列",
+    "SortOrder": "排序顺序",
+    "SetupFilters": "Setup filters",
+    "EditFilters": "Edit filters"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "是",
+      "False": "否"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "于",
+    "TodayAt": "今天 {0}",
+    "YesterdayAt": "昨天 {0}",
+    "DayBeforeYesterdayAt": "前一天 {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "月",
+    "DaysAbbreviation": "日",
+    "HoursAbbreviation": "时",
+    "MinutesAbbreviation": "分"
+  },
+  "TabPanel": {
+    "CloseTabHint": "关闭标签"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "转到桌面"
+    },
+    "QuickRunProcess": {
+      "Title": "运行程序",
+      "SuccessMessage": "程序已成功运行",
+      "NotConfiguredQuickProcessesMessage": "快速流程尚未配置",
+      "OtherProcessesCaption": "其他进程"
+    },
+    "Settings": {
+      "Title": "设置"
+    },
+    "UserProfile": {
+      "Title": "个人资料",
+      "MenuItems": {
+        "Profile": "个人资料",
+        "Logout": "退出",
+        "OrganizationProfile": "Organization profile"
+      }
+    },
+    "New": {
+      "Title": "新建",
+      "NoItemTitle": "快速记录创建尚未配置"
+    },
+    "Help": {
+      "Title": "帮助",
+      "MenuItems": {
+        "OnlineHelp": "在线帮助",
+        "NeedHelp": "需要帮助",
+        "ExternalAccess": "授予支持权限",
+        "ReleaseNotes": "Release notes"
+      },
+      "EmailBodyTemplate": "正文=%0D%0A%0D%0A网站： {0}%0D%0A客户ID： {1}%0D%0A产品： {2}%0D%0A版本： {3}%0D%0A屏幕大小： {4}%0D%0A本地化： {5}%0D%0A页面： {6}",
+      "SupportSubject": "关于",
+      "AccessGrantedMessage": "允许访问",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "沟通面板"
+    },
+    "NotificationsPanelButton": {
+      "Title": "通知面板"
+    },
+    "WorkspaceExplorer": {
+      "Title": "配置"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions panel"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Compilation error",
+      "WorkspaceExplorerTemplate": "To view a list of compilation errors and fix them, visit <a href ='{0}' target='_blank'>Configuration section</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigation panel"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "搜索应用..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Collapse navigation panel",
+      "ExpandCaption": "Expand navigation panel"
+    },
+    "SearchResultsCaption": "Search results",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "了解更多"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} 通过",
+    "timeBeforeCountStartTpl": "倒计时开始前 {0}",
+    "overdueTpl": "{0} 逾期的",
+    "timeLeftTpl": "剩余 {0}",
+    "timeIsUpTpl": "时间已结束",
+    "waitingForStartDateTpl": "等待开始日期",
+    "dateNotSet": "0小时 0分钟"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "按列搜索",
+      "AllOption": "全部",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "成功保存",
+      "ErrorOnSave": "应用更改时出错"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "您确定要删除桌面 \"{0}\" 吗？",
+        "Error": {
+          "Deletion": "删除桌面时出错",
+          "Configuration": "配置生成时出错"
+        },
+        "Success": "桌面\"{0}\"已成功删除"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "搜索..."
+  },
+  "AllowedResults": {
+    "Caption": "允许的结果",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "需要许可证"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Add tag",
+    "CreateNewTagButtonCaption": "Create a new tag"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "You have unsaved changes that will be lost. Continue?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Edit record",
+    "DeleteItemActionButtonCaption": "Delete record",
+    "NoData": "无数据"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "无数据",
+      "CloseButtonTitle": "关闭"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "Remove"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "The component displays hints and instructions for users to access information from the knowledge base for specific dynamic case stages",
+    "Placeholder": {
+      "Title": "No relevant playbook articles are found",
+      "Description": "Please set up a relevant article for the current dynamic case stage in the Playbooks section"
+    },
+    "Actions": {
+      "Back": "Back",
+      "OpenInDialog": "Open in modal window"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "关闭",
+        "OpenPage": "Open in new tab"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "无数据",
+    "Boolean": {
+      "Yes": "确认",
+      "No": "拒绝"
+    },
+    "String": {
+      "Placeholder": "Enter text"
+    },
+    "Numeric": {
+      "Placeholder": "Enter number",
+      "To": "up to",
+      "MaxValueError": "Value is above max value",
+      "MinValueError": "Value is below min value"
+    }
+  },
+  "Conversation": {
+    "Caption": "Conversation",
+    "Copilot": {
+      "TypingMessage": "Generating response",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "删除",
+    "Export": "导出到 表格",
+    "AddTag": "Add tag",
+    "RemoveTag": "Remove tag",
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "Select all",
+      "ClearSelection": "Clear selection"
+    },
+    "Merge": "Merge"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "数字"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Collapse",
+    "Expand": "Expand"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progress bar"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Chat status",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "There are no records matching the filter criteria",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} just updated {1}. Please refresh the page to see changes.",
+    "Connections": "{0} connections",
+    "Reload": "Reload"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} started editing current {1}",
+    "ModeEditing": "Editing",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Viewing",
+    "ModeSaved": "Saved",
+    "ModeSavedTime": "Saved ({0} ago)",
+    "ModeSavedRecently": "Saved recently",
+    "ShowAllUsers": "Show all users",
+    "AllUsersDialog": {
+      "Title": "Active users",
+      "Close": "关闭",
+      "Columns": {
+        "ContactName": "联系人",
+        "Email": "邮件",
+        "SchemaName": "Editing area",
+        "Mode": "Mode"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "页",
+    "Entity": "entity",
+    "Addon": "addon"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Color picker",
+        "AppearanceGroup": "Appearance",
+        "PickerModeRadioButtonCaption": "Palette",
+        "PickerMode": {
+          "Basic": "Basic palette",
+          "Extended": "Extended palette"
+        }
+      }
+    }
+  },
+  "Components": {
+    "ColorPicker": {
+      "SelectedColor": "Selected color",
+      "Readonly": "不可编辑的字段"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Next month",
+    "AriaPrevMonthLabel": "上一月",
+    "AriaNextYearLabel": "Next year",
+    "AriaPrevYearLabel": "Previous year",
+    "Readonly": "不可编辑的字段",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "日历",
+    "TimePickerIconTitle": "时间"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Toolbar display mode",
+        "Inline": "Inline",
+        "Classic": "Classic",
+        "AlwaysShowToolbar": "Always show formatting options"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Formatting options (Alt+F10)",
+    "UploadAttachments": "Select attachments",
+    "SelectTemplate": "Insert template",
+    "SelectionActions": {
+      "AskCopilot": "Ask Creatio.ai",
+      "Friendly": "Friendly",
+      "Formal": "Formal",
+      "Shorten": "Shorten",
+      "Extend": "Extend",
+      "Rephrase": "Rephrase",
+      "RewriteCaption": "Rewrite text"
+    },
+    "TableOfContents": {
+      "Title": "Table of contents",
+      "Placeholder": "A table of contents based on the headings on this page will appear here once it has been published."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "保存",
+    "OpenLinkButtonCaption": "Open in new tab",
+    "CloseLinkButtonCaption": "关闭",
+    "UnlinkLinkButtonCaption": "Unlink",
+    "LinkLabelCaption": "Link address",
+    "TextLabelCaption": "Text to display"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Insert video",
+    "PasteUrlTab": "Paste url",
+    "UploadFileTab": "Upload file",
+    "EmbedCodeTab": "Embed code",
+    "DialogDescription": "This video will be embedded at 640 pixels wide.<br>This embedded video will include a text link.",
+    "SaveButton": "Insert video",
+    "CancelButton": "取消",
+    "UploadButton": "Upload file",
+    "InputPlaceholder": "Paste here",
+    "DragAndDropPlaceholder": "Drag-and-drop file here or",
+    "NotVideoFile": "The inserted file is not a video, please select a file with a video type.",
+    "ConfirmMessage": "This page contains unsaved changes. They will be lost if you close the page. Save the changes?"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "没有新记录或现有记录的页面。系统管理员必须检查自由界面中的按钮设置",
+    "GoToEntityDesignerMessage": "要设置页面, 请访问URL: {0}"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "请从列表中选择值",
+      "SelectionWindowMessage": "Please select value from the list or search using the lookup window"
+    },
+    "Required": {
+      "Message": "输入值"
+    },
+    "MaxLength": {
+      "Message": "超过文本长度限制({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "未达文本最小限制({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "日期和时间格式无效"
+    },
+    "DatePickerSyntax": {
+      "Message": "日期格式无效"
+    },
+    "TimePickerSyntax": {
+      "Message": "时间格式无效"
+    },
+    "RegExp": {
+      "Message": "Invalid value format"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "列已移除",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}",
+    "RefreshModelDataConflict": "Creatio 当前页面数据已更改。请保存或取消后，再刷新本页面以查看",
+    "WarningModelsWithCircularDependencies": "有些模型有循环依赖关系并且没有被加载",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Call up"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Translate",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  }
+}

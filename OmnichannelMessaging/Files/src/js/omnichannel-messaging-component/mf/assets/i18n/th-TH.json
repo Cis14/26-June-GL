@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Select: {0}",
+        "Selected": "Selected:",
+        "SelectButton": "เลือก",
+        "CancelButton": "ยกเลิก",
+        "Blankslate": "There are no records for this object"
+    },
+    "SearchInput": {
+        "Placeholder": "ค้นหา",
+        "Settings": {
+            "Cancel": "ยกเลิก",
+            "Apply": "นำมาใช้",
+            "SearchColumnTemplate": "Search by column \"{0}\"",
+            "StartsWith": "เริ่มต้นด้วย",
+            "Contains": "มี",
+            "Equals": "Equals"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "เพิ่ม",
+        "BlankslateWithFilters": "There are no records matching current search criteria. Clear or modify search parameters"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Accept chat",
+            "AlreadyAssignedChat": "Chat was assigned to another agent",
+            "NewMessages": "New messages",
+            "ChatIsCompleted": "Chat completed {datePart} at {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "You:",
+            "DraftMessageCaption": "ฉบับร่างt:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Chat channels are not configured",
+                    "textStart": "Please contact your system administrator and request to set up a channel. Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "อะคาเดมี่"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Chat channels are not configured",
+                    "textStart": "Please ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "เพิ่ม"
+                    },
+                    "academyLink": {
+                        "displayText": "อะคาเดมี่"
+                    },
+                    "textEnd": " a new channel. Learn more about working with chats in the "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "New chats are not distributed to inactive agents",
+                    "textStart": "Please change your status to \"Active.\" Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "อะคาเดมี่"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "There are no queued chats",
+                    "textStart": "Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "อะคาเดมี่"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "New chats are not distributed to inactive agents",
+                    "textStart": "Please change your status to \"Active.\" Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "อะคาเดมี่"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "There are no queued chats",
+                    "textStart": "Learn more about working with chats in the Academy ",
+                    "academyLink": {
+                        "displayText": "อะคาเดมี่"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "It looks like you don't have chats at work. Check the list of new chats"
+                }
+            },
+            "Actions": {
+                "Complete": "Complete chat",
+                "ProcessesDivider": "กระบวนการ",
+                "EmptyProcessesList": "Add a business process on the \"Chat Actions\" detail",
+                "SearchFacebook": "ค้นหาบนเฟสบุ๊ค",
+                "ContactDuplicates": {
+                    "Show": "แสดงผู้ติดต่อที่ซ้ำ",
+                    "NotFound": "Duplicate contacts not found",
+                    "Find": "Find duplicate contacts"
+                },
+                "Back": "กลับไป",
+                "Transfer": "Transfer chat",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "Active chats",
+            "Tips": {
+                "BackToChats": "Back to list"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "ข้อความ",
+            "AttachFile": "ไฟล์",
+            "OversizeFiles": "25 MB maximum file size limit exceeded in the following file(s)\n{0}",
+            "NewChatsTitle": "New chats"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Chat started: {0} by",
+                "EndDate": "Chat completed: {0} by"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat summary",
+            "Toggle": {
+                "Opened": "ซ่อน",
+                "Closed": "แสดงเพิ่มเติม"
+            },
+            "Fields": {
+                "Source": "แหล่งข้อมูล"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Found {0} similar contacts",
+            "DuplicatesNotFound": "No similar contacts found",
+            "FindDuplication": "Find similar contacts"
+        },
+        "Transfer": {
+            "ToOperator": "ตัวแทน",
+            "ToQueue": "คิว",
+            "TransferWindowCaption": "Transfer to",
+            "OperatorStatusTips": {
+                "Active": "กำลังทำงาน",
+                "Inactive": "ไม่ทำงาน",
+                "ChatsExceeded": "Chats exceeded"
+            },
+            "NoAvailableAgents": "There are no available agents to transfer",
+            "NoAvailableQueues": "There are no available queues to transfer"
+        }
+    },
+    "InfoDialog": {
+        "OK": "ตกลง"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Template suggestions",
+        "SuggestionHint": "Try typing a word to start searching",
+        "QuickSearchHint": "Enter // to search for a template",
+        "TemplateSearchCaption": "Answer templates"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Browser notifications are disabled. Enable notifications to receive new message alerts. Read more on ",
+        "splitTextLink": {
+            "displayText": "อะคาเดมี่",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "แปล",
+        "LanguagePlaceholder": "Select language",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

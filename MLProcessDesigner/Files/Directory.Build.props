@@ -1,0 +1,5 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/MLProcessDesigner/Schemas/ProcessSequenceElement/ProcessSequenceElement.cs" Condition="Exists('$(PkgPath)/MLProcessDesigner/Schemas/ProcessSequenceElement/ProcessSequenceElement.cs')" />
+	</ItemGroup>
+</Project>

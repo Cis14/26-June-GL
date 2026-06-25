@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "In caricamento..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copiato"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Niente da mostrare ancora ",
+      "Subhead": "Si prega di aggiungere i dati prima"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat iniziata: {0} da",
+        "EndDate": "Chat completata: {0} da"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "In caricamento"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Errore",
+      "Default": "Suggerimento"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Non c'è nessuna pagina per il record nuovo o esistente. L'amministratore di sistema deve controllare le impostazioni del pulsante nella Freedom UI",
+    "GoToEntityDesignerMessage": "Per impostare le pagine vai all'URL: {0}"
+  }
+}

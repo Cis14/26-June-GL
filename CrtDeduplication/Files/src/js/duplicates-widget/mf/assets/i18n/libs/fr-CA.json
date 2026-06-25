@@ -1,0 +1,237 @@
+{
+  "DuplicatesWidgetContent": {
+    "Empty": "No duplicate records found",
+    "FoundDuplicates": "Possible duplicate records: {0}",
+    "Caption": "Duplicates",
+    "ProcessingDuplicates": "Processing duplicates"
+  },
+  "SkeletonLoader": {
+    "Loading": "En cours de chargement..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Merci de sélectionner la valeur dans la liste"
+    },
+    "Required": {
+      "Message": "Saisir une valeur"
+    },
+    "MaxLength": {
+      "Message": "Longueur maximale du texte dépassée ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Longueur de texte minimale non atteinte ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format de date et d'heure non valide"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format de date invalide"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format d'heure non valide"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed"
+  },
+  "Input": {
+    "Readonly": "Champ non-éditable",
+    "ShowPassword": "Show password",
+    "HidePassword": "Hide password"
+  },
+  "Carousel": {
+    "NoData": "Pas de données"
+  },
+  "ComboBox": {
+    "Readonly": "Champ non-éditable",
+    "NoData": "Pas de données",
+    "EmptyDisplayValue": "No display value",
+    "AddNewRecord": "Ajout",
+    "InvalidValueSyntax": "Merci de sélectionner la valeur dans la liste",
+    "IsGoToSourceAllowedTooltip": "Go to record list"
+  },
+  "DataGrid": {
+    "AddColumns": "Ajouter des colonnes",
+    "ColumnToolbar": {
+      "Hide": "Cacher",
+      "Freeze": "Geler",
+      "Unfreeze": "Libérer",
+      "Rename": "Rename",
+      "Title": "Column actions",
+      "Edit": "Properties"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Actions",
+      "Title": "List actions",
+      "DataGridSettingsLabel": "General list settings",
+      "SaveDataGridSettings": {
+        "Label": "Save list settings for all users",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "Settings were saved"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current list settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "Settings were saved"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Reset to default list settings",
+        "Confirmation": "Restore default list settings?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "RowToolbar": {
+      "Open": "Ouvrir",
+      "Copy": "Copier",
+      "Delete": "Supprimer",
+      "RunBusinessProcess": "Exécuter le process",
+      "Title": "Row actions"
+    }
+  },
+  "DataTable": {
+    "NoData": "Pas de données",
+    "NoColumns": "No columns added",
+    "NotFoundColumn": "Colonne non trouvée",
+    "ColumnSticky": "Frozen column",
+    "Hints": {
+      "Sort": "Sort",
+      "StartEditing": "Edit",
+      "ReadonlyCell": "Non-editable field",
+      "CancelChanges": "Discard"
+    },
+    "SaveItemsChanges": "Save all",
+    "CancelItemsChanges": "Discard"
+  },
+  "Gallery": {
+    "NoData": "Pas de données"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Yes",
+      "False": "No"
+    }
+  },
+  "FileInput": {
+    "Delete": "Delete",
+    "Cancel": "Cancel",
+    "Attach": "Attach",
+    "FileIcon": "File icon",
+    "EmptyFileName": "Empty file name",
+    "MaxFileSizeLimitReached": "Max file size limit is reached ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Save",
+    "CancelButton": "Cancel",
+    "ColumnProperties": "Column properties",
+    "Title": "Title",
+    "FilterHeader": "How to filter records",
+    "SortingHeader": "How to sort records",
+    "SortColumn": "Sort by",
+    "WhatToDisplay": "What to display",
+    "AggregationColumn": "Column",
+    "SortOrder": "Sort order"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Drop files here",
+      "Description": "or use the \"Upload\" button"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "at",
+    "TodayAt": "Today at {0}",
+    "YesterdayAt": "Yesterday at {0}",
+    "DayBeforeYesterdayAt": "The day before yesterday at {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Open link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Send email"
+  },
+  "ImageInput": {
+    "Alt": "Image",
+    "Upload": "Upload",
+    "Clear": "Clear"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mos",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Close tab"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Run process",
+      "SuccessMessage": "The process has been successfully run",
+      "NotConfiguredQuickProcessesMessage": "Quick processes run is not yet configured",
+      "OtherProcessesCaption": "Other processes"
+    },
+    "Settings": {
+      "Title": "Settings"
+    },
+    "UserProfile": {
+      "Title": "Your profile",
+      "MenuItems": {
+        "Profile": "Your profile",
+        "Logout": "Exit"
+      }
+    },
+    "New": {
+      "Title": "New",
+      "NoItemTitle": "Quick records creation is not yet configured"
+    },
+    "Help": {
+      "Title": "Need help",
+      "ToolbarTitle": "Help",
+      "SupportSubject": "Question about"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication  panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications  panel"
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search..."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Read more"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passed",
+    "timeBeforeCountStartTpl": "{0} before countdown begins",
+    "overdueTpl": "{0} overdue",
+    "timeLeftTpl": "{0} left",
+    "timeIsUpTpl": "Time is up",
+    "waitingForStartDateTpl": "Waiting for start date",
+    "dateNotSet": "0hr 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "All"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Call up"
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Mois suivant",
+    "AriaPrevMonthLabel": "Mois précédent",
+    "AriaNextYearLabel": "Année suivante",
+    "AriaPrevYearLabel": "Année précédente",
+    "Readonly": "Champ non-éditable"
+  }
+}

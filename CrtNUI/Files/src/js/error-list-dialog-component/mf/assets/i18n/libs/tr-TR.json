@@ -1,0 +1,95 @@
+{
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Lütfen listeden değer seçin",
+      "SelectionWindowMessage": "Lütfen listeden değer seçin veya arama penceresini kullanarak arayın"
+    },
+    "Required": {
+      "Message": "Değer girin"
+    },
+    "MaxLength": {
+      "Message": "Maksimum metin uzunluğu aşıldı ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum metin uzunluğuna ulaşılamadı ({{ActuAlghength}}/{{MinLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Geçersiz Tarih ve Saat Biçimi"
+    },
+    "DatePickerSyntax": {
+      "Message": "Geçersiz tarih biçimi"
+    },
+    "TimePickerSyntax": {
+      "Message": "Geçersiz Zaman Biçimi"
+    },
+    "RegExp": {
+      "Message": "Geçersiz değer biçimi"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kod {{schemanameprefix}} öneki ile başlamalıdır.",
+      "OnlySchemaNamePrefixMessage": "En az bir sembol daha girin."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Sembolleri kullanın: A-Z, A-Z, 0-9, alt çizgi veya çizgi.İlk önce sadece harfler olabilir."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Sütun kaldırıldı",
+    "ValidationErrorMessageSingleErrorField": "Alan: {0}.Hata: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Alanlar: {0}.Hata: {1}",
+    "RefreshModelDataConflict": "Creatio, geçerli sayfa için yeni verilere sahiptir.Görüntülemek için değişikliklerinizi kaydedin veya iptal edin ve sayfayı yenileyin.",
+    "WarningModelsWithCircularDependencies": "Bazı modellerin dairesel bağımlılıkları vardır ve yüklenmemiştir",
+    "LoadingModelErrorMessage": "Sorgu yürütme sırasında hata oluştu",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Yükleniyor..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopyalanmış"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Henüz gösterilecek bir şey yok",
+      "Subhead": "Lütfen önce veri ekleyin"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Sohbet başladı: {0}",
+        "EndDate": "Sohbet tamamlandı: {0}"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Yükleme"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Hata",
+      "Default": "Araç ipucu"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Yeni veya mevcut kayıt için bir sayfa yok.Sistem Yöneticisi Özgürlük UI'deki düğme ayarlarını kontrol etmelidir",
+    "GoToEntityDesignerMessage": "Sayfaları ayarlamak için URL'ye gidin: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "İşlem şeması başarılı bir şekilde kaydedildi, ancak doğrulama hataları çalışmasını engelliyor."
+  }
+}

@@ -1,0 +1,717 @@
+{
+  "CrtIconSelectorComponent": {
+    "Tooltip": "בחר אייקון"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "הכלל העסקי מושבת"
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "ערך קבוע",
+    "SourceCaption": "Constant",
+    "ValuePickerComponent": {
+      "Placeholder": "ציין ערך"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "בחר ערך",
+      "Label": "ערך",
+      "Actions": {
+        "OkButtonCaption": "OK",
+        "CancelButtonCaption": "בטל"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "טוען..."
+  },
+  "CopyClipboard": {
+    "Copied": "הועתק"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "עדיין אין מה להציג ",
+      "Subhead": "אנא הוסף נתונים קודם"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "הצ'אט החל: {0} על ידי",
+        "EndDate": "הצ'אט הושלם: {0} על ידי"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "הערוץ לא יכול להימחק, יש שיחות פעילות או שיחות בהפצה. אנא סיים את השיחות קודם ואז נסה שוב."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "טוען"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "שגיאה",
+      "Default": "הסבר"
+    }
+  },
+  "Input": {
+    "Readonly": "שדה לא ניתן לעריכה",
+    "ShowPassword": "הצג סיסמה",
+    "HidePassword": "הסתר סיסמה"
+  },
+  "Carousel": {
+    "NoData": "אין נתונים",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "שדה לא ניתן לעריכה",
+    "InvalidValueSyntax": "אנא בחר ערך מהרשימה",
+    "NoData": "אין נתונים",
+    "EmptyDisplayValue": "אין ערך להצגה",
+    "AddNewRecord": "הוסף כחדש",
+    "IsGoToSourceAllowedTooltip": "עבור לרשימת הרשומות",
+    "CheckAll": "סמן את הכל",
+    "ClearAll": "נקה הכל",
+    "SelectValue": "בחר ערך",
+    "ClearValue": "נקה ערך",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "כל העמודות",
+    "ColumnToolbar": {
+      "Hide": "הסתר",
+      "Freeze": "הקפא",
+      "Unfreeze": "בטל הקפאה",
+      "Rename": "שנה שם",
+      "Title": "פעולות עמודה",
+      "Edit": "תכונות",
+      "SortAscending": "מיון בסדר עולה",
+      "SortDescending": "מיון בסדר יורד",
+      "ClearSorting": "נקה מיון",
+      "AriaLabel": "פעולות עמודה עבור"
+    },
+    "RowToolbar": {
+      "Open": "פתח",
+      "Copy": "העתק",
+      "Delete": "מחק",
+      "RunBusinessProcess": "הרץ תהליך",
+      "Title": "פעולות שורה"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "פעולות רשימה עבור",
+      "Title": "פעולות רשימה",
+      "DataGridSettingsLabel": "General list settings",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "שחזר הגדרות ברירת מחדל",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "AddColumnsTo": "הוסף עמודות ל",
+    "Title": "רשימה {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "אין נתונים",
+    "NoColumns": "לא נוספה אף אחת מעמודות",
+    "Hints": {
+      "Sort": "מיין",
+      "StartEditing": "ערוך",
+      "ReadonlyCell": "שדה לא ניתן לעריכה",
+      "CancelChanges": "ביטול",
+      "AddItem": "הוסף רשומה חדשה",
+      "SortWithCaption": "סדר {0}",
+      "NotSorted": "כרגע לא ממוין",
+      "SortedAscending": "כעת ממוין בסדר עולה",
+      "SortedDescending": "כעת ממוין בסדר יורד",
+      "SortAscending": "מיון בסדר עולה",
+      "SortDescending": "מיון בסדר יורד",
+      "RowControls": "בקרי שורות"
+    },
+    "SaveItemsChanges": "שמור הכל",
+    "CancelItemsChanges": "ביטול",
+    "AddItem": "חדש",
+    "BulkActions": {
+      "MoreActions": "עוד פעולות",
+      "AriaLabel": "פעולות בכמויות עבור {0}"
+    },
+    "RowsSelection": {
+      "Selected": "נבחר",
+      "SelectAll": "בחר הכל",
+      "ClearSelection": "נקה בחירה",
+      "SelectRow": "בחר שורה",
+      "RowsSelected": "שורות נבחרו: {0}"
+    },
+    "NotFoundColumn": "העמודה לא נמצאה",
+    "ColumnSticky": "עמודה מוקפאת",
+    "StatusBar": {
+      "AriaLabel": "עריכות פעולות עבור {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "שנה רוחב",
+      "ChangeWidthOf": "שנה רוחב של {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "אין נתונים",
+    "MenuActions": "פעולות",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "כן",
+      "False": "לא"
+    }
+  },
+  "FileInput": {
+    "Delete": "מחק",
+    "Cancel": "בטל",
+    "Attach": "הצמד",
+    "FileIcon": "סמל קובץ",
+    "EmptyFileName": "שם קובץ ריק",
+    "MaxFileSizeLimitReached": "הגעת למגבלת גודל הקובץ המקסימלית ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "שמור",
+    "CancelButton": "בטל",
+    "ColumnProperties": "מאפייני עמודה",
+    "Title": "כותרת",
+    "FilterHeader": "איך לסנן את הרשומות",
+    "SortingHeader": "מיון רשומות",
+    "SortColumn": "מיין לפי",
+    "WhatToDisplay": "מה להציג",
+    "AggregationColumn": "עמודה",
+    "SortOrder": "סדר מיון",
+    "SetupFilters": "הגדרת מסננים",
+    "EditFilters": "עריכת מסננים"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "גרור קובץ לכאן",
+      "Description": "או השתמש",
+      "Upload": "העלה"
+    },
+    "RowToolbar": {
+      "Download": "הורד"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "ב",
+    "TodayAt": "היום בשעה {0}",
+    "YesterdayAt": "אתמול ב{0}",
+    "DayBeforeYesterdayAt": "שלשום ב {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "אין ערך תצוגה"
+  },
+  "WebInput": {
+    "LinkButtonHint": "פתח קישור"
+  },
+  "EmailInput": {
+    "AddEmailHint": "שלח דוא\"ל"
+  },
+  "ImageInput": {
+    "Alt": "תמונת שדה",
+    "Upload": "העלה",
+    "Clear": "נקה",
+    "Change": "שינוי",
+    "AltAbbreviation": "תמונת קיצור",
+    "AltIcon": "מקום מחליף עבור שדה ריק"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "חודש",
+    "DaysAbbreviation": "יום",
+    "HoursAbbreviation": "שעה",
+    "MinutesAbbreviation": "דקות"
+  },
+  "TabPanel": {
+    "CloseTabHint": "סגור כרטיסייה"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "הרץ תהליך",
+      "SuccessMessage": "התהליך הופעל בהצלחה",
+      "NotConfiguredQuickProcessesMessage": "הפעלת תהליכים מהירים עדיין לא הוגדרה",
+      "OtherProcessesCaption": "תהליכים אחרים"
+    },
+    "Settings": {
+      "Title": "הגדרות"
+    },
+    "UserProfile": {
+      "Title": "הפרופיל שלי",
+      "MenuItems": {
+        "Profile": "הפרופיל שלי",
+        "Logout": "יציאה",
+        "OrganizationProfile": "פרופיל ארגון"
+      }
+    },
+    "New": {
+      "Title": "חדש",
+      "NoItemTitle": "יצירת רשומות מהירה עדיין לא הוגדרה"
+    },
+    "Help": {
+      "Title": "זקוק לעזרה",
+      "SupportSubject": "שאלה על",
+      "MenuItems": {
+        "OnlineHelp": "עזרה אינטרנטית",
+        "NeedHelp": "זקוק לעזרה",
+        "ExternalAccess": "הענקת הרשאת גישה לתמיכה",
+        "ReleaseNotes": "הודעות שחרור"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "AccessGrantedMessage": "גישה ניתנה",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication  panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications  panel"
+    },
+    "Logo": {
+      "Title": "עבור לשולחן העבודה"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Configuration"
+    },
+    "LegacySidePanelButton": {
+      "Title": "פנל תוספות"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "שגיאת קומפילציה",
+      "WorkspaceExplorerTemplate": "כדי לראות רשימה של שגיאות קומפילציה ולתקן אותן, בקר ב<a href ='{0}' target='_blank'>קטע הגדרות</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "לוח ניווט"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "חפש..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "צמצם את לוח הניווט",
+      "ExpandCaption": "הרחב את לוח הניווט"
+    },
+    "SearchResultsCaption": "תוצאות חיפוש",
+    "EmptySearchResult": {
+      "Title": "אין פריטים התואמים לקריטריוני החיפוש.",
+      "Subhead": "נקה או שנה את קריטריוני החיפוש."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Read more"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} עברו",
+    "timeBeforeCountStartTpl": "{0} לפני תחילת הספירה לאחור",
+    "overdueTpl": "{0} באיחור",
+    "timeLeftTpl": "נותרו {0}",
+    "timeIsUpTpl": "הזמן נגמר",
+    "waitingForStartDateTpl": "מחכה לתאריך התחלה",
+    "dateNotSet": "0 שעות 0 דקות"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "הכל",
+      "SelectMenuLabel": "חפש לפי עמודה",
+      "Title": "בחר עמודת מסנן"
+    },
+    "ClearIconTitle": "נקה חיפוש"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "כן",
+    "No": "לא",
+    "Save": "שמור",
+    "DoNotSave": "אל תשמור",
+    "Cancel": "בטל",
+    "Delete": "מחק",
+    "Close": "סגור",
+    "Notification": "התראה",
+    "Overwrite": "Overwrite",
+    "Clear": "נקה",
+    "Restore": "שחזר",
+    "ProcessSchemaSavedWithValidationError": "סכמת התהליך נשמרה בהצלחה, אך שגיאות אימות מונעות ממנה לפעול."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "נשמר בהצלחה",
+      "ErrorOnSave": "שגיאה בעת ניסיון להחיל שינויים"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "האם אתה בטוח שברצונך למחוק את \"{0}\" שולחן עבודה?",
+        "Error": {
+          "Deletion": "שגיאה במהלך מחיקת שולחן העבודה",
+          "Configuration": "שגיאה במהלך בניית конфигурации"
+        },
+        "Success": "השולחן עבודה \"{0}\" נמחק בהצלחה"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "חפש..."
+  },
+  "AllowedResults": {
+    "Caption": "תוצאות מותרות",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "דרושה רישיון"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "הוסף תווית",
+    "CreateNewTagButtonCaption": "צור תווית חדשה"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "יש לך שינויים לא שמורים שיאבדו. האם להמשיך?"
+    },
+    "List": {
+      "Message": "הרשימה מכילה שינויים חסרים. הם יאבדו אם תמשיך. האם לשמור את השינויים?"
+    },
+    "Page": {
+      "Message": "העמוד מכיל שינויים שלא נשמרו. הם יאבדו אם תמשיך. האם לשמור את השינויים?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "עריכת רשומה",
+    "DeleteItemActionButtonCaption": "מחק רשומה",
+    "NoData": "אין נתונים"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "אין נתונים",
+      "CloseButtonTitle": "סגור"
+    },
+    "AriaLabel": "פריטים שנבחרו",
+    "Chip": {
+      "RemoveButtonCaption": "הסר"
+    },
+    "AriaLabelFor": "פריטים שנבחרו עבור"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "המרכיב מציג רמזים והנחיות למשתמשים לגשת למידע מבסיס הידע עבור שלבים דינמיים ספציפיים",
+    "Placeholder": {
+      "Title": "לא נמצאו מאמרי playbook רלוונטיים",
+      "Description": "אנא הקם מאמר רלוונטי עבור שלב המקרה הדינמי הנוכחי בקטע playbooks"
+    },
+    "Actions": {
+      "Back": "חזור",
+      "OpenInDialog": "פתח בחלון מודאלי"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "סגור",
+        "OpenPage": "פתח בטאב חדש"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "ההזדהות נכשלה. אנא נסה שוב מאוחר יותר או פנה למנהל המערכת לעזרה.",
+      "FormatError": "פורמט לא תקין בבקשה. אנא ודא שהקלט מאורגן נכון ובדוק את פרמטרי הפלט של הפעולות שלך.",
+      "LimitError": "מגבלת טוקן הושגה, עבודה נוספת עם Creatio.ai לא זמינה. אנא צור קשר עם המנהל שלך כדי לה replenish טוקנים של Creatio.ai.",
+      "ServiceAvailabilityError": "השירות זמין באופן זמני. אנא נסה שוב מאוחר יותר.",
+      "ExecutionError": "אירעה טעות בעת עיבוד הבקשה שלך. אנא נסה שוב או פנה למנהל המערכת לעזרה.",
+      "ConfigurationError": "זוהתה בעיית תצ конфיגורציה. אנא ודא שהגדרות המערכת נכונות או פנה למנהל המערכת לעזרה.",
+      "UnknownError": "אירעה טעות לא ידועה. אנא נסה שוב מאוחר יותר או פנה למנהל המערכת לעזרה.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "אין נתונים",
+    "Boolean": {
+      "Yes": "כן",
+      "No": "לא"
+    },
+    "String": {
+      "Placeholder": "הזן טקסט"
+    },
+    "Numeric": {
+      "Placeholder": "הזן מספר",
+      "To": "עד",
+      "MaxValueError": "הערך גבוה מהמקסימום",
+      "MinValueError": "הערך נמוך מהמינימום"
+    }
+  },
+  "Conversation": {
+    "Caption": "שיחה",
+    "Copilot": {
+      "TypingMessage": "מייצר תשובה",
+      "Action": {
+        "Replace": "החלף בחירה",
+        "InsertAbove": "הכנס מעל",
+        "InsertBelow": "הכנס מתחת"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "מחק",
+    "Export": "יצוא ל - Excel",
+    "AddTag": "הוסף תגית",
+    "RemoveTag": "הסר תגית",
+    "RowsSelection": {
+      "Selected": "נבחר",
+      "SelectAll": "בחר הכל",
+      "ClearSelection": "נקה בחירה"
+    },
+    "Merge": "מזג"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "נתיב ניווט"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "מספר"
+  },
+  "ExpansionPanel": {
+    "Collapse": "צמצם",
+    "Expand": "הרחבה"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progress bar"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Chat status",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "אין רשומות שמתאימות לקריטריונים של המסנן",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} just updated {1}. Please refresh the page to see changes.",
+    "Connections": "{0} connections",
+    "Reload": "Reload"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} התחיל לערוך את ה{1} הנוכחי",
+    "ModeEditing": "Editing",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Viewing",
+    "ModeSaved": "Saved",
+    "ModeSavedTime": "Saved ({0} ago)",
+    "ModeSavedRecently": "Saved recently",
+    "ShowAllUsers": "Show all users",
+    "AllUsersDialog": {
+      "Title": "Active users",
+      "Close": "סגור",
+      "Columns": {
+        "ContactName": "איש קשר",
+        "Email": "דוא&quot;ל",
+        "SchemaName": "Editing area",
+        "Mode": "מצב"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "דף",
+    "Entity": "ישות",
+    "Addon": "תוסף"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "בורר צבע",
+        "AppearanceGroup": "מראה",
+        "PickerModeRadioButtonCaption": "פלטה",
+        "PickerMode": {
+          "Basic": "פלטת בסיס",
+          "Extended": "פלטה מורחבת"
+        }
+      }
+    }
+  },
+  "Components": {
+    "ColorPicker": {
+      "SelectedColor": "צבע שנבחר",
+      "Readonly": "שדה לא ניתן לעריכה"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "חודש הבא",
+    "AriaPrevMonthLabel": "חודש קודם",
+    "AriaNextYearLabel": "שנה הבאה",
+    "AriaPrevYearLabel": "שנה קודמת",
+    "Readonly": "שדה לא ניתן לעריכה",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "לוח שנה",
+    "TimePickerIconTitle": "שעה"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "מצב הצגת סרגל הכלים",
+        "Inline": "באנגלית",
+        "Classic": "קלאסי",
+        "AlwaysShowToolbar": "תמיד הצג אפשרויות עיצוב"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "אפשרויות עיצוב (Alt+F10)",
+    "UploadAttachments": "בחר קבצים מצורפים",
+    "SelectTemplate": "הכנס תבנית",
+    "SelectionActions": {
+      "AskCopilot": "שאל את Creatio.ai",
+      "Friendly": "ידידותי",
+      "Formal": "פורמלי",
+      "Shorten": "קצר",
+      "Extend": "הרחב",
+      "Rephrase": "שמור על הניסוח",
+      "RewriteCaption": "שכתב את הטקסט"
+    },
+    "TableOfContents": {
+      "Title": "תוכן העניינים",
+      "Placeholder": "הטקסט שיתבסס על הכותרות בדף זה יופיע כאן לאחר שיפורסם."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "שמור",
+    "OpenLinkButtonCaption": "פתח בטאב חדש",
+    "CloseLinkButtonCaption": "סגור",
+    "UnlinkLinkButtonCaption": "הסר את הקישור",
+    "LinkLabelCaption": "כתובת הקישור",
+    "TextLabelCaption": "טקסט להצגה"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "הוספת וידאו",
+    "PasteUrlTab": "הדבק כתובת אתר",
+    "UploadFileTab": "העלה קובץ",
+    "EmbedCodeTab": "קוד הטמעה",
+    "DialogDescription": "הוידאו יוטמן ברוחב של 640 פיקסלים.<br>וידאו זה יכלול קישור טקסט.",
+    "SaveButton": "הוספת וידאו",
+    "CancelButton": "בטל",
+    "UploadButton": "העלה קובץ",
+    "InputPlaceholder": "הדבק כאן",
+    "DragAndDropPlaceholder": "גרור ושחרר קובץ כאן או",
+    "NotVideoFile": "לקובץ שהוכנס אין סוג וידאו, אנא בחר קובץ מסוג וידאו.",
+    "ConfirmMessage": "בדף זה יש שינויים שלא נשמרו. הם יאבדו אם תסגור את הדף. האם לשמור את השינויים?"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "אין דף עבור רשומה חדשה או קיימת. מנהל המערכת חייב לבדוק את הגדרות הכפתור ב- Freedom UI",
+    "GoToEntityDesignerMessage": "כדי להגדיר דפים, עבור ל-URL: {0}"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "אנא בחר ערך מהרשימה",
+      "SelectionWindowMessage": "אנא בחר ערך מרשימה או חפש באמצעות חלון חיפוש"
+    },
+    "Required": {
+      "Message": "הזן ערך"
+    },
+    "MaxLength": {
+      "Message": "חריגה מאורך הטקסט המרבי ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "לא הושג אורך הטקסט המינימלי ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "פורמט תאריך ושעה לא חוקי"
+    },
+    "DatePickerSyntax": {
+      "Message": "פורמט תאריך לא נכון"
+    },
+    "TimePickerSyntax": {
+      "Message": "פורמט זמן לא חוקי"
+    },
+    "RegExp": {
+      "Message": "פורמט ערך לא חוקי"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "הקוד חייב להתחיל עם הקידומת {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "הזן לפחות תו נוסף אחד."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "השתמש בסמלים: a-z, A-Z, 0-9, קו תחתי או מקף. רק אותיות יכולות להיות ראשונות."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "העמודה הוסרה",
+    "ValidationErrorMessageSingleErrorField": "שדה: {0}. שגיאה: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "שדות: {0}. שגיאה: {1}",
+    "RefreshModelDataConflict": "ל-Creatio יש נתונים חדשים לדף הנוכחי. כדי להציג אותו, שמור או בטל את השינויים שלך ורענן את הדף.",
+    "WarningModelsWithCircularDependencies": "כמה מודלים מכילים תלות מעגלית ולא נטענו",
+    "LoadingModelErrorMessage": "אירעה שגיאה במהלך ביצוע השאילתה",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "בצע שיחה"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "תרגם",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  }
+}

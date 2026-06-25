@@ -1,0 +1,159 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Select: {0}",
+        "Selected": "Selected:",
+        "SelectButton": "تنظیم",
+        "CancelButton": "انصراف",
+        "Blankslate": "There are no records for this object"
+    },
+    "SearchInput": {
+        "Placeholder": "جستجو",
+        "Settings": {
+            "Cancel": "انصراف",
+            "Apply": "اعمال",
+            "SearchColumnTemplate": "Search by column \"{0}\"",
+            "StartsWith": "شروع با",
+            "Contains": "شامل می شود",
+            "Equals": "Equals"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "متمم",
+        "BlankslateWithFilters": "There are no records matching current search criteria. Clear or modify search parameters"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Accept chat",
+            "AlreadyAssignedChat": "Chat was assigned to another agent",
+            "NewMessages": "New messages",
+            "ChatIsCompleted": "Chat completed {datePart} at {timePart}",
+            "AcademyLink": "https://academy.creatio.com/",
+            "LastChatMessageAuthorCaption": "You:",
+            "DraftMessageCaption": "Draft:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Chat channels are not configured",
+                    "textStart": "Please contact your system administrator and request to set up a channel. Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "آکادمی"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Chat channels are not configured",
+                    "textStart": "Please ",
+                    "splitTextLink": {
+                        "href": "/ClientApp/#/ChatSettings",
+                        "displayText": "متمم"
+                    },
+                    "academyLink": {
+                        "displayText": "آکادمی"
+                    },
+                    "textEnd": " a new channel. Learn more about working with chats in the "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "New chats are not distributed to inactive agents",
+                    "textStart": "Please change your status to \"Active.\" Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "آکادمی"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "There are no queued chats",
+                    "textStart": "Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "آکادمی"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "New chats are not distributed to inactive agents",
+                    "textStart": "Please change your status to \"Active.\" Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "آکادمی"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "There are no queued chats",
+                    "textStart": "Learn more about working with chats in the Academy ",
+                    "academyLink": {
+                        "displayText": "آکادمی"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "It looks like you don't have chats at work. Check the list of new chats"
+                }
+            },
+            "Actions": {
+                "Complete": "Complete chat",
+                "ProcessesDivider": "فرایندها",
+                "EmptyProcessesList": "Add a business process on the \"Chat Actions\" detail",
+                "SearchFacebook": "جستجو در فیس بوک",
+                "ContactDuplicates": {
+                    "Show": "نمایش مخاطبین تکراری",
+                    "NotFound": "Duplicate contacts not found",
+                    "Find": "Find duplicate contacts"
+                },
+                "Back": "بازگشت",
+                "Transfer": "Transfer chat"
+            },
+            "ChatListTitle": "Active chats",
+            "Tips": {
+                "BackToChats": "Back to list"
+            },
+            "Bots": {
+                "Name": "Bot"
+            },
+            "NewMessagePlaceholder": "پیام",
+            "AttachFile": "فایل",
+            "OversizeFiles": "25 MB maximum file size limit exceeded in the following file(s)\n{0}",
+            "NewChatsTitle": "New chats"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Chat started: {0} by",
+                "EndDate": "Chat completed: {0} by"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat summary",
+            "Toggle": {
+                "Opened": "پنهان سازی",
+                "Closed": "نمایش بیشتر"
+            },
+            "Fields": {
+                "Source": "منبع"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Found {0} similar contacts",
+            "DuplicatesNotFound": "No similar contacts found",
+            "FindDuplication": "Find similar contacts"
+        },
+        "Transfer": {
+            "ToOperator": "نماینده",
+            "ToQueue": "صف",
+            "TransferWindowCaption": "Transfer to",
+            "OperatorStatusTips": {
+                "Active": "فعال است",
+                "Inactive": "غیرفعال",
+                "ChatsExceeded": "Chats exceeded"
+            },
+            "NoAvailableAgents": "There are no available agents to transfer",
+            "NoAvailableQueues": "There are no available queues to transfer"
+        }
+    },
+    "InfoDialog": {
+        "OK": "بسیار خوب"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Template suggestions",
+        "SuggestionHint": "Try typing a word to start searching",
+        "QuickSearchHint": "Enter // to search for a template",
+        "TemplateSearchCaption": "Answer templates"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Browser notifications are disabled. Enable notifications to receive new message alerts. Read more on ",
+        "splitTextLink": {
+            "displayText": "آکادمی"
+        }
+    }
+}

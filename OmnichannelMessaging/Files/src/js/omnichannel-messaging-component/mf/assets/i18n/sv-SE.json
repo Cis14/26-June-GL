@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Select: {0}",
+        "Selected": "Selected:",
+        "SelectButton": "Välj",
+        "CancelButton": "Avbryt",
+        "Blankslate": "There are no records for this object"
+    },
+    "SearchInput": {
+        "Placeholder": "Sök",
+        "Settings": {
+            "Cancel": "Avbryt",
+            "Apply": "Verkställ",
+            "SearchColumnTemplate": "Search by column \"{0}\"",
+            "StartsWith": "Starts with",
+            "Contains": "Innehåller",
+            "Equals": "Equals"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Lägg till",
+        "BlankslateWithFilters": "There are no records matching current search criteria. Clear or modify search parameters"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Accept chat",
+            "AlreadyAssignedChat": "Chat was assigned to another agent",
+            "NewMessages": "New messages",
+            "ChatIsCompleted": "Chat completed {datePart} at {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "You:",
+            "DraftMessageCaption": "Utkast:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Chat channels are not configured",
+                    "textStart": "Please contact your system administrator and request to set up a channel. Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Chat channels are not configured",
+                    "textStart": "Please ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "addera"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    },
+                    "textEnd": " a new channel. Learn more about working with chats in the "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "New chats are not distributed to inactive agents",
+                    "textStart": "Please change your status to \"Active.\" Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "There are no queued chats",
+                    "textStart": "Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "New chats are not distributed to inactive agents",
+                    "textStart": "Please change your status to \"Active.\" Learn more about working with chats in the ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "There are no queued chats",
+                    "textStart": "Learn more about working with chats in the Academy ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "It looks like you don't have chats at work. Check the list of new chats"
+                }
+            },
+            "Actions": {
+                "Complete": "Complete chat",
+                "ProcessesDivider": "Processer",
+                "EmptyProcessesList": "Add a business process on the \"Chat Actions\" detail",
+                "SearchFacebook": "Sök på Facebook",
+                "ContactDuplicates": {
+                    "Show": "Visa dubblettkontakter",
+                    "NotFound": "Duplicate contacts not found",
+                    "Find": "Find duplicate contacts"
+                },
+                "Back": "Tillbaka",
+                "Transfer": "Transfer chat",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "Active chats",
+            "Tips": {
+                "BackToChats": "Back to list"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Meddelande",
+            "AttachFile": "Fil",
+            "OversizeFiles": "25 MB maximum file size limit exceeded in the following file(s)\n{0}",
+            "NewChatsTitle": "New chats"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Chat started: {0} by",
+                "EndDate": "Chat completed: {0} by"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat summary",
+            "Toggle": {
+                "Opened": "Dölj",
+                "Closed": "Visa mer"
+            },
+            "Fields": {
+                "Source": "Källa"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Found {0} similar contacts",
+            "DuplicatesNotFound": "No similar contacts found",
+            "FindDuplication": "Find similar contacts"
+        },
+        "Transfer": {
+            "ToOperator": "Agent",
+            "ToQueue": "Kö",
+            "TransferWindowCaption": "Transfer to",
+            "OperatorStatusTips": {
+                "Active": "Aktiv",
+                "Inactive": "Inaktiv",
+                "ChatsExceeded": "Chats exceeded"
+            },
+            "NoAvailableAgents": "There are no available agents to transfer",
+            "NoAvailableQueues": "There are no available queues to transfer"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Template suggestions",
+        "SuggestionHint": "Try typing a word to start searching",
+        "QuickSearchHint": "Enter // to search for a template",
+        "TemplateSearchCaption": "Answer templates"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Browser notifications are disabled. Enable notifications to receive new message alerts. Read more on ",
+        "splitTextLink": {
+            "displayText": "Akademi",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "Översätt",
+        "LanguagePlaceholder": "Select language",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

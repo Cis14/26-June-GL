@@ -1,0 +1,717 @@
+{
+  "CrtIconSelectorComponent": {
+    "Tooltip": "Вибір іконки"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "Бізнес-правило деактивоване"
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "Постійне значення",
+    "SourceCaption": "Константа",
+    "ValuePickerComponent": {
+      "Placeholder": "Вкажіть значення"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "Оберіть значення",
+      "Label": "Значення",
+      "Actions": {
+        "OkButtonCaption": "Ok",
+        "CancelButtonCaption": "Скасувати"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Завантаження..."
+  },
+  "CopyClipboard": {
+    "Copied": "Скопійовано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Немає що показувати ",
+      "Subhead": "Будь ласка, спочатку додайте дані"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чат розпочато: {0} ",
+        "EndDate": "Чат завершено: {0} "
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Канал не може бути видалений, оскільки є активні чати або чати на розподіл. Будь ласка, спочатку завершіть чати і спробуйте знову."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Завантаження"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Помилка",
+      "Default": "Підказка"
+    }
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} щойно оновив(ла) {1}. Оновіть сторінку, щоб побачити зміни.",
+    "Connections": "{0} підключень",
+    "Reload": "Перезавантажити"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} почали редагувати поточний {1}",
+    "ModeEditing": "Редагування",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Перегляд",
+    "ModeSaved": "Збережено",
+    "ModeSavedTime": "Збережено ({0} тому)",
+    "ModeSavedRecently": "Збережено нещодавно",
+    "ShowAllUsers": "Показати всіх користувачів",
+    "AllUsersDialog": {
+      "Title": "Активні користувачі",
+      "Close": "Закрити",
+      "Columns": {
+        "ContactName": "Контакт",
+        "Email": "Email розсилка",
+        "SchemaName": "Область редагування",
+        "Mode": "Режим"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "сторінка",
+    "Entity": "сутність",
+    "Addon": "додаток"
+  },
+  "DataGrid": {
+    "Title": "Реєстр {0}",
+    "ColumnToolbar": {
+      "Edit": "Властивості",
+      "Hide": "Приховати",
+      "Freeze": "Закріпити",
+      "Unfreeze": "Відкріпити",
+      "Rename": "Перейменувати",
+      "Title": "Дії колонок",
+      "SortAscending": "Сортувати за зростанням",
+      "SortDescending": "Сортувати за спаданням",
+      "ClearSorting": "Очистити сортування",
+      "AriaLabel": "Дії стовпців для"
+    },
+    "AddColumns": "Додати колонки",
+    "AddColumnsTo": "Додати колонки до",
+    "ActionsToolbar": {
+      "AriaLabel": "Дії списку для",
+      "Title": "Дії реєстру",
+      "DataGridSettingsLabel": "Загальні налаштування реєстру",
+      "SaveDataGridSettings": {
+        "Label": "Зберегти як нові налаштування за замовчуванням",
+        "Confirmation": "Нові налаштування списку за замовчуванням будуть збережені для всіх користувачів. Продовжити?",
+        "SuccessStatus": "Налаштування списку успішно збережено"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Перезаписати поточні налаштування для всіх користувачів",
+        "Confirmation": "Нові налаштування списку за замовчуванням будуть збережені і замінять поточні налаштування для всіх користувачів. Продовжити?",
+        "SuccessStatus": "Налаштування списку успішно збережено"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Відновити налаштування за замовчуванням",
+        "Confirmation": "Налаштування списку за замовчуванням будуть відновлені. Продовжити?",
+        "SuccessStatus": "Налаштування списку за замовчуванням успішно відновлено"
+      }
+    },
+    "RowToolbar": {
+      "Open": "Відкрити",
+      "Copy": "Копіювати",
+      "Delete": "Видалити",
+      "RunBusinessProcess": "Запустити бізнес-процес",
+      "Title": "Дії рядка"
+    },
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Колонку успішно додано",
+      "ColumnsAddedSuccessfully": "Колонки успішно додано",
+      "ColumnHiddenSuccessfully": "Колонка успішно прихована",
+      "ColumnFrozenSuccessfully": "Колонка успішно зафіксована",
+      "ColumnUnfrozenSuccessfully": "Колонка успішно розморожена",
+      "ColumnChangedSuccessfully": "Колонку успішно змінено"
+    }
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Зберегти",
+    "CancelButton": "Скасувати",
+    "ColumnProperties": "Налаштування колонки",
+    "Title": "Назва",
+    "FilterHeader": "Як відфільтрувати записи",
+    "SortingHeader": "Сортувати записи",
+    "SortColumn": "Сортування",
+    "WhatToDisplay": "Що показати",
+    "AggregationColumn": "Колонка",
+    "SortOrder": "Порядок сортування",
+    "SetupFilters": "Налаштування фільтру",
+    "EditFilters": "Редагувати фільтри"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Закрити вкладку"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Перейти до робочого столу"
+    },
+    "QuickRunProcess": {
+      "Title": "Запустити процес",
+      "SuccessMessage": "Процес успішно запущено",
+      "NotConfiguredQuickProcessesMessage": "Швидкий запуск процесів ще не налаштовано",
+      "OtherProcessesCaption": "Інші процеси"
+    },
+    "Settings": {
+      "Title": "Налаштування"
+    },
+    "New": {
+      "Title": "Додати",
+      "NoItemTitle": "Швидке створення записів ще не налаштовано"
+    },
+    "Help": {
+      "Title": "Довідка",
+      "MenuItems": {
+        "OnlineHelp": "Відкрити довідку",
+        "NeedHelp": "Поставити питання підтримці",
+        "ExternalAccess": "Надати доступ підтримці",
+        "ReleaseNotes": "Опис релізу"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "SupportSubject": "Питання з",
+      "AccessGrantedMessage": "Доступ надано",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Комунікаційна панель"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Панель сповіщень"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Конфігурація"
+    },
+    "UserProfile": {
+      "Title": "Ваш профіль",
+      "MenuItems": {
+        "Profile": "Ваш профіль",
+        "Logout": "Вихід",
+        "OrganizationProfile": "Профіль організації"
+      }
+    },
+    "LegacySidePanelButton": {
+      "Title": "Панель доповнень"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Помилка компіляції",
+      "WorkspaceExplorerTemplate": "Щоб переглянути список помилок компіляції та виправити їх, перейдіть за посиланням <a href ='{0}' target='_blank'>Розділ конфігурації</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Панель навігації"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Деталі помилки:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Обмежений режим налаштування",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Систему перенаправлено на звичайний вузол застосунку. Не рекомендується виконувати налаштування в цьому режимі, оскільки зміни можуть не розповсюджуватися на інші вузли. Вузол для дизайну може бути недоступний з різних причин. Докладніше можна дізнатися у журналах Creatio та/або оркестратора. Звичайне використання може продовжуватися."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Небезпечні налаштування трасування",
+      "SysSettingsTemplate": "Перейдіть до <a href ='{0}' target='_blank'>розділу SysSetting</a>."
+    }
+  },
+  "NavigationPanel": {
+    "CollapseButton": {
+      "CollapseCaption": "Згорнути панель навігації",
+      "ExpandCaption": "Розгорнути панель навігації"
+    },
+    "SearchFilter": {
+      "PlaceholderCaption": "Пошук застосунку..."
+    },
+    "SearchResultsCaption": "Результати пошуку",
+    "EmptySearchResult": {
+      "Title": "Немає елементів, що відповідають умовам пошуку.",
+      "Subhead": "Очистіть або змініть критерії пошуку."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Дізнатися більше"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Пошук по колонці",
+      "AllOption": "Усі",
+      "Title": "Виберіть колонку для фільтрації"
+    },
+    "ClearIconTitle": "Очистити пошук"
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Пошук..."
+  },
+  "Input": {
+    "Readonly": "Поле що не редагується",
+    "ShowPassword": "Показати пароль",
+    "HidePassword": "Приховати пароль"
+  },
+  "Carousel": {
+    "NoData": "Немає даних",
+    "PrevButtonCaption": "Попередній елемент",
+    "NextButtonCaption": "Наступний елемент"
+  },
+  "ComboBox": {
+    "Readonly": "Нередаговане поле",
+    "NoData": "Немає даних",
+    "EmptyDisplayValue": "Немає значень для відображення",
+    "AddNewRecord": "Додати новий",
+    "InvalidValueSyntax": "Будь ласка, оберіть значення зі списку",
+    "IsGoToSourceAllowedTooltip": "Перейти до реєстру записів",
+    "CheckAll": "Вибрати все",
+    "ClearAll": "Очистити все",
+    "SelectValue": "Оберіть значення",
+    "ClearValue": "Очистити значення",
+    "OpenSection": "Відкрити розділ"
+  },
+  "DataTable": {
+    "BulkActions": {
+      "MoreActions": "Більше дій",
+      "AriaLabel": "Пакетні дії для {0}"
+    },
+    "StatusBar": {
+      "AriaLabel": "Редагувати дії для {0}"
+    },
+    "NoData": "Немає даних",
+    "NoColumns": "Жодної колонки не додано",
+    "NotFoundColumn": "Колонку не знайдено",
+    "ColumnSticky": "Заморожена колонка",
+    "Columns": {
+      "ChangeWidth": "Змінити ширину",
+      "ChangeWidthOf": "Змінити ширину {0}"
+    },
+    "Hints": {
+      "Sort": "Сортування",
+      "SortWithCaption": "Сортувати {0}",
+      "NotSorted": "в даний момент не відсортовано",
+      "SortedAscending": "в даний момент відсортовано за зростанням",
+      "SortedDescending": "в даний момент відсортовано за спаданням",
+      "SortAscending": "Сортувати за зростанням",
+      "SortDescending": "Сортувати за спаданням",
+      "StartEditing": "Редагувати",
+      "ReadonlyCell": "Поле що не редагується",
+      "CancelChanges": "Відхилити",
+      "AddItem": "Додати новий запис",
+      "RowControls": "Управління рядками"
+    },
+    "AddItem": "Новий",
+    "SaveItemsChanges": "Зберегти все",
+    "CancelItemsChanges": "Відхилити",
+    "RowsSelection": {
+      "Selected": "обрано",
+      "SelectAll": "Вибрати все",
+      "SelectRow": "Виберіть рядок",
+      "ClearSelection": "Зняти виділення",
+      "RowsSelected": "Вибрано рядків: {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Розгорнути все",
+      "CollapseAll": "Згорнути все",
+      "ExpandRow": "Розгорнути вкладені рядки",
+      "CollapseRow": "Згорнути вкладені рядки"
+    }
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Так",
+    "No": "Ні",
+    "Save": "Зберегти",
+    "DoNotSave": "Не зберігати",
+    "Cancel": "Скасувати",
+    "Close": "Закрити",
+    "Delete": "Видалити",
+    "Notification": "Повідомлення",
+    "Overwrite": "Перезаписати",
+    "Clear": "Очистити",
+    "Restore": "Відновити",
+    "ProcessSchemaSavedWithValidationError": "Схема процесу збережена успішно, але помилки валідації перешкоджають її виконанню."
+  },
+  "Gallery": {
+    "NoData": "Немає даних",
+    "DateAdded": "Дата додавання",
+    "MenuActions": "Дії",
+    "SelectItem": "Вибір елемента",
+    "Item": {
+      "ActionsButtonCaption": "Дії елементів"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "Відкрити посилання"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Надіслати email"
+  },
+  "FileInput": {
+    "Delete": "Видалити",
+    "Cancel": "Скасувати",
+    "Attach": "Прикріпити",
+    "FileIcon": "Іконка файлу",
+    "EmptyFileName": "Порожнє ім'я файлу",
+    "MaxFileSizeLimitReached": "Досягнуто максимального розміру файлу ({0}МБ)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Перетягніть файли сюди",
+      "Description": "або використайте",
+      "Upload": "Завантажити"
+    },
+    "RowToolbar": {
+      "Download": "Завантажити"
+    }
+  },
+  "ImageInput": {
+    "Alt": "Зображення поля",
+    "Upload": "Завантажити",
+    "Change": "Змінення",
+    "Clear": "Видалити",
+    "AltAbbreviation": "Зображення скорочення",
+    "AltIcon": "Плейсхолдер для порожнього поля"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Так",
+      "False": "Ні"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "на",
+    "TodayAt": "Сьогодні в {0}",
+    "YesterdayAt": "Вчора в {0}",
+    "DayBeforeYesterdayAt": "Позавчора о {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Немає значень для відображення"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "міс",
+    "DaysAbbreviation": "дн",
+    "HoursAbbreviation": "год",
+    "MinutesAbbreviation": "хв"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} пройшло",
+    "timeBeforeCountStartTpl": "{0} до початку зворотного відліку",
+    "overdueTpl": "{0} прострочено",
+    "timeLeftTpl": "{0} залишилось",
+    "timeIsUpTpl": "Час вичерпано",
+    "waitingForStartDateTpl": "Очікування дати початку",
+    "dateNotSet": "0год 0хв"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Збереження пройшло успішно",
+      "ErrorOnSave": "Помилка при спробі застосування змін"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Ви впевнені, що хочете видалити \"{0}\" робочий стіл?",
+        "Error": {
+          "Deletion": "Помилка під час видалення робочого столу",
+          "Configuration": "Помилка під час збірки конфігурації"
+        },
+        "Success": "Робочий стіл \"{0}\" успішно видалено"
+      }
+    }
+  },
+  "AllowedResults": {
+    "Caption": "Дозволені результати",
+    "TaskCompleted": "Завдання виконано."
+  },
+  "LicenseIndicator": {
+    "Title": "Необхідна ліцензія"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Додати тег",
+    "CreateNewTagButtonCaption": "Створити новий тег"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "У вас є незбережені зміни, які будуть втрачені. Продовжити?"
+    },
+    "List": {
+      "Message": "Список містить незбережені зміни. Вони будуть втрачені, якщо ви продовжите. Зберегти зміни?"
+    },
+    "Page": {
+      "Message": "Сторінка містить незбережені зміни. Вони будуть втрачені, якщо ви продовжите. Зберегти зміни?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Редагування запису",
+    "DeleteItemActionButtonCaption": "Видалити запис",
+    "NoData": "Немає даних"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Немає даних",
+      "CloseButtonTitle": "Закрити"
+    },
+    "AriaLabel": "Вибрані елементи",
+    "Chip": {
+      "RemoveButtonCaption": "Видалити"
+    },
+    "AriaLabelFor": "Вибрані елементи для"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "Компонент відображає підказки та інструкції для користувачів щодо доступу до інформації з бази знань для відповідних стадій кейсу",
+    "Placeholder": {
+      "Title": "Відповідних статей playbook не знайдено",
+      "Description": "Будь ласка, створіть відповідну статтю для поточного етапу кейсу в розділі Playbooks"
+    },
+    "Actions": {
+      "Back": "Назад",
+      "OpenInDialog": "Відкрити у модальному вікні"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Закрити",
+        "OpenPage": "Відкрити в новій вкладці"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Не вдалося авторизуватись. Спробуйте ще раз пізніше або зверніться до адміністратора за допомогою.",
+      "FormatError": "Недійсний формат у запиті. Переконайтеся, що введення структуроване правильно та перевірте параметри виходу ваших дій.",
+      "LimitError": "Досягнуто ліміту токенів, подальша робота з Creatio.ai заблокована. Зв'яжіться з вашим адміністратором для поповнення токенів Creatio.ai.",
+      "ServiceAvailabilityError": "Сервіс тимчасово недоступний. Спробуйте ще раз пізніше.",
+      "ExecutionError": "Сталася помилка під час обробки вашого запиту. Спробуйте ще раз або зверніться до адміністратора за допомогою.",
+      "ConfigurationError": "Виявлено проблему конфігурації. Перевірте налаштування системи або зверніться до адміністратора за допомогою.",
+      "UnknownError": "Сталася невідома помилка. Спробуйте ще раз пізніше або зверніться до адміністратора за допомогою.",
+      "CharacterLimitExceededError": "Досягнуто ліміту символів у запиті користувача. Перевірте налаштування системи або зверніться до адміністратора за допомогою.",
+      "ToolCallsInvokesLimitExceeded": "Перевищено ліміт викликів функцій: занадто багато послідовних автоматизованих викликів без введення користувача або повторне виконання тієї ж функції.",
+      "InsufficientPermissions": "У вас немає дозволу використовувати цього агента або навичку. Будь ласка, зверніться до адміністратора, щоб налаштувати доступ.",
+      "ActionLimitError": "Досягнуто ліміту дій, подальша робота з Creatio.ai заблокована. Зв'яжіться з вашим адміністратором для поповнення ліміту дій Creatio.ai."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Немає даних",
+    "Boolean": {
+      "Yes": "Так",
+      "No": "Ні"
+    },
+    "String": {
+      "Placeholder": "Введіть текст"
+    },
+    "Numeric": {
+      "Placeholder": "Введіть номер",
+      "To": "до",
+      "MaxValueError": "Значення вище максимального",
+      "MinValueError": "Значення нижче мінімального"
+    }
+  },
+  "Conversation": {
+    "Caption": "Розмова",
+    "Copilot": {
+      "TypingMessage": "Генерування відповіді",
+      "Action": {
+        "Replace": "Замінити вибір",
+        "InsertAbove": "Вставити вище",
+        "InsertBelow": "Вставити нижче"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "Видалення",
+    "Export": "Експорт в Excel",
+    "AddTag": "Додати тег",
+    "RemoveTag": "Видалити тег",
+    "Merge": "Об’єднати",
+    "RowsSelection": {
+      "Selected": "обрано",
+      "SelectAll": "Вибрати все",
+      "ClearSelection": "Зняти виділення"
+    }
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Хлібні крихти"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "з сповіщеннями"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Номер карти"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Згорнути",
+    "Expand": "Розгорнути"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Прогрес бар"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Стан чату",
+    "CtiStatesMenuCaption": "Статус телефонії"
+  },
+  "MultiList": {
+    "NoDataMessage": "Ще немає недавніх елементів",
+    "NoDataBySearchFilter": "Записів, що відповідають критеріям фільтру, немає",
+    "NoDataBySearchFilterSubtitle": "Очистити фільтр або змінити його умови "
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Піпетка",
+        "AppearanceGroup": "Зовнішній вигляд",
+        "PickerModeRadioButtonCaption": "Палітра",
+        "PickerMode": {
+          "Basic": "Базова палітра",
+          "Extended": "Розширена палітра"
+        }
+      }
+    }
+  },
+  "Components": {
+    "ColorPicker": {
+      "SelectedColor": "Вибраний колір",
+      "Readonly": "Поле що не редагується"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Наступний місяць",
+    "AriaPrevMonthLabel": "Минулий місяць",
+    "AriaNextYearLabel": "Наступний рік",
+    "AriaPrevYearLabel": "Попередній рік",
+    "Readonly": "Поле що не редагується",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Календар",
+    "TimePickerIconTitle": "Час"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Режим відображення панелі інструментів",
+        "Inline": "Вбудований",
+        "Classic": "Класичний",
+        "AlwaysShowToolbar": "Завжди показувати опції формату"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Опції формату (Alt+F10)",
+    "UploadAttachments": "Вибрати вкладення",
+    "SelectTemplate": "Вставити шаблон",
+    "SelectionActions": {
+      "AskCopilot": "Запитайте Creatio.ai",
+      "Friendly": "Дружній",
+      "Formal": "Формальний",
+      "Shorten": "Скоротити",
+      "Extend": "Розширити",
+      "Rephrase": "Перефразувати",
+      "RewriteCaption": "Переписати текст"
+    },
+    "TableOfContents": {
+      "Title": "Зміст",
+      "Placeholder": "Зміст на основі заголовків на цій сторінці з’явиться тут після його публікації."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Зберегти",
+    "OpenLinkButtonCaption": "Відкрити в новій вкладці",
+    "CloseLinkButtonCaption": "Закрити",
+    "UnlinkLinkButtonCaption": "Від’вязати",
+    "LinkLabelCaption": "Адреса посилання",
+    "TextLabelCaption": "Текст для відображення"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Вставити відео",
+    "PasteUrlTab": "Вставити Url",
+    "UploadFileTab": "Завантажити файл",
+    "EmbedCodeTab": "Код вставки",
+    "DialogDescription": "Це відео буде вбудовано шириною 640 пікселів.<br>Це вбудоване відео міститиме текстове посилання.",
+    "SaveButton": "Вставити відео",
+    "CancelButton": "Скасувати",
+    "UploadButton": "Завантажити файл",
+    "InputPlaceholder": "Вставити сюди",
+    "DragAndDropPlaceholder": "Перетягніть файл сюди або",
+    "NotVideoFile": "Перетягніть файл сюди або",
+    "ConfirmMessage": "Ця сторінка містить незбережені зміни. Вони будуть втрачені, якщо ви закриєте сторінку. Зберегти зміни?"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Немає сторінки для нового або існуючого запису. Системний адміністратор має перевірити налаштування кнопок у Freedom UI",
+    "GoToEntityDesignerMessage": "Для налаштування сторінок перейдіть до URL: {0}"
+  },
+  "BaseViewModel": {
+    "RefreshModelDataConflict": "Creatio має нові дані для поточної сторінки. Щоб переглянути її, збережіть або скасуйте ваші зміни і оновіть сторінку.",
+    "WarningModelsWithCircularDependencies": "Деякі моделі мають циклічні залежності і не були завантажені",
+    "DataSourceAttributeRemoved": "Колонку видалено",
+    "ValidationErrorMessageSingleErrorField": "Поле: {0}. Помилка: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Поля: {0}. Помилка: {1}",
+    "LoadingModelErrorMessage": "Сталася помилка під час виконання запиту",
+    "ErrorMessageOnEmptyRelationColumn": "Неможливо зберегти сторінку. Заповніть поле {{caption}} або очистіть дані у пов'язаних полях, щоб зберегти на сторінку."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Будь ласка, оберіть значення зі списку",
+      "SelectionWindowMessage": "Будь ласка, виберіть значення зі списку або скористайтеся пошуком за допомогою вікна довідника"
+    },
+    "Required": {
+      "Message": "Введіть значення"
+    },
+    "MaxLength": {
+      "Message": "Перевищено допустиму довжину тексту ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Не досягнуто допустимої довжини тексту ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Неправильний формат дати і часу"
+    },
+    "DatePickerSyntax": {
+      "Message": "Неправильний формат дати"
+    },
+    "TimePickerSyntax": {
+      "Message": "Неправильний формат часу"
+    },
+    "RegExp": {
+      "Message": "Неправильний формат значення"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Код має починатися з префіксу {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Введіть принаймні один символ."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Використовуйте символи: a-z, A-Z, 0-9, підкреслення або тире. Спочатку можуть бути лише літери."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Значення '{{controlValue}}'' вже існує в колонці 'Code'."
+    },
+    "PhoneNumber": {
+      "Message": "Вказано некоректний номер телефону"
+    }
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Дані були оновлені"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Чітко та стисло опишіть ціль користувача. Деталізуйте кроки, необхідні для досягнення цілі користувача. Окресліть очікуваний результат від LLM. Це повинно включати будь-який необхідний контекст або інформацію, яку LLM повинно знати.\n\n## Загальні правила\n1. Ви не можете створювати нові об'єкти без явного підтвердження від користувача.\n2. Правило 2: ...\n3. ...\n\n## Загальні обмеження\n1. Уникайте припущень щодо наміру користувача; уточнюйте запити, коли це необхідно.\n2. Обмеження 2: ...\n3. ...\n\n## Вимоги до виходу\n1. Вихід повинен бути менше 300 символів і не більше ніж 2-3 речення.\n2. Вимога 2: ...\n3. ...\n\n## Процес\n1. Використовуйте контекст поточної сторінки для зчитування даних та полів. На основі цієї інформації ...\n2. Крок 2: ...\n3. ..."
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Зателефонувати"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Показати оригінал",
+      "Original": "Переклад",
+      "Retry": "Повторити спробу"
+    },
+    "AutoCaption": {
+      "On": "Увімкнути автопереклад",
+      "Off": "Вимкнути автопереклад"
+    }
+  }
+}

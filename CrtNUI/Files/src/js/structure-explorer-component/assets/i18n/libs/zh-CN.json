@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "加载中..."
+  },
+  "CopyClipboard": {
+    "Copied": "已复制"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "还没有要显示的内容 ",
+      "Subhead": "请先添加数据"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat started: {0} by",
+        "EndDate": "Chat completed: {0} by"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Loading"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "错误",
+      "Default": "Tooltip"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "没有新记录或现有记录的页面。系统管理员必须检查自由界面中的按钮设置",
+    "GoToEntityDesignerMessage": "要设置页面, 请访问URL: {0}"
+  }
+}

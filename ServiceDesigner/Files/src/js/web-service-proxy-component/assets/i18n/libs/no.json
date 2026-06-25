@@ -1,0 +1,34 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Loading..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Please select value from the list"
+    },
+    "Required": {
+      "Message": "Enter a value"
+    },
+    "MaxLength": {
+      "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Invalid date and time format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Invalid date format"
+    },
+    "TimePickerSyntax": {
+      "Message": "Invalid time format"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed"
+  }
+}

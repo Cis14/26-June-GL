@@ -1,0 +1,631 @@
+{
+  "DuplicatesWidgetContent": {
+    "Empty": "No duplicate records found",
+    "FoundDuplicates": "Possible duplicate records: {0}",
+    "Caption": "Duplicaten",
+    "ProcessingDuplicates": "Processing duplicates"
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. Het diagramtype is Metrisch. De huidige waarde is {{ariaValue}}. Gebruik de toets Enter of spatiebalk om in te zoomen op het element.",
+    "NotClickableAriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}."
+  },
+  "ChartLegend": {
+    "Title": "Legend for {{chartTitle}} chart: use arrow keys to navigate and Enter key to open context menu."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}}-diagram voor \"{{chartTitle}}\" met {{groupsCount}} groepen. Het diagram toont \"{{groupsNames}}\". X is \"{{xLabel}}\" van {{xMin}} tot {{xMax}}. Y is \"{{yLabel}}\" van {{yMin}} tot {{yMax}}. Gebruik de pijltoetsen om te navigeren.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Gebruik de enter-toets om het contextmenu te openen."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. Het diagramtype is Meterschaal. Gegevens variëren van {{ariaMin}} tot {{ariaMax}}. De huidige waarde is {{ariaValue}}. Gebruik de toets Enter of spatiebalk om in te zoomen op het element."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Vergroot \"{{title}}\"-diagram naar volledig scherm.",
+      "CollapseLabel": "Minimaliseer volledig scherm voor \"{{title}}\"-diagram."
+    },
+    "Menu": {
+      "Caption": "Menu voor \"{{title}}\"-diagram.",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Laden..."
+  },
+  "CopyClipboard": {
+    "Copied": "Gekopieerd"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nog niets te tonen",
+      "Subhead": "Voeg alsjeblieft eerst gegevens toe"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat gestart: {0} door",
+        "EndDate": "Chat voltooid: {0} door"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Het kanaal kan niet worden verwijderd, er zijn actieve chats of chats in distributie. Voltooi de chats eerst en probeer het opnieuw."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Aan het laden"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Fout",
+      "Default": "Tooltip"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Selecteer een waarde uit de lijst",
+      "SelectionWindowMessage": "Please select value from the list or search using the lookup window"
+    },
+    "Required": {
+      "Message": "Voer een waarde in"
+    },
+    "MaxLength": {
+      "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Invalid date and time format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Invalid date format"
+    },
+    "TimePickerSyntax": {
+      "Message": "Invalid time format"
+    },
+    "RegExp": {
+      "Message": "Invalid value format"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "De code moet beginnen met het prefix {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Voer minstens nog één symbool in."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Gebruik symbolen: a-z, A-Z, 0-9, underscore of dash. Alleen letters kunnen eerst komen."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolom verwijderd",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}",
+    "RefreshModelDataConflict": "Creatio has new data for the current page. To view it, save or cancel your changes and refresh the page.",
+    "WarningModelsWithCircularDependencies": "Some models have circular dependencies and have not been loaded",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "There is no page for new or existing record. System administrator must check the button settings in the Freedom UI",
+    "GoToEntityDesignerMessage": "To set up pages go to URL: {0}"
+  },
+  "Input": {
+    "Readonly": "Niet-wijzigbaar veld",
+    "ShowPassword": "Toon wachtwoord",
+    "HidePassword": "Verberg wachtwoord"
+  },
+  "Carousel": {
+    "NoData": "Geen gegevens",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "Niet-wijzigbaar veld",
+    "InvalidValueSyntax": "Selecteer een waarde uit de lijst",
+    "NoData": "Geen gegevens",
+    "EmptyDisplayValue": "No display value",
+    "AddNewRecord": "Nieuwe toevoegen",
+    "IsGoToSourceAllowedTooltip": "Go to record list",
+    "CheckAll": "Check all",
+    "ClearAll": "Wis alles",
+    "SelectValue": "Kies waarde",
+    "ClearValue": "Waarde wissen",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "Add columns",
+    "ColumnToolbar": {
+      "Hide": "Verberg",
+      "Freeze": "Freeze",
+      "Unfreeze": "Unfreeze",
+      "Rename": "Hernoemen",
+      "Title": "Column actions",
+      "Edit": "Eigenschappen",
+      "SortAscending": "Oplopend sorteren",
+      "SortDescending": "Aflopend sorteren",
+      "ClearSorting": "Sorteer wissen",
+      "AriaLabel": "Acties voor kolom"
+    },
+    "RowToolbar": {
+      "Open": "Openen",
+      "Copy": "Kopieer",
+      "Delete": "Verwijderen",
+      "RunBusinessProcess": "Run business process",
+      "Title": "Row actions"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Acties voor lijst",
+      "Title": "List actions",
+      "DataGridSettingsLabel": "Algemene lijstinstellingen",
+      "SaveDataGridSettings": {
+        "Label": "Opslaan als nieuwe standaardinstellingen",
+        "Confirmation": "De nieuwe standaardlijstinstellingen worden opgeslagen voor alle gebruikers. Doorgaan?",
+        "SuccessStatus": "Lijstinstelling succesvol opgeslagen"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Huidige instellingen voor alle gebruikers overschrijven",
+        "Confirmation": "De nieuwe standaardlijstinstellingen worden opgeslagen en vervangen de huidige instellingen voor alle gebruikers. Doorgaan?",
+        "SuccessStatus": "Lijstinstelling succesvol opgeslagen"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Standaardinstellingen herstellen",
+        "Confirmation": "Standaardlijstinstellingen worden hersteld. Doorgaan?",
+        "SuccessStatus": "Standaardlijstinstellingen succesvol hersteld"
+      }
+    },
+    "AddColumnsTo": "Kolommen toevoegen aan",
+    "Title": "Lijst {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "Geen gegevens",
+    "NoColumns": "No columns added",
+    "Hints": {
+      "Sort": "Sorteren",
+      "StartEditing": "Wijzig",
+      "ReadonlyCell": "Niet-wijzigbaar veld",
+      "CancelChanges": "Afwijzen.",
+      "AddItem": "Toevoegen nieuw record",
+      "SortWithCaption": "Sorteren {0}",
+      "NotSorted": "momenteel niet gesorteerd",
+      "SortedAscending": "momenteel gesorteerd oplopend",
+      "SortedDescending": "momenteel gesorteerd aflopend",
+      "SortAscending": "Oplopend sorteren",
+      "SortDescending": "Aflopend sorteren",
+      "RowControls": "Rijbediening"
+    },
+    "SaveItemsChanges": "Save all",
+    "CancelItemsChanges": "Afwijzen.",
+    "AddItem": "Nieuw",
+    "BulkActions": {
+      "MoreActions": "Meer acties",
+      "AriaLabel": "Groepacties voor {0}"
+    },
+    "RowsSelection": {
+      "Selected": "geselecteerd",
+      "SelectAll": "Selecteer alle",
+      "ClearSelection": "Duidelijke selectie",
+      "SelectRow": "Rij selecteren",
+      "RowsSelected": "Geselecteerde rijen: {0}"
+    },
+    "NotFoundColumn": "Column not found",
+    "ColumnSticky": "Frozen column",
+    "StatusBar": {
+      "AriaLabel": "Acties bewerken voor {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Wijzig breedte",
+      "ChangeWidthOf": "Breedte van {0} wijzigen"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "Geen gegevens",
+    "MenuActions": "Acties",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Ja",
+      "False": "Nee"
+    }
+  },
+  "FileInput": {
+    "Delete": "Verwijderen",
+    "Cancel": "Annuleer",
+    "Attach": "Attach",
+    "FileIcon": "File icon",
+    "EmptyFileName": "Empty file name",
+    "MaxFileSizeLimitReached": "Max file size limit is reached ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Opslaan",
+    "CancelButton": "Annuleer",
+    "ColumnProperties": "Kolomeigenschappen",
+    "Title": "Titel",
+    "FilterHeader": "Hoe records filteren",
+    "SortingHeader": "Sorteer records.",
+    "SortColumn": "Sorteer op",
+    "WhatToDisplay": "Wat te tonen",
+    "AggregationColumn": "Kolom",
+    "SortOrder": "Sort order",
+    "SetupFilters": "Filters instellen.",
+    "EditFilters": "Filters bewerken."
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Drop files here",
+      "Description": "or use",
+      "Upload": "Uploaden"
+    },
+    "RowToolbar": {
+      "Download": "Downloaden"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "bij",
+    "TodayAt": "Today at {0}",
+    "YesterdayAt": "Gisteren om {0}",
+    "DayBeforeYesterdayAt": "Eergisteren om {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Open link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Verstuur e-mail"
+  },
+  "ImageInput": {
+    "Alt": "Veldafbeelding",
+    "Upload": "Uploaden",
+    "Clear": "Verwijderen",
+    "Change": "Wijzigen",
+    "AltAbbreviation": "Afbeelding van afkorting",
+    "AltIcon": "Field empty placeholder"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mth",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Close tab"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Start proces",
+      "SuccessMessage": "The process has been successfully run",
+      "NotConfiguredQuickProcessesMessage": "Quick processes run is not yet configured",
+      "OtherProcessesCaption": "Other processes"
+    },
+    "Settings": {
+      "Title": "Instellingen"
+    },
+    "UserProfile": {
+      "Title": "Jouw profiel",
+      "MenuItems": {
+        "Profile": "Jouw profiel",
+        "Logout": "Afsluiten",
+        "OrganizationProfile": "Organization profile"
+      }
+    },
+    "New": {
+      "Title": "Nieuw",
+      "NoItemTitle": "Quick records creation is not yet configured"
+    },
+    "Help": {
+      "Title": "Help",
+      "SupportSubject": "Vraag over",
+      "MenuItems": {
+        "OnlineHelp": "Online hulp",
+        "NeedHelp": "Hulp nodig",
+        "ExternalAccess": "Toegang verlenen aan support",
+        "ReleaseNotes": "Release notities"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "AccessGrantedMessage": "Toegang verleend",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communicatiepaneel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notificaties paneel"
+    },
+    "Logo": {
+      "Title": "Go to desktop"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Configuratie"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions panel"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Compilatiefout",
+      "WorkspaceExplorerTemplate": "Om een lijst met compilatiefouten te bekijken en deze op te lossen, ga naar de <a href ='{0}' target='_blank'>Configuratie sectie</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigatiepaneel"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Het systeem heeft u doorgestuurd naar een standaard applicatieknooppunt. Aanpassingen maken in deze modus wordt afgeraden omdat wijzigingen mogelijk niet op andere knooppunten worden doorgevoerd. Het ontwerp-knooppunt kan om verschillende redenen niet beschikbaar zijn. Zie de Creatio- en/of orchestratorlogboeken voor meer informatie. Normaal gebruik kan worden voortgezet."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search app..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Navigatiepaneel inklappen",
+      "ExpandCaption": "Navigatiepaneel uitbreiden"
+    },
+    "SearchResultsCaption": "Zoekresultaten",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Lees verder"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passed",
+    "timeBeforeCountStartTpl": "{0} before countdown begins",
+    "overdueTpl": "{0} overdue",
+    "timeLeftTpl": "{0} left",
+    "timeIsUpTpl": "Time is up",
+    "waitingForStartDateTpl": "Waiting for start date",
+    "dateNotSet": "0hr 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Alle",
+      "SelectMenuLabel": "Search by column",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Zoekveld wissen"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Ja",
+    "No": "Nee",
+    "Save": "Opslaan",
+    "DoNotSave": "Niet opslaan",
+    "Cancel": "Annuleer",
+    "Delete": "Verwijderen",
+    "Close": "Sluiten",
+    "Notification": "Notificatie",
+    "Overwrite": "Overschrijven",
+    "Clear": "Wissen",
+    "Restore": "Herstellen",
+    "ProcessSchemaSavedWithValidationError": "Het proceschema is succesvol opgeslagen, maar validatiefouten voorkomen dat het wordt uitgevoerd."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Succesvol opgeslagen",
+      "ErrorOnSave": "Error when trying to apply changes"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" desktop?",
+        "Error": {
+          "Deletion": "Error during desktop deletion",
+          "Configuration": "Error during configuration build"
+        },
+        "Success": "Desktop \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Zoeken..."
+  },
+  "AllowedResults": {
+    "Caption": "Allowed results",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "License required"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Tag toevoegen",
+    "CreateNewTagButtonCaption": "Create a new tag"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "U heeft ongewenste wijzigingen die verloren gaan. Doorgaan?"
+    },
+    "List": {
+      "Message": "De lijst bevat ongewenste wijzigingen. Ze gaan verloren als je doorgaat. Wijzigingen opslaan?"
+    },
+    "Page": {
+      "Message": "De pagina bevat ongewenste wijzigingen. Ze gaan verloren als je doorgaat. Wijzigingen opslaan?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Bewerk record",
+    "DeleteItemActionButtonCaption": "Verwijder record",
+    "NoData": "Geen gegevens"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Geen gegevens",
+      "CloseButtonTitle": "Sluiten"
+    },
+    "AriaLabel": "Geselecteerde elementen",
+    "Chip": {
+      "RemoveButtonCaption": "Verwijderen"
+    },
+    "AriaLabelFor": "Geselecteerde items voor"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "De component toont tips en instructies voor gebruikers over hoe ze toegang krijgen tot informatie uit de kennisbank voor specifieke dynamische casestadia.",
+    "Placeholder": {
+      "Title": "Geen relevante playbook-artikelen gevonden",
+      "Description": "Stel alstublieft een relevant artikel in voor de huidige dynamische casestadium in de sectie Playbooks"
+    },
+    "Actions": {
+      "Back": "Terug",
+      "OpenInDialog": "Open in een modaal venster"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Sluiten",
+        "OpenPage": "Open in nieuwe tab"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Tokenlimiet bereikt, verdere samenwerking met Creatio.ai is vergrendeld. Neem contact op met uw beheerder om Creatio.ai tokens aan te vullen.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Actielimiet bereikt, verder werken met Creatio.ai is geblokkeerd. Neem contact op met uw beheerder om het limiet voor Creatio.ai-acties aan te vullen."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Geen gegevens",
+    "Boolean": {
+      "Yes": "Ja",
+      "No": "Nee"
+    },
+    "String": {
+      "Placeholder": "Voer tekst in"
+    },
+    "Numeric": {
+      "Placeholder": "Voer nummer in",
+      "To": "tot en met",
+      "MaxValueError": "Waarde is boven maximale waarde",
+      "MinValueError": "Waarde ligt onder minimum waarde"
+    }
+  },
+  "Conversation": {
+    "Caption": "Gesprek",
+    "Copilot": {
+      "TypingMessage": "Antwoord genereren",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "Verwijderen",
+    "Export": "Export naar Excel",
+    "AddTag": "Tag toevoegen",
+    "RemoveTag": "Tag verwijderen",
+    "RowsSelection": {
+      "Selected": "geselecteerd",
+      "SelectAll": "Selecteer alle",
+      "ClearSelection": "Duidelijke selectie"
+    },
+    "Merge": "Samenvoegen"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Kruimelpad"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Nummer"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Verkleinen",
+    "Expand": "Uitvouwen"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progress bar"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Chat status",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "Er zijn nog geen recente items",
+    "NoDataBySearchFilter": "Er zijn geen overeenkomende records gevonden voor het filter",
+    "NoDataBySearchFilterSubtitle": "Wis het filter of wijzig de voorwaarden "
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Vertaal",
+      "Retry": "Opnieuw proberen"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Volgende maand",
+    "AriaPrevMonthLabel": "Vorige maand",
+    "AriaNextYearLabel": "Volgend jaar",
+    "AriaPrevYearLabel": "Vorig jaar",
+    "Readonly": "Niet-wijzigbaar veld",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Kalender",
+    "TimePickerIconTitle": "Tijd"
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Bel op"
+  }
+}

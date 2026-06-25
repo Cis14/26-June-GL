@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "选择: {0}",
+        "Selected": "已选：",
+        "SelectButton": "选择",
+        "CancelButton": "取消",
+        "Blankslate": "没有此对象的记录"
+    },
+    "SearchInput": {
+        "Placeholder": "搜索",
+        "Settings": {
+            "Cancel": "取消",
+            "Apply": "应用",
+            "SearchColumnTemplate": "按列 \"{0} \" 搜索",
+            "StartsWith": "开始于",
+            "Contains": "包含",
+            "Equals": "等于"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "添加",
+        "BlankslateWithFilters": "没有匹配搜索结果，请重试。"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "接受聊天",
+            "AlreadyAssignedChat": "聊天被分配给另一个代理",
+            "NewMessages": "新消息",
+            "ChatIsCompleted": "聊天完成于 {datePart} {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "您：",
+            "DraftMessageCaption": "草稿:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "聊天频道未配置",
+                    "textStart": "请联系您的系统管理员并请求设置一个频道。了解更多在工作中使用聊天工具 ",
+                    "academyLink": {
+                        "displayText": "学院"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "聊天频道未配置",
+                    "textStart": "请稍候... ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "添加"
+                    },
+                    "academyLink": {
+                        "displayText": "学院"
+                    },
+                    "textEnd": " 一个新频道。了解更多关于在聊天中工作的信息 "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "新聊天不会分发给未激活代理",
+                    "textStart": "请将您的状态更改为\"激活.\" 了解更多关于在聊天中工作的信息 ",
+                    "academyLink": {
+                        "displayText": "学院"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "队列中没有聊天",
+                    "textStart": "了解更多关于在聊天室工作的信息 ",
+                    "academyLink": {
+                        "displayText": "学院"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "新聊天不会分发给未激活代理",
+                    "textStart": "请将您的状态更改为\"激活.\" 了解更多关于在聊天中工作的信息 ",
+                    "academyLink": {
+                        "displayText": "学院"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "队列中没有聊天",
+                    "textStart": "了解更多关于在聊天室学院的信息 ",
+                    "academyLink": {
+                        "displayText": "学院"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "你在工作中没有聊天。查看新聊天列表"
+                }
+            },
+            "Actions": {
+                "Complete": "完成聊天",
+                "ProcessesDivider": "进程",
+                "EmptyProcessesList": "在“聊天操作”上添加一个业务流程",
+                "SearchFacebook": "在 Facebook 上搜索",
+                "ContactDuplicates": {
+                    "Show": "显示重复的联系人",
+                    "NotFound": "找不到重复的联系人",
+                    "Find": "查找重复的联系人"
+                },
+                "Back": "后退",
+                "Transfer": "转移聊天",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "活跃聊天",
+            "Tips": {
+                "BackToChats": "返回列表"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "消息",
+            "AttachFile": "文件",
+            "OversizeFiles": "以下文件超过 25 MB 最大文件大小限制(s)\n{0}",
+            "NewChatsTitle": "新建聊天"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "开始聊天： {0}",
+                "EndDate": "聊天完成: {0}"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "聊天梗概",
+            "Toggle": {
+                "Opened": "隐藏",
+                "Closed": "显示更多"
+            },
+            "Fields": {
+                "Source": "来源"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "找到 {0} 个相似联系人",
+            "DuplicatesNotFound": "没有找到相似的联系人",
+            "FindDuplication": "查找相似的联系人"
+        },
+        "Transfer": {
+            "ToOperator": "代理",
+            "ToQueue": "队列",
+            "TransferWindowCaption": "转移到",
+            "OperatorStatusTips": {
+                "Active": "活跃",
+                "Inactive": "离线的",
+                "ChatsExceeded": "已超出聊天"
+            },
+            "NoAvailableAgents": "没有可用的代理可以传输",
+            "NoAvailableQueues": "没有可用的代理可以传输"
+        }
+    },
+    "InfoDialog": {
+        "OK": "确定"
+    },
+    "MessageTemplate": {
+        "Suggestion": "模板推荐",
+        "SuggestionHint": "尝试输入并开始搜索",
+        "QuickSearchHint": "输入 // 以搜索模板",
+        "TemplateSearchCaption": "回答模板"
+    },
+    "NotificationsDisabled": {
+        "textStart": "浏览器通知已禁用。启用通知以接收新的消息提醒。阅读更多",
+        "splitTextLink": {
+            "href": "https://academy.creatio.com/documents?id=1011",
+            "displayText": "学院"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "Translate",
+        "LanguagePlaceholder": "Select language",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

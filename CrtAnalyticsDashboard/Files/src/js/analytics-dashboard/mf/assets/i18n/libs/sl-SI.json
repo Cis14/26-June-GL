@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Nalaganje..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopirano"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Ničesar ni za prikaz ",
+      "Subhead": "Najprej je potrebno dodati podatke"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Pogovor se je začel: {0} od",
+        "EndDate": "Konec klepeta: {0} od"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Nalaganje"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Napaka",
+      "Default": "Orodni namig"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Izberi vrednost s seznama",
+      "SelectionWindowMessage": "Prosim izberite vrednost iz seznama ali poiščite z uporabo okna za iskanje"
+    },
+    "Required": {
+      "Message": "Vnesi vrednost"
+    },
+    "MaxLength": {
+      "Message": "Največja dolžina besedila je bila presežena ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimalna dolžina besedila ni dosežena ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Neveljaven format datuma in časa"
+    },
+    "DatePickerSyntax": {
+      "Message": "Neveljavna oblika datuma"
+    },
+    "TimePickerSyntax": {
+      "Message": "Neveljavna oblika časa"
+    },
+    "RegExp": {
+      "Message": "Neveljavna oblika vrednosti"
+    },
+    "PhoneNumber": {
+      "Message": "Neveljavna telefonska številka"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Koda mora začeti s predpono {{schemaNamePrefix}}",
+      "OnlySchemaNamePrefixMessage": "Vnesite vsaj en dodaten znak."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Uporabite simbole: a-z, A-Z, 0-9, podčrtaj ali vezaj. Prvi znak mora biti črka."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Vrednost '{{controlValue}}' že obstaja v stolpcu 'Koda'."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Stolpec odstranjen",
+    "ValidationErrorMessageSingleErrorField": "Polje: {0}. Napaka: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Polja: {0}. Napaka: {1}",
+    "RefreshModelDataConflict": "Creatio ima nove podatke za trenutno stran. Za ogled jih je potrebno shraniti ali preklicati spremembe in osvežiti stran.",
+    "WarningModelsWithCircularDependencies": "Nekateri modeli imajo krožne odvisnosti in niso bili naloženi",
+    "LoadingModelErrorMessage": "Prišlo je do napake med izvajanjem poizvedbe",
+    "ErrorMessageOnEmptyRelationColumn": "Stran ni mogoče shraniti. Potrebno je izpolniti polje {{caption}} ali počistiti podatke v povezanih poljih, da bo shranjevanje uspešno."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Podatki so bili osveženi"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Jasno in jedrnato je potrebno opisati cilj uporabnika. Podrobno je potrebno navesti korake za dosego cilja uporabnika. Očrtati je potrebno pričakovani rezultat LLM, vključno z vsemi potrebnimi konteksti ali informacijami, ki jih LLM mora poznati.\n\n##Splošna pravila\n1. Novih objektov ni mogoče ustvariti brez izrecne potrditve uporabnika.\n2. Pravilo 2: …\n3. …\n\n## Splošne omejitve\n1. Izogibati se je potrebno domnevam o namenu uporabnika; zahteve je potrebno pojasniti, kadar je to potrebno.\n2. Omejitev 2: …\n3. …\n\n## Zahteve za izhod\n1. Izhod mora biti krajši od 300 znakov in ne sme presegati 2–3 stavkov.\n2. Zahteva 2: …\n3. …\n\n## Potek procesa\n1. Potrebno je uporabiti kontekst trenutne strani za branje podatkov strani in polj. Na podlagi teh informacij …\n2. Korak 2: …\n3. …"
+    }
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Shema procesa je bila uspešno shranjena, vendar napake pri preverjanju preprečujejo njegovo izvajanje."
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Za nov ali obstoječ zapis ni na voljo strani. Skrbnik sistema mora preveriti nastavitve gumba v Freedom UI",
+    "GoToEntityDesignerMessage": "Za nastavitev strani odprite URL: {0}"
+  }
+}

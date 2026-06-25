@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Válassza ki: {0}",
+        "Selected": "Kiválasztott:",
+        "SelectButton": "Kiválasztás",
+        "CancelButton": "Mégsem",
+        "Blankslate": "Nincsenek rekordok ehhez az objektumhoz"
+    },
+    "SearchInput": {
+        "Placeholder": "Keresés",
+        "Settings": {
+            "Cancel": "Mégsem",
+            "Apply": "Alkalmaz",
+            "SearchColumnTemplate": "Keresés a következő oszlop szerint: \"{0}\"",
+            "StartsWith": "Kezdődik",
+            "Contains": "Tartalmazza",
+            "Equals": "Egyenlő"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Hozzáadás",
+        "BlankslateWithFilters": "Nincsenek az aktuális keresési feltételeknek megfelelő rekordok. Törölje vagy módosítsa a keresési paramétereket"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Csevegés elfogadása",
+            "AlreadyAssignedChat": "A csevegés egy másik ügynökhöz lett rendelve",
+            "NewMessages": "Új üzenetek",
+            "ChatIsCompleted": "A csevegés befejeződött {datePart}, {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Te:",
+            "DraftMessageCaption": "Vázlat:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "A csevegőcsatornák nincsenek konfigurálva",
+                    "textStart": "Kérjük, forduljon a rendszergazdához, és kérjen csatorna beállítását. További információ a csevegésekkel való munkavégzésről a",
+                    "academyLink": {
+                        "displayText": "Akadémia"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "A csevegőcsatornák nincsenek konfigurálva",
+                    "textStart": "Kérem",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "hozzáadás"
+                    },
+                    "academyLink": {
+                        "displayText": "Akadémia"
+                    },
+                    "textEnd": " egy új csatorna. További információ a csevegésekkel való munkavégzésről a"
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Az új csevegéseket nem osztják szét az inaktív ügynökök között",
+                    "textStart": "Kérjük, módosítsa állapotát \"Aktív\"-ra. További információ a csevegésekkel való munkavégzésről a",
+                    "academyLink": {
+                        "displayText": "Akadémia"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Nincsenek sorba állított csevegések",
+                    "textStart": "További információ a csevegésekkel való munkavégzésről a",
+                    "academyLink": {
+                        "displayText": "Akadémia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Az új csevegéseket nem osztják szét az inaktív ügynökök között",
+                    "textStart": "Kérjük, módosítsa állapotát \"Aktív\"-ra. További információ a csevegésekkel való munkavégzésről a",
+                    "academyLink": {
+                        "displayText": "Akadémia"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Nincsenek sorba állított csevegések",
+                    "textStart": "További információ az Akadémián belüli csevegésről",
+                    "academyLink": {
+                        "displayText": "Akadémia"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Úgy tűnik, nem cseveg a munkahelyén. Ellenőrizze az új csevegések listáját"
+                }
+            },
+            "Actions": {
+                "Complete": "Teljes csevegés",
+                "ProcessesDivider": "Folyamatok",
+                "EmptyProcessesList": "Adjon hozzá egy üzleti folyamatot a „Csevegési műveletek” részlethez",
+                "SearchFacebook": "Keress a Facebookon",
+                "ContactDuplicates": {
+                    "Show": "Ismétlődő névjegyek megjelenítése",
+                    "NotFound": "Ismétlődő névjegyek nem találhatók",
+                    "Find": "Ismétlődő névjegyek keresése"
+                },
+                "Back": "Vissza",
+                "Transfer": "Csevegés átvitele",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "Aktív csevegés",
+            "Tips": {
+                "BackToChats": "Vissza a listához"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Üzenet",
+            "AttachFile": "Fájl",
+            "OversizeFiles": "A 25 MB maximális fájlméret túllépte a következő fájl(ok)ban\n{0}",
+            "NewChatsTitle": "Új csevegések"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "A csevegés kezdete: {0}",
+                "EndDate": "A csevegés befejeződött: {0}"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Chat előtti összefoglaló",
+            "Toggle": {
+                "Opened": "Elrejtés",
+                "Closed": "Mutass többet"
+            },
+            "Fields": {
+                "Source": "Forrás"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "{0} hasonló névjegyet találtunk",
+            "DuplicatesNotFound": "Nem található hasonló névjegy",
+            "FindDuplication": "Keressen hasonló kapcsolatokat"
+        },
+        "Transfer": {
+            "ToOperator": "Ügynök",
+            "ToQueue": "Feldolgozási sor",
+            "TransferWindowCaption": "Transzfer ide",
+            "OperatorStatusTips": {
+                "Active": "Aktív",
+                "Inactive": "Inaktív",
+                "ChatsExceeded": "A csevegések száma túllépve"
+            },
+            "NoAvailableAgents": "Nincsenek átruházható ügynökök",
+            "NoAvailableQueues": "Nincsenek rendelkezésre álló sorok az átvitelhez"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Sablonjavaslatok",
+        "SuggestionHint": "Próbáljon beírni egy szót a keresés megkezdéséhez",
+        "QuickSearchHint": "Sablon kereséséhez írja be a // billentyűt",
+        "TemplateSearchCaption": "Válaszsablonok"
+    },
+    "NotificationsDisabled": {
+        "textStart": "A böngésző értesítései le vannak tiltva. Engedélyezze az értesítéseket az új üzenetekről szóló értesítések fogadásához. Olvass tovább",
+        "splitTextLink": {
+            "href": "https://academy.creatio.com/documents?id=1011",
+            "displayText": "Akadémia"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "Fordítás",
+        "LanguagePlaceholder": "Nyelv kiválasztása",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

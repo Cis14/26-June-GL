@@ -1,0 +1,34 @@
+{
+  "SkeletonLoader": {
+    "Loading": "En cours de chargement..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Merci de sélectionner la valeur dans la liste"
+    },
+    "Required": {
+      "Message": "Saisir une valeur"
+    },
+    "MaxLength": {
+      "Message": "Longueur maximale du texte dépassée ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Longueur de texte minimale non atteinte ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format de date et d'heure non valide"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format de date invalide"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format d'heure non valide"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed"
+  }
+}

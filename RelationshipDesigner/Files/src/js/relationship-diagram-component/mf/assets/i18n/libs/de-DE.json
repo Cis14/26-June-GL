@@ -1,0 +1,597 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Ladevorgang"
+  },
+  "CopyClipboard": {
+    "Copied": "Kopiert"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Noch nichts anzuzeigen ",
+      "Subhead": "Bitte zuerst Daten hinzufügen"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat gestartet: {0} von",
+        "EndDate": "Chat abgeschlossen {0} von"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Der Kanal kann nicht gelöscht werden, es gibt aktive Chats oder Chats in der Distribution. Bitte vervollständige zuerst die Chats und versuche es erneut."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Lädt"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Fehler",
+      "Default": "Tooltip"
+    }
+  },
+  "Input": {
+    "Readonly": "Nicht editierbares Feld",
+    "ShowPassword": "Passwort anzeigen",
+    "HidePassword": "Passwort ausblenden"
+  },
+  "Carousel": {
+    "NoData": "Keine Daten",
+    "PrevButtonCaption": "Vorheriges Element",
+    "NextButtonCaption": "Nächstes Element"
+  },
+  "ComboBox": {
+    "Readonly": "Nicht editierbares Feld",
+    "InvalidValueSyntax": "Bitte wählen Sie einen Wert aus der Liste",
+    "NoData": "Keine Daten",
+    "EmptyDisplayValue": "Kein Anzeigewert",
+    "AddNewRecord": "Neues hinzufügen",
+    "IsGoToSourceAllowedTooltip": "Zu Liste mit Datensätzen gehen",
+    "CheckAll": "Alle auswählen",
+    "ClearAll": "Alles löschen",
+    "SelectValue": "Wert auswählen",
+    "ClearValue": "Wert löschen",
+    "OpenSection": "Sektion öffnen"
+  },
+  "DataGrid": {
+    "AddColumns": "Spalten hinzufügen",
+    "ColumnToolbar": {
+      "Hide": "Verstecken",
+      "Freeze": "Einfrieren",
+      "Unfreeze": "Entsperren",
+      "Rename": "Umbenennen",
+      "Title": "Spaltenaktionen",
+      "Edit": "Eigenschaften",
+      "SortAscending": "Aufsteigend sortieren",
+      "SortDescending": "Absteigend sortieren",
+      "ClearSorting": "Sortierung aufheben",
+      "AriaLabel": "Spaltenaktionen für"
+    },
+    "RowToolbar": {
+      "Open": "Öffnen",
+      "Copy": "Kopieren",
+      "Delete": "Löschen",
+      "RunBusinessProcess": "Business Prozess starten",
+      "Title": "Zeilenaktionen"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Listenaktionen für",
+      "Title": "Listenaktionen",
+      "DataGridSettingsLabel": "Allgemeine Listeneinstellungen",
+      "SaveDataGridSettings": {
+        "Label": "Als neue Standardeinstellungen speichern",
+        "Confirmation": "Neue Standardeinstellungen der Liste werden für alle Benutzer gespeichert. Möchten Sie fortfahren?",
+        "SuccessStatus": "Listeneinstellung erfolgreich gespeichert"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Aktuelle Einstellungen für alle Benutzer überschreiben",
+        "Confirmation": "Neue Standardeinstellungen der Liste werden gespeichert und ersetzen die aktuellen Einstellungen für alle Benutzer. Möchten Sie fortfahren?",
+        "SuccessStatus": "Listeneinstellung erfolgreich gespeichert"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Standardeinstellungen wiederherstellen",
+        "Confirmation": "Die Standardeinstellungen der Liste werden wiederhergestellt. Möchten Sie fortfahren?",
+        "SuccessStatus": "Standard-Listeneinstellungen wurden erfolgreich wiederhergestellt."
+      }
+    },
+    "AddColumnsTo": "Spalten hinzufügen zu",
+    "Title": "Liste {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Spalte erfolgreich hinzugefügt",
+      "ColumnsAddedSuccessfully": "Spalten erfolgreich hinzugefügt.",
+      "ColumnHiddenSuccessfully": "Spalte erfolgreich ausgeblendet",
+      "ColumnFrozenSuccessfully": "Spalte erfolgreich fixiert",
+      "ColumnUnfrozenSuccessfully": "Spalte erfolgreich gelöst",
+      "ColumnChangedSuccessfully": "Spalte erfolgreich geändert"
+    }
+  },
+  "DataTable": {
+    "NoData": "Keine Daten",
+    "NoColumns": "Keine Spalten hinzugefügt",
+    "Hints": {
+      "Sort": "Sortieren",
+      "StartEditing": "Ändern",
+      "ReadonlyCell": "Nicht editierbares Feld",
+      "CancelChanges": "Verwerfen",
+      "AddItem": "Neuen Satz hinzufügen",
+      "SortWithCaption": "Sortieren {0}",
+      "NotSorted": "derzeit nicht sortiert",
+      "SortedAscending": "derzeit aufsteigend sortiert",
+      "SortedDescending": "derzeit absteigend sortiert",
+      "SortAscending": "Aufsteigend sortieren",
+      "SortDescending": "Absteigend sortieren",
+      "RowControls": "Zeilensteuerung"
+    },
+    "SaveItemsChanges": "Alle speichern",
+    "CancelItemsChanges": "Verwerfen",
+    "AddItem": "Neu",
+    "BulkActions": {
+      "MoreActions": "Weitere Aktionen",
+      "AriaLabel": "Massenaktionen für {0}"
+    },
+    "RowsSelection": {
+      "Selected": "auswahl",
+      "SelectAll": "Alle auswählen",
+      "ClearSelection": "Auswahl löschen",
+      "SelectRow": "Zeile auswählen",
+      "RowsSelected": "Ausgewählte Zeilen: {0}"
+    },
+    "NotFoundColumn": "Spalte nicht gefunden",
+    "ColumnSticky": "Eingefrorene Spalte",
+    "StatusBar": {
+      "AriaLabel": "Aktionen für {0} bearbeiten"
+    },
+    "Columns": {
+      "ChangeWidth": "Breite ändern",
+      "ChangeWidthOf": "Breite von {0} ändern"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Alle ausklappen",
+      "CollapseAll": "Alle einklappen",
+      "ExpandRow": "Verschachtelte Zeilen ausklappen",
+      "CollapseRow": "Verschachtelte Zeilen einklappen"
+    }
+  },
+  "Gallery": {
+    "NoData": "Keine Daten",
+    "MenuActions": "Aktionen",
+    "DateAdded": "Hinzugefügt am",
+    "SelectItem": "Element auswählen",
+    "Item": {
+      "ActionsButtonCaption": "Elementaktionen"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Ja",
+      "False": "Nein"
+    }
+  },
+  "FileInput": {
+    "Delete": "Löschen",
+    "Cancel": "Abbrechen",
+    "Attach": "Anhängen",
+    "FileIcon": "Dateisymbol",
+    "EmptyFileName": "Leerer Dateiname",
+    "MaxFileSizeLimitReached": "Maximale Dateigrößengrenze erreicht ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Speichern",
+    "CancelButton": "Abbrechen",
+    "ColumnProperties": "Spalteneigenschaften",
+    "Title": "Titel",
+    "FilterHeader": "Filtern von Datensätzen",
+    "SortingHeader": "Datensätze sortieren",
+    "SortColumn": "Sortieren nach",
+    "WhatToDisplay": "Was anzeigen",
+    "AggregationColumn": "Spalte",
+    "SortOrder": "Sortierung",
+    "SetupFilters": "Filter einrichten",
+    "EditFilters": "Filter bearbeiten"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Dateien hier ablegen",
+      "Description": "oder nutze",
+      "Upload": "Hochladen"
+    },
+    "RowToolbar": {
+      "Download": "Herunterladen"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "um",
+    "TodayAt": "Heute um {0}",
+    "YesterdayAt": "Gestern um {0}",
+    "DayBeforeYesterdayAt": "Vorgestern um {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Kein Anzeigewert"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Link öffnen"
+  },
+  "EmailInput": {
+    "AddEmailHint": "E-Mail senden"
+  },
+  "ImageInput": {
+    "Alt": "Feldbild",
+    "Upload": "Hochladen",
+    "Clear": "Löschen",
+    "Change": "Änderung",
+    "AltAbbreviation": "Abkürzungsbild",
+    "AltIcon": "Feld leer Platzhalter"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "m",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "h",
+    "MinutesAbbreviation": "Min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Tab schließen"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Prozess ausführen",
+      "SuccessMessage": "Der Prozess wurde erfolgreich ausgeführt",
+      "NotConfiguredQuickProcessesMessage": "Schnellprozesse sind noch nicht konfiguriert",
+      "OtherProcessesCaption": "Andere Prozesse"
+    },
+    "Settings": {
+      "Title": "Einstellungen"
+    },
+    "UserProfile": {
+      "Title": "Ihr Profil",
+      "MenuItems": {
+        "Profile": "Ihr Profil",
+        "Logout": "Ende",
+        "OrganizationProfile": "Organisationsprofil"
+      }
+    },
+    "New": {
+      "Title": "Neu",
+      "NoItemTitle": "Schnelleinträge erstellen ist noch nicht konfiguriert"
+    },
+    "Help": {
+      "Title": "Hilfe benötigt",
+      "SupportSubject": "Frage über",
+      "MenuItems": {
+        "OnlineHelp": "Onlinehilfe",
+        "NeedHelp": "Hilfe benötigt",
+        "ExternalAccess": "Zugriff für Support gewähren",
+        "ReleaseNotes": "Versionshinweise"
+      },
+      "AccessGrantedMessage": "Zugriff gewährt",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0AKunden-ID: {1}%0D%0AProdukt: {2}%0D%0AVersion: {3}%0D%0ALocalization: {4}%0D%0ASeite: {5}",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication  panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications  panel"
+    },
+    "Logo": {
+      "Title": "Zum Desktop gehen"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfiguration"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions-Panel"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Kompilierungsfehler",
+      "WorkspaceExplorerTemplate": "Um eine Liste von Kompilierungsfehlern zu sehen und diese zu beheben, besuchen Sie bitte den Abschnitt <a href ='{0}' target='_blank'>Konfiguration</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigationsleiste"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Fehlerdetails:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Eingeschränkter Konfigurationsmodus",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Das System hat Sie zu einem regulären Applikationsknoten weitergeleitet. Es wird nicht empfohlen, in diesem Modus Anpassungen vorzunehmen, da Änderungen möglicherweise nicht auf andere Knoten verteilt werden. Der Design-Knoten könnte aus verschiedenen Gründen nicht verfügbar sein. Weitere Informationen finden Sie in den Creatio- und/oder Orchestrator-Protokollen. Der Routinebetrieb kann fortgesetzt werden."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsichere Tracking-Einstellungen",
+      "SysSettingsTemplate": "Besuchen Sie <a href ='{0}' target='_blank'>SysSetting Abschnitt</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Suche..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Navigationsleiste einklappen",
+      "ExpandCaption": "Navigationsleiste erweitern"
+    },
+    "SearchResultsCaption": "Suchergebnisse",
+    "EmptySearchResult": {
+      "Title": "Es gibt keine Elemente, die den Suchkriterien entsprechen.",
+      "Subhead": "Kriterien für die Suche löschen oder ändern."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Weiterlesen"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} vergangen",
+    "timeBeforeCountStartTpl": "{0} bevor Countdown beginnt",
+    "overdueTpl": "{0} überfällig",
+    "timeLeftTpl": "{0} verbleibend",
+    "timeIsUpTpl": "Zeit ist abgelaufen",
+    "waitingForStartDateTpl": "Warte auf Startdatum",
+    "dateNotSet": "0Std 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Alle",
+      "SelectMenuLabel": "Suche nach Spalte",
+      "Title": "Filterspalte auswählen"
+    },
+    "ClearIconTitle": "Suche löschen"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Ja",
+    "No": "Nein",
+    "Save": "Speichern",
+    "DoNotSave": "Nicht speichern",
+    "Cancel": "Abbrechen",
+    "Delete": "Löschen",
+    "Close": "Schließen",
+    "Notification": "Benachrichtigung",
+    "Overwrite": "Überschreiben",
+    "Clear": "Löschen",
+    "Restore": "Wiederherstellen",
+    "ProcessSchemaSavedWithValidationError": "Das Prozessschema wurde erfolgreich gespeichert, aber Validierungsfehler verhindern, dass es ausgeführt wird."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Erfolgreich gespeichert",
+      "ErrorOnSave": "Fehler beim Versuch, Änderungen zu übernehmen"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Sind Sie sicher, dass Sie den \"{0}\" Desktop löschen möchten?",
+        "Error": {
+          "Deletion": "Fehler beim Löschen des Desktops",
+          "Configuration": "Fehler beim Erstellen der Konfiguration"
+        },
+        "Success": "Desktop \"{0}\" wurde erfolgreich gelöscht"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Suche..."
+  },
+  "AllowedResults": {
+    "Caption": "Erlaubte Ergebnisse",
+    "TaskCompleted": "Die Aufgabe wurde abgeschlossen."
+  },
+  "LicenseIndicator": {
+    "Title": "Lizenz erforderlich"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Tag hinzufügen",
+    "CreateNewTagButtonCaption": "Neuen Tag erstellen"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Sie haben nicht gespeicherte Änderungen, die verloren gehen. Fortfahren?"
+    },
+    "List": {
+      "Message": "Die Liste enthält ungespeicherte Änderungen. Sie gehen verloren, wenn Sie fortfahren. Änderungen speichern?"
+    },
+    "Page": {
+      "Message": "Die Seite enthält ungespeicherte Änderungen. Sie gehen verloren, wenn Sie fortfahren. Änderungen speichern?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Datensatz bearbeiten",
+    "DeleteItemActionButtonCaption": "Satz löschen",
+    "NoData": "Keine Daten"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Keine Daten",
+      "CloseButtonTitle": "Schließen"
+    },
+    "AriaLabel": "Ausgewählte Elemente",
+    "Chip": {
+      "RemoveButtonCaption": "Entfernen"
+    },
+    "AriaLabelFor": "Ausgewählte Elemente für"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "Die Komponente zeigt Hinweise und Anweisungen für Benutzer an, um Informationen aus der Wissensdatenbank für spezifische dynamische Fallstufen abzurufen",
+    "Placeholder": {
+      "Title": "Es wurden keine relevanten Playbook-Artikel gefunden",
+      "Description": "Bitte richten Sie einen entsprechenden Artikel für die aktuelle dynamische Fallphase in der Sektion Playbooks ein"
+    },
+    "Actions": {
+      "Back": "Zurück",
+      "OpenInDialog": "Im Modal-Fenster öffnen"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Schließen",
+        "OpenPage": "In neuem Tab öffnen"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Autorisierung fehlgeschlagen. Versuchen Sie es später erneut oder wenden Sie sich an den Administrator.",
+      "FormatError": "Ungültiges Format in der Anfrage. Stellen Sie sicher, dass die Eingabe korrekt strukturiert ist, und überprüfen Sie die Ausgabewerte Ihrer Aktionen.",
+      "LimitError": "Tokenlimit erreicht, weitere Arbeit mit Creatio.ai ist gesperrt. Wenden Sie sich an Ihren Administrator, um die Creatio.ai-Tokens aufzufüllen.",
+      "ServiceAvailabilityError": "Dienst ist vorübergehend nicht verfügbar. Versuchen Sie es später erneut.",
+      "ExecutionError": "Beim Verarbeiten Ihrer Anfrage ist ein Fehler aufgetreten. Versuchen Sie es erneut oder wenden Sie sich an den Administrator, um Hilfe zu erhalten.",
+      "ConfigurationError": "Konfigurationsproblem erkannt. Überprüfen Sie die Systemeinstellungen oder wenden Sie sich an den Administrator.",
+      "UnknownError": "Unbekannter Fehler ist aufgetreten. Versuchen Sie es später erneut oder wenden Sie sich an den Administrator.",
+      "CharacterLimitExceededError": "Das Zeichenlimit in der Anfrage des Benutzers wurde erreicht. Überprüfen Sie die Systemeinstellungen oder wenden Sie sich an den Administrator, um Hilfe zu erhalten.",
+      "ToolCallsInvokesLimitExceeded": "Funktionsaufruf-Limit überschritten: Zu viele aufeinanderfolgende automatische Aufrufe ohne Benutzereingabe oder wiederholte Ausführung derselben Funktion.",
+      "InsufficientPermissions": "Ihnen fehlt die Berechtigung, diesen Agenten oder Fertigkeiten zu verwenden. Bitte kontaktieren Sie Ihren Administrator, um Zugriff einzurichten.",
+      "ActionLimitError": "Aktionslimit erreicht, weitere Arbeit mit Creatio.ai ist gesperrt. Wenden Sie sich an Ihren Administrator, um die Creatio.ai-Aktionen aufzufüllen."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Keine Daten",
+    "Boolean": {
+      "Yes": "Ja",
+      "No": "Nein"
+    },
+    "String": {
+      "Placeholder": "Text eingeben"
+    },
+    "Numeric": {
+      "Placeholder": "Zahl eingeben",
+      "To": "bis zu",
+      "MaxValueError": "Wert liegt über dem Maximalwert",
+      "MinValueError": "Wert liegt unter dem Mindestwert"
+    }
+  },
+  "Conversation": {
+    "Caption": "Unterhaltung",
+    "Copilot": {
+      "TypingMessage": "Erzeuge Antwort",
+      "Action": {
+        "Replace": "Auswahl ersetzen",
+        "InsertAbove": "Oberhalb einfügen",
+        "InsertBelow": "Unterhalb einfügen"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "Löschen",
+    "Export": "Excel-Export",
+    "AddTag": "Tag hinzufügen",
+    "RemoveTag": "Tag entfernen",
+    "RowsSelection": {
+      "Selected": "auswahl",
+      "SelectAll": "Alle auswählen",
+      "ClearSelection": "Auswahl löschen"
+    },
+    "Merge": "Zusammenführen"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Brotkrumen"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "mit Benachrichtigungen"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Nummer"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Einklappen",
+    "Expand": "Erweitern"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Fortschrittsleiste"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Chat-Status",
+    "CtiStatesMenuCaption": "Telefonie-Status"
+  },
+  "MultiList": {
+    "NoDataMessage": "Es gibt noch keine aktuellen Elemente.",
+    "NoDataBySearchFilter": "Keine Sätze erfüllen die Filterkriterien",
+    "NoDataBySearchFilterSubtitle": "Filter löschen oder Bedingungen ändern "
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Es gibt keine Seite für neue oder bestehende Aufzeichnungen. Systemadministrator muss die Einstellungen der Freiheits-Oberfläche überprüfen",
+    "GoToEntityDesignerMessage": "Um Seiten einzurichten, gehen Sie zu URL: {0}"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Bitte wählen Sie einen Wert aus der Liste",
+      "SelectionWindowMessage": "Bitte wählen Sie den Wert aus der Liste oder suchen Sie im Suchfenster"
+    },
+    "Required": {
+      "Message": "Wert eingeben"
+    },
+    "MaxLength": {
+      "Message": "Maximale Textlänge überschritten ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimale Textlänge nicht erreicht ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Ungültiges Datums- und Zeitformat"
+    },
+    "DatePickerSyntax": {
+      "Message": "Ungültiges Datumsformat"
+    },
+    "TimePickerSyntax": {
+      "Message": "Ungültiges Zeitformat"
+    },
+    "RegExp": {
+      "Message": "Ungültiges Wertformat"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code muss mit dem {{schemaNamePrefix}} Präfix beginnen.",
+      "OnlySchemaNamePrefixMessage": "Geben Sie mindestens ein weiteres Zeichen ein."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Symbole verwenden: a-z, A-Z, 0-9, Unterstrich oder Bindestrich. Das erste Zeichen muss ein Buchstabe sein."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Der Wert \"{{controlValue}}\" ist in der Spalte \"Code\" bereits vorhanden."
+    },
+    "PhoneNumber": {
+      "Message": "Ungültige Telefonnummer"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Spalte entfernt",
+    "ValidationErrorMessageSingleErrorField": "Felder: {0}. Fehler: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Felder: {0}. Fehler: {1}",
+    "RefreshModelDataConflict": "Creatio hat neue Daten für die aktuelle Seite. Um sie anzuzeigen, speichern oder löschen Sie Ihre Änderungen und aktualisieren Sie die Seite.",
+    "WarningModelsWithCircularDependencies": "Einige Modelle haben zirkuläre Abhängigkeiten und wurden nicht geladen",
+    "LoadingModelErrorMessage": "Fehler bei der Ausführung der Abfrage",
+    "ErrorMessageOnEmptyRelationColumn": "Die Seite kann nicht gespeichert werden. Füllen Sie das Feld {{caption}} aus oder löschen Sie die Daten in den zugehörigen Feldern, um die Seite zu speichern."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Daten wurden aktualisiert"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Beschreiben Sie das Benutzerziel klar und präzise. Erläutern Sie die Schritte, die erforderlich sind, um das Ziel zu erreichen. Skizzieren Sie das erwartete Ergebnis vom LLM, einschließlich aller notwendigen Kontextinformationen.\n\n## Allgemeine Regeln\n1. Sie dürfen keine neuen Objekte erstellen, ohne dies explizit mit dem Benutzer abzustimmen.\n2. Regel 2: ...\n3. ...\n\n## Allgemeine Einschränkungen\n1. Treffen Sie keine Annahmen über die Absicht des Benutzers; klären Sie Anfragen bei Bedarf.\n2. Einschränkung 2: ...\n3. ...\n\n## Anforderungen an die Ausgabe\n1. Die Ausgabe muss weniger als 300 Zeichen und nicht mehr als 2-3 Sätze enthalten.\n2. Anforderung 2: ...\n3. ...\n\n## Prozessablauf\n1. Verwenden Sie den aktuellen Seitenkontext, um Seitendaten und Felder auszulesen. Basierend auf diesen Informationen ...\n2. Schritt 2: ...\n3. ..."
+    }
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Original anzeigen",
+      "Original": "Übersetzen",
+      "Retry": "Erneut versuchen"
+    },
+    "AutoCaption": {
+      "On": "Auto-Übersetzung aktivieren",
+      "Off": "Auto-Übersetzung deaktivieren"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Aufrufen"
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Nächster Monat",
+    "AriaPrevMonthLabel": "Vorheriger Monat",
+    "AriaNextYearLabel": "Nächstes Jahr",
+    "AriaPrevYearLabel": "Letztes Jahr",
+    "Readonly": "Nicht editierbares Feld",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Kalender",
+    "TimePickerIconTitle": "Zeit"
+  }
+}

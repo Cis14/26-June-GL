@@ -1,0 +1,717 @@
+{
+  "CrtIconSelectorComponent": {
+    "Tooltip": "選擇圖示"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "停用業務規則"
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "常數值",
+    "SourceCaption": "持續的",
+    "ValuePickerComponent": {
+      "Placeholder": "指定值"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "選擇值",
+      "Label": "數值",
+      "Actions": {
+        "OkButtonCaption": "好的",
+        "CancelButtonCaption": "取消"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "載入中..."
+  },
+  "CopyClipboard": {
+    "Copied": "複製"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "尚未有任何顯示",
+      "Subhead": "請先新增資料"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "聊天開始：{0}由",
+        "EndDate": "聊天完成：{0}由"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "通路無法刪除，有活躍聊天或聊天正在分發。請先完成聊天，然後再試一次。"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "載入中"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "錯誤",
+      "Default": "工具提示"
+    }
+  },
+  "Input": {
+    "Readonly": "不可編輯欄位",
+    "ShowPassword": "顯示密碼",
+    "HidePassword": "隱藏密碼"
+  },
+  "Carousel": {
+    "NoData": "無數據",
+    "PrevButtonCaption": "前一項",
+    "NextButtonCaption": "下一項"
+  },
+  "ComboBox": {
+    "Readonly": "不可編輯欄位",
+    "NoData": "無數據",
+    "EmptyDisplayValue": "無顯示值",
+    "AddNewRecord": "新增",
+    "InvalidValueSyntax": "請從清單中選擇值",
+    "IsGoToSourceAllowedTooltip": "前往記錄清單",
+    "CheckAll": "全部檢查",
+    "ClearAll": "全部清除",
+    "SelectValue": "選擇值",
+    "ClearValue": "清晰的數值",
+    "OpenSection": "打開區段"
+  },
+  "DataGrid": {
+    "AddColumns": "新增欄位",
+    "ColumnToolbar": {
+      "Hide": "隱藏",
+      "Freeze": "凍結",
+      "Unfreeze": "解凍",
+      "Rename": "重新命名",
+      "Edit": "特性",
+      "Title": "欄位動作",
+      "SortAscending": "升序排序",
+      "SortDescending": "降冪排序",
+      "ClearSorting": "清除排序",
+      "AriaLabel": "欄位動作為"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "列出以下行動",
+      "DataGridSettingsLabel": "一般清單設定",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "所有用戶的新預設列表設置將被保存。是否繼續？",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "所有用戶的新預設列表設置將被保存。是否繼續？",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "還原預設設定",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "成功還原預設清單設定"
+      },
+      "Title": "列出行動"
+    },
+    "RowToolbar": {
+      "Open": "打開",
+      "Copy": "複製",
+      "Delete": "刪除",
+      "RunBusinessProcess": "執行業務流程",
+      "Title": "行動"
+    },
+    "AddColumnsTo": "新增欄位至",
+    "Title": "清單 {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "欄位成功新增",
+      "ColumnsAddedSuccessfully": "欄位成功新增",
+      "ColumnHiddenSuccessfully": "欄位隱藏成功",
+      "ColumnFrozenSuccessfully": "欄位凍結成功",
+      "ColumnUnfrozenSuccessfully": "成功解鎖欄位",
+      "ColumnChangedSuccessfully": "欄位更改成功"
+    }
+  },
+  "DataTable": {
+    "NoData": "無數據",
+    "NoColumns": "沒有新增欄位",
+    "Hints": {
+      "Sort": "分類",
+      "StartEditing": "編輯",
+      "ReadonlyCell": "不可編輯欄位",
+      "CancelChanges": "丟棄",
+      "AddItem": "新增記錄",
+      "SortWithCaption": "排序 {0}",
+      "NotSorted": "目前尚未排序",
+      "SortedAscending": "目前以升序排序",
+      "SortedDescending": "目前排序為降序",
+      "SortAscending": "升序排序",
+      "SortDescending": "降冪排序",
+      "RowControls": "行控制"
+    },
+    "SaveItemsChanges": "儲存所有",
+    "CancelItemsChanges": "丟棄",
+    "BulkActions": {
+      "MoreActions": "更多行動",
+      "AriaLabel": "針對 {0} 的大量行動"
+    },
+    "AddItem": "新的",
+    "RowsSelection": {
+      "Selected": "選定",
+      "SelectAll": "選擇全部",
+      "ClearSelection": "清除選擇",
+      "SelectRow": "選擇行",
+      "RowsSelected": "已選取的行數：{0}"
+    },
+    "NotFoundColumn": "未找到欄位",
+    "ColumnSticky": "冷凍柱",
+    "StatusBar": {
+      "AriaLabel": "編輯 {0} 的動作"
+    },
+    "Columns": {
+      "ChangeWidth": "改變寬度",
+      "ChangeWidthOf": "變更 {0} 的寬度"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "是的",
+    "No": "不",
+    "Save": "儲存",
+    "DoNotSave": "不要儲存",
+    "Cancel": "取消",
+    "Delete": "刪除",
+    "Close": "關閉",
+    "Notification": "通知",
+    "Overwrite": "覆蓋",
+    "Clear": "清除",
+    "Restore": "還原",
+    "ProcessSchemaSavedWithValidationError": "流程模式已成功儲存，但驗證錯誤導致無法執行。"
+  },
+  "Gallery": {
+    "NoData": "無數據",
+    "MenuActions": "動作",
+    "DateAdded": "新增日期",
+    "SelectItem": "選擇項目",
+    "Item": {
+      "ActionsButtonCaption": "項目操作"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "開啟連結"
+  },
+  "EmailInput": {
+    "AddEmailHint": "傳送電子郵件"
+  },
+  "FileInput": {
+    "Delete": "刪除",
+    "Cancel": "取消",
+    "Attach": "附加",
+    "FileIcon": "檔案圖示",
+    "EmptyFileName": "空檔名稱",
+    "MaxFileSizeLimitReached": "達到最大檔案大小限制 ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "將檔案丟到這裡",
+      "Description": "或使用",
+      "Upload": "上傳"
+    },
+    "RowToolbar": {
+      "Download": "下載"
+    }
+  },
+  "ImageInput": {
+    "Alt": "現場影像",
+    "Upload": "上傳",
+    "Change": "變更",
+    "Clear": "刪除",
+    "AltAbbreviation": "縮寫圖像",
+    "AltIcon": "欄位為空的占位符"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "儲存",
+    "CancelButton": "取消",
+    "ColumnProperties": "欄屬性",
+    "Title": "標題",
+    "FilterHeader": "如何篩選記錄",
+    "SortingHeader": "排序記錄",
+    "SortColumn": "排序方式",
+    "WhatToDisplay": "顯示內容",
+    "AggregationColumn": "柱狀圖",
+    "SortOrder": "排序順序",
+    "SetupFilters": "設定篩選器",
+    "EditFilters": "編輯篩選條件"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "是的",
+      "False": "不"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "在",
+    "TodayAt": "今天在 {0}",
+    "YesterdayAt": "昨天{0}",
+    "DayBeforeYesterdayAt": "前天{0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "無顯示值"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "月",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "分分鐘"
+  },
+  "TabPanel": {
+    "CloseTabHint": "關閉標籤"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "前往桌面"
+    },
+    "QuickRunProcess": {
+      "Title": "運行進程",
+      "SuccessMessage": "程序已成功執行",
+      "NotConfiguredQuickProcessesMessage": "尚未設定快速程序運行",
+      "OtherProcessesCaption": "其他流程"
+    },
+    "Settings": {
+      "Title": "設定"
+    },
+    "UserProfile": {
+      "Title": "您的個人資料",
+      "MenuItems": {
+        "Profile": "您的個人資料",
+        "Logout": "離開",
+        "OrganizationProfile": "組織簡介"
+      }
+    },
+    "New": {
+      "Title": "新的",
+      "NoItemTitle": "尚未設定快速建立記錄"
+    },
+    "Help": {
+      "Title": "幫助",
+      "MenuItems": {
+        "OnlineHelp": "線上幫助",
+        "NeedHelp": "需要幫助",
+        "ExternalAccess": "授予支援存取權限",
+        "ReleaseNotes": "發行說明"
+      },
+      "SupportSubject": "問題關於",
+      "AccessGrantedMessage": "已授予存取權限",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite:{0}%0D%0ACustomer ID: {1}%0D%0AProduct：{2}%0D%0AVersion：{3}%0D%0螢幕大小：{4}%0D%0ALocalization：{5}%0D%0頁面：{6}",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "通訊面板"
+    },
+    "NotificationsPanelButton": {
+      "Title": "通知面板"
+    },
+    "LegacySidePanelButton": {
+      "Title": "新增面板"
+    },
+    "WorkspaceExplorer": {
+      "Title": "配置"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "編譯錯誤",
+      "WorkspaceExplorerTemplate": "若要檢視編譯錯誤清單並修復錯誤，請造訪 <a href ='{0}' target='_blank'>設定部分</a>。"
+    },
+    "NavigationPanelButton": {
+      "Title": "導覽面板"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "搜尋應用程式..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "折疊導覽面板",
+      "ExpandCaption": "展開導覽面板"
+    },
+    "SearchResultsCaption": "搜尋結果",
+    "EmptySearchResult": {
+      "Title": "沒有符合搜尋條件的項目。",
+      "Subhead": "清除或變更搜尋準則。"
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "讀取更多"
+  },
+  "Timer": {
+    "timePassedTpl": "{0}通過",
+    "timeBeforeCountStartTpl": "倒數開始前 {0}",
+    "overdueTpl": "{0} 逾期",
+    "timeLeftTpl": "{0} 剩餘",
+    "timeIsUpTpl": "時間到了",
+    "waitingForStartDateTpl": "等待開始日期",
+    "dateNotSet": "0 小時 0 分鐘"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "依欄位搜尋",
+      "AllOption": "全部",
+      "Title": "選擇篩選列"
+    },
+    "ClearIconTitle": "清除搜尋"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "儲存成功",
+      "ErrorOnSave": "嘗試套用變更時發生錯誤"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "您確定要刪除「{0}」桌面嗎？",
+        "Error": {
+          "Deletion": "桌面刪除時發生錯誤",
+          "Configuration": "組態建立時出錯"
+        },
+        "Success": "桌面「{0}」已成功刪除"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "搜尋..."
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "您有未儲存的更改，這些更改將會遺失。繼續？"
+    },
+    "List": {
+      "Message": "清單中包含未儲存的變更。如果您繼續操作，這些變更將會遺失。儲存變更嗎？"
+    },
+    "Page": {
+      "Message": "該頁面包含未保存的變更。如果繼續操作，這些變更將丟失。儲存變更嗎？"
+    }
+  },
+  "AllowedResults": {
+    "Caption": "允許的結果",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "需要執照"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "添加標籤",
+    "CreateNewTagButtonCaption": "建立新標籤"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "編輯記錄",
+    "DeleteItemActionButtonCaption": "刪除記錄",
+    "NoData": "無數據"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "無數據",
+      "CloseButtonTitle": "關閉"
+    },
+    "AriaLabel": "精選項目",
+    "Chip": {
+      "RemoveButtonCaption": "消除"
+    },
+    "AriaLabelFor": "精選項目"
+  },
+  "Playbook": {
+    "Caption": "遊戲手冊",
+    "Hint": "該元件會顯示提示和指示，讓使用者從知識庫中存取特定動態個案階段的資訊",
+    "Placeholder": {
+      "Title": "未找到相關的技術手冊文章",
+      "Description": "請在 Playbooks 區塊中為目前的動態個案階段設定相關文章"
+    },
+    "Actions": {
+      "Back": "返回",
+      "OpenInDialog": "在模式視窗中開啟"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "關閉",
+        "OpenPage": "在新標籤中開啟"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "授權失敗。請稍後再試，或向管理員尋求協助。",
+      "FormatError": "請求中的格式無效。確保輸入的結構正確，並檢查動作的輸出參數。",
+      "LimitError": "已達到token上限，無法繼續使用 Creatio.ai。請聯絡您的管理員補充 Creatio.ai token。",
+      "ServiceAvailabilityError": "服務暫時無法使用。請稍後再試。",
+      "ExecutionError": "處理您的請求時發生錯誤。請再試一次或向管理員尋求協助。",
+      "ConfigurationError": "偵測到設定問題。驗證系統設定或向管理員尋求協助。",
+      "UnknownError": "發生未知錯誤。請稍後再試，或向管理員尋求協助。",
+      "CharacterLimitExceededError": "用戶的查詢字符限制已達到。請驗證系統設定或向管理員尋求幫助。",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "無數據",
+    "Boolean": {
+      "Yes": "是的",
+      "No": "不"
+    },
+    "String": {
+      "Placeholder": "輸入文字"
+    },
+    "Numeric": {
+      "Placeholder": "輸入號碼",
+      "To": "到",
+      "MaxValueError": "值高於最大值",
+      "MinValueError": "值低於最小值"
+    }
+  },
+  "Conversation": {
+    "Caption": "對話",
+    "Copilot": {
+      "TypingMessage": "產生回應",
+      "Action": {
+        "Replace": "替換選擇",
+        "InsertAbove": "插入上方",
+        "InsertBelow": "插入下方"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "刪除",
+    "Export": "匯出到 Excel",
+    "AddTag": "添加標籤",
+    "RemoveTag": "刪除標籤",
+    "RowsSelection": {
+      "Selected": "選定",
+      "SelectAll": "選擇全部",
+      "ClearSelection": "清除選擇"
+    },
+    "Merge": "合併"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "麵包屑"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "包含通知"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "數位"
+  },
+  "ExpansionPanel": {
+    "Collapse": "坍塌",
+    "Expand": "擴張"
+  },
+  "ProgressBar": {
+    "AriaLabel": "進度列"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "聊天狀態",
+    "CtiStatesMenuCaption": "電話狀態"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "沒有符合篩選條件的記錄",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} just updated {1}. Please refresh the page to see changes.",
+    "Connections": "{0} connections",
+    "Reload": "Reload"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} started editing current {1}",
+    "ModeEditing": "編輯",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Viewing",
+    "ModeSaved": "Saved",
+    "ModeSavedTime": "Saved ({0} ago)",
+    "ModeSavedRecently": "Saved recently",
+    "ShowAllUsers": "Show all users",
+    "AllUsersDialog": {
+      "Title": "Active users",
+      "Close": "關閉",
+      "Columns": {
+        "ContactName": "聯絡人",
+        "Email": "電子郵件",
+        "SchemaName": "Editing area",
+        "Mode": "模式"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "頁數",
+    "Entity": "實體",
+    "Addon": "附加元件"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "顏色選擇器",
+        "AppearanceGroup": "外觀",
+        "PickerModeRadioButtonCaption": "調色板",
+        "PickerMode": {
+          "Basic": "基本調色板",
+          "Extended": "擴充調色板"
+        }
+      }
+    }
+  },
+  "Components": {
+    "ColorPicker": {
+      "SelectedColor": "選取的顏色",
+      "Readonly": "不可編輯欄位"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "下個月",
+    "AriaPrevMonthLabel": "上個月",
+    "AriaNextYearLabel": "下一年",
+    "AriaPrevYearLabel": "前一年",
+    "Readonly": "不可編輯欄位",
+    "DateTimePickerIconTitle": "日期/時間",
+    "DatePickerIconTitle": "日曆",
+    "TimePickerIconTitle": "時間"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "工具列顯示模式",
+        "Inline": "內嵌",
+        "Classic": "經典",
+        "AlwaysShowToolbar": "總是顯示格式化選項"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "格式化選項 (Alt+F10)",
+    "UploadAttachments": "選擇附件",
+    "SelectTemplate": "插入範本",
+    "SelectionActions": {
+      "AskCopilot": "詢問 Creatio.ai",
+      "Friendly": "友善",
+      "Formal": "正式",
+      "Shorten": "Shorten",
+      "Extend": "延伸",
+      "Rephrase": "重寫",
+      "RewriteCaption": "重寫文字"
+    },
+    "TableOfContents": {
+      "Title": "目錄",
+      "Placeholder": "根據本頁標題編寫的目錄一經出版，即會在此出現。"
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "儲存",
+    "OpenLinkButtonCaption": "在新標籤中開啟",
+    "CloseLinkButtonCaption": "關閉",
+    "UnlinkLinkButtonCaption": "解除連結",
+    "LinkLabelCaption": "連結地址",
+    "TextLabelCaption": "要顯示的文字"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "插入視訊",
+    "PasteUrlTab": "貼上網址",
+    "UploadFileTab": "上傳文件",
+    "EmbedCodeTab": "嵌入代碼",
+    "DialogDescription": "此影片將以 640 像素寬嵌入。<br>此嵌入式影片將包含一個文字連結。",
+    "SaveButton": "插入視訊",
+    "CancelButton": "取消",
+    "UploadButton": "上傳文件",
+    "InputPlaceholder": "貼在這裡",
+    "DragAndDropPlaceholder": "將檔案拖曳至此或",
+    "NotVideoFile": "插入的檔案不是視訊，請選擇視訊類型的檔案。",
+    "ConfirmMessage": "本頁面包含未儲存的變更。如果關閉頁面，這些變更將丟失。儲存變更嗎？"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "沒有新記錄或現有記錄的頁面。系統管理員必須檢查 Freedom UI 中的按鈕設定。",
+    "GoToEntityDesignerMessage": "若要設定頁面，請前往 URL：{0}"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "請從清單中選擇值",
+      "SelectionWindowMessage": "請從清單中選擇數值或使用查詢視窗進行搜尋"
+    },
+    "Required": {
+      "Message": "輸入一個值"
+    },
+    "MaxLength": {
+      "Message": "超出最大文字長度 ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "未達到最小文字長度 ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "無效的日期和時間格式"
+    },
+    "DatePickerSyntax": {
+      "Message": "無效日期格式"
+    },
+    "TimePickerSyntax": {
+      "Message": "無效的時間格式"
+    },
+    "RegExp": {
+      "Message": "無效值格式"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "程式碼必須以 {{schemaNamePrefix}} 前綴開頭。",
+      "OnlySchemaNamePrefixMessage": "至少再輸入一個符號。"
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "使用符號：a-z、A-Z、0-9、底線或破折號。只能將字母放在第一位。"
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "值 '{{controlValue}}' 已經存在於 'Code' 欄中。"
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "移除欄位",
+    "ValidationErrorMessageSingleErrorField": "欄位：{0}.錯誤：{1}",
+    "ValidationErrorMessageSeveralErrorFields": "欄位：{0}.錯誤：{1}",
+    "RefreshModelDataConflict": "Creatio 有目前頁面的新資料。若要檢視，請儲存或取消變更，然後重新整理頁面。",
+    "WarningModelsWithCircularDependencies": "某些模型具有循環依賴性，且尚未載入",
+    "LoadingModelErrorMessage": "查詢執行時發生錯誤",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "數據已刷新"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "翻譯",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "呼叫"
+  }
+}

@@ -1,0 +1,159 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Velg: {0}",
+        "Selected": "Valgt:",
+        "SelectButton": "Velg",
+        "CancelButton": "Avbryt",
+        "Blankslate": "Det er ingen poster for dette objektet"
+    },
+    "SearchInput": {
+        "Placeholder": "Søk",
+        "Settings": {
+            "Cancel": "Avbryt",
+            "Apply": "Bruk",
+            "SearchColumnTemplate": "Søk med kolonne \"{0}",
+            "StartsWith": "Starter med",
+            "Contains": "Inneholder",
+            "Equals": "Lik"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Legg til",
+        "BlankslateWithFilters": "Det finnes ingen oppføringer som samsvarer med gjeldende søkekriterier. Fjern eller endre søkefeltene"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Godta chat",
+            "AlreadyAssignedChat": "Chatten ble tildelt en annen agent",
+            "NewMessages": "Nye meldinger",
+            "ChatIsCompleted": "Chatten fullført {datePart} ved {timePart}",
+            "AcademyLink": "https://academy.creatio.com/",
+            "LastChatMessageAuthorCaption": "Du:",
+            "DraftMessageCaption": "Utkast",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Chatekanaler er ikke konfigurert",
+                    "textStart": "Vennligst kontakt systemadministratoren og be om å sette opp en kanal. Lær mer om å jobbe med samtaler i ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Chatekanaler er ikke konfigurert",
+                    "textStart": "Vennligst ",
+                    "splitTextLink": {
+                        "href": "/KlientApp/#/ChatSettings",
+                        "displayText": "legg til"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    },
+                    "textEnd": " en ny kanal. Lær mer om å jobbe med samtaler i "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Nye sludringer distribueres ikke til inaktive agenter",
+                    "textStart": "Vennligst endre statusen til \"Activ.\" Lær mer om å jobbe med samtaler i ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Det er ingen samtaler i kø",
+                    "textStart": "Lær mer om å jobbe med samtaler i ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Nye sludringer distribueres ikke til inaktive agenter",
+                    "textStart": "Vennligst endre statusen til \"Activ.\" Lær mer om å jobbe med samtaler i ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Det er ingen samtaler i kø",
+                    "textStart": "Mer informasjon om hvordan du kan jobbe med snakkeplasser i musikkhøgskolen ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Det ser ut til at du ikke har sludringer på jobb. Sjekk listen over nye sludringer"
+                }
+            },
+            "Actions": {
+                "Complete": "Fullfør chat",
+                "ProcessesDivider": "Prosesser",
+                "EmptyProcessesList": "Legg til en forretningsprosess i detalj \"Chat Actions\"",
+                "SearchFacebook": "Søk på Facebook",
+                "ContactDuplicates": {
+                    "Show": "Vis dupliserte kontakter",
+                    "NotFound": "Dupliserte kontakter ble ikke funnet",
+                    "Find": "Finn dupliserte kontakter"
+                },
+                "Back": "Tilbake",
+                "Transfer": "Overfør chat"
+            },
+            "ChatListTitle": "Aktive samtaler",
+            "Tips": {
+                "BackToChats": "Tilbake til listen"
+            },
+            "Bots": {
+                "Name": "Bot"
+            },
+            "NewMessagePlaceholder": "Melding",
+            "AttachFile": "Fil",
+            "OversizeFiles": "25 MB maksimal filstørrelse er overskredet i følgende fil(er)\n{0}",
+            "NewChatsTitle": "Nye sludringer"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Chatten startet: {0} av",
+                "EndDate": "Chatten fullført: {0} av"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat summary",
+            "Toggle": {
+                "Opened": "Skjul",
+                "Closed": "Vis mer"
+            },
+            "Fields": {
+                "Source": "Kilde"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Fant {0} lignende kontakter",
+            "DuplicatesNotFound": "Ingen tilsvarende kontakter funnet",
+            "FindDuplication": "Finn lignende kontakter"
+        },
+        "Transfer": {
+            "ToOperator": "Agent",
+            "ToQueue": "Kø",
+            "TransferWindowCaption": "Overfør til",
+            "OperatorStatusTips": {
+                "Active": "Aktiv",
+                "Inactive": "Inaktiv",
+                "ChatsExceeded": "Samtaler overskredet"
+            },
+            "NoAvailableAgents": "Det er ingen tilgjengelige agenter å overføre",
+            "NoAvailableQueues": "Det er ingen tilgjengelige køer å overføre"
+        }
+    },
+    "InfoDialog": {
+        "OK": "Ok"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Forslag til mal",
+        "SuggestionHint": "Prøv å skrive et ord for å søke etter",
+        "QuickSearchHint": "Angi // for å søke etter en mal",
+        "TemplateSearchCaption": "Svar maler"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Nettleservarsler er deaktivert. Aktiver varsler for å motta nye meldingsvarsler. Les mer på ",
+        "splitTextLink": {
+            "displayText": "Akademi"
+        }
+    }
+}

@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Učitavanje..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopirano"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Još ništa za prikazati ",
+      "Subhead": "Molim prvo dodajte podatke"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Razgovor započet: {0} od strane",
+        "EndDate": "Razgovor završen: {0} od strane"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Učitavanje"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Greška",
+      "Default": "Opisna oznakaprikaz savjeta"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Molimo odaberite vrijednost iz popisa",
+      "SelectionWindowMessage": "Molimo odaberite vrijednost iz popisa ili pretražite koristeći prozor za pretraživanje"
+    },
+    "Required": {
+      "Message": "Unesite vrijednost"
+    },
+    "MaxLength": {
+      "Message": "Premašena maksimalna duljina teksta ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimalna duljina teksta nije dosegnuta ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Neispravan format datuma i vremena"
+    },
+    "DatePickerSyntax": {
+      "Message": "Neispravan format datuma"
+    },
+    "TimePickerSyntax": {
+      "Message": "Neispravan format vremena"
+    },
+    "RegExp": {
+      "Message": "Neispravan format vrijednosti"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kod mora započeti prefiksom {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Unesite barem jedan znak."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Koristite simbole: a-z, A-Z, 0-9, donja crta ili crtica. Samo slova mogu biti prva."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Vrijednost '{{controlValue}}' već postoji u koloni 'Kod'."
+    },
+    "PhoneNumber": {
+      "Message": "Neispravan broj telefona"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Stupac uklonjen",
+    "ValidationErrorMessageSingleErrorField": "Polje: {0}. Greška: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Polja: {0}. Greška: {1}",
+    "RefreshModelDataConflict": "Creatio ima nove podatke za trenutnu stranicu. Kako biste ih vidjeli, spremite ili poništite svoje promjene i osvježite stranicu.",
+    "WarningModelsWithCircularDependencies": "Neki modeli imaju cikličke ovisnosti i nisu učitani",
+    "LoadingModelErrorMessage": "Došlo je do greške tijekom izvršavanja upita",
+    "ErrorMessageOnEmptyRelationColumn": "Stranica se ne može spremiti. Ispunite polje {{caption}} ili obrišite podatke u povezanim poljima kako biste spremili stranicu."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Podaci su osvježeni"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Jasno i sažeto opišite cilj korisnika. Detaljno navedite korake potrebne za postizanje cilja korisnika. Označite očekivani rezultat od LLM-a. To bi trebalo uključivati sve potrebne kontekste ili informacije koje LLM treba znati.\n\n## Opća pravila\n1. Ne možete kreirati nove objekte bez izričitog potvrđivanja s korisnikom.\n2. Pravilo 2: ...\n3. ...\n\n## Opća ograničenja\n1. Izbjegavajte donošenje pretpostavki o namjeri korisnika; razjasnite zahtjeve kada je to potrebno.\n2. Ograničenje 2: ...\n3. ...\n\n## Zahtjevi za izlaz\n1. Izlaz mora biti kraći od 300 simbola i ne duži od 2-3 rečenice.\n2. Zahtjev 2: ...\n3. ...\n\n## Tijek procesa\n1. Iskoristite kontekst trenutačne stranice za čitanje podataka i polja stranice. Na temelju tih informacija ...\n2. Korak 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Ne postoji stranica za nove ili postojeće zapise. Sistem administrator mora provjeriti postavke tipki u Freedom UI",
+    "GoToEntityDesignerMessage": "Za postavljanje stranica idite na URL: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Shema procesa je uspješno spremljena, ali validacijske pogreške sprječavaju njezvo izvršavanje."
+  }
+}

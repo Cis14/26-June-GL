@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "選択: {0}",
+        "Selected": "選択:",
+        "SelectButton": "選択",
+        "CancelButton": "キャンセル",
+        "Blankslate": "履歴にレコードがありません"
+    },
+    "SearchInput": {
+        "Placeholder": "検索",
+        "Settings": {
+            "Cancel": "キャンセル",
+            "Apply": "適用",
+            "SearchColumnTemplate": "列\"{0}\"で検索",
+            "StartsWith": "で始まる",
+            "Contains": "含む",
+            "Equals": "等しい"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "追加",
+        "BlankslateWithFilters": "検索条件に一致するレコードがありません。検索パラメータをクリアまたは変更します。"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "チャットを許可",
+            "AlreadyAssignedChat": "チャットは別のエージェントに割り当てられました",
+            "NewMessages": "新着メッセージ",
+            "ChatIsCompleted": "{datePart} の {timePart} にチャットが完了しました",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "あなた:",
+            "DraftMessageCaption": "下書き：",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "チャットチャンネルが設定されていません",
+                    "textStart": "システム管理者に連絡し、チャネルの設定をリクエストしてください。チャットの詳細については、 ",
+                    "academyLink": {
+                        "displayText": "アカデミー"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "チャットチャンネルが設定されていません",
+                    "textStart": "ください ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "追加"
+                    },
+                    "academyLink": {
+                        "displayText": "アカデミー"
+                    },
+                    "textEnd": " 新しいチャンネル。チャットの詳細については、 "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "新しいチャットは非アクティブなエージェントには配布されません",
+                    "textStart": "ステータスを「アクティブ」に変更してください。チャットの詳細については、 ",
+                    "academyLink": {
+                        "displayText": "アカデミー"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "キューに追加されたチャットはありません",
+                    "textStart": "チャットの詳細はこちらから ",
+                    "academyLink": {
+                        "displayText": "アカデミー"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "新しいチャットは非アクティブなエージェントには配布されません",
+                    "textStart": "ステータスを「アクティブ」に変更してください。チャットの詳細については、 ",
+                    "academyLink": {
+                        "displayText": "アカデミー"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "キューに追加されたチャットはありません",
+                    "textStart": "チャットに関する詳細はアカデミーをご覧ください ",
+                    "academyLink": {
+                        "displayText": "アカデミー"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "チャットがありません。新しいチャットのリストを確認してください。"
+                }
+            },
+            "Actions": {
+                "Complete": "チャットの完了",
+                "ProcessesDivider": "対応内容",
+                "EmptyProcessesList": "「チャットアクション」の詳細にビジネスプロセスを追加します",
+                "SearchFacebook": "Facebookでの検索",
+                "ContactDuplicates": {
+                    "Show": "重複した連絡先を表示",
+                    "NotFound": "重複した連絡先が見つかりません",
+                    "Find": "重複した連絡先を探す"
+                },
+                "Back": "戻る",
+                "Transfer": "チャットを転送",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "チャット可能",
+            "Tips": {
+                "BackToChats": "リストに戻る"
+            },
+            "Bots": {
+                "Name": "Creatio.AI"
+            },
+            "NewMessagePlaceholder": "メッセージ",
+            "AttachFile": "ファイル",
+            "OversizeFiles": "次のファイル\n{0} で最大25MBを超えました",
+            "NewChatsTitle": "新規チャット"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "チャット開始: {0} のユーザー",
+                "EndDate": "チャット完了: {0} のユーザー"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "事前チャット概要",
+            "Toggle": {
+                "Opened": "非表示",
+                "Closed": "更に表示する"
+            },
+            "Fields": {
+                "Source": "初回アクセス方法"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "類似の連絡先が {0} 件見つかりました",
+            "DuplicatesNotFound": "類似した連絡先が見つかりませんでした",
+            "FindDuplication": "類似の連絡先を見つける"
+        },
+        "Transfer": {
+            "ToOperator": "エージェント",
+            "ToQueue": "キュー",
+            "TransferWindowCaption": "転送先",
+            "OperatorStatusTips": {
+                "Active": "対応可能",
+                "Inactive": "対応不可",
+                "ChatsExceeded": "チャットが上限を超えました"
+            },
+            "NoAvailableAgents": "転送可能なエージェントがありません。",
+            "NoAvailableQueues": "転送可能なキューがありません。"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "テンプレートの提案",
+        "SuggestionHint": "検索を開始する単語を入力してください",
+        "QuickSearchHint": "テンプレートを検索するために // を入力",
+        "TemplateSearchCaption": "回答テンプレート"
+    },
+    "NotificationsDisabled": {
+        "textStart": "ブラウザ通知は無効になっています。新しいメッセージアラートを受信するには通知を有効にしてください。詳細はこちらをご覧ください。 ",
+        "splitTextLink": {
+            "displayText": "アカデミー",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "翻訳",
+        "LanguagePlaceholder": "言語を選択",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

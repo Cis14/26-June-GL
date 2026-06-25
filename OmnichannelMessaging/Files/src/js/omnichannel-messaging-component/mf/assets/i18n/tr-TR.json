@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Seçin: {0}",
+        "Selected": "Seçilen:",
+        "SelectButton": "Ayarlamak",
+        "CancelButton": "İptal",
+        "Blankslate": "Bu nesne için kayıt yok"
+    },
+    "SearchInput": {
+        "Placeholder": "Ara",
+        "Settings": {
+            "Cancel": "İptal",
+            "Apply": "Uygulamak",
+            "SearchColumnTemplate": "\"{0}\" sütununa göre arama",
+            "StartsWith": "Starts with",
+            "Contains": "İçerir",
+            "Equals": "Eşittir"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Ek",
+        "BlankslateWithFilters": "Mevcut arama kriterleriyle eşleşen kayıt yok. Arama parametrelerini temizleyin veya değiştirin"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Sohbeti kabul et",
+            "AlreadyAssignedChat": "Sohbet başka bir ajana atandı",
+            "NewMessages": "Yeni Mesajlar",
+            "ChatIsCompleted": "Sohbet {timepart} adresinden {datePart} tamamlandı",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Sen:",
+            "DraftMessageCaption": "Taslak:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Sohbet kanalları yapılandırılmamış",
+                    "textStart": "Lütfen sistem yöneticinizle iletişime geçin ve bir kanal ayarlama isteği isteyin.Sohbetlerle çalışma hakkında daha fazla bilgi edinin",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Sohbet kanalları yapılandırılmamış",
+                    "textStart": "Lütfen",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "Ek"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    },
+                    "textEnd": "yeni bir kanal.Sohbetlerle çalışma hakkında daha fazla bilgi edinin"
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Yeni sohbetler aktif olmayan ajanlara dağıtılmaz",
+                    "textStart": "Lütfen durumunuzu \"etkin\" olarak değiştirin.Sohbetlerle çalışma hakkında daha fazla bilgi edinin",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Kuyruklu sohbet yok",
+                    "textStart": "Sohbetlerle çalışma hakkında daha fazla bilgi edinin",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Yeni sohbetler aktif olmayan ajanlara dağıtılmaz",
+                    "textStart": "Lütfen durumunuzu \"etkin\" olarak değiştirin.Sohbetlerle çalışma hakkında daha fazla bilgi edinin",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Kuyruklu sohbet yok",
+                    "textStart": "Akademide sohbetlerle çalışma hakkında daha fazla bilgi edinin",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Görünüşe göre işte sohbetleriniz yok.Yeni sohbet listesini kontrol edin"
+                }
+            },
+            "Actions": {
+                "Complete": "Tam Sohbet",
+                "ProcessesDivider": "Süreçler",
+                "EmptyProcessesList": "\"Sohbet Eylemleri\" detayına bir iş süreci ekleyin",
+                "SearchFacebook": "Facebook'ta arama",
+                "ContactDuplicates": {
+                    "Show": "Yinelenen kişileri göster",
+                    "NotFound": "Yinelenen kişiler bulunamadı",
+                    "Find": "Yinelenen kişileri bulun"
+                },
+                "Back": "Geri",
+                "Transfer": "Transfer Sohbeti",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "Aktif Sohbetler",
+            "Tips": {
+                "BackToChats": "Listeye Geri Dön"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Mesaj",
+            "AttachFile": "Dosya",
+            "OversizeFiles": "Aşağıdaki dosyalarda 25 MB maksimum dosya boyutu sınırı aşıldı\n{0}",
+            "NewChatsTitle": "Yeni sohbetler"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Sohbet başladı: {0}",
+                "EndDate": "Sohbet tamamlandı: {0}"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Pre-chat özeti",
+            "Toggle": {
+                "Opened": "Gizle",
+                "Closed": "Daha fazla göster"
+            },
+            "Fields": {
+                "Source": "Kaynak"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "{0} benzer kişiler bulundu",
+            "DuplicatesNotFound": "Benzer kişiler bulunamadı",
+            "FindDuplication": "Benzer kişileri bulun"
+        },
+        "Transfer": {
+            "ToOperator": "Temsilci",
+            "ToQueue": "Kuyruk",
+            "TransferWindowCaption": "Aktarmak",
+            "OperatorStatusTips": {
+                "Active": "Aktif",
+                "Inactive": "Aktif değil",
+                "ChatsExceeded": "Sohbetler aştı"
+            },
+            "NoAvailableAgents": "Transfer edilecek mevcut ajan yok",
+            "NoAvailableQueues": "Aktarmak için mevcut kuyruk yok"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Şablon önerileri",
+        "SuggestionHint": "Aramaya başlamak için bir kelime yazmayı deneyin",
+        "QuickSearchHint": "Bir şablon aramak için // girin",
+        "TemplateSearchCaption": "Cevap Şablonları"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Tarayıcı bildirimleri devre dışı bırakılır.Bildirimlerin yeni mesaj uyarıları almasını etkinleştirin.Daha fazla bilgi edinin",
+        "splitTextLink": {
+            "displayText": "Akademi",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "Tercüme",
+        "LanguagePlaceholder": "Dil Seçin",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

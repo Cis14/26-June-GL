@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Вибрати: {0}",
+        "Selected": "Вибрані:",
+        "SelectButton": "Вибрати",
+        "CancelButton": "Скасувати",
+        "Blankslate": "Для цього об'єкта немає жодного запису"
+    },
+    "SearchInput": {
+        "Placeholder": "Пошук",
+        "Settings": {
+            "Cancel": "Скасувати",
+            "Apply": "Застосувати",
+            "SearchColumnTemplate": "Пошук по колонці \"{0}\"",
+            "StartsWith": "Починається з",
+            "Contains": "Містить",
+            "Equals": "Дорівнює"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Додати",
+        "BlankslateWithFilters": "При встановленому фільтрі у розділі немає жодного запису. Очистить фільтр або змініть умови фільтрації"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Прийняти чат",
+            "AlreadyAssignedChat": "Чат призначено іншому агенту",
+            "NewMessages": "Нові повідомлення",
+            "ChatIsCompleted": "Чат завершено {datePart} в {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Ви:",
+            "DraftMessageCaption": "Чернетка:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Чат-канали не налаштовано",
+                    "textStart": "Будь ласка, зверніться до вашого системного адміністратора і зробіть запит на налаштування каналу. Докладніше про роботу з чатами у ",
+                    "academyLink": {
+                        "displayText": "Академії"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Чат-канали не налаштовано",
+                    "textStart": "Будь ласка ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "додати"
+                    },
+                    "academyLink": {
+                        "displayText": "Академія"
+                    },
+                    "textEnd": " новий канал. Дізнайтеся більше про роботу з чатами в "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Нові чати не розподіляються неактивним агентам",
+                    "textStart": "Будь ласка, змініть ваш статус на \"Активний\". Дізнайтеся більше про роботу з чатами в ",
+                    "academyLink": {
+                        "displayText": "Академія"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "У черзі немає чатів",
+                    "textStart": "Дізнайтеся більше про роботу з чатами в ",
+                    "academyLink": {
+                        "displayText": "Академія"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Нові чати не розподіляються неактивним агентам",
+                    "textStart": "Будь ласка, змініть ваш статус на \"Активний\". Дізнайтеся більше про роботу з чатами в ",
+                    "academyLink": {
+                        "displayText": "Академія"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "У черзі немає чатів",
+                    "textStart": "Дізнайтеся більше про роботу з чатами в Академії ",
+                    "academyLink": {
+                        "displayText": "Академія"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Схоже, у вас немає чатів в роботі. Перевірте список нових чатів"
+                }
+            },
+            "Actions": {
+                "Complete": "Завершити чат",
+                "ProcessesDivider": "Процеси",
+                "EmptyProcessesList": "Додайте бізнес-процес в деталь \"Дії Чата\"",
+                "SearchFacebook": "Пошук в Facebook",
+                "ContactDuplicates": {
+                    "Show": "Показувати дублі контактів",
+                    "NotFound": "Дублі контактів не знайдено",
+                    "Find": "Знайти дублі контактів"
+                },
+                "Back": "Назад",
+                "Transfer": "Перевести чат",
+                "Translation": {
+                    "Show": "Показати панель перекладу",
+                    "Hide": "Приховати панель перекладу"
+                }
+            },
+            "ChatListTitle": "Активні чати",
+            "Tips": {
+                "BackToChats": "Назад до списку"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Повідомлення",
+            "AttachFile": "Файл",
+            "OversizeFiles": "25 МБ перевищує максимальне обмеження розміру файлу у цьому файлі(і)\n{0}",
+            "NewChatsTitle": "Нові чати"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Чат розпочато: {0}",
+                "EndDate": "Чат завершено: {0}"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Попередній підсумок чату",
+            "Toggle": {
+                "Opened": "Приховати",
+                "Closed": "Показати більше"
+            },
+            "Fields": {
+                "Source": "Джерело"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Знайдено {0} схожих контактів",
+            "DuplicatesNotFound": "Не знайдено схожих контактів",
+            "FindDuplication": "Знайти схожі контакти"
+        },
+        "Transfer": {
+            "ToOperator": "Агент",
+            "ToQueue": "Черга",
+            "TransferWindowCaption": "Перевести на",
+            "OperatorStatusTips": {
+                "Active": "Активні",
+                "Inactive": "Неактивні",
+                "ChatsExceeded": "Чати перевищено"
+            },
+            "NoAvailableAgents": "Немає доступних агентів для передачі",
+            "NoAvailableQueues": "Немає доступних черг для передачі"
+        }
+    },
+    "InfoDialog": {
+        "OK": "ОК"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Пропозиції шаблонів",
+        "SuggestionHint": "Спробуйте ввести слово, щоб почати пошук",
+        "QuickSearchHint": "Введіть // для пошуку шаблону",
+        "TemplateSearchCaption": "Шаблони відповідей"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Сповіщення браузера вимкнуто. Увімкніть сповіщення для отримання нових повідомлень. Детальніше на ",
+        "splitTextLink": {
+            "href": "https://academy.creatio.com/documents?id=1011",
+            "displayText": "Академія"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Виявлена мова",
+        "SourceCaption": "Цільова мова",
+        "Translate": "Переклад",
+        "LanguagePlaceholder": "Обрати мову",
+        "LanguageDetectionError": "Не вдалося визначити мову. Будь ласка, оберіть мову.",
+        "TranslationFailedHeader": "Не вдалося виконати переклад. Будь ласка, повторіть спробу."
+    }
+}

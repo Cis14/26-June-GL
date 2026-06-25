@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "اختر: {0}",
+        "Selected": "ما تم اختياره:",
+        "SelectButton": "حدد",
+        "CancelButton": "إلغاء",
+        "Blankslate": "لا توجد أي سجلات لهذا الكائن"
+    },
+    "SearchInput": {
+        "Placeholder": "بحث",
+        "Settings": {
+            "Cancel": "إلغاء",
+            "Apply": "تطبيق",
+            "SearchColumnTemplate": "البحث من خلال العمود \"{0}\"",
+            "StartsWith": "يبدأ بـ",
+            "Contains": "يحتوي",
+            "Equals": "يساوي"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "إضافة",
+        "BlankslateWithFilters": "لا توجد سجلات تطابق معايير البحث الحالية. برجاء مسح معلمات البحث أو تعديلها"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "اقبل الدردشة",
+            "AlreadyAssignedChat": "تم تحويل الدردشة إلى عميل آخر",
+            "NewMessages": "الرسائل الجديدة",
+            "ChatIsCompleted": "اكتملت الدردشة بتاريخ {datePart} في {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "أنت:",
+            "DraftMessageCaption": "مسودة:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "لم يتم تصميم قنوات الدردشة",
+                    "textStart": "يرجى التواصل مع مسؤول النظام الخاص بك وطلب إعداد قناة. تعرف إلى المزيد حول العمل من خلال الدردشات في ",
+                    "academyLink": {
+                        "displayText": "أكاديمية"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "لم يتم تصميم قنوات الدردشة",
+                    "textStart": "الرجاء ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "إضافة"
+                    },
+                    "academyLink": {
+                        "displayText": "أكاديمية"
+                    },
+                    "textEnd": " قناة جديدة. تعرف إلى المزيد حول العمل من خلال الدردشات في "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "لم يتم توزيع الدردشات الجديدة على العملاء غير النشطين",
+                    "textStart": "يرجى تغيير الحالة إلى \"نشط\". تعرّف إلى المزيد حول العمل من خلال الدردشات في ",
+                    "academyLink": {
+                        "displayText": "أكاديمية"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "لا توجد دردشات في قائمة الانتظار",
+                    "textStart": "تعرف إلى المزيد حول العمل من خلال الدردشات في ",
+                    "academyLink": {
+                        "displayText": "أكاديمية"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "لم يتم توزيع الدردشات الجديدة على العملاء غير النشطين",
+                    "textStart": "يرجى تغيير الحالة إلى \"نشط\". تعرّف إلى المزيد حول العمل من خلال الدردشات في ",
+                    "academyLink": {
+                        "displayText": "أكاديمية"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "لا توجد دردشات في قائمة الانتظار",
+                    "textStart": "تعرف إلى المزيد حول العمل من خلال الدردشات في الأكاديمية ",
+                    "academyLink": {
+                        "displayText": "أكاديمية"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "يبدو أنك ليس لديك دردشة في القائمة. تحقق من قائمة الدردشات الجديدة"
+                }
+            },
+            "Actions": {
+                "Complete": "أكمل المحادثة",
+                "ProcessesDivider": "العمليات",
+                "EmptyProcessesList": "أضف إجراء العمل على تفاصيل \"إجراءات الدردشات\"",
+                "SearchFacebook": "بحث في الفيسبوك",
+                "ContactDuplicates": {
+                    "Show": "إظهار جهات الاتصال المكررة",
+                    "NotFound": "تعذّر العثور على جهات اتصال متكررة",
+                    "Find": "البحث عن جهات الاتصال المتكررة"
+                },
+                "Back": "عودة",
+                "Transfer": "تحويل الدردشة",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "الدردشات النشطة",
+            "Tips": {
+                "BackToChats": "الرجوع إلى القائمة"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "رسالة",
+            "AttachFile": "الملف",
+            "OversizeFiles": "تجاوز الحد الأقصى لحجم الملف 25 ميغابايت في الملف (الملفات) التالية:\n{0}",
+            "NewChatsTitle": "الدردشات الجديدة"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "الدردشات التي تم البدء فيها: {0} بواسطة",
+                "EndDate": "الدردشات المكتملة: {0} بواسطة"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "ملخص ما قبل بدء الدردشة",
+            "Toggle": {
+                "Opened": "إخفاء",
+                "Closed": "إظهار المزيد"
+            },
+            "Fields": {
+                "Source": "المصدر"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "تم العثور على {0} جهات اتصال مماثلة",
+            "DuplicatesNotFound": "لم يتم العثور على جهات اتصال مماثلة",
+            "FindDuplication": "البحث عن جهات اتصال مماثلة"
+        },
+        "Transfer": {
+            "ToOperator": "وكيل",
+            "ToQueue": "قائمة الانتظار",
+            "TransferWindowCaption": "تحويل إلى",
+            "OperatorStatusTips": {
+                "Active": "نشط",
+                "Inactive": "غير نشط",
+                "ChatsExceeded": "تم تجاوز الدردشة"
+            },
+            "NoAvailableAgents": "لا يوجد عملاء متاحين للتحويل",
+            "NoAvailableQueues": "لا توجد قوائم انتظار متاحة للتحويل"
+        }
+    },
+    "InfoDialog": {
+        "OK": "موافق"
+    },
+    "MessageTemplate": {
+        "Suggestion": "إقتراحات النماذج",
+        "SuggestionHint": "حاول كتابة كلمة لبدء البحث",
+        "QuickSearchHint": "قم بإدخال // للبحث عن نموذج",
+        "TemplateSearchCaption": "نماذج الرد"
+    },
+    "NotificationsDisabled": {
+        "textStart": "تم تعطيل إشعارات المتصفح. يرجى تفعيل الإشعارات لتلقي تنبيهات الرسائل الجديدة. للمزيد، اطّلع على ",
+        "splitTextLink": {
+            "displayText": "أكاديمية",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "ترجم",
+        "LanguagePlaceholder": "اختر اللغة",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

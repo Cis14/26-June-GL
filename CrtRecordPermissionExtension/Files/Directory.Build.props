@@ -1,0 +1,5 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtRecordPermissionExtension/Schemas/SysRecordPermissionExtension/SysRecordPermissionExtension.cs" Condition="Exists('$(PkgPath)/CrtRecordPermissionExtension/Schemas/SysRecordPermissionExtension/SysRecordPermissionExtension.cs')" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Зареждане..."
+  },
+  "CopyClipboard": {
+    "Copied": "Копирано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Още няма нищо за показване ",
+      "Subhead": "Моля, първо добави данни"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чатът започна: {0} от",
+        "EndDate": "Чатът е завършен: {0} от"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Зареждане"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Грешка",
+      "Default": "Подсказка"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Няма страница за нов или съществуващ запис. Системният администратор трябва да провери настройките на бутоните в потребителския интерфейс на Freedom",
+    "GoToEntityDesignerMessage": "За да настроиш страници, отиди на URL: {0}"
+  }
+}

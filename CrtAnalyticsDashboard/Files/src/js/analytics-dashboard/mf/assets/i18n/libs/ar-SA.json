@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "تحميل..."
+  },
+  "CopyClipboard": {
+    "Copied": "منسوخ"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "لا يوجد شيء لإظهاره حتى الآن ",
+      "Subhead": "يرجى إضافة البيانات التالية أولًا"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "بدأت الدردشة: {0} بواسطة",
+        "EndDate": "اكتملت الدردشة: {0} بواسطة"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "تحميل"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "خطأ",
+      "Default": "لمحة عن الأدوات"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "يرجى تحديد قيمة من القائمة",
+      "SelectionWindowMessage": "يرجى تحديد قيمة من القائمة أو البحث باستخدام نافذة البحث"
+    },
+    "Required": {
+      "Message": "ادخل قيمة"
+    },
+    "MaxLength": {
+      "Message": "تجاوز الحد الأقصى لطول النص ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "لم يتم بلوغ الحد الأدنى لطول النص ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "تنسيق التاريخ والوقت غير صالح"
+    },
+    "DatePickerSyntax": {
+      "Message": "تنسيق التاريخ غير صالح"
+    },
+    "TimePickerSyntax": {
+      "Message": "تنسيق الوقت غير صالح"
+    },
+    "RegExp": {
+      "Message": "تنسيق القيمة غير صالح"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "يجب أن يبدأ الرمز ببادئة {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "أدخل على الأقل رمز إضافي واحد."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "استخدم الرموز: a-z، أو A-Z أو 0-9 (_) أو (-). ويمكن فقط للحروف أن تكون أولًا."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "تم حذف العمود",
+    "ValidationErrorMessageSingleErrorField": "الحقل: {0}. الخطأ: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "الحقول: {0}. الخطأ: {1}",
+    "RefreshModelDataConflict": "لدى Creatio بيانات جديدة للصفحة الحالية. لعرضها، يجب حفظ أو إلغاء التغييرات الخاصة بك وتحديث الصفحة.",
+    "WarningModelsWithCircularDependencies": "بعض النماذج لها تبعيات دائرية ولم يتم تحميلها",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "لا توجد صفحة لسجلات جديدة أو موجودة. يجب على مسؤول النظام التحقق من زر الإعدادات في واجهة المستخدم الحر",
+    "GoToEntityDesignerMessage": "لإعداد الصفحات، اذهب إلى الرابط: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "تم حفظ مخطط العملية بنجاح، ولكن تمنع أخطاء التحقق من تشغيله."
+  }
+}

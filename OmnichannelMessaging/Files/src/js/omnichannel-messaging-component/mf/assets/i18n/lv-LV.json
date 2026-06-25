@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Izvēlēties: {0}",
+        "Selected": "Izvēlēts:",
+        "SelectButton": "Izvēlēties",
+        "CancelButton": "Atcelt",
+        "Blankslate": "Par šo objektu nav ierakstu"
+    },
+    "SearchInput": {
+        "Placeholder": "Meklēt",
+        "Settings": {
+            "Cancel": "Atcelt",
+            "Apply": "Piemērot",
+            "SearchColumnTemplate": "Meklēt pēc kolonnas “{0}”",
+            "StartsWith": "Sākas ar",
+            "Contains": "Satur",
+            "Equals": "Vienāds ar"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Pievienot",
+        "BlankslateWithFilters": "Nav ierakstu, kas atbilstu pašreizējiem meklēšanas kritērijiem. Dzēst vai mainīt meklēšanas parametrus"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Pieņemt tērzēšanu",
+            "AlreadyAssignedChat": "Tērzēšana tika piešķirta citam aģentam",
+            "NewMessages": "Jaunās ziņas",
+            "ChatIsCompleted": "Tērzēšana pabeigta {datePart} plkst. {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Jūs:",
+            "DraftMessageCaption": "Melnraksts:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Tērzēšanas kanāli nav konfigurēti",
+                    "textStart": "Lūdzu, sazinieties ar savu sistēmas administratoru un lūdziet iestatīt kanālu. Uzzināt vairāk iekšā ",
+                    "academyLink": {
+                        "displayText": "Akadēmija"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Tērzēšanas kanāli nav konfigurēti",
+                    "textStart": "Lūdzu, ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "Pievienot"
+                    },
+                    "academyLink": {
+                        "displayText": "Akadēmija"
+                    },
+                    "textEnd": " jauns kanāls. Uzziniet vairāk par darbu ar tērzēšanu "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Jaunas tērzēšanas netiek sadalītas neaktīviem aģentiem",
+                    "textStart": "Lūdzu, mainiet savu statusu uz “Aktīvs”. Uzziniet vairāk par darbu ar tērzēšanu ",
+                    "academyLink": {
+                        "displayText": "Akadēmija"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Nav rindā gaidāmo tērzēšanu",
+                    "textStart": "Uzziniet vairāk par darbu ar tērzēšanu ",
+                    "academyLink": {
+                        "displayText": "Akadēmija"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Jaunas tērzēšanas netiek sadalītas neaktīviem aģentiem",
+                    "textStart": "Lūdzu, mainiet savu statusu uz “Aktīvs”. Uzziniet vairāk par darbu ar tērzēšanu ",
+                    "academyLink": {
+                        "displayText": "Akadēmija"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Nav rindā gaidāmo tērzēšanu",
+                    "textStart": "Uzziniet vairāk par darbu ar sarunām Akadēmijā ",
+                    "academyLink": {
+                        "displayText": "Akadēmija"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Izskatās, ka jums nav tērzēšanu darbā. Pārskatiet jauno tērzēšanu sarakstu"
+                }
+            },
+            "Actions": {
+                "Complete": "Pabeigt tērzēšanu",
+                "ProcessesDivider": "Procesi",
+                "EmptyProcessesList": "Pievienot biznesa procesu detaļā \"Tērzēšanas darbības\"",
+                "SearchFacebook": "Meklēt Facebook",
+                "ContactDuplicates": {
+                    "Show": "Rādīt kontaktu dublikātus",
+                    "NotFound": "Kontaktu dublikāti nav atrasti",
+                    "Find": "Meklēt dublikātus"
+                },
+                "Back": "Atpakaļ",
+                "Transfer": "Pārsūtīt tērzēšanu",
+                "Translation": {
+                    "Show": "Rādīt tulkošanas paneli",
+                    "Hide": "Slēpt tulkošanas paneli"
+                }
+            },
+            "ChatListTitle": "Aktīvās tērzēšanas",
+            "Tips": {
+                "BackToChats": "Atpakaļ uz sarakstu"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Ziņojums",
+            "AttachFile": "Datne",
+            "OversizeFiles": "25 MB maksimālais faila izmēra limits pārsniegts šajā failā(-os)\n{0}",
+            "NewChatsTitle": "Jaunas tērzēšanas"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Tērzēšana sākās: {0} pēc",
+                "EndDate": "Tērzēšana pabeigta {0} ar"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Iepriekšējā sarakste",
+            "Toggle": {
+                "Opened": "Slēpt",
+                "Closed": "Rādīt vairāk"
+            },
+            "Fields": {
+                "Source": "Avots"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Atrasti {0} līdzīgus kontaktus",
+            "DuplicatesNotFound": "Nav atrasti līdzīgi kontakti",
+            "FindDuplication": "Atrast līdzīgus kontaktus"
+        },
+        "Transfer": {
+            "ToOperator": "Aģents",
+            "ToQueue": "Rinda",
+            "TransferWindowCaption": "Pārsūtīšana",
+            "OperatorStatusTips": {
+                "Active": "Aktīvs",
+                "Inactive": "Neaktīvs",
+                "ChatsExceeded": "Tērzēšanas apjoms pārsniegts"
+            },
+            "NoAvailableAgents": "Nav pieejamu aģentu, lai pārnestu",
+            "NoAvailableQueues": "Nav pieejamu rindu, lai pārsūtītu"
+        }
+    },
+    "InfoDialog": {
+        "OK": "Labi"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Veidnes ieteikumi",
+        "SuggestionHint": "Mēģiniet ievadīt vārdu, lai sāktu meklēšanu",
+        "QuickSearchHint": "Ievadiet //, lai meklētu veidni",
+        "TemplateSearchCaption": "Atbilžu veidnes"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Pārlūkprogrammas paziņojumi ir atslēgti. Ieslēdziet paziņojumus, lai saņemtu jaunu ziņojumu brīdinājumus. Lasīt vairāk uz ",
+        "splitTextLink": {
+            "displayText": "Akadēmija",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Noteiktā valoda",
+        "SourceCaption": "Mērķa valoda",
+        "Translate": "Tulkojums",
+        "LanguagePlaceholder": "Izvēlieties valodu",
+        "LanguageDetectionError": "Valoda nav atpazīstama. Lūdzu, izvēlieties valodu.",
+        "TranslationFailedHeader": "Tulkošana neizdevās. Lūdzu, mēģiniet vēlreiz."
+    }
+}

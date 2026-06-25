@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "בחר: {0}",
+        "Selected": "נבחר:",
+        "SelectButton": "בחר",
+        "CancelButton": "בטל",
+        "Blankslate": "אין רשומות לאובייקט זה"
+    },
+    "SearchInput": {
+        "Placeholder": "חפש",
+        "Settings": {
+            "Cancel": "בטל",
+            "Apply": "יישם",
+            "SearchColumnTemplate": "חפש בעמודה \"{0}\"",
+            "StartsWith": "מתחיל עם",
+            "Contains": "מכיל",
+            "Equals": "שווה"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "הוסף",
+        "BlankslateWithFilters": "אין רשומות התואמות את קריטריוני החיפוש הנוכחיים. נקה או שנה פרמטרים של חיפוש"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "קבל צ'אט",
+            "AlreadyAssignedChat": "הצ'אט הוקצה לסוכן אחר",
+            "NewMessages": "הודעה חדשה",
+            "ChatIsCompleted": "הצ'אט הושלם {datePart} ב-{timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "אתה:",
+            "DraftMessageCaption": "טיוטה:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "שירותי צ'אט לא מוגדרים",
+                    "textStart": "אנא צור קשר עם מנהל המערכת שלך ובקש להגדיר ערוץ. למד עוד על עבודה עם צ'אטים ב",
+                    "academyLink": {
+                        "displayText": "אקדמיה"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "שירותי צ'אט לא מוגדרים",
+                    "textStart": "בבקשה ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "הוסף"
+                    },
+                    "academyLink": {
+                        "displayText": "אקדמיה"
+                    },
+                    "textEnd": " ערוץ חדש. למידע נוסף על עבודה עם צ'אטים ב- "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "צ'אטים חדשים אינם מופצים לסוכנים לא פעילים",
+                    "textStart": "אנא שנה את הסטטוס שלך ל\"פעיל\". למידע נוסף על עבודה עם צ'אטים ב- ",
+                    "academyLink": {
+                        "displayText": "אקדמיה"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "אין צ'אטים בתור",
+                    "textStart": "למידע נוסף על עבודה עם צ'אטים ב- ",
+                    "academyLink": {
+                        "displayText": "אקדמיה"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "צ'אטים חדשים אינם מופצים לסוכנים לא פעילים",
+                    "textStart": "אנא שנה את הסטטוס שלך ל\"פעיל\". למידע נוסף על עבודה עם צ'אטים ב- ",
+                    "academyLink": {
+                        "displayText": "אקדמיה"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "אין צ'אטים בתור",
+                    "textStart": "למידע נוסף על עבודה עם צ'אטים באקדמיה ",
+                    "academyLink": {
+                        "displayText": "אקדמיה"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "נראה שאין לך צ'אטים בעבודה. בדוק את רשימת הצ'אטים החדשים"
+                }
+            },
+            "Actions": {
+                "Complete": "סיים צ'אט",
+                "ProcessesDivider": "תהליכים",
+                "EmptyProcessesList": "הוסף תהליך עסקי בפרט \"פעולות צ'אט\"",
+                "SearchFacebook": "חיפוש בפייסבוק",
+                "ContactDuplicates": {
+                    "Show": "הצג אנשי קשר כפולים",
+                    "NotFound": "לא נמצא איש קשר כפול",
+                    "Find": "מצא אנשי קשר כפולים"
+                },
+                "Back": "חזור",
+                "Transfer": "העבר צ'אט",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "צ'אטים פעילים",
+            "Tips": {
+                "BackToChats": "חזרה לרשימה"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "הודעה",
+            "AttachFile": "קובץ",
+            "OversizeFiles": "חרגת מהמגבלה המרבית של גודל קובץ של 25 MB בקובץ(ים) הבאים\n{0}",
+            "NewChatsTitle": "צ'אטים חדשים"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "הצ'אט התחיל: {0} על ידי",
+                "EndDate": "הצ'אט הושלם: {0} על ידי"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "סיכום לפני הצ'אט",
+            "Toggle": {
+                "Opened": "הסתר",
+                "Closed": "הראה יותר"
+            },
+            "Fields": {
+                "Source": "מקור"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "נמצאו {0} אנשי קשר דומים",
+            "DuplicatesNotFound": "לא נמצאו אנשי קשר דומים",
+            "FindDuplication": "מצא אנשי קשר דומים"
+        },
+        "Transfer": {
+            "ToOperator": "סוכן",
+            "ToQueue": "Queue",
+            "TransferWindowCaption": "העבר ל",
+            "OperatorStatusTips": {
+                "Active": "פעיל",
+                "Inactive": "לא פעיל",
+                "ChatsExceeded": "צ'אטים vượt quá"
+            },
+            "NoAvailableAgents": "אין סוכנים זמינים להעברה",
+            "NoAvailableQueues": "אין תורים זמינים להעברה"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "הצעות תבניות",
+        "SuggestionHint": "נסה להקליד מילה כדי להתחיל לחפש",
+        "QuickSearchHint": "הזן // כדי לחפש תבנית",
+        "TemplateSearchCaption": "תבניות תשובה"
+    },
+    "NotificationsDisabled": {
+        "textStart": "הודעות דפדפן מושבתות. אפשר הודעות כדי לקבל התראות על הודעות חדשות. קרא עוד ב",
+        "splitTextLink": {
+            "displayText": "אקדמיה",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "תרגם",
+        "LanguagePlaceholder": "Select language",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

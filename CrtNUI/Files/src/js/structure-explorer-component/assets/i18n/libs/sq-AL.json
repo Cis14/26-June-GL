@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Duke u ngarkuar..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopjo"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Ende asgjë për të treguar ",
+      "Subhead": "Të lutem shto së pari të dhënat"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Fillimi i bisedës: {0} nga",
+        "EndDate": "Përfundimi i bisedës: {0} nga"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Loading"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Gabim",
+      "Default": "Tekst informues"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nuk ka faqe për të dhëna të reja ose ekzistuese. Administratori i sistemit duhet të kontrollojë butonin e konfigurimit në Freedom Ul",
+    "GoToEntityDesignerMessage": "Për të konfiguruar faqet shko te URL:{0}"
+  }
+}

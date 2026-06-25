@@ -1,0 +1,261 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Laster..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopiert"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Vennligst velg verdi fra listen"
+    },
+    "Required": {
+      "Message": "Angi en verdi"
+    },
+    "MaxLength": {
+      "Message": "Maksimal tekstlengde er overskredet ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minste tekstlengde ikke nådd ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Ugyldig dato og klokkeslett format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Ugyldig datoformat"
+    },
+    "TimePickerSyntax": {
+      "Message": "Ugyldig tidsformat"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolonne fjernet",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}"
+  },
+  "Input": {
+    "Readonly": "Ikke-redigerbare felt",
+    "ShowPassword": "Vis passord",
+    "HidePassword": "Skjul passord"
+  },
+  "Carousel": {
+    "NoData": "Ingen data"
+  },
+  "ComboBox": {
+    "Readonly": "Ikke-redigerbare felt",
+    "NoData": "Ingen data",
+    "EmptyDisplayValue": "Ingen visningsverdi",
+    "AddNewRecord": "Legg til ny",
+    "InvalidValueSyntax": "Vennligst velg verdi fra listen",
+    "IsGoToSourceAllowedTooltip": "Gå til postliste"
+  },
+  "DataGrid": {
+    "AddColumns": "Legg til kolonner",
+    "ColumnToolbar": {
+      "Hide": "Skjul",
+      "Freeze": "Frys",
+      "Unfreeze": "Frigi",
+      "Rename": "Omdøp",
+      "Edit": "Egenskaper",
+      "Title": "Kolonne påvirkninger"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Handlinger",
+      "DataGridSettingsLabel": "Generelle innstillinger for liste",
+      "SaveDataGridSettings": {
+        "Label": "Lagre listeinnstillinger for alle brukere",
+        "Confirmation": "Nye standardinnstillinger for liste vil bli lagret for alle brukere. Fortsette?",
+        "SuccessStatus": "Innstillingene ble lagret"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overskriv gjeldende listeinnstillinger for alle brukere",
+        "Confirmation": "Nye standardinnstillinger for liste vil bli lagret og vil erstatte gjeldende innstillinger for alle brukere. Fortsette?",
+        "SuccessStatus": "Innstillingene ble lagret"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Tilbakestill til standard innstillinger for liste",
+        "Confirmation": "Tilbakestill til standard innstillinger for liste?",
+        "SuccessStatus": "Standardinnstillinger for liste ble gjenopprettet"
+      },
+      "Title": "Liste opp handlinger"
+    },
+    "RowToolbar": {
+      "Open": "Åpne",
+      "Copy": "Kopier",
+      "Delete": "Slett",
+      "RunBusinessProcess": "Kjør forretningsprosess",
+      "Title": "Regner handlinger"
+    }
+  },
+  "DataTable": {
+    "NoData": "Ingen data",
+    "NoColumns": "Ingen kolonner lagt til",
+    "Hints": {
+      "Sort": "Sorter",
+      "StartEditing": "Rediger",
+      "ReadonlyCell": "Ikke-redigerbare felt",
+      "CancelChanges": "Forkast"
+    },
+    "SaveItemsChanges": "Lagre alle",
+    "CancelItemsChanges": "Forkast",
+    "NotFoundColumn": "Kolonne ikke funnet",
+    "ColumnSticky": "Frost kolonne"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Ja",
+    "No": "Nei",
+    "Save": "Lagre",
+    "DoNotSave": "Ikke lagre",
+    "Cancel": "Avbryt",
+    "Delete": "Slett",
+    "Overwrite": "Overskriv"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Du har ulagrede endringer som vil gå tapt. Vil du fortsette?"
+    }
+  },
+  "Gallery": {
+    "NoData": "Ingen data"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Åpne lenke"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Send e-post"
+  },
+  "FileInput": {
+    "Delete": "Slett",
+    "Cancel": "Avbryt",
+    "Attach": "Vedlegg",
+    "FileIcon": "Filens ikon",
+    "EmptyFileName": "Tom filnavn",
+    "MaxFileSizeLimitReached": "Maks filstørrelse nås ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Slipp filer her",
+      "Description": "eller bruk \"Last opp\"-knappen"
+    }
+  },
+  "ImageInput": {
+    "Alt": "Bilde",
+    "Upload": "Last opp",
+    "Change": "Endre",
+    "Clear": "Slett"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Lagre",
+    "CancelButton": "Avbryt",
+    "ColumnProperties": "Egenskaper for kolonne",
+    "Title": "Tittel",
+    "FilterHeader": "Hvordan filtrere poster",
+    "SortingHeader": "Hvordan sortere poster",
+    "SortColumn": "Sorter etter",
+    "WhatToDisplay": "Hva skal vises",
+    "AggregationColumn": "Kolonne",
+    "SortOrder": "Sorter etter"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Ja",
+      "False": "Nei"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "på",
+    "TodayAt": "I dag, {0}",
+    "YesterdayAt": "I går kl {0}",
+    "DayBeforeYesterdayAt": "Dagen før i går klokken {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Ingen visningsverdi"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mos",
+    "DaysAbbreviation": "D",
+    "HoursAbbreviation": "t",
+    "MinutesAbbreviation": "min."
+  },
+  "TabPanel": {
+    "CloseTabHint": "Lukk fane"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Gå til skrivebordet"
+    },
+    "QuickRunProcess": {
+      "Title": "Kjør prosess",
+      "SuccessMessage": "Prosessen har blitt vellykket kjørt",
+      "NotConfiguredQuickProcessesMessage": "Hurtigprosesser kjøring er ikke konfigurert ennå",
+      "OtherProcessesCaption": "Andre prosesser"
+    },
+    "Settings": {
+      "Title": "Innstillinger"
+    },
+    "UserProfile": {
+      "Title": "Din profil",
+      "MenuItems": {
+        "Profile": "Din profil",
+        "Logout": "Avslutt"
+      }
+    },
+    "New": {
+      "Title": "Ny",
+      "NoItemTitle": "Hurtigoppføringer opprettelse er ennå ikke konfigurert"
+    },
+    "Help": {
+      "Title": "Hjelp",
+      "MenuItems": {
+        "OnlineHelp": "Online hjelp",
+        "NeedHelp": "Trenger hjelp",
+        "ExternalAccess": "Gi tilgang til støtte"
+      },
+      "SupportSubject": "Spørsmål om",
+      "AccessGrantedMessage": "Tilgang gitt",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ANettsted:  {0}%0D%0AKundeID: {1}%0D%0AProdukt: {2}%0D%0Aversjon:  {3}%0D%0Alokalisering: {4}%0D%0ASide: {5}"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Kommunikasjons panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Panel Varslinger"
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigasjonpanel"
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search app..."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Les mer"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passerte",
+    "timeBeforeCountStartTpl": "{0} før nedtellingen starter",
+    "overdueTpl": "{0} forsinket",
+    "timeLeftTpl": "{0} igjen",
+    "timeIsUpTpl": "Tiden er ute",
+    "waitingForStartDateTpl": "Venter på startdato",
+    "dateNotSet": "0t 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Søk med kolonne",
+      "AllOption": "Alle"
+    }
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Lagring vellykket",
+      "ErrorOnSave": "Feil ved forsøk på å bruke endringer"
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Search..."
+  }
+}

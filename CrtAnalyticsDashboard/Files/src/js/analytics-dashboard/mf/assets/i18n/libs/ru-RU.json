@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Загрузка..."
+  },
+  "CopyClipboard": {
+    "Copied": "Скопировано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Здесь еще ничего нет",
+      "Subhead": "Добавьте данные и начинайте работу"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Загрузка"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Ошибка",
+      "Default": "Подсказка"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чат начат: {0}, ",
+        "EndDate": "Чат завершен: {0}, "
+      }
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Выберите значение из списка",
+      "SelectionWindowMessage": "Выберите значение из списка или окна выбора"
+    },
+    "Required": {
+      "Message": "Необходимо указать значение"
+    },
+    "MaxLength": {
+      "Message": "Превышена допустимая длина текста ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Не достигнута допустимая длина текста ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Неправильный формат даты и времени"
+    },
+    "DatePickerSyntax": {
+      "Message": "Неправильный формат даты"
+    },
+    "TimePickerSyntax": {
+      "Message": "Неправильный формат времени"
+    },
+    "RegExp": {
+      "Message": "Неправильный формат значения"
+    },
+    "PhoneNumber": {
+      "Message": "Неправильный номер телефона"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Код должен начинаться с префикса {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Введите хотя бы еще один символ."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Используйте a-z, A-Z, 0-9, нижнее подчеркивание или тире. Только буквы могут быть первыми."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Значение '{{controlValue}}' уже существует в колонке 'Код'."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Колонка удалена",
+    "ValidationErrorMessageSingleErrorField": "Поле: {0}. Ошибка: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Поля: {0}. Ошибка: {1}",
+    "RefreshModelDataConflict": "В системе есть обновленные данные для текущей страницы. Чтобы их отобразить. сохраните или отмените внесенные изменения и обновите страницу.",
+    "WarningModelsWithCircularDependencies": "Некоторые модели имеют циклические зависимости и не были загружены",
+    "LoadingModelErrorMessage": "Произошла ошибка при выполнении запроса",
+    "ErrorMessageOnEmptyRelationColumn": "Невозможно сохранить страницу. Заполните значение поля  {{caption}} или удалите значения связанных полей."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Данные обновлены"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Четко и кратко опишите цель пользователя. Подробно изложите шаги, необходимые для достижения цели пользователя. Опишите ожидаемый результат от LLM. Это должно включать любую необходимую информацию или контекст, который необходимо знать LLM.\n\n## Общие правила\n1. Вы не можете создавать новые объекты без явного подтверждения от пользователя.\n2. Правило 2: ...\n3. ...\n\n## Общие ограничения\n1. Избегайте предположений о намерениях пользователя; уточняйте запросы, когда это необходимо.\n2. Ограничение 2: ...\n3. ...\n\n## Требования к выводу\n1. Вывод должен быть менее 300 символов и не более 2-3 предложений.\n2. Требование 2: ...\n3. ...\n\n## Процесс\n1. Используйте контекст текущей страницы для чтения данных и полей страницы. На основе этой информации ...\n2. Шаг 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Для записи нет страницы редактирования. Системному администратору необходимо проверить настройку параметров кнопки в дизайнере Freedom UI",
+    "GoToEntityDesignerMessage": "Для настройки страниц перейдите по ссылке: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Схема процесса успешно сохранена, однако ошибки валидации препятствуют его запуску."
+  }
+}

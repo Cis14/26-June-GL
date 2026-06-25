@@ -1,0 +1,2252 @@
+{
+  "Input": {
+    "Readonly": "編集不可能なフィールド",
+    "ShowPassword": "パスワードを表示",
+    "HidePassword": "パスワードを非表示"
+  },
+  "Carousel": {
+    "NoData": "データがありません",
+    "PrevButtonCaption": "前のアイテム",
+    "NextButtonCaption": "次のアイテム"
+  },
+  "ComboBox": {
+    "Readonly": "編集不可能なフィールド",
+    "NoData": "データがありません",
+    "EmptyDisplayValue": "表示できる値がありません",
+    "AddNewRecord": "新規追加",
+    "InvalidValueSyntax": "リストから項目を選択してください",
+    "IsGoToSourceAllowedTooltip": "レコード一覧へ移動",
+    "CheckAll": "すべてチェックする",
+    "ClearAll": "すべてをクリア",
+    "SelectValue": "値を選択",
+    "ClearValue": "値をクリア",
+    "OpenSection": "セクションを開く"
+  },
+  "DataGrid": {
+    "AddColumns": "カラムを追加",
+    "ColumnToolbar": {
+      "Hide": "非表示",
+      "Freeze": "固定",
+      "Unfreeze": "固定の解除",
+      "Rename": "名前を変更",
+      "Title": "列の操作",
+      "Edit": "プロパティ",
+      "SortAscending": "昇順にソート",
+      "SortDescending": "昇順にソート",
+      "ClearSorting": "並べ替えをクリア",
+      "AriaLabel": "列の操作"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "アクションの一覧",
+      "Title": "動作の一覧",
+      "DataGridSettingsLabel": "一般的なリストの設定",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "すべてのユーザーのために新しいデフォルトのリスト設定が保存されます。続けますか？",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "すべてのユーザーのために新しいデフォルトのリスト設定が保存されます。続けますか？",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "デフォルト設定に戻す",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "デフォルトのリスト設定が正常に復元されました"
+      }
+    },
+    "RowToolbar": {
+      "Open": "開く",
+      "Copy": "コピー",
+      "Delete": "削除",
+      "RunBusinessProcess": "ビジネス プロセスを実行",
+      "Title": "行の操作"
+    },
+    "AddColumnsTo": "カラムを追加",
+    "Title": "リスト: {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "列が追加されました",
+      "ColumnsAddedSuccessfully": "列が追加されました",
+      "ColumnHiddenSuccessfully": "列が非表示になりました",
+      "ColumnFrozenSuccessfully": "列が固定されました",
+      "ColumnUnfrozenSuccessfully": "列が解除されました",
+      "ColumnChangedSuccessfully": "列が変更されました"
+    }
+  },
+  "DataTable": {
+    "NoData": "データがありません",
+    "NoColumns": "列が追加されていません",
+    "Hints": {
+      "Sort": "並び替え",
+      "StartEditing": "編集",
+      "ReadonlyCell": "編集不可能なフィールド",
+      "CancelChanges": "破棄",
+      "AddItem": "新規レコードを追加",
+      "SortWithCaption": "{0}をソート",
+      "NotSorted": "現在ソートされていません",
+      "SortedAscending": "現在ソートされている昇順",
+      "SortedDescending": "現在、降順にソートされています",
+      "SortAscending": "昇順にソート",
+      "SortDescending": "昇順にソート",
+      "RowControls": "行管理"
+    },
+    "SaveItemsChanges": "すべて保存",
+    "CancelItemsChanges": "破棄",
+    "AddItem": "新規",
+    "BulkActions": {
+      "MoreActions": "その他の操作",
+      "AriaLabel": "{0}の一括操作"
+    },
+    "RowsSelection": {
+      "Selected": "選択済み",
+      "SelectAll": "すべて選択",
+      "ClearSelection": "選択をクリア",
+      "SelectRow": "行を選択",
+      "RowsSelected": "選択した行: {0}"
+    },
+    "NotFoundColumn": "列が見つかりません",
+    "ColumnSticky": "固定された列",
+    "StatusBar": {
+      "AriaLabel": "{0}のアクションを編集"
+    },
+    "Columns": {
+      "ChangeWidth": "幅を変更",
+      "ChangeWidthOf": "{0}の幅を変更"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "データがありません",
+    "MenuActions": "アクション",
+    "DateAdded": "追加された日付",
+    "SelectItem": "アイテムを選択",
+    "Item": {
+      "ActionsButtonCaption": "アイテムアクション"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "はい",
+      "False": "いいえ"
+    }
+  },
+  "FileInput": {
+    "Delete": "削除",
+    "Cancel": "キャンセル",
+    "Attach": "添付",
+    "FileIcon": "ファイルアイコン",
+    "EmptyFileName": "空のファイル名",
+    "MaxFileSizeLimitReached": "最大ファイルサイズ制限に達しています({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "保存",
+    "CancelButton": "キャンセル",
+    "ColumnProperties": "列のプロパティ",
+    "Title": "タイトル",
+    "FilterHeader": "レコードをフィルタリングする方法",
+    "SortingHeader": "レコードを並び替え",
+    "SortColumn": "ソート",
+    "WhatToDisplay": "表示する項目",
+    "AggregationColumn": "列",
+    "SortOrder": "並べ替え",
+    "SetupFilters": "フィルターの設定",
+    "EditFilters": "フィルターを編集"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "ここにファイルをドロップ",
+      "Description": "または",
+      "Upload": "アップロード"
+    },
+    "RowToolbar": {
+      "Download": "ダウンロード"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "at",
+    "TodayAt": "今日 {0}",
+    "YesterdayAt": "昨日 {0}",
+    "DayBeforeYesterdayAt": "一昨日 {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "表示できる値がありません"
+  },
+  "WebInput": {
+    "LinkButtonHint": "リンクを開く"
+  },
+  "EmailInput": {
+    "AddEmailHint": "メール送信"
+  },
+  "ImageInput": {
+    "Alt": "フィールド画像",
+    "Upload": "アップロード",
+    "Clear": "削除",
+    "Change": "変更",
+    "AltAbbreviation": "略語イメージ",
+    "AltIcon": "フィールドは空です"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "ヶ月",
+    "DaysAbbreviation": "日",
+    "HoursAbbreviation": "時間",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "タブを閉じる"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "実行プロセス",
+      "SuccessMessage": "プロセスが正常に実行されました",
+      "NotConfiguredQuickProcessesMessage": "クイックプロセスの実行はまだ設定されていません",
+      "OtherProcessesCaption": "その他のプロセス"
+    },
+    "Settings": {
+      "Title": "設定"
+    },
+    "UserProfile": {
+      "Title": "あなたのプロフィール",
+      "MenuItems": {
+        "Profile": "あなたのプロフィール",
+        "Logout": "終了",
+        "OrganizationProfile": "組織のプロフィール"
+      }
+    },
+    "New": {
+      "Title": "新規",
+      "NoItemTitle": "クイックレコードの作成はまだ設定されていません"
+    },
+    "Help": {
+      "Title": "Need help",
+      "SupportSubject": "質問",
+      "MenuItems": {
+        "OnlineHelp": "オンラインヘルプ",
+        "NeedHelp": "ヘルプ",
+        "ExternalAccess": "サポートへのアクセスを許可",
+        "ReleaseNotes": "リリースノート"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "AccessGrantedMessage": "アクセスを許可",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "コミュニケーションパネル"
+    },
+    "NotificationsPanelButton": {
+      "Title": "通知パネル"
+    },
+    "Logo": {
+      "Title": "デスクトップへ移動"
+    },
+    "WorkspaceExplorer": {
+      "Title": "構成"
+    },
+    "LegacySidePanelButton": {
+      "Title": "追加パネル"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "コンパイルエラー",
+      "WorkspaceExplorerTemplate": "コンパイルエラーのリストを表示し、修正するには、<a href ='{0}' target='_blank'>設定セクション</a>にアクセスしてください。"
+    },
+    "NavigationPanelButton": {
+      "Title": "ナビゲーションパネル"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "ナビゲーションパネルを閉じる",
+      "ExpandCaption": "ナビゲーションパネルを展開"
+    },
+    "SearchResultsCaption": "検索結果",
+    "EmptySearchResult": {
+      "Title": "検索条件に一致するアイテムはありません。",
+      "Subhead": "検索条件をクリアまたは変更する"
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "続きを読む"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} が合格しました",
+    "timeBeforeCountStartTpl": "カウントダウン開始 {0} 前です",
+    "overdueTpl": "{0} 期日超過しました",
+    "timeLeftTpl": "{0} 期日残存しています",
+    "timeIsUpTpl": "時間切れ",
+    "waitingForStartDateTpl": "開始日時を待機中",
+    "dateNotSet": "0時間 0分"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "すべて",
+      "SelectMenuLabel": "列で検索",
+      "Title": "フィルター列を選択"
+    },
+    "ClearIconTitle": "検索をクリア"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "はい",
+    "No": "いいえ",
+    "Save": "保存",
+    "DoNotSave": "保存しない",
+    "Cancel": "キャンセル",
+    "Delete": "削除",
+    "Close": "閉じる",
+    "Notification": "通知",
+    "Overwrite": "上書き",
+    "Clear": "消去",
+    "Restore": "復元",
+    "ProcessElementCompletedNotification": "他のユーザーがこのタスクを完了しました",
+    "ProcessSchemaSavedWithValidationError": "プロセス スキーマは正常に保存されましたが、検証エラーにより実行が妨げられます。"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "保存が完了しました",
+      "ErrorOnSave": "変更を適用しようとした際にエラーが発生しました"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "\"{0}\" デスクトップを削除してもよろしいですか？",
+        "Error": {
+          "Deletion": "デスクトップ削除中にエラーが発生しました",
+          "Configuration": "設定ビルド中にエラーが発生しました"
+        },
+        "Success": "デスクトップ \"{0}\" は正常に削除されました"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Search..."
+  },
+  "AllowedResults": {
+    "Caption": "許可された結果",
+    "TaskCompleted": "タスクが完了しました"
+  },
+  "LicenseIndicator": {
+    "Title": "ライセンスが必要です"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "タグの追加",
+    "CreateNewTagButtonCaption": "新しいタグの作成"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "保存されていない変更は失われます。続行しますか？"
+    },
+    "List": {
+      "Message": "このリストには保存されていない変更が含まれています。続行すると変更は失われます。変更を保存しますか？"
+    },
+    "Page": {
+      "Message": "このページには保存されていない変更が含まれています。ページを閉じると変更が失われます。変更を保存しますか？"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "レコードの編集",
+    "DeleteItemActionButtonCaption": "レコードの削除",
+    "NoData": "データがありません"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "データがありません",
+      "CloseButtonTitle": "閉じる"
+    },
+    "AriaLabel": "選択されたアイテム",
+    "Chip": {
+      "RemoveButtonCaption": "消去"
+    },
+    "AriaLabelFor": "選択されたアイテム"
+  },
+  "Playbook": {
+    "Caption": "プレイブック",
+    "Hint": "コンポーネントは、特定のダイナミックケースステージからナレッジベースの情報にアクセスするためのヒントと指示をユーザーに表示します。プレイブックのセクションで関連記事を設定できます。詳細については、",
+    "Placeholder": {
+      "Title": "関連するプレイブックが見つかりません",
+      "Description": "現在のダイナミックケースステージに関連する記事をプレイブックセクションに設定してください"
+    },
+    "Actions": {
+      "Back": "戻る",
+      "OpenInDialog": "モーダルウィンドウで開く"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "閉じる",
+        "OpenPage": "新しいタブで開く"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "認証に失敗しました。後でもう一度試すか、管理者にヘルプを依頼してください。",
+      "FormatError": "リクエストに無効な形式があります。入力が正しく構造化されていることを確認し、アクションの出力パラメーターをチェックしてください。",
+      "LimitError": "トークン制限に達しました。Creatio.AIとのさらなる作業がロックされています。Creatio.AIトークンを補充するには、管理者に連絡してください。",
+      "ServiceAvailabilityError": "サービスは一時利用できません。後で再試行してください。",
+      "ExecutionError": "リクエストの処理中にエラーが発生しました。もう一度やり直すか、管理者にヘルプを依頼してください。",
+      "ConfigurationError": "構成の問題が検出されました。システム設定を確認するか、管理者にサポートを依頼してください。",
+      "UnknownError": "不明なエラーが発生しました。後でもう一度試すか、管理者に問い合わせてください。",
+      "CharacterLimitExceededError": "ユーザーのクエリの文字数制限に達しました。システム設定を確認するか、管理者に助けを求めてください。",
+      "ToolCallsInvokesLimitExceeded": "関数の呼び出し回数が上限を超えました：\nユーザー入力なしでの連続実行、または同一関数の繰り返し実行が原因です。",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    },
+    "InputPlaceholder": "メッセージを入力",
+    "SendButtonHint": "メッセージを送信 (Ctrl + Enter)",
+    "Caption": "メッセージ履歴",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Chat completed",
+      "ChatTransferred": "Chat transferred"
+    },
+    "MaxFilesExceeded": "Maximum number of files you can add in one iteration: {{maxCount}}",
+    "SendMessageError": "Failed to send message. Please try again"
+  },
+  "ChatSettings": {
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.AI"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "このチャンネルは削除できません。アクティブなチャットまたは配信中のチャットがあります。まずチャットを完了してから再試行してください。"
+    },
+    "History": {
+      "Captions": {
+        "StartDate": "チャット開始: {0}",
+        "EndDate": "チャット完了: {0}"
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "データがありません",
+    "Boolean": {
+      "Yes": "はい",
+      "No": "いいえ"
+    },
+    "String": {
+      "Placeholder": "テキストを入力"
+    },
+    "Numeric": {
+      "Placeholder": "数値を入力",
+      "To": "最大",
+      "MaxValueError": "値が最大値を超えています",
+      "MinValueError": "値が最小値を下回っています"
+    }
+  },
+  "Conversation": {
+    "Caption": "会話",
+    "Copilot": {
+      "TypingMessage": "応答を生成中",
+      "Action": {
+        "Replace": "選択を置き換える",
+        "InsertAbove": "上部に挿入",
+        "InsertBelow": "以下に挿入"
+      }
+    },
+    "LoadPreviousChat": "以前のチャットを読み込む",
+    "ChatIsCompleted": "チャット完了: {datePart}",
+    "ChatIsTransferred": "Chat transferred: {datePart} from {operatorPart} to {targetOperatorPart}",
+    "ChatTransferredToQueue": "Chat transferred: {datePart} from {operatorPart} to queue {queuePart}",
+    "ChatCompletedByAgent": "{datePart} の {operatorPart} にチャットが完了しました"
+  },
+  "BulkActions": {
+    "Delete": "削除",
+    "Export": "Excel出力",
+    "AddTag": "タグの追加",
+    "RemoveTag": "タグの削除",
+    "RowsSelection": {
+      "Selected": "選択済み",
+      "SelectAll": "全ての項目を選択",
+      "ClearSelection": "選択をクリア"
+    },
+    "Merge": "マージ"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "パンくずリスト"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "フィード通知"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "ナンバー"
+  },
+  "ExpansionPanel": {
+    "Collapse": "折りたたむ",
+    "Expand": "展開する"
+  },
+  "ProgressBar": {
+    "AriaLabel": "進捗バー"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "チャットステータス",
+    "CtiStatesMenuCaption": "電話のステータス"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "フィルター条件に一致するレコードがありません。",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "IndicatorWidget": {
+    "NoData": "N/A",
+    "AriaDescription": "{{chartTitle}}. グラフの種類はメトリックです。現在の値は {{ariaValue}}です。要素をドリルダウンするには、Enter キーまたは空白キーを使用します。",
+    "NotClickableAriaDescription": "{{chartTitle}}. The chart type is Metric. The current value is {{ariaValue}}."
+  },
+  "ChartLegend": {
+    "Title": "{{chartTitle}} チャートの凡例: 矢印キーを使用して移動し、コンテキストメニューを開くキーを入力します。"
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} のグラフ \"{{chartTitle}}\" と {{groupsCount}} グループ. The chart showing \"{{groupsNames}}\". Xは、 {{xMin}} から {{xMax}}までの「{{xLabel}}」です。 Y は {{yMin}} から {{yMax}}までの \"{{yLabel}}\" です。移動するには矢印キーを使用します。",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Enter キーを使用してコンテキストメニューを開きます。"
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. グラフの種類はメトリックです。現在の値は {{ariaValue}}です。要素をドリルダウンするには、Enter キーまたは空白キーを使用します。"
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "「{{title}}」チャートの全画面を展開します。",
+      "CollapseLabel": "\"{{title}}\" グラフの全画面を折りたたみます。"
+    },
+    "Menu": {
+      "Caption": "「{{title}}」グラフのメニュー",
+      "CreateDashboard": {
+        "Caption": "Create dashboard",
+        "UnableCreateMessage": "⚠️ Unable to create a dashboard. This page has no Dashboard component.\n\rYou can go to another page where the Dashboard component is already available.\n\r📘 Learn more about working with dashboards in the <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Academy</a>"
+      }
+    }
+  },
+  "MarketingEmailContent": {
+    "AddBulkEmailAudienceRequest": {
+      "LookupPageCaption": "連絡先を一斉送信用メールアドレスに追加",
+      "ImportStartedMessage": "オーディエンスのインポートが開始されました。処理に時間がかかる場合があります。完了したら、通知パネルでお知らせします。",
+      "ErrorMessage": "オーディエンスのインポート中にエラーが発生しました",
+      "EmptyFilterMessage": "フィルターなしでオーディエンスを追加することはできません。いくつかのフォルダーまたは特定のレコードを選択してください"
+    },
+    "RemoveBulkEmailAudienceRequest": {
+      "DeleteAllRecordsConfirmation": "すべてのオーディエンスをメールから削除してもよろしいですか？",
+      "RemoveStartedMessage": "オーディエンスの削除を開始",
+      "UnableToRemoveRecords": "オーディエンスの削除中にエラーが発生しました",
+      "EmptyFilterMessage": "フィルターなしでオーディエンスを削除することはできません。特定のレコードを選択してください"
+    },
+    "OpenEmailPageRequest": {
+      "RedirectQuestionMessage": "選択した一括メールはFreedom UIの一括メールセクションで作成されました。リダイレクトしますか？",
+      "RedirectCaption": "リダイレクト"
+    },
+    "ScheduleSendingTab": {
+      "ScheduleInfoMessage": "このメールは {0}に送信される予定です。あなたのメールアドレスに合わせて調整してください。",
+      "SendRateOverlimitMessage": "The selected daily limit and delay don’t fit within 24 hours. Please reduce the delay or the daily limit."
+    },
+    "SendTestEmailPage": {
+      "DefaultLabel": "デフォルト"
+    },
+    "ContactSubscribeToBulkEmailsRequest": {
+      "AnnounceMessage": "{0}は登録されました。"
+    },
+    "ContactUnsubscribeFromBulkEmailsRequest": {
+      "AnnounceMessage": "{0}は購読解除されています。"
+    },
+    "BulkEmailDelete": {
+      "WrongStatus": "バルクメールのステータスが「下書き」でも「計画中」でもないため、削除できません",
+      "UsedInCampaign": "選択したレコードを削除できません。キャンペーンで一斉送信メールが使用されています"
+    },
+    "SenderDomain": {
+      "ValidateDomainGenericErrorMessage": "Unable to validate the sender domain due to an unexpected error. Please try again or contact support if the issue persists.",
+      "Add": {
+        "SuccessMessage": "The sender domain has been added successfully.",
+        "ErrorMessage": "Unable to save the sender domain due to an unexpected error. Please try again or contact support if the issue persists."
+      },
+      "Share": {
+        "SuccessMessage": "The authorization key has been generated.",
+        "CopyToClipboardSuccessMessage": "The authorization key has been copied to clipboard.",
+        "ErrorMessage": "Unable to share the sender domain due to an unexpected error. Please try again or contact support if the issue persists."
+      },
+      "Authorize": {
+        "SuccessMessage": "The sender domain has been authorized successfully.",
+        "ErrorMessage": "Unable to authorize the sender domain due to an unexpected error. Please try again or contact support if the issue persists.",
+        "InvalidTokenMessage": "Authorization key is invalid or does not match the requesting site.",
+        "KeyIsMissing": "The authorization key is missing. Please provide a valid key and try again."
+      },
+      "CopyToClipboardSuccessMessage": "Data has been copied to clipboard.",
+      "Delete": {
+        "ConfirmationMessage": "選択したレコードを削除しますか？",
+        "WrongStatus": "Unable to delete the sender domain because its status is neither \"Unvalidated\" nor \"Requested\"",
+        "ErrorMessage": "Unable to delete the domain. Please try again later or contact support."
+      }
+    }
+  },
+  "MarketingEngagementToolsContent": {
+    "ConnectFacebookForm": {
+      "IntegrationSetupError": "Facebookのリード生成は現在無効です。システム管理者はFacebookとの連携を有効にすることができます。",
+      "IntegrationWindowError": "ブラウザーの設定でポップアップウィンドウがブロックされています。続行するにはポップアップを有効にしてください",
+      "DefaultSubscriptionError": "問題が発生しました。もう一度フォームに接続してください。"
+    }
+  },
+  "MarketingCampaignContent": {
+    "ValidateCampaignRequest": {
+      "StartDateRequiredMessage": "キャンペーンの開始日時を指定してください",
+      "StartDateLessThenNowMessage": "キャンペーンのスケジュールされた開始日時はすでに過ぎています。正しい値を設定してください。",
+      "StopDateRequiredMessage": "キャンペーンの終了日時を指定してください",
+      "StopDateLessThenNowMessage": "キャンペーンのスケジュールされた終了日時はすでに過ぎています。正しい値を設定してください。",
+      "StopDateLessThenStartDateMessage": "キャンペーンのスケジュールされた終了日は、そのスケジュールされた開始日より前です。正しい値を設定してください。",
+      "StopDateLessThenNextFireTimeMessage": "キャンペーンのスケジュールされた終了日は次のスケジュールされたキャンペーンの実行前にあります。正しい値を設定してください。"
+    },
+    "StopCampaignRequest": {
+      "StopConfirmationMessage": "キャンペーンを停止してもよろしいですか？",
+      "SuccessMessage": "キャンペーンは正常に停止しました",
+      "ErrorMessage": "キャンペーンの停止操作中にエラーが発生しました"
+    },
+    "StartCampaignRequest": {
+      "ScheduleConfirmationMessage": "キャンペーンをスケジュールしてもよろしいですか？",
+      "LaunchConfirmationMessage": "キャンペーンを開始してもよろしいですか？",
+      "SuccessMessage": "キャンペーンを開始しました",
+      "ErrorMessage": "キャンペーンの開始操作中にエラーが発生しました"
+    },
+    "DeleteCampaignRequest": {
+      "HasAudienceMessage": "参加者が含まれているためキャンペーンを削除できません",
+      "InStatusActiveMessage": "アクティブなステータスのキャンペーンは削除できません。削除する前にキャンペーンを停止してください",
+      "InStatusStoppingMessage": "停止状態のキャンペーンは削除できません。キャンペーンが削除されるまでしばらくお待ちください。",
+      "InStatusScheduledMessage": "スケジュール済みのステータスのキャンペーンは削除できません。削除する前にキャンペーンを停止してください",
+      "MultipleHasAudienceMessage": "参加者が含まれているため選択したキャンペーンを削除できません",
+      "MultipleIncorrectStateMessage": "選択したキャンペーンの一部が不正なステータスになっているため、削除できません。"
+    }
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "デスクトップの選択",
+    "EditDesktop": "デスクトップの編集",
+    "UseHotkeys": "デスクトップを編集するには Ctrl+Shift+E を使用してください"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "無効なパラメーター",
+    "ServiceResult": {
+      "ErrorMessage": "エラーが発生しました。システム管理者にお問い合わせください。"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "タグ付けされた {{ count }} アイテム",
+      "RemoveTagsMessage": "タグ付けされていない {{ count }} アイテム",
+      "AddTagsSuccessfulRunProcess": "選択したアイテムの一括タグ付けプロセスが開始されました。時間がかかる場合があります。",
+      "RemoveTagsSuccessfulRunProcess": "選択したアイテムの一括タグ付けプロセスが開始されました。時間がかかる場合があります。"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "フォルダーに {{ count }} 件のレコードを追加しました",
+      "RemoveRecordsMessage": "フォルダーから {{ count }} 件のレコードが削除されました"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "アクションが正常に開始されました",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "このアクションを実行するには、少なくとも1つのレコードが必要です。適用したいレコードを選択して、再度お試しください。"
+    },
+    "ProcessStarted": "プロセス開始",
+    "StartingProcessAnnounceMessage": "Starting a process, please wait..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "選択したレコードを削除しますか？",
+    "DeleteRecordsConfirmation": "選択したレコードを削除してもよろしいですか？",
+    "SaveSummariesForAll": "すべてのユーザーのサマリー設定を保存しますか？",
+    "ResetSummaries": "リストの設定をデフォルトに戻しますか？"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "「{0}」オブジェクト内のレコードを削除する権限がありません",
+    "UnableToDeleteSelectedRecord": "選択したレコードを削除できません",
+    "SelectRecordsToDelete": "削除するレコードを選択",
+    "SettingsErrorMessage": "アクションを実行できません。\n\nシステム管理者はFreedom UIデザイナーのボタン設定を確認する必要があります。",
+    "ExportToExcel": {
+      "PermissionsErrorMessage": "この操作を実行する権限がありません。\nシステム管理者にお問い合わせください。エクスポートオブジェクトへのアクセスとシステム操作の実行権限を確認してください。",
+      "FileGenerationMessage": "エクスポートファイルを生成中"
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "変更履歴にアクセスする権限が不足しています。システム管理者に問い合わせてください。",
+      "SourceIsNotSpecifiedMessage": "アクション「変更ログを開く」に対してオブジェクトまたはデータソースが指定されていません。システム管理者に連絡してください。",
+      "RecordIsNotSelectedMessage": "レコードを選択して、その変更ログを開いてください。",
+      "ChangeLogIsNotTurnedOnTitle": "ログをオンにする",
+      "ChangeLogIsNotTurnedOnMessage": "{0}のロギングは現在無効です。ロギングを有効にしますか？",
+      "ChangeLogIsTurnedOffMessage": "{0} のログ記録は現在オフになっています。システム管理者に連絡してください。",
+      "RecordIsNotSavedMessage": "最初にレコードを保存して、その変更ログを開いてください。"
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "{0} MBの最大ファイルサイズ制限を超えました。\n\n\n ファイル:\n- {1}",
+      "NoConnectedFileList": "ファイルアップロード先が設定されていません。\n\nボタン設定で宛先を選択してください。",
+      "InvalidRequestParams": "ページコンポーネントが設定されていないため、ファイルをアップロードできません。システム管理者はFreedom UIデザイナーで設定を完了できます。",
+      "ChangeFileSizeInfoMessage": "システム設定の「添付ファイルの最大サイズ」で最大ファイルサイズを増やす事ができます。",
+      "FileListHeader": "ファイル",
+      "MaxFileSizeExceededExceptionMessage": "{0} MBの最大ファイルサイズ制限を超えました。",
+      "UnknownServerError": "問題が発生しました。\n\nファイルを再度アップロードしてください。",
+      "AttachedToUnsavedRecord": "まだ作成されていないレコードにファイルを添付できません。ファイルをアップロードする前にレコードを作成してください。",
+      "InvalidExtension": {
+        "Deny": "ファイル拡張子[{0}]はセキュリティ設定で禁止されています。 このようなファイルを扱う必要がある場合は、システム管理者に問い合わせて[File extensions DenyList] (FileExtensionsDenyList)システム設定から拡張子を削除してください。",
+        "Allow": "ファイル拡張子[{0}] はセキュリティ設定で禁止されています。 このようなファイルを扱う必要がある場合は、システム管理者に問い合わせて、[File extensions AllowList] (FileExtensionsAllowList) システム設定に拡張子を追加してください。"
+      },
+      "EmptyFileMessage": "空のファイルをアップロードしようとしています。\n\n内容のあるファイルを選択してください。",
+      "SingleUploadInProgress": "The file {0} is still uploading. Please wait until the upload is complete.",
+      "MultipleUploadsInProgress": "Some files are still uploading. Please wait until the uploads are complete ({0} and {1} more)."
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "{0} MBの最大ファイルサイズ制限を超えました。",
+      "UnknownUploadError": "不明なアップロードエラーが発生しました。システム管理者にお問い合わせください。",
+      "Announcement": {
+        "Uploaded": "画像がアップロードされました",
+        "Deleted": "画像が削除されました"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "\nシステム管理者に連絡してください。システムデザイナーのアクション設定を確認してください。"
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "アクションエラー\nシステム管理者にお問い合わせください。システムデザイナーでアクション設定を確認してください。"
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "タグを追加するレコードを選択",
+      "SelectRecordsToRemoveRecordsMessage": "削除するレコードを選択"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "静的フォルダーに追加するレコードを選択してください",
+      "SelectRecordsToRemoveRecordsMessage": "静的フォルダーから削除するレコードを選択してください"
+    },
+    "FileAnnouncement": {
+      "Uploaded": "{0} ファイルがアップロードされました",
+      "Deleted": "{0} ファイルを削除しました"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "File '{0}' is not fully uploaded",
+      "FileDownloadErrorMessage": "File '{0}' could not be downloaded. It may have been deleted, is corrupted, or you do not have permission to access it."
+    },
+    "OK": "はい"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "タグの追加",
+    "RemoveTagCaption": "タグの削除"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "未保存のレコードについては、レポートを印刷できません。",
+    "InvalidRequestCaption": "アクションが無効です。印刷設定を確認してください。",
+    "SelectRecord": "レポート用のレコードを選択"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "このアクションで選択したすべてのレコードを移動することはできません。必要に応じて、1つずつレコードを選択してください。"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "変更は正常に破棄されました"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "レコードが正常に削除されました"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "レコードが正常に削除されました"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "利用可能なレポートはありません",
+    "GoToPrintablesSetupCaption": "レポートの設定に移動"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Loading, please wait...",
+    "AfterSchemaChangeAnnounceMessage": "Loading is completed"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Saving, please wait..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "The record has not been created",
+    "MergeStartedMessage": "System has begun merging data. You will receive a notification in the Communication panel when the process is complete. Please reload the record afterward to retrieve the updated data."
+  },
+  "MarketingEventContent": {
+    "AddEventAudienceRequest": {
+      "LookupPageCaption": "連絡先をイベントに追加する",
+      "ImportStartedMessage": "オーディエンスのインポートが開始されました。処理に時間がかかる場合があります。完了したら、通知パネルでお知らせします。",
+      "ErrorMessage": "オーディエンスのインポート中にエラーが発生しました",
+      "EventNotSavedMessage": "イベントは最初に保存する必要があります",
+      "EmptyFilterMessage": "フィルターなしでオーディエンスを追加することはできません。いくつかのフォルダーまたは特定のレコードを選択してください"
+    },
+    "RemoveEventAudienceRequest": {
+      "RemoveStartedMessage": "オーディエンスの削除を開始",
+      "UnableToRemoveRecords": "オーディエンスの削除中にエラーが発生しました",
+      "EmptyFilterMessage": "フィルターなしでオーディエンスを削除することはできません。特定のレコードを選択してください",
+      "DeleteAllRecordsConfirmation": "すべてのオーディエンスをイベントから削除してもよろしいですか？"
+    }
+  },
+  "ObjectAccessRights": {
+    "OperationTypeGroup": {
+      "Read": "読み取り権限",
+      "Write": "書き込み権限",
+      "Delete": "削除する権限",
+      "Execute": "実行する権限"
+    },
+    "OperationType": {
+      "Read": "読み込み",
+      "ReadWithDelegate": "デリゲート（delegate）を使って読み込みを実行する",
+      "Write": "書き込み",
+      "WriteWithDelegate": "デリゲート（delegate）を使って書き込みを実行する",
+      "Delete": "削除",
+      "DeleteWithDelegate": "デリゲート（delegate）を使って削除を実行する",
+      "Execute": "実行",
+      "ExecuteWithDelegate": "デリゲート（delegate）を使って実行する"
+    }
+  },
+  "ResendWebhooks": {
+    "SuccessMessage": "未配信のWebhook処理が正常に開始されました。システム内の未配信Webhookの数に応じて、これにはしばらく時間がかかる場合があります。",
+    "ErrorMessage": "配信されなかったWebhook受信プロセスの開始に失敗しました。"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "リストから項目を選択してください",
+      "SelectionWindowMessage": "リストから値を選択するか、検索窓より検索してください"
+    },
+    "Required": {
+      "Message": "入力してください"
+    },
+    "MaxLength": {
+      "Message": "最大文字数を超えました ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "最小文字数に達していません ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "日付と時刻の形式が正しくありません"
+    },
+    "DatePickerSyntax": {
+      "Message": "無効な日付フォーマット"
+    },
+    "TimePickerSyntax": {
+      "Message": "無効な時間形式です"
+    },
+    "RegExp": {
+      "Message": "値の形式が無効です"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "コードは \"{{schemaNamePrefix}}\" プレフィックスで始める必要があります.",
+      "OnlySchemaNamePrefixMessage": "少なくとも 1 つ以上のシンボルを入力してください。"
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "記号を使用：a-z、A-Z、0-9、アンダースコアまたはダッシュ。最初は文字のみです。"
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "'コード' 列に '{{controlValue}}' の値はすでに存在します。"
+    },
+    "PhoneNumber": {
+      "Message": "無効な電話番号"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "列が削除されました",
+    "ValidationErrorMessageSingleErrorField": "フィールド: {0}. エラー: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "フィールド: {0}. エラー: {1}",
+    "RefreshModelDataConflict": "Creatioには現在のページに新しいデータがあります。 変更を表示するには、保存またはキャンセルしてページを更新してください。",
+    "WarningModelsWithCircularDependencies": "一部のモデルには循環依存関係があり、読み込まれていません",
+    "LoadingModelErrorMessage": "クエリ実行中にエラーが発生しました",
+    "ErrorMessageOnEmptyRelationColumn": "ページを保存できません。{{caption}}フィールドに情報を入力するか、関連フィールドのデータをクリアしてページに保存してください。"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "データが更新されました"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "ユーザーの目標を明確かつ簡潔に説明してください。ユーザーの目標を達成するために必要な手順を詳述してください。LLMから期待される結果の概要を示してください。これには、LLMが知っておくべき必要な文脈や情報が含まれるべきです。\n\n## 一般ルール\n1. ユーザーの確認がない限り、新しいオブジェクトを作成することはできません。\n2. ルール2: ...\n3. ...\n\n## 一般的な制限\n1. ユーザーの意図について仮定を立てることは避けてください。必要に応じてリクエストを明確にしてください。\n2. 制限2: ...\n3. ...\n\n## 出力の要件\n1. 出力は300符号未満、かつ2～3文以内でなければなりません。\n2. 要件2: ...\n3. ...\n\n## プロセスフロー\n1. 現在のページの文脈を使用してページデータとフィールドを読み取ります。それに基づいて ...\n2. ステップ2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "新規または既存のレコードのページはありません。システム管理者はFreedom UIのボタン設定を確認する必要があります。",
+    "GoToEntityDesignerMessage": "ページをセットアップするにはURL： {0} に遷移してください。"
+  },
+  "Copilot": {
+    "RewriteActionsPrompt": {
+      "AskCopilot": "次のテキストを書き換えるのをお手伝いします。ダイアログに詳細な説明が表示されます。",
+      "Friendly": "以下の文章を、もっと親しみやすい表現に書き換えてください\n\n",
+      "Formal": "以下の文章を、よりフォーマルな表現に書き換えてください",
+      "Shorten": "次のテキストを書き換えて短くする",
+      "Extend": "次のテキストを書き換えて短くする",
+      "Rephrase": "次のテキストを書き換えて短くする"
+    },
+    "DebugInfo": {
+      "NoDebugInfo": "利用可能なデバッグ情報がありません"
+    },
+    "NewChatCaption": "新規チャット",
+    "DeleteRecordConfirmation": "選択したレコードを削除しますか？",
+    "FileMessages": {
+      "IntentMaxSizeException": "{0} MBの最大ファイルサイズ制限を超えました。 {1} システム設定を変更することで最大ファイルサイズを増やすことができます。",
+      "ChatMaxSizeException": "{0} MBの最大ファイルサイズ制限を超えました。 {1} システム設定を変更することで最大ファイルサイズを増やすことができます。",
+      "IntentMissingTypeException": "ファイルタイプが指定されていません。次の標準テキスト形式のいずれかのファイルをアップロードしてください： {0}",
+      "ChatMissingTypeException": "ファイルタイプが指定されていません。次の標準テキスト形式のいずれかのファイルをアップロードしてください： {0}",
+      "IntentTypeNotSupportedException": "ファイルタイプが指定されていません。次の標準テキスト形式のいずれかのファイルをアップロードしてください： {0}",
+      "ChatTypeNotSupportedException": "ファイルタイプが指定されていません。次の標準テキスト形式のいずれかのファイルをアップロードしてください： {0}"
+    },
+    "MessageSent": "メッセージが送信されました。",
+    "ViewElementMessage": {
+      "SetupDetailsCaption": "セットアップの詳細"
+    },
+    "LiveAnnouncement": {
+      "ChatRenamed": "Chat renamed to {0}",
+      "MessageReceivedInCurrentChat": "{0}: {1}",
+      "MessageReceivedInAnotherChat": "New message from {0} in {1} chat",
+      "SessionCreated": "New {0} chat created",
+      "Typing": "{0} is working on it"
+    },
+    "LlmModelPage": {
+      "PleaseTypeRequiredField": "Please type connection string required field",
+      "NoLicenseToCreateLlmModel": "Unable to add model. Adding the custom model requires a separate license. For assistance, please contact support."
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "読み込み中.."
+  },
+  "CopyClipboard": {
+    "Copied": "コピーしました"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "表示するものがありません ",
+      "Subhead": "データを追加してください"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "読み込み中"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "エラー",
+      "Default": "ツールチップ"
+    }
+  },
+  "GoogleAnalytics": {
+    "LoginRequestTitle": "Google アナリティクス用コネクタ",
+    "NotEnoughPermissionsMessage": "申し訳ありませんが、広告アカウントに接続できませんでした。Creatioに最大権限を付与して、もう一度お試しください。",
+    "PlatformUndefinedMessage": "プラットフォームが未定義です。プラットフォームがボタンを相手に設定するようにしてください。",
+    "ApplicationUndefinedMessage": "アプリケーションが未定義です。プラットフォームがボタンを相手に設定するようにしてください。",
+    "RefreshStreamSuccessMessage": "Google Analytics streams refreshed successfully",
+    "RefreshStreamErrorMessage": "Failed to refresh Google Analytics streams. Please try again later.",
+    "RefreshStreamConfirmationTitle": "Refresh data stream list?",
+    "RefreshStreamConfirmationMessage": "Refreshing may take a moment — the system will be unavailable while updating the list",
+    "RefreshStreamConfirmationCancel": "キャンセル",
+    "RefreshStreamConfirmationOk": "更新",
+    "PlatformCaption": "プラットフォーム",
+    "ApplicationCaption": "アプリケーション"
+  },
+  "DigitalAdsContent": {
+    "AdPlatformLoginRequestTitle": "広告プラットフォームと接続",
+    "NotEnoughPermissionsMessage": "申し訳ありませんが、広告アカウントに接続できませんでした。Creatioに最大権限を付与して、もう一度お試しください。",
+    "PlatformUndefinedMessage": "プラットフォームが未定義です。プラットフォームがボタンを相手に設定するようにしてください。",
+    "ApplicationUndefinedMessage": "アプリケーションが未定義です。プラットフォームがボタンを相手に設定するようにしてください。",
+    "ImportFromAdPlatformStartedMessage": "広告アカウントからのデータインポートが開始されました",
+    "NoConnectedAdAccountsFoundMessage": "インポートするための接続された広告アカウントがありません",
+    "NoActiveAdAccountsFoundMessage": "申し訳ありませんが、利用可能な広告アカウントが見つかりませんでした。 プラットフォーム上で必要なアカウントにアクセスできることを確認してください。アクティブなアカウントのみ接続できます。",
+    "PlatformInputCaption": "プラットフォーム",
+    "AppInputCaption": "アプリケーション"
+  },
+  "PageTools": {
+    "DesignButtonHint": "ページ編集",
+    "ExpandButtonTitle": "展開する",
+    "CollapseButtonTitle": "折りたたむ"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "一般的な",
+        "HeaderLabel": "フォルダ設定",
+        "SourceSchemaLabel": "フォルダの保存場所",
+        "RootSchemaLabel": "フォルダフィルタは何ですか？",
+        "AppearanceGroup": "表示",
+        "BorderRadiusLabel": "枠線の半径",
+        "Sizes": {
+          "None": "なし",
+          "Small": "小",
+          "Medium": "中",
+          "Large": "大"
+        }
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "フォルダ管理メニューの設定",
+        "FolderTreeLabel": "フォルダツリー選択",
+        "GeneralCaption": "全般"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "クイックフィルタの設定",
+        "GeneralCaption": "一般的な",
+        "AppearanceCaption": "表示",
+        "ChooseFilterTypeLabel": "フィルタの種類を選択",
+        "CaptionLabel": "タイトル",
+        "HintLabel": "ヒント",
+        "CustomType": "カスタム",
+        "DateRangeType": "Date/Time",
+        "LookupType": "検索"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "ツールバーの表示モード",
+        "Inline": "インライン",
+        "Classic": "クラシック",
+        "AlwaysShowToolbar": "書式設定を常に表示"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "フィード設定",
+        "GeneralCaption": "全般",
+        "FeedTypeCaption": "レコードをフィルタリングする方法",
+        "FeedChannel": "チャネル",
+        "FeedTypeGeneral": "一般的な",
+        "FeedTypeChannel": "チャネル",
+        "FeedTypeRecord": "レコード関連",
+        "FeedDataSourceCaption": "データ元",
+        "FeedTypeUser": "ユーザー関連",
+        "FeedTypeRecordTooltipCaption": "フィードメッセージは、特定のレコード通信に基づいて表示されます。",
+        "FeedTypeGeneralTooltipCaption": "現在のユーザーに関連するすべての通知とメンション。 このモードでは、現在のユーザーがタグ付けされた投稿とコメント、またはフォロー中のスレッドがフィードに表示されます。 たとえば、このモードでのフィードは、重要な情報を見逃さないように、ホームページに追加できます。",
+        "ExternalUsersGroupCaption": "外部ユーザー",
+        "AllowExternalPostCaption": "外部ユーザーへの公開を許可",
+        "ShowBlankSlateCaption": "空白のスレートを表示"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "編集",
+          "Delete": "削除"
+        },
+        "ChannelsCaption": "チャネル",
+        "AddNewItem": "チャネルを追加",
+        "PageCaption": "メッセージ作成",
+        "DefaultChannelCaption": "デフォルトチャネル"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "電子メールの作成者",
+        "GeneralCaption": "一般的な",
+        "DefaultSenderType": "初期設定の送信者",
+        "DefaultMailbox": "デフォルトのメールボックスを使用",
+        "CaseMailbox": "ケースソースメールボックスを使用"
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "チャット設定",
+        "GeneralCaption": "全般",
+        "TooltipCaption": "ページソースコードでこの要素を設定できます。",
+        "OpenSourceCodeButtonCaption": "ソースコードを開く"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "トーク設定",
+        "GeneralCaption": "一般的な"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "メッセージエディタの設定",
+        "GeneralCaption": "一般的な"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "サマリー設定",
+        "GeneralGroup": {
+          "Caption": "全般",
+          "SelectDataSource": "データソース"
+        }
+      },
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "暗号化された文字列"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "データを統合"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "どのデータをマージしますか？"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "タイムライン設定",
+        "ObjectsCaption": "オブジェクト",
+        "AddObject": "オブジェクトを追加",
+        "ContextMenu": {
+          "Edit": "編集",
+          "Delete": "削除"
+        },
+        "GeneralGroup": "全般",
+        "EmptyDataSourceHint": "データソースがページに追加されません。コンポーネントを設定するために既存のデータソースを追加してください",
+        "BindToDataSourceCaption": "データ元",
+        "FiltrationCaption": "フィルタオプション",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "レコードタイプ順",
+          "TimelineFilter_Owner": "担当者順",
+          "TimelineFilter_Date": "日付順",
+          "TimelineFilter_SystemMessages": "システムメッセージ順"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "一般的な",
+        "CaptionLabel": "タイトル",
+        "AppearanceGroup": "表示",
+        "LinkedColumn": "リンクされた列",
+        "SortedByColumn": "ソート",
+        "IconPosition": {
+          "OnlyIcon": "アイコンのみ"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "外部ユーザー",
+          "AllowExternalPostCaption": "外部ユーザーへの公開を許可"
+        },
+        "FiltrationGroup": "フィルタオプション",
+        "OwnerColumn": "担当者フィルタリングの列"
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "通信オプションの設定",
+        "GeneralGroup": "全般",
+        "MasterRecordCaption": "通信オプションをバインドするためのレコード",
+        "DataSourceEntityColumn": "データ元",
+        "Editability": "編集可否",
+        "EditabilityControls": {
+          "Readonly": "読み取り専用"
+        },
+        "LabelPositionCaption": "タイトルの位置",
+        "LabelPosition": {
+          "Auto": "自動",
+          "Left": "左",
+          "Above": "上",
+          "Hidden": "非表示"
+        },
+        "ShowNoDataPlaceholder": "データがない場合にプレースホルダを表示",
+        "AppearanceGroup": "表示",
+        "ColumnsCountLabel": "列数",
+        "ContactEntitySchemaName": "連絡先の通信オプション",
+        "AccountEntitySchemaName": "企業の通信オプション",
+        "EmptyDataSourceHint": "データソースがページに追加されません。コンポーネントを設定するために既存のデータソースを追加してください"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "アカウントコンパクトのプロファイル設定",
+        "GeneralGroup": "一般的な",
+        "AttributeForReferenceColumn": "データ元",
+        "Editability": "編集可否",
+        "EmptyAccountDataSourceHint": "データソースがページに追加されません。コンポーネントを設定するために既存のデータソースを追加してください",
+        "EditabilityControls": {
+          "Readonly": "読み取り専用"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "コンパクトな連絡先プロフィール設定",
+        "GeneralGroup": "一般的な",
+        "AttributeForReferenceColumn": "データ元",
+        "Editability": "編集可否",
+        "EmptyContactDataSourceHint": "データソースがページに追加されません。コンポーネントを設定するために既存のデータソースを追加してください",
+        "EditabilityControls": {
+          "Readonly": "読み取り専用"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "ユーザープロファイルの設定",
+        "GeneralGroup": "全般",
+        "AttributeForReferenceColumn": "データ元",
+        "Editability": "編集可否",
+        "EmptyUserProfileDataSourceHint": "データソースがページに追加されません。コンポーネントを設定するために既存のデータソースを追加してください",
+        "EditabilityControls": {
+          "Readonly": "読み取り専用"
+        }
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "次のステップの設定"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "次のステップの設定",
+        "GeneralCaption": "全般",
+        "DataSourceCaption": "オブジェクト",
+        "CaptionColumnField": "キャプション",
+        "DescriptionColumnField": "概要説明",
+        "InfoLabelColumnField": "情報ルックアップ",
+        "ImageColumnField": "画像",
+        "NumberTagColumnField": "ラベル",
+        "SortingFieldTooltip": "項目は降順でこの項目から値でソートされます。",
+        "AdditionalCaption": "追加",
+        "SpecificPageLookupField": "表示するページを選択してください",
+        "UseSpecificPageField": "キャプションをクリックして特定のページを開く",
+        "SpecificPageRecordIdField": "レコード識別子",
+        "ViewModeCaption": "表示モード",
+        "CarouselViewMode": "カルーセル",
+        "GalleryViewMode": "ギャラリー"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "プレビュー用のミニページ",
+        "TitleColumn": "プライマリ表示フィールド",
+        "StartDateColumn": "開始日時列",
+        "EndDateColumn": "終了日列",
+        "NotesColumn": "オンラインミーティング情報のフィールド",
+        "PageCaption": "カレンダー設定",
+        "RequiredFieldError": "この項目は必須です",
+        "SecondaryTileFields": "セカンダリタイルフィールド",
+        "AddSecondaryFieldCaption": "セカンダリフィールドの追加",
+        "DisabledAddSecondaryFieldCaption": "最大4つのセカンダリフィールドを追加できます",
+        "AutoScrollToCurrentTime": "現在の時刻まで自動スクロール",
+        "SecondaryFieldContextMenu": {
+          "Delete": "削除"
+        },
+        "ColorizationType": {
+          "Default": "デフォルト",
+          "ByField": "自動",
+          "ByOwner": "ユーザー順"
+        },
+        "ColorizationTypeCaption": "タイルの色分けモード",
+        "ColorizationColumnCaption": "検索"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "複数選択のルックアップ設定",
+        "GeneralGroup": {
+          "General": "全般",
+          "SelectLookup": "ルックアップを選択",
+          "MultiselectValueStorage": "マルチセレクト値の保存",
+          "SelectColumn": "表示する列",
+          "Required": "必須",
+          "RequirementTypeItems": {
+            "No": "No",
+            "Yes": "はい"
+          }
+        },
+        "AppearanceCaption": "表示",
+        "LabelPositionVariants": {
+          "Auto": "自動",
+          "Left": "左",
+          "Above": "上",
+          "Hidden": "非表示"
+        },
+        "TitleOnPage": "ページのタイトル",
+        "Placeholder": "プレースホルダー",
+        "Tooltip": "ツールチップ",
+        "LabelPosition": "タイトルの位置",
+        "EnableAddRecordCaption": "新しい値の追加を有効化",
+        "WrapCaption": "アイテムを次の行に折り返す",
+        "Editability": "編集可否",
+        "EditabilityControls": {
+          "Readonly": "読み取り専用"
+        },
+        "LookupStaticFilterLabel": "Apply static filter for lookup"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "承認の設定",
+        "SchemaNameLabel": "どのレコードを承認しますか？",
+        "GeneralGroup": "全般",
+        "AppearanceGroup": "表示",
+        "HiddenWhenNoData": "データがない場合に隠す"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "承認リストの設定",
+        "GeneralGroup": "全般",
+        "SchemaNameLabel": "オブジェクト"
+      }
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "追加",
+    "AddFilterHint": "新しいフォルダーを追加",
+    "BlankslateMessage": "フォルダーがありません",
+    "CloseFolderTree": "フォルダーを隠す",
+    "SetUpFilter": "フィルターを設定",
+    "DefaultFolderName": "新規フォルダー",
+    "CopyFolderSuffix": "コピー",
+    "DeleteConfirmation": "選択したレコードを削除しますか？",
+    "MenuActions": {
+      "AddFolder": "フォルダーを追加",
+      "RenameFolder": "名前を変更",
+      "CopyFolder": "コピー",
+      "DeleteFolder": "削除",
+      "AddToFavorite": "お気に入りに追加",
+      "RemoveFromFavorite": "お気に入りから削除",
+      "ChangeFolderRights": "アクセス権の設定",
+      "AddStaticFolder": "静的フォルダーを追加",
+      "ConvertToStaticFolder": "静的フォルダーを追加",
+      "MoveFolder": "移動"
+    },
+    "ShowMenuActions": "アクションの表示",
+    "FavoritesNodeCaption": "お気に入り",
+    "CopyRightsQuestion": "\"{0}\" フォルダのアクセス権限をコピーしますか？",
+    "RootNodeCaption": "すべて",
+    "HasNotPermission": "この操作に対するアクセス権限がありません。"
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "保存",
+    "CancelButton": "キャンセル",
+    "DialogTitle": "フィルターの設定"
+  },
+  "Components": {
+    "FolderTree": {
+      "Caption": "フォルダ",
+      "Hint": "指定されたフィルタによってレコードを整理するためのフォルダ構造を構成することができます。コンポーネントが意図したとおりに動作するように、ページリストまたはデータソース設定で接続してください。"
+    },
+    "FolderTreeActions": {
+      "Caption": "フォルダ管理メニュー",
+      "Hint": "フォルダコンポーネントが必要です。ページフォルダを再表示できます。"
+    },
+    "QuickFilter": {
+      "Caption": "クイックフィルター",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "昨日",
+          "Today": "今日",
+          "Tomorrow": "明日",
+          "PreviousWeek": "前週",
+          "CurrentWeek": "今週",
+          "NextWeek": "来週",
+          "PreviousMonth": "前の月",
+          "CurrentMonth": "今月",
+          "NextMonth": "次の月",
+          "PreviousQuarter": "前四半期",
+          "CurrentQuarter": "現四半期",
+          "NextQuarter": "翌四半期",
+          "PreviousFiscalWeek": "Previous fiscal week",
+          "CurrentFiscalWeek": "Current fiscal week",
+          "NextFiscalWeek": "Next fiscal week",
+          "FiscalQuarter1": "Q1",
+          "FiscalQuarter2": "Q2",
+          "FiscalQuarter3": "Q3",
+          "FiscalQuarter4": "Q4",
+          "FiscalHalfYear1": "First half year",
+          "FiscalHalfYear2": "Second half year",
+          "PreviousFiscalYear": "前年",
+          "CurrentFiscalYear": "Current year",
+          "NextFiscalYear": "翌年"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "メッセージ作成",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "メール"
+        },
+        "Feed": {
+          "Caption": "フィード"
+        },
+        "SelectChannelsCaption": "チャネルを選択"
+      }
+    },
+    "EncryptedInput": {
+      "Caption": "暗号化された文字列",
+      "EyeButtonShowValueCaption": "値を表示",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Something went wrong. Please, try again or contact your system administrator."
+      },
+      "EyeButtonHideValueCaption": "Hide value",
+      "EyeButtonDisabledCaption": "Can’t show/hide value",
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "This type of attribute is not supported for this operation. Please check the field configuration or try a different data type.",
+        "CurrentRecordIdNotFoundError": "Unable to find the current record ID. This may happen if the current record has not been saved yet. Please make sure the record is saved before performing this action.",
+        "ReferenceRecordIdNotFoundError": "The referenced record ID is missing. This can occur if the reference points to a newly created record that hasn't been saved to the database yet. Please save the referenced record first.",
+        "ReferenceColumnSchemaNameNotFoundError": "The name of the referenced column schema is not found. Please check the configuration of the reference field."
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "選択した色",
+      "Readonly": "編集できないフィールド"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Next Best Offers"
+    },
+    "NextBestOffer": {
+      "Caption": "次に最適なオファー",
+      "EmptyValue": "N/A",
+      "Next": "次へ",
+      "Previous": "前へ"
+    },
+    "MultiSelect": {
+      "Caption": "マルチオブジェクトルックアップ",
+      "Label": "複数選択",
+      "CreateRecordButtonCaption": "レコードを作成する",
+      "ExpanderIcon": "ドロップダウンを展開",
+      "OpenModalIcon": "モーダルウィンドウで開く",
+      "TooltipInfoIcon": "情報ツールチップ",
+      "ReadonlyIcon": "編集できないフィールド"
+    },
+    "Approval": {
+      "Caption": "承認"
+    },
+    "ApprovalList": {
+      "Caption": "承認リスト",
+      "RefreshCaption": "更新",
+      "ProvideDataSource": "承認を使用する前にデータソースを提供する"
+    }
+  },
+  "FolderTreeActions": {
+    "MenuButton": "フォルダー",
+    "FavoriteItemsMenuButtonAriaLabel": "お気に入りフォルダーメニュー",
+    "ClearButtonCaption": "選択をクリア",
+    "FolderButtonAriaLabel": "フォルダーツリーを開く・閉じる"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "変換が完了すれば通知します。"
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "キャンセル",
+    "SelectFolderButtonCaption": "選択",
+    "SelectFolderCaption": "フォルダーを選択"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "フォルダのリスト設定",
+      "CreateDataGridSettingsForFolder": {
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active",
+        "Label": "Create custom settings for \"{0}\""
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Save as new default settings for \"{0}\"",
+        "Confirmation": "New default list settings for the \"{0}\" folder will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Clear custom settings for \"{0}\"",
+        "Confirmation": "Custom list settings for the \"{0}\" folder will be cleared for all users and general list setting will be applied. Continue?",
+        "SuccessStatus": "List settings for the \"{0}\" folder cleared successfully"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Overwrite current settings for all users for \"{0}\"",
+        "Confirmation": "New default list settings will be saved for the \"{0}\" folder and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully. They apply only when the \"{0}\" folder is active"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Restore default settings for \"{0}\"",
+        "Confirmation": "Default list settings will be restored for the \"{0}\" folder. Continue?",
+        "SuccessStatus": "Default list settings for the \"{0}\" folder restored successfully"
+      }
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "コンポーネントの追加",
+    "Tooltip": "コンポーネントを追加してください"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "デフォルト値",
+    "FilterColumnLabel": "列をフィルター",
+    "ViewAttributeLabel": "フィルタリングするコンポーネント"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "フィルターを編集",
+    "SetupFilterCaption": "フィルターの設定",
+    "FiltersDialogCaption": "手動で定義したフィルター",
+    "DefaultCheckBoxState": {
+      "Label": "デフォルトのチェックボックスの状態",
+      "CheckedCaption": "確認完了",
+      "UncheckedCaption": "未チェック"
+    },
+    "FilteringApproachState": {
+      "Label": "フィルタリングアプローチ",
+      "OnCheckedCaption": "チェックボックスをオンにするとフィルター条件を適用します",
+      "OnUncheckedCaption": "チェックボックスをオフにするとフィルター条件を適用します"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "デフォルト期間",
+    "ChooseFilteringMethodCaption": "フィルタリング方法を選択",
+    "ChooseFilteringMethodTooltip": "フィルターは、指定した期間に関連するデータを表示できます。\n指定した日に作成または変更されたレコードを表示するには、「1 つの日付によるフィルターを設定」条件を使用します。 たとえば、このフィルタを設定して、リードを作成日ごと、商談を終了日ごと、またはケースを解決日ごとに表示するように設定できます。\n\n「日付範囲によるフィルターの設定」条件を使用して、日付範囲が特に関連するレコードを表示します。 たとえば、開始日と終了日が指定された日付範囲内にある契約に対してこのフィルターを設定できます。",
+    "SetUpByOneColumnTitle": "1つの日付でフィルターを設定",
+    "SetUpByTwoColumnsTitle": "日付範囲でフィルターを設定",
+    "FilterColumnStartCaption": "ここから列をフィルター",
+    "FilterColumnEndCaption": "列のここまでをフィルター",
+    "ShowTimeLabel": "Enable time",
+    "ShowFiscalPeriodsLabel": "Show fiscal periods"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "現在のユーザーの連絡先",
+    "CurrentUserAccountName": "現在のユーザーアカウント",
+    "EditFilterCaption": "フィルターを編集",
+    "SetupFilterCaption": "フィルターの設定",
+    "FiltersDialogCaption": "手動で定義したフィルター",
+    "TagVirtualColumnCaption": "タグ"
+  },
+  "QuickFilter": {
+    "MainTitle": "クイックフィルター",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "昨日",
+        "Today": "今日",
+        "Tomorrow": "明日",
+        "PreviousWeek": "前週",
+        "CurrentWeek": "今週",
+        "NextWeek": "来週",
+        "PreviousMonth": "前の月",
+        "CurrentMonth": "今月",
+        "NextMonth": "次の月",
+        "PreviousQuarter": "前四半期",
+        "CurrentQuarter": "現四半期",
+        "NextQuarter": "翌四半期",
+        "PreviousFiscalWeek": "先週",
+        "CurrentFiscalWeek": "今週",
+        "NextFiscalWeek": "来週",
+        "FiscalQuarter1": "Q1",
+        "FiscalQuarter2": "Q2",
+        "FiscalQuarter3": "Q3",
+        "FiscalQuarter4": "Q4",
+        "FiscalHalfYear1": "First half year",
+        "FiscalHalfYear2": "Second half year",
+        "PreviousFiscalYear": "前年",
+        "CurrentFiscalYear": "Current year",
+        "NextFiscalYear": "翌年"
+      },
+      "RangeSeparator": "から",
+      "SelectDatePlaceholder": "日付を選択",
+      "EmptyDateRangeStartLabel": "<開始日>",
+      "EmptyDateRangeEndLabel": "<期間>",
+      "Header": {
+        "ArrowRight": "次の月",
+        "ArrowLeft": "前の月"
+      },
+      "RangeSelectedFrom": "以下から選択",
+      "ClearIcon": "選択範囲をクリア",
+      "ClearStartDatePlaceholder": "開始日時をクリア",
+      "ClearEndDatePlaceholder": "選択した終了日をクリア",
+      "EmptyDateRangeStartAriaLabel": "開始日が選択されていません。",
+      "EmptyDateRangeEndAriaLabel": "[終了日が選択されていません]",
+      "CalendarMode": "カレンダー",
+      "FiscalMode": "Fiscal",
+      "Fiscal": {
+        "PeriodNotFound": "We couldn’t load the fiscal period date ranges. Please check that fiscal periods are set up, or contact your administrator for assistance.",
+        "LoadError": "Error loading fiscal period data, contact your administrator for assistance"
+      },
+      "SelectTimePlaceholder": "時間を選択"
+    },
+    "Lookup": {
+      "NoData": "データがありません"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "次の月",
+    "AriaPrevMonthLabel": "前の月",
+    "AriaNextYearLabel": "翌年",
+    "AriaPrevYearLabel": "前年",
+    "Readonly": "編集できないフィールド",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "カレンダー",
+    "TimePickerIconTitle": "時刻"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "書式設定オプション (Alt+F10)",
+    "UploadAttachments": "添付ファイルの選択",
+    "SelectTemplate": "テンプレートの挿入",
+    "SelectionActions": {
+      "AskCopilot": "Creatio.AIを呼び出す",
+      "Friendly": "友好的",
+      "Formal": "正式",
+      "Shorten": "短縮",
+      "Extend": "拡張",
+      "Rephrase": "言い換え",
+      "RewriteCaption": "テキストを書き換え"
+    },
+    "TableOfContents": {
+      "Title": "目次",
+      "Placeholder": "このページの見出しに基づく目次は、公開後に表示されます。"
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "保存",
+    "OpenLinkButtonCaption": "新しいタブで開く",
+    "CloseLinkButtonCaption": "閉じる",
+    "UnlinkLinkButtonCaption": "リンクの解除",
+    "LinkLabelCaption": "リンクのアドレス",
+    "TextLabelCaption": "表示するテキスト"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "動画を挿入",
+    "PasteUrlTab": "URLを貼り付け",
+    "UploadFileTab": "ファイルをアップロード",
+    "EmbedCodeTab": "組み込みコード",
+    "DialogDescription": "このビデオは幅640ピクセルで埋め込まれます。<br>この埋め込まれたビデオにはテキストリンクが含まれます。",
+    "SaveButton": "動画を挿入",
+    "CancelButton": "キャンセル",
+    "UploadButton": "ファイルをアップロード",
+    "InputPlaceholder": "ここに貼り付け",
+    "DragAndDropPlaceholder": "ここにドラッグ＆ドロップしたファイルまたは",
+    "NotVideoFile": "挿入されたファイルは動画ではありません。動画の種類のファイルを選択してください。",
+    "ConfirmMessage": "このページには保存されていない変更が含まれています。ページを閉じると変更が失われます。変更を保存しますか？"
+  },
+  "Feed": {
+    "Caption": "フィード",
+    "SortByCreatedOn": "メッセージ送受信日でソート",
+    "SortByLastAction": "最終アクティビティ日でソート",
+    "ShowMoreThanOneNewSocialMessages": "{0} 件の新しいメッセージを表示",
+    "ShowNewSocialMessage": "1件の新しいメッセージを表示",
+    "Publisher": {
+      "DefaultInputPlaceholder": "メッセージを投稿…",
+      "DisabledInputPlaceholder": "新しいレコードページに新しい投稿を作成することはできません。",
+      "CommentInputPlaceholder": "コメントを書く…",
+      "ShareWithPortal": "ポータルユーザーと共有",
+      "PostingErrorMsg": "フィード投稿保存中のエラー",
+      "UserFeedInputPlaceholder": "フィードはユーザーモードになっています。このモードでは新しい投稿を作成できません。",
+      "SendButtonHint": "メッセージを送信 (Ctrl + Enter)",
+      "CancelButtonHint": "キャンセル",
+      "PostingEmptyMsg": "続行するにはメッセージを入力してください。",
+      "ExternalMessagesDisabled": "このオプションはコンポーネントの設計時間内で無効になっているため、外部ユーザーはメッセージを読み取ることができません。",
+      "ConfirmMessageAccessLevelChange": "投稿の表示レベルを変更することを確認してください。投稿、関連するコメントや添付ファイルは外部ユーザーに表示されます。",
+      "ConfirmCommentAccessLevelChange": "コメントの表示レベルを変更することを確認してください．関連するコメントや添付ファイルは外部ユーザに表示されます。"
+    },
+    "Post": {
+      "AddCommentButtonCaption": "コメントを追加",
+      "CommentsButtonCaption": "コメント",
+      "CommentsButtonHint": "コメントの表示",
+      "ExpandedCommentsButtonHint": "コメント非表示",
+      "PostedInLabel": "投稿"
+    },
+    "Reactions": {
+      "Like": "いいね",
+      "ExtraReactionsTemplate": "さらに {0} 件...",
+      "PostLiked": "フィード投稿にいいね！しました。",
+      "LikeRemoved": "フィード投稿と同様に削除されました。"
+    },
+    "Item": {
+      "Edit": "編集",
+      "Delete": "削除",
+      "DeletionConfirmation": "レコードを削除してもよろしいですか？この操作は元に戻せません。",
+      "DeletionErrorMsg": "レコードは削除されませんでした。しばらくしてからもう一度やり直してください。",
+      "DownloadFile": "ダウンロード"
+    },
+    "NoDataContainerLabel": "投稿はありません",
+    "ExternalUserTagCaption": "外部",
+    "ExternalUserTagTooltip": "外部ユーザーへの投稿",
+    "DraftItemTagCaption": "下書き",
+    "SortButtonCaption": "フィードを並べ替える",
+    "ActionsButtonCaption": "アクション",
+    "FollowButtonCaption": "フィードをフォロー",
+    "UnfollowButtonCaption": "フィードフォローを解除",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "フィードをフォロー",
+        "Unfollow": "フィードフォローを解除"
+      },
+      "NotificationTemplate": {
+        "Follow": "You are following updates of the feed: {0}",
+        "Unfollow": "You have unfollowed updates of the feed: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}"
+  },
+  "MessageComposer": {
+    "CancelButtonHint": "破棄",
+    "CancelButtonText": "破棄",
+    "SaveDraftButtonText": "下書きを保存",
+    "SendButtonHint": "メッセージを送信 (Ctrl + Enter)",
+    "MessageSent": "送信済みメッセージ",
+    "SendButtonText": "送信",
+    "RemoveAttachmentHint": "添付ファイルの削除",
+    "Caption": "メッセージ作成",
+    "Email": {
+      "Caption": "電子メールの作成者",
+      "From": "送信元",
+      "To": "宛先",
+      "CC": "CC",
+      "BCC": "BCC",
+      "Subject": "件名",
+      "PublishError": "メッセージの送信に失敗しました。次のエラーが受信されました: {0}",
+      "SaveDraftError": "下書きを保存できません。しばらくしてからもう一度お試しください",
+      "TemplateInsertError": "テンプレートを追加できません。しばらくしてからもう一度お試しください。",
+      "AttachmentsSizeLimitReached": "添付ファイルの合計サイズが {0} MBを超えています。いくつかの添付ファイルを削除してください。",
+      "FromValidationErrorMessage": "「From」フィールドは空白にできません。メールボックスを選択してください。",
+      "ToValidationErrorMessage": "「To」フィールドは空白にできません。少なくとも1つの宛先を入力してください。",
+      "SubjectValidationErrorMessage": "「Subject」フィールドは空欄にできません。メールの件名を入力してください。",
+      "Draft": "下書き",
+      "BodyPlaceholder": "メッセージを入力",
+      "Reply": "返信",
+      "ReplyAll": "全返信",
+      "Forward": "転送",
+      "SentOn": "送信日時",
+      "SubjectToggleCaption": "サブジェクト",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "BCC",
+      "NotContainsEmail": "メールが含まれていません",
+      "ChangeReplyAction": "返信操作を変更",
+      "ShowTrimmedEmailTitle": "トリミングされたメールを表示",
+      "EmailTemplatesLookupCaption": "テンプレートの選択",
+      "EmailTemplatesDisplayColumnCaption": "テンプレート名",
+      "ContinueEditing": "編集を続行",
+      "SaveDraft": "下書きを保存",
+      "DraftSaved": "下書きを保存しました",
+      "EmailSent": "メールを送信しました",
+      "RemoveRecipientLabel": "受信者を削除"
+    },
+    "Feed": {
+      "Caption": "フィードの作成"
+    },
+    "Selector": {
+      "Caption": "メッセージ作成"
+    },
+    "ComposerAreaLabel": "メッセージ作成者入力エリア",
+    "AttachmentPreview": "添付ファイルのプレビュー",
+    "Attachment": {
+      "Added": "添付ファイルが追加されました",
+      "Removed": "添付ファイルは削除されました"
+    },
+    "SendEmailErrorMessage": "An unexpected error occurred while sending the email. Please try again later."
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "同意する"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "ファイルをダウンロード"
+    },
+    "System": {
+      "ChatStartedMessage": "チャット開始: {chatStartedAt} by {chatStartedBy}"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "最近のチャットはまだありません",
+    "CreateChatButton": "新しいチャットを開始",
+    "DraftPreview": "<span class='draft-preview'>下書き: </span>",
+    "YourPreview": "あなた: ",
+    "RenameChat": {
+      "LabelTitle": "チャットの名前を変更",
+      "InputTitle": "タイトル",
+      "SaveButton": "保存",
+      "CancelButton": "キャンセル"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "アクション"
+    },
+    "NoDataBySearchFilter": "フィルター条件に一致するレコードがありません。",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions ",
+    "ARIA": {
+      "Label": "チャット履歴",
+      "ChatItem": "Chat: {0}. Last message: {1}",
+      "LoadMoreTrigger": "さらに読み込む"
+    },
+    "AlreadyAssignedChat": "Chat was assigned to another agent"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Transfer chat",
+    "AgentTab": "エージェント",
+    "QueueTab": "キュー",
+    "NoOperatorsAvailable": "No agents available",
+    "NoData": "データがありません",
+    "OperatorStatus": {
+      "0": "対応不可",
+      "1": "有効",
+      "2": "チャットが上限を超えました"
+    },
+    "InputPlaceholder": "Chat transferred",
+    "NoQueuesAvailable": "No queues available",
+    "ActiveAgentsCount": "{{count}} active agent(s)"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Attached file: {{fileName}}",
+    "DeleteFile": "Delete {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Run action",
+    "NoActionsTemplate": "No actions available. Please add chat actions on the ${link}.",
+    "ChatSettingsPage": "Chat setting page",
+    "ProcessExecutedSuccessfully": "Process executed successfully",
+    "ProcessExecutionFailed": "Process execution failed. Please try again."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Open templates (click or type //)",
+    "NotFound": "No templates found",
+    "NoAvailable": "No templates available",
+    "Group": {
+      "RecentlyUsed": "Recently used",
+      "Others": "Others"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Add emoji",
+    "ButtonAriaLabel": "Open emoji picker",
+    "PickerAriaLabel": "Emoji picker"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "選択: 連絡先",
+    "ConfirmLinkMessage": "All chats of the current contact will be linked to the selected contact, and the current contact will then be deleted. Do you want to proceed?"
+  },
+  "Translations": {
+    "TargetLanguage": "target language",
+    "TranslatingTo": "Translating to {{language}}...",
+    "TranslatedTo": "Translated to {{language}}",
+    "TranslationFailedDialog": "Translation failed. Please try again."
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "翻訳",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Unsupported file type. This file can’t be previewed."
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "サマリー",
+    "Title": "タイトル",
+    "Column": "列",
+    "Function": "機能",
+    "CustomSummaryLabelTooltip": "要素には事前に設定されたデータ表示ロジックが含まれています。別のロジックを実装する必要がある場合は、要素の値を削除してください。"
+  },
+  "Summaries": {
+    "Caption": "概要",
+    "Actions": {
+      "CreateCount": "レコード数を表示",
+      "Title": "概要のアクション"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "クイックセットアップ",
+      "Count": "カウント",
+      "Minimum": "最小",
+      "Maximum": "最大",
+      "Sum": "合計",
+      "Average": "平均"
+    },
+    "Hints": {
+      "NoDataSource": "データソースが選択されていません",
+      "Collapse": "概要を閉じる",
+      "Expand": "概要を展開する"
+    },
+    "ProfileActions": {
+      "SaveForAll": "すべてのユーザーの設定を保存",
+      "ResetToDefault": "デフォルト設定に戻す",
+      "SaveForAllSuccessfully": "すべてのユーザーに対する設定が正常に保存されました",
+      "ResetToDefaultSuccessfully": "デフォルトのサマリー設定が正常に復元されました"
+    },
+    "AdvancedSetup": {
+      "Title": "詳細設定",
+      "Actions": {
+        "AddCustomSummary": "新しいサマリを追加"
+      }
+    }
+  },
+  "SummaryItem": {
+    "Actions": {
+      "Delete": "削除",
+      "Edit": "編集"
+    },
+    "AriaLabel": "概要の項目",
+    "Statuses": {
+      "Added": "概要アイテムが正常に追加されました",
+      "Deleted": "概要アイテムが正常に削除されました",
+      "Edited": "概要アイテムが変更されました",
+      "Error": "エラー"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "発信"
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "重複をマージ ({0})",
+      "Actions": {
+        "Merge": "マージ"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "選択したレコードをマージできません",
+        "NoRights": "この操作を実行する権限がありません",
+        "MinSelectedRecordsViolation": "マージするレコードを少なくとも2つ選択してください",
+        "SelectionAllModeUsingViolation": "「すべて選択」を使用しているときは、マージすることはできません。手動でマージするレコードを選択してください。"
+      },
+      "SuccessfulCompletionStatus": "システムがデータのマージを開始しました。プロセスが完了すると、通信パネルに通知が届きます。"
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "呼び出し中",
+        "Sec": "秒",
+        "DetailsLinkCaption": "通話の詳細"
+      },
+      "Email": {
+        "MailedTo": "以下に送信されました：",
+        "From": "From",
+        "To": "宛先:",
+        "CC": "CC:",
+        "Details": "詳細",
+        "Hide": "非表示"
+      },
+      "File": {
+        "AddedFile": "ファイルを追加"
+      },
+      "Chat": {
+        "ChatWith": "チャット：",
+        "Show": "チャットを表示する",
+        "Hide": "チャットを非表示にする",
+        "DetailsLinkCaption": "チャットの詳細"
+      }
+    },
+    "NoDataMessage": "履歴は存在しません",
+    "FillActionMessage": "タイムラインに表示する関連レコードはありません",
+    "NoDataByFilterMessage": "フィルター条件に一致するレコードがありません。",
+    "FillActionByFilterMessage": "フィルターをクリアするか、条件を変更してください",
+    "EntityFilterCaption": "すべて",
+    "OwnerFilterCaption": "担当者",
+    "DateFilterCaption": "期間を選択",
+    "HideSystemMessagesCaption": "システムメッセージの非表示",
+    "EntityFilterHint": "レコードの種類を選択",
+    "OwnerFilterHint": "レコードの担当者を選択",
+    "DateFilterHint": "レコード期間の選択",
+    "HideSystemMessagesHint": "自動化されたメールを隠す",
+    "DateSort": "日付",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "メール"
+      },
+      "Feed": {
+        "Caption": "フィード"
+      },
+      "Task": {
+        "Caption": "タスク"
+      },
+      "SysFile": {
+        "Caption": "ファイル"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "日付ボタンで現在ソートされている {0}",
+        "Descending": "降順",
+        "Ascending": "昇順"
+      }
+    }
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "電話番号",
+    "DesignerEmailLabel": "Eメールアドレス",
+    "DesignerWebLabel": "ウェブリンク",
+    "Caption": "コミュニケーションオプション",
+    "DeleteOption": "削除",
+    "Primary": "プライマリー",
+    "Invalid": "無効",
+    "MarkAsPrimary": "プライマリとして設定",
+    "MarkAsValid": "有効なものとしてマーク",
+    "MarkAsInvalid": "無効なものとしてマーク",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} は既に存在します",
+      "ReadOnlyStateMessage": "コンポーネントが読み取り専用モードであるため、通信オプションを追加できません",
+      "IncorrectSetupComponentMessage": "ページコンポーネントが設定されていないため、通信オプションを追加することができません。 システム管理者はFreedom UIデザイナーで設定を完了できます",
+      "EmptyMasterRecordColumnNameInRequestMessage": "通信オプションは空のレコードに追加できません。最初にレコードの値を追加してください"
+    },
+    "NoDataPlaceholderText": "データがありません",
+    "Announcement": {
+      "Option": {
+        "Added": "{0} が追加されました",
+        "Deleted": "{0} {1} を削除しました",
+        "SetAsPrimary": "{0} {1}  がプライマリとして設定されました",
+        "MarkedAsValid": "{0} {1} を有効にしました",
+        "MarkedAsInvalid": "{0} {1} を有効にしました"
+      }
+    },
+    "ToolsAriaLabel": "アクション"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "企業名",
+    "AlternativeNamePlaceholder": "別名",
+    "CountryPlaceholder": "国"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "連絡先の名前",
+    "DesignerBirthDatePlaceholder": "生年月日",
+    "CountryPlaceholder": "国"
+  },
+  "AccountCompactProfile": {
+    "Caption": "企業のコンパクトプロフィール",
+    "DialogTitle": "アカウントの編集",
+    "AlternativeNameFieldLabel": "別名",
+    "EmptyDisplayValue": "表示できる値がありません",
+    "NamePlaceholder": "アカウント名の追加",
+    "EmptyRecord": {
+      "NamePlaceholder": "アカウント名",
+      "AlternativeNamePlaceholder": "別名",
+      "CountryPlaceholder": "国"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "コンパクトプロフィールに連絡",
+    "DialogTitle": "連絡先の編集",
+    "EmptyDisplayValue": "表示できる値がありません",
+    "NamePlaceholder": "連絡先の名前を追加",
+    "BirthDatePlaceholder": "生年月日",
+    "EmptyRecord": {
+      "NamePlaceholder": "連絡先の名前",
+      "BirthDatePlaceholder": "生年月日",
+      "CountryPlaceholder": "国"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "コンパクトユーザープロフィール",
+    "DialogTitle": "名前の編集",
+    "EmptyDisplayValue": "表示できる値がありません",
+    "NamePlaceholder": "ユーザー名の追加"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "閉じる"
+  },
+  "IFrame": {
+    "PropertiesPanel": {
+      "Caption": "iFrame settings",
+      "GeneralSettings": {
+        "Caption": "全般",
+        "ContentTypeLabel": "コンテンツタイプ",
+        "ContentValueLabel": "Content to display",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "To ensure the content is displayed correctly, make sure the following is true: <ul><li>Source allows embedding in an iframe</li><li>Link uses the HTTPS protocol</li><li>Source domain is included in the trusted sources list of your Content Security Policy. We recommend adding at least two allowed directives to it: connect-src and frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Allowed features",
+        "AllowTooltip": "Specifies which browser features the embedded content is allowed to use, for example, camera, microphone, fullscreen. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information.",
+        "SandboxLabel": "Sandbox permissions",
+        "SandboxTooltip": "Specifies which sandbox restrictions are removed for the embedded content. Grant only the permissions that are required. <br/>Refer to the <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>MDN documentation</a> for more information."
+      }
+    },
+    "Caption": "iFrame",
+    "Hint": "iFrame コンポーネントは HTML または URL 形式でコンテンツを埋め込み表示することができます",
+    "Placeholder": {
+      "NothingToShow": "表示するものがありません",
+      "NoContent": "このセクションには利用可能なコンテンツがありません"
+    },
+    "ContentUnavailable": {
+      "Title": "コンテンツを利用できません",
+      "SubTitle": "ネットワーク設定、ブラウザのセキュリティポリシー、またはコンテンツの制限",
+      "LinkTitle": "アカデミーの詳細"
+    }
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "ダッシュボードの設定",
+    "GeneralGroup": {
+      "Caption": "一般的な",
+      "DataSource": "データソース",
+      "DataSourceTooltip": "データソースは、このコンポーネントで作成されたすべてのダッシュボードのプライマリデータソースとして設定されます",
+      "DataSourceDependenciesSettingTooltip": "ページデータでフィルタすると、ダッシュボードに接続されているデータを表示できます。",
+      "DataSourceFilterElementsGroupTooltip": "この設定では、フォルダーまたはその他のデータフィルター要素から事前設定されたフィルターをページフィルターとして使用できます。"
+    },
+    "DashboardsGroup": {
+      "Caption": "ダッシュボード",
+      "AddDashboard": "新しいダッシュボードを追加",
+      "InfoTooltip": "ダッシュボードのリストには、構成内のスキーマであるアイテムのみが表示されます",
+      "ContextMenu": {
+        "Copy": "コピー",
+        "Delete": "削除",
+        "Edit": "編集"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "データソース: {{caption}} を削除しますか\"?",
+            "WithUserLevelSchema": "削除したいダッシュボードには、次のような依存性のあるダッシュボードがあります: \"{{caption}}\" エンドユーザースキーマ。 続行すると、両方のダッシュボードが削除されます。 続行しますか？"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "\"{{caption}}\" パッケージを変更できません。パッケージはサードパーティのパブリッシャーによって作成されたか、ファイルアーカイブからインストールされています。",
+            "DependsOnSchema": "依存する設定スキーマがあるため、ダッシュボード「{{caption}}」を削除できません"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "バインドされたダッシュボードがあるため、要素の名前を変更できません"
+    }
+  },
+  "Dashboards": {
+    "SelectDashboard": "ダッシュボードを選択",
+    "NoData": "表示するダッシュボードがありません",
+    "NoData2": "ダッシュボードを追加すると、より綺麗に見えます",
+    "CreateNewDashboardButton": "新しいダッシュボードを追加",
+    "AccessDenied": "これらの項目をコピーする権限がありません",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "選択したレコードを削除しますか？",
+        "FailMessage": "残念ながら、選択したダッシュボードは削除できません。"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "アクション",
+      "Edit": "編集",
+      "Copy": "コピー",
+      "Delete": "削除",
+      "Rights": "アクセス権の設定"
+    },
+    "All": "すべて",
+    "Favorites": "お気に入り",
+    "AddToFavoritesButton": "お気に入りに追加",
+    "RemoveFromFavoritesButton": "お気に入りから削除"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "エンティティ階層フィルタ",
+    "GeneralCaption": "一般的な",
+    "SchemaNameCaption": "階層を構築するオブジェクトを選択",
+    "HierarchySetup": "階層設定",
+    "SchemaNameSelectTooltip": "階層を構築するオブジェクトを選択します。すべてのシステムオブジェクトがドロップダウンメニューに表示されます。 階層を構成した後、事前設定されたフィルターとして指定して リスト コンポーネントにリンクします。",
+    "ApplyStaticFilter": "静的フィルターを適用",
+    "EditStaticFilterAction": "フィルターを編集",
+    "FiltersDialogCaption": "手動で定義したフィルター",
+    "SetupStaticFilterAction": "フィルターの設定",
+    "DisplayModeCaption": "Hierarchy type",
+    "ManualDisplayMode": "マニュアル",
+    "ByParentDisplayMode": "By parent"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "新しい階層列を追加",
+    "ContextMenu": {
+      "AddToSubmenu": "サブ階層を追加",
+      "Edit": "編集",
+      "Delete": "削除"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "すべて",
+    "NotFilledNode": "未入力",
+    "SpecificationFilterCaption": "追加のフィルターを開く",
+    "BackButtonCaption": "戻る",
+    "ClearAllFiltersButtonCaption": "すべてクリアする",
+    "NoDataCaption": "データがありません"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "カラー選択",
+        "AppearanceGroup": "表示",
+        "PickerModeRadioButtonCaption": "パレット",
+        "PickerMode": {
+          "Basic": "基本パレット",
+          "Extended": "拡張パレット"
+        }
+      }
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Entity schema '{{entitySchemaName}}' not found",
+    "UnselectedColumnsWillBeDeletedMessage": "Unselected columns will be deleted. Proceed?"
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "表示するものがありません！",
+    "NoDataDescription": "現在、キューにアイテムがありません",
+    "AcceptButtonLabel": "承認"
+  },
+  "AgentInbox": {
+    "NewItems": "New Items ({{number}})",
+    "InProgress": "In Progress ({{number}})",
+    "RealTime": "Real-time",
+    "QueuedTasks": "Queued tasks",
+    "WrappedUpCallTickTpl": "Call wrap-up ({{sec}}s left)",
+    "WrappedUpCallStoppedTpl": "Manual wrap-up",
+    "IncomingCallDescription": "着信コール:",
+    "OutgoingCallDescription": "テレアポ件数:"
+  },
+  "CallConversation": {
+    "Call": "Make call",
+    "Duration": "期間:",
+    "Search": "検索",
+    "JobTitle": "役職名",
+    "Account": "顧客",
+    "ClearIdentity": "Clear selected record",
+    "Buttons": {
+      "Hints": {
+        "Accept": "Accept call",
+        "CompleteTransfer": "クリックして転送",
+        "Hold": "保留中",
+        "Unhold": "展開する",
+        "StartTransfer": "Transfer call",
+        "Mute": "Mute call",
+        "CancelTransfer": "転送をキャンセル",
+        "Drop": "Complete call",
+        "OpenDialPanel": "Open dial panel"
+      },
+      "Captions": {
+        "Accept": "承認",
+        "Drop": "却下",
+        "Cancel": "キャンセル",
+        "CancelTransfer": "戻る",
+        "CompleteTransfer": "マージ",
+        "EndMainCall": "退社日"
+      }
+    },
+    "OnHold": "保留中:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "The call was updated"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Clear selected record",
+    "CallIdentityOptions": "Change/Set contact"
+  },
+  "ListWidget": {
+    "DefaultTitle": "新しいリストウィジェット",
+    "PropertiesPanel": {
+      "HeaderLabel": "ウィジェット設定",
+      "TitleLabel": "タイトル",
+      "Styles": {
+        "FullyColored": "フルカラー",
+        "PlainWhite": "ホワイト",
+        "PartiallyColored": "部分カラー",
+        "Glassmorphism": "ガラス効果"
+      }
+    },
+    "Caption": "ウィジェットの一覧",
+    "Hint": "完全に機能するリストとカスタマイズ可能な色付きフレームを組み合わせたコンポーネントで、他の分析ウィジェットと一緒に配置する際の視覚的な一貫性を確保します。"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "DCM のケースを変更します。このエンティティには、より関連性の高い設定があります。",
+    "ConfirmChangeCaseDialogMessage": "現在のバージョンのケースを置き換えますか?",
+    "SnackbarActualFilterCaseMessage": "\"{{caption}}\" という、より関連するケースがあります。置き換えますか？",
+    "SnackbarIgnoreButtonCaption": "無視",
+    "SnackbarReplaceButtonCaption": "置き換え",
+    "SnackbarEntityProcessChangedMessage": "ケースは正常に変更されました。"
+  },
+  "NextSteps": {
+    "Caption": "次のステップ",
+    "CompleteButtonCaption": "完了",
+    "AddNewStepMenuCaption": "新しいステップを追加",
+    "CreateActivityButtonCaption": "タスクを作成",
+    "CreateEmailButtonCaption": "メールを作成",
+    "NoDataContainerLabel": "表示するものがありません！",
+    "NoDataContainerDescription": "このステージに追加されたステップはありません",
+    "OwnerHint": "アサインされたユーザー",
+    "OwnerRoleHint": "アサインされたグループ",
+    "RequiredStepHint": "必須ステップ",
+    "ApprovalApprovedSnackbarCaption": "リクエストは承認されました",
+    "ApprovalRejectedSnackbarCaption": "リクエストが拒否されました",
+    "TypeFilterCaption": "連絡先タイプ",
+    "TypeFilterHint": "連絡先タイプ"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} 件のレコードがロードされました。 さらに {0} 件ロードしますか?",
+    "ConfirmResendMeetingInvitationsQuestion": "ミーティングが保存されると，すべての出席者にミーティングの更新が送信されます。続行しますか？",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "この会議のいくつかを保存するには、保存後にすべての出席者に変更通知を送信する必要があります。続行しますか？ミーティングリスト:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "ミーティングは過去に行われました。出席者に招待を送信しますか?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "ミーティングは過去に行われています。すべての参加者にミーティングの更新が送信されます。続行しますか?",
+    "CanNotChangeMeetingMessage": "ミーティング主催者のみが説明、日付、ミーティング参加者のリストを変更することができます。",
+    "CanNotChangeMultipleMeetingsMessage": "変更したいミーティングはミーティング主催者によってのみ変更できます。ミーティング一覧: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "手動でレコードを選択した場合にのみミーティングを削除できます。",
+    "ErrorSendingInvitationMessage": "招待が送信されませんでした。一時的な問題の可能性もあるため、しばらくしてから再度お試しください。",
+    "SuccessSendingInvitationMessage": "招待が正常に送信されました。",
+    "JoinBtnCaption": "オンライン会議に参加",
+    "UserAlreadyHasActiveCalendarAccount": "既にアクティブなカレンダーがあります",
+    "LackOfLicenseMessage": "カレンダーの同期は現在のライセンスに含まれていません。詳細についてはシステム管理者に問い合わせてください。",
+    "DateRangeError": "フィルタ内の日付範囲が長すぎます。フィルタ内の範囲を減らしてください。"
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "At least one value must be selected in: {0}"
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "承認",
+    "ComponentHeaderInactiveLabel": "承認は必要ありません",
+    "RejectDialogHeaderLabel": "申請を拒否してもよろしいですか？",
+    "RejectInputLabel": "申請のコメント",
+    "RejectButtonLabel": "却下",
+    "CancelButtonLabel": "キャンセル",
+    "ApproveDialogHeaderLabel": "申請を許可しますか？",
+    "ApproveButtonLabel": "承認",
+    "PositiveMetricLabel": "承認",
+    "NegativeMetricLabel": "否認",
+    "PendingMetricLabel": "保留中",
+    "ComponentHeaderActiveLabel": "申請の承認待ちです",
+    "ApprovalPurposeLabel": "承認の目的",
+    "ApprovedPlaceholderLabel": "承認済み",
+    "DesignTime": {
+      "ApprovalObjective": "承認が必要です"
+    },
+    "RejectedPlaceholderLabel": "拒否されました",
+    "DelegateButtonLabel": "委任する"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "却下",
+    "ApproveButtonLabel": "承認"
+  }
+}

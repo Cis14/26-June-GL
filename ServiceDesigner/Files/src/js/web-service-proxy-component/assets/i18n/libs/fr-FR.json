@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "En cours de chargement..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copié"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Rien à afficher pour l'instant ",
+      "Subhead": "Veuillez d'abord ajouter des données"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat démarré: {0} par",
+        "EndDate": "Chat terminé: {0} par"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "En cours de chargement"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Erreur",
+      "Default": "Info-bulle"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Merci de sélectionner la valeur dans la liste",
+      "SelectionWindowMessage": "Merci de sélectionner une valeur dans la liste ou rechercher à l'aide de la fenêtre de recherche"
+    },
+    "Required": {
+      "Message": "Saisir une valeur"
+    },
+    "MaxLength": {
+      "Message": "Longueur maximale du texte dépassée ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Longueur de texte minimale non atteinte ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format de date et d'heure non valide"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format de date invalide"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format d'heure non valide"
+    },
+    "RegExp": {
+      "Message": "Format de valeur invalide"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Le code doit commencer par le préfixe \"{{schemaNamePrefix}}\"",
+      "OnlySchemaNamePrefixMessage": "Renseignez au moins un symbole en plus."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Utilisez des symboles : a-z, A-Z, 0-9, tiret bas ou tiret. Seules les lettres peuvent être en premier."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "La valeur '{{controlValue}}' existe déjà dans la colonne 'Code'."
+    },
+    "PhoneNumber": {
+      "Message": "Numéro de téléphone invalide"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Colonne supprimée",
+    "ValidationErrorMessageSingleErrorField": "Champ: {0}. Erreur: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Champs : {0}. Erreur: {1}",
+    "RefreshModelDataConflict": "Creatio a de nouvelles données pour la page en cours. Pour les visualiser, enregistrez ou annulez vos modifications et actualisez la page.",
+    "WarningModelsWithCircularDependencies": "Certains modèles disposent de dépendances circulaires et n'ont pas été chargés",
+    "LoadingModelErrorMessage": "Une erreur s'est produite lors de l'exécution de la requête",
+    "ErrorMessageOnEmptyRelationColumn": "Impossible d'enregistrer la page. Remplissez le champ {{caption}} ou effacez les données dans les champs associés pour enregistrer la page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Les données ont été actualisées"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Décrivez clairement et concisément l'objectif de l'utilisateur. Détaillez les étapes nécessaires pour atteindre l'objectif de l'utilisateur. Décrivez le résultat attendu du LLM. Cela devrait inclure tout contexte ou information nécessaire que le LLM doit savoir.\n\n## Règles générales\n1. Vous ne pouvez pas créer de nouveaux objets sans confirmer explicitement avec l'utilisateur.\n2. Règle 2 : ...\n3. ...\n\n## Restrictions générales\n1. Évitez de faire des hypothèses sur l'intention de l'utilisateur ; clarifiez les demandes si nécessaire.\n2. Restriction 2 : ...\n3. ...\n\n## Exigences pour la sortie\n1. La sortie doit comporter moins de 300 symboles et pas plus de 2-3 phrases.\n2. Exigence 2 : ...\n3. ...\n\n## Flux de processus\n1. Utilisez le contexte de la page actuelle pour lire les données et les champs de la page. Sur la base de ces informations ...\n2. Étape 2 : ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Il n'y a pas de page pour les enregistrements nouveaux ou existants. L'administrateur du système doit vérifier les paramètres du bouton dans l'interface Freedom UI",
+    "GoToEntityDesignerMessage": "Pour configurer les pages, allez à l'URL : {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Le schéma de processus a été enregistré avec succès, mais des erreurs de validation empêchent son exécution."
+  }
+}

@@ -1,0 +1,584 @@
+{
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Translate",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Loading..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nothing to show yet ",
+      "Subhead": "Please add data first"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat started: {0} by",
+        "EndDate": "Chat completed: {0} by"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "The channel cannot be deleted, there are active chats or chats on distribution. Please complete the chats first and try again."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Loading"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Error",
+      "Default": "Tooltip"
+    }
+  },
+  "Input": {
+    "Readonly": "Non-editable field",
+    "ShowPassword": "Show password",
+    "HidePassword": "Hide password"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "Carousel": {
+    "NoData": "No data",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "CloseButtonTitle": "Close",
+      "NoData": "No data"
+    },
+    "AriaLabel": "Selected Items",
+    "AriaLabelFor": "Selected Items for",
+    "Chip": {
+      "RemoveButtonCaption": "Remove"
+    }
+  },
+  "ComboBox": {
+    "Readonly": "Non-editable field",
+    "NoData": "No data",
+    "EmptyDisplayValue": "No display value",
+    "AddNewRecord": "Add new",
+    "InvalidValueSyntax": "Please select value from the list",
+    "IsGoToSourceAllowedTooltip": "Go to record list",
+    "OpenSection": "Open section",
+    "CheckAll": "Check all",
+    "ClearAll": "Clear all",
+    "SelectValue": "Select value",
+    "ClearValue": "Clear value"
+  },
+  "DataGrid": {
+    "AddColumns": "Add columns",
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "ColumnToolbar": {
+      "Hide": "Hide",
+      "Freeze": "Freeze",
+      "Unfreeze": "Unfreeze",
+      "Rename": "Rename",
+      "Edit": "Properties",
+      "Title": "Column actions",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "List actions",
+      "DataGridSettingsLabel": "General list settings",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Restore default settings",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "RowToolbar": {
+      "Open": "Open",
+      "Copy": "Copy",
+      "Delete": "Delete",
+      "RunBusinessProcess": "Run business process",
+      "Title": "Row actions"
+    },
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "BulkActions": {
+    "Delete": "Delete",
+    "Export": "Export to Excel",
+    "AddTag": "Add tag",
+    "RemoveTag": "Remove tag",
+    "Merge": "Merge",
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "Select all",
+      "ClearSelection": "Clear selection"
+    }
+  },
+  "DataTable": {
+    "BulkActions": {
+      "MoreActions": "More actions",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "NoData": "No data",
+    "NoColumns": "No columns added",
+    "NotFoundColumn": "Column not found",
+    "ColumnSticky": "Frozen column",
+    "Columns": {
+      "ChangeWidth": "Change width",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    },
+    "Hints": {
+      "Sort": "Sort",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "StartEditing": "Edit",
+      "ReadonlyCell": "Non-editable field",
+      "CancelChanges": "Discard",
+      "AddItem": "Add new record",
+      "RowControls": "Row controls"
+    },
+    "AddItem": "New",
+    "SaveItemsChanges": "Save all",
+    "CancelItemsChanges": "Discard",
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "Select all",
+      "SelectRow": "Select row",
+      "ClearSelection": "Clear selection",
+      "RowsSelected": "Rows selected: {0}"
+    }
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Yes",
+    "No": "No",
+    "Save": "Save",
+    "DoNotSave": "Don't save",
+    "Cancel": "Cancel",
+    "Clear": "Clear",
+    "Close": "Close",
+    "Delete": "Delete",
+    "Notification": "Notification",
+    "Restore": "Restore",
+    "Overwrite": "Overwrite",
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running."
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "You have unsaved changes that will be lost. Continue?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "Gallery": {
+    "NoData": "No data",
+    "MenuActions": "Actions",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "Open link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Send email"
+  },
+  "FileInput": {
+    "Delete": "Delete",
+    "Cancel": "Cancel",
+    "Attach": "Attach",
+    "FileIcon": "File icon",
+    "EmptyFileName": "Empty file name",
+    "MaxFileSizeLimitReached": "Max file size limit is reached ({0}MB)"
+  },
+  "FileList": {
+    "RowToolbar": {
+      "Download": "Download"
+    },
+    "Placeholder": {
+      "Title": "Drop files here",
+      "Description": "or use",
+      "Upload": "Upload"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Number"
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "Upload",
+    "Change": "Change",
+    "Clear": "Delete",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Save",
+    "CancelButton": "Cancel",
+    "ColumnProperties": "Column properties",
+    "Title": "Title",
+    "FilterHeader": "How to filter records",
+    "SortingHeader": "Sort records",
+    "SortColumn": "Sort by",
+    "WhatToDisplay": "What to display",
+    "AggregationColumn": "Column",
+    "SortOrder": "Sort order",
+    "SetupFilters": "Setup filters",
+    "EditFilters": "Edit filters"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Yes",
+      "False": "No"
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function."
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "at",
+    "TodayAt": "Today at {0}",
+    "YesterdayAt": "Yesterday at {0}",
+    "DayBeforeYesterdayAt": "The day before yesterday at {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mth",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Close tab"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Go to desktop"
+    },
+    "QuickRunProcess": {
+      "Title": "Run process",
+      "SuccessMessage": "The process has been successfully run",
+      "NotConfiguredQuickProcessesMessage": "Quick processes run is not yet configured",
+      "OtherProcessesCaption": "Other processes"
+    },
+    "Settings": {
+      "Title": "Settings"
+    },
+    "UserProfile": {
+      "Title": "Your profile",
+      "MenuItems": {
+        "Profile": "Your profile",
+        "Logout": "Exit",
+        "OrganizationProfile": "Organization profile"
+      }
+    },
+    "New": {
+      "Title": "New",
+      "NoItemTitle": "Quick records creation is not yet configured"
+    },
+    "Help": {
+      "Title": "Help",
+      "MenuItems": {
+        "OnlineHelp": "Online help",
+        "NeedHelp": "Need help",
+        "ReleaseNotes": "Release notes",
+        "ExternalAccess": "Grant access to support"
+      },
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "SupportSubject": "Question about",
+      "AccessGrantedMessage": "Access granted"
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigation panel"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Additions panel"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications panel"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Configuration"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Compilation error",
+      "WorkspaceExplorerTemplate": "To view a list of compilation errors and fix them, visit <a href ='{0}' target='_blank'>Configuration section</a>."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    }
+  },
+  "NavigationPanel": {
+    "CollapseButton": {
+      "CollapseCaption": "Collapse navigation panel",
+      "ExpandCaption": "Expand navigation panel"
+    },
+    "SearchFilter": {
+      "PlaceholderCaption": "Search app..."
+    },
+    "SearchResultsCaption": "Search results",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Read more"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passed",
+    "timeBeforeCountStartTpl": "{0} before countdown begins",
+    "overdueTpl": "{0} overdue",
+    "timeLeftTpl": "{0} left",
+    "timeIsUpTpl": "Time is up",
+    "waitingForStartDateTpl": "Waiting for start date",
+    "dateNotSet": "0hr 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Search by column",
+      "AllOption": "All",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Successfully saved",
+      "ErrorOnSave": "Error when trying to apply changes"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Are you sure you want to delete \"{0}\" desktop?",
+        "Error": {
+          "Deletion": "Error during desktop deletion",
+          "Configuration": "Error during configuration build"
+        },
+        "Success": "Desktop \"{0}\" was successfully deleted"
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "No data",
+    "Boolean": {
+      "Yes": "Yes",
+      "No": "No"
+    },
+    "String": {
+      "Placeholder": "Enter text"
+    },
+    "Numeric": {
+      "Placeholder": "Enter number",
+      "To": "up to",
+      "MaxValueError": "Value is above max value",
+      "MinValueError": "Value is below min value"
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Search..."
+  },
+  "AllowedResults": {
+    "Caption": "Allowed results",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "License required"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Add tag",
+    "CreateNewTagButtonCaption": "Create a new tag"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Edit record",
+    "DeleteItemActionButtonCaption": "Delete record",
+    "NoData": "No data"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "The component displays hints and instructions for users to access information from the knowledge base for specific dynamic case stages",
+    "Placeholder": {
+      "Title": "No relevant playbook articles are found",
+      "Description": "Please set up a relevant article for the current dynamic case stage in the Playbooks section"
+    },
+    "Actions": {
+      "Back": "Back",
+      "OpenInDialog": "Open in modal window"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Close",
+        "OpenPage": "Open in new tab"
+      }
+    }
+  },
+  "Conversation": {
+    "Caption": "Conversation",
+    "Copilot": {
+      "TypingMessage": "Generating response",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    }
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Collapse",
+    "Expand": "Expand"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progress bar"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Chat status",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "There are no records matching the filter criteria",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Please select value from the list",
+      "SelectionWindowMessage": "Please select value from the list or search using the lookup window"
+    },
+    "Required": {
+      "Message": "Enter a value"
+    },
+    "MaxLength": {
+      "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Invalid date and time format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Invalid date format"
+    },
+    "TimePickerSyntax": {
+      "Message": "Invalid time format"
+    },
+    "RegExp": {
+      "Message": "Invalid value format"
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}",
+    "RefreshModelDataConflict": "Creatio has new data for the current page. To view it, save or cancel your changes and refresh the page.",
+    "WarningModelsWithCircularDependencies": "Some models have circular dependencies and have not been loaded",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "There is no page for new or existing record. System administrator must check the button settings in the Freedom UI",
+    "GoToEntityDesignerMessage": "To set up pages go to URL: {0}"
+  }
+}

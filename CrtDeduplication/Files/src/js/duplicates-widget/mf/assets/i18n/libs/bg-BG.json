@@ -1,0 +1,631 @@
+{
+  "DuplicatesWidgetContent": {
+    "Empty": "Няма намерени дублиращи се записи",
+    "FoundDuplicates": "Възможни дублирани записи: {0}",
+    "Caption": "Дубликати",
+    "ProcessingDuplicates": "Обработка на дубликати"
+  },
+  "IndicatorWidget": {
+    "NoData": "Няма данни",
+    "AriaDescription": "{{chartTitle}}. Типът диаграма е Metric. Текущата стойност е {{ariaValue}}. Използвай клавишите за въвеждане или интервал, за да разбиеш елемента.",
+    "NotClickableAriaDescription": "{{chartTitle}}. Типът на диаграмата е Метрична. Текущата стойност е {{ariaValue}}."
+  },
+  "ChartLegend": {
+    "Title": "Легенда за графиката {{chartTitle}}: използвай стрелките, за да навигираш и клавиша Въведи, за да отвориш контекстното меню."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} диаграма за „{{chartTitle}}“ с {{groupsCount}} групи. Диаграмата, показваща „{{groupsNames}}“. X е \"{{xLabel}}\" от {{xMin}} до {{xMax}}. Y е \"{{yLabel}}\" от {{yMin}} до {{yMax}}. Използвай клавишите със стрелки за навигация.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Използвай клавиша Enter, за да отвориш контекстното меню."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. Типът диаграма е Gauge. Данните варират от {{ariaMin}} до {{ariaMax}}. Текущата стойност е {{ariaValue}}. Използвай клавишите за въвеждане или интервал, за да разбиеш елемента."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Разшири на цял екран за диаграмата „{{title}}“.",
+      "CollapseLabel": "Свий целия екран за диаграмата „{{title}}“."
+    },
+    "Menu": {
+      "Caption": "Меню за диаграма \"{{title}}\".",
+      "CreateDashboard": {
+        "Caption": "Създай информационно табло",
+        "UnableCreateMessage": "⚠️ Не може да се създаде информационно табло. Тази страница няма компонент Информационно табло.\n\nМоже да отидеш на друга страница, където компонентът Информационно табло вече е наличен.\n\n📘 Научи още за работата с информационни табла в <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">Академията</a>"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Зареждане..."
+  },
+  "CopyClipboard": {
+    "Copied": "Копирано"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Още няма нищо за показване ",
+      "Subhead": "Моля, първо добави данни"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Чатът започна: {0} от",
+        "EndDate": "Чатът е завършен: {0} от"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Каналът не може да бъде изтрит, има активни чатове или чатове за разпространение. Моля, първо завърши чатовете и опитай отново."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Зареждане"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Грешка",
+      "Default": "Подсказка"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Моля, избери стойност от списъка",
+      "SelectionWindowMessage": "Моля, избери стойност от списъка или потърси с помощта на прозореца за справка"
+    },
+    "Required": {
+      "Message": "Въведи стойност"
+    },
+    "MaxLength": {
+      "Message": "Превишена е максималната дължина на текста ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Минималната дължина на текста не е достигната ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Невалиден формат за дата и час"
+    },
+    "DatePickerSyntax": {
+      "Message": "Невалиден формат на датата"
+    },
+    "TimePickerSyntax": {
+      "Message": "Невалиден формат на часа"
+    },
+    "RegExp": {
+      "Message": "Невалиден формат на стойността"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Кодът трябва да започва с префикса {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Въведи поне още един символ."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Използвай символи: a-z, A-Z, 0-9, долна черта или тире. Първи могат да бъдат само букви."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Стойността '{{controlValue}}' вече съществува в колоната 'Код'."
+    },
+    "PhoneNumber": {
+      "Message": "Невалиден телефонен номер"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Колоната е премахната",
+    "ValidationErrorMessageSingleErrorField": "Поле: {0}. Грешка: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Полета: {0}. Грешка: {1}",
+    "RefreshModelDataConflict": "Creatio има нови данни за текущата страница. За да го видиш, запази или анулирай промените си и опресни страницата.",
+    "WarningModelsWithCircularDependencies": "Някои модели имат кръгови зависимости и не са заредени",
+    "LoadingModelErrorMessage": "Възникна грешка по време на изпълнение на заявката",
+    "ErrorMessageOnEmptyRelationColumn": "Страницата не може да бъде запазена. Попълни полето {{caption}} или изчисти данните в съответните полета, за да го запазиш на страницата."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Данните бяха опреснени"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Опиши целта на потребителя ясно и сбито. Опиши подробно стъпките, необходими за постигане на целта на потребителя. Очертай очаквания резултат от LLM. Това трябва да включва всеки необходим контекст или информация, която LLM трябва да знае.\n\n## Общи правила\n1. Не може да създаваш нови обекти без изрично потвърждение от потребителя.\n2. Правило 2: ...\n\n3. ...\n\n## Общи ограничения\n1. Избягвай да правиш предположения за намерението на потребителя; изяснявай заявките, когато е необходимо.\n2. Ограничение 2: ...\n\n3. ...\n\n## Изисквания за изхода\n1. Изходът трябва да бъде по-малък от 300 символа и не повече от 2-3 изречения.\n2. Изискване 2: ...\n\n3. ...\n\n## Процес\n1. Използвай контекста на текущата страница за прочит на данни и полета на страницата. Въз основа на тази информация ...\n2. Стъпка 2: ...\n\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Няма страница за нов или съществуващ запис. Системният администратор трябва да провери настройките на бутоните в потребителския интерфейс на Freedom",
+    "GoToEntityDesignerMessage": "За да настроиш страници, отиди на URL: {0}"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Покажи оригинала",
+      "Original": "Преведи",
+      "Retry": "Опитай отново"
+    },
+    "AutoCaption": {
+      "On": "Разреши автоматичния превод",
+      "Off": "Забрани автоматичния превод"
+    }
+  },
+  "Input": {
+    "Readonly": "Поле без възможност за редакция",
+    "ShowPassword": "Покажи паролата",
+    "HidePassword": "Скрий паролата"
+  },
+  "Carousel": {
+    "NoData": "Няма данни",
+    "PrevButtonCaption": "Предишен елемент",
+    "NextButtonCaption": "Следващ елемент"
+  },
+  "ComboBox": {
+    "Readonly": "Поле без възможност за редакция",
+    "NoData": "Няма данни",
+    "EmptyDisplayValue": "Няма показана стойност",
+    "AddNewRecord": "Добави нов",
+    "InvalidValueSyntax": "Моля, избери стойност от списъка",
+    "IsGoToSourceAllowedTooltip": "Отиди при списъка със записите",
+    "CheckAll": "Провери всичко",
+    "ClearAll": "Изчисти всичко",
+    "SelectValue": "Избери стойност",
+    "ClearValue": "Изчисти стойноста",
+    "OpenSection": "Отвори секция"
+  },
+  "DataGrid": {
+    "AddColumns": "Добави колони",
+    "ColumnToolbar": {
+      "Hide": "Скрий",
+      "Freeze": "Замрази",
+      "Unfreeze": "Размрази",
+      "Rename": "Преименувай",
+      "Edit": "Характеристики",
+      "Title": "Действия с колони",
+      "SortAscending": "Сортирай нарастващо",
+      "SortDescending": "Сортирай низходящо",
+      "ClearSorting": "Изчисти сортирането",
+      "AriaLabel": "Действия на колона за"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Списък с действия за",
+      "Title": "Списък с действия",
+      "DataGridSettingsLabel": "Общи настройки на списъка",
+      "SaveDataGridSettings": {
+        "Label": "Запази като нови настройки по подразбиране",
+        "Confirmation": "Новите настройки на списъка по подразбиране ще бъдат запазени за всички потребители. Искаш ли да продължиш?",
+        "SuccessStatus": "Настройката на списъка е запазена успешно"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Презапиши текущите настройки за всички потребители",
+        "Confirmation": "Новите настройки на списъка по подразбиране ще бъдат запазени и ще заменят сегашните настройки за всички потребители. Да се продължи ли?",
+        "SuccessStatus": "Настройката на списъка е запазена успешно"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Възстанови настройките по подразбиране ",
+        "Confirmation": "Настройките на списъка по подразбиране ще бъдат възстановени. Да се продължи ли?",
+        "SuccessStatus": "Настройките на списъка по подразбиране бяха успешно възстановени"
+      }
+    },
+    "RowToolbar": {
+      "Open": "Отвори",
+      "Copy": "Копирай",
+      "Delete": "Изтрий",
+      "RunBusinessProcess": "Изпълни бизнес процеса",
+      "Title": "Действия по редове"
+    },
+    "AddColumnsTo": "Добави колони за",
+    "Title": "Списък: {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Колоната е добавена успешно",
+      "ColumnsAddedSuccessfully": "Колоните бяха добавени успешно",
+      "ColumnHiddenSuccessfully": "Колоната е скрита успешно",
+      "ColumnFrozenSuccessfully": "Колоната е замразена успешно",
+      "ColumnUnfrozenSuccessfully": "Колоната е успешно размразена",
+      "ColumnChangedSuccessfully": "Колоната е променена успешно"
+    }
+  },
+  "DataTable": {
+    "NoData": "Няма данни",
+    "NoColumns": "Няма добавени колони",
+    "Hints": {
+      "Sort": "Подреди",
+      "StartEditing": "Редактирай",
+      "ReadonlyCell": "Поле без възможност за редакция",
+      "CancelChanges": "Отхвърли",
+      "AddItem": "Добави нов запис",
+      "SortWithCaption": "Сортирай {0}",
+      "NotSorted": "в момента не сортирано",
+      "SortedAscending": "в момента сортирано възходящо",
+      "SortedDescending": "в момента сортирано низходящо",
+      "SortAscending": "Сортирай нарастващо",
+      "SortDescending": "Сортирай низходящо",
+      "RowControls": "Контроли за редовете"
+    },
+    "AddItem": "Нова",
+    "SaveItemsChanges": "Запази всичко",
+    "CancelItemsChanges": "Отхвърли",
+    "BulkActions": {
+      "MoreActions": "Повече действия",
+      "AriaLabel": "Групови действия за {0}"
+    },
+    "RowsSelection": {
+      "Selected": "избрано",
+      "SelectAll": "Избери всички",
+      "ClearSelection": "Изчисти селекцията",
+      "SelectRow": "Избери ред",
+      "RowsSelected": "Избрани редове: {0}"
+    },
+    "NotFoundColumn": "Колоната не е намерена",
+    "ColumnSticky": "Замразена колона",
+    "StatusBar": {
+      "AriaLabel": "Редактирай действията за {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Промени ширината",
+      "ChangeWidthOf": "Промени ширината на {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Разшири всички",
+      "CollapseAll": "Свий всички",
+      "ExpandRow": "Разшири вложените редове",
+      "CollapseRow": "Свий вложените редове"
+    }
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Да",
+    "No": "Не",
+    "Save": "Запази",
+    "DoNotSave": "Не запазвай",
+    "Cancel": "Анулирай",
+    "Delete": "Изтрий",
+    "Close": "Затвори",
+    "Notification": "Уведомление",
+    "Overwrite": "Презапиши",
+    "Clear": "Изчисти",
+    "Restore": "Възстанови",
+    "ProcessSchemaSavedWithValidationError": "Схемата на процеса е запазена успешно, но грешки при проверката не позволяват изпълнението й."
+  },
+  "Gallery": {
+    "NoData": "Няма данни",
+    "MenuActions": "Действия",
+    "DateAdded": "Дата на добавяне",
+    "SelectItem": "Избери елемент",
+    "Item": {
+      "ActionsButtonCaption": "Действия на елемента"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "Отвори линка"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Изпрати имейл"
+  },
+  "FileInput": {
+    "Delete": "Изтрий",
+    "Cancel": "Анулирай",
+    "Attach": "Прикачи",
+    "FileIcon": "Икона на файла",
+    "EmptyFileName": "Празно име на файл",
+    "MaxFileSizeLimitReached": "Максималният размер на файла е достигнат ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Постави тук файловете",
+      "Description": "или използвай",
+      "Upload": "Качи"
+    },
+    "RowToolbar": {
+      "Download": "Изтегли"
+    }
+  },
+  "ImageInput": {
+    "Alt": "Изображение на полето",
+    "Upload": "Качи",
+    "Change": "Промени",
+    "Clear": "Изтрий",
+    "AltAbbreviation": "Изображение на съкращение",
+    "AltIcon": "Празно място в полето"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Запази",
+    "CancelButton": "Анулирай",
+    "ColumnProperties": "Свойства на колоната",
+    "Title": "Заглавие",
+    "FilterHeader": "Как да филтрирате записи",
+    "SortingHeader": "Сортирай записите",
+    "SortColumn": "Сортирай по",
+    "WhatToDisplay": "Какво да се покаже",
+    "AggregationColumn": "Колона",
+    "SortOrder": "Ред на сортиране",
+    "SetupFilters": "Настройка на филтри",
+    "EditFilters": "Редактирай филтрите"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Да",
+      "False": "Не"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "в",
+    "TodayAt": "Днес в {0}",
+    "YesterdayAt": "Вчера на {0}",
+    "DayBeforeYesterdayAt": "Денят преди вчера в {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Няма показана стойност"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "месец",
+    "DaysAbbreviation": "ден",
+    "HoursAbbreviation": "час",
+    "MinutesAbbreviation": "минути"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Затвори раздела"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Отиди в работния плот"
+    },
+    "QuickRunProcess": {
+      "Title": "Изпълни процеса",
+      "SuccessMessage": "Процесът е стартиран успешно",
+      "NotConfiguredQuickProcessesMessage": "Изпълнението на бързи процеси все още не е конфигурирано",
+      "OtherProcessesCaption": "Други процеси"
+    },
+    "Settings": {
+      "Title": "Настройки"
+    },
+    "UserProfile": {
+      "Title": "Твоят профил",
+      "MenuItems": {
+        "Profile": "Твоят профил",
+        "Logout": "Изход",
+        "OrganizationProfile": "Профил на организацията"
+      }
+    },
+    "New": {
+      "Title": "Ново",
+      "NoItemTitle": "Бързото създаване на записи все още не е конфигурирано"
+    },
+    "Help": {
+      "Title": "Помощ",
+      "MenuItems": {
+        "OnlineHelp": "Онлайн помощ",
+        "NeedHelp": "Нужда от помощ",
+        "ExternalAccess": "Разреши достъп до поддръжката",
+        "ReleaseNotes": "Бележки към изданието"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "SupportSubject": "Въпрос за",
+      "AccessGrantedMessage": "Достъпът е предоставен",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Комуникационен панел"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Панел за известия"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Конфигурация"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Панел с добавки"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Грешка при компилиране",
+      "WorkspaceExplorerTemplate": "За да видиш списъка с грешки при компилиране и да ги коригираш, посети <a href ='{0}' target='_blank'>секция за конфигурация</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Навигационен панел"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Детайли на грешката:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Режим на ограничена конфигурация",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Системата те пренасочи към обикновен елемент на приложението. Не се препоръчва да правиш персонализации в този режим, тъй като промените може да не бъдат разпространени към други елементи. Елементът за проектиране може да не е наличен по различни причини. Може да научиш повече в лог файловете на Creatio и/или Orchestrator. Рутинната употреба може да продължи."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Небезопасни настройки за проследяване",
+      "SysSettingsTemplate": "Посети <a href ='{0}' target='_blank'>секцията Системни настройки</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Търси в приложението..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Свий навигационния панел",
+      "ExpandCaption": "Разшири навигационния панел"
+    },
+    "SearchResultsCaption": "Търси резултати",
+    "EmptySearchResult": {
+      "Title": "Няма артикули, отговарящи на критериите за търсене.",
+      "Subhead": "Изчисти или промени критериите за търсене."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Прочети още"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} премина",
+    "timeBeforeCountStartTpl": "{0} преди да започне обратното броене",
+    "overdueTpl": "{0} просрочени",
+    "timeLeftTpl": "{0} остава",
+    "timeIsUpTpl": "Времето изтече",
+    "waitingForStartDateTpl": "Изчакване на начална дата",
+    "dateNotSet": "0 часа 0 минути"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Търси по колона",
+      "AllOption": "Всичко",
+      "Title": "Избери филтърна колона"
+    },
+    "ClearIconTitle": "Изчисти търсенето"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Успешно запазени",
+      "ErrorOnSave": "Грешка при опит за прилагане на промените"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Сигурен ли си, че искаш да изтриеш работния плот на „{0}“?",
+        "Error": {
+          "Deletion": "Грешка при изтриването на работния плот",
+          "Configuration": "Грешка по време на изграждането на конфигурацията"
+        },
+        "Success": "Работният плот „{0}“ бе изтрит успешно"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Търси..."
+  },
+  "AllowedResults": {
+    "Caption": "Позволени резултати",
+    "TaskCompleted": "Задачата беше завършена."
+  },
+  "LicenseIndicator": {
+    "Title": "Изисква се лиценз"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Всички незапазени промени ще бъдат загубени. Да се продължи ли?"
+    },
+    "List": {
+      "Message": "Списъкът съдържа незапазени промени. Те ще бъдат загубени, ако продължиш. Да се запазят ли промените?"
+    },
+    "Page": {
+      "Message": "Страницата съдържа незапазени промени. Те ще бъдат загубени, ако продължиш. Да се запазят ли промените?"
+    }
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Добави етикет",
+    "CreateNewTagButtonCaption": "Създай нов етикет"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Редактирай запис",
+    "DeleteItemActionButtonCaption": "Изтрий запис",
+    "NoData": "Няма данни"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Няма данни",
+      "CloseButtonTitle": "Затвори"
+    },
+    "AriaLabel": "Избрани елементи",
+    "Chip": {
+      "RemoveButtonCaption": "Премахни"
+    },
+    "AriaLabelFor": "Избраните елементи за"
+  },
+  "Playbook": {
+    "Caption": "Книга с разиграни сценарии",
+    "Hint": "Компонентът показва подсказки и инструкции за потребителите за достъп до информация от базата знания за конкретни етапи на динамичен случай",
+    "Placeholder": {
+      "Title": "Не са намерени уместни статии в книгата",
+      "Description": "Моля, създай подходяща статия за текущия етап на динамичен случай в секцията Книга с разиграни сценарии"
+    },
+    "Actions": {
+      "Back": "Назад",
+      "OpenInDialog": "Отвори в модален прозорец"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Затвори",
+        "OpenPage": "Отвори в нов раздел"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Упълномощаването е неуспешно. Опитай отново по-късно или помолi администратора за помощ.",
+      "FormatError": "Невалиден формат в заявката. Увери се, че входът е структуриран правилно и провери изходните параметри на твоите действия.",
+      "LimitError": "Лимитът на токените е достигнат, по-нататъшната работа с Creatio.ai е заключена. Свържи се с твоя администратор, за да попълни Creatio.ai токени.",
+      "ServiceAvailabilityError": "Услугата е временно недостъпна. Опитай отново по-късно.",
+      "ExecutionError": "Възникна грешка при обработката на твоята заявка. Опитай отново или помоли администратора за помощ.",
+      "ConfigurationError": "Открит е проблем с конфигурацията. Провери системните настройки или помоли администратора за помощ.",
+      "UnknownError": "Възникна неизвестна грешка. Опитай отново по-късно или помоли администратора за помощ.",
+      "CharacterLimitExceededError": "Достигнат е ограничението за брой знаци в заявката на потребителя. Провери системните настройки или помоли администратора за помощ.",
+      "ToolCallsInvokesLimitExceeded": "Превишен е лимитът за извикване на функции: твърде много последователни автоматизирани извиквания без потребителски вход или многократно изпълнение на една и съща функция.",
+      "InsufficientPermissions": "Нямаш разрешение да използваш този агент или умение. Моля свържи се с твоя администратор, за да настрои достъпа.",
+      "ActionLimitError": "Достигнат е лимитът на действията, по-нататъшната работа с Creatio.ai е блокирана. Свържи се с твоя администратор, за да попълни действията на Creatio.ai."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Няма данни",
+    "Boolean": {
+      "Yes": "Да",
+      "No": "Не"
+    },
+    "String": {
+      "Placeholder": "Въведи текст"
+    },
+    "Numeric": {
+      "Placeholder": "Въведи номер",
+      "To": "до",
+      "MaxValueError": "Стойността е над максималната стойност",
+      "MinValueError": "Стойността е под минималната стойност"
+    }
+  },
+  "Conversation": {
+    "Caption": "Разговор",
+    "Copilot": {
+      "TypingMessage": "Генериране на отговор",
+      "Action": {
+        "Replace": "Подмени селекцията",
+        "InsertAbove": "Вмъкни над",
+        "InsertBelow": "Вмъкни отдолу"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "Изтрий",
+    "Export": "Експортирай към Excel",
+    "AddTag": "Добави етикет",
+    "RemoveTag": "Премахни етикет",
+    "RowsSelection": {
+      "Selected": "избрано",
+      "SelectAll": "Избери всичко",
+      "ClearSelection": "Изчисти селекцията"
+    },
+    "Merge": "Обедини"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Път на обратно"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "с известия"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Номер"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Свий",
+    "Expand": "Разшири"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Лента за напредъка"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Статус на чата",
+    "CtiStatesMenuCaption": "Статус на телефонията"
+  },
+  "MultiList": {
+    "NoDataMessage": "Все още няма скорошни елементи",
+    "NoDataBySearchFilter": "Няма записи, отговарящи на критериите на филтъра",
+    "NoDataBySearchFilterSubtitle": "Изчисти филтъра или промени условията му "
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Звънни"
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Следващ месец",
+    "AriaPrevMonthLabel": "Предишен месец",
+    "AriaNextYearLabel": "Следващата година",
+    "AriaPrevYearLabel": "Предходната година",
+    "Readonly": "Поле без възможност за редакция",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Календар",
+    "TimePickerIconTitle": "Време"
+  }
+}

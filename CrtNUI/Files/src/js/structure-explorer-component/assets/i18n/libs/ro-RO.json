@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Incarcare..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copiat"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nimic de afișat încă ",
+      "Subhead": "Vă rugăm să adăugați mai întâi date"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat început: {0} de",
+        "EndDate": "Chat completat: {0} de"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Încărcare"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Eroare",
+      "Default": "Tooltip"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nu există nicio pagină pentru înregistrarea nouă sau existentă. Administratorul de sistem trebuie să verifice setările butonului din Freedom UI",
+    "GoToEntityDesignerMessage": "Pentru configurarea paginilor mergeți la URL: {0}"
+  }
+}

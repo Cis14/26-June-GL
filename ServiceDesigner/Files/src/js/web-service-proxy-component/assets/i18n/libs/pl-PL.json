@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Ładowanie..."
+  },
+  "CopyClipboard": {
+    "Copied": "Skopiowano"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nie ma jeszcze nic do wyświetlenia ",
+      "Subhead": "Proszę najpierw dodać dane"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Rozpoczęto czat: {0} przez",
+        "EndDate": "Czat zakończony: {0} przez"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Ładowanie"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Błąd",
+      "Default": "Podpowiedź"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Wybierz wartość z listy",
+      "SelectionWindowMessage": "Proszę wybrać wartość z listy lub wyszukać za pomocą okna wyszukiwania"
+    },
+    "Required": {
+      "Message": "Wpisz wartość"
+    },
+    "MaxLength": {
+      "Message": "Przekroczono maksymalną długość tekstu ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimalna długość tekstu nie została osiągnięta ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Nieprawidłowy format daty i godziny"
+    },
+    "DatePickerSyntax": {
+      "Message": "Nieprawidłowy format daty"
+    },
+    "TimePickerSyntax": {
+      "Message": "Nieprawidłowy format czasu"
+    },
+    "RegExp": {
+      "Message": "Nieprawidłowy format wartości"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kod musi zaczynać się od prefiksu \"{{schemaNamePrefix}}\"",
+      "OnlySchemaNamePrefixMessage": "Wprowadź co najmniej jeden dodatkowy symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Użyj symboli: a-z, A-Z, 0-9, podkreślenie lub myślnik. Tylko litery mogą być pierwsze."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Wartość '{{controlValue}}' już istnieje w kolumnie 'Kod'."
+    },
+    "PhoneNumber": {
+      "Message": "Wprowadź numer telefonu"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolumna usunięta",
+    "ValidationErrorMessageSingleErrorField": "Pola: {0}. Błąd: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Pola: {0}. Błąd: {1}",
+    "RefreshModelDataConflict": "Creatio ma nowe dane dla bieżącej strony. Aby je wyświetlić, zapisz lub anuluj zmiany i odśwież stronę.",
+    "WarningModelsWithCircularDependencies": "Niektóre modele mają cykliczne zależności i nie zostały załadowane",
+    "LoadingModelErrorMessage": "Wystąpił błąd podczas wykonywania zapytania",
+    "ErrorMessageOnEmptyRelationColumn": "Nie można zapisać strony. Wypełnij pole {{caption}} lub wyczyść dane w powiązanych polach, aby zapisać na stronie."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Dane zostały odświeżone"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Opisz cel użytkownika jasno i zwięźle. Szczegółowo opisz kroki potrzebne do osiągnięcia celu użytkownika. Opisz oczekiwany wynik LLM. Powinien on zawierać wszelki niezbędny kontekst lub informacje, które LLM musi znać.\n\n## Zasady ogólne\n1. Nie możesz tworzyć nowych obiektów bez wyraźnego potwierdzenia z użytkownikiem.\n2. Zasada 2: ...\n3. ...\n\n## Ograniczenia ogólne\n1. Unikaj zakładania intencji użytkownika; wyjaśniaj żądania, gdy jest to konieczne.\n2. Ograniczenie 2: ...\n3. ...\n\n## Wymagania dotyczące wyników\n1. Wynik musi mieć mniej niż 300 symboli i nie więcej niż 2-3 zdania.\n2. Wymaganie 2: ...\n3. ...\n\n## Przebieg procesu\n1. Użyj bieżącego kontekstu strony do odczytu danych i pól strony. Na podstawie tych informacji ...\n2. Krok 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nie ma strony dla nowego lub istniejącego wpisu. Administrator systemu musi sprawdzić ustawienia przycisków w interfejsie Freedom UI",
+    "GoToEntityDesignerMessage": "Aby skonfigurować strony, przejdź do adresu URL: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Schemat procesu zapisany pomyślnie, ale błędy walidacji uniemożliwiają jego uruchomienie."
+  }
+}

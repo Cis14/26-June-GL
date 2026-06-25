@@ -1,0 +1,2252 @@
+{
+  "Input": {
+    "Readonly": "Neurejevalno polje",
+    "ShowPassword": "Prikaži geslo",
+    "HidePassword": "Skrij geslo"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "z obvestili"
+    }
+  },
+  "Carousel": {
+    "NoData": "Ni podatkov",
+    "PrevButtonCaption": "Prejšnji element",
+    "NextButtonCaption": "Naslednji element"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "CloseButtonTitle": "Zapri",
+      "NoData": "Ni podatkov"
+    },
+    "AriaLabel": "Izbrani elementi",
+    "AriaLabelFor": "Izbrani predmeti za",
+    "Chip": {
+      "RemoveButtonCaption": "Odstrani"
+    }
+  },
+  "ComboBox": {
+    "Readonly": "Neurejevalno polje",
+    "NoData": "Ni podatkov",
+    "EmptyDisplayValue": "Ni prikazane vrednosti",
+    "AddNewRecord": "Dodaj novo",
+    "InvalidValueSyntax": "Izberi vrednost s seznama",
+    "IsGoToSourceAllowedTooltip": "Pojdi na seznam zapisov",
+    "OpenSection": "Odpiranje razdelka",
+    "CheckAll": "Preverite vse",
+    "ClearAll": "Počisti vse",
+    "SelectValue": "Izberi vrednost",
+    "ClearValue": "Počisti vrednost"
+  },
+  "DataGrid": {
+    "AddColumns": "Dodaj stolpce",
+    "AddColumnsTo": "Dodaj stolpce v",
+    "Title": "Seznam {0}",
+    "ColumnToolbar": {
+      "Hide": "Skrij",
+      "Freeze": "Zamrzni",
+      "Unfreeze": "Odmrzni",
+      "Rename": "Preimenuj",
+      "Edit": "Lastnosti",
+      "Title": "Dejavnosti stolpca",
+      "SortAscending": "Razvrsti naraščajoče",
+      "SortDescending": "Razvrsti padajoče",
+      "ClearSorting": "Počisti razvrščanje",
+      "AriaLabel": "Dejavnosti stolpca za"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Seznam dejanj za",
+      "DataGridSettingsLabel": "Splošne nastavitve seznama",
+      "SaveDataGridSettings": {
+        "Label": "Shrani kot nove privzete nastavitve",
+        "Confirmation": "Nove privzete nastavitve seznama bodo shranjene za vse uporabnike. Ali je potrebno nadaljevati?",
+        "SuccessStatus": "Nastavitve seznama so bile uspešno shranjene"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Prepiši trenutne nastavitve za vse uporabnike",
+        "Confirmation": "Nove privzete nastavitve seznama bodo shranjene in bodo zamenjale trenutne nastavitve za vse uporabnike. Nadaljujem?",
+        "SuccessStatus": "Nastavitve seznama so bile uspešno shranjene"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Obnovi privzete nastavitve",
+        "Confirmation": "Privzete nastavitve seznama bodo obnovljene. Želite nadaljevati?",
+        "SuccessStatus": "Privzete nastavitve seznama so bile uspešno obnovljene"
+      },
+      "Title": "Seznam dejanj"
+    },
+    "RowToolbar": {
+      "Open": "Odpri",
+      "Copy": "Kopiraj",
+      "Delete": "Izbriši",
+      "RunBusinessProcess": "Zaženi poslovni proces",
+      "Title": "Dejanja vrstice"
+    },
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Stolpec je bil uspešno dodan",
+      "ColumnsAddedSuccessfully": "Stolpci so bili uspešno dodani",
+      "ColumnHiddenSuccessfully": "Stolpec je bil uspešno skrit",
+      "ColumnFrozenSuccessfully": "Stolpec je bil uspešno zamrznjen",
+      "ColumnUnfrozenSuccessfully": "Stolpec je bil uspešno odmrznjen",
+      "ColumnChangedSuccessfully": "Stolpec je bil uspešno spremenjen"
+    }
+  },
+  "BulkActions": {
+    "Delete": "Izbriši",
+    "Export": "Izvozi v Excel",
+    "AddTag": "Dodaj oznako",
+    "RemoveTag": "Odstrani oznako",
+    "Merge": "Združi",
+    "RowsSelection": {
+      "Selected": "izbrano",
+      "SelectAll": "Izberi vse",
+      "ClearSelection": "Počisti izbiro"
+    }
+  },
+  "DataTable": {
+    "BulkActions": {
+      "MoreActions": "Več dejanj",
+      "AriaLabel": "Dejanja v večjem obsegu za {0}"
+    },
+    "StatusBar": {
+      "AriaLabel": "Uredi dejanja za {0}"
+    },
+    "NoData": "Ni podatkov",
+    "NoColumns": "Stolpci niso bili dodani",
+    "NotFoundColumn": "Stolpec ni najden",
+    "ColumnSticky": "Zamrznjen stolpec",
+    "Columns": {
+      "ChangeWidth": "Spremeni širino",
+      "ChangeWidthOf": "Spremeni širino {0}"
+    },
+    "Hints": {
+      "Sort": "Razvrsti",
+      "SortWithCaption": "Razvrsti {0}",
+      "NotSorted": "trenutno ni razvrščeno",
+      "SortedAscending": "trenutno razvrščeno naraščajoče",
+      "SortedDescending": "trenutno razvrščeno padajoče",
+      "SortAscending": "Razvrsti naraščajoče",
+      "SortDescending": "Razvrsti padajoče",
+      "StartEditing": "Uredi",
+      "ReadonlyCell": "Neurejevalno polje",
+      "CancelChanges": "Zavrzi",
+      "AddItem": "Dodaj nov zapis",
+      "RowControls": "Nadzor vrstic"
+    },
+    "AddItem": "Novo",
+    "SaveItemsChanges": "Shrani vse",
+    "CancelItemsChanges": "Zavrzi",
+    "RowsSelection": {
+      "Selected": "izbrano",
+      "SelectAll": "Izberi vse",
+      "SelectRow": "Izberite vrstico",
+      "ClearSelection": "Počisti izbiro",
+      "RowsSelected": "Izbrani vnosi: {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Razširi vse",
+      "CollapseAll": "Strni vse",
+      "ExpandRow": "Razširi gnezdene vrstice",
+      "CollapseRow": "Strni gnezdene vrstice"
+    }
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Da",
+    "No": "Ne",
+    "Save": "Shrani",
+    "DoNotSave": "Ne shrani",
+    "Cancel": "Prekliči",
+    "Close": "Zapri",
+    "Delete": "Izbriši",
+    "Notification": "Obvestila",
+    "Overwrite": "Prepiši",
+    "Clear": "Počisti",
+    "Restore": "Obnovi",
+    "ProcessElementCompletedNotification": "Drug uporabnik je zaključil to nalogo",
+    "ProcessSchemaSavedWithValidationError": "Shema procesa je bila uspešno shranjena, vendar napake pri preverjanju preprečujejo njegovo izvajanje."
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Obstajajo neshranjene spremembe, ki bodo izgubljene. Nadaljevati?"
+    },
+    "List": {
+      "Message": "Seznam vsebuje neshranjene spremembe. Če se nadaljuje, bodo izgubljene. Shraniti spremembe?"
+    },
+    "Page": {
+      "Message": "Stran vsebuje neshranjene spremembe. Če se nadaljuje, bodo izgubljene. Shranim spremembe?"
+    }
+  },
+  "Gallery": {
+    "NoData": "Ni podatkov",
+    "MenuActions": "Dejanja",
+    "DateAdded": "Datum dodan",
+    "SelectItem": "Izberi element",
+    "Item": {
+      "ActionsButtonCaption": "Dejanja elementov"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "Odpri povezavo"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Pošlji e-pošto"
+  },
+  "FileInput": {
+    "Delete": "Izbriši",
+    "Cancel": "Prekliči",
+    "Attach": "Pripni",
+    "FileIcon": "Ikona datoteke",
+    "EmptyFileName": "Ime datoteke je prazno",
+    "MaxFileSizeLimitReached": "Maksimalna velikost datoteke je dosežena ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Tukaj spustite datoteke",
+      "Description": "ali uporabite",
+      "Upload": "Naloži"
+    },
+    "RowToolbar": {
+      "Download": "Prenesi"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Število"
+  },
+  "ImageInput": {
+    "Alt": "Slika polja",
+    "Upload": "Naloži",
+    "Change": "Sprememba",
+    "Clear": "Izbriši",
+    "AltAbbreviation": "Slikovna okrajšava",
+    "AltIcon": "Nadomestno besedilo za prazno polje"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Shrani",
+    "CancelButton": "Prekliči",
+    "ColumnProperties": "Lastnosti stolpca",
+    "Title": "Naslov",
+    "FilterHeader": "Kako filtrirati zapise",
+    "SortingHeader": "Razvrsti zapise",
+    "SortColumn": "Razvrsti po",
+    "WhatToDisplay": "Kaj prikazati",
+    "AggregationColumn": "Stolpec",
+    "SortOrder": "Vrstni red",
+    "SetupFilters": "Nastavi filtre",
+    "EditFilters": "Uredi filtre"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Da",
+      "False": "Ne"
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Avtorizacija ni uspela. Potrebno je poskusiti ponovno ali poiskati pomoč pri skrbniku sistema.",
+      "FormatError": "V zahtevi je neveljaven format. Potrebno je zagotoviti pravilno strukturo vnosa in preveriti izhodne parametre dejanj.",
+      "LimitError": "Dosežen je bil limit žetonov, nadaljnje delo s Creatio.ai je onemogočeno. Potrebno je kontaktirati skrbnika sistema za dopolnitev žetonov Creatio.ai.",
+      "ServiceAvailabilityError": "Storitev je začasno nedosegljiva. Potrebno je poskusiti ponovno.",
+      "ExecutionError": "Pri obdelavi zahteve je prišlo do napake. Potrebno je poskusiti ponovno ali poiskati pomoč pri skrbniku sistema.",
+      "ConfigurationError": "Odkrita je težava s konfiguracijo. Potrebno je preveriti sistemske nastavitve ali poiskati pomoč pri skrbniku sistema.",
+      "CharacterLimitExceededError": "Dosežena je bila omejitev števila znakov v poizvedbi uporabnika. Potrebno je preveriti sistemske nastavitve ali poiskati pomoč pri skrbniku sistema.",
+      "UnknownError": "Prišlo je do neznane napake. Potrebno je poskusiti ponovno ali poiskati pomoč pri skrbniku sistema.",
+      "ToolCallsInvokesLimitExceeded": "Dosežen je bil limit klicev funkcije: preveč zaporednih avtomatiziranih klicev brez uporabniškega vnosa ali ponovljeno izvajanje iste funkcije.",
+      "InsufficientPermissions": "Uporabnik nima dovoljenja za uporabo tega agenta ali veščine. Potrebno je kontaktirati skrbnika sistema za nastavitev dostopa.",
+      "ActionLimitError": "Dosežen je bil limit dejanj, nadaljnje delo s Creatio.ai je zaklenjeno. Obrnite se na svojega skrbnika za dopolnitev dejanj Creatio.ai."
+    },
+    "InputPlaceholder": "Vnesite sporočilo",
+    "SendButtonHint": "Pošlji sporočilo (Enter)",
+    "Caption": "Urejevalnik sporočil",
+    "ReadonlyInputPlaceholder": {
+      "ChatCompleted": "Konec klepeta",
+      "ChatTransferred": "Klepet je bil preusmerjen"
+    },
+    "MaxFilesExceeded": "Največje število datotek, ki jih lahko dodate v eni ponovitvi: {{maxCount}}",
+    "SendMessageError": "Sporočila ni bilo mogoče poslati. Poskusite znova"
+  },
+  "SmartDateTimeFormat": {
+    "At": "ob",
+    "TodayAt": "Danes ob {0}",
+    "YesterdayAt": "Včeraj ob {0}",
+    "DayBeforeYesterdayAt": "Predvčeraj ob {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Ni prikazane vrednosti"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "m",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "h",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Zapri zavihek"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Pojdi na namizje"
+    },
+    "QuickRunProcess": {
+      "Title": "Zaženi proces",
+      "SuccessMessage": "Postopek je bil uspešno izveden",
+      "NotConfiguredQuickProcessesMessage": "Hitri procesi še niso nastavljeni",
+      "OtherProcessesCaption": "Drugi procesi"
+    },
+    "Settings": {
+      "Title": "Nastavitve"
+    },
+    "UserProfile": {
+      "Title": "Vaš profil",
+      "MenuItems": {
+        "Profile": "Vaš profil",
+        "Logout": "Izhod",
+        "OrganizationProfile": "Profil organizacije"
+      }
+    },
+    "New": {
+      "Title": "Novo",
+      "NoItemTitle": "Hitro ustvarjanje zapisov še ni bilo nastavljeno"
+    },
+    "Help": {
+      "Title": "Pomoč",
+      "MenuItems": {
+        "OnlineHelp": "Spletna pomoč",
+        "NeedHelp": "Potrebujete pomoč",
+        "ReleaseNotes": "Dnevnik sprememb",
+        "ExternalAccess": "Dodeli dostop podpori"
+      },
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "SupportSubject": "Vprašanje o",
+      "AccessGrantedMessage": "Dostop odobren"
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigacijska plošča"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Dodatno"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Komunikacijska plošča"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Plošča obvestil"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfiguracija"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Napaka pri prevajanju kode",
+      "WorkspaceExplorerTemplate": "Za prikaz seznama napak pri prevajanju in njihovo odpravo je potrebno obiskati <a href ='{0}' target='_blank'>razdelek Konfiguracija</a>."
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Podrobnosti o napaki:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Sistem vas je preusmeril na običajno vozlišče aplikacije. Prilagajanje v tem načinu ni priporočljivo, saj spremembe morda ne bodo razporejene na druga vozlišča. Oblikovalsko vozlišče je lahko nedosegljivo iz različnih razlogov. Več informacij lahko najdete v dnevnikih sistema Creatio in/ali orkestra. Redna uporaba se lahko nadaljuje."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Nevarne nastavitve sledenja",
+      "SysSettingsTemplate": "Obiščite <a href ='{0}' target='_blank'>razdelek SysSetting</a>."
+    }
+  },
+  "NavigationPanel": {
+    "CollapseButton": {
+      "CollapseCaption": "Strni navigacijsko ploščo",
+      "ExpandCaption": "Razširi navigacijsko ploščo"
+    },
+    "SearchFilter": {
+      "PlaceholderCaption": "Iskanje aplikacij..."
+    },
+    "SearchResultsCaption": "Rezultati iskanja",
+    "EmptySearchResult": {
+      "Title": "Ni elementov, ki bi ustrezali iskalnim kriterijem.",
+      "Subhead": "Počistite ali spremenite merila iskanja."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Preberite več"
+  },
+  "ChatSettings": {
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Kanala ni mogoče izbrisati, ker obstajajo aktivni pogovori ali pogovori v distribuciji. Najprej dokončajte pogovore in poskusite znova."
+    },
+    "History": {
+      "Captions": {
+        "StartDate": "Pogovor se je začel: {0} od",
+        "EndDate": "Konec klepeta: {0} od"
+      }
+    }
+  },
+  "Timer": {
+    "timePassedTpl": "{0} je uspešno prestal",
+    "timeBeforeCountStartTpl": "{0} pred začetkom odštevanja",
+    "overdueTpl": "{0} zapadlo",
+    "timeLeftTpl": "{0} preostalo",
+    "timeIsUpTpl": "Čas je potekel",
+    "waitingForStartDateTpl": "Čakanje na datum začetka",
+    "dateNotSet": "0ur 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Išči po stolpcu",
+      "AllOption": "Vse",
+      "Title": "Izberite filter stolpca"
+    },
+    "ClearIconTitle": "Počisti iskanje"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Uspešno shranjeno",
+      "ErrorOnSave": "Prišlo je do napake med poskusom uporabe sprememb"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Ali ste prepričani, da želite izbrisati namizje \"{0}\"?",
+        "Error": {
+          "Deletion": "Napaka med brisanjem namizja",
+          "Configuration": "Napaka med gradnjo konfiguracije"
+        },
+        "Success": "Namizje \"{0}\" je bilo uspešno izbrisano"
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Ni podatkov",
+    "Boolean": {
+      "Yes": "Da",
+      "No": "Ne"
+    },
+    "String": {
+      "Placeholder": "Vnesite besedilo"
+    },
+    "Numeric": {
+      "Placeholder": "Vnesite številko",
+      "To": "do",
+      "MaxValueError": "Vrednost je nad največjo vrednostjo",
+      "MinValueError": "Vrednost je pod minimalno vrednostjo"
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Iskanje..."
+  },
+  "AllowedResults": {
+    "Caption": "Dovoljeni rezultati",
+    "TaskCompleted": "Naloga je bila zaključena."
+  },
+  "LicenseIndicator": {
+    "Title": "Licenca je zahtevana"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Dodaj oznako",
+    "CreateNewTagButtonCaption": "Ustvari novo oznako"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Uredi zapis",
+    "DeleteItemActionButtonCaption": "Zapis je potrebno izbrisati",
+    "NoData": "Ni podatkov"
+  },
+  "Playbook": {
+    "Caption": "Priročnik",
+    "Hint": "Komponenta prikazuje namige in navodila za dostop do informacij iz baze znanja za določene dinamične faze primerov",
+    "Placeholder": {
+      "Title": "Ni najdenih ustreznih člankov v priročniku",
+      "Description": "Prosimo, nastavite ustrezen članek za trenutno dinamično stanje primera v razdelku Playbooks"
+    },
+    "Actions": {
+      "Back": "Nazaj",
+      "OpenInDialog": "Odpri v modalnem oknu"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Zapri",
+        "OpenPage": "Odpri v novem zavihku"
+      }
+    }
+  },
+  "Conversation": {
+    "Caption": "Pogovor",
+    "Copilot": {
+      "TypingMessage": "Generiranje odgovora",
+      "Action": {
+        "Replace": "Zamenjaj izbiro",
+        "InsertAbove": "Vstavi zgoraj",
+        "InsertBelow": "Vstavi spodaj"
+      }
+    },
+    "LoadPreviousChat": "Naloži prejšnji pogovor",
+    "ChatIsCompleted": "Konec klepeta: {datePart}",
+    "ChatIsTransferred": "Klepet prenesen: {datePart} iz čakalne vrste {operatorPart} v čakalno vrsto {targetOperatorPart}",
+    "ChatTransferredToQueue": "Klepet prenesen: {datePart} od {operatorPart} v čakalno vrsto {queuePart}",
+    "ChatCompletedByAgent": "Klepet končan: {datePart} ob {operatorPart}"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Sled navigacije"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Strni",
+    "Expand": "Razširi"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Vrstica napredka"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Status klepeta",
+    "CtiStatesMenuCaption": "Status telefonske povezave"
+  },
+  "MultiList": {
+    "NoDataMessage": "Trenutno ni nedavnih elementov.",
+    "NoDataBySearchFilter": "Ni zapisov, ki bi ustrezali kriterijem filtra",
+    "NoDataBySearchFilterSubtitle": "Počisti filter ali spremeni njegove pogoje "
+  },
+  "IndicatorWidget": {
+    "AriaDescription": "{{chartTitle}}. Vrsta grafikona je metrika. Trenutna vrednost je {{ariaValue}}. Uporabite tipko enter ali preslednico, da se poglobite v element.",
+    "NoData": "Ni na voljo",
+    "NotClickableAriaDescription": "{{chartTitle}}. Vrsta grafikona je Metrični. Trenutna vrednost je {{ariaValue}}."
+  },
+  "GaugeWidget": {
+    "AriaDescription": "{{chartTitle}}. Vrsta grafikona je Gauge. Podatki segajo od {{ariaMin}} do {{ariaMax}}. Trenutna vrednost je {{ariaValue}}. Uporabite tipko enter ali preslednico, da se poglobite v element."
+  },
+  "ChartJsScreenReaderPlugin": {
+    "Description": "{{chartType}} grafikon za \"{{chartTitle}}\" s {{groupsCount}} skupinami. Grafikon prikazuje \"{{groupsNames}}\". X je \"{{xLabel}}\" od {{xMin}} do {{xMax}}. Y je \"{{yLabel}}\" od {{yMin}} do {{yMax}}. Uporabite puščične tipke za navigacijo.",
+    "Tooltip": "{{xValue}}, {{yValue}}, {{label}}. Uporabite tipko Enter za odpiranje kontekstnega menija."
+  },
+  "ChartLegend": {
+    "Title": "Legenda za grafikon {{chartTitle}}: uporabite puščične tipke za premikanje in tipko Enter za odprtje kontekstnega menija."
+  },
+  "HeaderWidget": {
+    "Fullscreen": {
+      "ExpandLabel": "Razširi celozaslonski način za grafikon \"{{title}}\".",
+      "CollapseLabel": "Strni celozaslonski način za grafikon \"{{title}}\"."
+    },
+    "Menu": {
+      "Caption": "Meni za grafikon \"{{title}}\".",
+      "CreateDashboard": {
+        "Caption": "Ustvari nadzorno ploščo",
+        "UnableCreateMessage": "⚠️ Ni mogoče ustvariti nadzorne plošče. Ta stran nima komponente nadzorne plošče.\n\nMožno je odpreti drugo stran, kjer je komponenta nadzorne plošče že na voljo.\n\n📘 Več o delu z nadzornimi ploščami na <a href=\"https://academy.creatio.com/docs/8.x/no-code-customization/customization-tools/ui-and-business-logic-customization/analytics/dashboards/set-up-dashboards-in-freedom-ui-designer\" target=\"_blank\">akademiji</a>"
+      }
+    }
+  },
+  "DesktopSelector": {
+    "ShowDesktopSelector": "Izberi namizje",
+    "EditDesktop": "Uredi namizje",
+    "UseHotkeys": "Uporabi Ctrl+Shift+E za urejanje namizja"
+  },
+  "BaseRelatedInMainRecordsService": {
+    "NotValidParametersMessage": "Podani parametri niso veljavni",
+    "ServiceResult": {
+      "ErrorMessage": "Prišlo je do napake. Potrebno je kontaktirati skrbnika sistema"
+    }
+  },
+  "TaggingService": {
+    "ServiceResult": {
+      "AddTagsMessage": "Označeno je {{ count }} element(ov)",
+      "RemoveTagsMessage": "Označevanje {{ count }} elementov je bilo odstranjeno",
+      "AddTagsSuccessfulRunProcess": "Proces množičnega označevanja za izbrane elemente se je začel. Postopek lahko traja nekaj časa",
+      "RemoveTagsSuccessfulRunProcess": "Proces množičnega označevanja za izbrane elemente se je začel. Postopek lahko traja nekaj časa"
+    }
+  },
+  "StaticFolderService": {
+    "ServiceResult": {
+      "AddRecordsMessage": "V mapo(e) je bilo dodanih {{ count }} zapis(ov)",
+      "RemoveRecordsMessage": "Iz mape(ov) je bilo odstranjeno {{ count }} zapis(ov)"
+    }
+  },
+  "RunProcessHandler": {
+    "ProcessHasStarted": "Dejanje se je uspešno začelo",
+    "CannotRunProcess": {
+      "NoRecordsSelected": "Za izvedbo tega dejanja je potreben vsaj en zapis. Potrebno je izbrati zapise, na katere se bo dejanje uporabilo, in poskusiti ponovno"
+    },
+    "ProcessStarted": "Postopek se je začel",
+    "StartingProcessAnnounceMessage": "Zaganjanje postopka, prosim počakajte..."
+  },
+  "ConfirmationDialog": {
+    "DeleteRecordConfirmation": "Ali ste prepričani, da je potrebno izbrisati izbrani zapis?",
+    "DeleteRecordsConfirmation": "Ali ste prepričani, da je potrebno izbrisati izbrane zapise?",
+    "SaveSummariesForAll": "Shrani nastavitve povzetka za vse uporabnike?",
+    "ResetSummaries": "Obnovi privzete nastavitve povzetka?"
+  },
+  "InfoDialog": {
+    "RightLevelWarningMessage": "Nezadostne pravice za brisanje zapisov v objektu '{0}'",
+    "UnableToDeleteSelectedRecord": "Izbranega zapisa ni mogoče izbrisati",
+    "SelectRecordsToDelete": "Izberi zapise za brisanje",
+    "SettingsErrorMessage": "Dejanja ni mogoče izvršiti.\n\nSistemski skrbnik mora preveriti nastavitve gumba v oblikovalniku Freedom UI.",
+    "ExportToExcel": {
+      "FileGenerationMessage": "Ustvarjanje izvozne datoteke",
+      "PermissionsErrorMessage": "Ni dovoljenja za izvedbo te operacije.\nPotrebno se je obrniti na skrbnika sistema. Preveriti je potrebno dostop do izvoznoga objekta in dovoljenje za izvedbo sistemske operacije."
+    },
+    "OpenChangeLog": {
+      "PermissionsErrorMessage": "Nezadostna dovoljenja za dostop do dnevnika sprememb. Obrniti se je potrebno na skrbnika sistema.",
+      "SourceIsNotSpecifiedMessage": "Za dejanje \"Odpri dnevnik sprememb\" ni določen objekt ali vir podatkov. Potrebno je kontaktirati skrbnika sistema.",
+      "RecordIsNotSelectedMessage": "",
+      "ChangeLogIsNotTurnedOnTitle": "Vklopi beleženje",
+      "ChangeLogIsNotTurnedOnMessage": "Za {0} je trenutno beleženje izklopljeno. Ali je potrebno vklopiti beleženje?",
+      "ChangeLogIsTurnedOffMessage": "Beleženje za {0} je trenutno izklopljeno. Potrebno je kontaktirati sistemskega administratorja.",
+      "RecordIsNotSavedMessage": "Najprej je potrebno shraniti zapis, da bo mogoče odpreti njegov dnevnik sprememb."
+    },
+    "FileUpload": {
+      "SizeValidationMessage": "Presežen je največji dovoljeni limit velikosti datoteke: {0} MB.\n\n\n Datoteke:\n- {1}",
+      "NoConnectedFileList": "Ciljna mapa za nalaganje datotek ni nastavljena.\n\nV nastavitvah gumba je potrebno izbrati ciljno mesto.",
+      "InvalidRequestParams": "Datotek ni mogoče naložiti, ker komponenta strani še ni bila nastavljena. Skrbnik sistema lahko dokonča nastavitev v oblikovalniku Freedom UI.",
+      "ChangeFileSizeInfoMessage": "Največjo dovoljeno velikost datoteke je mogoče povečati v sistemski nastavitvi \"Attachment max size\".",
+      "FileListHeader": "Datoteke",
+      "MaxFileSizeExceededExceptionMessage": "Presežen je največji dovoljeni limit velikosti datoteke: {0} MB.",
+      "UnknownServerError": "Prišlo je do napake. \nPotrebno je poskusiti ponovno naložiti datoteko.",
+      "EmptyFileMessage": "Poskušate naložiti prazne datoteke.\n\nIzberite datoteke z vsebino.",
+      "AttachedToUnsavedRecord": "Datotek ni mogoče pripeti zapisu, ki še ni ustvarjen. Zapis je potrebno ustvariti pred nalaganjem datotek",
+      "InvalidExtension": {
+        "Deny": "Končnica datoteke [{0}] je prepovedana zaradi varnostnih nastavitev. Če je delo s takšnimi datotekami obvezno, se je potrebno obrniti na sistemskega skrbnika, da izbriše tip datotek iz sistemske nastavitve [Nedovoljeni tipi datotek] (FileExtensionsDenyList)",
+        "Allow": "Končnica datoteke [{0}] je prepovedana zaradi varnostnih nastavitev. Če je delo s takšnimi datotekami obvezno, se je potrebno obrniti na sistemskega skrbnika, da doda tip datoteke v sistemsko nastavitev [Dovoljeni tipi datotek] (FileExtensionsAllowList)"
+      },
+      "SingleUploadInProgress": "Datoteka {0} se še vedno nalaga. Prosimo, počakajte, da se nalaganje zaključi.",
+      "MultipleUploadsInProgress": "Nekatere datoteke se še vedno nalagajo. Prosimo, počakajte, da se nalaganje zaključi ({0} in še {1})."
+    },
+    "FileAnnouncement": {
+      "Uploaded": "Datoteka {0} je bila naložena",
+      "Deleted": "Datoteka {0} je bila odstranjena"
+    },
+    "ImageUpload": {
+      "MaxFileSizeExceededExceptionMessage": "Presežen je največji dovoljeni limit velikosti datoteke: {0} MB.",
+      "UnknownUploadError": "Neznana napaka pri nalaganju. Potrebno se je obrniti na skrbnika sistema.",
+      "Announcement": {
+        "Uploaded": "Slika naložena",
+        "Deleted": "Slika izbrisana"
+      }
+    },
+    "SetRecordRights": {
+      "SettingsErrorMessage": "Napaka dejanja.\nPotrebno se je obrniti na skrbnika sistema. Preveriti je potrebno nastavitve dejanja v oblikovalniku sistema."
+    },
+    "OpenPage": {
+      "SettingsErrorMessage": "Napaka dejanja.\nPotrebno se je obrniti na skrbnika sistema. Preveriti je potrebno nastavitve dejanja v oblikovalniku sistema."
+    },
+    "TagsInRecords": {
+      "SelectRecordsToAddRecordsMessage": "Izberi zapise za dodajanje oznak",
+      "SelectRecordsToRemoveRecordsMessage": "Izberi zapise za odstranitev oznak"
+    },
+    "RecordsInStaticFolders": {
+      "SelectRecordsToAddRecordsMessage": "Izberi zapise za dodajanje v statično mapo",
+      "SelectRecordsToRemoveRecordsMessage": "Izberi zapise za odstranitev iz statične mape"
+    },
+    "FileDownload": {
+      "FileMismatchErrorMessage": "Datoteka '{0}' ni popolnoma naložena",
+      "FileDownloadErrorMessage": "Datoteke '{0}' ni mogoče prenesti. Morda je bila izbrisana, poškodovana, ali nimate dovoljenja za dostop do nje."
+    },
+    "OK": "OK"
+  },
+  "OpenTagLookupPage": {
+    "AddTagCaption": "Dodaj oznako",
+    "RemoveTagCaption": "Odstrani oznako"
+  },
+  "PrintablesHandler": {
+    "PrintForUnsavedRecordCaption": "Poročila ni mogoče natisniti za zapis, ki ni shranjen.",
+    "InvalidRequestCaption": "Dejanje ni veljavno. Preveriti je potrebno nastavitve tiskanja.",
+    "SelectRecord": "Izberi zapis za tiskanje poročila"
+  },
+  "MoveSelectedItemsHandler": {
+    "SelectAllIsNotAllowedMessage": "S tem dejanjem ni mogoče premakniti vseh izbranih zapisov. Izbrati je potrebno posamezne zapise enega za drugim"
+  },
+  "CancelRecordsChangesRequest": {
+    "SuccessMessage": "Spremembe uspešno zavržene"
+  },
+  "RecordDeletedRequest": {
+    "SuccessMessage": "Zapis uspešno izbrisan"
+  },
+  "RecordsDeletedRequest": {
+    "SuccessMessage": "Zapisi uspešno izbrisani"
+  },
+  "PrintablesMenuItemsPreprocessor": {
+    "NoAvailablePrintablesCaption": "Ni razpoložljivih poročil",
+    "GoToPrintablesSetupCaption": "Pojdi na nastavitev poročila"
+  },
+  "SchemaOutlet": {
+    "BeforeSchemaChangeAnnounceMessage": "Nalaganje, prosim počakajte...",
+    "AfterSchemaChangeAnnounceMessage": "Nalaganje je zaključeno"
+  },
+  "SaveRecordRequest": {
+    "SavingRecordAnnounceMessage": "Shranjevanje, prosim počakajte..."
+  },
+  "Deduplication": {
+    "RecordNotCreatedMessage": "Zapis ni bil ustvarjen",
+    "MergeStartedMessage": "Sistem je pričel z združevanjem podatkov. Ko bo postopek končan, boste prejeli obvestilo v komunikacijski plošči. Nato prosimo, ponovno naložite zapis, da pridobite posodobljene podatke."
+  },
+  "MarketingCampaignContent": {
+    "ValidateCampaignRequest": {
+      "StartDateRequiredMessage": "Določite datum in čas začetka kampanje",
+      "StartDateLessThenNowMessage": "Datum in čas načrtovanega začetka kampanje sta že pretekla. Potrebno je nastaviti pravilno vrednost",
+      "StopDateRequiredMessage": "Potrebno je določiti datum in čas zaključka kampanje",
+      "StopDateLessThenNowMessage": "Datum in čas načrtovanega zaključka kampanje sta že pretekla. Potrebno je nastaviti pravilno vrednost",
+      "StopDateLessThenStartDateMessage": "Načrtovani datum zaključka kampanje je pred njenim načrtovanim datumom začetka. Potrebno je nastaviti pravilne vrednosti",
+      "StopDateLessThenNextFireTimeMessage": "Načrtovani datum zaključka kampanje je pred naslednjim načrtovanim zagonom kampanje. Potrebno je nastaviti pravilno vrednost"
+    },
+    "StopCampaignRequest": {
+      "StopConfirmationMessage": "Ali je potrebno prekiniti kampanjo?",
+      "SuccessMessage": "Kampanja je bila uspešno prekinjena",
+      "ErrorMessage": "Med kampanjo je prišlo do napake pri prekinitvi operacije"
+    },
+    "StartCampaignRequest": {
+      "ScheduleConfirmationMessage": "Ali je potrebno načrtovati kampanjo?",
+      "LaunchConfirmationMessage": "Ali je potrebno začeti kampanjo?",
+      "SuccessMessage": "Kampanja je bila uspešno sprožena",
+      "ErrorMessage": "Prišlo je do napake med zagonom kampanje"
+    },
+    "DeleteCampaignRequest": {
+      "HasAudienceMessage": "Kampanje ni mogoče izbrisati, saj vključuje udeležence",
+      "InStatusActiveMessage": "Kampanje v stanju »Aktivna« ni mogoče izbrisati. Pred brisanjem je kampanjo potrebno zaustaviti.",
+      "InStatusStoppingMessage": "Kampanje v stanju »Zaustavljanje« ni mogoče izbrisati. Potrebno je počakati, da se kampanja zaustavi, preden jo je mogoče izbrisati.",
+      "InStatusScheduledMessage": "Kampanja v stanju Načrtovano ni mogoče izbrisati. Pred izbrisom je potrebno ustaviti kampanjo",
+      "MultipleHasAudienceMessage": "Izbranih kampanj ni mogoče izbrisati, ker vsebujejo udeležence",
+      "MultipleIncorrectStateMessage": "Izbranih kampanj ni mogoče izbrisati, ker je nekaj kampanj v neustreznem stanju"
+    }
+  },
+  "ObjectAccessRights": {
+    "OperationTypeGroup": {
+      "Read": "Dovoljenja za branje",
+      "Write": "Dovoljenja za pisanje",
+      "Delete": "Dovoljenja za brisanje",
+      "Execute": "Dovoljenja za izvajanje"
+    },
+    "OperationType": {
+      "Read": "Preberi",
+      "ReadWithDelegate": "Branje z zastopnikom",
+      "Write": "Pisanje",
+      "WriteWithDelegate": "Pisanje z zastopnikom",
+      "Delete": "Izbriši",
+      "DeleteWithDelegate": "Izbriši z zastopnikom",
+      "Execute": "Izvedi",
+      "ExecuteWithDelegate": "Izvedi z zastopnikom"
+    }
+  },
+  "MarketingEngagementToolsContent": {
+    "ConnectFacebookForm": {
+      "IntegrationSetupError": "Facebook ustvarjanje potencialnih strank je trenutno neaktivno. Integracijo Facebook lahko omogoči skrbnik sistema",
+      "IntegrationWindowError": "Pojavna okna so trenutno blokirana v nastavitvah brskalnika. Za nadaljevanje je potrebno omogočiti pojavna okna",
+      "DefaultSubscriptionError": "Prišlo je do napake. Potrebno je poskusiti ponovno vzpostaviti povezavo s obrazcem"
+    }
+  },
+  "MarketingEmailContent": {
+    "AddBulkEmailAudienceRequest": {
+      "LookupPageCaption": "Dodajte stike za množično e-pošto",
+      "ImportStartedMessage": "Uvoz občinstva se je začel. Proces lahko traja nekaj časa. O zaključku bo obveščeno v plošči Obvestila.",
+      "ErrorMessage": "Med uvozom občinstva je prišlo do napake",
+      "EmptyFilterMessage": "Ni mogoče dodati občinstva brez filtra. Potrebno je izbrati mapo ali določene zapise"
+    },
+    "RemoveBulkEmailAudienceRequest": {
+      "DeleteAllRecordsConfirmation": "Ali ste prepričani, da je potrebno izbrisati vse občinstvo iz e-pošte?",
+      "RemoveStartedMessage": "Odstranjevanje občinstva se je začelo",
+      "UnableToRemoveRecords": "Med odstranjevanjem občinstva je prišlo do napake",
+      "EmptyFilterMessage": "Ni mogoče odstraniti občinstva brez filtra. Potrebno je izbrati določene zapise"
+    },
+    "OpenEmailPageRequest": {
+      "RedirectQuestionMessage": "Izbrani množični e-poštni naslov je bil ustvarjen v razdelku E-pošta v klasičnem vmesniku. Ali je potrebno preusmeriti uporabnika nanj?",
+      "RedirectCaption": "Preusmeri"
+    },
+    "ScheduleSendingTab": {
+      "ScheduleInfoMessage": "Ta e-pošta je načrtovana za pošiljanje ob {0}, prilagojeno vaši regionalni nastavitvi",
+      "SendRateOverlimitMessage": "Izbrana dnevna omejitev in zamik ne ustrezata 24 uram. Prosimo, zmanjšajte zamik ali dnevno omejitev."
+    },
+    "SendTestEmailPage": {
+      "DefaultLabel": "Privzeto"
+    },
+    "ContactSubscribeToBulkEmailsRequest": {
+      "AnnounceMessage": "{0} je naročen."
+    },
+    "ContactUnsubscribeFromBulkEmailsRequest": {
+      "AnnounceMessage": "{0} je odjavljen."
+    },
+    "BulkEmailDelete": {
+      "WrongStatus": "Množičnega e-poštnega sporočila ni mogoče izbrisati, ker njegov status ni \"Osnutek\" ali \"Načrtovano\"",
+      "UsedInCampaign": "Izbranega zapisa ni mogoče izbrisati, ker je množični e-poštni naslov uporabljen v kampanji"
+    },
+    "SenderDomain": {
+      "ValidateDomainGenericErrorMessage": "Domene pošiljatelja ni mogoče preveriti zaradi nepričakovane napake. Poskusite znova ali se obrnite na podporo, če težava ne izgine.",
+      "Add": {
+        "SuccessMessage": "Domena pošiljatelja je bila uspešno dodana.",
+        "ErrorMessage": "Domene pošiljatelja ni mogoče shraniti zaradi nepričakovane napake. Poskusite znova ali se obrnite na podporo, če težava ne izgine."
+      },
+      "Share": {
+        "SuccessMessage": "Ključ za avtorizacijo je bil ustvarjen.",
+        "CopyToClipboardSuccessMessage": "Ključ za avtorizacijo je bil kopiran v odložišče.",
+        "ErrorMessage": "Domene pošiljatelja ni mogoče deliti zaradi nepričakovane napake. Poskusite znova ali se obrnite na podporo, če težava ne izgine."
+      },
+      "Authorize": {
+        "SuccessMessage": "Domena pošiljatelja je bila uspešno avtorizirana.",
+        "ErrorMessage": "Domene pošiljatelja ni mogoče avtorizirati zaradi nepričakovane napake. Poskusite znova ali se obrnite na podporo, če težava ne izgine.",
+        "InvalidTokenMessage": "Ključ za avtorizacijo je neveljaven ali se ne ujema z zahtevano stranjo.",
+        "KeyIsMissing": "Manjka ključ za avtorizacijo. Prosimo, zagotovite veljaven ključ in poskusite znova."
+      },
+      "CopyToClipboardSuccessMessage": "Podatki so bili kopirani v odložišče.",
+      "Delete": {
+        "ConfirmationMessage": "Ali ste prepričani, da je potrebno izbrisati izbrani zapis?",
+        "WrongStatus": "Domene pošiljatelja ni mogoče izbrisati, ker njen Status ni \"Nepotrjeno\" ali \"Zahtevano\".",
+        "ErrorMessage": "Domene ni mogoče izbrisati. Poskusite znova pozneje ali kontaktirajte podporo."
+      }
+    }
+  },
+  "MarketingEventContent": {
+    "AddEventAudienceRequest": {
+      "LookupPageCaption": "Dodaj stike dogodku",
+      "ImportStartedMessage": "Uvoz občinstva se je začel. Proces lahko traja nekaj časa. O zaključku bo obveščeno v plošči Obvestila",
+      "ErrorMessage": "Med uvozom občinstva je prišlo do napake",
+      "EventNotSavedMessage": "Dogodek mora biti najprej shranjen",
+      "EmptyFilterMessage": "Ni mogoče dodati občinstva brez filtra. Potrebno je izbrati mapo ali določene zapise"
+    },
+    "RemoveEventAudienceRequest": {
+      "RemoveStartedMessage": "Odstranjevanje občinstva se je začelo",
+      "UnableToRemoveRecords": "Med odstranjevanjem občinstva je prišlo do napake",
+      "EmptyFilterMessage": "Ni mogoče odstraniti občinstva brez filtra. Potrebno je izbrati določene zapise",
+      "DeleteAllRecordsConfirmation": "Ali ste prepričani, da je potrebno izbrisati vse občinstvo iz dogodka?"
+    }
+  },
+  "ResendWebhooks": {
+    "SuccessMessage": "Obdelava nedostavljenih webhookov je uspešno zagnana. To lahko traja nekaj časa, odvisno od števila nedostavljenih webhookov v sistemu.",
+    "ErrorMessage": "Ni uspelo zagnati procesa prejema nedostavljenih webhookov."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Izberi vrednost s seznama",
+      "SelectionWindowMessage": "Prosim izberite vrednost iz seznama ali poiščite z uporabo okna za iskanje"
+    },
+    "Required": {
+      "Message": "Vnesi vrednost"
+    },
+    "MaxLength": {
+      "Message": "Največja dolžina besedila je bila presežena ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimalna dolžina besedila ni dosežena ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Neveljaven format datuma in časa"
+    },
+    "DatePickerSyntax": {
+      "Message": "Neveljavna oblika datuma"
+    },
+    "TimePickerSyntax": {
+      "Message": "Neveljavna oblika časa"
+    },
+    "RegExp": {
+      "Message": "Neveljavna oblika vrednosti"
+    },
+    "PhoneNumber": {
+      "Message": "Neveljavna telefonska številka"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Koda mora začeti s predpono {{schemaNamePrefix}}",
+      "OnlySchemaNamePrefixMessage": "Vnesite vsaj en dodaten znak."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Uporabite simbole: a-z, A-Z, 0-9, podčrtaj ali vezaj. Prvi znak mora biti črka."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Vrednost '{{controlValue}}' že obstaja v stolpcu 'Koda'."
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Stolpec odstranjen",
+    "ValidationErrorMessageSingleErrorField": "Polje: {0}. Napaka: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Polja: {0}. Napaka: {1}",
+    "RefreshModelDataConflict": "Creatio ima nove podatke za trenutno stran. Za ogled jih je potrebno shraniti ali preklicati spremembe in osvežiti stran.",
+    "WarningModelsWithCircularDependencies": "Nekateri modeli imajo krožne odvisnosti in niso bili naloženi",
+    "LoadingModelErrorMessage": "Prišlo je do napake med izvajanjem poizvedbe",
+    "ErrorMessageOnEmptyRelationColumn": "Stran ni mogoče shraniti. Potrebno je izpolniti polje {{caption}} ali počistiti podatke v povezanih poljih, da bo shranjevanje uspešno."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Podatki so bili osveženi"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Jasno in jedrnato je potrebno opisati cilj uporabnika. Podrobno je potrebno navesti korake za dosego cilja uporabnika. Očrtati je potrebno pričakovani rezultat LLM, vključno z vsemi potrebnimi konteksti ali informacijami, ki jih LLM mora poznati.\n\n##Splošna pravila\n1. Novih objektov ni mogoče ustvariti brez izrecne potrditve uporabnika.\n2. Pravilo 2: …\n3. …\n\n## Splošne omejitve\n1. Izogibati se je potrebno domnevam o namenu uporabnika; zahteve je potrebno pojasniti, kadar je to potrebno.\n2. Omejitev 2: …\n3. …\n\n## Zahteve za izhod\n1. Izhod mora biti krajši od 300 znakov in ne sme presegati 2–3 stavkov.\n2. Zahteva 2: …\n3. …\n\n## Potek procesa\n1. Potrebno je uporabiti kontekst trenutne strani za branje podatkov strani in polj. Na podlagi teh informacij …\n2. Korak 2: …\n3. …"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Za nov ali obstoječ zapis ni na voljo strani. Skrbnik sistema mora preveriti nastavitve gumba v Freedom UI",
+    "GoToEntityDesignerMessage": "Za nastavitev strani odprite URL: {0}"
+  },
+  "Copilot": {
+    "RewriteActionsPrompt": {
+      "AskCopilot": "Pomagal boš pri preoblikovanju naslednjega besedila, nadaljnja navodila bodo podana v pogovornem oknu",
+      "Friendly": "Preoblikuj naslednje besedilo in ga naredi bolj prijazno",
+      "Formal": "Preoblikuj naslednje besedilo in ga naredi bolj formalno",
+      "Shorten": "Preoblikuj naslednje besedilo in ga skrajšaj",
+      "Extend": "Preoblikuj naslednje besedilo in ga razširi",
+      "Rephrase": "Preoblikuj naslednje besedilo in se drugače izrazi"
+    },
+    "DebugInfo": {
+      "NoDebugInfo": "Podatki za odpravljanje napak niso na voljo"
+    },
+    "NewChatCaption": "Nov klepet",
+    "MessageSent": "Sporočilo je bilo poslano.",
+    "DeleteRecordConfirmation": "Ali ste prepričani, da želite izbrisati izbrani element?",
+    "FileMessages": {
+      "IntentMaxSizeException": "Omejitev največje velikosti datoteke {0} MB je presežena. Največjo velikost datoteke je mogoče povečati s spremembo sistemske nastavitve {1}.",
+      "ChatMaxSizeException": "Omejitev velikosti datoteke {0} MB je presežena. Največjo velikost datoteke je mogoče povečati s spremembo sistemske nastavitve {1}.",
+      "IntentMissingTypeException": "Vrsta datoteke ni navedena. Datoteko je potrebno naložiti v enem od naslednjih standardnih besedilnih formatov: {0}",
+      "ChatMissingTypeException": "Vrsta datoteke ni določena. Potrebno je naložiti datoteko v enem izmed naslednjih standardnih besedilnih formatov: {0}",
+      "IntentTypeNotSupportedException": "Vrsta datoteke {0} ni podprta. Potrebno je naložiti datoteko v enem izmed naslednjih standardnih besedilnih formatov: {1}",
+      "ChatTypeNotSupportedException": "Vrsta datoteke {0} ni podprta. Potrebno je naložiti datoteko v enem izmed naslednjih standardnih besedilnih formatov: {1}"
+    },
+    "ViewElementMessage": {
+      "SetupDetailsCaption": "Podrobnosti o nastavitvah"
+    },
+    "LiveAnnouncement": {
+      "ChatRenamed": "Pogovor preimenovan v {0}",
+      "MessageReceivedInCurrentChat": "{0}: {1}",
+      "MessageReceivedInAnotherChat": "Nova sporočilo od {0} v {1} klepetu",
+      "SessionCreated": "Nov {0} klepet je bil ustvarjen",
+      "Typing": "{0} dela na tem"
+    },
+    "LlmModelPage": {
+      "PleaseTypeRequiredField": "Prosimo, vnesite zahtevano polje povezave",
+      "NoLicenseToCreateLlmModel": "Modela ni mogoče dodati. Dodajanje lastnega modela zahteva ločeno licenco. Za pomoč se obrnite na podporo."
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Nalaganje..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopirano"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Ničesar ni za prikaz ",
+      "Subhead": "Najprej je potrebno dodati podatke"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Nalaganje"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Napaka",
+      "Default": "Orodni namig"
+    }
+  },
+  "GoogleAnalytics": {
+    "LoginRequestTitle": "Potrebno je povezati Google Analytics.",
+    "NotEnoughPermissionsMessage": "Povezava z Google Analytics računom ni bila mogoča. Potrebno je dodeliti najvišje dovoljenja za Creatio in nato poskusiti ponovno.",
+    "PlatformUndefinedMessage": "Platforma ni določena. Pred uporabo gumba je potrebno konfigurirati platformo.",
+    "ApplicationUndefinedMessage": "Aplikacija ni določena. Pred uporabo gumba je potrebno konfigurirati platformo.",
+    "RefreshStreamSuccessMessage": "Google Analytics pretoki so bili uspešno osveženi",
+    "RefreshStreamErrorMessage": "Osvežitev pretokov Google Analytics ni uspela. Poskusite znova pozneje.",
+    "RefreshStreamConfirmationTitle": "Osvežiti seznam toka podatkov?",
+    "RefreshStreamConfirmationMessage": "Osveževanje lahko traja nekaj trenutkov — sistem bo med posodabljanjem seznama nedostopen",
+    "RefreshStreamConfirmationCancel": "Prekliči",
+    "RefreshStreamConfirmationOk": "Osveži",
+    "PlatformCaption": "Platforma",
+    "ApplicationCaption": "Aplikacija"
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Platforma",
+    "AppInputCaption": "Aplikacija",
+    "AdPlatformLoginRequestTitle": "Poveži platformo oglasov",
+    "NotEnoughPermissionsMessage": "Povezava z vašim oglaševalskim računom ni mogoča. Potrebno je podeliti Creatiu največja dovoljenja in poskusiti ponovno.",
+    "PlatformUndefinedMessage": "Platforma ni določena. Pred uporabo gumba je potrebno konfigurirati platformo.",
+    "ApplicationUndefinedMessage": "Aplikacija ni določena. Pred uporabo gumba je potrebno konfigurirati platformo.",
+    "ImportFromAdPlatformStartedMessage": "Uvoz podatkov iz oglaševalskih računov je bil začet",
+    "NoConnectedAdAccountsFoundMessage": "Ni povezanih oglaševalskih računov za uvoz",
+    "NoActiveAdAccountsFoundMessage": "Nobeni oglaševalski računi, ki bi bili na voljo, niso bili najdeni.<br />\nPotrebno je preveriti, ali obstaja dostop do zahtevanih računov na platformi.<br />\nPovezati je mogoče samo aktivne račune."
+  },
+  "PageTools": {
+    "DesignButtonHint": "Uredi stran",
+    "ExpandButtonTitle": "Razširi",
+    "CollapseButtonTitle": "Strni"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "FolderTreePropertiesPage": {
+        "AppearanceGroup": "Videz",
+        "BorderRadiusLabel": "Zaobljenost obrobe",
+        "GeneralLabel": "Splošno",
+        "HeaderLabel": "Nastavitve mape",
+        "Sizes": {
+          "None": "Nič",
+          "Small": "Majhno",
+          "Medium": "Srednje",
+          "Large": "Veliko"
+        },
+        "SourceSchemaLabel": "Lokacija shrambe map",
+        "RootSchemaLabel": "Kaj bodo filtrirale mape?"
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Nastavitve menija za upravljanje map",
+        "FolderTreeLabel": "Izbira drevesne strukture map",
+        "GeneralCaption": "Splošno"
+      },
+      "QuickFilterPropertiesPanel": {
+        "PageCaption": "Nastavitve hitrega filtra",
+        "GeneralCaption": "Splošno",
+        "AppearanceCaption": "Videz",
+        "ChooseFilterTypeLabel": "Izberi vrsto filtra",
+        "CaptionLabel": "Naslov",
+        "HintLabel": "Namig",
+        "CustomType": "Prilagojeno",
+        "DateRangeType": "Date/Time",
+        "LookupType": "Seznam"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Način prikaza orodne vrstice",
+        "Inline": "Urejanje znotraj vrstice",
+        "Classic": "Standardni",
+        "AlwaysShowToolbar": "Vedno prikaži možnosti oblikovanja"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Nastavitve virov",
+        "GeneralCaption": "Splošno",
+        "FeedTypeCaption": "Kako filtrirati zapise",
+        "FeedChannel": "Kanal",
+        "FeedTypeGeneral": "Splošno",
+        "FeedTypeUser": "Povezano z uporabnikom",
+        "FeedTypeChannel": "Kanal",
+        "FeedTypeRecord": "Povezano z zapisom",
+        "FeedDataSourceCaption": "Vir podatkov",
+        "FeedTypeRecordTooltipCaption": "Sporočila v viru bodo prikazana na podlagi specifične komunikacije z zapisom.",
+        "FeedTypeGeneralTooltipCaption": "Vsa obvestila in omembe, povezane s trenutnim uporabnikom. V tem načinu bo vir prikazoval objave in komentarje, v katerih je trenutni uporabnik označen, ali niti, ki jih spremlja. Na primer, vir v tem načinu je mogoče dodati na domačo stran, da se pomembne informacije ne spregledajo.",
+        "ExternalUsersGroupCaption": "Zunanji uporabniki",
+        "AllowExternalPostCaption": "Dovoli objavljanje za zunanje uporabnike",
+        "ShowBlankSlateCaption": "Prikaži prazno platno"
+      },
+      "MessageComposerSelectorPropertiesPage": {
+        "ContextMenu": {
+          "Edit": "Uredi",
+          "Delete": "Izbriši"
+        },
+        "ChannelsCaption": "Kanali",
+        "AddNewItem": "Dodaj kanal",
+        "PageCaption": "Sestavljalnik sporočil",
+        "DefaultChannelCaption": "Privzeti kanal"
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "Sestavljalnik e-pošte",
+        "GeneralCaption": "Splošno",
+        "DefaultSenderType": "Privzeti pošiljatelj",
+        "DefaultMailbox": "Uporabi privzeti nabiralnik",
+        "CaseMailbox": "Uporabi primer izvornega poštnega predala"
+      },
+      "ChatPropertiesPanel": {
+        "PageCaption": "Nastavitve klepeta",
+        "GeneralCaption": "Splošno",
+        "TooltipCaption": "Ta element je mogoče nastaviti v izvorni kodi strani",
+        "OpenSourceCodeButtonCaption": "Odpri izvorno kodo"
+      },
+      "ConversationPropertiesPanel": {
+        "PageCaption": "Nastavitve pogovora",
+        "GeneralCaption": "Splošno"
+      },
+      "MessageEditorPropertiesPanel": {
+        "PageCaption": "Nastavitve urejevalnika sporočil",
+        "GeneralCaption": "Splošno"
+      },
+      "SummariesPropertiesPage": {
+        "PageCaption": "Nastavitve povzetkov",
+        "GeneralGroup": {
+          "Caption": "Splošno",
+          "SelectDataSource": "Vir podatkov"
+        }
+      },
+      "EncryptedInputPropertiesPage": {
+        "PageCaption": "Šifriran niz"
+      },
+      "MergeRecordsRequest": {
+        "Caption": "Združi podatke"
+      },
+      "MergeRecordsRequestPropertiesPanel": {
+        "SelectData": "Katere podatke združiti?"
+      },
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Nastavitve časovnice",
+        "GeneralGroup": "Splošno",
+        "ObjectsCaption": "Objekti",
+        "AddObject": "Dodaj objekt",
+        "EmptyDataSourceHint": "Vir podatkov ni dodan na stran. Za nastavitev komponente je potrebno dodati obstoječi vir podatkov",
+        "BindToDataSourceCaption": "Vir podatkov",
+        "FiltrationCaption": "Možnosti filtriranja",
+        "FilterCaption": {
+          "TimelineFilter_Entity": "Po vrsti zapisa",
+          "TimelineFilter_Owner": "Po lastniku",
+          "TimelineFilter_Date": "Po datumu",
+          "TimelineFilter_SystemMessages": "Po sistemskih sporočilih"
+        },
+        "ContextMenu": {
+          "Edit": "Uredi",
+          "Delete": "Izbriši"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Splošno",
+        "FiltrationGroup": "Možnosti filtriranja",
+        "CaptionLabel": "Naslov",
+        "AppearanceGroup": "Videz",
+        "LinkedColumn": "Povezan stolpec",
+        "SortedByColumn": "Razvrsti po",
+        "OwnerColumn": "Stolpec za filtriranje lastnika",
+        "IconPosition": {
+          "OnlyIcon": "Samo ikona"
+        },
+        "Feed": {
+          "ExternalUsersGroupCaption": "Zunanji uporabniki",
+          "AllowExternalPostCaption": "Dovoli objavljanje za zunanje uporabnike"
+        }
+      },
+      "CommunicationOptionsPropertiesPage": {
+        "PageCaption": "Nastavitve možnosti komunikacije",
+        "GeneralGroup": "Splošno",
+        "MasterRecordCaption": "Zapis za vezavo možnosti komunikacije",
+        "DataSourceEntityColumn": "Vir podatkov",
+        "Editability": "Urejabilnost",
+        "EditabilityControls": {
+          "Readonly": "Samo za branje"
+        },
+        "LabelPositionCaption": "Pozicija naslova",
+        "LabelPosition": {
+          "Auto": "Avto",
+          "Left": "Levo",
+          "Above": "Nad",
+          "Hidden": "Skrito"
+        },
+        "ShowNoDataPlaceholder": "Prikaži nadomestno besedilo, ko ni podatkov",
+        "AppearanceGroup": "Videz",
+        "ColumnsCountLabel": "Število stolpcev",
+        "ContactEntitySchemaName": "Možnosti komunikacije stika",
+        "AccountEntitySchemaName": "Možnosti komunikacije računa",
+        "EmptyDataSourceHint": "Vir podatkov ni dodan na stran. Za nastavitev komponente je potrebno dodati obstoječi vir podatkov"
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Nastavitve kompaktnega profila računa",
+        "GeneralGroup": "Splošno",
+        "AttributeForReferenceColumn": "Vir podatkov",
+        "Editability": "Urejabilnost",
+        "EmptyAccountDataSourceHint": "Vir podatkov ni dodan na stran. Za nastavitev komponente je potrebno dodati obstoječi vir podatkov",
+        "EditabilityControls": {
+          "Readonly": "Samo za branje"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Nastavitve kompaktnega profila Stika",
+        "GeneralGroup": "Splošno",
+        "AttributeForReferenceColumn": "Vir podatkov",
+        "Editability": "Urejabilnost",
+        "EmptyContactDataSourceHint": "Vir podatkov ni dodan na stran. Za nastavitev komponente je potrebno dodati obstoječi vir podatkov",
+        "EditabilityControls": {
+          "Readonly": "Samo za branje"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "Nastavitve uporabniškega profila",
+        "GeneralGroup": "Splošno",
+        "AttributeForReferenceColumn": "Vir podatkov",
+        "Editability": "Urejabilnost",
+        "EmptyUserProfileDataSourceHint": "Vir podatkov ni dodan na stran. Za nastavitev komponente je potrebno dodati obstoječi vir podatkov",
+        "EditabilityControls": {
+          "Readonly": "Samo za branje"
+        }
+      },
+      "NextStepsPropertiesPage": {
+        "PageCaption": "Nastavitve naslednjih korakov"
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini stran za predogled",
+        "TitleColumn": "Primarno prikazno polje",
+        "StartDateColumn": "Stolpec datuma začetka",
+        "EndDateColumn": "Stolpec datuma konca",
+        "NotesColumn": "Polje z informacijami o spletnem srečanju",
+        "PageCaption": "Nastavitve koledarja",
+        "RequiredFieldError": "To polje je obvezno",
+        "SecondaryTileFields": "Polja sekundarne ploščice",
+        "AddSecondaryFieldCaption": "Dodaj sekundarno polje",
+        "DisabledAddSecondaryFieldCaption": "Lahko dodate največ 4 sekundarna polja",
+        "AutoScrollToCurrentTime": "Samodejno se pomakni na trenutno uro",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Izbriši"
+        },
+        "ColorizationType": {
+          "Default": "Privzeto",
+          "ByField": "Samodejno",
+          "ByOwner": "Po uporabniku"
+        },
+        "ColorizationTypeCaption": "Način barvanja ploščic",
+        "ColorizationColumnCaption": "Seznam"
+      },
+      "NextBestOfferPropertiesPage": {
+        "HeaderLabel": "Nastavitve Najboljših naslednjih ponudb",
+        "GeneralCaption": "Splošno",
+        "DataSourceCaption": "Objekt",
+        "CaptionColumnField": "Napis",
+        "DescriptionColumnField": "Opis",
+        "InfoLabelColumnField": "Nov seznam",
+        "ImageColumnField": "Slika",
+        "NumberTagColumnField": "Oznaka",
+        "SortingFieldTooltip": "Elementi bodo razvrščeni po vrednosti iz tega polja v padajočem vrstnem redu.",
+        "AdditionalCaption": "Dodatno",
+        "SpecificPageLookupField": "Katero stran odpreti?",
+        "UseSpecificPageField": "Odpri določeno stran s klikom na napis",
+        "SpecificPageRecordIdField": "Identifikator zapisa",
+        "ViewModeCaption": "Način prikaza",
+        "CarouselViewMode": "Kreator",
+        "GalleryViewMode": "Galerija"
+      },
+      "MultiSelectPropertiesPage": {
+        "AppearanceCaption": "Videz",
+        "Editability": "Urejabilnost",
+        "EditabilityControls": {
+          "Readonly": "Samo za branje"
+        },
+        "EnableAddRecordCaption": "Omogoči dodajanje novih vrednosti",
+        "GeneralGroup": {
+          "General": "Splošno",
+          "MultiselectValueStorage": "Hramba večizbirnih vrednosti",
+          "SelectColumn": "Stolpec za prikaz",
+          "SelectLookup": "Izberi seznam",
+          "Required": "Obvezno",
+          "RequirementTypeItems": {
+            "No": "Ne",
+            "Yes": "Da"
+          }
+        },
+        "HeaderLabel": "Nastavitve večizbirnega seznama",
+        "LabelPosition": "Pozicija naslova",
+        "LabelPositionVariants": {
+          "Above": "Nad",
+          "Auto": "Avto",
+          "Hidden": "Skrito",
+          "Left": "Levo"
+        },
+        "Placeholder": "Nadomestno besedilo",
+        "TitleOnPage": "Naslov na strani",
+        "Tooltip": "Orodni namig",
+        "WrapCaption": "Prelivanje elementov v naslednjo vrstico",
+        "LookupStaticFilterLabel": "Uporabi statični filter za seznam"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Nastavitve odobritev",
+        "GeneralGroup": "Splošno",
+        "SchemaNameLabel": "Katere zapise je potrebno odobriti?",
+        "AppearanceGroup": "Videz",
+        "HiddenWhenNoData": "Skrito, ko ni podatkov"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Nastavitve seznama odobritev",
+        "GeneralGroup": "Splošno",
+        "SchemaNameLabel": "Objekt"
+      }
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Dodaj",
+    "AddFilterHint": "Dodaj novo mapo",
+    "BlankslateMessage": "Brez map",
+    "CloseFolderTree": "Skrij mape",
+    "CopyFolderSuffix": "Kopiraj",
+    "CopyRightsQuestion": "Kopiram dovoljenja za dostop do mape \"{0}\"?",
+    "DefaultFolderName": "Nova mapa",
+    "DeleteConfirmation": "Ali ste prepričani, da želite izbrisati izbrano mapo?",
+    "FavoritesNodeCaption": "Priljubljene",
+    "HasNotPermission": "Ni dovoljenja za to operacijo.",
+    "MenuActions": {
+      "AddFolder": "Dodaj mapo",
+      "AddStaticFolder": "Dodaj statično mapo",
+      "AddToFavorite": "Dodaj v priljubljene",
+      "ChangeFolderRights": "Nastavi pravice dostopa",
+      "ConvertToStaticFolder": "Pretvori v statično mapo",
+      "CopyFolder": "Kopiraj",
+      "DeleteFolder": "Izbriši",
+      "MoveFolder": "Premakni",
+      "RemoveFromFavorite": "Odstrani iz priljubljenih",
+      "RenameFolder": "Preimenuj"
+    },
+    "RootNodeCaption": "Vse",
+    "SetUpFilter": "Nastavi filter",
+    "ShowMenuActions": "Prikaži vsa dejanja"
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Shrani",
+    "CancelButton": "Prekliči",
+    "DialogTitle": "Nastavi filtre"
+  },
+  "FolderTreeSelectFolder": {
+    "CancelButton": "Prekliči",
+    "SelectFolderButtonCaption": "Izberi",
+    "SelectFolderCaption": "Izberite mapo"
+  },
+  "Components": {
+    "FolderTree": {
+      "Caption": "Mape",
+      "Hint": "Omogoča konfiguracijo strukture map za organizacijo zapisov po določenih filtih. Za pravilno delovanje komponente jo povežite v nastavitvah Seznama ali vira podatkov na strani."
+    },
+    "FolderTreeActions": {
+      "Caption": "Meni za upravljanje map",
+      "Hint": "Zahteva komponento Mape. Omogoča prikaz skritih map na strani."
+    },
+    "QuickFilter": {
+      "Caption": "Hitri filter",
+      "DateRange": {
+        "Macros": {
+          "Yesterday": "Včeraj",
+          "Today": "Danes",
+          "Tomorrow": "Jutri",
+          "PreviousWeek": "Prejšnji teden",
+          "CurrentWeek": "Ta teden",
+          "NextWeek": "Naslednji teden",
+          "PreviousMonth": "Prejšnji mesec",
+          "CurrentMonth": "Ta mesec",
+          "NextMonth": "Naslednji mesec",
+          "PreviousQuarter": "Prejšnje četrtletje",
+          "CurrentQuarter": "To četrtletje",
+          "NextQuarter": "Naslednje četrtletje",
+          "PreviousFiscalWeek": "Prejšnji finančni teden",
+          "CurrentFiscalWeek": "Trenutni fiskalni teden",
+          "NextFiscalWeek": "Naslednji fiskalni teden",
+          "FiscalQuarter1": "1. četrtletje",
+          "FiscalQuarter2": "2. četrtletje",
+          "FiscalQuarter3": "3. četrtletje",
+          "FiscalQuarter4": "4. četrtletje",
+          "FiscalHalfYear1": "Prvo polletje",
+          "FiscalHalfYear2": "Drugo polletje",
+          "PreviousFiscalYear": "Prejšnje leto",
+          "CurrentFiscalYear": "To leto",
+          "NextFiscalYear": "Naslednje leto"
+        }
+      }
+    },
+    "MessageComposer": {
+      "Caption": "Sestavljalnik sporočil",
+      "DesignerCustomEntities": {
+        "Email": {
+          "Caption": "E-pošta"
+        },
+        "Feed": {
+          "Caption": "Vir"
+        },
+        "SelectChannelsCaption": "Izberi kanale"
+      }
+    },
+    "EncryptedInput": {
+      "Caption": "Šifriran niz",
+      "EyeButtonShowValueCaption": "Prikaži vrednost",
+      "EyeButtonHideValueCaption": "Skrij vrednost",
+      "EyeButtonDisabledCaption": "Ne morem prikazati/skriti vrednosti",
+      "ToggleMaskedValueHandler": {
+        "ErrorMessage": "Prišlo je do napake. Potrebno je poskusiti ponovno ali poiskati pomoč pri skrbniku sistema."
+      },
+      "UnmaskRecordParametersBuilder": {
+        "UnsupportedAttributeTypeError": "Ta tip atributa ni podprt za to dejanje. Potrebno je preveriti konfiguracijo polja ali poskusiti z drugim tipom podatkov.",
+        "CurrentRecordIdNotFoundError": "Ni mogoče najti ID-ja trenutnega zapisa. Do tega lahko pride, če trenutni zapis še ni bil shranjen. Potrebno je zagotoviti, da je zapis shranjen pred izvedbo tega dejanja.",
+        "ReferenceRecordIdNotFoundError": "Manjka ID referenčnega zapisa. Do tega lahko pride, če referenca kaže na nov zapis, ki še ni bil shranjen v bazo podatkov. Potrebno je najprej shraniti referenčni zapis.",
+        "ReferenceColumnSchemaNameNotFoundError": "Ime referenčne sheme stolpca ni bilo najdeno. Potrebno je preveriti konfiguracijo referenčnega polja."
+      }
+    },
+    "ColorPicker": {
+      "SelectedColor": "Izbrana barva",
+      "Readonly": "Neurejevalno polje"
+    },
+    "NextBestOfferDT": {
+      "Caption": "Naslednje najboljše ponudbe"
+    },
+    "NextBestOffer": {
+      "Caption": "Naslednje najboljše ponudbe",
+      "EmptyValue": "Ni na voljo",
+      "Next": "Naprej",
+      "Previous": "Prejšnji"
+    },
+    "MultiSelect": {
+      "Caption": "Seznam z večkratno izbiro",
+      "CreateRecordButtonCaption": "Ustvari zapis",
+      "Label": "Večkratna izbira",
+      "ExpanderIcon": "Razširi spustni seznam",
+      "OpenModalIcon": "Odpri modalno okno",
+      "TooltipInfoIcon": "Informacijski orodni namig",
+      "ReadonlyIcon": "Neurejevalno polje"
+    },
+    "Approval": {
+      "Caption": "Odobritve"
+    },
+    "ApprovalList": {
+      "Caption": "Seznam odobritev",
+      "RefreshCaption": "Osveži",
+      "ProvideDataSource": "Pred uporabo odobritev je potrebno zagotoviti vir podatkov"
+    }
+  },
+  "FolderTreeActions": {
+    "ClearButtonCaption": "Počisti izbiro",
+    "FavoriteItemsMenuButtonAriaLabel": "Meni za priljubljene mape",
+    "FolderButtonAriaLabel": "Odpri/Zapri drevo map",
+    "MenuButton": "Mape"
+  },
+  "StaticFolderConvertor": {
+    "AsyncConvertMessage": "Obveščeni boste, ko bo pretvorba zaključena."
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "Nastavitve seznama za mapo",
+      "CreateDataGridSettingsForFolder": {
+        "SuccessStatus": "Nastavitve seznama so bile uspešno shranjene. Uporabljale se bodo le, ko bo mapa \"{0}\" aktivna",
+        "Label": "Ustvari nastavitve po meri za \"{0}\""
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Shrani kot nove privzete nastavitve za \"{0}\"",
+        "Confirmation": "Nove privzete nastavitve seznama za mapo \"{0}\" bodo shranjene za vse uporabnike. Nadaljuj?",
+        "SuccessStatus": "Nastavitve seznama so bile uspešno shranjene. Uporabljale se bodo le, ko bo mapa \"{0}\" aktivna"
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Počisti nastavitve po meri za \"{0}\"",
+        "Confirmation": "Nastavitve seznama po meri za mapo \"{0}\" bodo izbrisane za vse uporabnike in uveljavljene bodo splošne nastavitve seznama. Nadaljuj?",
+        "SuccessStatus": "Nastavitve seznama za mapo \"{0}\" so bile uspešno izbrisane"
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Prepiši trenutne nastavitve za vse uporabnike za \"{0}\"",
+        "Confirmation": "Nove privzete nastavitve seznama bodo shranjene za mapo \"{0}\" in bodo zamenjale trenutne nastavitve za vse uporabnike. Nadaljuj?",
+        "SuccessStatus": "Nastavitve seznama so bile uspešno shranjene. Uporabljale se bodo le, ko bo mapa \"{0}\" aktivna"
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Obnovi privzete nastavitve za \"{0}\"",
+        "Confirmation": "Privzete nastavitve seznama bodo obnovljene za mapo \"{0}\". Nadaljuj?",
+        "SuccessStatus": "Privzete nastavitve seznama za mapo \"{0}\" so bile uspešno obnovljene."
+      }
+    }
+  },
+  "QuickFilterTargetsGroup": {
+    "Label": "Dodaj komponente",
+    "Tooltip": "Potrebno je dodati komponente"
+  },
+  "QuickFilterTarget": {
+    "DefaultValueCaption": "Privzeta vrednost",
+    "FilterColumnLabel": "Stolpec filtra",
+    "ViewAttributeLabel": "Komponenta za filtriranje"
+  },
+  "CustomQuickFilterTarget": {
+    "EditFilterCaption": "Uredi filter",
+    "SetupFilterCaption": "Nastavi filter",
+    "FiltersDialogCaption": "Ročno določen filter",
+    "DefaultCheckBoxState": {
+      "Label": "Privzeto stanje potrditvenega polja",
+      "CheckedCaption": "Označeno",
+      "UncheckedCaption": "Neoznačeno"
+    },
+    "FilteringApproachState": {
+      "Label": "Pristop filtriranja",
+      "OnCheckedCaption": "Uporabi pogoj filtra, kadar je potrditveno polje označeno",
+      "OnUncheckedCaption": "Uporabi pogoj filtra, kadar je potrditveno polje neoznačeno"
+    }
+  },
+  "DateRangeQuickFilterTarget": {
+    "DefaultPeriodCaption": "Privzeto obdobje",
+    "ChooseFilteringMethodCaption": "Izberi metodo filtriranja",
+    "ChooseFilteringMethodTooltip": "Filter lahko prikaže podatke, ki ustrezajo določenemu obdobju.\nPogoj »Nastavi filter po enem datumu« prikaže zapise, ustvarjene ali spremenjene na določen dan. Primer: prikaz potencialnih strank po datumu ustvarjanja, priložnosti po datumu zaprtja ali primerov po datumu rešitve.\n\nPogoj »Nastavi filter po razponu datumov« prikaže zapise, za katere je pomemben razpon datumov. Primer: pogodbe, katerih začetni in končni datum sta znotraj določenega razpona datumov.",
+    "SetUpByOneColumnTitle": "Nastavi filter po enem datumu",
+    "SetUpByTwoColumnsTitle": "Nastavi filter po razponu datumov",
+    "FilterColumnStartCaption": "Filtriraj stolpec Od",
+    "FilterColumnEndCaption": "Filtriraj stolpec Do",
+    "ShowTimeLabel": "Omogoči čas",
+    "ShowFiscalPeriodsLabel": "Prikaži fiskalna obdobja"
+  },
+  "LookupQuickFilterTarget": {
+    "CurrentUserContactName": "Stik trenutnega uporabnika",
+    "CurrentUserAccountName": "Trenutni račun uporabnika",
+    "EditFilterCaption": "Uredi filter",
+    "SetupFilterCaption": "Nastavi filter",
+    "FiltersDialogCaption": "Ročno določen filter",
+    "TagVirtualColumnCaption": "Oznaka"
+  },
+  "QuickFilter": {
+    "MainTitle": "Hitri filter",
+    "DateRange": {
+      "Macros": {
+        "Yesterday": "Včeraj",
+        "Today": "Danes",
+        "Tomorrow": "Jutri",
+        "PreviousWeek": "Prejšnji teden",
+        "CurrentWeek": "Ta teden",
+        "NextWeek": "Naslednji teden",
+        "PreviousMonth": "Prejšnji mesec",
+        "CurrentMonth": "Ta mesec",
+        "NextMonth": "Naslednji mesec",
+        "PreviousQuarter": "Prejšnje četrtletje",
+        "CurrentQuarter": "To četrtletje",
+        "NextQuarter": "Naslednje četrtletje",
+        "PreviousFiscalWeek": "Prejšnji teden",
+        "CurrentFiscalWeek": "Ta teden",
+        "NextFiscalWeek": "Naslednji teden",
+        "FiscalQuarter1": "1. četrtletje",
+        "FiscalQuarter2": "2. četrtletje",
+        "FiscalQuarter3": "3. četrtletje",
+        "FiscalQuarter4": "4. četrtletje",
+        "FiscalHalfYear1": "Prvo polletje",
+        "FiscalHalfYear2": "Drugo polletje",
+        "PreviousFiscalYear": "Prejšnje leto",
+        "CurrentFiscalYear": "To leto",
+        "NextFiscalYear": "Naslednje leto"
+      },
+      "Header": {
+        "ArrowRight": "Naslednji mesec",
+        "ArrowLeft": "Prejšnji mesec"
+      },
+      "RangeSelectedFrom": "Izbrano od",
+      "RangeSeparator": "Do",
+      "ClearIcon": "Počisti izbrani razpon",
+      "SelectDatePlaceholder": "Izberi datum",
+      "ClearStartDatePlaceholder": "Počisti izbrani datum začetka",
+      "ClearEndDatePlaceholder": "Počisti izbrani datum konca",
+      "EmptyDateRangeStartLabel": "<Datum začetka>",
+      "EmptyDateRangeEndLabel": "<Datum konca>",
+      "EmptyDateRangeStartAriaLabel": "[Datum začetka ni izbran]",
+      "EmptyDateRangeEndAriaLabel": "[Datum konca ni izbran]",
+      "CalendarMode": "Koledar",
+      "FiscalMode": "Fiskalno",
+      "Fiscal": {
+        "PeriodNotFound": "Nismo mogli naložiti obseg datumov fiskalnega obdobja. Preverite, ali so fiskalna obdobja nastavljena, ali pa se za pomoč obrnite na svojega administratorja.",
+        "LoadError": "Prišlo je do napake pri nalaganju podatkov o fiskalnem obdobju. Za pomoč se obrnite na svojega administratorja."
+      },
+      "SelectTimePlaceholder": "Izberi čas"
+    },
+    "Lookup": {
+      "NoData": "Ni podatkov"
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Naslednji mesec",
+    "AriaPrevMonthLabel": "Prejšnji mesec",
+    "AriaNextYearLabel": "Naslednje leto",
+    "AriaPrevYearLabel": "Prejšnje leto",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Koledar",
+    "TimePickerIconTitle": "Čas",
+    "Readonly": "Neurejevalno polje"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Možnosti oblikovanja (Alt+F10)",
+    "UploadAttachments": "Izberite priloge",
+    "SelectTemplate": "Vstavi predlogo",
+    "SelectionActions": {
+      "AskCopilot": "Vprašaj Creatio.ai",
+      "Friendly": "Prijazen",
+      "Formal": "Formalno",
+      "Shorten": "Skrajšaj",
+      "Extend": "Razširi",
+      "Rephrase": "Ponovno oblikuj",
+      "RewriteCaption": "Prepiši besedilo"
+    },
+    "TableOfContents": {
+      "Title": "Kazalo vsebine",
+      "Placeholder": "Tukaj se bo pojavila vsebina kazala, ki temelji na naslovih na tej strani, ko bo objavljena."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Shrani",
+    "OpenLinkButtonCaption": "Odpri v novem zavihku",
+    "CloseLinkButtonCaption": "Zapri",
+    "UnlinkLinkButtonCaption": "Odstrani povezavo",
+    "LinkLabelCaption": "Naslov povezave",
+    "TextLabelCaption": "Besedilo za prikaz"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Vstavi video",
+    "PasteUrlTab": "Prilepi URL",
+    "UploadFileTab": "Naloži datoteko",
+    "EmbedCodeTab": "Vdelana koda",
+    "DialogDescription": "Ta video bo vstavljen v širino 640 slikovnih točk.<br>Ta vstavljen video bo vseboval besedilno povezavo.",
+    "SaveButton": "Vstavi video",
+    "CancelButton": "Prekliči",
+    "UploadButton": "Naloži datoteko",
+    "InputPlaceholder": "Prilepi sem",
+    "DragAndDropPlaceholder": "Povleci in spusti datoteko sem ali",
+    "NotVideoFile": "Vstavljena datoteka ni video, prosimo izberite datoteko z vrsto video.",
+    "ConfirmMessage": "Ta stran vsebuje neshranjene podatke. Če stran zaprete, bodo spremembe izgubljene. Shrani spremembe?"
+  },
+  "Feed": {
+    "Caption": "Vir",
+    "SortButtonCaption": "Razvrsti vir",
+    "SortByCreatedOn": "Razvrsti po datumu sporočila",
+    "SortByLastAction": "Razvrsti po datumu zadnje aktivnosti",
+    "ShowMoreThanOneNewSocialMessages": "Prikaži {0} novih sporočil",
+    "ShowNewSocialMessage": "Prikaži 1 novo sporočilo",
+    "ExternalUserTagCaption": "Zunanji",
+    "DraftItemTagCaption": "Osnutek",
+    "ExternalUserTagTooltip": "Objava za zunanje uporabnike",
+    "ActionsButtonCaption": "Dejanja",
+    "FollowButtonCaption": "Sledi viru",
+    "UnfollowButtonCaption": "Prekini sledenje viru",
+    "Item": {
+      "Edit": "Uredi",
+      "Delete": "Izbriši",
+      "DeletionConfirmation": "Ali ste prepričani, da želite izbrisati zapis? Teh dejanj ni mogoče razveljaviti.",
+      "DeletionErrorMsg": "Zapis ni bil izbrisan. Prosimo, poskusite znova pozneje.",
+      "DownloadFile": "Prenesi"
+    },
+    "Publisher": {
+      "DefaultInputPlaceholder": "Objavi sporočilo…",
+      "DisabledInputPlaceholder": "Ne morete ustvarjati novih objav na strani za nov zapis.",
+      "UserFeedInputPlaceholder": "Vir je v uporabniškem načinu. V tem načinu ne morete ustvariti novih objav.",
+      "CommentInputPlaceholder": "Napiši komentar…",
+      "ShareWithPortal": "Deli s uporabnikom portala",
+      "PostingErrorMsg": "Napaka med shranjevanjem objave v viru",
+      "PostingEmptyMsg": "Prosimo, vnesite sporočilo za nadaljevanje.",
+      "SendButtonHint": "Pošlji sporočilo (Ctrl + Enter)",
+      "CancelButtonHint": "Prekliči",
+      "ExternalMessagesDisabled": "Upoštevajte, da zunanji uporabnik sporočila ne bo mogel prebrati, ker je ta možnost onemogočena v času oblikovanja komponente.",
+      "ConfirmMessageAccessLevelChange": "Prosimo potrdite, da želite spremeniti raven vidnosti objave. Upoštevajte: objava, povezani komentarji in priponke bodo postale vidne zunanjim uporabnikom.",
+      "ConfirmCommentAccessLevelChange": "Prosimo potrdite, da želite spremeniti raven vidnosti komentarja. Upoštevajte, da bodo komentar in pripete datoteke vidne zunanjim uporabnikom."
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Dodaj komentar",
+      "CommentsButtonCaption": "Komentarji",
+      "CommentsButtonHint": "Prikaži komentarje",
+      "ExpandedCommentsButtonHint": "Skrij komentarje",
+      "PostedInLabel": "objavljeno v"
+    },
+    "Reactions": {
+      "Like": "Všeč mi je",
+      "ExtraReactionsTemplate": "in {0} več...",
+      "PostLiked": "Objava v viru je bila všečkana.",
+      "LikeRemoved": "Všeček je bil odstranjen iz objave v viru."
+    },
+    "NoDataContainerLabel": "Tako tiho!",
+    "Following": {
+      "ButtonCaption": {
+        "Follow": "Sledi viru",
+        "Unfollow": "Prekini sledenje viru"
+      },
+      "NotificationTemplate": {
+        "Follow": "Spremljate posodobitve vira: {0}",
+        "Unfollow": "Prenehali ste spremljati posodobitve vira: {0}"
+      }
+    },
+    "FollowNotificationTemplate": "Вы подписались на обновления ленты: {0}",
+    "UnfollowNotificationTemplate": "Вы отписались от обновлений ленты: {0}"
+  },
+  "MessageComposer": {
+    "CancelButtonHint": "Zavrzi",
+    "CancelButtonText": "Zavrzi",
+    "SaveDraftButtonText": "Shrani osnutek",
+    "SendButtonHint": "Pošlji sporočilo (Ctrl + Enter)",
+    "MessageSent": "Sporočilo poslano",
+    "SendButtonText": "Pošlji",
+    "RemoveAttachmentHint": "Odstrani prilogo",
+    "AttachmentPreview": "Predogled priloge",
+    "ComposerAreaLabel": "Vnosno območje sestavljalnika sporočil",
+    "Caption": "Sestavljalnik sporočil",
+    "Email": {
+      "Caption": "Sestavljalnik e-pošte",
+      "From": "Od",
+      "To": "Za",
+      "CC": "CC",
+      "BCC": "BCC",
+      "Subject": "Zadeva",
+      "PublishError": "Pošiljanje sporočila ni uspelo. Prejeto je bilo naslednja napaka: {0}",
+      "SaveDraftError": "Osnutka ni mogoče shraniti. Poskusite znova pozneje",
+      "TemplateInsertError": "Predloge ni mogoče dodati. Poskusite znova pozneje.",
+      "AttachmentsSizeLimitReached": "Skupna velikost priponk je večja od dovoljene {0} MB. Prosimo, odstranite nekatere priponke.",
+      "FromValidationErrorMessage": "Polje „Od” ne sme biti prazno. Izberite poštni predal.",
+      "ToValidationErrorMessage": "Polje \"To\" ne sme biti prazno. Prosimo, vnesite vsaj enega prejemnika.",
+      "SubjectValidationErrorMessage": "Polje \"Zadeva\" ne sme biti prazno. Prosim vnesite zadevo e-pošte.",
+      "Draft": "Osnutek",
+      "BodyPlaceholder": "Vnesite sporočilo",
+      "Reply": "Odgovori",
+      "ReplyAll": "Odgovori vsem",
+      "Forward": "Posreduj",
+      "SentOn": "Poslano",
+      "SubjectToggleCaption": "Zadeva",
+      "CcToggleCaption": "CC",
+      "BccToggleCaption": "BCC",
+      "NotContainsEmail": "ne vsebuje e-pošte",
+      "ChangeReplyAction": "Spremeni dejanje odgovora",
+      "ShowTrimmedEmailTitle": "Prikaži skrajšano e-pošto",
+      "EmailTemplatesLookupCaption": "Izberi predlogo",
+      "EmailTemplatesDisplayColumnCaption": "Naziv predloge",
+      "ContinueEditing": "Nadaljuj z urejanjem",
+      "SaveDraft": "Shrani osnutek",
+      "DraftSaved": "Osnutek shranjen",
+      "EmailSent": "E-poštno sporočilo poslano",
+      "RemoveRecipientLabel": "Odstrani prejemnika"
+    },
+    "Feed": {
+      "Caption": "Sestavljalnik virov"
+    },
+    "Selector": {
+      "Caption": "Sestavljalnik sporočil"
+    },
+    "Attachment": {
+      "Added": "Priponka je bila dodana.",
+      "Removed": "Priponka je bila odstranjena."
+    },
+    "SendEmailErrorMessage": "Prišlo je do nepričakovane napake pri pošiljanju e-pošte. Poskusite znova kasneje."
+  },
+  "CopilotDisclaimer": {
+    "AgreeButton": "Strinjam se"
+  },
+  "ChatMessage": {
+    "File": {
+      "DownloadLink": "Prenesi datoteko"
+    },
+    "System": {
+      "ChatStartedMessage": "Pogovor se je začel ob {chatStartedAt}, začel ga je {chatStartedBy}"
+    }
+  },
+  "ChatList": {
+    "NoDataMessage": "Trenutno ni nedavnih klepetov",
+    "CreateChatButton": "Začni nov pogovor",
+    "DraftPreview": "<span class='draft-preview'>Draft: </span>",
+    "YourPreview": "Vi: ",
+    "RenameChat": {
+      "LabelTitle": "Preimenuj klepet",
+      "InputTitle": "Naslov",
+      "SaveButton": "Shrani",
+      "CancelButton": "Prekliči"
+    },
+    "ChatItem": {
+      "ActionsMenuCaption": "Dejanja"
+    },
+    "NoDataBySearchFilter": "Ni zapisov, ki bi ustrezali kriterijem filtra",
+    "NoDataBySearchFilterSubtitle": "Počisti filter ali spremeni njegove pogoje ",
+    "ARIA": {
+      "Label": "Klepet",
+      "ChatItem": "Pogovor: {0}. Zadnje sporočilo: {1}",
+      "LoadMoreTrigger": "Naloži več"
+    },
+    "AlreadyAssignedChat": "Klepet je bil dodeljen drugemu agentu"
+  },
+  "ChatTransfer": {
+    "ButtonCaption": "Prenos klepeta",
+    "AgentTab": "Agent",
+    "QueueTab": "Čakalna vrsta",
+    "NoOperatorsAvailable": "Ni razpoložljivih agentov",
+    "NoData": "Ni podatkov",
+    "OperatorStatus": {
+      "0": "Neaktivno",
+      "1": "Aktivno",
+      "2": "Doseženo je bilo največje dovoljeno število pogovorov"
+    },
+    "InputPlaceholder": "Klepet je bil preusmerjen",
+    "NoQueuesAvailable": "Ni razpoložljivih čakalnih vrst",
+    "ActiveAgentsCount": "{{count}} aktivni agent"
+  },
+  "ChatAttachmentTile": {
+    "AttachedFile": "Priložena datoteka: {{fileName}}",
+    "DeleteFile": "Izbriši {{fileName}}"
+  },
+  "ChatQuickActions": {
+    "ButtonCaption": "Izvedi dejanje",
+    "NoActionsTemplate": "Ni razpoložljivih dejanj. Prosimo, dodajte dejanja klepeta na ${link}.",
+    "ChatSettingsPage": "Stran za nastavitve klepeta",
+    "ProcessExecutedSuccessfully": "Proces je bil uspešno izveden",
+    "ProcessExecutionFailed": "Izvajanje procesa ni uspelo. Poskusite znova."
+  },
+  "MessageTemplates": {
+    "ButtonCaption": "Odpri predloge (klikni ali vpiši //)",
+    "NotFound": "Ni najdenih predlog",
+    "NoAvailable": "Predloge niso na voljo",
+    "Group": {
+      "RecentlyUsed": "Nedavno uporabljeno",
+      "Others": "Drugo"
+    }
+  },
+  "EmojiSelect": {
+    "ButtonCaption": "Dodaj emotikon",
+    "ButtonAriaLabel": "Odpri izbirnik čustvenih simbolov",
+    "PickerAriaLabel": "Izbirnik čustvenih simbolov"
+  },
+  "LinkChatToContact": {
+    "SelectContactCaption": "Izberi: stik",
+    "ConfirmLinkMessage": "Vsi klepeti trenutnega stika bodo povezani z izbranim stikom, trenutni stik pa bo nato izbrisan. Ali želite nadaljevati?"
+  },
+  "Translations": {
+    "TargetLanguage": "ciljni jezik",
+    "TranslatingTo": "Prevajanje v {{language}}...",
+    "TranslatedTo": "Prevedeno v {{language}}",
+    "TranslationFailedDialog": "Prevod ni uspel. Poskusite znova."
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Prikaži izvirnik",
+      "Original": "Prevedi",
+      "Retry": "Poskusi znova"
+    },
+    "AutoCaption": {
+      "On": "Omogoči samodejno prevajanje",
+      "Off": "Onemogoči samodejno prevajanje"
+    }
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {
+      "LoadErrorMessage": "Nepodprta vrsta datoteke. Te datoteke ni mogoče predogledati."
+    }
+  },
+  "Summaries": {
+    "Caption": "Povzetki",
+    "Actions": {
+      "Title": "Povzemi dejanja",
+      "CreateCount": "Prikaži število zapisov"
+    },
+    "ProfileActions": {
+      "SaveForAll": "Shrani nastavitev za vse uporabnike",
+      "SaveForAllSuccessfully": "Nastavitve povzetka so bile uspešno shranjene za vse uporabnike",
+      "ResetToDefault": "Obnovi privzete nastavitve",
+      "ResetToDefaultSuccessfully": "Privzete nastavitve povzetka so bile uspešno obnovljene"
+    },
+    "QuickSummaries": {
+      "QuickSetup": "Hitra nastavitev",
+      "Count": "Število",
+      "Minimum": "Minimum",
+      "Maximum": "Maksimum",
+      "Sum": "Vsota",
+      "Average": "Povprečje"
+    },
+    "AdvancedSetup": {
+      "Title": "Napredna nastavitev",
+      "Actions": {
+        "AddCustomSummary": "Dodaj nov povzetek"
+      }
+    },
+    "Hints": {
+      "NoDataSource": "Vir podatkov ni izbran",
+      "Collapse": "Strni povzetke",
+      "Expand": "Razširi povzetke"
+    }
+  },
+  "SummaryItem": {
+    "AriaLabel": "Element povzetka",
+    "Actions": {
+      "Delete": "Izbriši",
+      "Edit": "Uredi"
+    },
+    "Statuses": {
+      "Added": "Element povzetka je uspešno dodan",
+      "Deleted": "Element povzetka je uspešno izbrisan",
+      "Edited": "Element povzetka je uspešno spremenjen",
+      "Error": "Napaka"
+    }
+  },
+  "SummaryItemEditDialog": {
+    "DefaultTitle": "Povzetek",
+    "Title": "Naslov",
+    "Column": "Stolpec",
+    "Function": "Funkcija",
+    "CustomSummaryLabelTooltip": "Element vsebuje vnaprej konfigurirano logiko prikaza podatkov. Če je potrebno implementirati alternativno logiko, je potrebno odstraniti vrednost elementa."
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Pokliči"
+  },
+  "MergingRecords": {
+    "ConflictsResolveDialog": {
+      "TitleTemplate": "Združi podvojene ({0})",
+      "Actions": {
+        "Merge": "Združi"
+      }
+    },
+    "Handler": {
+      "Errors": {
+        "General": "Ni mogoče združiti izbranih zapisov",
+        "NoRights": "Nezadostna dovoljenja za združitev podatkov",
+        "MinSelectedRecordsViolation": "Izberite vsaj dva zapisa za združitev",
+        "SelectionAllModeUsingViolation": "Združevanje ni mogoče, ko uporabljate \"Izberi vse\". Ročno izberite zapise, ki jih želite združiti."
+      },
+      "SuccessfulCompletionStatus": "Sistem je pričel z združevanjem podatkov. Ko bo postopek končan, bo obvestilo na voljo v komunikacijski plošči."
+    }
+  },
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Klicano",
+        "Sec": "sek",
+        "DetailsLinkCaption": "Podrobnosti klica"
+      },
+      "Chat": {
+        "ChatWith": "pogovarjal z",
+        "Show": "Prikaži klepet",
+        "Hide": "Skrij klepet",
+        "DetailsLinkCaption": "Podrobnosti klepeta"
+      },
+      "Email": {
+        "MailedTo": "Poslano na",
+        "From": "Od:",
+        "To": "Za:",
+        "CC": "CC:",
+        "Details": "Podrobnosti",
+        "Hide": "Skrij"
+      },
+      "File": {
+        "AddedFile": "Dodana datoteka"
+      }
+    },
+    "NoDataMessage": "Preteklost ne obstaja",
+    "FillActionMessage": "Ni povezanih zapisov, ki bi jih bilo mogoče prikazati na časovnici",
+    "NoDataByFilterMessage": "Ni zapisov, ki bi ustrezali kriterijem filtra",
+    "FillActionByFilterMessage": "Počisti filter ali spremeni pogoje",
+    "EntityFilterCaption": "Vse",
+    "OwnerFilterCaption": "Lastnik",
+    "DateFilterCaption": "Izberi obdobje",
+    "HideSystemMessagesCaption": "Skrij sistemska sporočila",
+    "EntityFilterHint": "Izberi vrsto zapisa",
+    "OwnerFilterHint": "Izberi lastnika zapisa",
+    "DateFilterHint": "Izberi obdobje zapisa",
+    "HideSystemMessagesHint": "Skrij avtomatizirana e-poštna sporočila",
+    "DateSort": "Datum",
+    "TileCaptions": {
+      "Email": {
+        "Caption": "E-pošta"
+      },
+      "Feed": {
+        "Caption": "Vir"
+      },
+      "Task": {
+        "Caption": "Naloga"
+      },
+      "SysFile": {
+        "Caption": "Datoteka"
+      }
+    },
+    "ARIA": {
+      "SortButton": {
+        "Title": "Razvrsti po gumbu za datum, trenutno razvrščeno {0}",
+        "Descending": "padajoče",
+        "Ascending": "naraščajoče"
+      }
+    }
+  },
+  "CommunicationOptions": {
+    "DesignerPhoneLabel": "Telefonska številka",
+    "DesignerEmailLabel": "E-poštni naslov",
+    "DesignerWebLabel": "Spletna povezava",
+    "Caption": "Možnosti komunikacije",
+    "DeleteOption": "Izbriši",
+    "Primary": "primarno",
+    "Invalid": "neveljavno",
+    "MarkAsPrimary": "Nastavi kot primarno",
+    "MarkAsValid": "Označi kot veljavno",
+    "MarkAsInvalid": "Označi kot neveljavno",
+    "Validations": {
+      "DuplicateNumberMessage": "{0} {1} že obstaja",
+      "ReadOnlyStateMessage": "Možnosti komunikacije ni mogoče dodati, saj je komponenta v načinu samo za branje",
+      "IncorrectSetupComponentMessage": "Dodajanje možnosti komunikacije ni mogoče, ker komponenta strani še ni nastavljena. Sistemski skrbnik lahko dokonča nastavitev v oblikovalniku Freedom UI",
+      "EmptyMasterRecordColumnNameInRequestMessage": "Možnosti komunikacije ni mogoče dodati praznemu zapisu. Najprej je potrebno dodati vrednost zapisa"
+    },
+    "Announcement": {
+      "Option": {
+        "Added": "{0} dodano",
+        "Deleted": "{0} {1} izbrisano",
+        "SetAsPrimary": "{0} {1} nastavljeno kot primarno",
+        "MarkedAsValid": "{0} {1} označeno kot veljavno",
+        "MarkedAsInvalid": "{0} {1} označeno kot neveljavno"
+      }
+    },
+    "NoDataPlaceholderText": "Ni podatkov",
+    "ToolsAriaLabel": "Dejanja"
+  },
+  "AccountCompactProfileDT": {
+    "DesignerNamePlaceholder": "Naziv računa",
+    "AlternativeNamePlaceholder": "Tudi znan kot",
+    "CountryPlaceholder": "Država"
+  },
+  "ContactCompactProfileDT": {
+    "DesignerNamePlaceholder": "Ime stika",
+    "DesignerBirthDatePlaceholder": "Datum rojstva",
+    "CountryPlaceholder": "Država"
+  },
+  "BaseCompactProfile": {
+    "DialogClose": "Zapri"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Kompakten profil računa",
+    "DialogTitle": "Uredi račun",
+    "AlternativeNameFieldLabel": "Tudi znan kot",
+    "EmptyDisplayValue": "Ni prikazane vrednosti",
+    "NamePlaceholder": "Dodaj naziv računa",
+    "EmptyRecord": {
+      "NamePlaceholder": "Naziv računa",
+      "AlternativeNamePlaceholder": "Tudi znan kot",
+      "CountryPlaceholder": "Država"
+    }
+  },
+  "ContactCompactProfile": {
+    "Caption": "Kompakten profil računa",
+    "DialogTitle": "Uredi stik",
+    "EmptyDisplayValue": "Ni prikazane vrednosti",
+    "NamePlaceholder": "Dodaj ime stika",
+    "BirthDatePlaceholder": "in datum rojstva",
+    "EmptyRecord": {
+      "NamePlaceholder": "Ime stika",
+      "BirthDatePlaceholder": "Datum rojstva",
+      "CountryPlaceholder": "Država"
+    }
+  },
+  "UserCompactProfile": {
+    "Caption": "Kompakten profil uporabnika",
+    "DialogTitle": "Uredi ime",
+    "EmptyDisplayValue": "Ni prikazane vrednosti",
+    "NamePlaceholder": "Dodaj ime uporabnika"
+  },
+  "IFrame": {
+    "PropertiesPanel": {
+      "Caption": "Nastavitve iFrame",
+      "GeneralSettings": {
+        "Caption": "Splošno",
+        "ContentTypeLabel": "Vrsta vsebine",
+        "ContentValueLabel": "Vsebina za prikaz",
+        "UrlContentPlaceholder": "https://mysitename.com",
+        "UrlContentTooltip": "Da bo vsebina pravilno prikazana, preverite, da velja naslednje: <ul><li>Vir dovoljuje vdelavo v iFrame</li><li>Povezava uporablja protokol HTTPS</li><li>Domena vira je vključena na seznam zaupanja vrednih virov v vaši Politiki varnosti vsebine (Content Security Policy). Priporočamo, da dodate vsaj dve dovoljeni direktivi: connect-src in frame-src</li></ul>"
+      },
+      "PermissionsSettings": {
+        "Caption": "Permissions",
+        "AllowLabel": "Dovoljene funkcije",
+        "AllowTooltip": "Določa, katere funkcije brskalnika lahko vdelana vsebina uporablja, na primer kamera, mikrofon, celozaslonski način. <br/>Za več informacij si oglejte <a href='https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Permissions-Policy' target='_blank' rel='noopener noreferrer'>dokumentacijo MDN</a>.",
+        "SandboxLabel": "Dovoljenja peskovnika",
+        "SandboxTooltip": "Določa, katere omejitve peskovnika so odstranjene za vdelano vsebino. Dodelite le dovoljenja, ki so nujno potrebna. <br/>Več informacij najdete v <a href='https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/iframe#sandbox' target='_blank' rel='noopener noreferrer'>MDN dokumentaciji</a>."
+      }
+    },
+    "Caption": "iFrame",
+    "Hint": "komponenta IFrame omogoča vdelavo in prikaz vsebine v formatu HTML ali URL",
+    "Placeholder": {
+      "NothingToShow": "Ničesar ni za prikaz",
+      "NoContent": "V tem razdelku ni vsebine"
+    },
+    "ContentUnavailable": {
+      "Title": "Vsebina ni na voljo",
+      "SubTitle": "Zaradi nastavitev omrežja, varnostnih politik brskalnika ali omejitev vsebine",
+      "LinkTitle": "Preberite več v naši Akademiji"
+    }
+  },
+  "DashboardsPropertiesPage": {
+    "PageCaption": "Nastavitve nadzornih plošč",
+    "GeneralGroup": {
+      "Caption": "Splošno",
+      "DataSource": "Vir podatkov",
+      "DataSourceTooltip": "Vir podatkov bo nastavljen kot primarni vir podatkov za vsako nadzorno ploščo, ustvarjeno v tej komponenti",
+      "DataSourceDependenciesSettingTooltip": "Filtriranje po podatkih strani omogoča prikaz povezanih podatkov na nadzorni plošči",
+      "DataSourceFilterElementsGroupTooltip": "Nastavitev omogoča uporabo vnaprej konfiguriranih filtrov iz map ali drugih elementov za filtriranje podatkov kot filtre strani."
+    },
+    "DashboardsGroup": {
+      "Caption": "Nadzorne plošče",
+      "AddDashboard": "Dodaj novo nadzorno ploščo",
+      "InfoTooltip": "Seznam nadzornih plošč prikazuje le tiste elemente, ki so sheme v konfiguraciji",
+      "ContextMenu": {
+        "Copy": "Kopiraj",
+        "Delete": "Izbriši",
+        "Edit": "Uredi"
+      },
+      "DialogMessages": {
+        "DeleteDashboard": {
+          "Confirmation": {
+            "Default": "Ali ste prepričani, da želite izbrisati nadzorno ploščo \"{{caption}}\"?",
+            "WithUserLevelSchema": "Nadzorna plošča, ki jo želite izbrisati, ima odvisno nadzorno ploščo: \"{{caption}}\" shema končnega uporabnika. Če nadaljujete, bosta izbrisani obe nadzorni plošči. Nadaljujem?"
+          },
+          "UnableToDelete": {
+            "InReadOnlyPackage": "Nadzorne plošče \"{{caption}}\" ni mogoče izbrisati, ker je bila ustvarjena s strani zunanjega založnika ali nameščena iz datoteke.",
+            "DependsOnSchema": "Nadzorne plošče \"{{caption}}\" ni mogoče izbrisati, ker ima odvisno konfiguracijsko shemo"
+          }
+        }
+      }
+    },
+    "AdvancedSettingsGroup": {
+      "CannotRenameElementInfoTooltip": "Elementa ni mogoče preimenovati, ker ima vezane nadzorne plošče"
+    }
+  },
+  "Dashboards": {
+    "SelectDashboard": "Izberi nadzorno ploščo",
+    "NoData": "Ni povezanih nadzornih plošč za prikaz",
+    "NoData2": "Potrebno je dodati nadzorno ploščo, da bo videti lepša",
+    "CreateNewDashboardButton": "Dodaj novo nadzorno ploščo",
+    "AccessDenied": "Nimate dovoljenja za urejanje tega elementa",
+    "DialogWindow": {
+      "DeleteDashboard": {
+        "ConfirmationMessage": "Ali ste prepričani, da želite izbrisati izbrani nadzorni plošči?",
+        "FailMessage": "Žal izbrane nadzorne plošče ni mogoče izbrisati"
+      }
+    },
+    "ActionsToolbar": {
+      "Title": "Dejanja",
+      "Edit": "Uredi",
+      "Copy": "Kopiraj",
+      "Delete": "Izbriši",
+      "Rights": "Nastavi pravice dostopa"
+    },
+    "All": "Vse",
+    "Favorites": "Priljubljene",
+    "AddToFavoritesButton": "Dodaj v priljubljene",
+    "RemoveFromFavoritesButton": "Odstrani iz priljubljenih"
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Filter hierarhije entitete",
+    "GeneralCaption": "Splošno",
+    "SchemaNameCaption": "Izberi objekt za gradnjo hierarhije",
+    "HierarchySetup": "Nastavitev hierarhije",
+    "SchemaNameSelectTooltip": "Potrebno je izbrati objekt, na katerem bo zgrajena hierarhija. V spustnem meniju so prikazani vsi sistemski objekti. Po konfiguraciji hierarhije jo povežite z komponento Seznam tako, da jo določite kot vnaprej konfiguriran filter.",
+    "ApplyStaticFilter": "Uporabi statični filter",
+    "EditStaticFilterAction": "Uredi filter",
+    "FiltersDialogCaption": "Ročno določen filter",
+    "SetupStaticFilterAction": "Nastavi filter",
+    "DisplayModeCaption": "Vrsta hierarhije",
+    "ManualDisplayMode": "Ročno",
+    "ByParentDisplayMode": "Po nadrejenem"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Dodaj nov stolpec hierarhije",
+    "ContextMenu": {
+      "AddToSubmenu": "Dodaj podhierarhijo",
+      "Edit": "Uredi",
+      "Delete": "Izbriši"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "Vse",
+    "NotFilledNode": "Ni izpolnjeno",
+    "SpecificationFilterCaption": "Odpri dodatno filtriranje",
+    "BackButtonCaption": "Nazaj",
+    "ClearAllFiltersButtonCaption": "Počisti vse",
+    "NoDataCaption": "Ni podatkov"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Izbirnik barv",
+        "AppearanceGroup": "Videz",
+        "PickerModeRadioButtonCaption": "Paleta",
+        "PickerMode": {
+          "Basic": "Osnovna paleta",
+          "Extended": "Razširjena paleta"
+        }
+      }
+    }
+  },
+  "ChangeTracking": {
+    "EntitySchemaNotFoundMessage": "Shema entitete '{{entitySchemaName}}' ni najdena",
+    "UnselectedColumnsWillBeDeletedMessage": "Neoznačeni stolpci bodo izbrisani. Želite nadaljevati?"
+  },
+  "IncomingItemList": {
+    "NoDataLabel": "Ničesar ni za prikaz!",
+    "NoDataDescription": "Trenutno v vaši čakalni vrsti ni elementov",
+    "AcceptButtonLabel": "Sprejmi"
+  },
+  "AgentInbox": {
+    "NewItems": "Novi elementi ({{number}})",
+    "InProgress": "V obdelavi ({{number}})",
+    "RealTime": "V realnem času",
+    "QueuedTasks": "Naloge v čakanju",
+    "WrappedUpCallTickTpl": "Zaključevanje klica (še {{sec}}s preostalo)",
+    "WrappedUpCallStoppedTpl": "Ročno zaključevanje",
+    "IncomingCallDescription": "Dohodni klic:",
+    "OutgoingCallDescription": "Odhodni klic:"
+  },
+  "CallConversation": {
+    "Call": "Naredi klic",
+    "Duration": "Trajanje:",
+    "Search": "Iskanje",
+    "JobTitle": "Naziv delovnega mesta",
+    "Account": "Račun",
+    "ClearIdentity": "Počisti izbrani zapis",
+    "Buttons": {
+      "Hints": {
+        "Accept": "Sprejmi klic",
+        "CompleteTransfer": "Klikni za prenos",
+        "Hold": "Postavi na čakanje",
+        "Unhold": "Preklic čakanja",
+        "StartTransfer": "Prenos klica",
+        "Mute": "Utišaj klic",
+        "CancelTransfer": "Prekliči prenos",
+        "Drop": "Končaj klic",
+        "OpenDialPanel": "Odpri številčnico"
+      },
+      "Captions": {
+        "Accept": "Sprejmi",
+        "Drop": "Zavrni",
+        "Cancel": "Prekliči",
+        "CancelTransfer": "Nazaj",
+        "CompleteTransfer": "Združi",
+        "EndMainCall": "Konec"
+      }
+    },
+    "OnHold": "Na čakanju:"
+  },
+  "SaveCallDetailsHandler": {
+    "UpdateSuccessMessage": "Klic je bil posodobljen"
+  },
+  "CallIdentityMenu": {
+    "ClearSelectedRecord": "Počisti izbrani zapis",
+    "CallIdentityOptions": "Spremeni/nastavi stik"
+  },
+  "ListWidget": {
+    "DefaultTitle": "Nov pripomoček seznama",
+    "PropertiesPanel": {
+      "HeaderLabel": "Nastavitve pripomočka",
+      "TitleLabel": "Naslov",
+      "Styles": {
+        "FullyColored": "Polno obarvano",
+        "PlainWhite": "Navadno bela",
+        "PartiallyColored": "Delno obarvano",
+        "Glassmorphism": "Stekleni efekt"
+      }
+    },
+    "Caption": "Pripomoček seznama",
+    "Hint": "Komponenta, ki združuje polno funkcionalen seznam z nastavljivim obarvanim okvirjem ter zagotavlja vizualno usklajenost ob postavitvi poleg drugih analitičnih pripomočkov"
+  },
+  "EntityStageProgressBar": {
+    "ChangeStageProcessButtonHint": "Spremeni primer DCM. Za to entiteto obstaja ustreznejša konfiguracija.",
+    "ConfirmChangeCaseDialogMessage": "Ali želite zamenjati trenutno različico primera?",
+    "SnackbarActualFilterCaseMessage": "Obstaja bolj ustrezni primer \"{{caption}}\". Zamenjam?",
+    "SnackbarIgnoreButtonCaption": "Ignoriraj",
+    "SnackbarReplaceButtonCaption": "Zamenjaj",
+    "SnackbarEntityProcessChangedMessage": "Primer je bil uspešno spremenjen."
+  },
+  "NextSteps": {
+    "Caption": "Naslednji koraki",
+    "CompleteButtonCaption": "Dokončaj",
+    "AddNewStepMenuCaption": "Dodaj nov korak",
+    "CreateActivityButtonCaption": "Ustvari opravilo",
+    "CreateEmailButtonCaption": "Ustvari e-pošto",
+    "NoDataContainerLabel": "Ničesar ni za prikaz!",
+    "NoDataContainerDescription": "Za to fazo niso dodani nobeni koraki",
+    "OwnerHint": "Dodeljen uporabnik",
+    "OwnerRoleHint": "Dodeljena skupina",
+    "RequiredStepHint": "Obvezni korak",
+    "ApprovalApprovedSnackbarCaption": "Zahteva je bila odobrena",
+    "ApprovalRejectedSnackbarCaption": "Zahteva je bila zavrnjena",
+    "TypeFilterCaption": "Vrsta",
+    "TypeFilterHint": "Vrsta"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "Naloženih je bilo {0} zapisov. Naložiti še več zapisov?",
+    "ConfirmResendMeetingInvitationsQuestion": "Ko bo sestanek shranjen, bodo vsi udeleženci prejeli posodobitev sestanka. Nadaljujem?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Za shranjevanje nekaterih teh sestankov je potrebno poslati obvestilo o spremembi vsem udeležencem po shranjevanju. Ali želite nadaljevati? Seznam sestankov:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Sestanek je že potekel. Ali ste prepričani, da želite poslati povabilo udeležencem?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Sestanek se je zgodil v preteklosti. Vsi udeleženci bodo prejeli posodobitev sestanka. Nadaljujem?",
+    "CanNotChangeMeetingMessage": "Samo organizator sestanka lahko spremeni opis, datum in seznam udeležencev sestanka.",
+    "CanNotChangeMultipleMeetingsMessage": "Nekatere spremenjene sestanke lahko spremeni le organizator sestanka. Seznam sestankov: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "Sestanke je mogoče izbrisati samo, če so zapisi izbrani ročno.",
+    "ErrorSendingInvitationMessage": "Povabila niso bila poslana. Lahko gre za začasno težavo, poskusite ponovno pozneje.",
+    "SuccessSendingInvitationMessage": "Povabila so bila uspešno poslana.",
+    "JoinBtnCaption": "Pridružite se spletnemu srečanju",
+    "UserAlreadyHasActiveCalendarAccount": "Že imate aktiven koledar",
+    "LackOfLicenseMessage": "Sinhronizacija koledarja ni vključena v vašo trenutno licenco. Za dodatne informacije se obrnite na skrbnika sistema.",
+    "DateRangeError": "Obdobje datuma v filtru je predolgo. Prosimo, zmanjšajte obseg v filtru."
+  },
+  "MultiSelectSaveRecordHandler": {
+    "ErrorMessageTemplate": "Vsaj ena vrednost mora biti izbrana v: {0}"
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Odobritve",
+    "ComponentHeaderInactiveLabel": "Odobritev ni potrebna",
+    "RejectDialogHeaderLabel": "Ali ste prepričani, da želite zavrniti odobritev?",
+    "ApproveDialogHeaderLabel": "Dodeli odobritev?",
+    "RejectInputLabel": "Komentar odobritve",
+    "RejectButtonLabel": "Zavrni",
+    "DelegateButtonLabel": "Delegiraj",
+    "ApproveButtonLabel": "Odobri",
+    "CancelButtonLabel": "Prekliči",
+    "PositiveMetricLabel": "Pozitivno",
+    "NegativeMetricLabel": "Negativno",
+    "PendingMetricLabel": "Na čakanju",
+    "ComponentHeaderActiveLabel": "Čaka na odobritev",
+    "ApprovalPurposeLabel": "Namen odobritve",
+    "ApprovedPlaceholderLabel": "ODOBRENO",
+    "DesignTime": {
+      "ApprovalObjective": "Potrebna odobritev"
+    },
+    "RejectedPlaceholderLabel": "ZAVRNJENO"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Zavrni",
+    "ApproveButtonLabel": "Odobri"
+  }
+}

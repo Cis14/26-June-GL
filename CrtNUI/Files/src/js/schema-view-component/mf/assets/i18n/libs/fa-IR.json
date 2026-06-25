@@ -1,0 +1,671 @@
+{
+  "MarketingCampaignContent": {},
+  "Input": {
+    "Readonly": "فیلد غیرقابل ویرایش",
+    "ShowPassword": "Show password",
+    "HidePassword": "Hide password"
+  },
+  "Carousel": {
+    "NoData": "اطلاعاتی وجود ندارد"
+  },
+  "ComboBox": {
+    "Readonly": "فیلد غیرقابل ویرایش",
+    "InvalidValueSyntax": "Please select value from the list",
+    "NoData": "اطلاعاتی وجود ندارد",
+    "EmptyDisplayValue": "No display value",
+    "AddNewRecord": "افزودن جدید",
+    "IsGoToSourceAllowedTooltip": "Go to record list"
+  },
+  "DataGrid": {
+    "AddColumns": "همه ستونها",
+    "ColumnToolbar": {
+      "Hide": "پنهان سازی",
+      "Freeze": "Freeze",
+      "Unfreeze": "Unfreeze",
+      "Rename": "تغییر نام",
+      "Title": "Column actions",
+      "Edit": "خصوصیات"
+    },
+    "RowToolbar": {
+      "Open": "باز کردن",
+      "Copy": "کپی",
+      "Delete": "حذف",
+      "RunBusinessProcess": "فرایند را اجرا کنید",
+      "Title": "Row actions"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "عملیات",
+      "Title": "List actions"
+    }
+  },
+  "DataTable": {
+    "NoData": "اطلاعاتی وجود ندارد",
+    "NoColumns": "No columns added",
+    "Hints": {
+      "Sort": "Sort",
+      "StartEditing": "انتشار",
+      "ReadonlyCell": "فیلد غیرقابل ویرایش",
+      "CancelChanges": "ردصلاحیت"
+    },
+    "SaveItemsChanges": "Save all",
+    "CancelItemsChanges": "ردصلاحیت",
+    "NotFoundColumn": "Column not found",
+    "ColumnSticky": "Frozen column"
+  },
+  "Gallery": {
+    "NoData": "No data"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Yes",
+      "False": "خیر"
+    }
+  },
+  "FileInput": {
+    "Delete": "حذف",
+    "Cancel": "انصراف",
+    "Attach": "Attach",
+    "FileIcon": "File icon",
+    "EmptyFileName": "Empty file name",
+    "MaxFileSizeLimitReached": "Max file size limit is reached ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "ذخیره",
+    "CancelButton": "انصراف",
+    "ColumnProperties": "Column properties",
+    "Title": "معلق",
+    "FilterHeader": "How to filter records",
+    "SortingHeader": "How to sort records",
+    "SortColumn": "مرتب سازی بر اساس",
+    "WhatToDisplay": "چه چیزی برای نمایش",
+    "AggregationColumn": "ستون",
+    "SortOrder": "Sort order"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Drop files here",
+      "Description": "or use the \"Upload\" button"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "در",
+    "TodayAt": "Today at {0}",
+    "YesterdayAt": "دیروز در {0}",
+    "DayBeforeYesterdayAt": "روز قبل از دیروز در {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Open link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "ارسال ایمیل؟"
+  },
+  "ImageInput": {
+    "Alt": "عکس",
+    "Upload": "Upload",
+    "Clear": "حذف",
+    "Change": "تغییر"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mos",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "دقیق"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Close tab"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "فرایند اجرا شود؟",
+      "SuccessMessage": "The process has been successfully run",
+      "NotConfiguredQuickProcessesMessage": "Quick processes run is not yet configured",
+      "OtherProcessesCaption": "Other processes"
+    },
+    "Settings": {
+      "Title": "تنظیمات"
+    },
+    "UserProfile": {
+      "Title": "پروفایل شما",
+      "MenuItems": {
+        "Profile": "پروفایل شما",
+        "Logout": "خروج"
+      }
+    },
+    "New": {
+      "Title": "قرارداد جدید",
+      "NoItemTitle": "Quick records creation is not yet configured"
+    },
+    "Help": {
+      "Title": "کمک",
+      "SupportSubject": "پرسش درباره",
+      "MenuItems": {
+        "OnlineHelp": "راهنمای آنلاین",
+        "NeedHelp": "نیاز به کمک",
+        "ExternalAccess": "Grant access to support"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite:  {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion:  {3}%0D%0ALocalization: {4}%0D%0APage: {5}",
+      "AccessGrantedMessage": "Access granted"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications panel"
+    },
+    "Logo": {
+      "Title": "Go to desktop"
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigation panel"
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search app..."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "بیشتر بخوانید"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passed",
+    "timeBeforeCountStartTpl": "{0} before countdown begins",
+    "overdueTpl": "{0} overdue",
+    "timeLeftTpl": "{0} left",
+    "timeIsUpTpl": "Time is up",
+    "waitingForStartDateTpl": "Waiting for start date",
+    "dateNotSet": "0hr 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "همه",
+      "SelectMenuLabel": "Search by column"
+    }
+  },
+  "Dialog": {
+    "Ok": "بسیار خوب",
+    "Yes": "Yes",
+    "No": "خیر",
+    "Save": "ذخیره",
+    "DoNotSave": "Don't save",
+    "Cancel": "انصراف",
+    "Delete": "حذف",
+    "ProcessElementCompletedNotification": "Another user has completed this task"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "You have unsaved changes that will be lost. Continue?"
+    }
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "با موفقیت ذخیره شد",
+      "ErrorOnSave": "Error when trying to apply changes"
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "جستجو..."
+  },
+  "MarketingEmailContent": {},
+  "MarketingEngagementToolsContent": {},
+  "MarketingEventContent": {},
+  "ResendWebhooks": {
+    "SuccessMessage": "Undelivered webhook processing has started successfully. This may take some time depending on the number of undelivered webhooks in the system.",
+    "ErrorMessage": "Failed to start undelivered webhook receiving process."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Please select value from the list"
+    },
+    "Required": {
+      "Message": "یک مقدار وارد کنید"
+    },
+    "MaxLength": {
+      "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Invalid date and time format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Invalid date format"
+    },
+    "TimePickerSyntax": {
+      "Message": "Invalid time format"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}"
+  },
+  "Copilot": {
+    "RewriteActionsPrompt": {}
+  },
+  "SkeletonLoader": {
+    "Loading": "Loading..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "DigitalAdsContent": {
+    "AdPlatformLoginRequestTitle": "Connect ad platform",
+    "PlatformInputCaption": "Platform",
+    "AppInputCaption": "Application"
+  },
+  "GoogleAnalytics": {},
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "عمومی",
+        "SourceSchemaLabel": "Folder storage location",
+        "RootSchemaLabel": "What will folders filter?",
+        "HeaderLabel": "Folder settings"
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Settings of the folder management menu",
+        "FolderTreeLabel": "Folder tree selection",
+        "GeneralCaption": "عمومی"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Toolbar display mode",
+        "Inline": "Inline",
+        "Classic": "Classic"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Feed settings",
+        "GeneralCaption": "عمومی",
+        "FeedTypeCaption": "Feed type",
+        "FeedChannel": "کانال",
+        "FeedTypeGeneral": "عمومی",
+        "FeedTypeChannel": "کانال",
+        "FeedTypeRecord": "رکورد",
+        "FeedDataSourceCaption": "Data source",
+        "FeedTypeUser": "کاربر",
+        "FeedTypeRecordTooltipCaption": "Feed messages will be displayed based on specific record communication.",
+        "FeedTypeGeneralTooltipCaption": "All notifications and mentions related to current user. In this mode the feed will display the posts and comments where current user was tagged or the threads he is following. For example, the feed in this mode can be added to the home page not to miss important information."
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "Message composer"
+      },
+      "EncryptedInputPropertiesPage": {},
+      "MergeRecordsRequest": {},
+      "MergeRecordsRequestPropertiesPanel": {},
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Timeline settings",
+        "ObjectsCaption": "Objects",
+        "AddObject": "Add object",
+        "ContextMenu": {
+          "Edit": "انتشار",
+          "Delete": "حذف"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "عمومی",
+        "CaptionLabel": "معلق",
+        "AppearanceGroup": "Appearance",
+        "LinkedColumn": "Linked column",
+        "SortedByColumn": "مرتب سازی بر اساس",
+        "IconPosition": {
+          "OnlyIcon": "Only icon"
+        }
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Account compact profile settings",
+        "GeneralGroup": "عمومی",
+        "AttributeForReferenceColumn": "منبع اطلاعات",
+        "Editability": "تغییرات",
+        "EmptyAccountDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "EditabilityControls": {
+          "Readonly": "فقط خواندنی"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Contact compact profile settings",
+        "GeneralGroup": "عمومی",
+        "AttributeForReferenceColumn": "منبع اطلاعات",
+        "Editability": "تغییرات",
+        "EmptyContactDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "EditabilityControls": {
+          "Readonly": "فقط خواندنی"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "User profile settings",
+        "GeneralGroup": "عمومی",
+        "AttributeForReferenceColumn": "منبع اطلاعات",
+        "Editability": "تغییرات",
+        "EmptyUserProfileDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "EditabilityControls": {
+          "Readonly": "فقط خواندنی"
+        }
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini page for preview",
+        "TitleColumn": "Primary display field",
+        "StartDateColumn": "Start date column",
+        "EndDateColumn": "End date column",
+        "NotesColumn": "Field with online meeting information",
+        "PageCaption": "Calendar settings",
+        "RequiredFieldError": "This field is required",
+        "SecondaryTileFields": "Secondary tile fields",
+        "AddSecondaryFieldCaption": "Add secondary field",
+        "DisabledAddSecondaryFieldCaption": "You can add maximum 4 secondary fields",
+        "AutoScrollToCurrentTime": "Scroll to current time automatically",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Delete"
+        },
+        "ColorizationType": {
+          "Default": "Default",
+          "ByField": "Automatic",
+          "ByOwner": "By User"
+        },
+        "ColorizationTypeCaption": "Tile colorization mode",
+        "ColorizationColumnCaption": "Lookup"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Multiselect lookup settings"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Approvals settings",
+        "SchemaNameLabel": "Which records to approve?",
+        "GeneralGroup": "عمومی",
+        "AppearanceGroup": "Appearance",
+        "HiddenWhenNoData": "Hidden when no data"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Approvals list settings",
+        "GeneralGroup": "عمومی",
+        "SchemaNameLabel": "هدف"
+      }
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "متمم",
+    "AddFilterHint": "Add new folder",
+    "BlankslateMessage": "No folders",
+    "CloseFolderTree": "Hide folders",
+    "SetUpFilter": "تنظیم فیلتر",
+    "DefaultFolderName": "پوشه جدید",
+    "CopyFolderSuffix": "کپی",
+    "DeleteConfirmation": "Are you sure that you want to delete the selected folder?",
+    "MenuActions": {
+      "AddFolder": "Add folder",
+      "RenameFolder": "تغییر نام",
+      "CopyFolder": "کپی",
+      "DeleteFolder": "حذف",
+      "AddToFavorite": "افزودن به برگزیده ها",
+      "RemoveFromFavorite": "حذف از علاقه مندی ها",
+      "ChangeFolderRights": "تنظیم دسترسی ها"
+    },
+    "FavoritesNodeCaption": "برگزیده ها",
+    "ShowMenuActions": "Show actions",
+    "CopyRightsQuestion": "Copy access permissions of the \"{0}\" folder?",
+    "RootNodeCaption": "همه"
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "ذخیره",
+    "CancelButton": "انصراف",
+    "DialogTitle": "Setup filters"
+  },
+  "Components": {
+    "FolderTree": {
+      "Caption": "پوشهها",
+      "Hint": "Lets you configure the folder structure to organize records by specified filters. To ensure the component operates as intended, connect it in the page List or Data source settings."
+    },
+    "FolderTreeActions": {
+      "Caption": "Folder management menu",
+      "Hint": "Requires the Folders component. Lets you unhide page folders."
+    },
+    "EncryptedInput": {},
+    "MultiSelect": {
+      "Caption": "Multiselect lookup"
+    },
+    "Approval": {
+      "Caption": "تائیدیه"
+    },
+    "ApprovalList": {
+      "Caption": "Approvals list",
+      "RefreshCaption": "Refresh",
+      "ProvideDataSource": "Provide data source before using approvals"
+    }
+  },
+  "FolderTreeActions": {
+    "MenuButton": "پوشهها",
+    "FavoriteItemsMenuButtonAriaLabel": "Favorites folders menu",
+    "ClearButtonCaption": "حذف انتخاب",
+    "FolderButtonAriaLabel": "Open/Close folder tree"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "ClearDataGridSettingsForFolder": {
+        "Confirmation": "Effacer les paramètres de la liste pour \"{0}\"?"
+      }
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "ماه بعدی",
+    "AriaPrevMonthLabel": "ماه قبل",
+    "AriaNextYearLabel": "Next year",
+    "AriaPrevYearLabel": "Previous year",
+    "Readonly": "فیلد غیرقابل ویرایش"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Display toolbar",
+    "UploadAttachments": "Select attachments"
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "ذخیره",
+    "OpenLinkButtonCaption": "Open in new tab",
+    "CloseLinkButtonCaption": "بستن",
+    "UnlinkLinkButtonCaption": "Unlink",
+    "LinkLabelCaption": "Link address",
+    "TextLabelCaption": "Text to display"
+  },
+  "Feed": {
+    "Caption": "فید",
+    "SortByCreatedOn": "مرتب سازی بر اساس تاریخ پیام",
+    "SortByLastAction": "مرتب سازی بر اساس آخرین فعالیت",
+    "ShowMoreThanOneNewSocialMessages": "نمایش {0} پیام  جدید",
+    "ShowNewSocialMessage": "نمایش 1 پیام جدید",
+    "Publisher": {
+      "DefaultInputPlaceholder": "Post a message…",
+      "DisabledInputPlaceholder": "You cannot create new posts on new record page.",
+      "CommentInputPlaceholder": "Write a comment…",
+      "ShareWithPortal": "Share with portal user",
+      "PostingErrorMsg": "خطا هنگام ذخیره پست فید",
+      "UserFeedInputPlaceholder": "Feed is in the user mode. You cannot create new posts in this mode.",
+      "SendButtonHint": "Send message. Keyboard Shortcut - Ctrl+Enter",
+      "CancelButtonHint": "انصراف"
+    },
+    "Post": {
+      "AddCommentButtonCaption": "افزودن کامنت",
+      "CommentsButtonCaption": "معلق",
+      "CommentsButtonHint": "Show comments",
+      "ExpandedCommentsButtonHint": "پنهان سازی نظرات",
+      "PostedInLabel": "پست شده در"
+    },
+    "Reactions": {
+      "Like": "لایک",
+      "ExtraReactionsTemplate": "and {0} more..."
+    },
+    "Item": {
+      "Edit": "انتشار",
+      "Delete": "حذف",
+      "DeletionConfirmation": "Are sure you want to delete the record? This action cannot be undone.",
+      "DeletionErrorMsg": "The record was not deleted. Please try again later."
+    }
+  },
+  "MessageComposer": {
+    "SendButtonText": "ارسال",
+    "CancelButtonHint": "ردصلاحیت",
+    "CancelButtonText": "ردصلاحیت",
+    "SendButtonHint": "Send message. Keyboard Shortcut - Ctrl+Enter",
+    "RemoveAttachmentHint": "Remove attachment",
+    "Caption": "Message composer",
+    "Email": {
+      "Caption": "Email message composer",
+      "From": "از",
+      "To": "به",
+      "CC": "گیرنده CC",
+      "BCC": "گیرنده BCC",
+      "Subject": "موضوع",
+      "PublishError": "Failed to send a message. The following error was received: {0}",
+      "AttachmentsSizeLimitReached": "Total attachments size is more than allowed. Please remove some attachments.",
+      "FromValidationErrorMessage": "“From” field cannot be blank. Please select a mailbox.",
+      "ToValidationErrorMessage": "“To” field cannot be blank. Please enter at least one recipient.",
+      "SubjectValidationErrorMessage": "“Subject” field cannot be blank. Please enter the email subject.",
+      "BodyPlaceholder": "Type a message"
+    }
+  },
+  "InfoDialog": {
+    "OK": "بسیار خوب"
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {}
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Call up"
+  },
+  "MergingRecords": {},
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Called",
+        "Sec": "sec"
+      },
+      "Email": {
+        "MailedTo": "Mailed to",
+        "From": "از:",
+        "To": "به:",
+        "CC": "CC:",
+        "Details": "جزییات",
+        "Hide": "پنهان سازی"
+      },
+      "File": {
+        "AddedFile": "Added a file"
+      }
+    },
+    "NoDataMessage": "The past does not exist",
+    "FillActionMessage": "Add more linked data to fill the timeline"
+  },
+  "AccountCompactProfileDT": {
+    "Caption": "Compact account profile",
+    "EmptyDisplayValue": "نام طرف حساب",
+    "NamePlaceholder": "نام طرف حساب",
+    "DesignerNamePlaceholder": "نام طرف حساب",
+    "AlternativeNamePlaceholder": "مشهور به",
+    "CountryPlaceholder": "شهر"
+  },
+  "ContactCompactProfileDT": {
+    "Caption": "Compact сontact profile",
+    "EmptyDisplayValue": "نام مخاطب",
+    "NamePlaceholder": "نام مخاطب",
+    "DesignerNamePlaceholder": "نام مخاطب",
+    "BirthDatePlaceholder": "Birth date · Age",
+    "DesignerBirthDatePlaceholder": "تاریخ تولد",
+    "CountryPlaceholder": "شهر"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Account compact profile",
+    "DialogTitle": "Edit account",
+    "AlternativeNameFieldLabel": "مشهور به",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add account name"
+  },
+  "ContactCompactProfile": {
+    "Caption": "Contact compact profile",
+    "DialogTitle": "Edit contact",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add contact name",
+    "BirthDatePlaceholder": "and birth date"
+  },
+  "UserCompactProfile": {
+    "Caption": "Compact user profile",
+    "DialogTitle": "Edit name",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add user name"
+  },
+  "IFrame": {
+    "Caption": "IFrame",
+    "Hint": "iFrame component allows to embed and display content in either HTML or URL format",
+    "Placeholder": {
+      "NothingToShow": "Nothing to show yet",
+      "NoContent": "No content available in this section"
+    },
+    "ContentUnavailable": {
+      "Title": "Content Unavailable",
+      "SubTitle": "Due to your network settings, browser security policies, or content restrictions",
+      "LinkTitle": "Read more in our Academy"
+    }
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Entity hierarchy filter",
+    "GeneralCaption": "General",
+    "SchemaNameCaption": "Select an object to build a hierarchy",
+    "HierarchySetup": "Hierarchy setup",
+    "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+    "ApplyStaticFilter": "Apply static filter",
+    "EditStaticFilterAction": "Edit filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "SetupStaticFilterAction": "Setup filter"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Add new hierarchy column",
+    "ContextMenu": {
+      "AddToSubmenu": "Add sub-hierarchy",
+      "Edit": "Edit",
+      "Delete": "Delete"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "All",
+    "NotFilledNode": "Not filled",
+    "SpecificationFilterCaption": "Open additional filtering",
+    "BackButtonCaption": "Back",
+    "ClearAllFiltersButtonCaption": "Clear all"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} records have been loaded. Load more records?",
+    "ConfirmResendMeetingInvitationsQuestion": "When the meeting is saved all participants will receive a meeting update. Do you  want to proceed?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Saving some of this meetings requires you to send a change notification to all participants after saving. Do you want to continue? Meeting list:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. Are you sure you want to send an invitation to the participants?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. All participants will receive a meeting update. Do you  want to proceed?",
+    "CanNotChangeMeetingMessage": "Only the meeting organizer can change the description, date and list of the meeting participants.",
+    "CanNotChangeMultipleMeetingsMessage": "Some of the changed meetings can only be changed by the meeting organizer. Meeting list: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "You can delete meetings only if you select records manually.",
+    "ErrorSendingInvitationMessage": "The invitations were not sent. It may be a temporary issue, please try again later.",
+    "SuccessSendingInvitationMessage": "Invitations were successfully sent.",
+    "JoinBtnCaption": "Join online meeting"
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "تائیدیه",
+    "ComponentHeaderInactiveLabel": "No approval required",
+    "RejectDialogHeaderLabel": "تاییدیه مرجوع و رد گردد؟?",
+    "RejectInputLabel": "کامنت تاییدیه",
+    "RejectButtonLabel": "Reject approval",
+    "CancelButtonLabel": "انصراف",
+    "ApproveDialogHeaderLabel": "تأیید را قبول میکنید؟?",
+    "ApproveButtonLabel": "تایید",
+    "PositiveMetricLabel": "مثبت",
+    "NegativeMetricLabel": "منفی",
+    "PendingMetricLabel": "در انتظار",
+    "ComponentHeaderActiveLabel": "Waiting for your approval",
+    "ApprovalPurposeLabel": "هدف تأیید",
+    "ApprovedPlaceholderLabel": "APPROVED",
+    "DesignTime": {
+      "ApprovalObjective": "تایید مورد نیاز است"
+    },
+    "RejectedPlaceholderLabel": "REJECTED"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "مرجوع کردن",
+    "ApproveButtonLabel": "تایید"
+  }
+}

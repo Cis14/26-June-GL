@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "טוען..."
+  },
+  "CopyClipboard": {
+    "Copied": "הועתק"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "עדיין אין מה להציג ",
+      "Subhead": "אנא הוסף נתונים קודם"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "הצ'אט החל: {0} על ידי",
+        "EndDate": "הצ'אט הושלם: {0} על ידי"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "טוען"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "שגיאה",
+      "Default": "הסבר"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "אין דף עבור רשומה חדשה או קיימת. מנהל המערכת חייב לבדוק את הגדרות הכפתור ב- Freedom UI",
+    "GoToEntityDesignerMessage": "כדי להגדיר דפים, עבור ל-URL: {0}"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "אנא בחר ערך מהרשימה",
+      "SelectionWindowMessage": "אנא בחר ערך מרשימה או חפש באמצעות חלון חיפוש"
+    },
+    "Required": {
+      "Message": "הזן ערך"
+    },
+    "MaxLength": {
+      "Message": "חריגה מאורך הטקסט המרבי ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "לא הושג אורך הטקסט המינימלי ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "פורמט תאריך ושעה לא חוקי"
+    },
+    "DatePickerSyntax": {
+      "Message": "פורמט תאריך לא נכון"
+    },
+    "TimePickerSyntax": {
+      "Message": "פורמט זמן לא חוקי"
+    },
+    "RegExp": {
+      "Message": "פורמט ערך לא חוקי"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "הקוד חייב להתחיל עם הקידומת {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "הזן לפחות תו נוסף אחד."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "השתמש בסמלים: a-z, A-Z, 0-9, קו תחתי או מקף. רק אותיות יכולות להיות ראשונות."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "העמודה הוסרה",
+    "ValidationErrorMessageSingleErrorField": "שדה: {0}. שגיאה: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "שדות: {0}. שגיאה: {1}",
+    "RefreshModelDataConflict": "ל-Creatio יש נתונים חדשים לדף הנוכחי. כדי להציג אותו, שמור או בטל את השינויים שלך ורענן את הדף.",
+    "WarningModelsWithCircularDependencies": "כמה מודלים מכילים תלות מעגלית ולא נטענו",
+    "LoadingModelErrorMessage": "אירעה שגיאה במהלך ביצוע השאילתה",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "סכמת התהליך נשמרה בהצלחה, אך שגיאות אימות מונעות ממנה לפעול."
+  }
+}

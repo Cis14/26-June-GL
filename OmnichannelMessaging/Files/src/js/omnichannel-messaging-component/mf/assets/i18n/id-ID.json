@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Pilih: {0}",
+        "Selected": "Terpilih:",
+        "SelectButton": "Pilih",
+        "CancelButton": "Batal",
+        "Blankslate": "Tidak ada catatan untuk objek ini"
+    },
+    "SearchInput": {
+        "Placeholder": "Cari",
+        "Settings": {
+            "Cancel": "Batal",
+            "Apply": "Terapkan",
+            "SearchColumnTemplate": "Telusuri berdasarkan kolom \"{0}\"",
+            "StartsWith": "Mulai dari",
+            "Contains": "Berisi",
+            "Equals": "Setara"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Tambah",
+        "BlankslateWithFilters": "Tidak ada catatan yang cocok dengan kriteria pencarian saat ini. Hapus atau ubah parameter pencarian"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Terima obrolan",
+            "AlreadyAssignedChat": "Obrolan dialihkan ke agen lain",
+            "NewMessages": "Pesan baru",
+            "ChatIsCompleted": "Obrolan selesai {datePart} pada {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Anda:",
+            "DraftMessageCaption": "Draf:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Saluran obrolan tidak dikonfigurasi",
+                    "textStart": "Silakan hubungi administrator sistem Anda dan minta untuk menyiapkan saluran. Pelajari lebih lanjut tentang bekerja dengan obrolan di ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Channel obrolan tidak dikonfigurasi",
+                    "textStart": "Tolong",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "tambah"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    },
+                    "textEnd": " saluran baru. Pelajari lebih lanjut tentang bekerja dengan obrolan di "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Obrolan baru tidak didistribusikan ke agen yang tidak aktif",
+                    "textStart": "Silakan ubah status Anda menjadi \"Aktif\". Pelajari lebih lanjut tentang bekerja dengan obrolan di ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Tidak ada obrolan selanjutnya",
+                    "textStart": "Pelajari lebih lanjut tentang bekerja dengan obrolan di ",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Obrolan baru tidak didistribusikan ke agen yang tidak aktif",
+                    "textStart": "Silakan ubah status Anda menjadi \"Aktif\". Pelajari lebih lanjut tentang cara kerja obrolan di",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Tidak ada obrolan",
+                    "textStart": "Pelajari lebih lanjut tentang cara kerja dengan obrolan di Akademi",
+                    "academyLink": {
+                        "displayText": "Akademi"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Sepertinya Anda tidak memiliki obrolan di tempat kerja. Periksa daftar obrolan baru"
+                }
+            },
+            "Actions": {
+                "Complete": "Obrolan lengkap",
+                "ProcessesDivider": "Proses",
+                "EmptyProcessesList": "Tambahkan proses bisnis pada detail \"Chat Actions\".",
+                "SearchFacebook": "Cari di facebook",
+                "ContactDuplicates": {
+                    "Show": "Tampilkan duplikat kontak",
+                    "NotFound": "Kontak duplikat tidak ditemukan",
+                    "Find": "Temukan kontak duplikat"
+                },
+                "Back": "Kembali",
+                "Transfer": "Transfer obrolan",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "Obrolan aktif",
+            "Tips": {
+                "BackToChats": "Kembali ke daftar"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Pesan",
+            "AttachFile": "File",
+            "OversizeFiles": "Batas ukuran file maksimum 25 MB terlampaui pada file berikut\n{0}",
+            "NewChatsTitle": "Obrolan baru"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Obrolan dimulai: {0} oleh",
+                "EndDate": "Obrolan selesai: {0} oleh"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Ringkasan pra-obrolan",
+            "Toggle": {
+                "Opened": "Sembunyikan",
+                "Closed": "Tampilkan lebih banyak"
+            },
+            "Fields": {
+                "Source": "Sumber"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Ditemukan {0} kontak serupa",
+            "DuplicatesNotFound": "Tidak ada kontak serupa yang ditemukan",
+            "FindDuplication": "Cari kontak serupa"
+        },
+        "Transfer": {
+            "ToOperator": "Agen",
+            "ToQueue": "Antrian",
+            "TransferWindowCaption": "pindahkan ke",
+            "OperatorStatusTips": {
+                "Active": "Aktif",
+                "Inactive": "Nonaktif",
+                "ChatsExceeded": "Obrolan melebihi batas"
+            },
+            "NoAvailableAgents": "Tidak ada agen yang tersedia untuk ditransfer",
+            "NoAvailableQueues": "Tidak ada antrian yang tersedia untuk ditransfer"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Saran template",
+        "SuggestionHint": "Coba ketik kata untuk mulai mencari",
+        "QuickSearchHint": "Memasuki // untuk mencari template",
+        "TemplateSearchCaption": "Template jawaban"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Notifikasi browser dinonaktifkan. Aktifkan notifikasi untuk menerima peringatan pesan baru. Baca lebih lanjut",
+        "splitTextLink": {
+            "displayText": "Akademi",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "Terjemah",
+        "LanguagePlaceholder": "Pilih bahasa",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

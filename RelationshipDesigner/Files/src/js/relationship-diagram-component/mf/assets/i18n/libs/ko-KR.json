@@ -1,0 +1,597 @@
+{
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "새 레코드 또는 기존 레코드에 대한 페이지가 없습니다. 시스템 관리자는 Freedom UI에서 버튼 설정을 확인해야 합니다",
+    "GoToEntityDesignerMessage": "페이지를 설정하려면 URL로 이동합니다. {0}"
+  },
+  "Input": {
+    "Readonly": "편집할 수 없는 필드",
+    "ShowPassword": "비밀번호 표시",
+    "HidePassword": "비밀번호 숨기기"
+  },
+  "Carousel": {
+    "NoData": "데이터 없음",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "편집할 수 없는 필드",
+    "NoData": "데이터 없음",
+    "EmptyDisplayValue": "표시값 없음",
+    "AddNewRecord": "새로 추가",
+    "InvalidValueSyntax": "목록에서 값을 선택하십시오.",
+    "IsGoToSourceAllowedTooltip": "레코드 목록으로 이동",
+    "CheckAll": "모두 확인",
+    "ClearAll": "Clear all",
+    "SelectValue": "값 선택",
+    "ClearValue": "값 지우기",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "열 추가",
+    "ColumnToolbar": {
+      "Hide": "숨기기",
+      "Freeze": "동결",
+      "Unfreeze": "녹이기",
+      "Rename": "이름 바꾸기",
+      "Edit": "속성",
+      "Title": "열 작업",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "작업 목록",
+      "DataGridSettingsLabel": "일반 목록 설정",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "기본 설정 복원",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "RowToolbar": {
+      "Open": "열기",
+      "Copy": "복사",
+      "Delete": "삭제",
+      "RunBusinessProcess": "비즈니스 프로세스 실행",
+      "Title": "행 동작"
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "데이터 없음",
+    "NoColumns": "열이 추가되지 않음",
+    "Hints": {
+      "Sort": "종류",
+      "StartEditing": "편집",
+      "ReadonlyCell": "편집할 수 없는 필드",
+      "CancelChanges": "버리다",
+      "AddItem": "새 레코드 추가",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "SaveItemsChanges": "모두 저장",
+    "CancelItemsChanges": "버리다",
+    "AddItem": "새로운",
+    "BulkActions": {
+      "MoreActions": "더 많은 작업",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "선택",
+      "SelectAll": "모두 선택",
+      "ClearSelection": "선택 지우기",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "열을 찾을 수 없음",
+    "ColumnSticky": "동결기둥",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "너비 변경",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "데이터 없음",
+    "MenuActions": "행실",
+    "DateAdded": "Date added",
+    "SelectItem": "항목 선택",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "FileInput": {
+    "Delete": "삭제",
+    "Cancel": "취소",
+    "Attach": "부착해",
+    "FileIcon": "파일 아이콘",
+    "EmptyFileName": "빈 파일명",
+    "MaxFileSizeLimitReached": "최대 파일 크기 제한에 도달했습니다({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "완료",
+    "CancelButton": "취소",
+    "ColumnProperties": "열 특성",
+    "Title": "제목",
+    "FilterHeader": "레코드를 필터링하는 방법",
+    "SortingHeader": "Sort records",
+    "SortColumn": "()별로 정렬",
+    "WhatToDisplay": "표시할 항목",
+    "AggregationColumn": "열",
+    "SortOrder": "정렬순서",
+    "SetupFilters": "설정 필터",
+    "EditFilters": "Edit filters"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "예",
+      "False": "아니요"
+    }
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "여기에 파일 놓기",
+      "Description": "또는 사용",
+      "Upload": "업로드"
+    },
+    "RowToolbar": {
+      "Download": "Download"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "()에",
+    "TodayAt": "오늘 {0}에서",
+    "YesterdayAt": "Yesterday at {0}",
+    "DayBeforeYesterdayAt": "The day before yesterday at {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "표시값 없음"
+  },
+  "WebInput": {
+    "LinkButtonHint": "링크 열기"
+  },
+  "EmailInput": {
+    "AddEmailHint": "이메일 전송"
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "Upload",
+    "Clear": "삭제",
+    "Change": "변경",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "월",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "시간",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "닫기 탭"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "프로세스 실행",
+      "SuccessMessage": "프로세스가 성공적으로 실행되었습니다",
+      "NotConfiguredQuickProcessesMessage": "빠른 프로세스 실행이 아직 구성되지 않았습니다",
+      "OtherProcessesCaption": "기타공정"
+    },
+    "Settings": {
+      "Title": "설정"
+    },
+    "UserProfile": {
+      "Title": "프로필",
+      "MenuItems": {
+        "Profile": "프로필",
+        "Logout": "출구",
+        "OrganizationProfile": "조직"
+      }
+    },
+    "New": {
+      "Title": "새로운",
+      "NoItemTitle": "빠른 레코드 생성이 아직 구성되지 않았습니다"
+    },
+    "Help": {
+      "Title": "도움",
+      "SupportSubject": "()에 대한 질문",
+      "MenuItems": {
+        "OnlineHelp": "온라인 도움말",
+        "NeedHelp": "도움이 필요함",
+        "ExternalAccess": "지원에 대한 액세스 권한 부여",
+        "ReleaseNotes": "릴리스 노트"
+      },
+      "AccessGrantedMessage": "액세스 권한 부여",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "통신 패널"
+    },
+    "NotificationsPanelButton": {
+      "Title": "알림 패널"
+    },
+    "Logo": {
+      "Title": "바탕 화면으로 이동"
+    },
+    "WorkspaceExplorer": {
+      "Title": "구성"
+    },
+    "LegacySidePanelButton": {
+      "Title": "추가판"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "컴파일 오류",
+      "WorkspaceExplorerTemplate": "컴파일 오류 목록을 보고 수정하려면 <a href ='{0}' target='_blank'>구성 섹션를</a> 참조하십시오."
+    },
+    "NavigationPanelButton": {
+      "Title": "네비게이션 패널"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "검색 앱..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Collapse navigation panel",
+      "ExpandCaption": "Expand navigation panel"
+    },
+    "SearchResultsCaption": "검색 결과",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "총계약금액 주문에 따라 계약이 생성되면 필드는 편집할 수 없게 되고 계약 내 총 제품 수로 계산됩니다. 제품은 주문에서 계약서에 복사됩니다.\n"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} 경과",
+    "timeBeforeCountStartTpl": "카운트다운이 시작되기 전에 {0}",
+    "overdueTpl": "{0}이(가) 초과됨",
+    "timeLeftTpl": "{0} 남음",
+    "timeIsUpTpl": "시간이 다했다",
+    "waitingForStartDateTpl": "시작일 대기중",
+    "dateNotSet": "0시간 0분"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "모두",
+      "SelectMenuLabel": "열별 검색",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "Dialog": {
+    "Ok": "네",
+    "Yes": "예",
+    "No": "아니요",
+    "Save": "완료",
+    "DoNotSave": "저장하지 않음",
+    "Cancel": "취소",
+    "Delete": "삭제",
+    "Close": "종결",
+    "Notification": "알림",
+    "Overwrite": "Overwrite",
+    "Clear": "지우기",
+    "Restore": "Restore",
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "저장 완료",
+      "ErrorOnSave": "변경사항을 적용하려고 할 때 오류가 발생했습니다"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "\"{0}\" 데스크톱을 삭제하시겠습니까?",
+        "Error": {
+          "Deletion": "데스크톱 삭제 중 오류 발생",
+          "Configuration": "구성 빌드 중 오류 발생"
+        },
+        "Success": "데스크톱 \"{0}\"이(가) 삭제되었습니다"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "검색..."
+  },
+  "AllowedResults": {
+    "Caption": "허용결과",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "라이센스 필요"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "태그 추가",
+    "CreateNewTagButtonCaption": "새 태그 만들기"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "You have unsaved changes that will be lost. Continue?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Edit record",
+    "DeleteItemActionButtonCaption": "기록 삭제",
+    "NoData": "데이터 없음"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "데이터 없음",
+      "CloseButtonTitle": "닫기"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "제거"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "플레이북",
+    "Hint": "구성 요소는 사용자가 특정 동적 사례 단계에 대한 지식 기반의 정보에 액세스할 수 있도록 힌트와 지침을 표시합니다",
+    "Placeholder": {
+      "Title": "관련 플레이북 기사를 찾을 수 없습니다",
+      "Description": "Playbooks 섹션에서 현재 동적 사례 단계에 대한 관련 기사를 설정하십시오"
+    },
+    "Actions": {
+      "Back": "뒤로",
+      "OpenInDialog": "모달 창에서 열기"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "닫기",
+        "OpenPage": "새 탭에서 열기"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    }
+  },
+  "ChatSettings": {
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "The channel cannot be deleted, there are active chats or chats on distribution. Please complete the chats first and try again."
+    },
+    "History": {
+      "Captions": {
+        "StartDate": "채팅 시작: {0}",
+        "EndDate": "채팅 완료: {0} "
+      }
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "데이터 없음",
+    "Boolean": {
+      "Yes": "예",
+      "No": "아니요"
+    },
+    "String": {
+      "Placeholder": "Enter text"
+    },
+    "Numeric": {
+      "Placeholder": "Enter number",
+      "To": "up to",
+      "MaxValueError": "Value is above max value",
+      "MinValueError": "Value is below min value"
+    }
+  },
+  "Conversation": {
+    "Caption": "대화",
+    "Copilot": {
+      "TypingMessage": "Generating response",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "삭제",
+    "Export": "Excel로 내보내기",
+    "AddTag": "태그 추가",
+    "RemoveTag": "태그 제거",
+    "RowsSelection": {
+      "Selected": "selected",
+      "SelectAll": "모두 선택",
+      "ClearSelection": "선택 지우기"
+    },
+    "Merge": "병합"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "숫자"
+  },
+  "ExpansionPanel": {
+    "Collapse": "붕괴",
+    "Expand": "확장"
+  },
+  "ProgressBar": {
+    "AriaLabel": "진행 표시줄"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "채팅 상태",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "필터 기준에 일치하는 레코드가 없습니다.",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "SkeletonLoader": {
+    "Loading": "로드 중..."
+  },
+  "CopyClipboard": {
+    "Copied": "복사됨"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "아직 보여줄 건 없어요 ",
+      "Subhead": "먼저 데이터를 추가하십시오"
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Loading"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "실수",
+      "Default": "툴팁"
+    }
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "번역",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "목록에서 값을 선택하십시오.",
+      "SelectionWindowMessage": "목록에서 값을 선택하거나 조회 창을 사용하여 검색하십시오"
+    },
+    "Required": {
+      "Message": "값을 입력합니다"
+    },
+    "MaxLength": {
+      "Message": "최대 텍스트 길이 초과({actualLength}/{maxLength})"
+    },
+    "MinLength": {
+      "Message": "최소 텍스트 길이({{actualLength}/{{minLength}})에 도달하지 못했습니다."
+    },
+    "DatetimePickerSyntax": {
+      "Message": "잘못된 날짜 및 시간 형식"
+    },
+    "DatePickerSyntax": {
+      "Message": "잘못된 날짜 형식"
+    },
+    "TimePickerSyntax": {
+      "Message": "잘못된 시간 형식"
+    },
+    "RegExp": {
+      "Message": "잘못된 값 형식"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "열 제거",
+    "ValidationErrorMessageSingleErrorField": "필드: {0}. 오류: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "필드: {0}. 오류: {1}",
+    "RefreshModelDataConflict": "Creatio에는 현재 페이지에 대한 새 데이터가 있습니다. 이 데이터를 보려면 변경 사항을 저장하거나 취소하고 페이지를 새로 고칩니다.",
+    "WarningModelsWithCircularDependencies": "일부 모델에 원형 종속성이 있어 로드되지 않았습니다",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "전화"
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "다음달",
+    "AriaPrevMonthLabel": "전월",
+    "AriaNextYearLabel": "Next year",
+    "AriaPrevYearLabel": "Previous year",
+    "Readonly": "편집할 수 없는 필드",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "캘린더",
+    "TimePickerIconTitle": "시간"
+  }
+}

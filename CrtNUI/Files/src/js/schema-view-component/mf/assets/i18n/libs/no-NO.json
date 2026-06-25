@@ -1,0 +1,708 @@
+{
+  "Input": {
+    "Readonly": "Ikke-redigerbare felt",
+    "ShowPassword": "Vis passord",
+    "HidePassword": "Skjul passord"
+  },
+  "Carousel": {
+    "NoData": "Ingen data"
+  },
+  "ComboBox": {
+    "Readonly": "Ikke-redigerbare felt",
+    "NoData": "Ingen data",
+    "EmptyDisplayValue": "Ingen visningsverdi",
+    "AddNewRecord": "Legg til ny",
+    "InvalidValueSyntax": "Vennligst velg verdi fra listen",
+    "IsGoToSourceAllowedTooltip": "Gå til postliste"
+  },
+  "DataGrid": {
+    "AddColumns": "Legg til kolonner",
+    "ColumnToolbar": {
+      "Hide": "Skjul",
+      "Freeze": "Frys",
+      "Unfreeze": "Frigi",
+      "Rename": "Omdøp",
+      "Edit": "Egenskaper",
+      "Title": "Kolonne påvirkninger"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Handlinger",
+      "DataGridSettingsLabel": "Generelle innstillinger for liste",
+      "SaveDataGridSettings": {
+        "Label": "Lagre listeinnstillinger for alle brukere",
+        "Confirmation": "Nye standardinnstillinger for liste vil bli lagret for alle brukere. Fortsette?",
+        "SuccessStatus": "Innstillingene ble lagret"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overskriv gjeldende listeinnstillinger for alle brukere",
+        "Confirmation": "Nye standardinnstillinger for liste vil bli lagret og vil erstatte gjeldende innstillinger for alle brukere. Fortsette?",
+        "SuccessStatus": "Innstillingene ble lagret"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Tilbakestill til standard innstillinger for liste",
+        "Confirmation": "Tilbakestill til standard innstillinger for liste?",
+        "SuccessStatus": "Standardinnstillinger for liste ble gjenopprettet"
+      },
+      "Title": "Liste opp handlinger"
+    },
+    "RowToolbar": {
+      "Open": "Åpne",
+      "Copy": "Kopier",
+      "Delete": "Slett",
+      "RunBusinessProcess": "Kjør forretningsprosess",
+      "Title": "Regner handlinger"
+    }
+  },
+  "DataTable": {
+    "NoData": "Ingen data",
+    "NoColumns": "Ingen kolonner lagt til",
+    "Hints": {
+      "Sort": "Sorter",
+      "StartEditing": "Rediger",
+      "ReadonlyCell": "Ikke-redigerbare felt",
+      "CancelChanges": "Forkast"
+    },
+    "SaveItemsChanges": "Lagre alle",
+    "CancelItemsChanges": "Forkast",
+    "NotFoundColumn": "Kolonne ikke funnet",
+    "ColumnSticky": "Frost kolonne"
+  },
+  "Dialog": {
+    "Ok": "OK",
+    "Yes": "Ja",
+    "No": "Nei",
+    "Save": "Lagre",
+    "DoNotSave": "Ikke lagre",
+    "Cancel": "Avbryt",
+    "Delete": "Slett",
+    "Overwrite": "Overskriv",
+    "ProcessElementCompletedNotification": "En annen bruker har fullført denne oppgaven"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Du har ulagrede endringer som vil gå tapt. Vil du fortsette?"
+    }
+  },
+  "Gallery": {
+    "NoData": "Ingen data"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Åpne lenke"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Send e-post"
+  },
+  "FileInput": {
+    "Delete": "Slett",
+    "Cancel": "Avbryt",
+    "Attach": "Vedlegg",
+    "FileIcon": "Filens ikon",
+    "EmptyFileName": "Tom filnavn",
+    "MaxFileSizeLimitReached": "Maks filstørrelse nås ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Slipp filer her",
+      "Description": "eller bruk \"Last opp\"-knappen"
+    }
+  },
+  "ImageInput": {
+    "Alt": "Bilde",
+    "Upload": "Last opp",
+    "Change": "Endre",
+    "Clear": "Slett"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Lagre",
+    "CancelButton": "Avbryt",
+    "ColumnProperties": "Egenskaper for kolonne",
+    "Title": "Tittel",
+    "FilterHeader": "Hvordan filtrere poster",
+    "SortingHeader": "Hvordan sortere poster",
+    "SortColumn": "Sorter etter",
+    "WhatToDisplay": "Hva skal vises",
+    "AggregationColumn": "Kolonne",
+    "SortOrder": "Sorter etter"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Ja",
+      "False": "Nei"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "på",
+    "TodayAt": "I dag, {0}",
+    "YesterdayAt": "I går kl {0}",
+    "DayBeforeYesterdayAt": "Dagen før i går klokken {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Ingen visningsverdi"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mos",
+    "DaysAbbreviation": "D",
+    "HoursAbbreviation": "t",
+    "MinutesAbbreviation": "min."
+  },
+  "TabPanel": {
+    "CloseTabHint": "Lukk fane"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Gå til skrivebordet"
+    },
+    "QuickRunProcess": {
+      "Title": "Kjør prosess",
+      "SuccessMessage": "Prosessen har blitt vellykket kjørt",
+      "NotConfiguredQuickProcessesMessage": "Hurtigprosesser kjøring er ikke konfigurert ennå",
+      "OtherProcessesCaption": "Andre prosesser"
+    },
+    "Settings": {
+      "Title": "Innstillinger"
+    },
+    "UserProfile": {
+      "Title": "Din profil",
+      "MenuItems": {
+        "Profile": "Din profil",
+        "Logout": "Avslutt"
+      }
+    },
+    "New": {
+      "Title": "Ny",
+      "NoItemTitle": "Hurtigoppføringer opprettelse er ennå ikke konfigurert"
+    },
+    "Help": {
+      "Title": "Hjelp",
+      "MenuItems": {
+        "OnlineHelp": "Online hjelp",
+        "NeedHelp": "Trenger hjelp",
+        "ExternalAccess": "Gi tilgang til støtte"
+      },
+      "SupportSubject": "Spørsmål om",
+      "AccessGrantedMessage": "Tilgang gitt",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ANettsted:  {0}%0D%0AKundeID: {1}%0D%0AProdukt: {2}%0D%0Aversjon:  {3}%0D%0Alokalisering: {4}%0D%0ASide: {5}"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Kommunikasjons panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Panel Varslinger"
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigasjonpanel"
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search app..."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Les mer"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passerte",
+    "timeBeforeCountStartTpl": "{0} før nedtellingen starter",
+    "overdueTpl": "{0} forsinket",
+    "timeLeftTpl": "{0} igjen",
+    "timeIsUpTpl": "Tiden er ute",
+    "waitingForStartDateTpl": "Venter på startdato",
+    "dateNotSet": "0t 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Søk med kolonne",
+      "AllOption": "Alle"
+    }
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Lagring vellykket",
+      "ErrorOnSave": "Feil ved forsøk på å bruke endringer"
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Search..."
+  },
+  "MarketingCampaignContent": {},
+  "MarketingEmailContent": {},
+  "MarketingEngagementToolsContent": {},
+  "MarketingEventContent": {},
+  "ResendWebhooks": {
+    "SuccessMessage": "Undelivered webhook processing has started successfully. This may take some time depending on the number of undelivered webhooks in the system.",
+    "ErrorMessage": "Failed to start undelivered webhook receiving process."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Vennligst velg verdi fra listen"
+    },
+    "Required": {
+      "Message": "Angi en verdi"
+    },
+    "MaxLength": {
+      "Message": "Maksimal tekstlengde er overskredet ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minste tekstlengde ikke nådd ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Ugyldig dato og klokkeslett format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Ugyldig datoformat"
+    },
+    "TimePickerSyntax": {
+      "Message": "Ugyldig tidsformat"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolonne fjernet",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}"
+  },
+  "Copilot": {
+    "RewriteActionsPrompt": {}
+  },
+  "SkeletonLoader": {
+    "Loading": "Laster..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopiert"
+  },
+  "GoogleAnalytics": {},
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Platform",
+    "AppInputCaption": "Application",
+    "AdPlatformLoginRequestTitle": "Connect ad platform"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "Generelt",
+        "HeaderLabel": "Mappe innstillinger",
+        "SourceSchemaLabel": "Lagringssted for mappe",
+        "RootSchemaLabel": "Hva vil mapper filtrere?"
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Innstillinger for mappen administrasjonsmeny",
+        "FolderTreeLabel": "Valg av mappetre",
+        "GeneralCaption": "Generelt"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Visningsmodus for verktøylinje",
+        "Inline": "Innebygd",
+        "Classic": "Klassisk"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Innstillinger for mating",
+        "GeneralCaption": "Generelt",
+        "FeedTypeCaption": "Type nyhetsmating",
+        "FeedChannel": "Kanal",
+        "FeedTypeGeneral": "Generelt",
+        "FeedTypeUser": "Bruker",
+        "FeedTypeChannel": "Kanal",
+        "FeedTypeRecord": "Registrer",
+        "FeedDataSourceCaption": "Data kilde",
+        "FeedTypeRecordTooltipCaption": "Feed meldinger vil bli vist basert på spesifikk postkommunikasjon.",
+        "FeedTypeGeneralTooltipCaption": "Alle varsler og nevner knyttet til gjeldende bruker. I denne modusen vises matingen innlegg og kommentarer der gjeldende bruker er merket eller trådene han følger. For eksempel kan matingen i denne modusen legges til hjemmesiden og ikke gå glipp av viktig informasjon."
+      },
+      "EmailComposerPropertiesPage": {
+        "PageCaption": "Meldings komponist"
+      },
+      "EncryptedInputPropertiesPage": {},
+      "MergeRecordsRequest": {},
+      "MergeRecordsRequestPropertiesPanel": {},
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Innstillinger for tidslinje",
+        "ObjectsCaption": "Objekter",
+        "AddObject": "Legg til objekt",
+        "ContextMenu": {
+          "Edit": "Rediger",
+          "Delete": "Slett"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "Generelt",
+        "CaptionLabel": "Tittel",
+        "AppearanceGroup": "Utseende",
+        "LinkedColumn": "Koblet kolonne",
+        "SortedByColumn": "Sorter etter",
+        "IconPosition": {
+          "OnlyIcon": "Bare ikon"
+        }
+      },
+      "AccountCompactProfilePropertiesPage": {
+        "PageCaption": "Account compact profile settings",
+        "GeneralGroup": "Generelt",
+        "AttributeForReferenceColumn": "Data kilde",
+        "Editability": "Redigerbarhet",
+        "EmptyAccountDataSourceHint": "Datakilden er ikke lagt til siden. Vennligst legg til eksisterende datakilde for å sette opp komponenten",
+        "EditabilityControls": {
+          "Readonly": "Skrivebeskyttet"
+        }
+      },
+      "ContactCompactProfilePropertiesPage": {
+        "PageCaption": "Contact compact profile settings",
+        "GeneralGroup": "Generelt",
+        "AttributeForReferenceColumn": "Data kilde",
+        "Editability": "Redigerbarhet",
+        "EmptyContactDataSourceHint": "Datakilden er ikke lagt til siden. Vennligst legg til eksisterende datakilde for å sette opp komponenten",
+        "EditabilityControls": {
+          "Readonly": "Skrivebeskyttet"
+        }
+      },
+      "UserCompactProfilePropertiesPage": {
+        "PageCaption": "User profile settings",
+        "GeneralGroup": "General",
+        "AttributeForReferenceColumn": "Data source",
+        "Editability": "Editability",
+        "EmptyUserProfileDataSourceHint": "The data source is not added to the page. Please add existing data source to set up the component",
+        "EditabilityControls": {
+          "Readonly": "Read-only"
+        }
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini page for preview",
+        "TitleColumn": "Primary display field",
+        "StartDateColumn": "Start date column",
+        "EndDateColumn": "End date column",
+        "NotesColumn": "Field with online meeting information",
+        "PageCaption": "Calendar settings",
+        "RequiredFieldError": "This field is required",
+        "SecondaryTileFields": "Secondary tile fields",
+        "AddSecondaryFieldCaption": "Add secondary field",
+        "DisabledAddSecondaryFieldCaption": "You can add maximum 4 secondary fields",
+        "AutoScrollToCurrentTime": "Scroll to current time automatically",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Delete"
+        },
+        "ColorizationType": {
+          "Default": "Default",
+          "ByField": "Automatic",
+          "ByOwner": "By User"
+        },
+        "ColorizationTypeCaption": "Tile colorization mode",
+        "ColorizationColumnCaption": "Lookup"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Multiselect lookup settings"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Innstillinger for godkjenninger",
+        "GeneralGroup": "Generelt",
+        "SchemaNameLabel": "Hvilke registreringer som skal godkjennes?",
+        "AppearanceGroup": "Utseende",
+        "HiddenWhenNoData": "Skjult når ingen data"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Innstillinger for godkjenningsliste",
+        "GeneralGroup": "Generelt",
+        "SchemaNameLabel": "Objekt"
+      }
+    }
+  },
+  "FolderTree": {
+    "AddFilter": "Legg til",
+    "AddFilterHint": "Legg til ny mappe",
+    "BlankslateMessage": "Ingen mapper",
+    "CloseFolderTree": "Skjul mapper",
+    "SetUpFilter": "Sett opp filter",
+    "DefaultFolderName": "Ny mappe",
+    "CopyFolderSuffix": "Kopier",
+    "DeleteConfirmation": "Er du sikker på at du vil slette den valgte mappen?",
+    "MenuActions": {
+      "AddFolder": "Legg til mappe",
+      "RenameFolder": "Omdøp",
+      "CopyFolder": "Kopier",
+      "DeleteFolder": "Slett",
+      "AddToFavorite": "Legg til som favoritt",
+      "RemoveFromFavorite": "Fjern fra favoritter",
+      "ChangeFolderRights": "Sett opp tilgangsrettigheter"
+    },
+    "ShowMenuActions": "Vis handlinger",
+    "FavoritesNodeCaption": "Favoritter",
+    "RootNodeCaption": "Alle",
+    "CopyRightsQuestion": "Kopier tilgangsrettigheter for \"{0}\" mappen?"
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Lagre",
+    "CancelButton": "Avbryt",
+    "DialogTitle": "Oppsett filtre"
+  },
+  "Components": {
+    "FolderTree": {
+      "Caption": "Mapper",
+      "Hint": "Lar deg konfigurere mappestrukturen for å organisere poster av spesifiserte filtre. For å være sikker på at komponenten fungerer etter hensikten, koble den til i sidelisten eller datakildeinnstillingene."
+    },
+    "FolderTreeActions": {
+      "Caption": "Mappe administrasjonsmeny",
+      "Hint": "Krever at mappe-komponenten. Lar deg fjerne sidelapper."
+    },
+    "EncryptedInput": {},
+    "MultiSelect": {
+      "Caption": "Multiselect lookup"
+    },
+    "Approval": {
+      "Caption": "Godkjenninger"
+    },
+    "ApprovalList": {
+      "Caption": "Liste over godkjenninger",
+      "RefreshCaption": "Oppdater",
+      "ProvideDataSource": "Oppgi datakilde før du bruker godkjenninger"
+    }
+  },
+  "FolderTreeActions": {
+    "ClearButtonCaption": "Tøm valg",
+    "FavoriteItemsMenuButtonAriaLabel": "Favorittmappe-meny",
+    "FolderButtonAriaLabel": "Åpne/Lukk mappetre",
+    "MenuButton": "Mapper"
+  },
+  "DataGridFolderSettings": {
+    "Actions": {
+      "DataGridSettingsForFolderLabel": "List settings for folder",
+      "CreateDataGridSettingsForFolder": {
+        "Label": "Create custom settings for \"{0}\"",
+        "SuccessStatus": "List settings were saved. Creatio will apply them only when the \"{0}\" folder is active"
+      },
+      "SaveDataGridSettingsForFolder": {
+        "Label": "Save list settings for \"{0}\""
+      },
+      "OverwriteDataGridSettingsForFolder": {
+        "Label": "Overwrite current settings for all users for \"{0}\""
+      },
+      "ResetDataGridSettingsForFolder": {
+        "Label": "Reset to default settings for \"{0}\""
+      },
+      "ClearDataGridSettingsForFolder": {
+        "Label": "Clear custom settings for \"{0}\"",
+        "Confirmation": "Clear list settings for \"{0}\"?",
+        "SuccessStatus": "List settings for folder cleared successfully"
+      }
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Neste måned",
+    "AriaPrevMonthLabel": "Forrige måned",
+    "AriaNextYearLabel": "Neste år",
+    "AriaPrevYearLabel": "Forrige år",
+    "Readonly": "Ikke-redigerbare felt"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Vis verktøylinje",
+    "UploadAttachments": "Velg vedlegg"
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Lagre",
+    "OpenLinkButtonCaption": "Åpne i ny fane",
+    "CloseLinkButtonCaption": "Lukk",
+    "UnlinkLinkButtonCaption": "Frakoble",
+    "LinkLabelCaption": "Lenke adresse",
+    "TextLabelCaption": "Tekst som skal vises"
+  },
+  "Feed": {
+    "Caption": "MATE",
+    "SortByCreatedOn": "Sorter etter meldingsdato",
+    "SortByLastAction": "Sorter etter dato for siste aktivitet",
+    "ShowMoreThanOneNewSocialMessages": "Vis {0} nye meldinger",
+    "ShowNewSocialMessage": "Vis 1 ny melding",
+    "Item": {
+      "Edit": "Rediger",
+      "Delete": "Slett",
+      "DeletionConfirmation": "Er du sikker på at du vil slette denne posten? Denne handlingen kan ikke angres.",
+      "DeletionErrorMsg": "Posten ble ikke slettet. Prøv igjen senere."
+    },
+    "Publisher": {
+      "DefaultInputPlaceholder": "Post a message…",
+      "DisabledInputPlaceholder": "Du kan ikke opprette nye innlegg på nye elementsiden.",
+      "UserFeedInputPlaceholder": "Feed er i brukermodus. Du kan ikke opprette nye innlegg i denne modus.",
+      "CommentInputPlaceholder": "Skriv en kommentar…",
+      "ShareWithPortal": "Del med portalbruker",
+      "PostingErrorMsg": "Feil under lagring av kanalinnlegg",
+      "SendButtonHint": "Sende melding, Tastatursnarvei - Ctrl+Enter",
+      "CancelButtonHint": "Avbryt"
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Legg til kommentar",
+      "CommentsButtonCaption": "Kommentarer",
+      "CommentsButtonHint": "Vis kommentarer",
+      "ExpandedCommentsButtonHint": "Skjul kommentarer",
+      "PostedInLabel": "postet i"
+    },
+    "Reactions": {
+      "Like": "Lik",
+      "ExtraReactionsTemplate": "og {0} mer..."
+    }
+  },
+  "MessageComposer": {
+    "SendButtonText": "Sende",
+    "CancelButtonHint": "Forkast",
+    "CancelButtonText": "Forkast",
+    "SendButtonHint": "Sende melding, Tastatursnarvei - Ctrl+Enter",
+    "RemoveAttachmentHint": "Fjern vedlegg",
+    "Caption": "Meldings komponist",
+    "Email": {
+      "Caption": "E-post meldings-komponist",
+      "From": "Fra",
+      "To": "Til",
+      "CC": "Cc",
+      "BCC": "Blindkopi",
+      "Subject": "Emne",
+      "PublishError": "Kunne ikke sende en melding. Følgende feil ble mottatt: {0}",
+      "AttachmentsSizeLimitReached": "Total filstørrelse er mer enn tillatt. Vennligst fjern noen vedlegg.",
+      "FromValidationErrorMessage": "feltet \"Fra\" kan ikke være blankt. Vennligst velg en postboks.",
+      "ToValidationErrorMessage": "\"Til\"-feltet kan ikke være tomt. Skriv inn minst én mottaker.",
+      "SubjectValidationErrorMessage": "feltet \"Emne\" kan ikke være tomt. Skriv inn e-postpersonen.",
+      "BodyPlaceholder": "Skriv inn en melding"
+    }
+  },
+  "InfoDialog": {
+    "OK": "OK"
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {}
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Ring opp"
+  },
+  "MergingRecords": {},
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Anropet",
+        "Sec": "sek"
+      },
+      "Email": {
+        "MailedTo": "Med til",
+        "From": "Fra:",
+        "To": "Til:",
+        "CC": "CC:",
+        "Details": "Detaljer",
+        "Hide": "Skjul"
+      },
+      "File": {
+        "AddedFile": "Lagt til en fil"
+      }
+    },
+    "NoDataMessage": "The past does not exist",
+    "FillActionMessage": "Add more linked data to fill the timeline"
+  },
+  "AccountCompactProfileDT": {
+    "Caption": "Kompakt kontoprofil",
+    "EmptyDisplayValue": "Konto navn",
+    "NamePlaceholder": "Konto navn",
+    "DesignerNamePlaceholder": "Account name",
+    "AlternativeNamePlaceholder": "Also known as",
+    "CountryPlaceholder": "Country"
+  },
+  "ContactCompactProfileDT": {
+    "Caption": "Kompakt ° ontaktprofil",
+    "EmptyDisplayValue": "Sosial tittel",
+    "NamePlaceholder": "Sosial tittel",
+    "BirthDatePlaceholder": "Fødselsdato · Alder",
+    "DesignerNamePlaceholder": "Contact name",
+    "DesignerBirthDatePlaceholder": "Birth date",
+    "CountryPlaceholder": "Country"
+  },
+  "AccountCompactProfile": {
+    "Caption": "Account compact profile",
+    "DialogTitle": "Rediger konto",
+    "CountryFieldLabel": "Land, hovedadresse",
+    "CityFieldLabel": "By, primær adresse",
+    "EmptyDisplayValue": "Ingen visningsverdi",
+    "NamePlaceholder": "Legg til kontonavn",
+    "AlternativeNameFieldLabel": "Also known as"
+  },
+  "ContactCompactProfile": {
+    "Caption": "Contact compact profile",
+    "DialogTitle": "Rediger kontakt",
+    "CountryFieldLabel": "Land, hovedadresse",
+    "CityFieldLabel": "By, primær adresse",
+    "EmptyDisplayValue": "Ingen visningsverdi",
+    "NamePlaceholder": "Legg til navn",
+    "BirthDatePlaceholder": "og fødselsdato"
+  },
+  "UserCompactProfile": {
+    "Caption": "Compact user profile",
+    "DialogTitle": "Edit name",
+    "EmptyDisplayValue": "No display value",
+    "NamePlaceholder": "Add user name"
+  },
+  "IFrame": {
+    "Caption": "IFrame",
+    "Hint": "iFrame component allows to embed and display content in either HTML or URL format",
+    "Placeholder": {
+      "NothingToShow": "Nothing to show yet",
+      "NoContent": "No content available in this section"
+    },
+    "ContentUnavailable": {
+      "Title": "Content Unavailable",
+      "SubTitle": "Due to your network settings, browser security policies, or content restrictions",
+      "LinkTitle": "Read more in our Academy"
+    }
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Entity hierarchy filter",
+    "GeneralCaption": "General",
+    "SchemaNameCaption": "Select an object to build a hierarchy",
+    "HierarchySetup": "Hierarchy setup",
+    "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+    "ApplyStaticFilter": "Apply static filter",
+    "EditStaticFilterAction": "Edit filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "SetupStaticFilterAction": "Setup filter"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Add new hierarchy column",
+    "ContextMenu": {
+      "AddToSubmenu": "Add sub-hierarchy",
+      "Edit": "Edit",
+      "Delete": "Delete"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "All",
+    "NotFilledNode": "Not filled",
+    "SpecificationFilterCaption": "Open additional filtering",
+    "BackButtonCaption": "Back",
+    "ClearAllFiltersButtonCaption": "Clear all"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} records have been loaded. Load more records?",
+    "ConfirmResendMeetingInvitationsQuestion": "When the meeting is saved all participants will receive a meeting update. Do you  want to proceed?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Saving some of this meetings requires you to send a change notification to all participants after saving. Do you want to continue? Meeting list:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. Are you sure you want to send an invitation to the participants?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. All participants will receive a meeting update. Do you  want to proceed?",
+    "CanNotChangeMeetingMessage": "Only the meeting organizer can change the description, date and list of the meeting participants.",
+    "CanNotChangeMultipleMeetingsMessage": "Some of the changed meetings can only be changed by the meeting organizer. Meeting list: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "You can delete meetings only if you select records manually.",
+    "ErrorSendingInvitationMessage": "The invitations were not sent. It may be a temporary issue, please try again later.",
+    "SuccessSendingInvitationMessage": "Invitations were successfully sent.",
+    "JoinBtnCaption": "Join online meeting"
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Godkjenninger",
+    "ComponentHeaderInactiveLabel": "Godkjenning kreves ikke",
+    "RejectDialogHeaderLabel": "Er du sikker på at du vil avvise godkjenningen?",
+    "ApproveDialogHeaderLabel": "Gi godkjenningen?",
+    "RejectInputLabel": "Kommentar til godkjenning",
+    "RejectButtonLabel": "Avvis godkjenning",
+    "ApproveButtonLabel": "Godkjenn",
+    "CancelButtonLabel": "Avbryt",
+    "PositiveMetricLabel": "Positiv",
+    "NegativeMetricLabel": "Negativ",
+    "PendingMetricLabel": "Ventende",
+    "ComponentHeaderActiveLabel": "Venter på din godkjenning",
+    "ApprovalPurposeLabel": "Godkjenningsformål",
+    "ApprovedPlaceholderLabel": "GODKJENNE",
+    "DesignTime": {
+      "ApprovalObjective": "Godkjenning kreves"
+    },
+    "RejectedPlaceholderLabel": "AVVIST"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Avvis",
+    "ApproveButtonLabel": "Godkjenn"
+  }
+}

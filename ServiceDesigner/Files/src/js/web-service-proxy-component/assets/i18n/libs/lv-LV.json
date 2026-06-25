@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Ielāde..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopēts"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Pagaidām nekas nav parādīts ",
+      "Subhead": "Lūdzu, pievienojiet datus vispirms"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Tērzēšana sākās: {0} pēc",
+        "EndDate": "Tērzēšana pabeigta {0} ar"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Ielāde"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Kļūda",
+      "Default": "Rīkjosla"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Lūdzu, izvēlieties vērtību no saraksta",
+      "SelectionWindowMessage": "Lūdzu, izvēlieties vērtību no saraksta vai meklējiet, izmantojot logu"
+    },
+    "Required": {
+      "Message": "Ievadiet vērtību"
+    },
+    "MaxLength": {
+      "Message": "Pārsniegts maksimālais teksta garums ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimālais teksta garums nav sasniegts ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Nederīgs datuma un laika formāts"
+    },
+    "DatePickerSyntax": {
+      "Message": "Nederīgs datu formāts"
+    },
+    "TimePickerSyntax": {
+      "Message": "Nederīgs laika formāts"
+    },
+    "RegExp": {
+      "Message": "Nederīgs vērtību formāts"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kodam jāsākas ar \"{{schemaNamePrefix}}\" prefiksu.",
+      "OnlySchemaNamePrefixMessage": "Ievadiet vismaz vienu simbolu."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Izmantojiet simbolus: a-z, A-Z, 0-9, pasvītrojums vai domuzīme. Tikai burti var būt pirmie."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Vērtība '{{controlValue}}' jau pastāv 'Koda' kolonnā."
+    },
+    "PhoneNumber": {
+      "Message": "Nederīgs tālruņa numurs"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolonna noņemta",
+    "ValidationErrorMessageSingleErrorField": "Lauka: {0}. Kļūda: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Lauki: {0}. Kļūda: {1}",
+    "RefreshModelDataConflict": "Creatio ir jauni dati pašreizējai lapai. Lai tos apskatītu, saglabājiet vai atceliet savas izmaiņas un atjaunojiet lapu.",
+    "WarningModelsWithCircularDependencies": "Dažiem modeļiem ir apaļas atkarības un tie nav ielādēti",
+    "LoadingModelErrorMessage": "Kļūda notika vaicājuma izpildes laikā",
+    "ErrorMessageOnEmptyRelationColumn": "Nevar saglabāt lapu. Aizpildiet {{caption}} lauku vai notīriet datus saistītajos laukos, lai saglabātu lapu."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Dati ir atjaunināti"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Skaidri un īsi aprakstiet lietotāja mērķi. Detalizējiet lietotāja mērķa sasniegšanai nepieciešamos soļus. Aprakstiet LLM gaidāmo rezultātu. Tajā jāietver viss nepieciešamais konteksts vai informācija, kas jāzina MLA.\n\n## Vispārīgi noteikumi\n1. Jūs nevarat izveidot jaunus objektus bez skaidra apstiprinājuma ar lietotāju.\n2. 2. noteikums: ...\n3. ...\n\n## Vispārīgi ierobežojumi\n1. Izvairieties no pieņēmumiem par lietotāja nodomu; ja nepieciešams, precizējiet pieprasījumus.\n2. 2. ierobežojums: ...\n3. ...\n\n## Izvades prasības\n1. Rezultātā jābūt mazāk nekā 300 simboliem un ne vairāk kā 2-3 teikumiem.\n2. 2. prasība: ...\n3. ...\n\n## Procesa plūsma\n1. Izmantot pašreizējās lapas kontekstu lapas datu un lauku nolasīšanai. Pamatojoties uz šo informāciju ...\n2. 2. solis: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nav lapas ne jaunam, ne esošam ierakstam. Sistēmas administrators jāpārbauda pogu iestatījumus Freedom UI",
+    "GoToEntityDesignerMessage": "Lai iestatītu lapas, dodieties uz URL: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Shēma ir veiksmīgi saglabāta, bet validācijas kļūdas neļauj tai tikt izpildītai."
+  }
+}

@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Selectaţi: {0}",
+        "Selected": "Selectat:",
+        "SelectButton": "Seloectati",
+        "CancelButton": "Anulati",
+        "Blankslate": "Nu există înregistrări pentru acest obiect"
+    },
+    "SearchInput": {
+        "Placeholder": "Cautati",
+        "Settings": {
+            "Cancel": "Anulati",
+            "Apply": "Aplicati",
+            "SearchColumnTemplate": "Căutare după coloana \"{0}\"",
+            "StartsWith": "Începe cu",
+            "Contains": "Conţine",
+            "Equals": "Egal"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Adauga",
+        "BlankslateWithFilters": "Nu există înregistrări care să se potrivească criteriilor actuale de căutare. Ștergeți sau modificați parametrii de căutare"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Acceptă chat-ul",
+            "AlreadyAssignedChat": "Chat-ul a fost atribuit unui alt agent",
+            "NewMessages": "Mesaje noi",
+            "ChatIsCompleted": "Chat completat {datePart} la {timePart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Dumneavoastră:",
+            "DraftMessageCaption": "Ciorna:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Canalele de chat nu sunt configurate",
+                    "textStart": "Vă rugăm să contactați administratorul de sistem și să solicitați configurarea unui canal de chat. Aflați mai multe despre lucrul cu chat-urile în ",
+                    "academyLink": {
+                        "displayText": "Academy"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Canalele de chat nu sunt configurate",
+                    "textStart": "Vă rog ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "adauga"
+                    },
+                    "academyLink": {
+                        "displayText": "Academy"
+                    },
+                    "textEnd": " un canal nou. Află mai multe despre lucrul cu chat-urile în "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Discuțiile noi nu sunt distribuite agenților inactivi",
+                    "textStart": "Vă rugăm să vă schimbați starea în \"Active\". Aflați mai multe despre lucrul cu chat-urile în ",
+                    "academyLink": {
+                        "displayText": "Academy"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Nu există chat-uri în așteptare",
+                    "textStart": "Aflați mai multe despre lucrul cu chat-urile în ",
+                    "academyLink": {
+                        "displayText": "Academy"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Chat-urile noi nu sunt distribuite agenților inactivi",
+                    "textStart": "Vă rugăm să vă schimbați starea în \"Active\". Aflați mai multe despre lucrul cu chat-urile în ",
+                    "academyLink": {
+                        "displayText": "Academy"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Nu există chat-uri în așteptare",
+                    "textStart": "Aflați mai multe despre lucrul cu chaturile pe Academy",
+                    "academyLink": {
+                        "displayText": "Academy"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Se pare că nu ai conversații la serviciu. Verifică lista de noi conversații"
+                }
+            },
+            "Actions": {
+                "Complete": "Terminați conversația",
+                "ProcessesDivider": "Procese",
+                "EmptyProcessesList": "Adaugă un proces de business pe detaliul \"Acțiuni în chat\"",
+                "SearchFacebook": "Cautati pe FAcebook",
+                "ContactDuplicates": {
+                    "Show": "Arata contactele duplicate",
+                    "NotFound": "Nu s-au găsit contacte duplicat",
+                    "Find": "Găsește contacte duplicat"
+                },
+                "Back": "Inapoi",
+                "Transfer": "Transferă conversație",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "Conversații active",
+            "Tips": {
+                "BackToChats": "Înapoi la listă"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Mesaj",
+            "AttachFile": "Fisier",
+            "OversizeFiles": "25 MB limita maximă a dimensiunii fișierului a fost depășită în următoarele fișiere\n{0}",
+            "NewChatsTitle": "Conversații noi"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Conversație începută: {0} de",
+                "EndDate": "Conversație finalizată: {0} de"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Sumar pre-chat",
+            "Toggle": {
+                "Opened": "Ascunde",
+                "Closed": "Arata mai mult"
+            },
+            "Fields": {
+                "Source": "Sursa"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Am găsit {0} contacte similare",
+            "DuplicatesNotFound": "Nu au fost găsite contacte similare",
+            "FindDuplication": "Găsește contacte similare"
+        },
+        "Transfer": {
+            "ToOperator": "Agent",
+            "ToQueue": "Coada",
+            "TransferWindowCaption": "Transfer către",
+            "OperatorStatusTips": {
+                "Active": "Activ",
+                "Inactive": "Inactiv",
+                "ChatsExceeded": "Conversații depășite"
+            },
+            "NoAvailableAgents": "Nu există nici un agent disponibil pentru transfer",
+            "NoAvailableQueues": "Nu există cozi de așteptare disponibile pentru transfer"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Sugestii de șablon",
+        "SuggestionHint": "Încercați să tastați un cuvânt pentru a începe căutarea",
+        "QuickSearchHint": "Introduceți // pentru a căuta un șablon",
+        "TemplateSearchCaption": "Șabloane de răspuns"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Notificările browser-ului sunt dezactivate. Activați notificările pentru a primi alerte de mesaje noi. Citiți mai multe pe ",
+        "splitTextLink": {
+            "displayText": "Academie",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Limbă detectată",
+        "SourceCaption": "Limba țintă",
+        "Translate": "Tradu",
+        "LanguagePlaceholder": "Selectați limba",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

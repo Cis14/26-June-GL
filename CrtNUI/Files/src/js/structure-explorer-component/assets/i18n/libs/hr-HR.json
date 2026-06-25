@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Učitavanje..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopirano"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Još ništa za prikazati ",
+      "Subhead": "Molim prvo dodajte podatke"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Razgovor započet: {0} od strane",
+        "EndDate": "Razgovor završen: {0} od strane"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Učitavanje"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Greška",
+      "Default": "Opisna oznakaprikaz savjeta"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Ne postoji stranica za nove ili postojeće zapise. Sistem administrator mora provjeriti postavke tipki u Freedom UI",
+    "GoToEntityDesignerMessage": "Za postavljanje stranica idite na URL: {0}"
+  }
+}

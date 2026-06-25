@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtGeminiApiIntegraion/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtGeminiApiIntegraion/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtGeminiApiIntegraion/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtGeminiApiIntegraion/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtGeminiApiIntegraion/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtGeminiApiIntegraion/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtGeminiApiIntegraion/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtGeminiApiIntegraion/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtGeminiApiIntegraion/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtGeminiApiIntegraion/Resources/**" />
+		<None Remove="$(PkgPath)/CrtGeminiApiIntegraion/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtGeminiApiIntegraion/Data/**" />
+		<None Remove="$(PkgPath)/CrtGeminiApiIntegraion/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtGeminiApiIntegraion/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtGeminiApiIntegraion/Resources/**" />
+  </ItemGroup>
+</Project>

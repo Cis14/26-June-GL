@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/MLProcessDesigner/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/MLProcessDesigner/Data/**" />
+		<Compile Remove="$(PkgPath)/MLProcessDesigner/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/MLProcessDesigner/Schemas\**" />
+		<Compile Remove="$(PkgPath)/MLProcessDesigner/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLProcessDesigner/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLProcessDesigner/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLProcessDesigner/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLProcessDesigner/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/MLProcessDesigner/Resources/**" />
+		<None Remove="$(PkgPath)/MLProcessDesigner/Assemblies/**" />
+		<None Remove="$(PkgPath)/MLProcessDesigner/Data/**" />
+		<None Remove="$(PkgPath)/MLProcessDesigner/SqlScripts/**" />
+		<None Remove="$(PkgPath)/MLProcessDesigner/Schemas/**" />
+		<None Remove="$(PkgPath)/MLProcessDesigner/Resources/**" />
+  </ItemGroup>
+</Project>

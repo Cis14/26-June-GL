@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Cargando..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copiado"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nada que mostrar aún ",
+      "Subhead": "Por favor añada primero datos"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat iniciado: {0} por",
+        "EndDate": "Chat completado: {0} por"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Cargando"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Error",
+      "Default": "Sugerencia"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Seleccione un valor de la lista",
+      "SelectionWindowMessage": "Por favor, seleccione el valor de la lista o busque usando la ventana de búsqueda"
+    },
+    "Required": {
+      "Message": "Ingrese valor"
+    },
+    "MaxLength": {
+      "Message": "Se superó la longitud máxima del texto ({{actualLength}} / {{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "No se alcanzó la longitud mínima del texto ({{actualLength}} / {{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Formato de fecha y hora inválido"
+    },
+    "DatePickerSyntax": {
+      "Message": "Formato de fecha inválido"
+    },
+    "TimePickerSyntax": {
+      "Message": "Formato de hora inválido"
+    },
+    "RegExp": {
+      "Message": "Formato de valor inválido"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "El código debe comenzar con el prefijo \"{{schemaNamePrefix}}\".",
+      "OnlySchemaNamePrefixMessage": "Ingrese al menos un símbolo más."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use símbolos: a-z, A-Z, 0-9, guion bajo o guion. Solo las letras pueden ser las primeras."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Columna eliminada",
+    "ValidationErrorMessageSingleErrorField": "Campo: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Campos: {0}. Error: {1}",
+    "RefreshModelDataConflict": "Creatio tiene nuevos datos para la página actual. Para verlo, guarde o cancele los cambios y actualice la página.",
+    "WarningModelsWithCircularDependencies": "Algunos modelos tienen dependencias circulares y no han sido cargados",
+    "LoadingModelErrorMessage": "Se produjo un error durante la ejecución de la consulta",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "No hay ninguna página para el registro nuevo o existente. El administrador del sistema debe comprobar la configuración del botón en la interfaz de usuario de la Freedom",
+    "GoToEntityDesignerMessage": "Para configurar páginas vaya a la URL: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "El esquema de proceso se guardó correctamente, pero los errores de validación impiden que se ejecute."
+  }
+}

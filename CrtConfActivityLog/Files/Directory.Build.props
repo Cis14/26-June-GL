@@ -1,0 +1,9 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtConfActivityLog/Schemas/CompilationHistory/CompilationHistory.cs" Condition="Exists('$(PkgPath)/CrtConfActivityLog/Schemas/CompilationHistory/CompilationHistory.cs')" />
+		<Compile Include="$(PkgPath)/CrtConfActivityLog/Schemas/ConfActivityLog/ConfActivityLog.cs" Condition="Exists('$(PkgPath)/CrtConfActivityLog/Schemas/ConfActivityLog/ConfActivityLog.cs')" />
+		<Compile Include="$(PkgPath)/CrtConfActivityLog/Schemas/ConfActivityStatus/ConfActivityStatus.cs" Condition="Exists('$(PkgPath)/CrtConfActivityLog/Schemas/ConfActivityStatus/ConfActivityStatus.cs')" />
+		<Compile Include="$(PkgPath)/CrtConfActivityLog/Schemas/ConfElementType/ConfElementType.cs" Condition="Exists('$(PkgPath)/CrtConfActivityLog/Schemas/ConfElementType/ConfElementType.cs')" />
+		<Compile Include="$(PkgPath)/CrtConfActivityLog/Schemas/ConfOperation/ConfOperation.cs" Condition="Exists('$(PkgPath)/CrtConfActivityLog/Schemas/ConfOperation/ConfOperation.cs')" />
+	</ItemGroup>
+</Project>

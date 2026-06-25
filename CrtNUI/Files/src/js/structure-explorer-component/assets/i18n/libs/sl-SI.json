@@ -1,0 +1,35 @@
+{
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Za nov ali obstoječ zapis ni na voljo strani. Skrbnik sistema mora preveriti nastavitve gumba v Freedom UI",
+    "GoToEntityDesignerMessage": "Za nastavitev strani odprite URL: {0}"
+  },
+  "SkeletonLoader": {
+    "Loading": "Nalaganje..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopirano"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Ničesar ni za prikaz ",
+      "Subhead": "Najprej je potrebno dodati podatke"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Pogovor se je začel: {0} od",
+        "EndDate": "Konec klepeta: {0} od"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Nalaganje"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Napaka",
+      "Default": "Orodni namig"
+    }
+  }
+}

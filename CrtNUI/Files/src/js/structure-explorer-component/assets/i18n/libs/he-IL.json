@@ -1,0 +1,35 @@
+{
+  "SkeletonLoader": {
+    "Loading": "טוען..."
+  },
+  "CopyClipboard": {
+    "Copied": "הועתק"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "עדיין אין מה להציג ",
+      "Subhead": "אנא הוסף נתונים קודם"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "הצ'אט החל: {0} על ידי",
+        "EndDate": "הצ'אט הושלם: {0} על ידי"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "טוען"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "שגיאה",
+      "Default": "הסבר"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "אין דף עבור רשומה חדשה או קיימת. מנהל המערכת חייב לבדוק את הגדרות הכפתור ב- Freedom UI",
+    "GoToEntityDesignerMessage": "כדי להגדיר דפים, עבור ל-URL: {0}"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "No hay ninguna página para el registro nuevo o existente. El administrador del sistema debe comprobar la configuración del botón en la interfaz de usuario de la Freedom",
+    "GoToEntityDesignerMessage": "Para configurar páginas vaya a la URL: {0}"
+  },
+  "SkeletonLoader": {
+    "Loading": "Cargando..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copiado"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Nada que mostrar aún ",
+      "Subhead": "Por favor añada primero datos"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat iniciado: {0} por",
+        "EndDate": "Chat completado: {0} por"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Cargando"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Error",
+      "Default": "Sugerencia"
+    }
+  }
+}

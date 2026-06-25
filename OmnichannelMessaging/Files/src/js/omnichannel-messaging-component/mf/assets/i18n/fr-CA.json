@@ -1,0 +1,159 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Sélectionner: {0}",
+        "Selected": "Sélectionné(e)s:",
+        "SelectButton": "Sélectionner",
+        "CancelButton": "Annuler",
+        "Blankslate": "Il n'y a pas de données pour cet objet"
+    },
+    "SearchInput": {
+        "Placeholder": "Recherche",
+        "Settings": {
+            "Cancel": "Annuler",
+            "Apply": "Appliquer",
+            "SearchColumnTemplate": "rechercher par colonne \"{0}\"",
+            "StartsWith": "Commence par",
+            "Contains": "Contient",
+            "Equals": "Est égal"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Ajouter",
+        "BlankslateWithFilters": "Aucun enregistrement ne correspond aux critères de recherche actuels. Effacer ou modifier les paramètres de recherche"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Accepter le chat",
+            "AlreadyAssignedChat": "Le chat a été attribué à un autre agent",
+            "NewMessages": "Nouveaux messages",
+            "ChatIsCompleted": "Chat envoyé {datePart} à {timePart}",
+            "AcademyLink": "https://academy.creatio.com/",
+            "LastChatMessageAuthorCaption": "Vous:",
+            "DraftMessageCaption": "Brouillon:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Les canaux de chat ne sont pas configurés",
+                    "textStart": "Veuillez contacter votre administrateur système et demander la configuration d'un canal. En savoir plus sur l'utilisation des chats ",
+                    "academyLink": {
+                        "displayText": "'Creatio Academy'"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Les canaux de chat ne sont pas configurés",
+                    "textStart": "SVP ",
+                    "splitTextLink": {
+                        "href": "/ClientApp/#/ChatSettings",
+                        "displayText": "ajouter"
+                    },
+                    "academyLink": {
+                        "displayText": "'Creatio Academy'"
+                    },
+                    "textEnd": " un nouveau canal. En savoir plus sur l'utilisation des chats "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Les nouveaux chats ne sont pas distribués aux agents inactifs",
+                    "textStart": "Veuillez changer votre statut en « Actif ». En savoir plus sur l'utilisation des chats ",
+                    "academyLink": {
+                        "displayText": "'Creatio Academy'"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Il n'y a pas de chats en file d'attente",
+                    "textStart": "En savoir plus sur l'utilisation des chats ",
+                    "academyLink": {
+                        "displayText": "'Creatio Academy'"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Les nouveaux chats ne sont pas distribués aux agents inactifs",
+                    "textStart": "Veuillez changer votre statut en « Actif ». En savoir plus sur l'utilisation des chats ",
+                    "academyLink": {
+                        "displayText": "'Creatio Academy'"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Il n'y a pas de chats en file d'attente",
+                    "textStart": "En savoir plus sur l'utilisation des chats dans l'Académie ",
+                    "academyLink": {
+                        "displayText": "'Creatio Academy'"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Il semble que vous n'ayez pas de chat actif. Consulter la liste des nouveaux chats"
+                }
+            },
+            "Actions": {
+                "Complete": "Clôturer le chat",
+                "ProcessesDivider": "Processus",
+                "EmptyProcessesList": "Ajouter un processus métier sur les « Actions de chat »",
+                "SearchFacebook": "Rechercher sur Facebook",
+                "ContactDuplicates": {
+                    "Show": "Contacts en doublons",
+                    "NotFound": "Contacts en double introuvables",
+                    "Find": "Rechercher les doublons"
+                },
+                "Back": "Précédent",
+                "Transfer": "Transférer le chat"
+            },
+            "ChatListTitle": "Chats Actifs",
+            "Tips": {
+                "BackToChats": "Retour à la liste"
+            },
+            "Bots": {
+                "Name": "Bot"
+            },
+            "NewMessagePlaceholder": "Message",
+            "AttachFile": "Fichier",
+            "OversizeFiles": "Limite de taille de fichier maximale de 25 Mo dépassée dans le(s) fichier(s) suivant(s)\n{0}",
+            "NewChatsTitle": "Nouveaux chats"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Chat démarré : {0} par",
+                "EndDate": "Chat {0} clôturé par"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Résumé du chat",
+            "Toggle": {
+                "Opened": "Cacher",
+                "Closed": "Afficher plus"
+            },
+            "Fields": {
+                "Source": "Source"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "{0} contacts similaires ont été trouvé",
+            "DuplicatesNotFound": "Aucun contact similaire n'a été trouvé",
+            "FindDuplication": "Trouver des contacts identiques"
+        },
+        "Transfer": {
+            "ToOperator": "Opérateur",
+            "ToQueue": "File d'attente",
+            "TransferWindowCaption": "Transférer à",
+            "OperatorStatusTips": {
+                "Active": "Actif",
+                "Inactive": "Inactif",
+                "ChatsExceeded": "Chats dépassés"
+            },
+            "NoAvailableAgents": "Il n'y a pas d'agents disponibles pour transfert",
+            "NoAvailableQueues": "Il n'y a pas de files d'attente à transférer"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Suggestions de modèles",
+        "SuggestionHint": "Essayez de taper un mot pour lancer la recherche",
+        "QuickSearchHint": "Entrez // pour rechercher un modèle",
+        "TemplateSearchCaption": "Modèles de réponses"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Les notifications du navigateur sont désactivées. Activez les notifications pour recevoir des alertes de nouveaux messages. Lire la suite ",
+        "splitTextLink": {
+            "displayText": "'Creatio Academy'"
+        }
+    }
+}

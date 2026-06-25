@@ -1,0 +1,597 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Duke u ngarkuar..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopjo"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Ende asgjë për të treguar ",
+      "Subhead": "Të lutem shto së pari të dhënat"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Fillimi i bisedës: {0} nga",
+        "EndDate": "Përfundimi i bisedës: {0} nga"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Kanali nuk mund të fshihet, pasi ka biseda aktive ose biseda të shpërndara. Të lutem, në fillim përfundo bisedat dhe pastaj provo përsëri."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Loading"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Gabim",
+      "Default": "Tekst informues"
+    }
+  },
+  "Input": {
+    "Readonly": "Fushë e pamodifikueshme",
+    "ShowPassword": "Shfaq fjalëkalimin",
+    "HidePassword": "Fshih fjalëkalimin"
+  },
+  "Carousel": {
+    "NoData": "Nuk ka të dhëna",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "Fushë e pamodifikueshme",
+    "NoData": "Nuk ka të dhëna",
+    "EmptyDisplayValue": "Nuk ka vlerë të treguar",
+    "AddNewRecord": "Shto të re",
+    "InvalidValueSyntax": "Të lutem përzgjidh vlerën nga lista",
+    "IsGoToSourceAllowedTooltip": "Shko te lista e të dhënave",
+    "CheckAll": "Kontrollo të gjitha",
+    "ClearAll": "Pastro të gjitha",
+    "SelectValue": "Select value",
+    "ClearValue": "Pastro vlerën",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "Shto kolonat",
+    "ColumnToolbar": {
+      "Hide": "Fshih",
+      "Freeze": "Ngri",
+      "Unfreeze": "Shkri",
+      "Rename": "Riemëro",
+      "Edit": "Veçoritë",
+      "Title": "Veprimet e kolonave",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "DataGridSettingsLabel": "Konfigurimet e përgjithshme të listës",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Restore default settings",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      },
+      "Title": "Radhit veprimet"
+    },
+    "RowToolbar": {
+      "Open": "Hapur",
+      "Copy": "Kopjo",
+      "Delete": "Fshi",
+      "RunBusinessProcess": "Vazhdo procesin e punës",
+      "Title": "Rreshto veprimet"
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "Nuk ka të dhëna",
+    "NoColumns": "Asnjë kolonë e shtuar",
+    "Hints": {
+      "Sort": "Rendit",
+      "StartEditing": "Modifiko",
+      "ReadonlyCell": "Fushë e pamodifikueshme",
+      "CancelChanges": "Fshi",
+      "AddItem": "Shto rekord të ri",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "AddItem": "E re",
+    "SaveItemsChanges": "Ruaji të gjitha",
+    "CancelItemsChanges": "Fshi",
+    "BulkActions": {
+      "MoreActions": "Më shumë veprime",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "përzgjedhur",
+      "SelectAll": "Përzgjidh të gjitha",
+      "ClearSelection": "Pastro përzgjedhjen",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "Kolonat nuk u gjetën",
+    "ColumnSticky": "Kolonë e ngrirë",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Change width",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Dialog": {
+    "Ok": "Mirë",
+    "Yes": "Po",
+    "No": "Jo",
+    "Save": "Ruaj",
+    "DoNotSave": "Mos e ruaj",
+    "Cancel": "Anullo",
+    "Delete": "Fshi",
+    "Close": "Mbyll",
+    "Notification": "Njoftime",
+    "Overwrite": "Overwrite",
+    "Clear": "Clear",
+    "Restore": "Restore",
+    "ProcessSchemaSavedWithValidationError": "Procesi i skemës u ruajt me sukses, por gabimet e miratimit nuk e lejojnë të vazhdojë."
+  },
+  "Gallery": {
+    "NoData": "Nuk ka të dhëna",
+    "MenuActions": "Veprime",
+    "DateAdded": "Date added",
+    "SelectItem": "Select item",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "WebInput": {
+    "LinkButtonHint": "Hap linkun"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Dërgo emailin"
+  },
+  "FileInput": {
+    "Delete": "Fshi",
+    "Cancel": "Anullo",
+    "Attach": "Bashkëngjit",
+    "FileIcon": "Ikona e dosjes",
+    "EmptyFileName": "Zbraz emrin e dosjes",
+    "MaxFileSizeLimitReached": "Është arritur kufiri maksimal i madhësisë së dosjes ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Hidh dosjet këtu",
+      "Description": "ose përdor",
+      "Upload": "Ngarko"
+    },
+    "RowToolbar": {
+      "Download": "Download"
+    }
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "Ngarko",
+    "Change": "Ndrysho",
+    "Clear": "Fshi",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Ruaj",
+    "CancelButton": "Anullo",
+    "ColumnProperties": "Veçoritë e kolonës",
+    "Title": "Titulli",
+    "FilterHeader": "Si të filtrosh të dhënat",
+    "SortingHeader": "Sort records",
+    "SortColumn": "Rendit sipas",
+    "WhatToDisplay": "Çfarë të paraqesësh",
+    "AggregationColumn": "Kolonë",
+    "SortOrder": "Radhit rendin",
+    "SetupFilters": "Setup filters",
+    "EditFilters": "Edit filters"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Po",
+      "False": "Jo"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "në",
+    "TodayAt": "Sot në {0}",
+    "YesterdayAt": "Dje në {0}",
+    "DayBeforeYesterdayAt": "Pardje në {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "muaji",
+    "DaysAbbreviation": "data",
+    "HoursAbbreviation": "ora",
+    "MinutesAbbreviation": "minuti"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Mbyll dritaren"
+  },
+  "AppToolbar": {
+    "Logo": {
+      "Title": "Shko në desktop"
+    },
+    "QuickRunProcess": {
+      "Title": "Vazhdo procesin",
+      "SuccessMessage": "Procesi është aktivizuar me sukses",
+      "NotConfiguredQuickProcessesMessage": "Aktivizimi i proceseve të shpejta nuk është konfiguruar ende",
+      "OtherProcessesCaption": "Procese të tjera"
+    },
+    "Settings": {
+      "Title": "Rregullime"
+    },
+    "UserProfile": {
+      "Title": "Profili yt",
+      "MenuItems": {
+        "Profile": "Profili yt",
+        "Logout": "Dil",
+        "OrganizationProfile": "Profili i organizatës"
+      }
+    },
+    "New": {
+      "Title": "E re",
+      "NoItemTitle": "Krijimi i të dhënave të shpejta nuk është konfiguruar ende"
+    },
+    "Help": {
+      "Title": "Ndihmë",
+      "MenuItems": {
+        "OnlineHelp": "Ndihmë online",
+        "NeedHelp": "Nevojë për ndihmë",
+        "ExternalAccess": "Jep aksesin për mbështetje",
+        "ReleaseNotes": "Nxirr disa shënime"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "SupportSubject": "Pyet rreth",
+      "AccessGrantedMessage": "Aksesi u lejua",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Paneli i komunikimit"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Paneli i njoftimeve"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfigurimi"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Shtesat e panelit"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Gabim përpilimi",
+      "WorkspaceExplorerTemplate": "Për të parë listën e gabimeve të përpilimit dhe për t'i rregulluar ato, vizito <a href ='{0}' target='_blank'>Seksioni i konfigurimit</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigation panel"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Kërko aplikacionin..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Reduktim i panelit të lundrimit",
+      "ExpandCaption": "Zgjero panelin e lundrimit"
+    },
+    "SearchResultsCaption": "Rezultatet e kërkimit",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Lexo më shumë"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} e shkuar",
+    "timeBeforeCountStartTpl": "{0} përpara se të fillojë numërimi mbrapsht",
+    "overdueTpl": "{0} e vonuar",
+    "timeLeftTpl": "{0} e lënë",
+    "timeIsUpTpl": "Koha përfundoi",
+    "waitingForStartDateTpl": "Duke pritur për fillimin e datës",
+    "dateNotSet": "0orë 0minuta"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "SelectMenuLabel": "Kërko sipas kolonave",
+      "AllOption": "Të gjitha",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "E ruajtur me sukses",
+      "ErrorOnSave": "Gabim gjatë përpjekjes së zbatimit të ndryshimeve"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Je i sigurt që dëshiron të fshish \"{0}\" desktopin?",
+        "Error": {
+          "Deletion": "Gabim përgjatë fshirjes së desktopit",
+          "Configuration": "Gabim gjate përpilimit të konfigurimit"
+        },
+        "Success": "Desktopi \"{0}\" u fshi me sukses"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Kërko..."
+  },
+  "AllowedResults": {
+    "Caption": "Rezultatet e lejuara",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "Kërkohet licensë"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Shto etiketimin",
+    "CreateNewTagButtonCaption": "Krijo një etiketim të ri"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Ti ke ndryshime të paruajtura që do të humbasin. Vazhdo?"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "The page contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Modifiko të dhënat",
+    "DeleteItemActionButtonCaption": "Fshi të dhënat",
+    "NoData": "Nuk ka të dhëna"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Nuk ka të dhëna",
+      "CloseButtonTitle": "Mbyll"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "Hiq"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "Komponenti shfaq ndihma dhe instruksione për përdoruesit që të qasin informacionin nga baza e njohurive për fazat specifike të rasteve dinamike",
+    "Placeholder": {
+      "Title": "Nuk u gjetën artikuj të ngjashëm për Playbook",
+      "Description": "Të lutem krijo një artikull të ngjashëm për fazat specifike të rasteve dinamike në seksionin Playbooks"
+    },
+    "Actions": {
+      "Back": "Pas",
+      "OpenInDialog": "Hape në dritaren qendrore"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Mbyll",
+        "OpenPage": "Hape në dritare të re"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Nuk ka të dhëna",
+    "Boolean": {
+      "Yes": "Po",
+      "No": "Jo"
+    },
+    "String": {
+      "Placeholder": "Vendos tekstin"
+    },
+    "Numeric": {
+      "Placeholder": "Vendos numrin",
+      "To": "deri",
+      "MaxValueError": "Vlera është mbi vlerën maksimale",
+      "MinValueError": "Vlera është nën vlerën minimale"
+    }
+  },
+  "Conversation": {
+    "Caption": "Biseda",
+    "Copilot": {
+      "TypingMessage": "Duke u gjeneruar përgjigja",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "Fshi",
+    "Export": "Eksporto në Exel",
+    "AddTag": "Shto etiketë",
+    "RemoveTag": "Hiq etiketim",
+    "RowsSelection": {
+      "Selected": "përzgjedhur",
+      "SelectAll": "Përzgjidh të gjitha",
+      "ClearSelection": "Clear selection"
+    },
+    "Merge": "Merge"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Numri"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Redukto",
+    "Expand": "Zgjero"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progress bar"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Chat status",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "Nuk ka të dhëna që përkojnë me kriterin e filtrit",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nuk ka faqe për të dhëna të reja ose ekzistuese. Administratori i sistemit duhet të kontrollojë butonin e konfigurimit në Freedom Ul",
+    "GoToEntityDesignerMessage": "Për të konfiguruar faqet shko te URL:{0}"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "Translate",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Call up"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Të lutem përzgjidh vlerën nga lista",
+      "SelectionWindowMessage": "Të lutem përzgjidh vlerë nga lista ose kërko duke përdorur dritaren e kërkimit"
+    },
+    "Required": {
+      "Message": "Vendos vlerën"
+    },
+    "MaxLength": {
+      "Message": "Është tejkaluar gjatësia maksimale e tekstit ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Gjatësia minimale e tekstit nuk është arritur ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format i pavlefshëm i datës dhe orës"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format i pavlefshëm i datës"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format i pavlefshëm i orës"
+    },
+    "RegExp": {
+      "Message": "Formati i vlerës i pavlefshëm"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kodi duhet të fillojë me prefiksin {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Vendos të paktën një simbol më shumë."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Përdor simbolet: a-z, A-Z, 0-9, nënvijëzim ose vijëzim. Vetëm shkronja mund të vendoset në fillim."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolonat u hoqën",
+    "ValidationErrorMessageSingleErrorField": "Fusha: {0}. Gabim: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fushat: {0}. Gabim: {1}",
+    "RefreshModelDataConflict": "Creatio ka të dhëna të reja për faqen aktuale. Për të pare, ruajtur apo anuluar ndryshimet e tua dhe për të rifreskuar faqen.",
+    "WarningModelsWithCircularDependencies": "Disa modele kanë varësi ciklike dhe nuk janë ngarkuar",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Next month",
+    "AriaPrevMonthLabel": "Muaji i kaluar",
+    "AriaNextYearLabel": "Next year",
+    "AriaPrevYearLabel": "Previous year",
+    "Readonly": "Fushë e pamodifikueshme",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Kalendari",
+    "TimePickerIconTitle": "Ora"
+  }
+}

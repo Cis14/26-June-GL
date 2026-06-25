@@ -1,0 +1,531 @@
+{
+  "Input": {
+    "Readonly": "Non-editable field",
+    "ShowPassword": "Show password",
+    "HidePassword": "Hide password"
+  },
+  "Carousel": {
+    "NoData": "No data"
+  },
+  "ComboBox": {
+    "Readonly": "Non-editable field",
+    "NoData": "No data",
+    "EmptyDisplayValue": "No display value",
+    "AddNewRecord": "Add new",
+    "InvalidValueSyntax": "Please select value from the list",
+    "IsGoToSourceAllowedTooltip": "Go to record list"
+  },
+  "DataGrid": {
+    "AddColumns": "Add columns",
+    "ColumnToolbar": {
+      "Hide": "Hide",
+      "Freeze": "Freeze",
+      "Unfreeze": "Unfreeze",
+      "Rename": "Rename",
+      "Title": "Column actions",
+      "Edit": "Properties"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Actions",
+      "Title": "List actions"
+    },
+    "RowToolbar": {
+      "Open": "Open",
+      "Copy": "Copy",
+      "Delete": "Delete",
+      "RunBusinessProcess": "Run business process",
+      "Title": "Row actions"
+    }
+  },
+  "DataTable": {
+    "NoData": "No data",
+    "NotFoundColumn": "Column not found",
+    "ColumnSticky": "Frozen column",
+    "NoColumns": "No columns added",
+    "Hints": {
+      "Sort": "Sort",
+      "StartEditing": "Edit",
+      "ReadonlyCell": "Non-editable field",
+      "CancelChanges": "Discard"
+    },
+    "SaveItemsChanges": "Save all",
+    "CancelItemsChanges": "Discard"
+  },
+  "Gallery": {
+    "NoData": "No data"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Yes",
+      "False": "No"
+    }
+  },
+  "FileInput": {
+    "Delete": "Delete",
+    "Cancel": "Cancel",
+    "Attach": "Attach",
+    "FileIcon": "File icon",
+    "EmptyFileName": "Empty file name",
+    "MaxFileSizeLimitReached": "Max file size limit is reached ({0}MB)"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Drop files here",
+      "Description": "or use the \"Upload\" button"
+    }
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Save",
+    "CancelButton": "Cancel",
+    "ColumnProperties": "Column properties",
+    "Title": "Title",
+    "FilterHeader": "How to filter records",
+    "SortingHeader": "How to sort records",
+    "SortColumn": "Sort by",
+    "WhatToDisplay": "What to display",
+    "AggregationColumn": "Column",
+    "SortOrder": "Sort order"
+  },
+  "SmartDateTimeFormat": {
+    "At": "at",
+    "TodayAt": "Today at {0}",
+    "YesterdayAt": "Yesterday at {0}",
+    "DayBeforeYesterdayAt": "The day before yesterday at {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Open link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Send email"
+  },
+  "ImageInput": {
+    "Alt": "Image",
+    "Upload": "Upload",
+    "Clear": "Clear"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mos",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Close tab"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Run process",
+      "SuccessMessage": "The process has been successfully run",
+      "NotConfiguredQuickProcessesMessage": "Quick processes run is not yet configured",
+      "OtherProcessesCaption": "Other processes"
+    },
+    "Settings": {
+      "Title": "Settings"
+    },
+    "UserProfile": {
+      "Title": "Your profile",
+      "MenuItems": {
+        "Profile": "Your profile",
+        "Logout": "Exit"
+      }
+    },
+    "New": {
+      "Title": "New",
+      "NoItemTitle": "Quick records creation is not yet configured"
+    },
+    "Help": {
+      "Title": "Need help",
+      "ToolbarTitle": "Help",
+      "SupportSubject": "Question about"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication  panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications  panel"
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search..."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Read more"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passed",
+    "timeBeforeCountStartTpl": "{0} before countdown begins",
+    "overdueTpl": "{0} overdue",
+    "timeLeftTpl": "{0} left",
+    "timeIsUpTpl": "Time is up",
+    "waitingForStartDateTpl": "Waiting for start date",
+    "dateNotSet": "0hr 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "All"
+    }
+  },
+  "MarketingEmailContent": {},
+  "MarketingEngagementToolsContent": {},
+  "MarketingCampaignContent": {},
+  "MarketingEventContent": {},
+  "ResendWebhooks": {
+    "SuccessMessage": "Undelivered webhook processing has started successfully. This may take some time depending on the number of undelivered webhooks in the system.",
+    "ErrorMessage": "Failed to start undelivered webhook receiving process."
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Please select value from the list"
+    },
+    "Required": {
+      "Message": "Enter a value"
+    },
+    "MaxLength": {
+      "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Invalid date and time format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Invalid date format"
+    },
+    "TimePickerSyntax": {
+      "Message": "Invalid time format"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed"
+  },
+  "SkeletonLoader": {
+    "Loading": "Loading..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "GoogleAnalytics": {},
+  "Copilot": {
+    "RewriteActionsPrompt": {}
+  },
+  "DigitalAdsContent": {
+    "PlatformInputCaption": "Platform",
+    "AppInputCaption": "Application",
+    "AdPlatformLoginRequestTitle": "Connect ad platform"
+  },
+  "FolderTree": {
+    "AddFilter": "Add",
+    "AddFilterHint": "Add new folder",
+    "BlankslateMessage": "No folders",
+    "CloseFolderTree": "Hide folders",
+    "SetUpFilter": "Set up filter",
+    "DefaultFolderName": "New folder",
+    "CopyFolderSuffix": "Copy",
+    "DeleteConfirmation": "Are you sure that you want to delete the selected folder?",
+    "MenuActions": {
+      "AddFolder": "Add folder",
+      "RenameFolder": "Rename",
+      "CopyFolder": "Copy",
+      "DeleteFolder": "Delete",
+      "AddToFavorite": "Add to favorites",
+      "RemoveFromFavorite": "Remove from favorites",
+      "ChangeFolderRights": "Set up access rights"
+    },
+    "FavoritesNodeCaption": "Favorites",
+    "ShowMenuActions": "Show actions",
+    "RootNodeCaption": "All",
+    "CopyRightsQuestion": "Copy access permissions of the \"{0}\" folder?"
+  },
+  "FolderTreeFilters": {
+    "SaveButton": "Save",
+    "CancelButton": "Cancel",
+    "DialogTitle": "Setup filters"
+  },
+  "Components": {
+    "FolderTree": {
+      "Caption": "Folders",
+      "Hint": "Lets you configure the folder structure to organize records by specified filters. To ensure the component operates as intended, connect it in the page List or Data source settings."
+    },
+    "FolderTreeActions": {
+      "Caption": "Folder management menu",
+      "Hint": "Requires the Folders component. Lets you unhide page folders."
+    },
+    "EncryptedInput": {},
+    "MultiSelect": {
+      "Caption": "Multiselect lookup"
+    },
+    "Approval": {
+      "Caption": "Approvals"
+    },
+    "ApprovalList": {
+      "Caption": "Approvals list",
+      "RefreshCaption": "Refresh",
+      "ProvideDataSource": "Provide data source before using approvals"
+    }
+  },
+  "FolderTreeActions": {
+    "MenuButton": "Folders",
+    "FavoriteItemsMenuButtonAriaLabel": "Folders menu",
+    "ClearButtonCaption": "Hide folders"
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "FolderTreePropertiesPage": {
+        "GeneralLabel": "General",
+        "HeaderLabel": "Folder settings",
+        "SourceSchemaLabel": "Folder storage location",
+        "RootSchemaLabel": "What will folders filter?",
+        "AdvancedGroup": "Advanced",
+        "CodeLabel": "Code"
+      },
+      "FolderTreeActionsPropertiesPage": {
+        "HeaderLabel": "Settings of the folder management menu",
+        "FolderTreeLabel": "Folder tree selection",
+        "GeneralCaption": "General"
+      },
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Toolbar display mode",
+        "Inline": "Inline",
+        "Classic": "Classic"
+      },
+      "FeedPropertiesPage": {
+        "PageCaption": "Feed settings",
+        "GeneralCaption": "General",
+        "FeedTypeCaption": "Feed type",
+        "FeedChannel": "Channel",
+        "FeedTypeGeneral": "General",
+        "FeedTypeChannel": "Channel",
+        "FeedTypeRecord": "Record",
+        "FeedDataSourceCaption": "Data source",
+        "FeedTypeUser": "User",
+        "FeedTypeRecordTooltipCaption": "Feed messages will be displayed based on specific record communication.",
+        "FeedTypeGeneralTooltipCaption": "All notifications and mentions related to current user. In this mode the feed will display the posts and comments where current user was tagged or the threads he is following. For example, the feed in this mode can be added to the home page not to miss important information."
+      },
+      "EncryptedInputPropertiesPage": {},
+      "MergeRecordsRequest": {},
+      "MergeRecordsRequestPropertiesPanel": {},
+      "TimelinePropertiesPanel": {
+        "PageCaption": "Timeline settings",
+        "ObjectsCaption": "Objects",
+        "AddObject": "Add object",
+        "ContextMenu": {
+          "Edit": "Edit",
+          "Delete": "Delete"
+        }
+      },
+      "TimelineItemPropertiesPage": {
+        "GeneralGroup": "General",
+        "CaptionLabel": "Title",
+        "AppearanceGroup": "Appearance",
+        "LinkedColumn": "Linked column",
+        "SortedByColumn": "Sort by",
+        "IconPosition": {
+          "OnlyIcon": "Only icon"
+        }
+      },
+      "CalendarPropertiesPage": {
+        "MiniPageSchemaName": "Mini page for preview",
+        "TitleColumn": "Primary display field",
+        "StartDateColumn": "Start date column",
+        "EndDateColumn": "End date column",
+        "NotesColumn": "Field with online meeting information",
+        "PageCaption": "Calendar settings",
+        "RequiredFieldError": "This field is required",
+        "SecondaryTileFields": "Secondary tile fields",
+        "AddSecondaryFieldCaption": "Add secondary field",
+        "DisabledAddSecondaryFieldCaption": "You can add maximum 4 secondary fields",
+        "AutoScrollToCurrentTime": "Scroll to current time automatically",
+        "SecondaryFieldContextMenu": {
+          "Delete": "Delete"
+        },
+        "ColorizationType": {
+          "Default": "Default",
+          "ByField": "Automatic",
+          "ByOwner": "By User"
+        },
+        "ColorizationTypeCaption": "Tile colorization mode",
+        "ColorizationColumnCaption": "Lookup"
+      },
+      "MultiSelectPropertiesPage": {
+        "HeaderLabel": "Multiselect lookup settings"
+      },
+      "ApprovalPropertiesPage": {
+        "HeaderLabel": "Approvals settings",
+        "SchemaNameLabel": "Which records to approve?",
+        "GeneralGroup": "General",
+        "AppearanceGroup": "Appearance",
+        "HiddenWhenNoData": "Hidden when no data"
+      },
+      "ApprovalListPropertiesPage": {
+        "HeaderLabel": "Approvals list settings",
+        "GeneralGroup": "General",
+        "SchemaNameLabel": "Object"
+      }
+    }
+  },
+  "DataGridFolderSettings": {},
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Next month",
+    "AriaPrevMonthLabel": "Previous month",
+    "AriaNextYearLabel": "Next year",
+    "AriaPrevYearLabel": "Previous year",
+    "Readonly": "Non-editable field"
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Display toolbar"
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Save",
+    "OpenLinkButtonCaption": "Open in new tab",
+    "CloseLinkButtonCaption": "Close",
+    "UnlinkLinkButtonCaption": "Unlink",
+    "LinkLabelCaption": "Link address",
+    "TextLabelCaption": "Text to display"
+  },
+  "Feed": {
+    "Caption": "Feed",
+    "SortByCreatedOn": "Sort by message date",
+    "SortByLastAction": "Sort by date of last activity",
+    "ShowMoreThanOneNewSocialMessages": "Show {0} new messages",
+    "ShowNewSocialMessage": "Show 1 new message",
+    "Publisher": {
+      "DefaultInputPlaceholder": "Share your knowledge...",
+      "DisabledInputPlaceholder": "You cannot create new posts on new record page.",
+      "CommentInputPlaceholder": "Write a comment…",
+      "ShareWithPortal": "Share with portal user",
+      "PostingErrorMsg": "Error while saving feed post",
+      "UserFeedInputPlaceholder": "Feed is in the user mode. You cannot create new posts in this mode.",
+      "SendButtonHint": "Send message. Keyboard Shortcut - Ctrl+Enter",
+      "CancelButtonHint": "Cancel"
+    },
+    "Post": {
+      "AddCommentButtonCaption": "Add comment",
+      "CommentsButtonCaption": "Comments",
+      "CommentsButtonHint": "Show comments",
+      "ExpandedCommentsButtonHint": "Hide comments",
+      "PostedInLabel": "posted in"
+    },
+    "Reactions": {
+      "Like": "Like",
+      "ExtraReactionsTemplate": "and {0} more..."
+    },
+    "Item": {
+      "Edit": "Edit",
+      "Delete": "Delete",
+      "DeletionConfirmation": "Are sure you want to delete the record? This action cannot be undone.",
+      "DeletionErrorMsg": "The record was not deleted. Please try again later."
+    }
+  },
+  "InfoDialog": {
+    "OK": "OK"
+  },
+  "FilePreview": {
+    "ApryseWebViewer": {}
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Call up"
+  },
+  "MergingRecords": {},
+  "Timeline": {
+    "TileHeads": {
+      "Call": {
+        "Called": "Called",
+        "Sec": "sec"
+      },
+      "Email": {
+        "MailedTo": "Mailed to",
+        "From": "From",
+        "To": "To",
+        "CC": "CC",
+        "Details": "Details",
+        "Hide": "Hide"
+      },
+      "File": {
+        "AddedFile": "Added a file"
+      }
+    }
+  },
+  "IFrame": {
+    "Caption": "IFrame",
+    "Hint": "iFrame component allows to embed and display content in either HTML or URL format",
+    "Placeholder": {
+      "NothingToShow": "Nothing to show yet",
+      "NoContent": "No content available in this section"
+    },
+    "ContentUnavailable": {
+      "Title": "Content Unavailable",
+      "SubTitle": "Due to your network settings, browser security policies, or content restrictions",
+      "LinkTitle": "Read more in our Academy"
+    }
+  },
+  "EntityHierarchyFilterPropertiesPanel": {
+    "HeaderLabel": "Entity hierarchy filter",
+    "GeneralCaption": "General",
+    "SchemaNameCaption": "Select an object to build a hierarchy",
+    "HierarchySetup": "Hierarchy setup",
+    "SchemaNameSelectTooltip": "Select an object to build the hierarchy on. All system objects are displayed in the drop-down menu. After configuring the hierarchy, link it to the List component by specifying it as a pre-configured filter.",
+    "ApplyStaticFilter": "Apply static filter",
+    "EditStaticFilterAction": "Edit filter",
+    "FiltersDialogCaption": "Manually defined filter",
+    "SetupStaticFilterAction": "Setup filter"
+  },
+  "EntityHierarchySetupContainerPropertiesPanel": {
+    "AddNewItem": "Add new hierarchy column",
+    "ContextMenu": {
+      "AddToSubmenu": "Add sub-hierarchy",
+      "Edit": "Edit",
+      "Delete": "Delete"
+    }
+  },
+  "EntityHierarchyFilter": {
+    "AllFilterCaption": "All",
+    "NotFilledNode": "Not filled",
+    "SpecificationFilterCaption": "Open additional filtering",
+    "BackButtonCaption": "Back",
+    "ClearAllFiltersButtonCaption": "Clear all"
+  },
+  "Calendar": {
+    "ExtraEventsTemplate": "+{0}",
+    "ConfirmNextPage": "{0} records have been loaded. Load more records?",
+    "ConfirmResendMeetingInvitationsQuestion": "When the meeting is saved all participants will receive a meeting update. Do you  want to proceed?",
+    "ConfirmResendMultipleMeetingsInvitationsQuestion": "Saving some of this meetings requires you to send a change notification to all participants after saving. Do you want to continue? Meeting list:",
+    "ConfirmResendObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. Are you sure you want to send an invitation to the participants?",
+    "ConfirmResendOnSaveObsoleteMeetingInvitationsQuestion": "Meeting occurs in the past. All participants will receive a meeting update. Do you  want to proceed?",
+    "CanNotChangeMeetingMessage": "Only the meeting organizer can change the description, date and list of the meeting participants.",
+    "CanNotChangeMultipleMeetingsMessage": "Some of the changed meetings can only be changed by the meeting organizer. Meeting list: ",
+    "CanNotChangeMultipleMeetingsByFilterMessage": "You can delete meetings only if you select records manually.",
+    "ErrorSendingInvitationMessage": "The invitations were not sent. It may be a temporary issue, please try again later.",
+    "SuccessSendingInvitationMessage": "Invitations were successfully sent.",
+    "JoinBtnCaption": "Join online meeting"
+  },
+  "Approvals": {
+    "ComponentHeaderLabel": "Approvals",
+    "ComponentHeaderInactiveLabel": "No approval required",
+    "RejectDialogHeaderLabel": "Are you sure you want to reject the approval?",
+    "RejectInputLabel": "Approval comment",
+    "RejectButtonLabel": "Reject approval",
+    "CancelButtonLabel": "Cancel",
+    "ApproveDialogHeaderLabel": "Grant the approval?",
+    "ApproveButtonLabel": "Approve",
+    "PositiveMetricLabel": "Positive",
+    "NegativeMetricLabel": "Negative",
+    "PendingMetricLabel": "Pending",
+    "ComponentHeaderActiveLabel": "Waiting for your approval",
+    "ApprovalPurposeLabel": "Approval purpose",
+    "ApprovedPlaceholderLabel": "APPROVED",
+    "DesignTime": {
+      "ApprovalObjective": "Approval required"
+    },
+    "RejectedPlaceholderLabel": "REJECTED"
+  },
+  "ApprovalList": {
+    "RejectButtonLabel": "Reject",
+    "ApproveButtonLabel": "Approve"
+  }
+}

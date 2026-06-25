@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "In caricamento..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copiato"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Niente da mostrare ancora ",
+      "Subhead": "Si prega di aggiungere i dati prima"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Chat iniziata: {0} da",
+        "EndDate": "Chat completata: {0} da"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "In caricamento"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Errore",
+      "Default": "Suggerimento"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Non c'è nessuna pagina per il record nuovo o esistente. L'amministratore di sistema deve controllare le impostazioni del pulsante nella Freedom UI",
+    "GoToEntityDesignerMessage": "Per impostare le pagine vai all'URL: {0}"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Seleziona il valore dalla lista",
+      "SelectionWindowMessage": "Seleziona il valore dalla lista o cercalo usando la finestra di lookup"
+    },
+    "Required": {
+      "Message": "Inserisci un valore"
+    },
+    "MaxLength": {
+      "Message": "Lunghezza massima del testo superata ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Lunghezza minima del testo non raggiunta ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Formato data e ora non valido"
+    },
+    "DatePickerSyntax": {
+      "Message": "Formato data non valido"
+    },
+    "TimePickerSyntax": {
+      "Message": "Formato orario non valido"
+    },
+    "RegExp": {
+      "Message": "Formato valore non valido"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Il codice deve iniziare con il prefisso {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Inserisci almeno un altro simbolo."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Usa i simboli: a-z, A-Z, 0-9, trattino basso o trattino. Solo le lettere possono essere le prime."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Il valore '{{controlValue}}' esiste già nella colonna 'Codice'."
+    },
+    "PhoneNumber": {
+      "Message": "Numero di telefono non valido"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Colonna rimossa",
+    "ValidationErrorMessageSingleErrorField": "Campo: {0}. Errore: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Campi: {0}. Errore: {1}",
+    "RefreshModelDataConflict": "Creatio ha nuovi dati per la pagina corrente. Per visualizzarli, salva o annulla le modifiche e aggiorna la pagina.",
+    "WarningModelsWithCircularDependencies": "Alcuni modelli hanno dipendenze circolari e non sono stati caricati",
+    "LoadingModelErrorMessage": "Errore durante l'esecuzione della query",
+    "ErrorMessageOnEmptyRelationColumn": "Impossibile salvare la pagina. Popolare il campo {{caption}} o cancellare i dati nei campi correlati per salvare nella pagina."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "I dati sono stati aggiornati"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Descrivi chiaramente e concisamente l'obiettivo dell'utente. Dettaglia i passaggi necessari per raggiungere l'obiettivo dell'utente. Delinea il risultato atteso dal LLM. Questo dovrebbe includere qualsiasi contesto o informazione necessaria che il LLM deve conoscere.\n\n## Regole generali\n1. Non puoi creare nuovi oggetti senza confermare esplicitamente con l'utente.\n2. Regola 2: ...\n3. ...\n\n## Restrizioni generali\n1. Evita di fare assunzioni sull'intento dell'utente; chiarisci le richieste quando necessario.\n2. Restrizione 2: ...\n3. ...\n\n## Requisiti per l'output\n1. L'output deve essere inferiore a 300 simboli e non più di 2-3 frasi.\n2. Requisito 2: ...\n3. ...\n\n## Flusso del processo\n1. Usa il contesto della pagina attuale per leggere i dati della pagina e i campi. Basato su quelle informazioni ...\n2. Passaggio 2: ...\n3. ..."
+    }
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Lo schema del processo è stato salvato con successo, ma gli errori di convalida impediscono l'esecuzione."
+  }
+}

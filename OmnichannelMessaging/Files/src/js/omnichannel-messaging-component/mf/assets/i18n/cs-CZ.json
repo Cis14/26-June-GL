@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "Vyberte: {0}",
+        "Selected": "Vybraný:",
+        "SelectButton": "Vybrat",
+        "CancelButton": "Zrušit",
+        "Blankslate": "Pro tento objekt nejsou žádné záznamy"
+    },
+    "SearchInput": {
+        "Placeholder": "Vyhledávání",
+        "Settings": {
+            "Cancel": "Zrušit",
+            "Apply": "Aplikovat",
+            "SearchColumnTemplate": "Hledat podle sloupce „{0}“",
+            "StartsWith": "Začíná s",
+            "Contains": "Obsahuje",
+            "Equals": "Rovná se"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "Přidat",
+        "BlankslateWithFilters": "Neexistují žádné záznamy odpovídající aktuálním kritériím vyhledávání. Vymažte nebo upravte parametry vyhledávání"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "Přijmout chat",
+            "AlreadyAssignedChat": "Chat byl přidělen jinému agentovi",
+            "NewMessages": "Nové zprávy",
+            "ChatIsCompleted": "Chat dokončen {datumPart} v {časPart}",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "Vy:",
+            "DraftMessageCaption": "Návrh:",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "Chatovací kanály nejsou nakonfigurovány",
+                    "textStart": "Kontaktujte prosím svého správce systému a požádejte o nastavení kanálu. Další informace o práci s chaty v ",
+                    "academyLink": {
+                        "displayText": "Akademie"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "Chatovací kanály nejsou nakonfigurovány",
+                    "textStart": "Prosím ",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "přidat"
+                    },
+                    "academyLink": {
+                        "displayText": "Akademie"
+                    },
+                    "textEnd": " nový kanál. Další informace o práci s chaty v "
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "Nové chaty nejsou distribuovány neaktivním agentům",
+                    "textStart": "Změňte svůj stav na „Aktivní“. Další informace o práci s chaty v ",
+                    "academyLink": {
+                        "displayText": "Akademie"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "Nejsou zde žádné chaty ve frontě",
+                    "textStart": "Další informace o práci s chaty v ",
+                    "academyLink": {
+                        "displayText": "Akademie"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "Nové chaty nejsou distribuovány neaktivním agentům",
+                    "textStart": "Změňte svůj stav na „Aktivní“. Další informace o práci s chaty v ",
+                    "academyLink": {
+                        "displayText": "Akademie"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "Nejsou zde žádné chaty ve frontě",
+                    "textStart": "Zjistěte více o práci s chaty v Akademii ",
+                    "academyLink": {
+                        "displayText": "Akademie"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "Zdá se, že v práci nemáte chaty. Podívejte se na seznam nových chatů"
+                }
+            },
+            "Actions": {
+                "Complete": "Dokončit chat",
+                "ProcessesDivider": "Procesy",
+                "EmptyProcessesList": "Přidejte obchodní proces do detailu „Akce chatu“.",
+                "SearchFacebook": "Hledejte na Facebooku",
+                "ContactDuplicates": {
+                    "Show": "Zobrazit duplicitní kontakty",
+                    "NotFound": "Duplicitní kontakty nebyly nalezeny",
+                    "Find": "Nalézt duplicitní kontakty"
+                },
+                "Back": "Zpět",
+                "Transfer": "Přenést chat",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "Aktivní chaty",
+            "Tips": {
+                "BackToChats": "Zpět na seznam"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "Zpráva",
+            "AttachFile": "Soubor",
+            "OversizeFiles": "Maximální limit velikosti 25 MB byl překročen v následujících souborech\n{0}",
+            "NewChatsTitle": "Nové chaty"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "Chat zahájen: {0} uživatelem",
+                "EndDate": "Chat dokončen: {0} uživatelem"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "Shrnutí před chatem",
+            "Toggle": {
+                "Opened": "Skrýt",
+                "Closed": "Zobrazit více"
+            },
+            "Fields": {
+                "Source": "Zdroj"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "Počet nalezených podobných kontaktů: {0}",
+            "DuplicatesNotFound": "Nebyly nalezeny žádné podobné kontakty",
+            "FindDuplication": "Najděte podobné kontakty"
+        },
+        "Transfer": {
+            "ToOperator": "Agent",
+            "ToQueue": "Fronta",
+            "TransferWindowCaption": "Přenést do",
+            "OperatorStatusTips": {
+                "Active": "Aktivní",
+                "Inactive": "Neaktivní",
+                "ChatsExceeded": "Počet chatů překročen"
+            },
+            "NoAvailableAgents": "Nejsou k dispozici žádní agenti k převodu",
+            "NoAvailableQueues": "Nejsou k dispozici žádné fronty k přenosu"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "Návrhy šablon",
+        "SuggestionHint": "Zkuste zadat slovo a začněte hledat",
+        "QuickSearchHint": "Zadejte // pro vyhledání šablony",
+        "TemplateSearchCaption": "Šablony odpovědí"
+    },
+    "NotificationsDisabled": {
+        "textStart": "Upozornění prohlížeče jsou zakázána. Chcete-li dostávat upozornění na nové zprávy, povolte upozornění. Přečtěte si více na ",
+        "splitTextLink": {
+            "displayText": "Akademie",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "Překlad",
+        "LanguagePlaceholder": "Select language",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

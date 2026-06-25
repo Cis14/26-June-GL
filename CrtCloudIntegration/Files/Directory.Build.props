@@ -1,0 +1,9 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtCloudIntegration/Schemas/DomainInfo/DomainInfo.cs" Condition="Exists('$(PkgPath)/CrtCloudIntegration/Schemas/DomainInfo/DomainInfo.cs')" />
+		<Compile Include="$(PkgPath)/CrtCloudIntegration/Schemas/MailingProviderInfo/MailingProviderInfo.cs" Condition="Exists('$(PkgPath)/CrtCloudIntegration/Schemas/MailingProviderInfo/MailingProviderInfo.cs')" />
+		<Compile Include="$(PkgPath)/CrtCloudIntegration/Schemas/SenderDomain/SenderDomain.cs" Condition="Exists('$(PkgPath)/CrtCloudIntegration/Schemas/SenderDomain/SenderDomain.cs')" />
+		<Compile Include="$(PkgPath)/CrtCloudIntegration/Schemas/SenderDomainsInfo/SenderDomainsInfo.cs" Condition="Exists('$(PkgPath)/CrtCloudIntegration/Schemas/SenderDomainsInfo/SenderDomainsInfo.cs')" />
+		<Compile Include="$(PkgPath)/CrtCloudIntegration/Schemas/SenderDomainStatus/SenderDomainStatus.cs" Condition="Exists('$(PkgPath)/CrtCloudIntegration/Schemas/SenderDomainStatus/SenderDomainStatus.cs')" />
+	</ItemGroup>
+</Project>

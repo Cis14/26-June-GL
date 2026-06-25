@@ -1,0 +1,172 @@
+{
+    "LookupDialog": {
+        "TitleTemplate": "選擇：{0}",
+        "Selected": "已選取：",
+        "SelectButton": "選擇",
+        "CancelButton": "取消",
+        "Blankslate": "此物件沒有記錄"
+    },
+    "SearchInput": {
+        "Placeholder": "搜尋",
+        "Settings": {
+            "Cancel": "取消",
+            "Apply": "申請",
+            "SearchColumnTemplate": "依列 \"{0}\" 搜尋",
+            "StartsWith": "開始於",
+            "Contains": "包含",
+            "Equals": "相等"
+        }
+    },
+    "BaseTableDetail": {
+        "Add": "添加",
+        "BlankslateWithFilters": "沒有符合目前搜尋準則的記錄。清除或修改搜尋參數"
+    },
+    "ChatSettings": {
+        "ChatWindow": {
+            "AcceptChatButton": "接受聊天",
+            "AlreadyAssignedChat": "聊天被指派給其他代理",
+            "NewMessages": "新訊息",
+            "ChatIsCompleted": "聊天已於 {timePart} {datePart} 完成",
+            "AcademyLink": "https://academy.creatio.com/documents?id=2382",
+            "LastChatMessageAuthorCaption": "你",
+            "DraftMessageCaption": "草稿：",
+            "BlankSlates": {
+                "Default": {
+                    "reason": "未設定聊天頻道",
+                    "textStart": "請聯絡您的系統管理員，要求建立頻道。在",
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    }
+                },
+                "HasRightsAndNoChannel": {
+                    "reason": "未設定聊天頻道",
+                    "textStart": "請",
+                    "splitTextLink": {
+                        "href": "#Section/ChatSettingsPage",
+                        "displayText": "添加"
+                    },
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    },
+                    "textEnd": "一個新頻道。在"
+                },
+                "HasRightsAndChannelButInactive": {
+                    "reason": "新的聊天不會分發給不活躍的代理",
+                    "textStart": "請將您的狀態變更為 「活動中」。在",
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    }
+                },
+                "HasRightsAndChannelAndIsActive": {
+                    "reason": "沒有排隊聊天",
+                    "textStart": "在",
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndInactive": {
+                    "reason": "新的聊天不會分發給不活躍的代理",
+                    "textStart": "請將您的狀態變更為 「活動中」。在",
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    }
+                },
+                "HasNotRightsAndHasChannelAndIsActive": {
+                    "reason": "沒有排隊聊天",
+                    "textStart": "進一步瞭解如何在學院中使用聊天功能",
+                    "academyLink": {
+                        "displayText": "學習資源"
+                    }
+                },
+                "HasNoActiveChats": {
+                    "reason": "看起來您在工作時沒有聊天。查看新聊天列表"
+                }
+            },
+            "Actions": {
+                "Complete": "完整聊天",
+                "ProcessesDivider": "流程",
+                "EmptyProcessesList": "在「聊天動作」細節上新增業務流程",
+                "SearchFacebook": "在臉書上搜尋",
+                "ContactDuplicates": {
+                    "Show": "顯示重複的聯絡人",
+                    "NotFound": "未找到重複的聯絡人",
+                    "Find": "尋找重複的聯絡人"
+                },
+                "Back": "返回",
+                "Transfer": "轉移聊天",
+                "Translation": {
+                    "Show": "Show translation panel",
+                    "Hide": "Hide translation panel"
+                }
+            },
+            "ChatListTitle": "活躍聊天",
+            "Tips": {
+                "BackToChats": "回到清單"
+            },
+            "Bots": {
+                "Name": "Creatio.ai"
+            },
+            "NewMessagePlaceholder": "訊息",
+            "AttachFile": "文件",
+            "OversizeFiles": "25 MB 最大文件大小限制已超出以下文件\n{0}",
+            "NewChatsTitle": "新聊天"
+        },
+        "History": {
+            "Captions": {
+                "StartDate": "聊天開始：{0}由",
+                "EndDate": "聊天完成：{0}由"
+            }
+        },
+        "PreChatSummary": {
+            "Caption": "談話前摘要",
+            "Toggle": {
+                "Opened": "隱藏",
+                "Closed": "顯示更多"
+            },
+            "Fields": {
+                "Source": "來源"
+            }
+        },
+        "Deduplication": {
+            "DuplicatesFoundTemplate": "找到 {0} 個類似聯絡人",
+            "DuplicatesNotFound": "未找到類似的連絡人",
+            "FindDuplication": "尋找類似聯絡人"
+        },
+        "Transfer": {
+            "ToOperator": "代理人",
+            "ToQueue": "佇列",
+            "TransferWindowCaption": "轉至",
+            "OperatorStatusTips": {
+                "Active": "積極的",
+                "Inactive": "不活躍",
+                "ChatsExceeded": "聊天超過"
+            },
+            "NoAvailableAgents": "沒有可用的代理可轉移",
+            "NoAvailableQueues": "沒有可供轉移的隊列"
+        }
+    },
+    "InfoDialog": {
+        "OK": "OK"
+    },
+    "MessageTemplate": {
+        "Suggestion": "範本建議",
+        "SuggestionHint": "嘗試輸入單字開始搜尋",
+        "QuickSearchHint": "輸入 // 以搜尋範本",
+        "TemplateSearchCaption": "答案範本"
+    },
+    "NotificationsDisabled": {
+        "textStart": "瀏覽器通知已停用。啟用通知以接收新訊息提示。讀取更多",
+        "splitTextLink": {
+            "displayText": "學習資源",
+            "href": "https://academy.creatio.com/documents?id=1011"
+        }
+    },
+    "MultilingualMessages": {
+        "Caption": "Detected language",
+        "SourceCaption": "Target language",
+        "Translate": "翻譯",
+        "LanguagePlaceholder": "選擇語言",
+        "LanguageDetectionError": "Language could not be detected. Please select a language.",
+        "TranslationFailedHeader": "Translation failed. Please try again."
+    }
+}

@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Duke u ngarkuar..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopjo"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Ende asgjë për të treguar ",
+      "Subhead": "Të lutem shto së pari të dhënat"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Fillimi i bisedës: {0} nga",
+        "EndDate": "Përfundimi i bisedës: {0} nga"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Loading"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Gabim",
+      "Default": "Tekst informues"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Të lutem përzgjidh vlerën nga lista",
+      "SelectionWindowMessage": "Të lutem përzgjidh vlerë nga lista ose kërko duke përdorur dritaren e kërkimit"
+    },
+    "Required": {
+      "Message": "Vendos vlerën"
+    },
+    "MaxLength": {
+      "Message": "Është tejkaluar gjatësia maksimale e tekstit ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Gjatësia minimale e tekstit nuk është arritur ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Format i pavlefshëm i datës dhe orës"
+    },
+    "DatePickerSyntax": {
+      "Message": "Format i pavlefshëm i datës"
+    },
+    "TimePickerSyntax": {
+      "Message": "Format i pavlefshëm i orës"
+    },
+    "RegExp": {
+      "Message": "Formati i vlerës i pavlefshëm"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kodi duhet të fillojë me prefiksin {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "Vendos të paktën një simbol më shumë."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Përdor simbolet: a-z, A-Z, 0-9, nënvijëzim ose vijëzim. Vetëm shkronja mund të vendoset në fillim."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolonat u hoqën",
+    "ValidationErrorMessageSingleErrorField": "Fusha: {0}. Gabim: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fushat: {0}. Gabim: {1}",
+    "RefreshModelDataConflict": "Creatio ka të dhëna të reja për faqen aktuale. Për të pare, ruajtur apo anuluar ndryshimet e tua dhe për të rifreskuar faqen.",
+    "WarningModelsWithCircularDependencies": "Disa modele kanë varësi ciklike dhe nuk janë ngarkuar",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nuk ka faqe për të dhëna të reja ose ekzistuese. Administratori i sistemit duhet të kontrollojë butonin e konfigurimit në Freedom Ul",
+    "GoToEntityDesignerMessage": "Për të konfiguruar faqet shko te URL:{0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "Procesi i skemës u ruajt me sukses, por gabimet e miratimit nuk e lejojnë të vazhdojë."
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "Validators": {
+    "Autocomplete": {
+      "Message": "リストから項目を選択してください",
+      "SelectionWindowMessage": "リストから値を選択するか、検索窓より検索してください"
+    },
+    "Required": {
+      "Message": "入力してください"
+    },
+    "MaxLength": {
+      "Message": "最大文字数を超えました ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "最小文字数に達していません ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "日付と時刻の形式が正しくありません"
+    },
+    "DatePickerSyntax": {
+      "Message": "無効な日付フォーマット"
+    },
+    "TimePickerSyntax": {
+      "Message": "無効な時間形式です"
+    },
+    "RegExp": {
+      "Message": "値の形式が無効です"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "コードは \"{{schemaNamePrefix}}\" プレフィックスで始める必要があります.",
+      "OnlySchemaNamePrefixMessage": "少なくとも 1 つ以上のシンボルを入力してください。"
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "記号を使用：a-z、A-Z、0-9、アンダースコアまたはダッシュ。最初は文字のみです。"
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "'コード' 列に '{{controlValue}}' の値はすでに存在します。"
+    },
+    "PhoneNumber": {
+      "Message": "無効な電話番号"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "列が削除されました",
+    "ValidationErrorMessageSingleErrorField": "フィールド: {0}. エラー: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "フィールド: {0}. エラー: {1}",
+    "RefreshModelDataConflict": "Creatioには現在のページに新しいデータがあります。 変更を表示するには、保存またはキャンセルしてページを更新してください。",
+    "WarningModelsWithCircularDependencies": "一部のモデルには循環依存関係があり、読み込まれていません",
+    "LoadingModelErrorMessage": "クエリ実行中にエラーが発生しました",
+    "ErrorMessageOnEmptyRelationColumn": "ページを保存できません。{{caption}}フィールドに情報を入力するか、関連フィールドのデータをクリアしてページに保存してください。"
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "データが更新されました"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "ユーザーの目標を明確かつ簡潔に説明してください。ユーザーの目標を達成するために必要な手順を詳述してください。LLMから期待される結果の概要を示してください。これには、LLMが知っておくべき必要な文脈や情報が含まれるべきです。\n\n## 一般ルール\n1. ユーザーの確認がない限り、新しいオブジェクトを作成することはできません。\n2. ルール2: ...\n3. ...\n\n## 一般的な制限\n1. ユーザーの意図について仮定を立てることは避けてください。必要に応じてリクエストを明確にしてください。\n2. 制限2: ...\n3. ...\n\n## 出力の要件\n1. 出力は300符号未満、かつ2～3文以内でなければなりません。\n2. 要件2: ...\n3. ...\n\n## プロセスフロー\n1. 現在のページの文脈を使用してページデータとフィールドを読み取ります。それに基づいて ...\n2. ステップ2: ...\n3. ..."
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "読み込み中.."
+  },
+  "CopyClipboard": {
+    "Copied": "コピーしました"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "表示するものがありません ",
+      "Subhead": "データを追加してください"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "チャット開始: {0}",
+        "EndDate": "チャット完了: {0}"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "読み込み中"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "エラー",
+      "Default": "ツールチップ"
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "新規または既存のレコードのページはありません。システム管理者はFreedom UIのボタン設定を確認する必要があります。",
+    "GoToEntityDesignerMessage": "ページをセットアップするにはURL： {0} に遷移してください。"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "プロセス スキーマは正常に保存されましたが、検証エラーにより実行が妨げられます。"
+  }
+}

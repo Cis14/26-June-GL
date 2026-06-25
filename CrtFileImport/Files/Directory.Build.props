@@ -1,0 +1,10 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtFileImport/Schemas/BufferedImportEntity/BufferedImportEntity.cs" Condition="Exists('$(PkgPath)/CrtFileImport/Schemas/BufferedImportEntity/BufferedImportEntity.cs')" />
+		<Compile Include="$(PkgPath)/CrtFileImport/Schemas/ChunkProcessResult/ChunkProcessResult.cs" Condition="Exists('$(PkgPath)/CrtFileImport/Schemas/ChunkProcessResult/ChunkProcessResult.cs')" />
+		<Compile Include="$(PkgPath)/CrtFileImport/Schemas/FileImportParameters/FileImportParameters.cs" Condition="Exists('$(PkgPath)/CrtFileImport/Schemas/FileImportParameters/FileImportParameters.cs')" />
+		<Compile Include="$(PkgPath)/CrtFileImport/Schemas/FileImportTemplate/FileImportTemplate.cs" Condition="Exists('$(PkgPath)/CrtFileImport/Schemas/FileImportTemplate/FileImportTemplate.cs')" />
+		<Compile Include="$(PkgPath)/CrtFileImport/Schemas/ImportSession/ImportSession.cs" Condition="Exists('$(PkgPath)/CrtFileImport/Schemas/ImportSession/ImportSession.cs')" />
+		<Compile Include="$(PkgPath)/CrtFileImport/Schemas/ImportSessionChunk/ImportSessionChunk.cs" Condition="Exists('$(PkgPath)/CrtFileImport/Schemas/ImportSessionChunk/ImportSessionChunk.cs')" />
+	</ItemGroup>
+</Project>

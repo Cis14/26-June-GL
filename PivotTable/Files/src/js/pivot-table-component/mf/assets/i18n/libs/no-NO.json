@@ -1,0 +1,36 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Laster..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopiert"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Vennligst velg verdi fra listen"
+    },
+    "Required": {
+      "Message": "Angi en verdi"
+    },
+    "MaxLength": {
+      "Message": "Maksimal tekstlengde er overskredet ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minste tekstlengde ikke nådd ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Ugyldig dato og klokkeslett format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Ugyldig datoformat"
+    },
+    "TimePickerSyntax": {
+      "Message": "Ugyldig tidsformat"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolonne fjernet",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}"
+  }
+}

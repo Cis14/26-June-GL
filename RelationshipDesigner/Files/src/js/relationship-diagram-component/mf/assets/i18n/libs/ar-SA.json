@@ -1,0 +1,597 @@
+{
+  "SkeletonLoader": {
+    "Loading": "تحميل..."
+  },
+  "CopyClipboard": {
+    "Copied": "منسوخ"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "لا يوجد شيء لإظهاره حتى الآن ",
+      "Subhead": "يرجى إضافة البيانات التالية أولًا"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "بدأت الدردشة: {0} بواسطة",
+        "EndDate": "اكتملت الدردشة: {0} بواسطة"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "لا يمكن حذف القناة، هناك دردشة نشطة أو دردشة في التوزيع. يرجى إكمال الدردشة أولاً ثم المحاولة مرة أخرى."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "تحميل"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "خطأ",
+      "Default": "لمحة عن الأدوات"
+    }
+  },
+  "Input": {
+    "Readonly": "حقل غير قابل للتعديل",
+    "ShowPassword": "عرض كلمة المرور",
+    "HidePassword": "إخفاء كلمة المرور"
+  },
+  "Carousel": {
+    "NoData": "لا توجد بيانات",
+    "PrevButtonCaption": "Previous item",
+    "NextButtonCaption": "Next item"
+  },
+  "ComboBox": {
+    "Readonly": "حقل غير قابل للتعديل",
+    "InvalidValueSyntax": "يرجى تحديد قيمة من القائمة",
+    "NoData": "لا توجد بيانات",
+    "EmptyDisplayValue": "لا توجد قيمة عرض",
+    "AddNewRecord": "إضافة جديد",
+    "IsGoToSourceAllowedTooltip": "الذهاب لقائمة السجلات",
+    "CheckAll": "تحقق من الكل",
+    "ClearAll": "مسح الكل",
+    "SelectValue": "اختر قيمة",
+    "ClearValue": "مسح القيمة",
+    "OpenSection": "Open section"
+  },
+  "DataGrid": {
+    "AddColumns": "إضافة أعمدة",
+    "ColumnToolbar": {
+      "Hide": "إخفاء",
+      "Freeze": "تجميد",
+      "Unfreeze": "إلغاء التجميد",
+      "Rename": "إعادة تسمية",
+      "Title": "إجراءات العمود",
+      "Edit": "خصائص",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "ClearSorting": "Clear sorting",
+      "AriaLabel": "Column actions for"
+    },
+    "RowToolbar": {
+      "Open": "فتح",
+      "Copy": "نسخ",
+      "Delete": "حذف",
+      "RunBusinessProcess": "تشغيل العمليات الخاصة بالعمل",
+      "Title": "إجراءات الصف"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "List actions for",
+      "Title": "قائمة الإجراءات",
+      "DataGridSettingsLabel": "إعدادات القائمة العامة",
+      "SaveDataGridSettings": {
+        "Label": "Save as new default settings",
+        "Confirmation": "New default list settings will be saved for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Overwrite current settings for all users",
+        "Confirmation": "New default list settings will be saved and will replace the current settings for all users. Continue?",
+        "SuccessStatus": "List setting saved successfully"
+      },
+      "ResetDataGridSettings": {
+        "Label": "استعادة الإعدادات الافتراضية؟",
+        "Confirmation": "Default list settings will be restored. Continue?",
+        "SuccessStatus": "Default list settings restored successfully"
+      }
+    },
+    "AddColumnsTo": "Add columns to",
+    "Title": "List {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Column added successfully",
+      "ColumnsAddedSuccessfully": "Columns added successfully",
+      "ColumnHiddenSuccessfully": "Column hidden successfully",
+      "ColumnFrozenSuccessfully": "Column frozen successfully",
+      "ColumnUnfrozenSuccessfully": "Column unfrozen successfully",
+      "ColumnChangedSuccessfully": "Column changed successfully"
+    }
+  },
+  "DataTable": {
+    "NoData": "لا توجد بيانات",
+    "NoColumns": "لا توجد أعمدة مضافة",
+    "Hints": {
+      "Sort": "فرز",
+      "StartEditing": "تحرير",
+      "ReadonlyCell": "حقل غير قابل للتعديل",
+      "CancelChanges": "تجاهل",
+      "AddItem": "إضافة سجل جديد",
+      "SortWithCaption": "Sort {0}",
+      "NotSorted": "currently not sorted",
+      "SortedAscending": "currently sorted ascending",
+      "SortedDescending": "currently sorted descending",
+      "SortAscending": "Sort ascending",
+      "SortDescending": "Sort descending",
+      "RowControls": "Row controls"
+    },
+    "SaveItemsChanges": "حفظ الكل",
+    "CancelItemsChanges": "تجاهل",
+    "AddItem": "جديد",
+    "BulkActions": {
+      "MoreActions": "مزيد من الإجراءات",
+      "AriaLabel": "Bulk actions for {0}"
+    },
+    "RowsSelection": {
+      "Selected": "المحدد",
+      "SelectAll": "تحديد الكل",
+      "ClearSelection": "ازل التحديد",
+      "SelectRow": "Select row",
+      "RowsSelected": "Rows selected: {0}"
+    },
+    "NotFoundColumn": "لم يُعثر على العمود",
+    "ColumnSticky": "العمود المجمد",
+    "StatusBar": {
+      "AriaLabel": "Edit actions for {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "تغيير العرض",
+      "ChangeWidthOf": "Change width of {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Expand all",
+      "CollapseAll": "Collapse all",
+      "ExpandRow": "Expand nested rows",
+      "CollapseRow": "Collapse nested rows"
+    }
+  },
+  "Gallery": {
+    "NoData": "لا توجد بيانات",
+    "MenuActions": "الإجراءات",
+    "DateAdded": "Date added",
+    "SelectItem": "حدد العنصر",
+    "Item": {
+      "ActionsButtonCaption": "Item actions"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "نعم",
+      "False": "لا"
+    }
+  },
+  "FileInput": {
+    "Delete": "حذف",
+    "Cancel": "إلغاء",
+    "Attach": "إرفاق",
+    "FileIcon": "أيقونة الملف",
+    "EmptyFileName": "اسم الملف فارغ",
+    "MaxFileSizeLimitReached": "بلغ حجم الملف الحد الأقصى ({0}ميجابايت)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "حفظ",
+    "CancelButton": "إلغاء",
+    "ColumnProperties": "خصائص العمود",
+    "Title": "العنوان",
+    "FilterHeader": "كيفية تصفية السجلات؟",
+    "SortingHeader": "Sort records",
+    "SortColumn": "فرز حسب",
+    "WhatToDisplay": "ماذا تريد عرضه",
+    "AggregationColumn": "العمود",
+    "SortOrder": "فرز الطلب",
+    "SetupFilters": "إعدادات الفلاتر",
+    "EditFilters": "Edit filters"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "إفلات الملفات هنا",
+      "Description": "أو استخدم",
+      "Upload": "رفع الملف"
+    },
+    "RowToolbar": {
+      "Download": "Download"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "على",
+    "TodayAt": "اليوم في {0}",
+    "YesterdayAt": "أمس على الساعة {0}",
+    "DayBeforeYesterdayAt": "أول البارحة عند {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "لا توجد قيمة معروضة"
+  },
+  "WebInput": {
+    "LinkButtonHint": "فتح الرابط"
+  },
+  "EmailInput": {
+    "AddEmailHint": "أرسل بريدا إلكترونيا"
+  },
+  "ImageInput": {
+    "Alt": "Field image",
+    "Upload": "رفع",
+    "Clear": "حذف",
+    "Change": "تغيير",
+    "AltAbbreviation": "Abbreviation image",
+    "AltIcon": "Field empty placeholder"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "شهر",
+    "DaysAbbreviation": "يوم",
+    "HoursAbbreviation": "سا",
+    "MinutesAbbreviation": "دقيقة"
+  },
+  "TabPanel": {
+    "CloseTabHint": "إغلاق علامة التبويب"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "تشغيل العملية",
+      "SuccessMessage": "تم تشغيل العملية بنجاح",
+      "NotConfiguredQuickProcessesMessage": "لم تُكون العمليات السريعة بعد",
+      "OtherProcessesCaption": "العمليات الأخرى"
+    },
+    "Settings": {
+      "Title": "إعدادات"
+    },
+    "UserProfile": {
+      "Title": "ملف التعريف الخاص بك",
+      "MenuItems": {
+        "Profile": "ملف التعريف الخاص بك",
+        "Logout": "خروج",
+        "OrganizationProfile": "الصفحة الشخصية للمنظمة"
+      }
+    },
+    "New": {
+      "Title": "جديد",
+      "NoItemTitle": "لم يُكون إنشاء السجلات السريعة بعد"
+    },
+    "Help": {
+      "Title": "مساعدة",
+      "SupportSubject": "سؤال عن",
+      "MenuItems": {
+        "OnlineHelp": "مساعدة عبر الإنترنت",
+        "NeedHelp": "بحاجة إلى مساعدة",
+        "ExternalAccess": "منح حق الوصول إلى الدعم",
+        "ReleaseNotes": "كتابة ملاحظات"
+      },
+      "EmailBodyTemplate": "المضمون=%0D%0A%0D%0Aالموقع: {0}%0D%0AID معرّف العميل: {1}%0D%0Aالمنتج: {2}%0D%0Aالإصدار {3}%0D%0Aحجم الشاشة: {4}%0D%0Aالتوطين: {5}%0D%0Aالصفحة: {6}",
+      "AccessGrantedMessage": "تم منح حق الوصول",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "لوحة التواصل"
+    },
+    "NotificationsPanelButton": {
+      "Title": "لوحة الإشعارات"
+    },
+    "Logo": {
+      "Title": "انتقل إلى سطح المكتب"
+    },
+    "WorkspaceExplorer": {
+      "Title": "تهيئة"
+    },
+    "LegacySidePanelButton": {
+      "Title": "لوحة الإضافات"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "خطأ في التجميع",
+      "WorkspaceExplorerTemplate": "لعرض قائمة من أخطاء التجميع وإصلاحها، زر قسم التكوين <a href ='{0}' target='_blank'></a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "لوحة التنقل"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Error Details:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Limited configuration mode",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "The system routed you to a regular application node. It is not recommended to make customizations in this mode, as changes might not be distributed to other nodes. The design node might be unavailable for various reasons. You might learn more in Creatio and/or orchestrator logs. Routine use may continue."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "البحث في التطبيق..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "تصغير لوحة التنقل",
+      "ExpandCaption": "توسيع لوحة التنقل"
+    },
+    "SearchResultsCaption": "نتائج البحث",
+    "EmptySearchResult": {
+      "Title": "There are no items matching the search criteria.",
+      "Subhead": "Clear or change the search criteria."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "اقرأ المزيد"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} انتهى",
+    "timeBeforeCountStartTpl": "{0} قبل بدء العد التنازلي",
+    "overdueTpl": "{0} تأخير",
+    "timeLeftTpl": "{0} متبقي",
+    "timeIsUpTpl": "انتهى الوقت",
+    "waitingForStartDateTpl": "في انتظار تاريخ البدء",
+    "dateNotSet": "0 ساعة 0دقيقة"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "الكل",
+      "SelectMenuLabel": "البحث حسب العمود",
+      "Title": "Select filter column"
+    },
+    "ClearIconTitle": "Clear search"
+  },
+  "Dialog": {
+    "Ok": "حسنًا",
+    "Yes": "نعم",
+    "No": "لا",
+    "Save": "حفظ",
+    "DoNotSave": "لا تحفظ",
+    "Cancel": "إلغاء",
+    "Delete": "حذف",
+    "Close": "أغلق",
+    "Notification": "إشعار",
+    "Overwrite": "Overwrite",
+    "Clear": "واضح",
+    "Restore": "استعادة",
+    "ProcessSchemaSavedWithValidationError": "تم حفظ مخطط العملية بنجاح، ولكن تمنع أخطاء التحقق من تشغيله."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "تم الحفظ بنجاح",
+      "ErrorOnSave": "خطأ عند محاولة تطبيق التغييرات"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "هل أنت متأكد من رغبتك في حذف سطح المكتب {0}؟",
+        "Error": {
+          "Deletion": "خطأ أثناء حذف سطح المكتب",
+          "Configuration": "خطأ أثناء بناء التكوين"
+        },
+        "Success": "تم حذف سطح المكتب \"{0}\" بنجاح"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "بحث..."
+  },
+  "AllowedResults": {
+    "Caption": "النتائج المسموح بها",
+    "TaskCompleted": "The task was completed."
+  },
+  "LicenseIndicator": {
+    "Title": "الترخيص مطلوب"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "إضافة علامة",
+    "CreateNewTagButtonCaption": "إنشاء علامة جديدة"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "لديك تغييرات غير محفوظة ستُفقد. هل ترغب في المتابعة؟"
+    },
+    "List": {
+      "Message": "The list contains unsaved changes. They will be lost if you proceed. Save the changes?"
+    },
+    "Page": {
+      "Message": "تحتوي الصفحة على تغييرات غير محفوظة. ستفقد هذه التغييرات إذا تابعت. هل تريد حفظ التغييرات؟\n"
+    }
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "تحرير السجل",
+    "DeleteItemActionButtonCaption": "حذف السجل",
+    "NoData": "لا توجد بيانات"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "لا توجد بيانات",
+      "CloseButtonTitle": "إغلاق"
+    },
+    "AriaLabel": "Selected Items",
+    "Chip": {
+      "RemoveButtonCaption": "إزالة"
+    },
+    "AriaLabelFor": "Selected Items for"
+  },
+  "Playbook": {
+    "Caption": "كتاب الإرشادات",
+    "Hint": "يعرض هذا المكون تلميحات وتعليمات للمستخدمين للوصول إلى المعلومات من قاعدة المعارف بالنسبة لمراحل محددة من الحالات الدينامية",
+    "Placeholder": {
+      "Title": "لا توجد مقالات لعب ذات صلة",
+      "Description": "يرجى إعداد مقالة ذات صلة لمرحلة الحالة المتغيرة الحالية في قسم كتاب الإرشادات"
+    },
+    "Actions": {
+      "Back": "عودة",
+      "OpenInDialog": "فتح في نافذة المشروط"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "إغلاق",
+        "OpenPage": "فتح في علامة تبويب جديدة"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Authorization failed. Try again later or ask the administrator for help.",
+      "FormatError": "Invalid format in the request. Make sure the input is structured correctly and check the output parameters of your actions.",
+      "LimitError": "Token limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai tokens.",
+      "ServiceAvailabilityError": "Service is temporarily unavailable. Try again later.",
+      "ExecutionError": "Error occurred while processing your request. Try again or ask the administrator for help.",
+      "ConfigurationError": "Configuration issue detected. Verify the system settings or ask the administrator for help.",
+      "UnknownError": "Unknown error occurred. Try again later or ask the administrator for help.",
+      "CharacterLimitExceededError": "The character limit in the user's query has been reached. Verify the system settings or ask the administrator for help.",
+      "ToolCallsInvokesLimitExceeded": "Function call limit exceeded: too many consecutive automated calls without user input or repeated execution of the same function.",
+      "InsufficientPermissions": "You don't have permission to use this agent or skill. Please contact your administrator to set up access.",
+      "ActionLimitError": "Action limit reached, further work with Creatio.ai is locked. Contact your administrator to replenish Creatio.ai actions."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "لا توجد بيانات",
+    "Boolean": {
+      "Yes": "نعم",
+      "No": "لا"
+    },
+    "String": {
+      "Placeholder": "أدخل النص"
+    },
+    "Numeric": {
+      "Placeholder": "أدخل رقم",
+      "To": "حتى",
+      "MaxValueError": "القيمة أعلى من الحد الأقصى",
+      "MinValueError": "القيمة أقل من الحد الأدنى"
+    }
+  },
+  "Conversation": {
+    "Caption": "المحادثة",
+    "Copilot": {
+      "TypingMessage": "توليد الاستجابة",
+      "Action": {
+        "Replace": "Replace selection",
+        "InsertAbove": "Insert above",
+        "InsertBelow": "Insert below"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "حذف",
+    "Export": "تصدير إلى إكسل",
+    "AddTag": "إضافة علامة",
+    "RemoveTag": "إزالة العلامة",
+    "RowsSelection": {
+      "Selected": "المحدد",
+      "SelectAll": "تحديد الكل",
+      "ClearSelection": "ازل التحديد"
+    },
+    "Merge": "دمج"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "with notifications"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "الرقم"
+  },
+  "ExpansionPanel": {
+    "Collapse": "تصغير",
+    "Expand": "توسيع"
+  },
+  "ProgressBar": {
+    "AriaLabel": "شريط التقدّم"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "حالة الدردشة",
+    "CtiStatesMenuCaption": "Telephony status"
+  },
+  "MultiList": {
+    "NoDataMessage": "There are no recent items yet",
+    "NoDataBySearchFilter": "لا توجد سجلات تطابق معايير الفلتر",
+    "NoDataBySearchFilterSubtitle": "Clear the filter or change it conditions "
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "لا توجد صفحة لسجلات جديدة أو موجودة. يجب على مسؤول النظام التحقق من زر الإعدادات في واجهة المستخدم الحر",
+    "GoToEntityDesignerMessage": "لإعداد الصفحات، اذهب إلى الرابط: {0}"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Show original",
+      "Original": "ترجم",
+      "Retry": "Retry"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "يرجى تحديد قيمة من القائمة",
+      "SelectionWindowMessage": "يرجى تحديد قيمة من القائمة أو البحث باستخدام نافذة البحث"
+    },
+    "Required": {
+      "Message": "ادخل قيمة"
+    },
+    "MaxLength": {
+      "Message": "تجاوز الحد الأقصى لطول النص ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "لم يتم بلوغ الحد الأدنى لطول النص ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "تنسيق التاريخ والوقت غير صالح"
+    },
+    "DatePickerSyntax": {
+      "Message": "تنسيق التاريخ غير صالح"
+    },
+    "TimePickerSyntax": {
+      "Message": "تنسيق الوقت غير صالح"
+    },
+    "RegExp": {
+      "Message": "تنسيق القيمة غير صالح"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "يجب أن يبدأ الرمز ببادئة {{schemaNamePrefix}}.",
+      "OnlySchemaNamePrefixMessage": "أدخل على الأقل رمز إضافي واحد."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "استخدم الرموز: a-z، أو A-Z أو 0-9 (_) أو (-). ويمكن فقط للحروف أن تكون أولًا."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "تم حذف العمود",
+    "ValidationErrorMessageSingleErrorField": "الحقل: {0}. الخطأ: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "الحقول: {0}. الخطأ: {1}",
+    "RefreshModelDataConflict": "لدى Creatio بيانات جديدة للصفحة الحالية. لعرضها، يجب حفظ أو إلغاء التغييرات الخاصة بك وتحديث الصفحة.",
+    "WarningModelsWithCircularDependencies": "بعض النماذج لها تبعيات دائرية ولم يتم تحميلها",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "مكالمة"
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "الشهر القادم",
+    "AriaPrevMonthLabel": "الشهر الماضي",
+    "AriaNextYearLabel": "العام التالي",
+    "AriaPrevYearLabel": "العام السابق",
+    "Readonly": "حقل غير قابل للتعديل",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "التقويم",
+    "TimePickerIconTitle": "الوقت"
+  }
+}

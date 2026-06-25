@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtLocalizationDesigner/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtLocalizationDesigner/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtLocalizationDesigner/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtLocalizationDesigner/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtLocalizationDesigner/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtLocalizationDesigner/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtLocalizationDesigner/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtLocalizationDesigner/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtLocalizationDesigner/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtLocalizationDesigner/Resources/**" />
+		<None Remove="$(PkgPath)/CrtLocalizationDesigner/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtLocalizationDesigner/Data/**" />
+		<None Remove="$(PkgPath)/CrtLocalizationDesigner/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtLocalizationDesigner/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtLocalizationDesigner/Resources/**" />
+  </ItemGroup>
+</Project>

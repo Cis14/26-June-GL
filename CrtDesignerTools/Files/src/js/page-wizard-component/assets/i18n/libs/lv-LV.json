@@ -1,0 +1,717 @@
+{
+  "CrtIconSelectorComponent": {
+    "Tooltip": "Izvēlieties ikonu"
+  },
+  "TooltipMessage": {
+    "DisabledRuleMessage": "Biznesa noteikums ir deaktivizēts"
+  },
+  "ConstValuePickerProvider": {
+    "Caption": "Pastāvīgā vērtība",
+    "SourceCaption": "Konstanta",
+    "ValuePickerComponent": {
+      "Placeholder": "Norādiet vērtību"
+    },
+    "ConstValuePickerDialogComponent": {
+      "Title": "Atlasīt vērtību",
+      "Label": "Vērtība",
+      "Actions": {
+        "OkButtonCaption": "Labi",
+        "CancelButtonCaption": "Atcelt"
+      }
+    }
+  },
+  "SkeletonLoader": {
+    "Loading": "Ielāde..."
+  },
+  "CopyClipboard": {
+    "Copied": "Kopēts"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Pagaidām nekas nav parādīts ",
+      "Subhead": "Lūdzu, pievienojiet datus vispirms"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "Tērzēšana sākās: {0} pēc",
+        "EndDate": "Tērzēšana pabeigta {0} ar"
+      }
+    },
+    "ChatWindow": {
+      "Bots": {
+        "Name": "Creatio.ai"
+      }
+    },
+    "Channel": {
+      "ActiveChatsValidationError": "Kanālu nevar izdzēst, ir aktīvas tērzēšanas vai tērzēšanas izplatīšanas laikā. Lūdzu, vispirms pabeidziet tērzēšanu un mēģiniet vēlreiz."
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Ielāde"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Kļūda",
+      "Default": "Rīkjosla"
+    }
+  },
+  "Input": {
+    "Readonly": "Nerediģējams lauks",
+    "ShowPassword": "Parādīt paroli",
+    "HidePassword": "Slēpt paroli"
+  },
+  "Carousel": {
+    "NoData": "Datu nav",
+    "PrevButtonCaption": "Iepriekšējā vienība",
+    "NextButtonCaption": "Nākamā vienība"
+  },
+  "ComboBox": {
+    "Readonly": "Nerediģējams lauks",
+    "InvalidValueSyntax": "Lūdzu, izvēlieties vērtību no saraksta",
+    "NoData": "Datu nav",
+    "EmptyDisplayValue": "Nav norādīta vērtība",
+    "AddNewRecord": "Pievienot jaunu",
+    "IsGoToSourceAllowedTooltip": "Pārejiet uz ierakstu sarakstu",
+    "CheckAll": "Atzīmēt visu",
+    "ClearAll": "Notīrīt visu",
+    "SelectValue": "Atlasīt vērtību",
+    "ClearValue": "Notīrīt vērtību",
+    "OpenSection": "Atvērt sadaļu"
+  },
+  "DataGrid": {
+    "AddColumns": "Pievienot kolonnas",
+    "ColumnToolbar": {
+      "Hide": "Slēpt",
+      "Freeze": "Iesaldēt",
+      "Unfreeze": "Atbrīvot",
+      "Rename": "Pārsaukt",
+      "Title": "Kolonnu darbības",
+      "Edit": "Īpašības",
+      "SortAscending": "Kārtot augošā secībā",
+      "SortDescending": "Kārtot dilstošā secībā",
+      "ClearSorting": "Notīrīt šķirošanu",
+      "AriaLabel": "Kolonnu darbības par"
+    },
+    "RowToolbar": {
+      "Open": "Atvērt",
+      "Copy": "Kopēt",
+      "Delete": "Dzēst",
+      "RunBusinessProcess": "Palaist biznesa procesu",
+      "Title": "Rindu darbības"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "Saraksta darbības par",
+      "DataGridSettingsLabel": "Vispārīgi saraksta iestatījumi",
+      "SaveDataGridSettings": {
+        "Label": "Saglabāt kā jaunus noklusējuma iestatījumus",
+        "Confirmation": "Jaunie noklusējuma saraksta iestatījumi tiks saglabāti visiem lietotājiem. Turpināt?",
+        "SuccessStatus": "Saraksta iestatījumi veiksmīgi saglabāti"
+      },
+      "OverwriteDataGridSettings": {
+        "Label": "Pārrakstīt pašreizējos iestatījumus visiem lietotājiem",
+        "Confirmation": "Jaunie noklusējuma saraksta iestatījumi tiks saglabāti un aizvietos pašreizējos iestatījumus visiem lietotājiem. Turpināt?",
+        "SuccessStatus": "Saraksta iestatījumi veiksmīgi saglabāti"
+      },
+      "ResetDataGridSettings": {
+        "Label": "Atjaunot noklusējuma iestatījumus",
+        "Confirmation": "Tiks atjaunoti noklusējuma saraksta iestatījumi. Turpināt?",
+        "SuccessStatus": "Noklusējuma saraksta iestatījumi veiksmīgi atjaunoti"
+      },
+      "Title": "Aktivitātes saraksts"
+    },
+    "AddColumnsTo": "Pievienot kolonnas uz",
+    "Title": "Saraksts {0}",
+    "Statuses": {
+      "ColumnAddedSuccessfully": "Kolonna veiksmīgi pievienota",
+      "ColumnsAddedSuccessfully": "Kolonnas veiksmīgi pievienotas",
+      "ColumnHiddenSuccessfully": "Kolonna veiksmīgi paslēpta",
+      "ColumnFrozenSuccessfully": "Kolonna veiksmīgi bloķēta",
+      "ColumnUnfrozenSuccessfully": "Kolonna veiksmīgi atbloķēta",
+      "ColumnChangedSuccessfully": "Kolonna veiksmīgi mainīta"
+    }
+  },
+  "DataTable": {
+    "NoData": "Datu nav",
+    "NoColumns": "Rindu darbības",
+    "Hints": {
+      "Sort": "Atlasīt",
+      "StartEditing": "Rediģēt",
+      "ReadonlyCell": "Nerediģējams lauks",
+      "CancelChanges": "Izmest",
+      "AddItem": "Pievienot jaunu ierakstu",
+      "SortWithCaption": "Kārtot {0}",
+      "NotSorted": "pašreiz nav kārtots",
+      "SortedAscending": "pašreiz kārtoti augošā secībā",
+      "SortedDescending": "pašreiz kārtots dilstošā secībā",
+      "SortAscending": "Kārtot augošā secībā",
+      "SortDescending": "Kārtot dilstošā secībā",
+      "RowControls": "Rindu kontrolē"
+    },
+    "SaveItemsChanges": "Saglabāt visus",
+    "CancelItemsChanges": "Izmest",
+    "BulkActions": {
+      "MoreActions": "Vairāk darbību",
+      "AriaLabel": "Masveida darbības par {0}"
+    },
+    "AddItem": "Jauns",
+    "RowsSelection": {
+      "Selected": "izvēlēts",
+      "SelectAll": "Izvēlieties visus",
+      "ClearSelection": "Notīrīt izvēli",
+      "SelectRow": "Izvēlēties rindu",
+      "RowsSelected": "Atlasītas rindas: {0}"
+    },
+    "NotFoundColumn": "Kolonna nav atrasta",
+    "ColumnSticky": "Iesaldēta kolonna",
+    "StatusBar": {
+      "AriaLabel": "Rediģēt darbības par {0}"
+    },
+    "Columns": {
+      "ChangeWidth": "Mainīt platumu",
+      "ChangeWidthOf": "Mainīt platumu {0}"
+    },
+    "Hierarchical": {
+      "ExpandAll": "Rādīt visu",
+      "CollapseAll": "Sakļaut visu",
+      "ExpandRow": "Paplašināt ievietotas rindas",
+      "CollapseRow": "Sakļaut ievietotas rindas"
+    }
+  },
+  "Gallery": {
+    "NoData": "Datu nav",
+    "MenuActions": "Darbības",
+    "DateAdded": "Pievienošanas datums",
+    "SelectItem": "Izvēlēties objektu",
+    "Item": {
+      "ActionsButtonCaption": "Vienumu darbības"
+    }
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Jā",
+      "False": "Nē"
+    }
+  },
+  "FileInput": {
+    "Delete": "Dzēst",
+    "Cancel": "Atcelt",
+    "Attach": "Pievienot",
+    "FileIcon": "Failu ikona",
+    "EmptyFileName": "Tukšs faila nosaukums",
+    "MaxFileSizeLimitReached": "Sasniegts maksimālais faila izmēra ierobežojums ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "Saglabāt",
+    "CancelButton": "Atcelt",
+    "ColumnProperties": "Kolonnas īpašības",
+    "Title": "Virsraksts",
+    "FilterHeader": "Kā filtrēt ierakstus",
+    "SortingHeader": "Kārtot ierakstus",
+    "SortColumn": "Kārtot pēc",
+    "WhatToDisplay": "Ko attēlot",
+    "AggregationColumn": "Kolonna",
+    "SortOrder": "Kārtot pēc kārtas",
+    "SetupFilters": "Iestatiet filtrus",
+    "EditFilters": "Rediģēt filtrus"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Lejupielādējiet failus šeit",
+      "Description": "vai izmantojiet",
+      "Upload": "Augšupielādēt"
+    },
+    "RowToolbar": {
+      "Download": "Lejupielādēt"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "uz",
+    "TodayAt": "Šodien plkst. {0}",
+    "YesterdayAt": "Vakar plkst. {0}",
+    "DayBeforeYesterdayAt": "Aizvakar plkst. {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "Nav norādīta vērtība"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Atvērt saiti"
+  },
+  "EmailInput": {
+    "AddEmailHint": "Nosūtīt e-pastu"
+  },
+  "ImageInput": {
+    "Alt": "Lauka attēls",
+    "Upload": "Augšupielādēt",
+    "Clear": "Dzēst",
+    "Change": "Mainīt",
+    "AltAbbreviation": "Saīsinājuma attēls",
+    "AltIcon": "Lauka tukšs vietturis"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mēn",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "st",
+    "MinutesAbbreviation": "min"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Aizvērt cilni"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "Palaist procesu",
+      "SuccessMessage": "Process ir veiksmīgi palaists",
+      "NotConfiguredQuickProcessesMessage": "Ātro procesu palaišana vēl nav konfigurēta",
+      "OtherProcessesCaption": "Citi procesi"
+    },
+    "Settings": {
+      "Title": "Iestatījumi"
+    },
+    "UserProfile": {
+      "Title": "Jūsu profils",
+      "MenuItems": {
+        "Profile": "Jūsu profils",
+        "Logout": "Iziet",
+        "OrganizationProfile": "Organizācijas profils"
+      }
+    },
+    "New": {
+      "Title": "Jauns",
+      "NoItemTitle": "Ātrā ierakstu izveide vēl nav konfigurēta"
+    },
+    "Help": {
+      "Title": "Palīdzība",
+      "SupportSubject": "Jautājums par",
+      "MenuItems": {
+        "OnlineHelp": "Tiešsaistes palīdzība",
+        "NeedHelp": "Nepieciešama palīdzība",
+        "ExternalAccess": "Piešķirt piekļuvi atbalstam",
+        "ReleaseNotes": "Publikācijas piezīmes"
+      },
+      "AccessGrantedMessage": "Piekļuve piešķirta",
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite: {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion: {3}%0D%0AScreen size: {4}%0D%0ALocalization: {5}%0D%0APage: {6}",
+      "ReleaseNotesUrl": "https://academy.creatio.com/docs/8.x/resources/category/release-notes"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Komunikācijas panelis"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Paziņojumu panelis"
+    },
+    "Logo": {
+      "Title": "Pārejiet uz darbvirsmu"
+    },
+    "WorkspaceExplorer": {
+      "Title": "Konfigurācija"
+    },
+    "LegacySidePanelButton": {
+      "Title": "Papildus panelis"
+    },
+    "ConfigurationErrorsButton": {
+      "Title": "Kompilācijas kļūda",
+      "WorkspaceExplorerTemplate": "Lai apskatītu kompilācijas kļūdu sarakstu un labotu tās, apmeklējiet <a href ='{0}' target='_blank'>Konfigurācijas sadaļu</a>."
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigācijas panelis"
+    },
+    "WebfarmErrorsButton": {
+      "ErrorsLabel": "<strong>Kļūdas detaļas:</strong><br/>",
+      "LIMITED_DESIGN_MODE_ERROR_TITLE": "Ierobežots konfigurēšanas režīms",
+      "LIMITED_DESIGN_MODE_ERROR_MESSAGE": "Sistēma jūs novirzīja uz parasto lietotnes mezglu. Šajā režīmā nav ieteicams veikt pielāgojumus, jo izmaiņas var netikt izplatītas uz citiem mezgliem. Dizaina mezgls var būt nepieejams dažādu iemeslu dēļ. Vairāk informācijas varat uzzināt Creatio un/vai orķestratora žurnālos. Ikdienas lietošana var turpināties."
+    },
+    "ThreadPoolMonitorValidationButton": {
+      "Title": "Unsafe tracing settings",
+      "SysSettingsTemplate": "Visit <a href ='{0}' target='_blank'>SysSetting section</a>."
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Meklēt lietotni..."
+    },
+    "CollapseButton": {
+      "CollapseCaption": "Salocīt navigācijas paneli",
+      "ExpandCaption": "Izvērst navigācijas paneli"
+    },
+    "SearchResultsCaption": "Meklēšanas rezultāti",
+    "EmptySearchResult": {
+      "Title": "Nav preču, kas atbilstu meklēšanas kritērijiem.",
+      "Subhead": "Dzēst vai mainīt meklēšanas kritērijus."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "Lasīt vairāk"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} nodots",
+    "timeBeforeCountStartTpl": "{0} pirms sākas atpakaļskaitīšana",
+    "overdueTpl": "{0} nokavēts",
+    "timeLeftTpl": "{0} palicis",
+    "timeIsUpTpl": "Laiks ir beidzies",
+    "waitingForStartDateTpl": "Gaida sākuma datumu",
+    "dateNotSet": "0st 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "Visi",
+      "SelectMenuLabel": "Meklēt pēc kolonnas",
+      "Title": "Izvēlieties filtra kolonnu"
+    },
+    "ClearIconTitle": "Notīrīt meklēšanu"
+  },
+  "Dialog": {
+    "Ok": "Labi",
+    "Yes": "Jā",
+    "No": "Nē",
+    "Save": "Saglabāt",
+    "DoNotSave": "Nesaglabāt",
+    "Cancel": "Atcelt",
+    "Delete": "Dzēst",
+    "Close": "Aizvērt",
+    "Notification": "Paziņojums",
+    "Overwrite": "Aizvietot",
+    "Clear": "Notīrīt",
+    "Restore": "Atjaunot",
+    "ProcessSchemaSavedWithValidationError": "Shēma ir veiksmīgi saglabāta, bet validācijas kļūdas neļauj tai tikt izpildītai."
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "Veiksmīgi saglabāts",
+      "ErrorOnSave": "Kļūda, mēģinot piemērot izmaiņas"
+    },
+    "SetupAppearance": {
+      "DeleteDesktop": {
+        "ConfirmationDialogTitle": "Vai esat pārliecināts, ka vēlaties dzēst darbvirsmu “{0}”?",
+        "Error": {
+          "Deletion": "Kļūda darbvirsmas dzēšanas laikā",
+          "Configuration": "Kļūda konfigurācijas izveides laikā"
+        },
+        "Success": "Darbvirsma “{0}” tika veiksmīgi dzēsta"
+      }
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "Meklēt..."
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "Jums ir nesaglabātas izmaiņas, kas tiks zaudētas. Turpināt?"
+    },
+    "List": {
+      "Message": "Saraksts satur nesaglabātas izmaiņas. Tās tiks zaudētas, ja jūs turpināsiet. Vai vēlaties saglabāt izmaiņas?"
+    },
+    "Page": {
+      "Message": "Šajā lapā ir nesaglabātas izmaiņas. Tās tiks zaudētas, ja jūs turpināsiet. Vai vēlaties saglabāt izmaiņas?"
+    }
+  },
+  "AllowedResults": {
+    "Caption": "Atļautie rezultāti",
+    "TaskCompleted": "Uzdevums ir pabeigts."
+  },
+  "LicenseIndicator": {
+    "Title": "Licence obligāta"
+  },
+  "TagSelect": {
+    "AddTagInRecordButtonCaption": "Pievienot tagu",
+    "CreateNewTagButtonCaption": "Izveidot jaunu tagu"
+  },
+  "SelectList": {
+    "EditItemActionButtonCaption": "Rediģēt ierakstu",
+    "DeleteItemActionButtonCaption": "Dzēst ierakstu",
+    "NoData": "Nav datu"
+  },
+  "ChipList": {
+    "ChipListOverlay": {
+      "NoData": "Datu nav",
+      "CloseButtonTitle": "Aizvērt"
+    },
+    "AriaLabel": "Izvēlētie vienumi",
+    "Chip": {
+      "RemoveButtonCaption": "Noņemt"
+    },
+    "AriaLabelFor": "Izvēlētie vienumi"
+  },
+  "Playbook": {
+    "Caption": "Playbook",
+    "Hint": "Komponents parāda padomus un norādījumus lietotājiem, lai piekļūtu informācijai no zināšanu bāzes par konkrētiem dinamiskiem lietas posmiem",
+    "Placeholder": {
+      "Title": "Nav atrasts neviens atbilstošs playbook raksts",
+      "Description": "Lūdzu, izveidojiet atbilstošu rakstu pašreizējam dinamiskā lietas posmam sadaļā Playbooks"
+    },
+    "Actions": {
+      "Back": "Atpakaļ",
+      "OpenInDialog": "Atvērt modālajā logā"
+    },
+    "Dialog": {
+      "Actions": {
+        "Close": "Aizvērt",
+        "OpenPage": "Atvērt jaunā cilnē"
+      }
+    }
+  },
+  "MessageEditor": {
+    "ErrorCode": {
+      "AuthorizationError": "Autorizācija neizdevās. Mēģiniet vēlreiz vēlāk vai sazinieties ar administratoru par palīdzību.",
+      "FormatError": "Nepareizs pieprasījuma formāts. Pārliecinieties, vai ievades dati ir pareizi strukturēti, un pārbaudiet darbību izvades parametrus.",
+      "LimitError": "Tokenu limits ir sasniegts, turpmākais darbs ar Creatio.ai ir bloķēts. Lai papildinātu Creatio.ai tokenus, sazinieties ar administratoru.",
+      "ServiceAvailabilityError": "Serviss uz laiku nav pieejams. Mēģiniet vēlreiz vēlāk.",
+      "ExecutionError": "Jūsu pieprasījuma apstrādes laikā radās kļūda. Mēģiniet vēlreiz vai lūdziet palīdzību administratoram.",
+      "ConfigurationError": "Konfigurācijas jautājums atklāts. Pārbaudiet sistēmas iestatījumus vai lūdziet palīdzību administratoram.",
+      "UnknownError": "Nezināma kļūda notika. Mēģiniet vēlreiz vēlāk vai sazinieties ar administratoru par palīdzību.",
+      "CharacterLimitExceededError": "Lietotāja vaicājumā ir sasniegts rakstzīmju limits. Pārbaudiet sistēmas iestatījumus vai lūdziet palīdzību administratoram.",
+      "ToolCallsInvokesLimitExceeded": "Pārsniegts funkciju izsaukumu limits: pārāk daudz automatizētu izsaukumu pēc kārtas bez lietotāja ievades vai vienas un tās pašas funkcijas atkārtota izpilde.",
+      "InsufficientPermissions": "Jums nav atļaujas izmantot šo aģentu vai prasmi. Lūdzu, sazinieties ar savu administratoru, lai iestatītu piekļuvi.",
+      "ActionLimitError": "Darbības limits sasniegts, turpmāka darbība ar Creatio.ai ir bloķēta. Sazinieties ar savu administratoru, lai papildinātu Creatio.ai darbības."
+    }
+  },
+  "SpecificationFilter": {
+    "NoData": "Nav datu",
+    "Boolean": {
+      "Yes": "Jā",
+      "No": "Nē"
+    },
+    "String": {
+      "Placeholder": "Ievadiet tekstu"
+    },
+    "Numeric": {
+      "Placeholder": "Ievadiet numuru",
+      "To": "līdz",
+      "MaxValueError": "Vērtība ir virs maksimālās vērtības",
+      "MinValueError": "Vērtība ir zemāka par minimālo vērtību"
+    }
+  },
+  "Conversation": {
+    "Caption": "Saruna",
+    "Copilot": {
+      "TypingMessage": "Atbildes ģenerēšana",
+      "Action": {
+        "Replace": "Aizstāt atlasi",
+        "InsertAbove": "Ievietot iepriekš",
+        "InsertBelow": "Ievietot zemāk"
+      }
+    }
+  },
+  "BulkActions": {
+    "Delete": "Dzēst",
+    "Export": "Eksportēt uz Excel",
+    "AddTag": "Pievienot tagu",
+    "RemoveTag": "Noņemt tagu",
+    "RowsSelection": {
+      "Selected": "izvēlēts",
+      "SelectAll": "Izvēlieties visus",
+      "ClearSelection": "Notīrīt izvēli"
+    },
+    "Merge": "Apvienot"
+  },
+  "Breadcrumbs": {
+    "AriaLabel": "Breadcrumbs"
+  },
+  "ButtonToggleGroup": {
+    "ButtonToggleGroupItem": {
+      "NotificationsPostfix": "ar paziņojumiem"
+    }
+  },
+  "NumberInput": {
+    "AriaLabel": "Numurs"
+  },
+  "ExpansionPanel": {
+    "Collapse": "Sakļaut",
+    "Expand": "Izvērst"
+  },
+  "ProgressBar": {
+    "AriaLabel": "Progresa josla"
+  },
+  "OperatorState": {
+    "ChatStatesMenuCaption": "Tērzēšanas statuss",
+    "CtiStatesMenuCaption": "Telefona statuss"
+  },
+  "MultiList": {
+    "NoDataMessage": "Pagaidām nav jaunu ziņu",
+    "NoDataBySearchFilter": "Nav ierakstu, kas atbilstu filtra kritērijiem",
+    "NoDataBySearchFilterSubtitle": "Notīriet filtru vai mainiet tā nosacījumus "
+  },
+  "DesignerPresenceNotificationHandler": {
+    "SchemaUpdated": "{0} tikko atjaunināja {1}. Lūdzu, atjauniniet lapu, lai redzētu izmaiņas.",
+    "Connections": "{0} savienojumi",
+    "Reload": "Atjaunot"
+  },
+  "DesignerPresenceDisplay": {
+    "UserStartedEditing": "{0} sāka rediģēt pašreizējo {1}",
+    "ModeEditing": "Rediģēšana",
+    "TooltipFormat": "{0} ({1})",
+    "ModeViewing": "Skatīšana",
+    "ModeSaved": "Saglabāts",
+    "ModeSavedTime": "Saglabāts ({0} atpakaļ)",
+    "ModeSavedRecently": "Nesen saglabāts",
+    "ShowAllUsers": "Rādīt visus lietotājus",
+    "AllUsersDialog": {
+      "Title": "Aktīvie lietotāji",
+      "Close": "Aizvērt",
+      "Columns": {
+        "ContactName": "Kontakts",
+        "Email": "E-pasts",
+        "SchemaName": "Rediģēšanas zona",
+        "Mode": "Režīms"
+      }
+    }
+  },
+  "SchemaTypeCaption": {
+    "Page": "lapa",
+    "Entity": "entītija",
+    "Addon": "paplašinājums"
+  },
+  "PropertiesPages": {
+    "BaseInputPropertiesPanel": {
+      "ColorPicker": {
+        "PageCaption": "Krāsu atlasītājs",
+        "AppearanceGroup": "Izskats",
+        "PickerModeRadioButtonCaption": "Krāsu palete",
+        "PickerMode": {
+          "Basic": "Pamata palete",
+          "Extended": "Izvērsta palete"
+        }
+      }
+    }
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "Nākamais mēnesis",
+    "AriaPrevMonthLabel": "Iepriekšējais mēnesis",
+    "AriaNextYearLabel": "Nākamais gads",
+    "AriaPrevYearLabel": "Iepriekšējais gads",
+    "Readonly": "Nerediģējams lauks",
+    "DateTimePickerIconTitle": "Date/Time",
+    "DatePickerIconTitle": "Kalendārs",
+    "TimePickerIconTitle": "Laiks"
+  },
+  "Components": {
+    "ColorPicker": {
+      "SelectedColor": "Atlasītā krāsa",
+      "Readonly": "Nerediģējams lauks"
+    }
+  },
+  "InterfaceDesigner": {
+    "PropertiesPages": {
+      "RichTextPropertiesPanel": {
+        "ToolbarDisplayMode": "Rīkjoslas rādīšanas režīms",
+        "Inline": "Integrēts",
+        "Classic": "Klasisks",
+        "AlwaysShowToolbar": "Vienmēr rādīt formatēšanas iespējas"
+      }
+    }
+  },
+  "RichTextEditor": {
+    "ToggleToolbar": "Formatēšanas iespējas (Alt+F10)",
+    "UploadAttachments": "Atlasiet pielikumus",
+    "SelectTemplate": "Ievietot veidni",
+    "SelectionActions": {
+      "AskCopilot": "Jautājiet Creatio.ai",
+      "Friendly": "Draudzīgs",
+      "Formal": "Formāls",
+      "Shorten": "Saīsināt",
+      "Extend": "Paplašināt",
+      "Rephrase": "Pārfrāzēt tekstu",
+      "RewriteCaption": "Pārrakstīt tekstu"
+    },
+    "TableOfContents": {
+      "Title": "Satura tabula",
+      "Placeholder": "Satura rādītājs, pamatojoties uz šīs lapas virsrakstiem, tiks parādīts šeit, tiklīdz tas būs publicēts."
+    }
+  },
+  "RichTextEditorLink": {
+    "SaveLinkButtonCaption": "Saglabāt",
+    "OpenLinkButtonCaption": "Atvērt jaunā cilnē",
+    "CloseLinkButtonCaption": "Aizvērt",
+    "UnlinkLinkButtonCaption": "Atvienot",
+    "LinkLabelCaption": "Saites adrese",
+    "TextLabelCaption": "Teksts, kas jāparāda"
+  },
+  "RichTextEditorVideo": {
+    "DialogTitle": "Ievietot video",
+    "PasteUrlTab": "Ievietojiet Url",
+    "UploadFileTab": "Augšupielādēt failu",
+    "EmbedCodeTab": "Iekļautais kods",
+    "DialogDescription": "Šis video tiks iestrādāts 640 pikseļu platumā.<br>Šim iestrādātajam video tiks pievienota teksta saite.",
+    "SaveButton": "Ievietot video",
+    "CancelButton": "Atcelt",
+    "UploadButton": "Augšupielādēt failu",
+    "InputPlaceholder": "Ievietojiet šeit",
+    "DragAndDropPlaceholder": "Pārvilkt un nomest failu šeit vai",
+    "NotVideoFile": "Ievietotais fails nav video, lūdzu, izvēlieties failu video veidā.",
+    "ConfirmMessage": "Šajā lapā ir nesaglabātas izmaiņas. Tās tiks zaudētas, ja jūs aizvērsiet lapu. Vai vēlaties saglabāt izmaiņas?"
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nav lapas ne jaunam, ne esošam ierakstam. Sistēmas administrators jāpārbauda pogu iestatījumus Freedom UI",
+    "GoToEntityDesignerMessage": "Lai iestatītu lapas, dodieties uz URL: {0}"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Lūdzu, izvēlieties vērtību no saraksta",
+      "SelectionWindowMessage": "Lūdzu, izvēlieties vērtību no saraksta vai meklējiet, izmantojot logu"
+    },
+    "Required": {
+      "Message": "Ievadiet vērtību"
+    },
+    "MaxLength": {
+      "Message": "Pārsniegts maksimālais teksta garums ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimālais teksta garums nav sasniegts ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Nederīgs datuma un laika formāts"
+    },
+    "DatePickerSyntax": {
+      "Message": "Nederīgs datu formāts"
+    },
+    "TimePickerSyntax": {
+      "Message": "Nederīgs laika formāts"
+    },
+    "RegExp": {
+      "Message": "Nederīgs vērtību formāts"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Kodam jāsākas ar \"{{schemaNamePrefix}}\" prefiksu.",
+      "OnlySchemaNamePrefixMessage": "Ievadiet vismaz vienu simbolu."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Izmantojiet simbolus: a-z, A-Z, 0-9, pasvītrojums vai domuzīme. Tikai burti var būt pirmie."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "Vērtība '{{controlValue}}' jau pastāv 'Koda' kolonnā."
+    },
+    "PhoneNumber": {
+      "Message": "Nederīgs tālruņa numurs"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Kolonna noņemta",
+    "ValidationErrorMessageSingleErrorField": "Lauka: {0}. Kļūda: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Lauki: {0}. Kļūda: {1}",
+    "RefreshModelDataConflict": "Creatio ir jauni dati pašreizējai lapai. Lai tos apskatītu, saglabājiet vai atceliet savas izmaiņas un atjaunojiet lapu.",
+    "WarningModelsWithCircularDependencies": "Dažiem modeļiem ir apaļas atkarības un tie nav ielādēti",
+    "LoadingModelErrorMessage": "Kļūda notika vaicājuma izpildes laikā",
+    "ErrorMessageOnEmptyRelationColumn": "Nevar saglabāt lapu. Aizpildiet {{caption}} lauku vai notīriet datus saistītajos laukos, lai saglabātu lapu."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Dati ir atjaunināti"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Skaidri un īsi aprakstiet lietotāja mērķi. Detalizējiet lietotāja mērķa sasniegšanai nepieciešamos soļus. Aprakstiet LLM gaidāmo rezultātu. Tajā jāietver viss nepieciešamais konteksts vai informācija, kas jāzina MLA.\n\n## Vispārīgi noteikumi\n1. Jūs nevarat izveidot jaunus objektus bez skaidra apstiprinājuma ar lietotāju.\n2. 2. noteikums: ...\n3. ...\n\n## Vispārīgi ierobežojumi\n1. Izvairieties no pieņēmumiem par lietotāja nodomu; ja nepieciešams, precizējiet pieprasījumus.\n2. 2. ierobežojums: ...\n3. ...\n\n## Izvades prasības\n1. Rezultātā jābūt mazāk nekā 300 simboliem un ne vairāk kā 2-3 teikumiem.\n2. 2. prasība: ...\n3. ...\n\n## Procesa plūsma\n1. Izmantot pašreizējās lapas kontekstu lapas datu un lauku nolasīšanai. Pamatojoties uz šo informāciju ...\n2. 2. solis: ...\n3. ..."
+    }
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Piezvanīt"
+  },
+  "TranslateToggle": {
+    "DefaultCaption": {
+      "Translated": "Rādīt oriģinālu",
+      "Original": "Tulkojums",
+      "Retry": "Atkārtot"
+    },
+    "AutoCaption": {
+      "On": "Enable auto-translation",
+      "Off": "Disable auto-translation"
+    }
+  }
+}

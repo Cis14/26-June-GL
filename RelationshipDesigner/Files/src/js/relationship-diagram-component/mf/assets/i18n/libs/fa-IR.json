@@ -1,0 +1,254 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Loading..."
+  },
+  "CopyClipboard": {
+    "Copied": "Copied"
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Please select value from the list"
+    },
+    "Required": {
+      "Message": "یک مقدار وارد کنید"
+    },
+    "MaxLength": {
+      "Message": "Maximum text length exceeded ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Minimum text length not reached ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Invalid date and time format"
+    },
+    "DatePickerSyntax": {
+      "Message": "Invalid date format"
+    },
+    "TimePickerSyntax": {
+      "Message": "Invalid time format"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Column removed",
+    "ValidationErrorMessageSingleErrorField": "Field: {0}. Error: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Fields: {0}. Error: {1}"
+  },
+  "Input": {
+    "Readonly": "فیلد غیرقابل ویرایش",
+    "ShowPassword": "Show password",
+    "HidePassword": "Hide password"
+  },
+  "Carousel": {
+    "NoData": "اطلاعاتی وجود ندارد"
+  },
+  "ComboBox": {
+    "Readonly": "فیلد غیرقابل ویرایش",
+    "InvalidValueSyntax": "Please select value from the list",
+    "NoData": "اطلاعاتی وجود ندارد",
+    "EmptyDisplayValue": "No display value",
+    "AddNewRecord": "افزودن جدید",
+    "IsGoToSourceAllowedTooltip": "Go to record list"
+  },
+  "DataGrid": {
+    "AddColumns": "همه ستونها",
+    "ColumnToolbar": {
+      "Hide": "پنهان سازی",
+      "Freeze": "Freeze",
+      "Unfreeze": "Unfreeze",
+      "Rename": "تغییر نام",
+      "Title": "Column actions",
+      "Edit": "خصوصیات"
+    },
+    "RowToolbar": {
+      "Open": "باز کردن",
+      "Copy": "کپی",
+      "Delete": "حذف",
+      "RunBusinessProcess": "فرایند را اجرا کنید",
+      "Title": "Row actions"
+    },
+    "ActionsToolbar": {
+      "AriaLabel": "عملیات",
+      "Title": "List actions"
+    }
+  },
+  "DataTable": {
+    "NoData": "اطلاعاتی وجود ندارد",
+    "NoColumns": "No columns added",
+    "Hints": {
+      "Sort": "Sort",
+      "StartEditing": "انتشار",
+      "ReadonlyCell": "فیلد غیرقابل ویرایش",
+      "CancelChanges": "ردصلاحیت"
+    },
+    "SaveItemsChanges": "Save all",
+    "CancelItemsChanges": "ردصلاحیت",
+    "NotFoundColumn": "Column not found",
+    "ColumnSticky": "Frozen column"
+  },
+  "Gallery": {
+    "NoData": "No data"
+  },
+  "DataTableBooleanCell": {
+    "BooleanValue": {
+      "True": "Yes",
+      "False": "خیر"
+    }
+  },
+  "FileInput": {
+    "Delete": "حذف",
+    "Cancel": "انصراف",
+    "Attach": "Attach",
+    "FileIcon": "File icon",
+    "EmptyFileName": "Empty file name",
+    "MaxFileSizeLimitReached": "Max file size limit is reached ({0}MB)"
+  },
+  "DataGridColumnEditDialog": {
+    "SaveButton": "ذخیره",
+    "CancelButton": "انصراف",
+    "ColumnProperties": "Column properties",
+    "Title": "معلق",
+    "FilterHeader": "How to filter records",
+    "SortingHeader": "How to sort records",
+    "SortColumn": "مرتب سازی بر اساس",
+    "WhatToDisplay": "چه چیزی برای نمایش",
+    "AggregationColumn": "ستون",
+    "SortOrder": "Sort order"
+  },
+  "FileList": {
+    "Placeholder": {
+      "Title": "Drop files here",
+      "Description": "or use the \"Upload\" button"
+    }
+  },
+  "SmartDateTimeFormat": {
+    "At": "در",
+    "TodayAt": "Today at {0}",
+    "YesterdayAt": "دیروز در {0}",
+    "DayBeforeYesterdayAt": "روز قبل از دیروز در {0}"
+  },
+  "LookupFormat": {
+    "EmptyDisplayValue": "No display value"
+  },
+  "WebInput": {
+    "LinkButtonHint": "Open link"
+  },
+  "EmailInput": {
+    "AddEmailHint": "ارسال ایمیل؟"
+  },
+  "ImageInput": {
+    "Alt": "عکس",
+    "Upload": "Upload",
+    "Clear": "حذف",
+    "Change": "تغییر"
+  },
+  "TimerDateTimeFormat": {
+    "MonthAbbreviation": "mos",
+    "DaysAbbreviation": "d",
+    "HoursAbbreviation": "hr",
+    "MinutesAbbreviation": "دقیق"
+  },
+  "TabPanel": {
+    "CloseTabHint": "Close tab"
+  },
+  "AppToolbar": {
+    "QuickRunProcess": {
+      "Title": "فرایند اجرا شود؟",
+      "SuccessMessage": "The process has been successfully run",
+      "NotConfiguredQuickProcessesMessage": "Quick processes run is not yet configured",
+      "OtherProcessesCaption": "Other processes"
+    },
+    "Settings": {
+      "Title": "تنظیمات"
+    },
+    "UserProfile": {
+      "Title": "پروفایل شما",
+      "MenuItems": {
+        "Profile": "پروفایل شما",
+        "Logout": "خروج"
+      }
+    },
+    "New": {
+      "Title": "قرارداد جدید",
+      "NoItemTitle": "Quick records creation is not yet configured"
+    },
+    "Help": {
+      "Title": "کمک",
+      "SupportSubject": "پرسش درباره",
+      "MenuItems": {
+        "OnlineHelp": "راهنمای آنلاین",
+        "NeedHelp": "نیاز به کمک",
+        "ExternalAccess": "Grant access to support"
+      },
+      "EmailBodyTemplate": "body=%0D%0A%0D%0ASite:  {0}%0D%0ACustomer ID: {1}%0D%0AProduct: {2}%0D%0AVersion:  {3}%0D%0ALocalization: {4}%0D%0APage: {5}",
+      "AccessGrantedMessage": "Access granted"
+    },
+    "CommunicationPanelButton": {
+      "Title": "Communication panel"
+    },
+    "NotificationsPanelButton": {
+      "Title": "Notifications panel"
+    },
+    "Logo": {
+      "Title": "Go to desktop"
+    },
+    "NavigationPanelButton": {
+      "Title": "Navigation panel"
+    }
+  },
+  "NavigationPanel": {
+    "SearchFilter": {
+      "PlaceholderCaption": "Search app..."
+    }
+  },
+  "ReadMoreDirective": {
+    "Label": "بیشتر بخوانید"
+  },
+  "Timer": {
+    "timePassedTpl": "{0} passed",
+    "timeBeforeCountStartTpl": "{0} before countdown begins",
+    "overdueTpl": "{0} overdue",
+    "timeLeftTpl": "{0} left",
+    "timeIsUpTpl": "Time is up",
+    "waitingForStartDateTpl": "Waiting for start date",
+    "dateNotSet": "0hr 0min"
+  },
+  "SearchFilter": {
+    "ColumnsGroups": {
+      "AllOption": "همه",
+      "SelectMenuLabel": "Search by column"
+    }
+  },
+  "Dialog": {
+    "Ok": "بسیار خوب",
+    "Yes": "Yes",
+    "No": "خیر",
+    "Save": "ذخیره",
+    "DoNotSave": "Don't save",
+    "Cancel": "انصراف",
+    "Delete": "حذف"
+  },
+  "CanDiscardUnsavedData": {
+    "Default": {
+      "Message": "You have unsaved changes that will be lost. Continue?"
+    }
+  },
+  "AppBackground": {
+    "Dialog": {
+      "SuccessfullySaved": "با موفقیت ذخیره شد",
+      "ErrorOnSave": "Error when trying to apply changes"
+    }
+  },
+  "GlobalSearch": {
+    "PlaceholderCaption": "جستجو..."
+  },
+  "PhoneInput": {
+    "CallButtonHint": "Call up"
+  },
+  "DateTimePicker": {
+    "AriaNextMonthLabel": "ماه بعدی",
+    "AriaPrevMonthLabel": "ماه قبل",
+    "AriaNextYearLabel": "Next year",
+    "AriaPrevYearLabel": "Previous year",
+    "Readonly": "فیلد غیرقابل ویرایش"
+  }
+}

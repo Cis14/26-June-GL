@@ -1,0 +1,95 @@
+{
+  "SkeletonLoader": {
+    "Loading": "Betöltés..."
+  },
+  "CopyClipboard": {
+    "Copied": "Másolva"
+  },
+  "Placeholder": {
+    "Default": {
+      "Title": "Még nincs mit mutatni",
+      "Subhead": "Kérjük, először adja meg az adatokat"
+    }
+  },
+  "ChatSettings": {
+    "History": {
+      "Captions": {
+        "StartDate": "A csevegés kezdete: {0}",
+        "EndDate": "A csevegés befejeződött: {0}"
+      }
+    }
+  },
+  "MaskLoader": {
+    "Loading": "Betöltés"
+  },
+  "Tooltip": {
+    "Mode": {
+      "Error": "Hiba",
+      "Default": "Elemleírás"
+    }
+  },
+  "Validators": {
+    "Autocomplete": {
+      "Message": "Kérjük, válassza ki az értéket a listából",
+      "SelectionWindowMessage": "Kérjük, válasszon értéket a listából, vagy keressen a keresőablak segítségével"
+    },
+    "Required": {
+      "Message": "Adj meg egy értéket"
+    },
+    "MaxLength": {
+      "Message": "A maximális szöveghossz túllépve ({{actualLength}}/{{maxLength}})"
+    },
+    "MinLength": {
+      "Message": "Nem érte el a minimális szöveghosszt ({{actualLength}}/{{minLength}})"
+    },
+    "DatetimePickerSyntax": {
+      "Message": "Érvénytelen dátum- és időformátum"
+    },
+    "DatePickerSyntax": {
+      "Message": "Érvénytelen dátumformátum"
+    },
+    "TimePickerSyntax": {
+      "Message": "Érvénytelen időformátum"
+    },
+    "RegExp": {
+      "Message": "Érvénytelen értékformátum"
+    },
+    "SchemaNamePrefix": {
+      "NoSchemaNamePrefixMessage": "Code must start with the {{schemaNamePrefix}} prefix.",
+      "OnlySchemaNamePrefixMessage": "Enter at least one more symbol."
+    },
+    "SchemaNameAllowedSymbols": {
+      "Message": "Use symbols: a-z, A-Z, 0-9, underscore or dash. Only letters can be first."
+    },
+    "UniqueCodeColumnValue": {
+      "Message": "The value '{{controlValue}}' already exists in the 'Code' column."
+    },
+    "PhoneNumber": {
+      "Message": "Invalid phone number"
+    }
+  },
+  "BaseViewModel": {
+    "DataSourceAttributeRemoved": "Oszlop eltávolítva",
+    "ValidationErrorMessageSingleErrorField": "Mező: {0}. Hiba: {1}",
+    "ValidationErrorMessageSeveralErrorFields": "Mezők: {0}. Hiba: {1}",
+    "RefreshModelDataConflict": "A Creatio új adatokkal rendelkezik az aktuális oldalhoz. A megtekintéséhez mentse vagy vonja vissza a módosításokat, és frissítse az oldalt.",
+    "WarningModelsWithCircularDependencies": "Egyes modellek körkörös függőséggel rendelkeznek, és nincsenek betöltve",
+    "LoadingModelErrorMessage": "Error occurred during the query execution",
+    "ErrorMessageOnEmptyRelationColumn": "Cannot save the page. Populate the {{caption}} field or clear the data in the related fields to save to page."
+  },
+  "LoadDataRequest": {
+    "SuccessMessage": "Data has been refreshed"
+  },
+  "CopilotIntentDataSource": {
+    "DefaultValues": {
+      "Prompt": "Describe the user's goal clearly and concisely. Detail the steps needed to achieve the user's goal. Outline the expected result from the LLM. This should include any necessary context or information that the LLM needs to know.\n\n## General Rules\n1. You cannot create new objects without explicitly confirming with the user.\n2. Rule 2: ...\n3. ...\n\n## General Restrictions\n1. Avoid making assumptions about the user's intent; clarify requests when necessary.\n2. Restriction 2: ...\n3. ...\n\n## Requirements for Output\n1. The output must be less than 300 symbols and no more than 2-3 sentences.\n2. Requirement 2: ...\n3. ...\n\n## Process Flow\n1. Use current page context for read page data and fields. Based on that information ...\n2. Step 2: ...\n3. ..."
+    }
+  },
+  "Navigation": {
+    "DoesntHaveAddPageMessage": "Nincs oldal új vagy meglévő rekordhoz. A rendszergazdának ellenőriznie kell a gombbeállításokat a Freedom UI-ban",
+    "GoToEntityDesignerMessage": "Az oldalak beállításához lépjen a következő URL-re: {0}"
+  },
+  "Dialog": {
+    "ProcessSchemaSavedWithValidationError": "The process schema saved successfully, but validation errors prevent it from running."
+  }
+}
