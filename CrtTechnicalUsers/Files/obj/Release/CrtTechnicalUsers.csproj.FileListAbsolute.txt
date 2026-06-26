@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechnica
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechnicalUsers\Files\obj\Release\CrtTechnicalUsers.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechnicalUsers\Files\obj\Release\CrtTechnicalUsers.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechnicalUsers\Files\obj\Release\CrtTechnicalUsers.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechnicalUsers\Files\obj\Release\CrtTechnicalUsers.sourcelink.json

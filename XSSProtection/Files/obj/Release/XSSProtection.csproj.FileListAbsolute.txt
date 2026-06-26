@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\XSSProtecti
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\XSSProtection\Files\obj\Release\XSSProtection.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\XSSProtection\Files\obj\Release\XSSProtection.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\XSSProtection\Files\obj\Release\XSSProtection.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\XSSProtection\Files\obj\Release\XSSProtection.sourcelink.json

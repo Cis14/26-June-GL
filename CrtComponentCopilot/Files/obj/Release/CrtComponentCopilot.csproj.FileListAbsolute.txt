@@ -20,3 +20,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtComponen
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtComponentCopilot\Files\obj\Release\CrtCompo.A59D927A.Up2Date
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtComponentCopilot\Files\obj\Release\CrtComponentCopilot.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtComponentCopilot\Files\obj\Release\CrtComponentCopilot.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtComponentCopilot\Files\obj\Release\CrtComponentCopilot.sourcelink.json

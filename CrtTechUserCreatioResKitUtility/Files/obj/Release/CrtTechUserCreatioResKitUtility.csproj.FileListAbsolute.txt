@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechUser
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechUserCreatioResKitUtility\Files\obj\Release\CrtTechUserCreatioResKitUtility.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechUserCreatioResKitUtility\Files\obj\Release\CrtTechUserCreatioResKitUtility.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechUserCreatioResKitUtility\Files\obj\Release\CrtTechUserCreatioResKitUtility.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtTechUserCreatioResKitUtility\Files\obj\Release\CrtTechUserCreatioResKitUtility.sourcelink.json

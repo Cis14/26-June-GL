@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSecurity
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSecurity7x\Files\obj\Release\CrtSecurity7x.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSecurity7x\Files\obj\Release\CrtSecurity7x.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSecurity7x\Files\obj\Release\CrtSecurity7x.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtSecurity7x\Files\obj\Release\CrtSecurity7x.sourcelink.json

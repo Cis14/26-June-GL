@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtMacrosBa
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtMacrosBase\Files\obj\Release\CrtMacrosBase.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtMacrosBase\Files\obj\Release\CrtMacrosBase.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtMacrosBase\Files\obj\Release\CrtMacrosBase.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtMacrosBase\Files\obj\Release\CrtMacrosBase.sourcelink.json

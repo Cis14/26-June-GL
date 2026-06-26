@@ -22,3 +22,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtDataForg
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtDataForge\Files\obj\Release\CrtDataF.8A62D2F2.Up2Date
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtDataForge\Files\obj\Release\CrtDataForge.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtDataForge\Files\obj\Release\CrtDataForge.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtDataForge\Files\obj\Release\CrtDataForge.sourcelink.json

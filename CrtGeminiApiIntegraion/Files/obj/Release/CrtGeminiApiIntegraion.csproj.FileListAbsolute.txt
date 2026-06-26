@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtGeminiAp
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtGeminiApiIntegraion\Files\obj\Release\CrtGeminiApiIntegraion.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtGeminiApiIntegraion\Files\obj\Release\CrtGeminiApiIntegraion.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtGeminiApiIntegraion\Files\obj\Release\CrtGeminiApiIntegraion.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtGeminiApiIntegraion\Files\obj\Release\CrtGeminiApiIntegraion.sourcelink.json

@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CSL_MaintenanceTools/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CSL_MaintenanceTools/Data/**" />
+		<Compile Remove="$(PkgPath)/CSL_MaintenanceTools/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CSL_MaintenanceTools/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CSL_MaintenanceTools/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CSL_MaintenanceTools/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CSL_MaintenanceTools/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CSL_MaintenanceTools/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CSL_MaintenanceTools/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CSL_MaintenanceTools/Resources/**" />
+		<None Remove="$(PkgPath)/CSL_MaintenanceTools/Assemblies/**" />
+		<None Remove="$(PkgPath)/CSL_MaintenanceTools/Data/**" />
+		<None Remove="$(PkgPath)/CSL_MaintenanceTools/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CSL_MaintenanceTools/Schemas/**" />
+		<None Remove="$(PkgPath)/CSL_MaintenanceTools/Resources/**" />
+  </ItemGroup>
+</Project>

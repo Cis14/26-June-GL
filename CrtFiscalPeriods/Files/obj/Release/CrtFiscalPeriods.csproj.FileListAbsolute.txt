@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtFiscalPe
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtFiscalPeriods\Files\obj\Release\CrtFiscalPeriods.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtFiscalPeriods\Files\obj\Release\CrtFiscalPeriods.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtFiscalPeriods\Files\obj\Release\CrtFiscalPeriods.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtFiscalPeriods\Files\obj\Release\CrtFiscalPeriods.sourcelink.json

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CrtMessage")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("8.3.4.2753")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.4.2753")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("8.3.4.2753+b071ab18f7523cf46df40d77fd64fb50a0fb41e1")]
 [assembly: System.Reflection.AssemblyProductAttribute("CrtMessage")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CrtMessage")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.3.4.2753")]

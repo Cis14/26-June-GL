@@ -24,3 +24,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCopilot\
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCopilot\Files\obj\Release\CrtCopilot.csproj.Up2Date
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCopilot\Files\obj\Release\CrtCopilot.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCopilot\Files\obj\Release\CrtCopilot.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCopilot\Files\obj\Release\CrtCopilot.sourcelink.json

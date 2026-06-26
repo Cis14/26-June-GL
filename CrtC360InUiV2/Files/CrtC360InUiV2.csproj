@@ -109,8 +109,43 @@
 		</When>
 	</Choose>
 	<ItemGroup Label="Core References">
+		<Reference Include="Common.Logging">
+			<HintPath>$(CoreLibPath)/Common.Logging.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Common.Logging.Core">
+			<HintPath>$(CoreLibPath)/Common.Logging.Core.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Creatio.Copilot.Abstractions">
+			<HintPath>$(CoreLibPath)/Creatio.Copilot.Abstractions.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Creatio.FeatureToggling">
+			<HintPath>$(CoreLibPath)/Creatio.FeatureToggling.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.Authentication">
+			<HintPath>$(CoreLibPath)/Terrasoft.Authentication.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.Authentication.Contract">
+			<HintPath>$(CoreLibPath)/Terrasoft.Authentication.Contract.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="Terrasoft.Common">
 			<HintPath>$(CoreLibPath)/Terrasoft.Common.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.ComponentSpace.Interfaces">
+			<HintPath>$(CoreLibPath)/Terrasoft.ComponentSpace.Interfaces.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -119,23 +154,8 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="Terrasoft.Web.Common">
-			<HintPath>$(CoreLibPath)/Terrasoft.Web.Common.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.GlobalSearch">
-			<HintPath>$(CoreLibPath)/Terrasoft.GlobalSearch.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.Nui.ServiceModel">
-			<HintPath>$(CoreLibPath)/Terrasoft.Nui.ServiceModel.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.Web.Http.Abstractions">
-			<HintPath>$(CoreLibPath)/Terrasoft.Web.Http.Abstractions.dll</HintPath>
+		<Reference Include="Terrasoft.Core.Applications">
+			<HintPath>$(CoreLibPath)/Terrasoft.Core.Applications.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -169,13 +189,18 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="Terrasoft.Core.ServiceModelContract">
+			<HintPath>$(CoreLibPath)/Terrasoft.Core.ServiceModelContract.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="Terrasoft.Core.Translation">
 			<HintPath>$(CoreLibPath)/Terrasoft.Core.Translation.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="Terrasoft.File.Abstractions">
-			<HintPath>$(CoreLibPath)/Terrasoft.File.Abstractions.dll</HintPath>
+		<Reference Include="Terrasoft.ElasticSearch">
+			<HintPath>$(CoreLibPath)/Terrasoft.ElasticSearch.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -184,8 +209,28 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="Terrasoft.File.Abstractions">
+			<HintPath>$(CoreLibPath)/Terrasoft.File.Abstractions.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.GlobalSearch">
+			<HintPath>$(CoreLibPath)/Terrasoft.GlobalSearch.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.GlobalSearch">
+			<HintPath>$(CoreLibPath)/Terrasoft.GlobalSearch.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="Terrasoft.GoogleServerConnector">
 			<HintPath>$(CoreLibPath)/Terrasoft.GoogleServerConnector.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.GoogleServices">
+			<HintPath>$(CoreLibPath)/Terrasoft.GoogleServices.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -194,18 +239,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="Terrasoft.Monitoring">
-			<HintPath>$(CoreLibPath)/Terrasoft.Monitoring.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.Nui">
-			<HintPath>$(CoreLibPath)/Terrasoft.Nui.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="Terrasoft.Messaging.Common">
 			<HintPath>$(CoreLibPath)/Terrasoft.Messaging.Common.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.Messaging.Common.Standard">
+			<HintPath>$(CoreLibPath)/Terrasoft.Messaging.Common.Standard.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -214,8 +254,53 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="Terrasoft.Monitoring">
+			<HintPath>$(CoreLibPath)/Terrasoft.Monitoring.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.NewtonsoftWrapper">
+			<HintPath>$(CoreLibPath)/Terrasoft.NewtonsoftWrapper.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.Nui">
+			<HintPath>$(CoreLibPath)/Terrasoft.Nui.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.Nui.ServiceModel">
+			<HintPath>$(CoreLibPath)/Terrasoft.Nui.ServiceModel.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.OAuthIntegration">
+			<HintPath>$(CoreLibPath)/Terrasoft.OAuthIntegration.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.Reports">
+			<HintPath>$(CoreLibPath)/Terrasoft.Reports.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.ServiceBus">
+			<HintPath>$(CoreLibPath)/Terrasoft.ServiceBus.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.ServiceBus.Abstractions">
+			<HintPath>$(CoreLibPath)/Terrasoft.ServiceBus.Abstractions.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="Terrasoft.Services">
 			<HintPath>$(CoreLibPath)/Terrasoft.Services.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.SmsIntegration">
+			<HintPath>$(CoreLibPath)/Terrasoft.SmsIntegration.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -229,88 +314,13 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="Terrasoft.GlobalSearch">
-			<HintPath>$(CoreLibPath)/Terrasoft.GlobalSearch.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Creatio.FeatureToggling">
-			<HintPath>$(CoreLibPath)/Creatio.FeatureToggling.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Common.Logging">
-			<HintPath>$(CoreLibPath)/Common.Logging.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Common.Logging.Core">
-			<HintPath>$(CoreLibPath)/Common.Logging.Core.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.Authentication">
-			<HintPath>$(CoreLibPath)/Terrasoft.Authentication.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.Authentication.Contract">
-			<HintPath>$(CoreLibPath)/Terrasoft.Authentication.Contract.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.ServiceBus.Abstractions">
-			<HintPath>$(CoreLibPath)/Terrasoft.ServiceBus.Abstractions.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.ServiceBus">
-			<HintPath>$(CoreLibPath)/Terrasoft.ServiceBus.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.Core.ServiceModelContract">
-			<HintPath>$(CoreLibPath)/Terrasoft.Core.ServiceModelContract.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.ElasticSearch">
-			<HintPath>$(CoreLibPath)/Terrasoft.ElasticSearch.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.GoogleServices">
-			<HintPath>$(CoreLibPath)/Terrasoft.GoogleServices.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.Messaging.Common.Standard">
-			<HintPath>$(CoreLibPath)/Terrasoft.Messaging.Common.Standard.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.NewtonsoftWrapper">
-			<HintPath>$(CoreLibPath)/Terrasoft.NewtonsoftWrapper.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.Reports">
-			<HintPath>$(CoreLibPath)/Terrasoft.Reports.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="Terrasoft.UI.Common">
 			<HintPath>$(CoreLibPath)/Terrasoft.UI.Common.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="Terrasoft.ComponentSpace.Interfaces">
-			<HintPath>$(CoreLibPath)/Terrasoft.ComponentSpace.Interfaces.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.OAuthIntegration">
-			<HintPath>$(CoreLibPath)/Terrasoft.OAuthIntegration.dll</HintPath>
+		<Reference Include="Terrasoft.Web.Common">
+			<HintPath>$(CoreLibPath)/Terrasoft.Web.Common.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
@@ -319,28 +329,18 @@
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
+		<Reference Include="Terrasoft.Web.Http.Abstractions">
+			<HintPath>$(CoreLibPath)/Terrasoft.Web.Http.Abstractions.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
 		<Reference Include="Terrasoft.Web.Security">
 			<HintPath>$(CoreLibPath)/Terrasoft.Web.Security.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
-		<Reference Include="Terrasoft.Core.Applications">
-			<HintPath>$(CoreLibPath)/Terrasoft.Core.Applications.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
-		<Reference Include="Terrasoft.SmsIntegration">
-			<HintPath>$(CoreLibPath)/Terrasoft.SmsIntegration.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Package References">
-		<Reference Include="Terrasoft.Configuration">
-			<HintPath>$(RelativePkgFolderPath)/../bin/Terrasoft.Configuration.dll</HintPath>
-			<SpecificVersion>False</SpecificVersion>
-			<Private>False</Private>
-		</Reference>
 		<Reference Include="CrtCustomer360App">
 			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360App/$(StandalonePackageAssemblyPath)/CrtCustomer360App.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
@@ -348,6 +348,11 @@
 		</Reference>
 		<Reference Include="CrtProductivityApp">
 			<HintPath>$(RelativePkgFolderPath)/CrtProductivityApp/$(StandalonePackageAssemblyPath)/CrtProductivityApp.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Terrasoft.Configuration">
+			<HintPath>$(RelativePkgFolderPath)/../bin/Terrasoft.Configuration.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>

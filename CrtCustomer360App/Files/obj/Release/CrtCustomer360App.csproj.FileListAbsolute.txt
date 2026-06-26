@@ -1,0 +1,10 @@
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCustomer360App\Files\Bin\CrtCustomer360App.dll
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCustomer360App\Files\Bin\CrtCustomer360App.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCustomer360App\Files\obj\Release\CrtCustomer360App.csproj.AssemblyReference.cache
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCustomer360App\Files\obj\Release\CrtCustomer360App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCustomer360App\Files\obj\Release\CrtCustomer360App.AssemblyInfoInputs.cache
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCustomer360App\Files\obj\Release\CrtCustomer360App.AssemblyInfo.cs
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCustomer360App\Files\obj\Release\CrtCustomer360App.csproj.CoreCompileInputs.cache
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCustomer360App\Files\obj\Release\CrtCustomer360App.sourcelink.json
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCustomer360App\Files\obj\Release\CrtCustomer360App.dll
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtCustomer360App\Files\obj\Release\CrtCustomer360App.pdb

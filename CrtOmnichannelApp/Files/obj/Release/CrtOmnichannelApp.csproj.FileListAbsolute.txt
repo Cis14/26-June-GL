@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtOmnichan
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtOmnichannelApp\Files\obj\Release\CrtOmnichannelApp.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtOmnichannelApp\Files\obj\Release\CrtOmnichannelApp.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtOmnichannelApp\Files\obj\Release\CrtOmnichannelApp.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtOmnichannelApp\Files\obj\Release\CrtOmnichannelApp.sourcelink.json

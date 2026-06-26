@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtWebhookS
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtWebhookServiceBase\Files\obj\Release\CrtWebhookServiceBase.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtWebhookServiceBase\Files\obj\Release\CrtWebhookServiceBase.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtWebhookServiceBase\Files\obj\Release\CrtWebhookServiceBase.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtWebhookServiceBase\Files\obj\Release\CrtWebhookServiceBase.sourcelink.json

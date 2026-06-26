@@ -14,3 +14,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\OpenIdAuth\
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\OpenIdAuth\Files\obj\Release\OpenIdAuth.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\OpenIdAuth\Files\Bin\OpenIdAuth.pdb
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\OpenIdAuth\Files\obj\Release\OpenIdAuth.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\OpenIdAuth\Files\obj\Release\OpenIdAuth.sourcelink.json

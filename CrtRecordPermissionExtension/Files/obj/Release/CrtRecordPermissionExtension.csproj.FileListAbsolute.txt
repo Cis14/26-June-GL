@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtRecordPe
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtRecordPermissionExtension\Files\obj\Release\CrtRecordPermissionExtension.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtRecordPermissionExtension\Files\obj\Release\CrtRecordPermissionExtension.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtRecordPermissionExtension\Files\obj\Release\CrtRecordPermissionExtension.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtRecordPermissionExtension\Files\obj\Release\CrtRecordPermissionExtension.sourcelink.json

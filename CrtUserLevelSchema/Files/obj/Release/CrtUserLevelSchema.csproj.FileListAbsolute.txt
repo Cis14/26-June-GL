@@ -16,3 +16,4 @@ C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtUserLeve
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtUserLevelSchema\Files\obj\Release\CrtUserLevelSchema.csproj.CoreCompileInputs.cache
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtUserLevelSchema\Files\obj\Release\CrtUserLevelSchema.dll
 C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtUserLevelSchema\Files\obj\Release\CrtUserLevelSchema.pdb
+C:\Academy\Builds\G1DEV\Terrasoft.WebApp\Terrasoft.Configuration\Pkg\CrtUserLevelSchema\Files\obj\Release\CrtUserLevelSchema.sourcelink.json
