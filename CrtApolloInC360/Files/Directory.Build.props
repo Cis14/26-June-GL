@@ -1,0 +1,6 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtApolloInC360/Schemas/Account/Account.cs" Condition="Exists('$(PkgPath)/CrtApolloInC360/Schemas/Account/Account.cs')" />
+		<Compile Include="$(PkgPath)/CrtApolloInC360/Schemas/Contact/Contact.cs" Condition="Exists('$(PkgPath)/CrtApolloInC360/Schemas/Contact/Contact.cs')" />
+	</ItemGroup>
+</Project>

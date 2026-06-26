@@ -316,16 +316,21 @@
 		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Package References">
-		<Reference Include="CrtCore">
-			<HintPath>$(RelativePkgFolderPath)/CrtCore/$(StandalonePackageAssemblyPath)/CrtCore.dll</HintPath>
+		<Reference Include="CrtCustomer360AI">
+			<HintPath>$(RelativePkgFolderPath)/CrtCustomer360AI/$(StandalonePackageAssemblyPath)/CrtCustomer360AI.dll</HintPath>
+			<SpecificVersion>False</SpecificVersion>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="MrktApolloInC360">
+			<HintPath>$(RelativePkgFolderPath)/MrktApolloInC360/$(StandalonePackageAssemblyPath)/MrktApolloInC360.dll</HintPath>
 			<SpecificVersion>False</SpecificVersion>
 			<Private>False</Private>
 		</Reference>
 	</ItemGroup>
 	<ItemGroup Label="Standalone package external assembly references" />
 	<ItemGroup Label="Entity Files">
-		<Compile Remove="$(RelativePkgFolderPath)/UsrYachts/Schemas/UsrTrafficLight/UsrTrafficLight.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrYachts/Schemas/UsrTrafficLight/UsrTrafficLight.cs')" />
-		<Compile Remove="$(RelativePkgFolderPath)/UsrYachts/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs" Condition="Exists('$(RelativePkgFolderPath)/UsrYachts/Schemas/UsrVwContactAgeDays/UsrVwContactAgeDays.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/CrtApolloInC360/Schemas/Account/Account.cs" Condition="Exists('$(RelativePkgFolderPath)/CrtApolloInC360/Schemas/Account/Account.cs')" />
+		<Compile Remove="$(RelativePkgFolderPath)/CrtApolloInC360/Schemas/Contact/Contact.cs" Condition="Exists('$(RelativePkgFolderPath)/CrtApolloInC360/Schemas/Contact/Contact.cs')" />
 	</ItemGroup>
 	<ItemGroup Label="3rd Party References"></ItemGroup>
 	<Target Name="Paths" BeforeTargets="BeforeCompile">
